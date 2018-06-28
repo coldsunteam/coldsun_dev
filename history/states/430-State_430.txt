@@ -1,0 +1,9 @@
+state={
+	id=430
+	name="STATE_430"
+	provinces={
+		1960 1961 1962 1963 1966 4462 4463 6949 6950 8404 9266 9863 11292 11789 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

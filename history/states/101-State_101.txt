@@ -1,0 +1,9 @@
+state={
+	id=101
+	name="STATE_101"
+	provinces={
+		786 787 788 789 790 791 792 5763 5764 5765 5766 5767 6209 6354 6355 7308 8267 8756 8832 10023 11780 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

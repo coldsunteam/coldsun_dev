@@ -1,0 +1,9 @@
+state={
+	id=311
+	name="STATE_311"
+	provinces={
+		1923 1924 1925 1926 1927 4144 4145 4146 5951 6480 8771 9142 9144 9583 10764 11366 11775 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

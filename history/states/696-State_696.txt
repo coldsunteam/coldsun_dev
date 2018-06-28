@@ -1,0 +1,9 @@
+state={
+	id=696
+	name="STATE_696"
+	provinces={
+		1942 1943 1944 1945 1946 1947 1948 5864 5865 5866 5867 5868 7668 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,9 @@
+state={
+	id=564
+	name="STATE_564"
+	provinces={
+		539 540 2014 2015 2016 2017 2018 4070 4071 4072 4073 4074 4962 4964 4965 6903 10276 10836 10913 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

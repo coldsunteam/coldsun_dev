@@ -1,0 +1,9 @@
+state={
+	id=236
+	name="STATE_236"
+	provinces={
+		1935 1936 1937 1938 1939 1940 1941 3171 3172 3173 3174 3175 3610 5909 7065 9449 11190 11537 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

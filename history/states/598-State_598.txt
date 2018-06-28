@@ -1,0 +1,9 @@
+state={
+	id=598
+	name="STATE_598"
+	provinces={
+		39 40 934 935 5559 5837 5838 5839 5840 6229 6230 6231 6232 6233 6234 8711 9362 10475 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
