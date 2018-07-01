@@ -2,7 +2,7 @@ state={
 	id=344
 	name="STATE_344"
 	provinces={
-		2023 2024 2025 6847 6848 6849 8428 8429 11223 
+		473 1827 6819 6820 6821 8937 10281 10904 10905 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

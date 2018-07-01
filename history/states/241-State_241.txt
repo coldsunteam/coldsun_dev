@@ -2,7 +2,7 @@ state={
 	id=241
 	name="STATE_241"
 	provinces={
-		2174 4174 4329 6858 7897 8223 8663 10407 11505 
+		7015 7016 7432 7433 7707 11223 11224 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
