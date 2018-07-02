@@ -1,8 +1,9 @@
+
 state={
 	id=39
 	name="STATE_39"
 	provinces={
-		1138 4863 4864 4865 5766 6341 6961 6988 6989 7389 8801 9828 10168 
+		1138 4961 5766 6341 8801 11128 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

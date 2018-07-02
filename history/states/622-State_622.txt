@@ -1,8 +1,9 @@
+
 state={
 	id=622
 	name="STATE_622"
 	provinces={
-		897 898 899 900 901 5309 5310 6776 9038 10394 
+		897 898 899 900 901 5309 6776 9038 10394 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
