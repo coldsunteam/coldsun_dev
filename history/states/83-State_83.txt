@@ -5,5 +5,7 @@ state={
 		168 169 170 381 382 383 384 385 1621 3993 4009 4520 4521 5253 7604 7605 8186 8187 8189 8966 9633 9949 10090 10467 10670 
 	}
 	manpower=0
+state_category=metropolis
+state_category="metropolis"
 	buildings_max_level_factor=1.000
 }

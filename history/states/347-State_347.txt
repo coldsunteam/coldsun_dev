@@ -6,5 +6,6 @@ state={
 		537 538 539 4919 5768 5769 6222 7560 7561 7562 7563 7564 9239 11120 11121 11892 
 	}
 	manpower=0
+state_category=metropolis
 	buildings_max_level_factor=1.000
 }

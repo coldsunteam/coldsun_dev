@@ -5,5 +5,7 @@ state={
 		1874 1975 1976 1978 5652 5653 5654 11719 
 	}
 	manpower=0
+state_category=metropolis
+state_category="metropolis"
 	buildings_max_level_factor=1.000
 }

@@ -6,5 +6,6 @@ state={
 		1746 1747 1803 1804 4092 4093 4094 4095 4096 4097 7082 7083 7084 8759 10530 10902 10903 
 	}
 	manpower=0
+state_category=metropolis
 	buildings_max_level_factor=1.000
 }

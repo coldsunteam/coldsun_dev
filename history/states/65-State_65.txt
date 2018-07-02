@@ -5,5 +5,7 @@ state={
 		1970 1971 1972 1973 1974 1983 1984 1985 1986 2303 4373 4375 7115 7116 7117 7727 8830 9302 11237 11400 11549 
 	}
 	manpower=0
+state_category=metropolis
+state_category="metropolis"
 	buildings_max_level_factor=1.000
 }

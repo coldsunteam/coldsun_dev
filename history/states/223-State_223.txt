@@ -6,5 +6,6 @@ state={
 		2274 2425 2427 2428 7868 10218 
 	}
 	manpower=0
+state_category=metropolis
 	buildings_max_level_factor=1.000
 }
