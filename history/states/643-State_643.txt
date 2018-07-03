@@ -5,7 +5,7 @@ state={
 	provinces={
 		915 916 917 2108 2199 2200 2565 5890 6249 6250 6351 6352 6353 6354 6355 6678 6679 8079 10150 10738 10794 11079 11157 
 	}
-	manpower=0
+	manpower=100
 state_category=metropolis
 	buildings_max_level_factor=1.000
 }

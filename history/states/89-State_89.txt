@@ -5,7 +5,7 @@ state={
 	provinces={
 		733 734 735 736 1428 1429 1430 1431 1432 2054 2055 3416 5631 6723 6724 7517 8075 9628 10788 10918 11620 
 	}
-	manpower=0
+	manpower=100
 state_category=metropolis
 state_category="metropolis"
 state_category="metropolis"

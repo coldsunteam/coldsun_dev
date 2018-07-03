@@ -4,7 +4,7 @@ state={
 	provinces={
 		1523 1527 3202 3474 5295 6462 6463 6464 6465 6466 6467 8022 8173 9259 9260 9261 9284 9418 10319 10708 11075 11176 
 	}
-	manpower=0
+	manpower=100
 state_category=metropolis
 	buildings_max_level_factor=1.000
 }
