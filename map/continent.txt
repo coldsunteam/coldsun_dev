@@ -1,9 +1,13 @@
 continents = {
-	europe
-	north_america
-	south_america
-	australia
-	africa
-	asia
-	middle_east
+	equis
+	zebrerica
+	greater_thermonia
+	haiyi_thal
+	aetheria
+	obscurum_minor
+	cervinia
+        transartica
+        moon
+        obscurum_major
+        mortuus_insulae
 }

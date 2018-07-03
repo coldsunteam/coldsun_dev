@@ -1,10 +1,11 @@
+
 state={
 	id=443
 	name="STATE_443"
 	provinces={
-		3223 3224 3767 4312 4313 4314 4315 4316 6905 7963 8028 8030 8313 10611 11206 11483 11646 
+		3223 3767 4312 4313 4314 4315 6905 7963 8028 8030 10611 11646 
 	}
 	manpower=0
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
