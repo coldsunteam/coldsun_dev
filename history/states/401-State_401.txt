@@ -2,7 +2,7 @@ state={
 	id=401
 	name="STATE_401"
 	provinces={
-		2739 2740 2741 3255 3257 6563 7849 9498 9525 9638 
+		2739 2740 2741 3255 3257 6563 9498 9525 9638 
 	}
 	manpower=0
 state_category=metropolis

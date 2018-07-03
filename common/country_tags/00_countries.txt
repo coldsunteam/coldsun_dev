@@ -1,0 +1,3 @@
+EQS	= "countries/Equestria.txt"
+TSU	= "countries/Chrysalis.txt"
+THR	= "countries/Thorax.txt"
