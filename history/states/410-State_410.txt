@@ -1,10 +1,11 @@
+
 state={
 	id=410
 	name="STATE_410"
 	provinces={
-		4406 4407 4408 5587 5589 8784 11049 
+		4406 4407 4408 5589 8784 11049 
 	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
