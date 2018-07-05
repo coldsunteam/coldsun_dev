@@ -4,7 +4,13 @@ state={
 	provinces={
 		42 43 44 45 60 6798 
 	}
+	
+	history={
+		owner = CHD
+		add_core_of = CHD
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

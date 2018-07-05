@@ -5,6 +5,12 @@ state={
 	provinces={
 		1089 1090 1091 1092 5809 6610 6612 6613 9986 10805 
 	}
+	
+	history={
+		owner = YAK
+		add_core_of = YAK
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

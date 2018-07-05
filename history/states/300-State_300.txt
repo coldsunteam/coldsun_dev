@@ -4,7 +4,13 @@ state={
 	provinces={
 		2545 2546 3639 3640 4585 4586 4602 4603 5148 5149 5150 5151 5297 5298 5925 6761 8305 8620 8888 10312 10664 11106 
 	}
+	
+	history={
+		owner = TSU
+		add_core_of = TSU
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }
