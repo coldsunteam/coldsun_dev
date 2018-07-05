@@ -1,10 +1,15 @@
+
 state={
 	id=196
 	name="STATE_196"
 	provinces={
-		756 757 2853 2854 2856 5375 5970 5971 5972 5973 5974 5977 6807 6809 7346 7347 8056 9527 9963 10642 10896 10964 
+		756 757 2853 2854 5375 5970 5971 5972 5973 5974 5977 6807 6809 7346 7347 9527 9963 10642 10896 10964 
 	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
+        history={
+		owner = ARC
+		add_core_of = ARC
+	}
 }

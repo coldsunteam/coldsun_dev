@@ -6,6 +6,10 @@ state={
 		269 275 3502 7663 7664 7665 7666 8829 9171 11218 11384 11407 
 	}
 	manpower=100
-state_category=metropolis
+        state_category=metropolis
 	buildings_max_level_factor=1.000
+        history={
+		owner = ZEB
+		add_core_of = ZEB
+	}
 }

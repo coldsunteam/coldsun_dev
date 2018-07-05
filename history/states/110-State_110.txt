@@ -5,6 +5,10 @@ state={
 		623 896 1964 3823 3825 3826 3959 3960 3961 4705 5643 5644 5645 5646 5666 5870 5871 6914 7304 8018 8019 8241 9714 10094 11588 11812 
 	}
 	manpower=100
-state_category=metropolis
+        state_category=metropolis
 	buildings_max_level_factor=1.000
+        history={
+		owner = HIG
+		add_core_of = HIG
+	}
 }

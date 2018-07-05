@@ -5,6 +5,10 @@ state={
 		2892 4641 4642 4643 4644 4645 4646 4909 5975 5976 6015 6016 6235 9045 10043 10081 10364 11283 11303 
 	}
 	manpower=100
-state_category=metropolis
+        state_category=metropolis
 	buildings_max_level_factor=1.000
+        history={
+		owner = ARC
+		add_core_of = ARC
+	}
 }

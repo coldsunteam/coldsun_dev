@@ -6,6 +6,10 @@ state={
 		5552 5554 5555 5556 5557 5558 6936 8452 8453 11551 
 	}
 	manpower=100
-state_category=metropolis
+        state_category=metropolis
 	buildings_max_level_factor=1.000
+        history={
+		owner = ZEB
+		add_core_of = ZEB
+	}
 }

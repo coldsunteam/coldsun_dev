@@ -1,10 +1,15 @@
+
 state={
 	id=179
 	name="STATE_179"
 	provinces={
-		1955 1956 1957 1959 1960 1961 2855 2940 2942 4563 4564 7051 7732 8084 8085 8730 10254 11045 11105 
+		654 655 1955 1956 1957 1959 1960 1961 2855 2940 2942 2943 4563 4564 6773 7051 7732 7779 7977 8024 8084 8085 8730 10254 10255 11045 11105 11364 
 	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
+        history={
+		owner = ZLA
+		add_core_of = ZLA
+	}
 }

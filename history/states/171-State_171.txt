@@ -1,10 +1,15 @@
+
 state={
 	id=171
 	name="STATE_171"
 	provinces={
-		515 608 1958 4748 5724 5725 6445 6446 7010 7011 7223 7224 7225 7435 11485 
+		460 606 1537 2856 4748 5724 5725 6445 6446 6675 6777 7010 7011 7223 7224 7225 7435 8056 10864 11485 11835 
 	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
+        history={
+		owner = DES
+		add_core_of = DES
+	}
 }
