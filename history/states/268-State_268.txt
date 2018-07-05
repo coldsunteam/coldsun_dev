@@ -1,8 +1,9 @@
+
 state={
 	id=268
 	name="STATE_268"
 	provinces={
-		42 43 44 45 60 6798 
+		42 43 44 45 46 57 60 6798 8738 9170 
 	}
 	
 	history={
@@ -11,6 +12,10 @@ state={
 	}
 	
 	manpower=100
+<<<<<<< HEAD
 	state_category=metropolis
+=======
+>>>>>>> master
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
