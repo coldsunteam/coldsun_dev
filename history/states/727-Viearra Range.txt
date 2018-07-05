@@ -4,6 +4,12 @@ state={
 	provinces={
 		836 844 845 846 847 9547 10320 
 	}
+	
+	history={
+		owner = BPA
+		add_core_of = BPA
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }
