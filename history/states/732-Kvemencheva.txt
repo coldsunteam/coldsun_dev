@@ -4,6 +4,12 @@ state={
 	provinces={
 		4324 4850 4851 8083 9064 9065 9066 10341 
 	}
-	manpower=0
+	
+	history={
+		owner = GPG
+		add_core_of = GPG
+	}
+	
+	manpower=100
 	buildings_max_level_factor=1.000
 }

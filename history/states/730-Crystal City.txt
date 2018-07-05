@@ -5,6 +5,12 @@ state={
 	provinces={
 		5164 7259 9637 9985 11563 19521 
 	}
+	
+	history={
+		owner = CRY
+		add_core_of = CRY
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

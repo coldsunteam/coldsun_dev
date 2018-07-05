@@ -78,3 +78,19 @@ GPG = {
 	color = rgb { 102 234 185 }
 	color_ui = rgb { 102 234 185 }
 }
+BAT = {
+color = rgb { 150 150 150 }
+color_ui = rgb { 150 150 150 }
+}
+BPA = {
+color = rgb { 27 151 252 }
+color_ui = rgb { 27 151 252 }
+}
+BPB = {
+color = rgb { 238 244 159 }
+color_ui = rgb { 238 244 159 }
+}
+BPC = {
+color = rgb { 217 88 51 }
+color_ui = rgb { 217 88 51 }
+}

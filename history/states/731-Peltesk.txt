@@ -5,6 +5,12 @@ state={
 	provinces={
 		788 789 790 791 1743 1744 1870 1871 1872 3936 3937 3938 4200 4904 7611 8558 10531 
 	}
-	manpower=0
+	
+	history={
+		owner = GPF
+		add_core_of = GPF
+	}
+	
+	manpower=100
 	buildings_max_level_factor=1.000
 }
