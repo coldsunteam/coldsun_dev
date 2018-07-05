@@ -3,9 +3,9 @@ state={
 	id=301
 	name="STATE_301"
 	provinces={
-		1064 1065 2909 2910 6191 6192 6193 8287 9338 10260 
+		1064 1065 2909 2910 6191 6192 6193 8287 9338 10260 11654 
 	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

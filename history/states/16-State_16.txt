@@ -1,10 +1,11 @@
+
 state={
 	id=16
 	name="STATE_16"
 	provinces={
-		1806 1807 1808 1809 1810 1811 1812 1813 1815 1816 1817 2483 6605 6889 9667 10936 11343 11843 11932 
+		1806 1807 1808 1809 1810 1811 6604 6605 6889 9667 11343 11843 11932 11933 
 	}
 	manpower=100
-state_category="metropolis"
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
