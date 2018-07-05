@@ -5,6 +5,12 @@ state={
 	provinces={
 		330 600 601 602 603 604 605 4006 6409 6410 7402 9389 9444 9836 11888 
 	}
+	
+	history={
+		owner = BIG
+		add_core_of = BIG
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
