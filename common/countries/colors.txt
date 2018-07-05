@@ -94,3 +94,39 @@ BPC = {
 color = rgb { 217 88 51 }
 color_ui = rgb { 217 88 51 }
 }
+SPE = {
+color = rgb { 255 4 4 }
+color_ui = rgb { 255 4 4 }
+}
+ZEB = {
+color = rgb { 60 255 60 }
+color_ui = rgb { 60 255 60 }
+}
+ARC = {
+color = rgb { 233 140 16 }
+color_ui = rgb { 233 140 16 }
+}
+DES = {
+color = rgb { 236 236 0 }
+color_ui = rgb { 236 236 0 }
+}
+DEL = {
+color = rgb { 123 170 196 }
+color_ui = rgb { 123 170 196 }
+}
+ZLA = {
+color = rgb { 209 124 188 }
+color_ui = rgb { 209 124 188 }
+}
+ROM = {
+color = rgb { 255 138 138 }
+color_ui = rgb { 255 138 138 }
+}
+AGG = {
+color = rgb { 0 0 255 }
+color_ui = rgb { 0 0 255 }
+}
+HIG = {
+color = rgb { 70 255 245 }
+color_ui = rgb { 70 255 245 }
+}

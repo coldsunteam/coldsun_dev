@@ -1,11 +1,15 @@
+
 state={
 	id=79
 	name="STATE_79"
 	provinces={
-		24 1336 1337 4469 4470 4471 4472 5252 6904 7239 7295 7654 7655 7656 7657 8193 8310 9549 9550 10080 10220 10368 10907 11716 11741 
+		632 633 710 711 712 1140 1141 1208 1336 2043 2044 2045 2046 2060 2708 3091 6838 7295 7654 7655 7656 7884 7885 8193 8310 8581 9018 9019 9020 9549 9550 9605 9766 9936 10080 10594 
 	}
 	manpower=100
-state_category=metropolis
-state_category="metropolis"
 	buildings_max_level_factor=1.000
+	state_category=metropolis
+        history={
+		owner = HIG
+		add_core_of = HIG
+	}
 }

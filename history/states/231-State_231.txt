@@ -6,6 +6,10 @@ state={
 		2018 2019 3813 4860 4861 6744 6745 6746 7349 7350 7351 7542 7990 11936 
 	}
 	manpower=100
-state_category=metropolis
+        state_category=metropolis
 	buildings_max_level_factor=1.000
+        history={
+		owner = ZEB
+		add_core_of = ZEB
+	}
 }

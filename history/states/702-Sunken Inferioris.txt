@@ -6,6 +6,10 @@ state={
 		544 5759 5760 5761 7041 7555 7556 9269 9270 9460 
 	}
 	manpower=100
-state_category=metropolis
+        state_category=metropolis
 	buildings_max_level_factor=1.000
+        history={
+		owner = SPE
+		add_core_of = SPE
+	}
 }

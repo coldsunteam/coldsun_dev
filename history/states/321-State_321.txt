@@ -5,6 +5,10 @@ state={
 		4923 6969 6970 6971 6972 9351 9950 11173 
 	}
 	manpower=100
-state_category=metropolis
+        state_category=metropolis
 	buildings_max_level_factor=1.000
+        history={
+		owner = ZEB
+		add_core_of = ZEB
+	}
 }
