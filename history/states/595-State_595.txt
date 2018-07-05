@@ -5,7 +5,13 @@ state={
 	provinces={
 		2247 2248 4528 4529 4530 4531 4532 6280 6281 6282 6348 9392 
 	}
+	
+	history={
+		owner = KRA
+		add_core_of = KRA
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

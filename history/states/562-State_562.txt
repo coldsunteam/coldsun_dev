@@ -4,7 +4,13 @@ state={
 	provinces={
 		1048 1049 1050 1051 1052 1053 1922 1923 1924 1925 3696 3697 3916 4371 4372 5457 5458 5459 5906 6283 8129 8377 9028 9029 9254 9350 10806 
 	}
+	
+	history={
+		owner = IMJ
+		add_core_of = IMJ
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

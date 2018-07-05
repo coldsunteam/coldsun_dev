@@ -4,7 +4,13 @@ state={
 	provinces={
 		2711 2712 4460 4461 4522 4523 8368 9435 9436 10942 
 	}
+	
+	history={
+		owner = KBR
+		add_core_of = KBR
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

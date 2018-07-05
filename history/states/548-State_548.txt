@@ -4,7 +4,13 @@ state={
 	provinces={
 		1436 1717 4276 5538 5743 5783 5832 5833 5849 6008 6183 6297 6375 6618 8270 8604 9067 10452 10491 10492 
 	}
+	
+	history={
+		owner = KET
+		add_core_of = KET
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

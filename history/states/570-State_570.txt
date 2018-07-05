@@ -4,7 +4,13 @@ state={
 	provinces={
 		2052 2254 2255 4830 5019 5256 6001 6002 6132 6133 6134 9818 9980 10028 
 	}
+	
+	history={
+		owner = KAN
+		add_core_of = KAN
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }
