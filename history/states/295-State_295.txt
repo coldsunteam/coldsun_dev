@@ -5,6 +5,12 @@ state={
 	provinces={
 		432 433 3238 4058 4059 4060 4061 4062 9279 9928 10001 10698 10814 11739 
 	}
+	
+	history={
+		owner = GPA
+		add_core_of = GPA
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

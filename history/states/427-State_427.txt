@@ -5,6 +5,12 @@ state={
 	provinces={
 		919 920 921 922 923 1123 3212 3213 3214 3215 3921 3922 3927 6427 6666 6894 6895 7483 7484 8567 9839 9844 10737 11044 11065 11398 11399 11875 
 	}
+	
+	history={
+		owner = EQS
+		add_core_of = EQS
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

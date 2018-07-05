@@ -5,6 +5,12 @@ state={
 	provinces={
 		3158 3160 3161 3162 3163 5103 5104 5105 5106 5322 5439 5440 5441 6496 8456 8457 9412 9695 9696 10338 10635 10803 10939 11475 11934 
 	}
+	
+	history={
+		owner = CRY
+		add_core_of = CRY
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

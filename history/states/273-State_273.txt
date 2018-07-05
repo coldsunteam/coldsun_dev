@@ -5,7 +5,16 @@ state={
 	provinces={
 		408 2653 2654 2659 4586 4587 6760 6761 9211 
 	}
+	
+	history={
+		owner = CHC
+		add_core_of = CHC
+	}
+	
 	manpower=100
+
+	state_category=metropolis
+
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

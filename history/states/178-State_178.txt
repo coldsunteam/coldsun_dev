@@ -5,6 +5,13 @@ state={
 	provinces={
 		6428 8042 8043 8044 8045 9548 9640 9641 11214 
 	}
+	
+	history={
+		owner = BPC
+		add_core_of = BPC
+
+	}
+
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

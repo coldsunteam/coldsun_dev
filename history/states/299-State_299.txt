@@ -5,6 +5,12 @@ state={
 	provinces={
 		1238 1239 1241 1242 4604 7915 8311 9961 9962 10694 11129 11905 19527 
 	}
+	
+	history={
+		owner = CHA
+		add_core_of = CHA
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

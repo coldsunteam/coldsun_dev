@@ -5,6 +5,12 @@ state={
 	provinces={
 		1300 1301 1302 1303 2765 2766 2767 3619 5275 5276 5277 7329 7449 10725 11323 11324 11347 11607 
 	}
+	
+	history={
+		owner = GPC
+		add_core_of = GPC
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
