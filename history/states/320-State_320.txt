@@ -3,9 +3,9 @@ state={
 	id=320
 	name="STATE_320"
 	provinces={
-		3436 3437 5207 5208 6368 7383 11654 
+		3436 3437 5207 5208 6367 6368 7383 
 	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
