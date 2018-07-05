@@ -1,10 +1,11 @@
+
 state={
 	id=273
 	name="STATE_273"
 	provinces={
-		408 2652 2653 2654 2659 4587 6376 6377 6760 9211 11633 
+		408 2653 2654 2659 4586 4587 6760 6761 9211 
 	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
