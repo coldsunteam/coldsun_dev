@@ -5,6 +5,12 @@ state={
 	provinces={
 		4422 4423 4424 4425 4426 4749 4985 8080 9790 10459 
 	}
+	
+	history={
+		owner = BAT
+		add_core_of = BAT
+	}
+	
 	manpower=100
 state_category=metropolis
 	buildings_max_level_factor=1.000
