@@ -7,8 +7,8 @@ state={
 	}
 	
 	history={
-		owner = GPE
-		add_core_of = GPE
+		owner = PEG
+		add_core_of = PEG
 	}
 	
 	manpower=0
