@@ -5,6 +5,11 @@ state={
 		5341 8036 9834 9835 10836 
 	}
 	manpower=100
-state_category=metropolis
+
+	history={
+		owner = CER
+		add_core_of = CER
+	}
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

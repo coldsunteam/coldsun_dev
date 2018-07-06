@@ -150,3 +150,31 @@ IMJ = {
 	color = rgb { 111 47 26 }
 	color_ui = rgb { 111 47 26 }
 }
+VEN = {
+color = rgb { 138 36 159 }
+color_ui = rgb { 138 36 159 }
+}
+SCD = {
+color = rgb { 180 186 133 }
+color_ui = rgb { 180 186 133 }
+}
+NDR = {
+color = rgb { 0 0 64 }
+color_ui = rgb { 0 0 64 }
+}
+EDC = {
+color = rgb { 72 62 164 }
+color_ui = rgb { 72 62 164 }
+}
+OUT = {
+color = rgb { 116 116 116 }
+color_ui = rgb { 116 116 116 }
+}
+DRG = {
+color = rgb { 249 188 6 }
+color_ui = rgb { 249 188 6 }
+}
+CER = {
+color = rgb { 215 215 215 }
+color_ui = rgb { 215 215 215 }
+}

@@ -5,6 +5,11 @@ state={
 		906 907 1264 1265 1266 1267 1268 1269 1270 1271 4213 4214 4215 4217 4220 4221 7151 9373 9485 9486 10995 11530 
 	}
 	manpower=100
+
+	history={
+		owner = CER
+		add_core_of = CER
+	}
 state_category=metropolis
 	buildings_max_level_factor=1.000
 }
