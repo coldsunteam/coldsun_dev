@@ -6,6 +6,6 @@ state={
 		3537 4452 5351 9469 10542 11980 11981 
 	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
