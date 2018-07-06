@@ -5,6 +5,12 @@ state={
 	provinces={
 		2783 2784 4704 6020 9516 9837 10886 11442 11493 
 	}
+	
+	history={
+		owner = GPE
+		add_core_of = GPE
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

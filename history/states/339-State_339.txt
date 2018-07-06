@@ -2,15 +2,16 @@
 state={
 	id=339
 	name="STATE_339"
-	provinces={
-		758 1085 1086 1087 1088 1089 1090 1091 1092 5809 6608 6609 6612 9986 10805 11348 
-	}
-	
+
 	history={
 		owner = YAK
 		add_core_of = YAK
+
 	}
-	
+
+	provinces={
+		758 1085 1086 1087 1088 1089 1090 1091 1092 5809 6608 6609 6612 9986 10124 10805 11348 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

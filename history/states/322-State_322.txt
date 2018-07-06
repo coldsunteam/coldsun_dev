@@ -2,19 +2,17 @@
 state={
 	id=322
 	name="STATE_322"
-	provinces={
-		2542 2543 2544 6144 6145 6146 6147 6921 7287 7498 7537 10123 10124 10410 19530 
-	}
-	
+
 	history={
 		owner = CHE
 		add_core_of = CHE
+
 	}
-	
+
+	provinces={
+		2542 2543 2544 6144 6145 6146 6147 6921 7287 7498 7537 10123 10410 19530 
+	}
 	manpower=100
-
-	state_category=metropolis
-
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

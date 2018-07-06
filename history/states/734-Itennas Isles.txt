@@ -5,6 +5,12 @@ state={
 	provinces={
 		8789 11972 11973 
 	}
+	
+	history={
+		owner = GPE
+		add_core_of = GPE
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }
