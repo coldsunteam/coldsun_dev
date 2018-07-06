@@ -5,6 +5,12 @@ state={
 	provinces={
 		409 2599 2969 6365 6441 6442 6996 7171 7318 8239 9884 10000 10162 11170 
 	}
+	
+	history={
+		owner = BPB
+		add_core_of = BPB
+
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

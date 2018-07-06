@@ -2,17 +2,19 @@
 state={
 	id=315
 	name="STATE_315"
-
-	history={
-		owner = CHA
-		add_core_of = CHA
-
-	}
-
 	provinces={
 		1237 1240 3263 3264 3265 3266 4123 4124 6482 6483 6610 6611 6613 7286 7442 7697 7698 7930 10316 10379 10466 10714 11408 11828 11829 11830 
 	}
+	
+	history={
+		owner = CHA
+		add_core_of = CHA
+	}
+	
 	manpower=100
+
+	state_category=metropolis
+
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }
