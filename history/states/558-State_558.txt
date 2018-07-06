@@ -3,9 +3,9 @@ state={
 	id=558
 	name="STATE_558"
 	provinces={
-		4612 4613 8789 10857 11972 11973 11974 
+		4612 4613 10857 11974 
 	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
