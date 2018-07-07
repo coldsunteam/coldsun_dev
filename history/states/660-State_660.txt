@@ -5,7 +5,13 @@ state={
 	provinces={
 		3742 3743 5489 5490 5491 5545 8400 8401 9677 9778 9779 10250 10251 11448 11462 11747 
 	}
+	
+	history={
+		owner = DRG
+		add_core_of = DRG
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

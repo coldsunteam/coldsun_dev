@@ -4,7 +4,13 @@ state={
 	provinces={
 		523 524 1370 1371 1372 1373 1494 3148 3149 5465 5466 5467 5468 5930 5931 10581 10951 11630 11907 
 	}
+	
+	history={
+		owner = OUT
+		add_core_of = OUT
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

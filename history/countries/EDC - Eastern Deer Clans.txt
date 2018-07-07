@@ -1,4 +1,4 @@
-﻿capital = 528
+﻿capital = 565
 
 oob = "EDC_1936"
 

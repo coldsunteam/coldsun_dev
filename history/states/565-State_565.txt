@@ -4,7 +4,13 @@ state={
 	provinces={
 		1514 1515 2445 2446 2447 2448 5122 5410 7809 7865 7866 7867 9886 9977 10192 11302 
 	}
+	
+	history={
+		owner = EDC
+		add_core_of = EDC
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }
