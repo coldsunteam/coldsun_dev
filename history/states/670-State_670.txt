@@ -4,7 +4,13 @@ state={
 	provinces={
 		1359 1360 1361 1362 6178 8656 11540 
 	}
+	
+	history={
+		owner = SCD
+		add_core_of = SCD
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

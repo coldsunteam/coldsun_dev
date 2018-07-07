@@ -4,7 +4,13 @@ state={
 	provinces={
 		6137 7715 7716 7717 7879 7880 8393 8521 8971 10890 
 	}
+	
+	history={
+		owner = NDR
+		add_core_of = NDR
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

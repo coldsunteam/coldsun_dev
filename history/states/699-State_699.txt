@@ -5,7 +5,13 @@ state={
 	provinces={
 		1860 1861 1862 1863 2125 3113 3114 3115 3116 5565 5677 5678 5679 5680 6347 7580 10801 11425 
 	}
+	
+	history={
+		owner = SCD
+		add_core_of = SCD
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }
