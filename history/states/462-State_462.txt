@@ -5,7 +5,13 @@ state={
 	provinces={
 		5978 5979 5980 7612 7613 7870 7894 8720 8815 9679 11026 11608 
 	}
+	
+	history={
+		owner = JDC
+		add_core_of = JDC
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

@@ -1,16 +1,18 @@
+
 state={
 	id=686
 	name="STATE_686"
-	provinces={
-		1355 1846 1847 1848 1849 1850 1851 1868 1869 3805 3806 3807 5566 5567 5568 5569 6554 6555 6556 6999 7769 9325 
-	}
-	
+
 	history={
 		owner = SCD
 		add_core_of = SCD
+
 	}
-	
+
+	provinces={
+		1355 1846 1847 1848 1849 1850 1851 1864 1867 1868 1869 3805 3806 3807 5566 5567 5568 5569 6554 6555 6556 6999 7769 9325 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

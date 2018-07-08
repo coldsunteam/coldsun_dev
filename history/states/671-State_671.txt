@@ -1,10 +1,18 @@
+
 state={
 	id=671
 	name="STATE_671"
+
+	history={
+		owner = OUT
+		add_core_of = OUT
+
+	}
+
 	provinces={
-		591 592 593 594 595 3906 3907 4151 4152 4420 5128 5130 5406 5407 5408 5712 5713 7471 9367 10804 11472 
+		3907 4148 4149 4150 4185 4959 5407 5408 7471 10148 10526 10999 11609 
 	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

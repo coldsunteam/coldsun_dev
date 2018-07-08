@@ -178,3 +178,11 @@ CER = {
 color = rgb { 215 215 215 }
 color_ui = rgb { 215 215 215 }
 }
+JDC = {
+color = rgb { 28 99 10 }
+color_ui = rgb { 28 99 10 }
+}
+SDN = {
+color = rgb { 105 136 241 }
+color_ui = rgb { 105 136 241 }
+}

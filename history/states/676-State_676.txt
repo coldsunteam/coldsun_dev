@@ -1,16 +1,18 @@
+
 state={
 	id=676
 	name="STATE_676"
-	provinces={
-		578 579 580 581 582 583 2958 5126 5127 5129 5131 7365 7659 8438 9200 9201 11772 
-	}
-	
+
 	history={
 		owner = SCD
 		add_core_of = SCD
+
 	}
-	
+
+	provinces={
+		578 579 580 581 582 583 592 594 2958 5126 5127 5128 5129 5130 5131 7365 7659 8438 9200 9201 9367 11772 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
