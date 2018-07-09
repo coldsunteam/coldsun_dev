@@ -5,7 +5,13 @@ state={
 	provinces={
 		6231 6232 
 	}
+	
+	history={
+		owner = OUT
+		add_core_of = OUT
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }
