@@ -1,16 +1,18 @@
+
 state={
 	id=564
 	name="STATE_564"
-	provinces={
-		2456 2457 2458 2459 3050 3051 3052 3053 3054 3055 3493 3494 3495 6221 7058 7759 8895 11021 11086 11156 
-	}
-	
+
 	history={
 		owner = NDR
 		add_core_of = NDR
+
 	}
-	
+
+	provinces={
+		2456 2457 2458 2459 2977 3051 3052 3053 3054 3055 3493 3494 3495 3496 3497 3498 3499 3500 3501 7057 7058 7759 8166 8167 9539 9540 11021 11086 11156 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

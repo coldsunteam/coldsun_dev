@@ -186,3 +186,39 @@ SDN = {
 color = rgb { 105 136 241 }
 color_ui = rgb { 105 136 241 }
 }
+EQF = {
+color = rgb { 150 150 150 }
+color_ui = rgb { 150 150 150 }
+}
+BUF = {
+color = rgb { 125 137 39 }
+color_ui = rgb { 125 137 39 }
+}
+SAD = {
+color = rgb { 125 137 39 }
+color_ui = rgb { 125 137 39 }
+}
+KIR = {
+color = rgb { 95 186 39 }
+color_ui = rgb { 95 186 39 }
+}
+MEG = {
+color = rgb { 208 143 121 }
+color_ui = rgb { 208 143 121 }
+}
+GRI = {
+color = rgb { 236 165 245 }
+color_ui = rgb { 236 165 245 }
+}
+KOB = {
+color = rgb { 0 0 128 }
+color_ui = rgb { 0 0 128 }
+}
+GGA = {
+color = rgb { 0 255 0 }
+color_ui = rgb { 0 255 0 }
+}
+GGB = {
+color = rgb { 0 255 0 }
+color_ui = rgb { 0 255 0 }
+}

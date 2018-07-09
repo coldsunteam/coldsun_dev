@@ -1,16 +1,18 @@
+
 state={
 	id=529
 	name="STATE_529"
-	provinces={
-		2857 2858 2859 2979 2980 6136 6269 6270 6271 6272 7217 7936 7937 9222 9420 10885 11282 11842 
-	}
-	
+
 	history={
 		owner = JDC
 		add_core_of = JDC
+
 	}
-	
+
+	provinces={
+		2857 2859 2980 7936 7937 9222 10885 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
