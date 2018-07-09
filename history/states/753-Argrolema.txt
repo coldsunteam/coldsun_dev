@@ -4,6 +4,12 @@ state={
 	provinces={
 		1132 1133 1134 2121 2122 3442 3444 3445 7765 10988 11550 
 	}
+	
+	history={
+		owner = BUF
+		add_core_of = BUF
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

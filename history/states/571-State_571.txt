@@ -5,6 +5,12 @@ state={
 	provinces={
 		1746 1747 1803 1804 1805 1947 4094 4095 4096 7082 7083 7084 8759 10530 
 	}
+	
+	history={
+		owner = SAD
+		add_core_of = SAD
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

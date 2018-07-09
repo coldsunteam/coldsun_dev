@@ -5,6 +5,12 @@ state={
 	provinces={
 		36 37 38 39 40 41 486 487 488 489 490 491 2810 2811 3722 3723 3763 5114 7060 7161 7162 8201 9957 9958 11464 11690 
 	}
+	
+	history={
+		owner = BUF
+		add_core_of = BUF
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

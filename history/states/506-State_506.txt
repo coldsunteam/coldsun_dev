@@ -5,6 +5,12 @@ state={
 	provinces={
 		4838 4839 4842 5617 5618 5619 6004 6005 6006 6310 6311 6933 7752 8148 8149 8196 8197 8513 8925 9487 9488 9892 10690 11240 11602 11784 11941 
 	}
+	
+	history={
+		owner = SAD
+		add_core_of = SAD
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

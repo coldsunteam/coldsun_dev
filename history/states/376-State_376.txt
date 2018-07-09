@@ -5,6 +5,12 @@ state={
 	provinces={
 		5250 5251 6629 6631 6632 6633 8308 8309 10229 10237 
 	}
+	
+	history={
+		owner = GGA
+		add_core_of = GGA
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

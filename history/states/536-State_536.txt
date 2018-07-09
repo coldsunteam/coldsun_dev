@@ -5,7 +5,13 @@ state={
 	provinces={
 		1438 1439 2999 3000 3365 6756 6757 8651 8950 8951 10305 11022 11899 
 	}
+	
+	history={
+		owner = SAD
+		add_core_of = SAD
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

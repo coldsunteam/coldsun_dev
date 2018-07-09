@@ -5,6 +5,12 @@ state={
 	provinces={
 		1699 1700 1701 1702 1853 5116 6316 6317 7094 9204 9797 11421 
 	}
+	
+	history={
+		owner = KOB
+		add_core_of = KOB
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

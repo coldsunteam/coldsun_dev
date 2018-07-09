@@ -5,6 +5,12 @@ state={
 	provinces={
 		1695 1696 1697 1854 1855 1856 1857 1858 5115 6149 6150 6627 6628 6630 10916 
 	}
+	
+	history={
+		owner = GGA
+		add_core_of = GGA
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

@@ -5,6 +5,12 @@ state={
 	provinces={
 		634 2887 2888 2889 3291 3292 3293 3294 3295 3296 3297 3298 5265 5266 5267 5268 5715 6127 6130 7810 7811 9676 11780 11781 
 	}
+	
+	history={
+		owner = MEG
+		add_core_of = MEG
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

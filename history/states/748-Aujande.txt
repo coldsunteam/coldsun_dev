@@ -4,6 +4,12 @@ state={
 	provinces={
 		2577 2578 2579 4845 6765 6766 6767 7957 8002 
 	}
+	
+	history={
+		owner = MEG
+		add_core_of = MEG
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

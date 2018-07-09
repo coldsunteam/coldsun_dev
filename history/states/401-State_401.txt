@@ -4,7 +4,13 @@ state={
 	provinces={
 		2739 2740 2741 3255 3257 6563 9498 9525 9638 
 	}
+	
+	history={
+		owner = EQF
+		add_core_of = EQF
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

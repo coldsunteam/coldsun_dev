@@ -4,7 +4,13 @@ state={
 	provinces={
 		305 306 307 308 309 310 1452 1453 2509 2512 2518 4582 4583 4584 6154 6155 6158 9942 10843 10844 
 	}
+	
+	history={
+		owner = GRI
+		add_core_of = GRI
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

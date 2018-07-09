@@ -4,6 +4,12 @@ state={
 	provinces={
 		4097 4098 5563 8168 8812 10482 
 	}
+	
+	history={
+		owner = SAD
+		add_core_of = SAD
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }
