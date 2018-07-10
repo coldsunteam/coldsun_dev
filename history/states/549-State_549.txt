@@ -5,6 +5,12 @@ state={
 	provinces={
 		3992 5485 7169 10017 10397 11241 
 	}
+	
+    history = {
+		owner = SPC
+		add_core_of = SPC
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
