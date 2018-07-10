@@ -282,3 +282,7 @@ PAR = {
 color = rgb { 137 203 92 }
 color_ui = rgb { 137 203 92 }
 }
+CAT = {
+color = rgb { 196 154 77 }
+color_ui = rgb { 196 154 77 }
+}
