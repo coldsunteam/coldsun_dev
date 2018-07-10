@@ -4,7 +4,13 @@ state={
 	provinces={
 		1374 3230 3325 5848 6124 6976 7704 8458 10475 10809 11640 
 	}
+	
+	history={
+		owner = NGF
+		add_core_of = NGF
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

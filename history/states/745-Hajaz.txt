@@ -4,6 +4,12 @@ state={
 	provinces={
 		5290 5722 7996 8071 8423 10112 11982 
 	}
+	
+	history={
+		owner = SPX
+		add_core_of = SPX
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

@@ -1,16 +1,18 @@
+
 state={
 	id=486
 	name="STATE_486"
-	provinces={
-		4589 5039 5405 5935 6291 6292 6293 8564 8780 8855 8936 9163 9397 9843 9870 10018 10636 11766 
-	}
-	
+
 	history={
 		owner = KET
 		add_core_of = KET
+
 	}
-	
+
+	provinces={
+		4589 5039 5405 5935 6291 6292 6293 8564 8780 9163 9843 9870 10018 10636 11766 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

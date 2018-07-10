@@ -1,16 +1,18 @@
+
 state={
 	id=481
 	name="STATE_481"
-	provinces={
-		2321 3157 3309 3310 3311 3490 3491 3492 6562 6830 6959 7734 7841 8120 8655 8931 9124 9145 9146 9313 9374 10325 11763 
-	}
-	
+
 	history={
 		owner = EQC
 		add_core_of = EQC
+
 	}
-	
+
+	provinces={
+		2321 3157 3492 6562 6830 6959 7734 7841 8931 9124 9313 9374 10325 11763 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -5,6 +5,12 @@ state={
 	provinces={
 		950 951 952 953 954 1072 1073 1074 1075 1076 1077 1078 1079 1942 2026 2027 9135 9136 10720 11521 
 	}
+	
+	history={
+		owner = SPX
+		add_core_of = SPX
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
