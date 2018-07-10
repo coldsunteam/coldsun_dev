@@ -4,6 +4,12 @@ state={
 	provinces={
 		6378 6379 6380 
 	}
+	
+    history = {
+		owner = SPB
+		add_core_of = SPB
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

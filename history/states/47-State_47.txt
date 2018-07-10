@@ -1,11 +1,11 @@
+
 state={
 	id=47
 	name="STATE_47"
 	provinces={
-		2875 2876 2877 4259 4260 4261 4262 4306 4307 9115 10332 10555 10695 11135 
+		2876 2877 4259 4260 4261 4262 4306 4307 9115 10332 10695 11135 
 	}
 	manpower=100
-state_category=metropolis
-state_category="metropolis"
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -1,0 +1,15 @@
+state={
+	id=781
+	name="STATE_781"
+	provinces={
+		94 3241 6200 10322 11846 
+	}
+	
+    history = {
+		owner = SPC
+		add_core_of = SPC
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

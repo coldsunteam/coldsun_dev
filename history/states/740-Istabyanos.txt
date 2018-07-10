@@ -4,6 +4,12 @@ state={
 	provinces={
 		262 4775 4776 7993 11074 
 	}
+	
+    history = {
+		owner = SPA
+		add_core_of = SPA
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

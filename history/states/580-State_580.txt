@@ -5,6 +5,12 @@ state={
 	provinces={
 		5123 6951 8947 10327 
 	}
+	
+    history = {
+		owner = PAN
+		add_core_of = PAN
+	}
+	
 	manpower=100
 state_category=metropolis
 	buildings_max_level_factor=1.000

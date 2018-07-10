@@ -4,6 +4,12 @@ state={
 	provinces={
 		3668 3669 6455 8302 8303 9095 9291 
 	}
+	
+    history = {
+		owner = PAN
+		add_core_of = PAN
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }
