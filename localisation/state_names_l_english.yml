@@ -754,7 +754,7 @@
  STATE_753:1 "Argrolema"
  STATE_754:1 "Kiezran Island"
  STATE_755:1 "Demezenas Island"
- STATE_756:1 "Northern Spine Mountains"
+ STATE_756:2 "Electorem"
  STATE_757:1 "Wild Trek Range"
  STATE_758:1 "North Wild Trek Range"
  STATE_759:2 "Little Trek Mountain"
@@ -771,3 +771,4 @@
  STATE_770:0 "The Wall"
  STATE_771:0 "Desert Barrier"
  STATE_772:0 "Bear Range"
+ STATE_773:0 "Ezestros"

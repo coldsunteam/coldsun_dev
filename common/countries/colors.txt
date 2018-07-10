@@ -250,3 +250,15 @@ SPX = {
 color = rgb { 172 70 126 }
 color_ui = rgb { 172 70 126 }
 }
+PAN = {
+color = rgb { 35 148 71 }
+color_ui = rgb { 35 148 71 }
+}
+SPA = {
+color = rgb { 235 218 122 }
+color_ui = rgb { 235 218 122 }
+}
+SPC = {
+color = rgb { 224 224 224 }
+color_ui = rgb { 224 224 224 }
+}
