@@ -4,7 +4,13 @@ state={
 	provinces={
 		2098 2099 4620 4621 4931 4932 4933 4934 7421 7422 7423 7424 7670 8015 8419 8441 8796 8797 8838 8870 8956 9125 9205 9625 11273 11484 
 	}
+	
+	history={
+		owner = ZEC
+		add_core_of = ZEC
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

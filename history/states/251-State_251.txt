@@ -5,7 +5,13 @@ state={
 	provinces={
 		8090 8091 9362 11423 11964 
 	}
+	
+	history={
+		owner = ZEC
+		add_core_of = ZEC
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }
