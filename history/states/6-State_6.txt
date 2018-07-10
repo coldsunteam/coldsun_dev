@@ -5,6 +5,10 @@ state={
 		114 6090 6289 8672 10102 10147 10610 10749 11868 
 	}
 	manpower=100
-state_category="metropolis"
+	state_category="metropolis"
 	buildings_max_level_factor=1.000
+	history={
+		owner = FOX
+		add_core_of = FOX
+	}
 }
