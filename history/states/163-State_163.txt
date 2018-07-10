@@ -2,14 +2,17 @@
 state={
 	id=163
 	name="STATE_163"
+
+	history={
+		owner = ZLA
+		add_core_of = ZLA
+
+	}
+
 	provinces={
-		457 458 1243 1988 1989 1990 1991 2939 2941 3690 7425 7504 7507 7951 7952 10494 10622 10784 11734 11795 
+		457 458 1243 1987 1988 1989 1990 1991 2939 2941 3690 7425 7504 7507 7951 7952 10494 10622 10784 11734 11795 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
-        history={
-		owner = ZLA
-		add_core_of = ZLA
-	}
 }

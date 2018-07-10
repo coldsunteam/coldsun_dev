@@ -2,14 +2,17 @@
 state={
 	id=153
 	name="STATE_153"
+
+	history={
+		owner = DES
+		add_core_of = DES
+
+	}
+
 	provinces={
-		1538 1539 2160 2161 2162 2163 2164 2583 4665 4666 7096 9448 9449 10244 11337 11414 11433 
+		1539 2160 2161 2162 2163 2164 2583 4665 4666 7096 9448 9449 10244 11337 11414 11433 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
-        history={
-		owner = DES
-		add_core_of = DES
-	}
 }

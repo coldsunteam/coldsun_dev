@@ -2,14 +2,17 @@
 state={
 	id=182
 	name="STATE_182"
+
+	history={
+		owner = ZEB
+		add_core_of = ZEB
+
+	}
+
 	provinces={
-		659 660 1987 2207 2209 3032 5747 5748 5982 6240 6774 6775 7521 7524 8001 9355 9810 10212 10350 11275 11743 
+		2207 5747 6392 6393 7520 7521 9359 11275 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
-        history={
-		owner = ZEB
-		add_core_of = ZEB
-	}
 }
