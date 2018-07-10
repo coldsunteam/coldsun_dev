@@ -4,7 +4,13 @@ state={
 	provinces={
 		124 125 126 127 128 3486 3487 3488 4894 4895 4896 4897 6103 6578 6579 6580 7192 7967 7968 7969 8364 8777 8778 8779 10002 11321 
 	}
+	
+	history={
+		owner = POC
+		add_core_of = POC
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

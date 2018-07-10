@@ -5,7 +5,13 @@ state={
 	provinces={
 		1536 2756 2757 2758 4936 5819 5820 5821 5822 8016 8017 9731 10166 10371 11509 
 	}
+	
+	history={
+		owner = POC
+		add_core_of = POC
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

@@ -222,3 +222,31 @@ GGB = {
 color = rgb { 0 255 0 }
 color_ui = rgb { 0 255 0 }
 }
+EQC = {
+color = rgb { 157 28 157 }
+color_ui = rgb { 157 28 157 }
+}
+NGF = {
+color = rgb { 39 171 24 }
+color_ui = rgb { 39 171 24 }
+}
+ZEC = {
+color = rgb { 105 177 52 }
+color_ui = rgb { 105 177 52 }
+}
+POC = {
+color = rgb { 251 230 198 }
+color_ui = rgb { 251 230 198 }
+}
+SPV = {
+color = rgb { 172 70 126 }
+color_ui = rgb { 172 70 126 }
+}
+SPW = {
+color = rgb { 172 70 126 }
+color_ui = rgb { 172 70 126 }
+}
+SPX = {
+color = rgb { 172 70 126 }
+color_ui = rgb { 172 70 126 }
+}

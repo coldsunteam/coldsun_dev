@@ -4,7 +4,13 @@ state={
 	provinces={
 		2196 2197 3508 3774 4099 4798 4890 4891 4892 4893 4898 4899 5053 5989 6241 7864 7940 9288 9615 9657 11816 11865 
 	}
+	
+	history={
+		owner = EQC
+		add_core_of = EQC
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }
