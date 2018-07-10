@@ -3,8 +3,14 @@ state={
 	id=593
 	name="STATE_593"
 	provinces={
-		1213 1214 1215 1216 1217 1218 1219 1221 2500 2501 5075 7027 7028 7886 9494 
+		1213 1214 1215 1216 1217 1218 1219 1221 2497 2498 2499 2500 2501 2502 5075 7027 7028 7029 7030 7886 8743 9494 
 	}
+	
+    history = {
+		owner = SPA
+		add_core_of = SPA
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

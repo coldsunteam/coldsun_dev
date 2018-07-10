@@ -6,6 +6,10 @@ state={
 		4354 4804 5264 7020 7622 8462 10027 
 	}
 	manpower=100
-state_category="metropolis"
+	state_category="metropolis"
 	buildings_max_level_factor=1.000
+	history={
+		owner = SAT
+		add_core_of = SAT
+	}
 }

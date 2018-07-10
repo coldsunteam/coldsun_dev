@@ -3,8 +3,14 @@ state={
 	id=620
 	name="STATE_620"
 	provinces={
-		2497 2498 2499 2502 2503 2504 3347 5515 5696 5697 7029 7030 7127 7128 7881 8740 8741 8742 8743 9474 11886 
+		2503 2504 3347 5515 5696 5697 7127 7128 7881 8740 8741 8742 9474 11886 
 	}
+	
+    history = {
+		owner = SPB
+		add_core_of = SPB
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

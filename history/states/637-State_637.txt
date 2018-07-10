@@ -5,6 +5,12 @@ state={
 	provinces={
 		2987 2988 3613 3614 3615 5100 5101 5592 5593 5594 6451 6452 6453 6454 8011 8012 8788 10050 11051 11251 11715 11881 
 	}
+	
+    history = {
+		owner = PAN
+		add_core_of = PAN
+	}
+	
 	manpower=100
 state_category=metropolis
 	buildings_max_level_factor=1.000

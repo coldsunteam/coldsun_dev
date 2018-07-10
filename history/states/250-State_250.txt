@@ -5,6 +5,10 @@ state={
 		2228 2229 2230 2233 2234 2235 2863 9026 9027 9571 11799 
 	}
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
+	history={
+		owner = MUT
+		add_core_of = MUT
+	}
 }
