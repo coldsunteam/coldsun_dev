@@ -1,6 +1,6 @@
 ﻿capital = 645
 
-oob = "VEN_1936"
+#oob = "VEN_1936"
 
 set_technology = {
 }

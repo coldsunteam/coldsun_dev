@@ -1,4 +1,4 @@
-﻿capital = 345
+﻿capital = 292
 
 oob = "GPE_1936"
 
