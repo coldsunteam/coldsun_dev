@@ -1,0 +1,32 @@
+﻿capital = 744
+
+oob = "SPD_1936"
+
+
+1939.1.1 = {
+
+	add_political_power = 1198
+	
+	
+	oob = "SPD_1939"
+	
+}
+
+set_convoys = 10
+
+set_politics = {
+
+	parties = {
+        democratic = { popularity = 25 }
+        communism = { popularity = 25 }
+        fascism = { popularity = 25 }
+        neutrality = { popularity = 25 }
+
+	}
+	
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+

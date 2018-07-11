@@ -5,6 +5,12 @@ state={
 	provinces={
 		8050 8051 9865 9866 9867 
 	}
+	
+	history={
+		owner = HGA
+		add_core_of = HGA
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

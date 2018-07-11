@@ -5,6 +5,12 @@ state={
 	provinces={
 		529 530 531 532 533 534 536 1775 8295 8296 8297 10051 11035 
 	}
+	
+	history={
+		owner = SPD
+		add_core_of = SPD
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

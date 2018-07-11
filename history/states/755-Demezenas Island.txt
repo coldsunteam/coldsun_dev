@@ -4,7 +4,12 @@ state={
 	provinces={
 		4153 7344 
 	}
-	manpower=100
-state_category=metropolis
+	
+	history={
+		owner = BCT
+		add_core_of = BCT
+	}
+	
+	manpower=0
 	buildings_max_level_factor=1.000
 }
