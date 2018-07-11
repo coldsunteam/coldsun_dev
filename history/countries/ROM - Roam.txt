@@ -1,6 +1,6 @@
 ﻿capital = 143
 
-oob = "ROM_1936"
+#oob = "ROM_1936"
 
 set_convoys = 10
 

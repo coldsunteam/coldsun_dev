@@ -1,6 +1,6 @@
 ﻿capital = 741
 
-oob = "PAN_1936"
+#oob = "PAN_1936"
 
 set_convoys = 10
 

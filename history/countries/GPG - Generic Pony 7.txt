@@ -1,4 +1,4 @@
-﻿capital = 726
+﻿capital = 229
 
 oob = "GPG_1936"
 

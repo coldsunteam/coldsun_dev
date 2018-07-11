@@ -9,6 +9,12 @@ state={
 	history={
 		owner = CRY
 		add_core_of = CRY
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+		}
 	}
 	
 	manpower=100
