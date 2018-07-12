@@ -3,9 +3,16 @@ state={
 	id=717
 	name="STATE_717"
 	provinces={
-		5344 5346 6415 6417 6639 7436 7975 19516 19517 19518 19519 
+		5344 5346 6415 6417 6639 7436 7975 19516 19517 19518 19519 4074 5078 8215 9142 9628 9739
 	}
+	
+	history={
+		owner = EQS
+		add_core_of = EQS
+
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

@@ -4,7 +4,14 @@ state={
 	provinces={
 		5585 6078 
 	}
+	
+	history={
+		owner = SPW
+		add_core_of = SPW
+
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

@@ -5,7 +5,14 @@ state={
 	provinces={
 		118 119 1769 1773 1774 1776 1914 2036 4450 5036 5499 6872 6998 7741 7973 9167 10014 10691 11330 11658 
 	}
+	
+	history={
+		owner = SPD
+		add_core_of = SPD
+
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

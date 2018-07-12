@@ -5,6 +5,13 @@ state={
 	provinces={
 		93 363 590 591 593 1291 3137 3138 3139 3828 3830 3831 3906 4038 4420 4802 4997 4998 5216 5218 5219 5712 5713 6621 6906 8088 8089 8685 9030 9031 9032 10285 10346 10628 10700 10731 10793 10884 11472 11852 
 	}
+	
+	history={
+		owner = SDN
+		add_core_of = SDN
+
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

@@ -4,7 +4,14 @@ state={
 	provinces={
 		902 1440 1441 1442 6011 7898 8348 8349 8712 9452 11604 11724 
 	}
+	
+	history={
+		owner = MIT
+		add_core_of = MIT
+
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

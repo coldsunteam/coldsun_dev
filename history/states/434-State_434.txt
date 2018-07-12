@@ -5,6 +5,13 @@ state={
 	provinces={
 		1189 2815 3098 3719 4339 4359 4364 5969 6254 6432 6566 7456 7900 7953 8291 8594 8856 8876 9777 10176 10365 10663 10966 11517 
 	}
+	
+	history={
+		owner = MYE
+		add_core_of = MYE
+
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

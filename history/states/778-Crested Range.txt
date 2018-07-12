@@ -4,7 +4,14 @@ state={
 	provinces={
 		19554 19555 19556 
 	}
+	
+	history={
+		owner = BPN
+		add_core_of = BPN
+
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

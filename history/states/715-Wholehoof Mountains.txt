@@ -6,7 +6,13 @@ state={
 		1492 3457 8491 19526 19528 19531 19532 
 	}
 	
+	history={
+		owner = THR
+		add_core_of = THR
+
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

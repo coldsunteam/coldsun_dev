@@ -338,3 +338,19 @@ ZRU = {
 	color = rgb { 105 105 105 } 
 	color_ui = rgb { 105 105 105 } 
 }
+MIT = {
+color = rgb { 150 150 150 }
+color_ui = rgb { 150 150 150 }
+}
+PFS = {
+color = rgb { 150 150 150 }
+color_ui = rgb { 150 150 150 }
+}
+MYE = {
+color = rgb { 150 150 150 }
+color_ui = rgb { 150 150 150 }
+}
+CAT = { 
+color = rgb { 196 154 77 } 
+color_ui = rgb { 196 154 77 } 
+}

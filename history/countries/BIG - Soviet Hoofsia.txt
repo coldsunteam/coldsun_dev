@@ -33,3 +33,43 @@ set_politics = {
 	elections_allowed = no
 }
 
+create_country_leader = {
+	name = "Princess Mi Amore Cadenza"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Princess Mi Amore Cadenza"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = nazism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Princess Mi Amore Cadenza"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Princess Mi Amore Cadenza"
+	desc = ""
+	picture = ""
+	expire = "1965.1.1"
+	ideology = leninism
+	traits = {
+	}
+}
+
