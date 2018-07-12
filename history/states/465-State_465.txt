@@ -6,6 +6,10 @@ state={
 		1907 7298 7299 8355 9823 10378 
 	}
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
+	history={
+		owner = PEG
+		add_core_of = PEG
+	}
 }

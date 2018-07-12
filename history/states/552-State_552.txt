@@ -7,8 +7,8 @@ state={
 	}
 	
 	history={
-		owner = PEG
-		add_core_of = PEG
+		owner = THE
+		add_core_of = THE
 	}
 	
 	manpower=100

@@ -298,3 +298,7 @@ HGA = {
 color = rgb { 185 141 233 }
 color_ui = rgb { 185 141 233 }
 }
+THE = {
+color = rgb { 0 9 117 }
+color_ui = rgb { 0 9 117 }
+}

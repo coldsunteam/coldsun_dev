@@ -5,6 +5,10 @@ state={
 		237 238 239 240 241 242 243 960 1734 2033 2034 3733 3734 5579 5580 5581 5582 5668 7101 7130 7788 7789 7790 7791 7792 8205 8206 8641 8642 8643 9331 10164 10256 10258 10561 10818 11438 11552 11740 
 	}
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
+	history={
+		owner = THE
+		add_core_of = THE
+	}
 }
