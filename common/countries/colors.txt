@@ -263,19 +263,20 @@ color = rgb { 56 216 180 }
 color_ui = rgb { 56 216 180 }
 }
 SPC = {
-color = rgb { 224 224 224 }
-color_ui = rgb { 224 224 224 }
+	color = rgb { 224 224 224 }
+	color_ui = rgb { 224 224 224 }
 }
 MUT = {
-color = rgb { 30 30 30 }
-color_ui = rgb { 30 30 30 }
+	color = rgb { 30 30 30 }
+	color_ui = rgb { 30 30 30 }
+}
 SAT = {
-color = rgb { 55 132 193 }
-color_ui = rgb { 55 132 193 }
+	color = rgb { 55 132 193 }
+	color_ui = rgb { 55 132 193 }
 }
 THE = {
-color = rgb { 0 9 117 }
-color_ui = rgb { 0 9 117 }
+	color = rgb { 0 9 117 }
+	color_ui = rgb { 0 9 117 }
 }
 SPD = {
 	color = rgb { 213 145 192 }
@@ -326,14 +327,14 @@ PCF = {
 	color_ui = rgb { 128 0 64 }
 }
 XXX = {
-color = rgb { 150 150 150 }
-color_ui = rgb { 150 150 150 }
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
 }
 FOX = { 
-color_ui = rgb { 1 32 156 } 
-color = rgb { 1 32 156 } 
+	color_ui = rgb { 1 32 156 } 
+	color = rgb { 1 32 156 } 
 }
 ZRU = { 
-color = rgb { 105 105 105 } 
-color_ui = rgb { 105 105 105 } 
+	color = rgb { 105 105 105 } 
+	color_ui = rgb { 105 105 105 } 
 }
