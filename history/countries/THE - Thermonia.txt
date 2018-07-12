@@ -1,16 +1,6 @@
-﻿capital = 132
+﻿capital = 454
 
-oob = "BCT_1936"
-
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	
-	oob = "BCT_1939"
-	
-}
+#oob = "THE_1936"
 
 set_convoys = 10
 
@@ -24,7 +14,7 @@ set_politics = {
 
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
