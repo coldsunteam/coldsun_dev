@@ -5,7 +5,13 @@ state={
 	provinces={
 		1713 1714 1715 3330 3331 3332 4208 5307 5308 5356 5501 5502 6267 6268 6598 6841 8092 8865 8897 8898 9502 
 	}
+	
+	history={
+		owner = PCF
+		add_core_of = PCF
+	}
+	
 	manpower=100
-state_category="metropolis"
+	state_category="metropolis"
 	buildings_max_level_factor=1.000
 }

@@ -270,35 +270,70 @@ MUT = {
 color = rgb { 30 30 30 }
 color_ui = rgb { 30 30 30 }
 SAT = {
-}
 color = rgb { 55 132 193 }
 color_ui = rgb { 55 132 193 }
-}
-FOX = {
-color_ui = rgb { 1 32 156 }
-color = rgb { 1 32 156 }
-}
-ZRU = {
-color = rgb { 105 105 105 }
-color_ui = rgb { 105 105 105 }
-}
-PAR = {
-color = rgb { 137 203 92 }
-color_ui = rgb { 137 203 92 }
-}
-SPD = {
-color = rgb { 232 123 213 }
-color_ui = rgb { 232 123 213 }
-}
-BCT = {
-color = rgb { 91 140 170 }
-color_ui = rgb { 91 140 170 }
-}
-HGA = {
-color = rgb { 185 141 233 }
-color_ui = rgb { 185 141 233 }
 }
 THE = {
 color = rgb { 0 9 117 }
 color_ui = rgb { 0 9 117 }
+}
+SPD = {
+	color = rgb { 213 145 192 }
+	color_ui = rgb { 213 145 192 }
+}
+HIP = {
+	color = rgb { 9 208 184 }
+	color_ui = rgb { 9 208 184 }
+}
+THC = {
+	color = rgb { 223 187 77 }
+	color_ui = rgb { 223 187 77 }
+}
+RNG = {
+	color = rgb { 67 101 165 }
+	color_ui = rgb { 67 101 165 }
+}
+APN = {
+	color = rgb { 67 101 165 }
+	color_ui = rgb { 67 101 165 }
+}
+BPN = {
+	color = rgb { 67 101 165 }
+	color_ui = rgb { 67 101 165 }
+}
+BAP = {
+	color = rgb { 67 101 165 }
+	color_ui = rgb { 67 101 165 }
+}
+NPN = {
+	color = rgb { 67 101 165 }
+	color_ui = rgb { 67 101 165 }
+}
+OPN = {
+	color = rgb { 67 101 165 }
+	color_ui = rgb { 67 101 165 }
+}
+NNP = {
+	color = rgb { 67 101 165 }
+	color_ui = rgb { 67 101 165 }
+}
+FPN = {
+	color = rgb { 67 101 165 }
+	color_ui = rgb { 67 101 165 }
+}
+PCF = {
+	color = rgb { 128 0 64 }
+	color_ui = rgb { 128 0 64 }
+}
+XXX = {
+color = rgb { 150 150 150 }
+color_ui = rgb { 150 150 150 }
+}
+FOX = { 
+color_ui = rgb { 1 32 156 } 
+color = rgb { 1 32 156 } 
+}
+ZRU = { 
+color = rgb { 105 105 105 } 
+color_ui = rgb { 105 105 105 } 
 }

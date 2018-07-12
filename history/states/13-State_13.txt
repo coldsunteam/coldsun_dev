@@ -5,6 +5,13 @@ state={
 	provinces={
 		5609 5610 7216 8253 8254 8639 8640 8804 
 	}
+	
+	history={
+		owner = XXX
+		add_core_of = XXX
+
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

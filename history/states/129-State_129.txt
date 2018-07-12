@@ -5,7 +5,13 @@ state={
 	provinces={
 		1495 1496 1497 3647 3648 3649 4743 5013 5014 5015 5016 5017 5018 5141 6072 6073 6074 6075 6076 6077 6243 6849 7767 8406 8495 8770 8771 9618 9943 9994 9995 9996 10686 11080 11269 11346 11954 
 	}
+	
+	history={
+		owner = BPN
+		add_core_of = BPN
+	}
+	
 	manpower=100
-state_category=metropolis
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

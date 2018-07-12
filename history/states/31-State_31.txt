@@ -4,7 +4,14 @@ state={
 	provinces={
 		2490 3687 3688 4077 4078 4079 4080 4336 5770 6226 6968 7306 10318 
 	}
+	
+	history={
+		owner = XXX
+		add_core_of = XXX
+
+	}
+	
 	manpower=100
-state_category="metropolis"
+	state_category="metropolis"
 	buildings_max_level_factor=1.000
 }

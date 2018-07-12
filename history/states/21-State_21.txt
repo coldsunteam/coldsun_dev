@@ -4,7 +4,13 @@ state={
 	provinces={
 		1727 4920 4921 4922 6881 6882 10145 10470 10894 11155 11164 11686 
 	}
+	
+	history={
+		owner = FPN
+		add_core_of = FPN
+	}
+	
 	manpower=100
-state_category="metropolis"
+	state_category="metropolis"
 	buildings_max_level_factor=1.000
 }

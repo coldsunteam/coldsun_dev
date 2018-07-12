@@ -5,7 +5,13 @@ state={
 	provinces={
 		1118 2085 2439 3724 7761 7762 7763 8066 8067 8118 8324 9754 10937 
 	}
+	
+	history={
+		owner = NNP
+		add_core_of = NNP
+	}
+	
 	manpower=100
-state_category="metropolis"
+	state_category="metropolis"
 	buildings_max_level_factor=1.000
 }

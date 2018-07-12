@@ -4,7 +4,14 @@ state={
 	provinces={
 		1977 1979 1980 1981 1982 8823 8824 10963 11555 
 	}
+	
+	history={
+		owner = XXX
+		add_core_of = XXX
+
+	}
+	
 	manpower=100
-state_category="metropolis"
+	state_category="metropolis"
 	buildings_max_level_factor=1.000
 }

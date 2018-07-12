@@ -5,8 +5,13 @@ state={
 	provinces={
 		3326 3327 3328 3329 3333 3334 3335 3336 3337 3338 3339 4206 4207 4940 4941 4942 5096 5097 6010 6824 7243 7244 7290 7291 8068 8704 9852 10239 10533 10569 10943 10981 11125 11373 
 	}
+	
+	history={
+		owner = RNG
+		add_core_of = RNG
+	}
+	
 	manpower=100
-state_category=metropolis
-state_category="metropolis"
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

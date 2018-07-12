@@ -7,8 +7,8 @@ state={
 	}
 	
 	history={
-		owner = BCT
-		add_core_of = BCT
+		owner = THC
+		add_core_of = THC
 	}
 	
 	manpower=100

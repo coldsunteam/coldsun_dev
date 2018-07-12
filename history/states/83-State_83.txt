@@ -5,6 +5,12 @@ state={
 	provinces={
 		168 169 170 381 382 384 385 1621 3993 4009 4520 4521 7604 7605 8186 8187 8189 8966 9633 9949 10090 10467 10670 
 	}
+	
+	history={
+		owner = OPN
+		add_core_of = OPN
+	}
+	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
