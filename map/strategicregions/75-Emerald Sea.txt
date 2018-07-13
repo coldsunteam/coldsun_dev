@@ -1,3 +1,4 @@
+
 strategic_region={
 	id=75
 	name="STRATEGICREGION_75"
@@ -5,5 +6,18 @@ strategic_region={
 		14322 14323 15443 16499 16500 16982 17201 17202 18642 18643 18988 
 	}
 	weather={
+		period={
+			between={ 0.0 30.11 }
+			temperature={ -10.0 35.0 }
+			temperature_day_night={ 2.0 -2.0 }
+			no_phenomenon=1.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.000
+			blizzard=0.000
+			mud=0.000
+			sandstorm=0.000
+			min_snow_level=0.000
+		}
 	}
 }
