@@ -11,13 +11,18 @@ state={
 		add_core_of = CRY
 		
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
-			air_base = 1
+			infrastructure = 10
+			air_base = 10
+			arms_factory = 2
+			industrial_complex = 4
+		}
+		
+		victory_points = {
+			11563 50
 		}
 	}
 	
 	manpower=100
-state_category=metropolis
+	state_category=large_city
 	buildings_max_level_factor=1.000
 }

@@ -9,6 +9,18 @@ state={
 	history={
 		owner = TSU
 		add_core_of = TSU
+		
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 2
+		}
+		
+		victory_points = {
+			5925 20
+		}
+		
 	}
 	
 	manpower=100

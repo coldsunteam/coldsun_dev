@@ -9,9 +9,22 @@ state={
 	history={
 		owner = EQS
 		add_core_of = EQS
+		
+		
+		buildings = {
+			infrastructure = 10
+			air_base = 10
+			arms_factory = 2
+			industrial_complex = 4
+		}
+		
+		victory_points = {
+			6418 50
+		}
+		
 	}
 	
 	manpower=100
-state_category=metropolis
-	buildings_max_level_factor=1.000
+	state_category=large_city
+	buildings_max_level_factor=2.000
 }
