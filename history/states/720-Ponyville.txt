@@ -6,6 +6,13 @@ state={
 		5069 5070 5071 6420 6421 7437 7438 9552 11358 11455 
 	}
 	
+	resources={
+		grain=10
+		coal=10
+		aeterium=10
+		gems=10
+	}
+	
 	history={
 		owner = EQS
 		add_core_of = EQS
