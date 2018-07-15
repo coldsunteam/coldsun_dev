@@ -1,5 +1,5 @@
 ﻿l_english:
- grain:0 "Grain"
- aeterium:0 "Aeterium"
- coal:0 "Coal"
- gems:0 "Gems"
+ PRODUCTION_MATERIALS_GRAIN:0 "Grain"
+ PRODUCTION_MATERIALS_AETERIUM:0 "Aeterium"
+ PRODUCTION_MATERIALS_COAL:0 "Coal"
+ PRODUCTION_MATERIALS_GEMS:0 "Gems"

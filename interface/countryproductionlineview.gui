@@ -94,7 +94,7 @@ guiTypes = {
 				containerWindowType = {
 					name = "resources"
 					position = { x = 60 y = 15 }
-					size = { width = 100% height = 60 }
+					size = { width = 60 height = 60 }
 						
 					buttonType = {
 						name = "oil_icon"
@@ -242,6 +242,70 @@ guiTypes = {
 						format = left
 						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
 					}
+					
+					buttonType = {
+						name = "aeterium_icon"
+						position = { x=490 y=2 }
+						spriteType = "GFX_resources_strip"
+						frame = 8
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+
+					instantTextboxType = {
+						name = "aeterium_value"
+						position = { x = 521 y = 5 }
+						textureFile = ""
+						font = "hoi_18mbs"
+						borderSize = {x = 0 y = 0}
+						text = "999"
+						maxWidth = 50
+						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+					
+					buttonType = {
+						name = "coal_icon"
+						position = { x=560 y=2 }
+						spriteType = "GFX_resources_strip"
+						frame = 9
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+
+					instantTextboxType = {
+						name = "coal_value"
+						position = { x = 591 y = 5 }
+						textureFile = ""
+						font = "hoi_18mbs"
+						borderSize = {x = 0 y = 0}
+						text = "999"
+						maxWidth = 50
+						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+					
+					buttonType = {
+						name = "gems_icon"
+						position = { x=630 y=2 }
+						spriteType = "GFX_resources_strip"
+						frame = 10
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+
+					instantTextboxType = {
+						name = "gems_value"
+						position = { x = 661 y = 5 }
+						textureFile = ""
+						font = "hoi_18mbs"
+						borderSize = {x = 0 y = 0}
+						text = "999"
+						maxWidth = 50
+						maxHeight = 20
+						format = left
+						#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+					}
+					
 				}				
 				#################################
 				iconType = {
@@ -922,6 +986,71 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_checkbox
 			}
+			
+			iconType = {
+				name = "grain_icon"
+				position = { x=345 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 7
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+			
+			buttonType = {
+				name = "grain_checkbox"
+				position = { x = 369 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+			
+			iconType = {
+				name = "aeterium_icon"
+				position = { x=403 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 8
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+			
+			buttonType = {
+				name = "aeterium_checkbox"
+				position = { x = 427 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+			
+			iconType = {
+				name = "coal_icon"
+				position = { x=461 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 9
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+			
+			buttonType = {
+				name = "coal_checkbox"
+				position = { x = 485 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+			
+			iconType = {
+				name = "gems_icon"
+				position = { x=518 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 10
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+			
+			buttonType = {
+				name = "gems_checkbox"
+				position = { x = 543 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+			
 		}
 		
 		buttonType = {
