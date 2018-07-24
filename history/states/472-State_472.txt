@@ -2,16 +2,17 @@
 state={
 	id=472
 	name="STATE_472"
-	provinces={
-		3751 3752 3753 3754 4833 4834 5719 5720 6513 7277 7942 7943 7944 7948 7949 9791 9792 
-	}
-	
+
 	history={
 		owner = BUF
 		add_core_of = BUF
+
 	}
-	
+
+	provinces={
+		3751 3752 3753 3754 4833 4834 5719 5720 6513 7277 7942 7943 7944 7948 7949 8258 9791 9792 10161 11073 11405 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

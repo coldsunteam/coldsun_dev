@@ -2,15 +2,16 @@
 state={
 	id=398
 	name="STATE_398"
-	provinces={
-		5345 6425 7439 7440 9306 10770 11391 11653 
-	}
-	
+
 	history={
 		owner = EQS
 		add_core_of = EQS
+
 	}
-	
+
+	provinces={
+		5345 6423 6424 6425 7437 7438 7439 7440 10750 10770 11653 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

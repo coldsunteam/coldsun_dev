@@ -1,16 +1,18 @@
+
 state={
 	id=372
 	name="STATE_372"
-	provinces={
-		305 306 307 308 309 310 1452 1453 2509 2512 2518 4582 4583 4584 6154 6155 6158 9942 10843 10844 
-	}
-	
+
 	history={
 		owner = GRI
 		add_core_of = GRI
+
 	}
-	
+
+	provinces={
+		305 306 307 308 309 310 1449 1450 1451 1452 1453 1688 1689 2512 2516 2517 2518 4581 4582 4583 4584 6153 6154 6155 6158 8410 8411 8412 8413 8661 9342 9942 10843 10844 10980 11171 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

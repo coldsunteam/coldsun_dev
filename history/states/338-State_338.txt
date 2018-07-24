@@ -2,15 +2,16 @@
 state={
 	id=338
 	name="STATE_338"
-	provinces={
-		677 678 8144 8185 8706 9086 9922 10667 10668 10880 11180 
-	}
-	
+
 	history={
 		owner = KOB
 		add_core_of = KOB
+
 	}
-	
+
+	provinces={
+		677 678 1701 1702 6317 6318 8144 8185 8706 9086 9922 10667 10668 10880 11180 11181 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
