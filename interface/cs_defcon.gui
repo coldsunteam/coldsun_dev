@@ -1,0 +1,83 @@
+guiTypes = {
+	containerWindowType = {
+		name = "defcon_container"
+		position = { x = 1000 y = 5 } 
+		
+		buttonType = {
+			name = "defcon_button"
+			spriteType = "GFX_world_tension_icon"
+			position = { x= 74 y = 0 }
+		}
+	}
+		
+	containerWindowType = {
+		name = "defcon_window"
+		position = {x=480 y=100}
+		size = { width=200 height=380 }
+		
+		clipping = no
+		moveable = yes
+		
+		background = {
+			name = "defcon_background"
+			spriteType = "GFX_tiled_bg"
+		}
+		
+		instantTextboxType = {
+			name = "defcon_headline"
+			position = {x=19 y=15}
+			font = "hoi_36header"
+			text = "DEFCON"
+			maxWidth = 1000
+			maxHeight = 23
+			format = left
+		}
+		
+		buttonType = {
+			name = "exitbutton_defcon" 
+			position = {x=165 y=4}	
+			quadTextureSprite = "GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
+		### Defcon Symbols
+		
+		buttonType = {
+			name = "defcon_5" 
+			position = {x=75 y=60}	
+			spriteType = "GFX_world_tension_icon"
+			scale = 2
+		}
+		
+		buttonType = {
+			name = "defcon_4" 
+			position = {x=75 y=120}	
+			spriteType = "GFX_world_tension_icon"
+			scale = 2
+		}
+		
+		buttonType = {
+			name = "defcon_3" 
+			position = {x=75 y=180}	
+			spriteType = "GFX_world_tension_icon"
+			scale = 2
+		}
+		
+		buttonType = {
+			name = "defcon_2" 
+			position = {x=75 y=240}	
+			spriteType = "GFX_world_tension_icon"
+			scale = 2
+		}
+		
+		buttonType = {
+			name = "defcon_1" 
+			position = {x=75 y=300}	
+			spriteType = "GFX_world_tension_icon"
+			scale = 2
+		}
+	}
+}
