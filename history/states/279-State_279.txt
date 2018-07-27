@@ -2,19 +2,17 @@
 state={
 	id=279
 	name="STATE_279"
-	provinces={
-		3637 3638 3642 4605 9443 11226 11632 
-	}
-	
+
 	history={
 		owner = CHB
 		add_core_of = CHB
+
 	}
-	
+
+	provinces={
+		3638 3641 3642 9443 11226 19598 19600 
+	}
 	manpower=100
-
-	state_category=metropolis
-
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

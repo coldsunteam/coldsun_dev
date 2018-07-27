@@ -2,28 +2,27 @@
 state={
 	id=316
 	name="STATE_316"
-	provinces={
-		280 281 1490 1491 1554 1555 1556 1557 4156 4157 4158 4159 4160 4161 4168 4169 9069 10699 10765 10873 11697 
-	}
-	
+
 	history={
 		owner = THR
 		add_core_of = THR
-		
 		buildings = {
 			infrastructure = 4
 			air_base = 1
 			arms_factory = 2
 			industrial_complex = 2
+
 		}
-		
 		victory_points = {
-			1557 20
+			1557 20 
 		}
-		
+
 	}
-	
+
+	provinces={
+		1491 1554 1555 1556 1557 4156 4157 4158 4159 4160 4168 9069 10699 19582 
+	}
 	manpower=100
-	state_category=large_city
 	buildings_max_level_factor=1.000
+	state_category=large_city
 }

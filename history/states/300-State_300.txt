@@ -2,31 +2,27 @@
 state={
 	id=300
 	name="STATE_300"
-	provinces={
-		2545 2546 3639 3640 3641 4585 4602 4603 5148 5149 5150 5151 5297 5298 5925 8305 8620 8888 10312 10664 11106 19534 19535 
-	}
-	
+
 	history={
 		owner = TSU
 		add_core_of = TSU
-		
 		buildings = {
 			infrastructure = 4
 			air_base = 2
 			arms_factory = 1
 			industrial_complex = 2
+
 		}
-		
 		victory_points = {
-			5925 20
+			5925 20 
 		}
-		
+
 	}
-	
+
+	provinces={
+		2659 3639 3640 4602 4603 5148 5149 5150 5151 5297 5298 5925 6761 7500 8620 8888 9597 10312 10664 11106 11632 19534 19596 
+	}
 	manpower=100
-
-	state_category=metropolis
-
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

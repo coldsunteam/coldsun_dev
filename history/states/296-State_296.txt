@@ -2,15 +2,16 @@
 state={
 	id=296
 	name="STATE_296"
-	provinces={
-		47 48 49 1487 1488 1489 3456 8736 8737 9903 10175 11082 19533 
-	}
-	
+
 	history={
 		owner = THR
 		add_core_of = THR
+
 	}
-	
+
+	provinces={
+		47 1487 1488 1489 1490 3456 8736 8737 9903 11082 11697 19533 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

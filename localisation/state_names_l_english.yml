@@ -4,9 +4,26 @@
 ### Equestrian States
  STATE_713:1 "Canterlot Proper"
  STATE_720:1 "Ponyville"
+ STATE_365:1 "Los Pegasus"
+ STATE_386:1 "Baltimare"
+ STATE_389:1 "Cloudsdale"
+ STATE_418:1 "Hoofington"
+ STATE_427:1 "Applewood"
  STATE_783:1 "Fillydelphia"
  STATE_784:1 "Manehattan"
  STATE_785:1 "Trottingham"
+ STATE_787:1 "Trotton"
+ 
+ 
+### Crystal Empire States
+ STATE_355:1 "Vanhoover"
+ STATE_358:1 "Something"
+ STATE_730:1 "Crystal City"
+ STATE_786:1 "Crystal City Outskirts"
+ 
+### Changeling States
+
+ STATE_788:1 "Wholehoof Pass"
 
 ### Shit that needs to be organized 
  STATE_701:2 "Sunkén Superioris"
@@ -36,7 +53,6 @@
  STATE_727:1 "Viearra Range"
  STATE_728:1 "Tserdian Range"
  STATE_729:1 "Gsorskava"
- STATE_730:1 "Crystal City"
  STATE_731:1 "Peltesk"
  STATE_732:1 "Kvemencheva"
  STATE_733:1 "Arriasta Range"

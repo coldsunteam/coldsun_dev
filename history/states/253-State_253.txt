@@ -2,19 +2,17 @@
 state={
 	id=253
 	name="STATE_253"
-	provinces={
-		58 59 402 403 4627 4630 4632 4633 11796 11866 
-	}
-	
+
 	history={
 		owner = CHD
 		add_core_of = CHD
+
 	}
-	
+
+	provinces={
+		2653 2654 2655 2656 2657 2658 4624 4625 4628 6760 10920 
+	}
 	manpower=100
-
-	state_category=metropolis
-
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

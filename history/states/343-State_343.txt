@@ -1,16 +1,18 @@
+
 state={
 	id=343
 	name="STATE_343"
-	provinces={
-		282 1332 1333 1334 1335 3159 5624 5625 5628 6709 6710 9012 9013 10618 10619 10764 11195 11700 11768 
-	}
-	
+
 	history={
 		owner = CRY
 		add_core_of = CRY
+
 	}
-	
+
+	provinces={
+		1332 1333 1334 3159 5624 6708 6709 6710 9012 9013 10617 10618 10619 11072 11700 11768 19570 19571 19575 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
