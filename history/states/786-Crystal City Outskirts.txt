@@ -5,6 +5,13 @@ state={
 	provinces={
 		2354 5957 6460 6461 6462 6463 7258 7571 7572 9104 9105 9984 19565 19566 19567 19568 
 	}
+	
+	history={
+		owner = CRY
+		add_core_of = CRY
+	}
+	
+	state_category=rural
 	manpower=0
 	buildings_max_level_factor=1.000
 }

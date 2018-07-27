@@ -1,0 +1,15 @@
+state={
+	id=795
+	name="STATE_795"
+	provinces={
+		2542 2543 2545 2546 3264 3265 3266 7286 7442 7698 7930 8305 10379 11829 
+	}
+	
+	history={
+		owner = CHC
+		add_core_of = CHC
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

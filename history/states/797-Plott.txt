@@ -1,0 +1,17 @@
+
+state={
+	id=797
+	name="STATE_797"
+	provinces={
+		1524 1525 1526 1527 5295 5296 6464 6467 9259 9260 9261 9284 9418 10802 10868 11176 
+	}
+	
+	history={
+		owner = EQS
+		add_core_of = EQS
+
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

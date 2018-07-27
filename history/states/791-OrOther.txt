@@ -1,0 +1,15 @@
+state={
+	id=791
+	name="STATE_791"
+	provinces={
+		3158 5102 5103 5104 5105 5106 5473 10338 10803 10939 11934 
+	}
+	
+	history={
+		owner = CRY
+		add_core_of = CRY
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

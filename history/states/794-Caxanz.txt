@@ -1,0 +1,15 @@
+state={
+	id=794
+	name="STATE_794"
+	provinces={
+		1237 1240 4604 7697 10316 10714 11830 19594 
+	}
+	
+	history={
+		owner = CHC
+		add_core_of = CHC
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

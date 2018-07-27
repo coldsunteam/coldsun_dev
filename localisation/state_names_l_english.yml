@@ -1,6 +1,4 @@
 ﻿l_english:
-
-l_english:
  STATE_1:0 "Corsica"
  STATE_2:0 "Latium"
  STATE_3:0 "Switzerland"
@@ -709,10 +707,7 @@ l_english:
  STATE_787:1 "Trotton"
  STATE_730:1 "Crystal City"
  STATE_786:1 "Crystal City Outskirts"
- 
-
  STATE_788:1 "Wholehoof Pass"
-
  STATE_701:2 "Sunkén Superioris"
  STATE_702:2 "Sunkén Inferioris"
  STATE_703:1 "Aeknes"
@@ -792,3 +787,15 @@ l_english:
  STATE_781:0 "Ezestros"
  STATE_777:0 "STATE_777"
  STATE_782:0 "Northern Spine Mountains"
+ STATE_789:0 "STATE_789"
+ STATE_790:0 "STATE_790"
+ STATE_791:0 "OrOther"
+ STATE_792:0 "Otherthing"
+ STATE_793:0 "Azzomix"
+ STATE_794:0 "Caxanz"
+ STATE_795:0 "Xenns"
+ STATE_796:0 "Ivixe"
+ STATE_797:0 "Plott"
+ STATE_798:0 "Plotdiff"
+ STATE_799:0 "Izvit"
+ STATE_800:0 "Mareida"

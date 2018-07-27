@@ -4,6 +4,13 @@ state={
 	provinces={
 		6040 6041 6042 6043 11191 11487 
 	}
+	
+	history={
+		owner = EQS
+		add_core_of = EQS
+
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }
