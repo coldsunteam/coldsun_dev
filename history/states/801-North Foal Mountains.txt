@@ -1,0 +1,15 @@
+state={
+	id=801
+	name="STATE_801"
+	provinces={
+		3165 6284 9203 19609 19610 19611 19612 19613 19614 
+	}
+	
+	history={
+		owner = CRY
+		add_core_of = CRY
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

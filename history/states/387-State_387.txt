@@ -2,15 +2,16 @@
 state={
 	id=387
 	name="STATE_387"
-	provinces={
-		104 105 106 107 108 109 110 111 1859 6634 6635 6636 7646 7849 9813 10851 11720 11857 11858 
-	}
-	
+
 	history={
 		owner = GGA
 		add_core_of = GGA
+
 	}
-	
+
+	provinces={
+		104 105 106 107 109 110 6634 6635 6636 7849 9813 10851 11857 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

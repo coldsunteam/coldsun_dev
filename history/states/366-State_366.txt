@@ -4,13 +4,13 @@ state={
 	name="STATE_366"
 
 	history={
-		owner = GGA
-		add_core_of = GGA
+		owner = KOB
+		add_core_of = KOB
 
 	}
 
 	provinces={
-		1696 1697 1854 1855 5115 6627 6628 6630 10916 
+		1697 1698 1699 1700 1853 5115 5116 6316 7094 9204 10916 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

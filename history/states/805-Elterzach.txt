@@ -1,0 +1,15 @@
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		2949 2950 2951 2952 2953 3229 6653 9568 9589 9688 
+	}
+	
+	history={
+		owner = GRI
+		add_core_of = GRI
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

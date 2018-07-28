@@ -4,13 +4,13 @@ state={
 	name="STATE_377"
 
 	history={
-		owner = GRI
-		add_core_of = GRI
+		owner = GGA
+		add_core_of = GGA
 
 	}
 
 	provinces={
-		311 1695 1856 1857 1858 2665 2666 2667 2668 2669 4712 4747 5500 6149 6150 6151 6152 6156 6157 7647 7907 8408 8409 9217 9505 10692 11756 11801 
+		108 1857 1858 1859 2667 2668 2669 4747 7907 9217 10692 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

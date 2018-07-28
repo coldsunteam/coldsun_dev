@@ -1,0 +1,15 @@
+state={
+	id=807
+	name="STATE_807"
+	provinces={
+		304 2510 2511 2512 2513 2514 2955 2956 2957 6730 6731 9216 9274 10225 10513 11190 
+	}
+	
+	history={
+		owner = GRI
+		add_core_of = GRI
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

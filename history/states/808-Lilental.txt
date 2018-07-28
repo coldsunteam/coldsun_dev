@@ -1,0 +1,15 @@
+state={
+	id=808
+	name="STATE_808"
+	provinces={
+		111 2664 2665 2666 4712 4713 7646 7647 9505 11720 11756 11801 11858 
+	}
+	
+	history={
+		owner = GGA
+		add_core_of = GGA
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

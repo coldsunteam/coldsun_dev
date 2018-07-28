@@ -2,15 +2,16 @@
 state={
 	id=317
 	name="STATE_317"
-	provinces={
-		3317 3318 3596 6404 6405 6571 8396 9196 10430 11250 
-	}
-	
+
 	history={
 		owner = GGB
 		add_core_of = GGB
+
 	}
-	
+
+	provinces={
+		3316 3317 3318 3319 3320 6404 6405 6570 6571 6572 6573 8396 9196 10430 10573 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
