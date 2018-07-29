@@ -207,20 +207,20 @@ color = rgb { 208 143 121 }
 color_ui = rgb { 208 143 121 }
 }
 GRI = {
-color = rgb { 236 165 245 }
-color_ui = rgb { 236 165 245 }
+color = rgb { 62 192 218 }
+color_ui = rgb { 62 192 218 }
 }
 KOB = {
 color = rgb { 0 0 128 }
 color_ui = rgb { 0 0 128 }
 }
 GGA = {
-color = rgb { 0 255 0 }
-color_ui = rgb { 0 255 0 }
+color = rgb { 76 168 58 }
+color_ui = rgb { 76 168 58 }
 }
 GGB = {
-color = rgb { 0 255 0 }
-color_ui = rgb { 0 255 0 }
+color = rgb { 176 168 58 }
+color_ui = rgb { 176 168 58 }
 }
 EQC = {
 color = rgb { 157 28 157 }
