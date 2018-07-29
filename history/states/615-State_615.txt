@@ -1,15 +1,18 @@
+
 state={
 	id=615
 	name="STATE_615"
-	provinces={
-		2610 2611 2613 2614 2615 2616 4216 5194 5195 8917 8918 11063 11693 11721 
-	}
-	manpower=100
 
 	history={
 		owner = CER
 		add_core_of = CER
+
 	}
-state_category=metropolis
+
+	provinces={
+		2607 2609 2610 2611 2613 2614 10634 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
