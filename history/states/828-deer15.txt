@@ -4,6 +4,13 @@ state={
 	provinces={
 		3497 3498 3499 3500 3501 5991 6135 6136 6137 7057 8166 8167 8971 9539 
 	}
+	
+	history={
+		owner = JDC
+		add_core_of = JDC
+
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

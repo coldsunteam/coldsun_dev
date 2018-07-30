@@ -1,0 +1,15 @@
+state={
+	id=856
+	name="STATE_856"
+	provinces={
+		503 504 505 3758 9116 9910 9913 9914 10838 11729 
+	}
+	
+	history={
+		owner = EDC
+		add_core_of = EDC
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

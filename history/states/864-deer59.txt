@@ -1,0 +1,15 @@
+state={
+	id=864
+	name="STATE_864"
+	provinces={
+		3117 5566 5567 5568 5569 6556 6999 11789 
+	}
+	
+	history={
+		owner = SCD
+		add_core_of = SCD
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

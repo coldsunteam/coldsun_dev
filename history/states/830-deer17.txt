@@ -1,9 +1,17 @@
+
 state={
 	id=830
 	name="STATE_830"
 	provinces={
-		2347 2348 4545 4546 4547 6544 6545 7265 7478 7925 11677 19619 
+		2347 2348 4545 4546 4547 4548 4549 5908 6544 6545 7265 7478 7925 10699 11677 19619 19621 
 	}
+	
+	history={
+		owner = JDC
+		add_core_of = JDC
+
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

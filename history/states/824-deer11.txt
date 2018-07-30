@@ -5,6 +5,12 @@ state={
 	provinces={
 		3495 3496 11086 11087 
 	}
+	
+	history={
+		owner = NDR
+		add_core_of = NDR
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

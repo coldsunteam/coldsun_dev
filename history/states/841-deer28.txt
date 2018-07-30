@@ -1,0 +1,15 @@
+state={
+	id=841
+	name="STATE_841"
+	provinces={
+		2125 2126 2127 2128 3113 3114 3115 9301 10649 10650 10801 11043 
+	}
+	
+	history={
+		owner = SCD
+		add_core_of = SCD
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

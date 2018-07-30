@@ -1,0 +1,15 @@
+state={
+	id=861
+	name="STATE_861"
+	provinces={
+		3145 3146 3147 6023 8660 19672 19674 19677 19679 
+	}
+	
+	history={
+		owner = SDN
+		add_core_of = SDN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

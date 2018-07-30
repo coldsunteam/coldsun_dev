@@ -1,0 +1,16 @@
+state={
+	id=862
+	name="STATE_862"
+	provinces={
+		780 781 3141 3142 3143 4538 11564 19678 19680 
+	}
+	
+	history={
+		owner = JDC
+		add_core_of = JDC
+
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

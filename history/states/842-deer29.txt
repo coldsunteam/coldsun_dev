@@ -1,0 +1,16 @@
+
+state={
+	id=842
+	name="STATE_842"
+	provinces={
+		450 452 1595 1596 1597 1598 1599 1600 5937 5938 6978 7568 10178 10871 
+	}
+	
+	history={
+		owner = SCD
+		add_core_of = SCD
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

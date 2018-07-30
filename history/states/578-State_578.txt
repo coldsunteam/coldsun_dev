@@ -4,13 +4,13 @@ state={
 	name="STATE_578"
 
 	history={
-		owner = NDR
-		add_core_of = NDR
+		owner = SDN
+		add_core_of = SDN
 
 	}
 
 	provinces={
-		780 781 4533 4534 4535 4536 4537 4538 5093 10126 11564 
+		4533 4534 4535 4536 4537 5093 10126 19675 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

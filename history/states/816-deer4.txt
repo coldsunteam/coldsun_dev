@@ -4,6 +4,12 @@ state={
 	provinces={
 		2568 2569 2612 8273 8318 8319 8320 8919 
 	}
+	
+	history={
+		owner = CER
+		add_core_of = CER
+	}
+	
 	manpower=0
 	buildings_max_level_factor=1.000
 }

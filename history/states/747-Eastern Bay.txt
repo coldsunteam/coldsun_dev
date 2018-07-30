@@ -1,16 +1,18 @@
+
 state={
 	id=747
 	name="STATE_747"
-	provinces={
-		1287 1288 1289 1290 2362 2363 2539 3670 3738 8142 9583 9584 9585 9710 10613 11937 
-	}
-	
+
 	history={
 		owner = OUT
 		add_core_of = OUT
+
 	}
-	
+
+	provinces={
+		1287 1288 1289 1290 3670 3737 3738 7370 7451 8142 9583 9584 9585 9710 
+	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

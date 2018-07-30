@@ -1,0 +1,16 @@
+
+state={
+	id=850
+	name="STATE_850"
+	provinces={
+		3134 3135 3136 5214 5220 5221 5222 7419 7420 11518 19665 19667 
+	}
+	
+	history={
+		owner = SDN
+		add_core_of = SDN
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

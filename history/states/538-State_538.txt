@@ -1,16 +1,18 @@
+
 state={
 	id=538
 	name="STATE_538"
-	provinces={
-		1512 1513 3759 3760 3761 4855 5824 7362 9318 9910 9911 9912 10352 11093 
-	}
-	
+
 	history={
 		owner = EDC
 		add_core_of = EDC
+
 	}
-	
+
+	provinces={
+		1512 1513 3760 4855 5824 7866 7867 11093 11302 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

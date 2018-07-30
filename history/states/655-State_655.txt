@@ -2,16 +2,17 @@
 state={
 	id=655
 	name="STATE_655"
-	provinces={
-		250 985 986 2285 2287 2288 2289 2290 4685 5460 7263 8792 8793 9821 10408 10739 10740 
-	}
-	
+
 	history={
 		owner = SDN
 		add_core_of = SDN
+
 	}
-	
+
+	provinces={
+		985 1099 2285 2286 2287 2288 2289 3075 7263 7264 9152 9650 11466 11486 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

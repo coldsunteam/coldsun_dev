@@ -1,0 +1,16 @@
+state={
+	id=865
+	name="STATE_865"
+	provinces={
+		6663 8482 19659 
+	}
+	
+	history={
+		owner = VEN
+		add_core_of = VEN
+	}
+	
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

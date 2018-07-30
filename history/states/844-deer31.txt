@@ -1,0 +1,16 @@
+
+state={
+	id=844
+	name="STATE_844"
+	provinces={
+		3902 3903 4348 4349 4350 4351 7959 9059 9237 10504 19652 
+	}
+	
+	history={
+		owner = OUT
+		add_core_of = OUT
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

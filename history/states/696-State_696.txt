@@ -2,16 +2,17 @@
 state={
 	id=696
 	name="STATE_696"
-	provinces={
-		3150 3151 3152 3153 3154 3155 3156 6185 6186 6187 9161 9162 10246 10615 11625 11641 11919 
-	}
-	
+
 	history={
 		owner = OUT
 		add_core_of = OUT
+
 	}
-	
+
+	provinces={
+		3151 3152 3153 3154 3155 3156 6185 6186 6187 9161 9162 10246 10615 11641 11919 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -1,0 +1,16 @@
+
+state={
+	id=840
+	name="STATE_840"
+	provinces={
+		2129 2132 6490 6491 6507 6508 6509 8786 8787 9529 
+	}
+	
+	history={
+		owner = SCD
+		add_core_of = SCD
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}
