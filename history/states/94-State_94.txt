@@ -2,16 +2,17 @@
 state={
 	id=94
 	name="STATE_94"
-	provinces={
-		6661 6662 11027 11028 
-	}
-	
+
 	history={
 		owner = PCF
 		add_core_of = PCF
+
 	}
-	
+
+	provinces={
+		6662 
+	}
 	manpower=100
-	state_category="metropolis"
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

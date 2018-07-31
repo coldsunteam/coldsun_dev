@@ -1,16 +1,18 @@
+
 state={
 	id=87
 	name="STATE_87"
-	provinces={
-		4924 4925 4926 4927 5442 6031 6032 6033 6034 6035 6648 7207 7701 8933 9285 9290 10541 
-	}
-	
+
 	history={
 		owner = PCF
 		add_core_of = PCF
+
 	}
-	
+
+	provinces={
+		6035 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -2,16 +2,17 @@
 state={
 	id=89
 	name="STATE_89"
-	provinces={
-		733 734 735 736 1428 1429 1430 1431 1432 2054 2055 3416 5631 6723 6724 7517 8075 10788 10918 11620 
-	}
-	
+
 	history={
 		owner = BAP
 		add_core_of = BAP
+
 	}
-	
+
+	provinces={
+		1431 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
