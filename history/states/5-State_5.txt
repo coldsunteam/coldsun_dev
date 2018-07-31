@@ -1,16 +1,18 @@
+
 state={
 	id=5
 	name="STATE_5"
-	provinces={
-		3258 7147 8813 9917 11053 
-	}
-	
+
 	history={
 		owner = FPN
 		add_core_of = FPN
+
 	}
-	
+
+	provinces={
+		8813 
+	}
 	manpower=100
-	state_category="metropolis"
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -2,16 +2,17 @@
 state={
 	id=37
 	name="STATE_37"
-	provinces={
-		808 809 810 811 812 813 1200 1201 2306 5352 6694 9188 9189 9673 10334 10335 10922 11725 
-	}
-	
+
 	history={
 		owner = NPN
 		add_core_of = NPN
+
 	}
-	
+
+	provinces={
+		10922 
+	}
 	manpower=100
-	state_category="metropolis"
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

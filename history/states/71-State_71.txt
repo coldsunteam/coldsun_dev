@@ -2,16 +2,17 @@
 state={
 	id=71
 	name="STATE_71"
-	provinces={
-		387 3650 3651 3652 3653 4190 9496 10280 10359 10360 10487 10807 11760 
-	}
-	
+
 	history={
 		owner = RNG
 		add_core_of = RNG
+
 	}
-	
+
+	provinces={
+		10359 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

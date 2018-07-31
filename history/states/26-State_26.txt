@@ -2,16 +2,17 @@
 state={
 	id=26
 	name="STATE_26"
-	provinces={
-		1916 2014 2050 2051 6328 6329 8915 9240 9492 9703 10062 10644 10645 11244 11610 11822 
-	}
-	
+
 	history={
 		owner = FPN
 		add_core_of = FPN
+
 	}
-	
+
+	provinces={
+		2051 11822 
+	}
 	manpower=100
-	state_category="metropolis"
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -2,16 +2,17 @@
 state={
 	id=133
 	name="STATE_133"
-	provinces={
-		3778 6536 7854 8763 10301 11651 11953 11958 
-	}
-	
+
 	history={
 		owner = BPN
 		add_core_of = BPN
+
 	}
-	
+
+	provinces={
+		3778 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
