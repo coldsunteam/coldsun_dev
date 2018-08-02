@@ -1,12 +1,12 @@
 guiTypes = {
 	containerWindowType = {
 		name = "defcon_container"
-		position = { x = 1000 y = 5 } 
+		position = { x = 204 y = 38 } 
 		
 		buttonType = {
 			name = "defcon_button"
-			spriteType = "GFX_world_tension_icon"
-			position = { x= 74 y = 0 }
+			spriteType = "GFX_topbar_decisionview_button"
+			position = { x= -108 y = 38 }
 		}
 	}
 		
@@ -48,36 +48,36 @@ guiTypes = {
 		buttonType = {
 			name = "defcon_5" 
 			position = {x=75 y=60}	
-			spriteType = "GFX_world_tension_icon"
-			scale = 2
+			spriteType = "GFX_defcon_5"
+			scale = 1
 		}
 		
 		buttonType = {
 			name = "defcon_4" 
 			position = {x=75 y=120}	
-			spriteType = "GFX_world_tension_icon"
-			scale = 2
+			spriteType = "GFX_defcon_4"
+			scale = 1
 		}
 		
 		buttonType = {
 			name = "defcon_3" 
 			position = {x=75 y=180}	
-			spriteType = "GFX_world_tension_icon"
-			scale = 2
+			spriteType = "GFX_defcon_3"
+			scale = 1
 		}
 		
 		buttonType = {
 			name = "defcon_2" 
 			position = {x=75 y=240}	
-			spriteType = "GFX_world_tension_icon"
-			scale = 2
+			spriteType = "GFX_defcon_2"
+			scale = 1
 		}
 		
 		buttonType = {
 			name = "defcon_1" 
 			position = {x=75 y=300}	
-			spriteType = "GFX_world_tension_icon"
-			scale = 2
+			spriteType = "GFX_defcon_1"
+			scale = 1
 		}
 	}
 }

@@ -1,0 +1,27 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_defcon_5"
+		texturefile = "gfx/interface/defcon/DEFCON 5.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_defcon_4"
+		texturefile = "gfx/interface/defcon/DEFCON 4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_defcon_3"
+		texturefile = "gfx/interface/defcon/DEFCON 3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_defcon_2"
+		texturefile = "gfx/interface/defcon/DEFCON 2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_defcon_1"
+		texturefile = "gfx/interface/defcon/DEFCON 1.dds"
+	}
+}
