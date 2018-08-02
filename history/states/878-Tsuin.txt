@@ -1,0 +1,16 @@
+state={
+	id=878
+	name="STATE_878"
+	
+	
+	history={
+		owner = BAP
+		add_core_of = BAP
+	}
+	
+	provinces={
+		6517 9089 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

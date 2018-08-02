@@ -1,17 +1,12 @@
+
 state={
 	id=775
 	name="STATE_775"
+	
 	provinces={
-		383 19561 19563 
+		6991 6992 8972 
 	}
-	
-	history={
-		owner = NPN
-		add_core_of = NPN
-
-	}
-	
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

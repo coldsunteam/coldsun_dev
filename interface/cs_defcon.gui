@@ -13,7 +13,7 @@ guiTypes = {
 	containerWindowType = {
 		name = "defcon_window"
 		position = {x=480 y=100}
-		size = { width=200 height=380 }
+		size = { width=400 height=380 }
 		
 		clipping = no
 		moveable = yes

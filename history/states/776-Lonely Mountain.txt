@@ -1,17 +1,12 @@
+
 state={
 	id=776
 	name="STATE_776"
-	provinces={
-		19557 19559 
-	}
-	
-	history={
-		owner = BAP
-		add_core_of = BAP
 
+	provinces={
+		17 19557 19559 
 	}
-	
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

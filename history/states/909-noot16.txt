@@ -1,0 +1,15 @@
+state={
+	id=909
+	name="STATE_909"
+	
+	history={
+		owner = PCF
+		add_core_of = PCF
+	}
+	
+	provinces={
+		6166 6167 6168 6783 7818 8527 20059 20065 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

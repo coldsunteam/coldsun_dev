@@ -1,17 +1,12 @@
+
 state={
 	id=777
 	name="STATE_777"
-	provinces={
-		6339 19558 19560 
-	}
-	
-	history={
-		owner = APN
-		add_core_of = APN
 
+	provinces={
+		2736 2737 6047 6048 6050 6950 19914 
 	}
-	
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

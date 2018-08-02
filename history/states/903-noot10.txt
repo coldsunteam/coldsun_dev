@@ -1,0 +1,15 @@
+state={
+	id=903
+	name="STATE_903"
+	
+	history={
+		owner = RNG
+		add_core_of = RNG
+	}
+	
+	provinces={
+		3337 4186 4187 4188 4190 6825 8574 8575 8576 9678 10392 20025 20052 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

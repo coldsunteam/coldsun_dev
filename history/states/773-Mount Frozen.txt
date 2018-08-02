@@ -4,13 +4,7 @@ state={
 	provinces={
 		11137 19562 
 	}
-	
-	history={
-		owner = RNG
-		add_core_of = RNG
 
-	}
-	
 	manpower=100
 	state_category=metropolis
 	buildings_max_level_factor=1.000

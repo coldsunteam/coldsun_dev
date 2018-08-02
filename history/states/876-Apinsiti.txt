@@ -1,0 +1,15 @@
+state={
+	id=876
+	name="STATE_876"
+	
+	history={
+		owner = APN
+		add_core_of = APN
+	}
+	
+	provinces={
+		1829 1830 1831 1832 2337 2338 3175 3178 7619 11890 19803 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+
+state={
+	id=919
+	name="STATE_919"
+	
+	history={
+		owner = PCF
+		add_core_of = PCF
+	}
+	
+	provinces={
+		2588 3843 9860 10866 20071 20077 20078 20089 20096 20107 20111 20121 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -3,14 +3,8 @@ state={
 	id=73
 	name="STATE_73"
 
-	history={
-		owner = PCF
-		add_core_of = PCF
-
-	}
-
 	provinces={
-		8978 
+		6598 8865 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

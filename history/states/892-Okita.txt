@@ -1,0 +1,15 @@
+state={
+	id=892
+	name="STATE_892"
+	
+	history={
+		owner = APN
+		add_core_of = APN
+	}
+	
+	provinces={
+		1506 2429 2432 9010 10812 19783 19788 19790 19796 20302 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

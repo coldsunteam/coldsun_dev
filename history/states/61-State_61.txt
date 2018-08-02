@@ -6,11 +6,10 @@ state={
 	history={
 		owner = NPN
 		add_core_of = NPN
-
 	}
 
 	provinces={
-		4862 
+		399 400 4862 4863 8252 8732 11441 19564 20311 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -4,13 +4,12 @@ state={
 	name="STATE_40"
 
 	history={
-		owner = PCF
-		add_core_of = PCF
-
+		owner = APN
+		add_core_of = APN
 	}
 
 	provinces={
-		3899 
+		1828 1834 1835 3528 3529 3530 10340 10444 11174 19782 19801 19821 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

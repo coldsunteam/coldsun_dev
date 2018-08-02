@@ -1,0 +1,15 @@
+state={
+	id=869
+	name="STATE_869"
+	
+	history={
+		owner = BPN
+		add_core_of = BPN
+	}
+	
+	provinces={
+		3313 3314 4952 4953 6851 11014 19718 19723 19729 19731 19735 19736 19746 19752 19764 19769 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -4,13 +4,13 @@ state={
 	name="STATE_64"
 
 	history={
-		owner = PCF
-		add_core_of = PCF
+		owner = OPN
+		add_core_of = OPN
 
 	}
 
 	provinces={
-		2642 
+		6370 6371 11031 19879 19884 19885 19892 19909 19910 19919 19921 19929 20306 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

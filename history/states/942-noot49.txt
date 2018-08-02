@@ -1,0 +1,15 @@
+state={
+	id=942
+	name="STATE_942"
+	
+	history={
+		owner = NNP
+		add_core_of = NNP
+	}
+	
+	provinces={
+		1727 3258 4922 7147 8813 20259 20260 20265 20269 20271 20277 20278 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

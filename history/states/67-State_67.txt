@@ -2,15 +2,9 @@
 state={
 	id=67
 	name="STATE_67"
-
-	history={
-		owner = RNG
-		add_core_of = RNG
-
-	}
-
+	
 	provinces={
-		3341 
+		3341 10569 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

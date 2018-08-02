@@ -1,0 +1,16 @@
+
+state={
+	id=872
+	name="STATE_872"
+	
+	history={
+		owner = BPN
+		add_core_of = BPN
+	}
+	
+	provinces={
+		1497 6075 7768 19730 19732 19740 19750 19760 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

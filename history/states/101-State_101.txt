@@ -6,11 +6,10 @@ state={
 	history={
 		owner = BAP
 		add_core_of = BAP
-
 	}
 
 	provinces={
-		254 
+		732 734 7517 19877 19898 19903 19907 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

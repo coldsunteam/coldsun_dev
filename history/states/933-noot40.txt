@@ -1,0 +1,15 @@
+state={
+	id=933
+	name="STATE_933"
+	
+	history={
+		owner = FPN
+		add_core_of = FPN
+	}
+	
+	provinces={
+		1118 2085 2591 3724 8066 8067 8324 8563 9754 11329 20285 20287 20288 20290 20293 20294 20295 20298 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

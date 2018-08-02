@@ -4,13 +4,12 @@ state={
 	name="STATE_94"
 
 	history={
-		owner = PCF
-		add_core_of = PCF
-
+		owner = RNG
+		add_core_of = RNG
 	}
 
 	provinces={
-		6662 
+		4864 6988 7389 9337 20083 20100 20103 20310 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

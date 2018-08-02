@@ -4,13 +4,12 @@ state={
 	name="STATE_100"
 
 	history={
-		owner = APN
-		add_core_of = APN
-
+		owner = BAP
+		add_core_of = BAP
 	}
 
 	provinces={
-		8248 
+		19854 19856 19857 19860 19869 19878 19880 19896 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

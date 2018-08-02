@@ -1,0 +1,15 @@
+state={
+	id=887
+	name="STATE_887"
+	
+	history={
+		owner = APN
+		add_core_of = APN
+	}
+	
+	provinces={
+		1511 6437 8158 9315 19757 19767 19780 19781 19792 19797 19810 19822 19827 19832 19836 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
