@@ -22,6 +22,7 @@ technology_categories = {
 	navy
 	naval_doctrine
 	civilian
+	electronics
 	space
 }
 
