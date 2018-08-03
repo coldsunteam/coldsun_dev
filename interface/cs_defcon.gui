@@ -1,12 +1,12 @@
 guiTypes = {
 	containerWindowType = {
 		name = "defcon_container"
-		position = { x = 204 y = 38 } 
+		position = { x = 204 y = 10 } 
 		
 		buttonType = {
 			name = "defcon_button"
 			spriteType = "GFX_topbar_decisionview_button"
-			position = { x= -108 y = 38 }
+			position = { x= 340 y = 27 }
 		}
 	}
 		

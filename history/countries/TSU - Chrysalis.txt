@@ -9,15 +9,15 @@ set_politics = {
 	
 	parties = {
 		democratic = {
-			popularity = 10
+			popularity = 0
 		}
 		
 		fascism = {
-			popularity = 90
+			popularity = 0
 		}
 		
 		communism = {
-			popularity = 0
+			popularity = 100
 			#banned = no #default is no
 		}
 		
@@ -26,7 +26,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = communism
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
@@ -35,7 +35,7 @@ set_politics = {
 create_country_leader = {
 	name = "Queen Chrysalis"
 	desc = ""
-	picture = ""
+	picture = "Chrysalis.tga"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -45,7 +45,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Queen Chrysalis"
 	
-	picture = ""
+	picture = "Chrysalis.tga"
 	expire = "1965.1.1"
 	ideology = nazism
 	traits = {
@@ -56,7 +56,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Queen Chrysalis"
 	desc = ""
-	picture = ""
+	picture = "Chrysalis.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -67,7 +67,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Queen Chrysalis"
 	desc = ""
-	picture = ""
+	picture = "Chrysalis.tga"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {

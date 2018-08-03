@@ -1,0 +1,49 @@
+scripted_gui = {
+	ChrysalisQueenLoyalty = {
+		context_type = player_context
+		
+		window_name = "heart_button_container"
+		
+		visible = {
+			tag = TSU
+		}
+		
+		effects = {
+			heart_button_click = {
+				if = {
+					limit = {
+						check_variable = {
+							cql_show > 0
+						}
+					}
+					set_variable = {
+						cql_show = 0
+					}
+				}
+				
+				if = {
+					limit = {
+						check_variable = {
+							cql_show < 1
+						}
+					}
+					set_variable = {
+						cql_show = 1
+					}
+				}
+			}
+		}
+	}
+	
+	CQL_SCreen = {
+		context_type = player_context
+		
+		window_name = "cql_window"
+		
+		visible = {
+			check_variable = {
+				cql_show > 0
+			}
+		}
+	}
+}

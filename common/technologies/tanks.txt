@@ -1,0 +1,37 @@
+technologies = {
+	tank = {
+		path = {
+			leads_to_tech = tank_1
+			research_cost_coeff = 1
+		}		
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = mechanized_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			tanks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tank_1 = {	
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = mechanized_folder
+			position = { x = 0 y = 2 }
+		}
+		categories = {
+			tanks
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}

@@ -1,0 +1,14 @@
+scripted_gui = {
+	extra_topbar = {
+		context_type = player_context
+		
+		window_name = "extra_topbar_container"
+		
+		visible = {
+			always = no
+		}
+		
+		effects = {
+		}
+	}
+}

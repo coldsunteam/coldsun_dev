@@ -1,0 +1,7 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_poison_heart"
+		texturefile = "gfx/interface/chrysalis_loyalty/poison_heart.dds"
+	}
+}

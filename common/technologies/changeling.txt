@@ -1,0 +1,46 @@
+technologies = {
+	changeling_race = {
+		research_cost = 1
+		allow = {
+			always = no
+		}
+	}
+	
+	changeling = {
+		path = {
+			leads_to_tech = changeling_1
+			research_cost_coeff = 1
+		}		
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = pony_folder
+			position = { x = 0 y = 1 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	changeling_1 = {	
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = pony_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

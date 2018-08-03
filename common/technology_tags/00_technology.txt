@@ -1,0 +1,28 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+	infantry_weapons
+	tanks
+	land_doctrine
+	air_planes
+	air_doctrine
+	navy
+	naval_doctrine
+	civilian
+	space
+}
+
+technology_folders = {
+	infantry_folder
+	mechanized_folder
+	land_doctrine_folder
+	air_folder
+	air_doctrine_folder
+	navy_folder
+	naval_doctrine_folder
+	civilian_folder
+	space_folder
+}
+
+ 

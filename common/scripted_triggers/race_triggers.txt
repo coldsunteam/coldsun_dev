@@ -1,0 +1,11 @@
+is_pony_race = {
+	has_tech = pony_race
+}
+
+is_changeling_race = {
+	has_tech = changeling_race
+}
+
+is_deer_race = {
+	has_tech = deer_race
+}
