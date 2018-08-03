@@ -3,6 +3,7 @@
 oob = "CER_1936"
 
 set_technology = {
+	deer_race = 1
 }
 set_convoys = 10
 set_politics = {

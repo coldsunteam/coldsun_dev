@@ -3,6 +3,18 @@
 
 technology_categories = {
 	infantry_weapons
+	magical_weapons
+	artillery
+	support_tech
+	engineers_tech
+	recon_tech
+	military_police_tech
+	maintenance_company_tech
+	hospital_tech
+	motorized_equipment
+	logistics_tech
+	signal_company_tech
+	rocket_artillery
 	tanks
 	land_doctrine
 	air_planes

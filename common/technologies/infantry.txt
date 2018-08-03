@@ -1,27 +1,25 @@
 technologies = {
-	
-	@1918 = 0
-	@1936 = 2
-	@1938 = 4
-	@1939 = 6
-	@1940 = 8
-	@1941 = 10
-	@1942 = 12
-	@1943 = 14
-	@1944 = 16
-	@1945 = 18
-	@1946 = 20
 
 	infantry_weapons = {
 		path = {
 			leads_to_tech = infantry_weapons1
 			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = magical_weapons1
+			research_cost_coeff = 1
 		}		
+		enable_equipments = {
+			infantry_equipment_0
+		}
+		enable_subunits = {
+			infantry
+		}
 		research_cost = 1
-		start_year = 1918
+		start_year = 2028
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = -1 }
+			position = { x = 2 y = -1 }
 		}
 		
 		categories = {
@@ -34,11 +32,18 @@ technologies = {
 	}
 	
 	infantry_weapons1 = {	
+		path = {
+			leads_to_tech = infantry_weapons2
+			research_cost_coeff = 1
+		}
+		enable_equipments = {
+			infantry_equipment_1
+		}
 		research_cost = 1.5
 		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1936 }
+			position = { x = 0 y = 1 }
 		}
 		categories = {
 			infantry_weapons
@@ -46,5 +51,501 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
-	}	
+	}
+
+	infantry_weapons2 = {
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		cavalry = {
+			soft_attack = 0.05
+		}
+		motorized = {
+			soft_attack = 0.05
+		}
+		mechanized = {
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = improved_infantry_weapons
+			research_cost_coeff = 1
+		}		
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 3 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	improved_infantry_weapons = {
+		enable_equipments = {
+			infantry_equipment_2
+		}
+		path = {
+			leads_to_tech = improved_infantry_weapons_2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 5 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 3	
+		}
+	}
+	improved_infantry_weapons_2 = {
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		cavalry = {
+			soft_attack = 0.05
+		}
+		motorized = {
+			soft_attack = 0.05
+		}
+		mechanized = {
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = advanced_infantry_weapons
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 7 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	advanced_infantry_weapons = {
+		enable_equipments = {
+			infantry_equipment_3
+		}	
+		path = {
+			leads_to_tech = advanced_infantry_weapons2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 9 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 0.8
+		}
+	}
+	advanced_infantry_weapons2 = {
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		cavalry = {
+			soft_attack = 0.1
+		}		
+		motorized = {
+			soft_attack = 0.1
+		}
+		mechanized = {
+			soft_attack = 0.1
+		}		
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = infantry_folder
+			position = { x = 0 y = 11 }
+		}
+		categories = {
+			infantry_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	magical_weapons1 = {	
+		path = {
+			leads_to_tech = magical_weapons2
+			research_cost_coeff = 1
+		}
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 1 }
+		}
+		categories = {
+			magical_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	magical_weapons2 = {
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		cavalry = {
+			soft_attack = 0.05
+		}
+		motorized = {
+			soft_attack = 0.05
+		}
+		mechanized = {
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = magical_weapons3
+			research_cost_coeff = 1
+		}		
+		research_cost = 1.5
+		start_year = 1938
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 3 }
+		}
+		categories = {
+			magical_weapons
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	magical_weapons3 = {
+		path = {
+			leads_to_tech = magical_weapons4
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1939
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 5 }
+		}
+		categories = {
+			magical_weapons
+		}
+		ai_will_do = {
+			factor = 3	
+		}
+	}
+	magical_weapons4 = {
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		cavalry = {
+			soft_attack = 0.05
+		}
+		motorized = {
+			soft_attack = 0.05
+		}
+		mechanized = {
+			soft_attack = 0.05
+		}
+		path = {
+			leads_to_tech = magical_weapons5
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 7 }
+		}
+		categories = {
+			magical_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	magical_weapons5 = {
+		path = {
+			leads_to_tech = magical_weapons6
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 9 }
+		}
+		categories = {
+			magical_weapons
+		}
+		ai_will_do = {
+			factor = 0.8
+		}
+	}
+	magical_weapons6 = {
+		category_light_infantry = {
+			soft_attack = 0.05
+		}
+		cavalry = {
+			soft_attack = 0.1
+		}		
+		motorized = {
+			soft_attack = 0.1
+		}
+		mechanized = {
+			soft_attack = 0.1
+		}		
+		research_cost = 1.5
+		start_year = 1944
+		folder = {
+			name = infantry_folder
+			position = { x = 4 y = 11 }
+		}
+		categories = {
+			magical_weapons
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_support = {
+		enable_equipments = {
+			support_equipment_1
+		}
+		path = {
+			leads_to_tech = tech_engineers
+			research_cost_coeff  = 1
+		}
+		path = {
+			leads_to_tech = tech_recon
+			research_cost_coeff  = 1
+		}
+		research_cost = 1.0
+		start_year = 1918
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = -1 }
+		}
+		categories = {
+			support_tech
+		}
+		ai_will_do = {
+			factor = 2
+		}
+	}
+	
+	tech_engineers = {
+		enable_subunits = {
+			engineer
+		}
+		path = {
+			leads_to_tech = tech_engineers2
+			research_cost_coeff  = 1
+		}
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 1 }
+		}
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_engineers2 = {
+		engineer = {
+			entrenchment  = 2
+			fort = {
+				defence = 0.10
+				attack = 0.10
+			}
+		}
+		path = {
+			leads_to_tech = tech_engineers3
+			research_cost_coeff  = 1
+		}
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 3 }
+		}
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_engineers3 = {
+		engineer = {
+			entrenchment  = 2
+			river = {
+				attack = 0.1	
+				defence = 0.10
+			}
+		}
+		path = {
+			leads_to_tech = tech_engineers4
+			research_cost_coeff  = 1
+		}
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 5 }
+		}
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_engineers4 = {
+		engineer = {
+			entrenchment  = 2
+			urban = {
+				attack = 0.1	
+				defence = 0.1
+			}
+		}
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 6 y = 7 }
+		}
+		categories = {
+			support_tech
+			engineers_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_recon = {
+		enable_subunits = {
+			recon
+		}
+		path = {
+			leads_to_tech = tech_recon2
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 1 }
+		}
+		categories = {
+			support_tech
+			recon_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_recon2 = {
+		recon = {
+			recon = 2
+		}
+		enable_subunits = {
+			recon
+		}
+		path = {
+			leads_to_tech = tech_recon3
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 3 }
+		}
+		categories = {
+			support_tech
+			recon_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_recon3 = {
+		recon = {
+			recon = 2
+		}
+		enable_subunits = {
+			recon
+		}
+		path = {
+			leads_to_tech = tech_recon4
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 5 }
+		}
+		categories = {
+			support_tech
+			recon_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	tech_recon4 = {
+		recon = {
+			recon = 2
+		}
+		enable_subunits = {
+			recon
+		}
+		research_cost = 2
+		start_year = 1936
+		folder = {
+			name = infantry_folder
+			position = { x = 8 y = 7 }
+		}
+		categories = {
+			support_tech
+			recon_tech
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
