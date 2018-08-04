@@ -15,15 +15,25 @@ set_politics = {
 	}
 	
 	ruling_party = fascism
-	last_election = "1936.1.1"
+	last_election = "2020.3.27"
 	election_frequency = 36
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
+	name = "Queen Starya Tenébra Çari Skarya"
 	desc = ""
-	picture = ""
+	picture = "Starya.tga"
+	expire = "2140.1.1"
+	ideology = nazism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Queen Chrysalis"
+	desc = ""
+	picture = "Chrysalis.tga"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -31,32 +41,23 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
+	name = "Queen Chrysalis"
 	desc = ""
-	picture = ""
-	expire = "1965.1.1"
-	ideology = nazism
-	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
-	desc = ""
-	picture = ""
+	picture = "Chrysalis.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
+		
 	}
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
+	name = "Queen Chrysalis"
 	desc = ""
-	picture = ""
+	picture = "Chrysalis.tga"
 	expire = "1965.1.1"
 	ideology = leninism
 	traits = {
+		
 	}
 }
-
