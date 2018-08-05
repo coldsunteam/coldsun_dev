@@ -15,6 +15,30 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		CRY = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		THR = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		TSU = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = communism
+			ideas={
+			}
+			focuses = {
+			}
+		}
 		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !
