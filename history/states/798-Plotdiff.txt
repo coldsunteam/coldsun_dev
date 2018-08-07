@@ -1,17 +1,18 @@
+
 state={
 	id=798
 	name="STATE_798"
-	provinces={
-		919 921 922 923 1123 6894 6895 10737 11398 
-	}
-	
+
 	history={
 		owner = EQS
 		add_core_of = EQS
 
 	}
-	
+
+	provinces={
+		919 920 921 922 923 1123 6894 6895 10737 11398 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

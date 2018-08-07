@@ -2,16 +2,17 @@
 state={
 	id=405
 	name="STATE_405"
-	provinces={
-		112 113 1066 1067 1068 1069 1070 1071 3256 3611 7354 7650 7651 7842 8100 9662 10426 10682 11862 
-	}
-	
+
 	history={
 		owner = EQF
 		add_core_of = EQF
+
 	}
-	
+
+	provinces={
+		1148 2284 3252 3607 3608 3609 3610 7354 7650 7651 7842 8847 9662 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -1,0 +1,15 @@
+state={
+	id=947
+	name="STATE_947"
+	provinces={
+		2281 2282 2283 3605 6667 6669 9901 9902 10238 10536 11744 11841 20336 20338 
+	}
+	
+	history={
+		owner = EQF
+		add_core_of = EQF
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	state_category = large_city
+}
