@@ -2,6 +2,9 @@
 state={
 	id=426
 	name="STATE_426"
+	resources={
+		grain=6
+	}
 
 	history={
 		owner = EQF

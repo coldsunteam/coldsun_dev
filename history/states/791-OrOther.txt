@@ -1,6 +1,10 @@
 state={
 	id=791
 	name="STATE_791"
+	resources={
+		grain=6
+	}
+	
 	provinces={
 		3158 5102 5103 5104 5105 5106 5473 10338 10803 10939 11934 
 	}

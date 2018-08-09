@@ -2,6 +2,10 @@
 state={
 	id=797
 	name="STATE_797"
+	resources={
+		grain=10
+		steel=6
+	}
 
 	history={
 		owner = EQS
