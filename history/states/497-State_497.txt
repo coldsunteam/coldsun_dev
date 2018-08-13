@@ -2,14 +2,20 @@
 state={
 	id=497
 	name="STATE_497"
-	provinces={
-		2367 2368 4370 5547 7111 7112 8483 8484 8485 9642 10278 10279 11946 
-	}
-	manpower=100
-        state_category=metropolis
-	buildings_max_level_factor=1.000
-        history={
+
+	history={
 		owner = SPE
 		add_core_of = SPE
+		victory_points = {
+           		8484 20
+       		}
+
 	}
+
+	provinces={
+		2367 2368 5547 7111 7112 8483 8484 8485 10278 10279 11946 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
