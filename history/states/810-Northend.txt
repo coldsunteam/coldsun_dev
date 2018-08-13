@@ -1,16 +1,18 @@
+
 state={
 	id=810
 	name="STATE_810"
-	provinces={
-		305 306 307 308 1448 1449 1450 1451 2515 2516 2517 2518 5954 6646 8661 8818 9599 
-	}
-	
+
 	history={
 		owner = GRI
 		add_core_of = GRI
+
 	}
-	
+
+	provinces={
+		2516 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

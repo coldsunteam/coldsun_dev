@@ -2,15 +2,16 @@
 state={
 	id=221
 	name="STATE_221"
-	provinces={
-		7400 7401 7402 8275 8276 8277 9076 10347 10908 
-	}
-	
+
 	history={
 		owner = BIG
 		add_core_of = BIG
+
 	}
-	
+
+	provinces={
+		7400 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

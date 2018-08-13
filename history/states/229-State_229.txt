@@ -2,15 +2,16 @@
 state={
 	id=229
 	name="STATE_229"
-	provinces={
-		3406 3407 3408 7341 7342 9569 9570 9732 9733 9970 9993 10153 
-	}
-	
+
 	history={
 		owner = GPG
 		add_core_of = GPG
+
 	}
-	
+
+	provinces={
+		7342 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

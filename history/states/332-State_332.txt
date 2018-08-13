@@ -2,15 +2,16 @@
 state={
 	id=332
 	name="STATE_332"
-	provinces={
-		63 64 65 136 469 470 471 472 6596 7183 10912 11605 
-	}
-	
+
 	history={
 		owner = GPC
 		add_core_of = GPC
+
 	}
-	
+
+	provinces={
+		10912 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

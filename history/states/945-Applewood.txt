@@ -1,19 +1,21 @@
+
 state={
 	id=945
 	name="STATE_945"
 	resources={
-		grain=8
+		grain=8.000
 	}
-	provinces={
-		3921 3922 3926 3927 7483 11044 20329 20330 20331 20332 
-	}
-	
+
 	history={
 		owner = EQS
 		add_core_of = EQS
+
 	}
-	
+
+	provinces={
+		20330 
+	}
 	manpower=0
 	buildings_max_level_factor=1.000
-	state_category = metropolis
+	state_category=metropolis
 }

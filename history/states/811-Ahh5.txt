@@ -1,16 +1,18 @@
+
 state={
 	id=811
 	name="STATE_811"
-	provinces={
-		1445 1446 1447 1625 2788 2789 2790 4465 4466 8673 9713 10998 
-	}
-	
+
 	history={
 		owner = GGB
 		add_core_of = GGB
+
 	}
-	
+
+	provinces={
+		1446 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

@@ -3,30 +3,29 @@ state={
 	id=730
 	name="STATE_730"
 	resources={
-		grain=6
+		grain=6.000
 	}
-	
-	provinces={
-		5164 7259 9637 9985 11563 19521 
-	}
-	
+
 	history={
 		owner = CRY
 		add_core_of = CRY
-		
 		buildings = {
 			infrastructure = 10
 			air_base = 10
 			arms_factory = 2
 			industrial_complex = 4
+
 		}
-		
 		victory_points = {
-			11563 50
+			11563 50 
 		}
+
 	}
-	
+
+	provinces={
+		11563 
+	}
 	manpower=100
-	state_category=large_city
 	buildings_max_level_factor=1.000
+	state_category=large_city
 }

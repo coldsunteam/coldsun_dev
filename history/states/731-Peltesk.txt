@@ -2,16 +2,17 @@
 state={
 	id=731
 	name="STATE_731"
-	provinces={
-		788 789 790 791 1743 1744 1870 1871 1872 3936 3937 3938 4200 4904 7611 8558 10531 
-	}
-	
+
 	history={
 		owner = GPF
 		add_core_of = GPF
+
 	}
-	
+
+	provinces={
+		3936 8558 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

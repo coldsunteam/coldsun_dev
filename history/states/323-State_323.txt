@@ -2,15 +2,16 @@
 state={
 	id=323
 	name="STATE_323"
-	provinces={
-		467 468 474 475 476 2971 5714 8096 9564 11752 
-	}
-	
+
 	history={
 		owner = GPB
 		add_core_of = GPB
+
 	}
-	
+
+	provinces={
+		475 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

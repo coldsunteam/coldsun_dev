@@ -3,7 +3,7 @@ state={
 	id=418
 	name="STATE_418"
 	resources={
-		grain=4
+		grain=4.000
 	}
 
 	history={
@@ -13,7 +13,7 @@ state={
 	}
 
 	provinces={
-		6044 6045 6046 8198 8199 8200 9000 9391 11024 11046 11192 20333 
+		6045 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -2,17 +2,17 @@
 state={
 	id=796
 	name="STATE_796"
-	provinces={
-		50 52 53 54 55 56 57 4626 9170 10116 10175 
-	}
-	
+
 	history={
 		owner = CHE
 		add_core_of = CHE
 
 	}
-	
+
+	provinces={
+		54 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

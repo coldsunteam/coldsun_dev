@@ -2,15 +2,16 @@
 state={
 	id=359
 	name="STATE_359"
-	provinces={
-		687 688 689 690 692 693 694 2081 2082 2083 2084 3618 5397 5663 6550 6551 8570 8571 8572 8705 9155 10315 10909 10968 
-	}
-	
+
 	history={
 		owner = EQA
 		add_core_of = EQA
+
 	}
-	
+
+	provinces={
+		8571 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

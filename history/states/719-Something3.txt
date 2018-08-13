@@ -2,17 +2,17 @@
 state={
 	id=719
 	name="STATE_719"
-	provinces={
-		3455 5958 6416 6640 10666 11672 
-	}
-	
+
 	history={
 		owner = CRY
 		add_core_of = CRY
 
 	}
-	
+
+	provinces={
+		11672 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

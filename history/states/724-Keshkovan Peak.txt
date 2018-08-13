@@ -1,16 +1,18 @@
+
 state={
 	id=724
 	name="STATE_724"
-	provinces={
-		4057 5147 
-	}
-	
+
 	history={
 		owner = BIG
 		add_core_of = BIG
+
 	}
-	
+
+	provinces={
+		5147 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

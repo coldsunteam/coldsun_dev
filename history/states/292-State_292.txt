@@ -2,15 +2,16 @@
 state={
 	id=292
 	name="STATE_292"
-	provinces={
-		2380 4789 4790 4791 4792 4793 4794 4795 4796 4903 7087 7088 7089 8794 8996 9506 10370 11081 11431 
-	}
-	
+
 	history={
 		owner = GPE
 		add_core_of = GPE
+
 	}
-	
+
+	provinces={
+		4792 7088 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

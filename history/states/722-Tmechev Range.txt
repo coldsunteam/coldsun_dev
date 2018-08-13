@@ -1,16 +1,18 @@
+
 state={
 	id=722
 	name="STATE_722"
-	provinces={
-		617 618 2493 3403 4852 8846 9249 9250 9941 10236 10242 
-	}
-	
+
 	history={
 		owner = GPF
 		add_core_of = GPF
+
 	}
-	
+
+	provinces={
+		10242 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

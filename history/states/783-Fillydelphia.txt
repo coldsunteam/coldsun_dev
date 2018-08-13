@@ -3,20 +3,20 @@ state={
 	id=783
 	name="STATE_783"
 	resources={
-		grain=2
-		steel=10
+		grain=2.000
+		steel=10.000
 	}
-	provinces={
-		1818 1819 1820 1823 1824 1825 1826 3220 9756 10449 11904 
-	}
-	
+
 	history={
 		owner = EQS
 		add_core_of = EQS
 
 	}
-	
+
+	provinces={
+		3220 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = metropolis
+	state_category=metropolis
 }

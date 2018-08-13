@@ -2,15 +2,16 @@
 state={
 	id=260
 	name="STATE_260"
-	provinces={
-		3679 4143 4145 4146 4659 4660 4661 9123 9573 10678 
-	}
-	
+
 	history={
 		owner = GPA
 		add_core_of = GPA
+
 	}
-	
+
+	provinces={
+		9123 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

@@ -1,16 +1,18 @@
+
 state={
 	id=799
 	name="STATE_799"
-	provinces={
-		2659 5148 5297 5298 6761 7500 8620 9597 10312 10664 19596 
-	}
-	
+
 	history={
 		owner = CHC
 		add_core_of = CHC
+
 	}
-	
+
+	provinces={
+		5298 19596 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

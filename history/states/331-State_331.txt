@@ -6,10 +6,11 @@ state={
 	history={
 		owner = CHB
 		add_core_of = CHB
+
 	}
 
 	provinces={
-		283 284 285 286 287 288 1845 4162 4744 4745 4746 5910 9661 10121 10122 
+		287 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

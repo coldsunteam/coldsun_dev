@@ -2,15 +2,16 @@
 state={
 	id=198
 	name="STATE_198"
-	provinces={
-		5963 5964 5965 5966 7979 7980 7981 7982 8235 8236 8588 10170 10200 10367 11709 
-	}
-	
+
 	history={
 		owner = BPA
 		add_core_of = BPA
+
 	}
-	
+
+	provinces={
+		7982 8235 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
