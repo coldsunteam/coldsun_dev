@@ -10,7 +10,7 @@ ideologies = {
 			liberalism = {
 			}
 		
-			socialism = {
+			oligarchy = {
 			}
 		}
 		
@@ -59,20 +59,15 @@ ideologies = {
 		
 		types = {
 		
-			marxism = {
+			hive_rule = {
 			}
 			
-			leninism = {
+			equality = {
 			}
 			
-			stalinism = {
+			totalism = {
 			}
 			
-			anti_revisionism = {
-			}
-			
-			anarchist_communism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -110,17 +105,15 @@ ideologies = {
 	
 		types = {
 		
-			nazism = {
+			natsoc = {
 			}
 			
-			fascism_ideology = {
+			imperialism = {
 			}
 			
-			falangism = {
+			cult = {
 			}
 			
-			rexism = {
-			}
 		}
 		
 		dynamic_faction_names = {
@@ -153,17 +146,15 @@ ideologies = {
 	
 		types = {
 		
-			despotism  = {
+			alicornism  = {
 			}
 			
-			oligarchism  = {
+			constitutionalism  = {
 			}
 			
-			moderatism = {
+			despotism = {
 			}
 			
-			centrism = {
-			}
 		}
 
 		dynamic_faction_names = {

@@ -26,7 +26,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1000.10.10"
 	election_frequency = 36
 	elections_allowed = no
@@ -37,7 +37,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Thorax.tga"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = alicornism
 	traits = {
 	}
 }

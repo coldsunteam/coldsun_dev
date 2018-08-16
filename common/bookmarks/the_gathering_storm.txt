@@ -39,6 +39,14 @@ bookmarks = {
 			focuses = {
 			}
 		}
+		SPE = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = communism
+			ideas={
+			}
+			focuses = {
+			}
+		}
 		
 		effect = {
 			randomize_weather = 12345 # <- Obligatory in every bookmark !

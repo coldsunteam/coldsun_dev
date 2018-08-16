@@ -70,7 +70,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Chrysalis.tga"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = hive_rule
 	traits = {
 		
 	}
