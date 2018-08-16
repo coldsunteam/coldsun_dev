@@ -10,7 +10,7 @@ state={
 	}
 
 	provinces={
-		6434 
+		4615 4616 4617 6433 6434 6436 9805 11422 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
