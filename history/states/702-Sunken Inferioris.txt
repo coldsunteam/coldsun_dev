@@ -11,5 +11,8 @@ state={
         history={
 		owner = SPE
 		add_core_of = SPE
+		victory_points = {
+            5760 5
+        	}
 	}
 }
