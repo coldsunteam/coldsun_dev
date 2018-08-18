@@ -4,13 +4,13 @@ state={
 	name="STATE_115"
 
 	history={
-		owner = OPN
-		add_core_of = OPN
+		owner = EQS
+		add_core_of = EQS
 
 	}
 
 	provinces={
-		677 678 763 2738 8706 9086 10668 10880 19863 19867 19870 19876 19887 19888 19897 19900 
+		677 678 763 2738 8706 9086 10668 10880 19863 19867 19870 19876 19887 19888 19897 19900 20380 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

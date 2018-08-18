@@ -1,6 +1,12 @@
 state={
 	id=958
 	name="STATE_958"
+	history={
+		owner = GPE
+		add_core_of = GPE
+
+	}
+	
 	provinces={
 		4322 4323 4324 4325 10213 10683 10745 11874 
 	}

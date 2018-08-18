@@ -4,8 +4,8 @@ state={
 	name="STATE_731"
 
 	history={
-		owner = GPF
-		add_core_of = GPF
+		owner = GPB
+		add_core_of = GPB
 
 	}
 

@@ -7,13 +7,13 @@ state={
 	}
 
 	history={
-		owner = CRY
-		add_core_of = CRY
+		owner = EQS
+		add_core_of = EQS
 
 	}
 
 	provinces={
-		1528 3596 3598 7220 7221 7222 8396 8397 8398 9196 10227 10573 11250 11563 
+		1528 3596 7220 7221 7222 8396 8397 8398 10227 10573 11250 11563 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

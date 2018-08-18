@@ -1,0 +1,17 @@
+
+state={
+	id=961
+	name="STATE_961"
+	
+	history={
+		owner = ATI
+		add_core_of = ATI
+
+	}
+	
+	provinces={
+		66 67 68 434 438 439 440 9107 9425 20455 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

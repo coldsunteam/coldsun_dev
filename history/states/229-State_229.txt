@@ -4,13 +4,13 @@ state={
 	name="STATE_229"
 
 	history={
-		owner = GPG
-		add_core_of = GPG
+		owner = TSU
+		add_core_of = TSU
 
 	}
 
 	provinces={
-		1297 1298 2318 2397 2398 2399 2400 2401 5917 6278 8558 9258 11235 11492 20409 20413 
+		1297 1298 1300 2318 2398 2399 2400 2401 5917 8558 9258 11235 11492 20409 20413 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

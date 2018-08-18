@@ -4,13 +4,13 @@ state={
 	name="STATE_253"
 
 	history={
-		owner = CHD
-		add_core_of = CHD
+		owner = YAK
+		add_core_of = YAK
 
 	}
 
 	provinces={
-		280 4156 4157 5262 8491 19525 19526 19581 19582 20395 20403 
+		280 281 1871 4156 4157 5262 5625 7132 8491 19525 19526 19581 19582 20395 20403 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

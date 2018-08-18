@@ -4,13 +4,13 @@ state={
 	name="STATE_714"
 
 	history={
-		owner = GGB
-		add_core_of = GGB
+		owner = EQS
+		add_core_of = EQS
 
 	}
 
 	provinces={
-		4125 8311 8444 19586 20404 
+		4125 6405 8311 8444 9196 19586 19589 20404 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

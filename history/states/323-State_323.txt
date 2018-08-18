@@ -4,13 +4,13 @@ state={
 	name="STATE_323"
 
 	history={
-		owner = GPB
-		add_core_of = GPB
+		owner = ATI
+		add_core_of = ATI
 
 	}
 
 	provinces={
-		1304 1305 1910 1911 1912 4271 5271 6140 9425 10593 
+		1304 1305 1911 1912 4271 5271 5272 6140 10593 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

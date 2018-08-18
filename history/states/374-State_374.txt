@@ -4,13 +4,13 @@ state={
 	name="STATE_374"
 
 	history={
-		owner = EQS
-		add_core_of = EQS
+		owner = YAK
+		add_core_of = YAK
 
 	}
 
 	provinces={
-		1334 5625 5626 7132 7134 9013 10764 11700 19579 
+		1334 5626 7134 10764 11700 19579 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

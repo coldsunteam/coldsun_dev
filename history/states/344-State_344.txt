@@ -4,13 +4,13 @@ state={
 	name="STATE_344"
 
 	history={
-		owner = GPB
-		add_core_of = GPB
+		owner = SIN
+		add_core_of = SIN
 
 	}
 
 	provinces={
-		473 474 475 1827 2971 6818 6819 6820 6821 8937 10281 10904 10905 
+		473 475 1827 2971 6819 6820 6821 10281 10904 10905 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

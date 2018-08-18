@@ -4,13 +4,13 @@ state={
 	name="STATE_234"
 
 	history={
-		owner = BIG
-		add_core_of = BIG
+		owner = ZIN
+		add_core_of = ZIN
 
 	}
 
 	provinces={
-		603 7400 7401 7402 8275 8276 8277 9076 9389 10347 10908 11071 
+		603 7400 7401 7402 8275 8276 8277 9076 9389 10347 10908 11071 11673 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

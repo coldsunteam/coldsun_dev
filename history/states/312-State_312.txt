@@ -4,13 +4,13 @@ state={
 	name="STATE_312"
 
 	history={
-		owner = GPA
-		add_core_of = GPA
+		owner = THR
+		add_core_of = THR
 
 	}
 
 	provinces={
-		687 688 689 690 691 692 3514 3981 5398 5596 6259 8571 8572 8573 10909 10910 10911 11253 
+		688 689 690 691 692 697 3474 3514 6619 8572 10992 10993 11597 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -4,13 +4,13 @@ state={
 	name="STATE_380"
 
 	history={
-		owner = EQA
-		add_core_of = EQA
+		owner = THR
+		add_core_of = THR
 
 	}
 
 	provinces={
-		3515 3516 3517 3518 4848 6619 6620 10024 10993 11573 11597 11733 
+		687 3515 3516 5595 5596 6620 8351 8352 10909 10910 10911 11733 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

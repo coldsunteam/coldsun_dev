@@ -2,6 +2,12 @@
 state={
 	id=952
 	name="STATE_952"
+	history={
+		owner = BIG
+		add_core_of = BIG
+
+	}
+	
 	provinces={
 		1742 1743 1744 7611 10531 20434 20435 20437 
 	}

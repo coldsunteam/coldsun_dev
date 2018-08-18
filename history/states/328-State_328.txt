@@ -4,8 +4,8 @@ state={
 	name="STATE_328"
 
 	history={
-		owner = CHA
-		add_core_of = CHA
+		owner = EQS
+		add_core_of = EQS
 
 	}
 

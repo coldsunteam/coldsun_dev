@@ -18,23 +18,27 @@ TSU = {
 	color_ui = rgb { 57  143  97 }
 }
 
-CHA = {
+ATI = {
 	color = rgb { 150 150 150 }
 	color_ui = rgb { 150 150 150 }
 }
-CHB = {
+ABA = {
+	color = rgb { 150 150 150 }
+	color_ui = rgb { 150 150 150 }
+}
+SIN = {
 	color = rgb { 100 100 100 }
 	color_ui = rgb { 100 100 100 }
 }
-CHC = {
+TAR = {
 	color = rgb { 100 96 134 }
 	color_ui = rgb { 100 96 134 }
 }
-CHD = {
+VIN = {
 	color = rgb { 122 172 89 }
 	color_ui = rgb { 122 172 89 }
 }
-CHE = {
+ZIN = {
 	color = rgb { 134 70 70 }
 	color_ui = rgb { 134 70 70 }
 }

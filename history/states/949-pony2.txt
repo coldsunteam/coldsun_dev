@@ -1,6 +1,12 @@
 state={
 	id=949
 	name="STATE_949"
+	history={
+		owner = GPD
+		add_core_of = GPD
+
+	}
+	
 	provinces={
 		1872 2181 2185 2186 2386 2387 2388 3938 10248 
 	}

@@ -4,13 +4,13 @@ state={
 	name="STATE_255"
 
 	history={
-		owner = BIG
-		add_core_of = BIG
+		owner = TSU
+		add_core_of = TSU
 
 	}
 
 	provinces={
-		66 67 68 434 435 436 437 438 439 440 441 442 1299 1300 6277 8768 8923 8924 9107 10543 11803 20455 
+		435 436 437 441 442 1299 6278 8768 8923 8924 9280 10543 11803 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

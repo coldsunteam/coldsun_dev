@@ -4,8 +4,8 @@ state={
 	name="STATE_273"
 
 	history={
-		owner = TSU
-		add_core_of = TSU
+		owner = BAT
+		add_core_of = BAT
 
 	}
 

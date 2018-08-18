@@ -4,13 +4,13 @@ state={
 	name="STATE_296"
 
 	history={
-		owner = THR
-		add_core_of = THR
+		owner = YAK
+		add_core_of = YAK
 
 	}
 
 	provinces={
-		1556 1557 4158 4159 4160 4161 4168 9069 20406 20410 
+		1295 1556 1557 4158 4159 4160 4161 4168 9069 20406 20410 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

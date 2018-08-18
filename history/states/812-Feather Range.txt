@@ -4,8 +4,8 @@ state={
 	name="STATE_812"
 
 	history={
-		owner = GRI
-		add_core_of = GRI
+		owner = CRY
+		add_core_of = CRY
 
 	}
 

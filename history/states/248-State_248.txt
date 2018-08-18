@@ -4,13 +4,13 @@ state={
 	name="STATE_248"
 
 	history={
-		owner = BIG
-		add_core_of = BIG
+		owner = VIN
+		add_core_of = VIN
 
 	}
 
 	provinces={
-		600 601 602 4006 6409 6410 11888 20451 
+		600 601 602 4006 4007 4008 4327 5312 6409 6410 10041 11888 20451 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

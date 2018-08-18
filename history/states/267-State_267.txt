@@ -4,13 +4,13 @@ state={
 	name="STATE_267"
 
 	history={
-		owner = GPA
-		add_core_of = GPA
+		owner = VIN
+		add_core_of = VIN
 
 	}
 
 	provinces={
-		2484 2485 4007 4327 4328 5144 7109 10041 11113 11479 
+		2484 2485 4142 4328 4661 5144 5145 5146 5147 6861 7109 9928 10678 11113 11420 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
