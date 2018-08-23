@@ -2,15 +2,16 @@
 state={
 	id=539
 	name="STATE_539"
-	provinces={
-		624 4844 4846 4847 6510 6538 6539 6540 6541 7820 9415 
-	}
-	
+
 	history={
-		owner = MEG
-		add_core_of = MEG
+		owner = KIR
+		add_core_of = KIR
+
 	}
-	
+
+	provinces={
+		3300 3302 3303 4694 4695 4696 5448 5721 8728 8729 9034 11639 20461 20462 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

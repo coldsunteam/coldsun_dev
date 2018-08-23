@@ -1,0 +1,15 @@
+state={
+	id=964
+	name="STATE_964"
+	provinces={
+		3118 3119 4211 6471 7686 8519 9538 10599 11094 
+	}
+	
+	history={
+		owner = SAD
+		add_core_of = SAD
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

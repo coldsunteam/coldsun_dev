@@ -1,0 +1,16 @@
+state={
+	id=963
+	name="STATE_963"
+	provinces={
+		2505 2506 2986 2988 3120 3613 5295 6452 6453 7303 7623 7676 8518 8803 8944 10776 11251 11790 
+	}
+	
+	history={
+		owner = SAD
+		add_core_of = SAD
+
+	}
+	
+	manpower=0
+	buildings_max_level_factor=1.000
+}

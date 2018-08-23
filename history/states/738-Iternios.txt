@@ -2,16 +2,17 @@
 state={
 	id=738
 	name="STATE_738"
-	provinces={
-		3998 3999 4000 4001 4002 6362 7689 10558 11790 
-	}
-	
-    history = {
+
+	history={
 		owner = PAN
 		add_core_of = PAN
+
 	}
-	
+
+	provinces={
+		3666 3997 3998 3999 4000 4001 4002 6362 7689 10558 10559 
+	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -2,15 +2,16 @@
 state={
 	id=410
 	name="STATE_410"
-	provinces={
-		4406 4407 4408 5589 5590 5591 8784 11049 
-	}
-	
+
 	history={
 		owner = BUF
 		add_core_of = BUF
+
 	}
-	
+
+	provinces={
+		29 4853 4854 5591 5752 6842 6843 6844 7804 9253 9929 10059 10537 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

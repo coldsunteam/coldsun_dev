@@ -2,16 +2,17 @@
 state={
 	id=637
 	name="STATE_637"
+
+	history={
+		owner = SAD
+		add_core_of = SAD
+
+	}
+
 	provinces={
-		2987 2988 3613 3614 3615 5100 5101 5592 5593 5594 6451 6452 6453 6454 8011 8012 8788 10050 11051 11251 11715 11881 
+		1746 1747 1748 1803 1804 1805 1947 1948 3294 3552 4094 4095 4096 5624 7082 7083 7084 7675 8759 10530 
 	}
-	
-    history = {
-		owner = PAN
-		add_core_of = PAN
-	}
-	
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

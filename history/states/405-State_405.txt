@@ -3,17 +3,17 @@ state={
 	id=405
 	name="STATE_405"
 	resources={
-		grain=8
+		grain=8.000
 	}
 
 	history={
-		owner = EQF
-		add_core_of = EQF
+		owner = EQS
+		add_core_of = EQS
 
 	}
 
 	provinces={
-		1148 2284 3252 3607 3608 3609 3610 7354 7650 7651 7842 8847 9662 
+		1148 2284 3252 3607 3608 3609 3610 5116 7354 7650 7651 7842 8847 9662 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -1,16 +1,18 @@
+
 state={
 	id=748
 	name="STATE_748"
-	provinces={
-		2577 2578 2579 4845 6765 6766 6767 7957 8002 
-	}
-	
+
 	history={
 		owner = MEG
 		add_core_of = MEG
+
 	}
-	
+
+	provinces={
+		3291 3292 3296 3297 3298 3299 3301 3304 4871 4872 5119 7403 7404 8183 9676 10479 
+	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

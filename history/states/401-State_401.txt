@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = EQF
-		add_core_of = EQF
+		owner = EQS
+		add_core_of = EQS
 
 	}
 

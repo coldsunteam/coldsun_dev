@@ -1,16 +1,18 @@
+
 state={
 	id=502
 	name="STATE_502"
-	provinces={
-		410 411 412 413 480 481 482 483 484 3270 4514 5117 5118 6903 8821 9228 9229 11146 11287 
-	}
-	
+
 	history={
-		owner = KIR
-		add_core_of = KIR
+		owner = SAD
+		add_core_of = SAD
+
 	}
-	
+
+	provinces={
+		3362 3363 3365 3962 3964 5257 7826 7827 7828 8949 8950 8951 10331 10396 10445 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

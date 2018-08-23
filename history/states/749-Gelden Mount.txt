@@ -1,16 +1,18 @@
+
 state={
 	id=749
 	name="STATE_749"
-	provinces={
-		4092 4093 6128 6129 7815 10785 
-	}
-	
+
 	history={
 		owner = SAD
 		add_core_of = SAD
+
 	}
-	
+
+	provinces={
+		634 3295 4092 4093 4097 4098 5265 6126 6127 6128 6129 6130 7662 7814 7815 10785 10902 10903 11776 20459 
+	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -2,15 +2,16 @@
 state={
 	id=449
 	name="STATE_449"
-	provinces={
-		493 494 495 496 3749 3750 6086 6087 6396 6397 6398 10065 
-	}
-	
+
 	history={
 		owner = BUF
 		add_core_of = BUF
+
 	}
-	
+
+	provinces={
+		35 36 37 38 39 40 41 197 198 199 200 201 202 2810 2811 5114 8201 9636 9957 9958 11464 11690 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

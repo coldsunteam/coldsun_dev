@@ -2,15 +2,16 @@
 state={
 	id=526
 	name="STATE_526"
-	provinces={
-		2575 2576 3299 3300 4692 4693 4694 8183 8728 8729 9001 10876 
-	}
-	
+
 	history={
 		owner = MEG
 		add_core_of = MEG
+
 	}
-	
+
+	provinces={
+		420 421 422 423 424 425 426 485 486 489 490 491 3457 5719 5720 6067 6069 6513 7277 7942 8748 9082 9084 10647 10853 11247 11319 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

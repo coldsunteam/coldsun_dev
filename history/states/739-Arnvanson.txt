@@ -2,16 +2,17 @@
 state={
 	id=739
 	name="STATE_739"
-	provinces={
-		3424 3425 3426 3427 3428 3429 3666 3667 3996 3997 4448 5320 7230 9192 9193 9194 10559 11876 
-	}
-	
-    history = {
+
+	history={
 		owner = PAN
 		add_core_of = PAN
+
 	}
-	
+
+	provinces={
+		3424 3425 3426 3427 3428 3429 3667 4448 5320 7230 9192 9193 9194 11876 
+	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

@@ -3,17 +3,17 @@ state={
 	id=448
 	name="STATE_448"
 	resources={
-		grain=16
+		grain=16.000
 	}
 
 	history={
-		owner = EQF
-		add_core_of = EQF
+		owner = EQS
+		add_core_of = EQS
 
 	}
 
 	provinces={
-		816 817 3184 3185 4831 4832 5005 5006 5007 5008 9053 10264 11020 11870 20334 
+		816 817 4831 4832 5005 5007 5008 9053 10264 11020 11870 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

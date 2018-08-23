@@ -2,16 +2,17 @@
 state={
 	id=536
 	name="STATE_536"
-	provinces={
-		1438 1439 2999 3000 3365 6756 6757 8651 8950 8951 10305 11022 11899 
-	}
-	
+
 	history={
 		owner = SAD
 		add_core_of = SAD
+
 	}
-	
+
+	provinces={
+		1438 1439 2999 3000 3001 3002 3372 3772 6756 6757 8651 10305 10446 11022 11899 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

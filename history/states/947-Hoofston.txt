@@ -6,8 +6,8 @@ state={
 	}
 	
 	history={
-		owner = EQF
-		add_core_of = EQF
+		owner = EQS
+		add_core_of = EQS
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
