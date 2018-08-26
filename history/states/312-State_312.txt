@@ -2,11 +2,19 @@
 state={
 	id=312
 	name="STATE_312"
+	
+	resources={
+		gems=10.000
+	}
 
 	history={
 		owner = THR
 		add_core_of = THR
-
+		
+		victory_points = {
+			692 50 
+		}
+		
 	}
 
 	provinces={

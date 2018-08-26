@@ -2,11 +2,18 @@
 state={
 	id=376
 	name="STATE_376"
+	
+	resources={
+		grain=8.000
+	}
 
 	history={
 		owner = EQS
 		add_core_of = EQS
-
+			
+		victory_points = {
+			7849 20 
+		}
 	}
 
 	provinces={

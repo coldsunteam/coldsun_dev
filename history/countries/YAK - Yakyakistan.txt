@@ -1,4 +1,4 @@
-﻿capital = 339
+﻿capital = 307
 
 oob = "YAK_1936"
 

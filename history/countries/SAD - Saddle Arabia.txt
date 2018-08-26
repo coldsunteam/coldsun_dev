@@ -1,4 +1,4 @@
-﻿capital = 536
+﻿capital = 524
 
 oob = "SAD_1936"
 

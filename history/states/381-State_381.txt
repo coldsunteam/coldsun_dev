@@ -2,6 +2,10 @@
 state={
 	id=381
 	name="STATE_381"
+	
+	resources={
+		gems=10.000
+	}
 
 	history={
 		owner = EQS

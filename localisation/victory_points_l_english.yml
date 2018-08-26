@@ -2,9 +2,24 @@
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
  
  ### Equestria
- VICTORY_POINTS_6418:0 "Canterlot"
- VICTORY_POINTS_7438:0 "Ponyville"
- VICTORY_POINTS_3921:0 "Applewood"
+  VICTORY_POINTS_20363:0 "Canterlot"
+  VICTORY_POINTS_9942:0 "Ponyville"
+  VICTORY_POINTS_3921:0 "Applewood"
+  VICTORY_POINTS_6040:0 "Manehatten"
+  VICTORY_POINTS_7118:0 "Rio de Janeighro"
+  VICTORY_POINTS_7849:0 "Fillydelphia"
+  VICTORY_POINTS_19870:0 "Trottingham"
+  VICTORY_POINTS_678:0 "Inverneighs"
+  VICTORY_POINTS_20379:0 "Vanhoover"
+  
+ ### Changelings
+  VICTORY_POINTS_692:0 "Thrixlan"
+  VICTORY_POINTS_5274:0 "Pharynz"
+  VICTORY_POINTS_10003:0 "Cordulix"
+  VICTORY_POINTS_20455:0 "Nopterax"
+  VICTORY_POINTS_2397:0 "Chryslan"
+  VICTORY_POINTS_11803:0 "Senieax"
+  VICTORY_POINTS_6820:0 "Sidanaa"
 
  ###Ezpassion
   VICTORY_POINTS_10057:0 "Starynople"

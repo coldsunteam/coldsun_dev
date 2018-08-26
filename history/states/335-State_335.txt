@@ -2,6 +2,10 @@
 state={
 	id=335
 	name="STATE_335"
+	
+	resources={
+		grain=6.000
+	}
 
 	history={
 		owner = GPB

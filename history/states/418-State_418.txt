@@ -2,8 +2,9 @@
 state={
 	id=418
 	name="STATE_418"
+	
 	resources={
-		grain=4.000
+		oil=6.000
 	}
 
 	history={

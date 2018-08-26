@@ -2,6 +2,9 @@
 state={
 	id=374
 	name="STATE_374"
+	resources={
+		gems=15.000
+	}
 
 	history={
 		owner = YAK

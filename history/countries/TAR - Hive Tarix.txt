@@ -1,4 +1,4 @@
-﻿capital = 793
+﻿capital = 286
 
 oob = "TAR_1936"
 

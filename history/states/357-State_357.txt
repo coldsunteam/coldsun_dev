@@ -2,10 +2,17 @@
 state={
 	id=357
 	name="STATE_357"
+	resources={
+		grain=12.000
+	}
 
 	history={
 		owner = EQS
 		add_core_of = EQS
+		
+		victory_points = {
+			20379 25 
+		}
 
 	}
 

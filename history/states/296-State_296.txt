@@ -2,6 +2,10 @@
 state={
 	id=296
 	name="STATE_296"
+	
+	resources={
+		grain=2.000
+	}
 
 	history={
 		owner = YAK

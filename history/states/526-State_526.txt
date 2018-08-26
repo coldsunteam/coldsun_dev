@@ -2,6 +2,10 @@
 state={
 	id=526
 	name="STATE_526"
+	
+	resources={
+		grain=12.000
+	}
 
 	history={
 		owner = MEG

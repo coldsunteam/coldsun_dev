@@ -2,6 +2,11 @@
 state={
 	id=960
 	name="STATE_960"
+	
+	resources={
+		grain=2.000
+	}
+	
 	history={
 		owner = GPE
 		add_core_of = GPE

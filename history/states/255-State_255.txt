@@ -2,10 +2,19 @@
 state={
 	id=255
 	name="STATE_255"
+	
+	resources={
+		gems=4.000
+		oil=7
+	}
 
 	history={
 		owner = TSU
 		add_core_of = TSU
+		
+		victory_points = {
+			11803 20 
+		}
 
 	}
 

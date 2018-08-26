@@ -2,10 +2,18 @@
 state={
 	id=729
 	name="STATE_729"
+	
+	resources={
+		gems=8.000
+	}
 
 	history={
 		owner = TSU
 		add_core_of = TSU
+		
+		victory_points = {
+			2397 40 
+		}
 
 	}
 

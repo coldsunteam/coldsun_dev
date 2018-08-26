@@ -1,6 +1,11 @@
 state={
 	id=948
 	name="STATE_948"
+	
+	resources={
+		grain=6.000
+	}
+	
 	history={
 		owner = GPD
 		add_core_of = GPD

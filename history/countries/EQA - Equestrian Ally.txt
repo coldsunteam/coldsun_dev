@@ -1,4 +1,4 @@
-﻿capital = 382
+﻿capital = 279
 
 oob = "EQA_1936"
 

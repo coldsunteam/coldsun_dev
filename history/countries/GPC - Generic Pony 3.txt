@@ -1,4 +1,4 @@
-﻿capital = 342
+﻿capital = 304
 
 oob = "GPC_1936"
 

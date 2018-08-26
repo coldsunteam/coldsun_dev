@@ -2,6 +2,9 @@
 state={
 	id=801
 	name="STATE_801"
+	resources={
+		grain=8.000
+	}
 
 	history={
 		owner = CRY

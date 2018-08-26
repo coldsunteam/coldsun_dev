@@ -2,10 +2,18 @@
 state={
 	id=356
 	name="STATE_356"
+	
+	resources={
+		gems=8.000
+	}
 
 	history={
 		owner = THR
 		add_core_of = THR
+		
+		victory_points = {
+			5274 30 
+		}
 
 	}
 

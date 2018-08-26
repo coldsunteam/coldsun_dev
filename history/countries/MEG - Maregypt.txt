@@ -1,4 +1,4 @@
-﻿capital = 563
+﻿capital = 606
 
 oob = "MEG_1936"
 

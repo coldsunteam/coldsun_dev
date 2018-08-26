@@ -2,6 +2,10 @@
 state={
 	id=411
 	name="STATE_411"
+	
+	resources={
+		grain=6.000
+	}
 
 	history={
 		owner = BUF
