@@ -9,6 +9,13 @@ state={
 	history={
 		owner = EQS
 		add_core_of = EQS
+		victory_points = {
+            20375 20
+        	}
+		victory_points = {
+            7237 10
+        	}
+
 
 	}
 

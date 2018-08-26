@@ -2,7 +2,6 @@
 state={
 	id=418
 	name="STATE_418"
-	
 	resources={
 		oil=6.000
 	}
@@ -10,11 +9,17 @@ state={
 	history={
 		owner = EQS
 		add_core_of = EQS
+		victory_points = {
+            6045 30
+        	}
+		victory_points = {
+            20343 20
+        	}
 
 	}
 
 	provinces={
-		6046 6435 8200 8999 9000 9247 9248 20333 20343 
+		6044 6045 6046 6435 8200 8999 9000 9247 9248 11192 20333 20343 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

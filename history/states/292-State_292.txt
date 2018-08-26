@@ -10,6 +10,9 @@ state={
 	history={
 		owner = EQA
 		add_core_of = EQA
+		victory_points = {
+			4625 15 
+		}
 
 	}
 

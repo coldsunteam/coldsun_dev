@@ -11,6 +11,39 @@
   VICTORY_POINTS_19870:0 "Trottingham"
   VICTORY_POINTS_678:0 "Inverneighs"
   VICTORY_POINTS_20379:0 "Vanhoover"
+  VICTORY_POINTS_6045:0 "Hoofington"
+  VICTORY_POINTS_20375:0 "Baltimare"
+  VICTORY_POINTS_5956:0 "Los Pegasos"
+  VICTORY_POINTS_762:0 "Califoalnia"
+  VICTORY_POINTS_7220:0 "Maretropolis"
+  VICTORY_POINTS_3204:0 "Foaledo"
+  VICTORY_POINTS_19566:0 "Sunnydale"
+  VICTORY_POINTS_8444:0 "Castlerock"
+  
+  ### Frontier
+  VICTORY_POINTS_9498:0 "Appleloosa"
+  VICTORY_POINTS_1066:0 "Detrot"
+  VICTORY_POINTS_9851:0 "Applewood"
+  
+  ### Crystal Empoire
+  VICTORY_POINTS_1445:0 "Queighbek"
+  VICTORY_POINTS_760:0 "Trotonto"
+  VICTORY_POINTS_20402:0 "Crystal City"
+  
+  ### Prance
+  VICTORY_POINTS_9443:0 "Hayris"
+  VICTORY_POINTS_3265:0 "Trolouise"
+  VICTORY_POINTS_10175:0 "Neyghon"
+  VICTORY_POINTS_5149:0 "Fancee"
+  VICTORY_POINTS_20408:0 "Maneille"
+  VICTORY_POINTS_4625:0 "Strotsbourg"
+  VICTORY_POINTS_19590:0 "Hondeaux"
+  VICTORY_POINTS_42:0 "Fille"
+  
+  ### YAK
+  VICTORY_POINTS_7858:0 "Smashania"
+  VICTORY_POINTS_20384:0 "Fortetudies"
+  VICTORY_POINTS_1871:0 "Violenmountania"
   
  ### Changelings
   VICTORY_POINTS_692:0 "Thrixlan"
