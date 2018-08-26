@@ -18,7 +18,6 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		slot = defcon_system
 		slot = political_advisor
 		slot = political_advisor
 		slot = political_advisor
