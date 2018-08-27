@@ -1,0 +1,16 @@
+state={
+	id=970
+	name="STATE_970"
+
+	history={
+		owner = BAT
+		add_core_of = BAT
+
+	}
+	
+	provinces={
+		844 2275 2422 2423 2424 11102 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

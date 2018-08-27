@@ -1,16 +1,18 @@
+
 state={
 	id=727
 	name="STATE_727"
-	provinces={
-		836 844 845 846 847 9547 10320 
-	}
-	
+
 	history={
 		owner = BPA
 		add_core_of = BPA
+
 	}
-	
+
+	provinces={
+		836 846 
+	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
