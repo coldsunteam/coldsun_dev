@@ -1,16 +1,18 @@
+
 state={
 	id=741
 	name="STATE_741"
-	provinces={
-		3668 3669 6455 8302 8303 9095 9291 
-	}
-	
-    history = {
+
+	history={
 		owner = PAN
 		add_core_of = PAN
+
 	}
-	
+
+	provinces={
+		8302 8303 9095 9291 
+	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

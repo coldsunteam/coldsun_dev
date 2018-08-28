@@ -10,10 +10,10 @@ state={
 	}
 
 	provinces={
-		285 1845 4744 4745 5910 6144 6145 6147 7499 10121 10122 10123 
+		285 1845 4744 4745 5910 6144 6145 6147 10121 10122 10123 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = wasteland
+	state_category=wasteland
 	impassable = yes
 }
