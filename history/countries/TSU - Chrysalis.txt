@@ -48,7 +48,7 @@ create_country_leader = {
 	
 	picture = "Chrysalis.tga"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = imperialism
 	traits = {
 		
 	}

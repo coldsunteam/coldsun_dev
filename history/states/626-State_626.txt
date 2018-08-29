@@ -1,16 +1,18 @@
+
 state={
 	id=626
 	name="STATE_626"
-	provinces={
-		2689 2690 2691 2843 2844 2845 2846 7595 7596 8250 8251 8268 8366 8367 11271 11396 
-	}
-	
+
 	history={
 		owner = KBR
 		add_core_of = KBR
+
 	}
-	
+
+	provinces={
+		20716 20732 20739 20746 20756 20761 20762 20764 20781 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

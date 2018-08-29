@@ -1,17 +1,18 @@
+
 state={
 	id=457
 	name="STATE_457"
-	provinces={
-		1015 1101 2926 6557 6558 6957 7558 7678 8331 8785 8795 8878 9103 9563 10117 10143 10262 10442 10469 11033 11792 
-	}
-	
+
 	history={
 		owner = MIT
 		add_core_of = MIT
 
 	}
-	
+
+	provinces={
+		20616 20621 20626 20627 20629 20634 20635 20636 20637 20641 20652 20653 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

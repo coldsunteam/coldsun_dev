@@ -1,16 +1,18 @@
+
 state={
 	id=601
 	name="STATE_601"
-	provinces={
-		189 1516 2755 3626 3822 5009 5120 6227 6692 7092 7231 7579 7784 8630 8676 9520 10620 10744 10751 11553 11940 
-	}
-	
+
 	history={
 		owner = CAT
 		add_core_of = CAT
+
 	}
-	
+
+	provinces={
+		20795 20797 20807 20810 20811 20816 20820 20823 20825 20831 20836 20838 20841 20848 20851 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

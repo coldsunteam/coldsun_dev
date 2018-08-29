@@ -2,16 +2,16 @@
 state={
 	id=466
 	name="STATE_466"
-	provinces={
-		303 1202 3438 3632 3953 5223 6184 6263 6344 6910 6949 7073 7307 7906 8503 9048 9108 9358 9725 9768 10228 10293 10314 11272 
-	}
-	
+
 	history={
 		owner = MYE
 		add_core_of = MYE
 
 	}
-	
+
+	provinces={
+		20606 20609 20611 20620 20622 20630 20638 20642 20650 20654 20655 20658 20669 20677 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

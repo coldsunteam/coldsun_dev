@@ -1,17 +1,18 @@
+
 state={
 	id=762
 	name="STATE_762"
-	provinces={
-		2115 2592 7628 10184 10773 
-	}
-	
+
 	history={
 		owner = KRA
 		add_core_of = KRA
 
 	}
-	
+
+	provinces={
+		2115 2592 7628 10184 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

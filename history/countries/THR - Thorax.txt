@@ -47,7 +47,7 @@ create_country_leader = {
 	
 	picture = "Thorax.tga"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = imperialism
 	traits = {
 		
 	}
@@ -69,7 +69,7 @@ create_country_leader = {
 	desc = ""
 	picture = "Thorax.tga"
 	expire = "1965.1.1"
-	ideology = leninism
+	ideology = totalism
 	traits = {
 		
 	}

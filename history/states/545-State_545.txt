@@ -1,16 +1,18 @@
+
 state={
 	id=545
 	name="STATE_545"
-	provinces={
-		2294 2295 2296 2297 2298 5020 6331 7495 7496 8539 10030 11702 
-	}
-	
+
 	history={
 		owner = KAN
 		add_core_of = KAN
+
 	}
-	
+
+	provinces={
+		20961 20965 20967 20970 20971 20972 20976 20977 20978 20980 20981 20984 20985 20990 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

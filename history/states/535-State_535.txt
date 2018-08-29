@@ -1,16 +1,18 @@
+
 state={
 	id=535
 	name="STATE_535"
-	provinces={
-		1166 1236 3097 4859 5139 5981 6871 7175 7218 7626 7749 8910 9635 9751 10046 10339 10507 10623 10756 11000 11569 11811 
-	}
-	
+
 	history={
 		owner = IMJ
 		add_core_of = IMJ
+
 	}
-	
+
+	provinces={
+		20866 20873 20876 20883 20894 20902 20905 20910 20912 20925 20937 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

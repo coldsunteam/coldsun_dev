@@ -2,17 +2,17 @@
 state={
 	id=587
 	name="STATE_587"
-	provinces={
-		887 1324 1517 2395 2813 3016 3432 3731 3821 4005 4418 4440 4468 4672 4905 6024 6499 6714 6834 6941 8603 8677 8776 9043 9283 10870 11127 11208 
-	}
-	
 
-	
-	manpower=100
-	state_category=metropolis
-	buildings_max_level_factor=1.000
 	history={
 		owner = CAT
 		add_core_of = CAT
+
 	}
+
+	provinces={
+		20771 20777 20779 20784 20786 20787 20793 20796 20800 20806 20808 20809 20812 20814 20819 20828 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

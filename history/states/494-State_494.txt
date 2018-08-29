@@ -1,17 +1,18 @@
+
 state={
 	id=494
 	name="STATE_494"
-	provinces={
-		739 1285 1915 1917 2396 4596 5334 6266 6560 8143 8290 8662 8679 9509 9930 10163 10411 10687 10779 11142 11148 11402 
-	}
-	
+
 	history={
 		owner = MYE
 		add_core_of = MYE
 
 	}
-	
+
+	provinces={
+		20674 20686 20692 20707 20710 20718 20727 20734 20740 20747 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

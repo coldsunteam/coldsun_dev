@@ -2,16 +2,17 @@
 state={
 	id=595
 	name="STATE_595"
-	provinces={
-		2247 2248 4528 4529 4530 4531 4532 6280 6281 6282 6348 9392 
-	}
-	
+
 	history={
 		owner = KRA
 		add_core_of = KRA
+
 	}
-	
+
+	provinces={
+		20617 20649 20664 20673 20680 20699 20702 20703 20715 20725 20748 20752 20770 20778 20780 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
