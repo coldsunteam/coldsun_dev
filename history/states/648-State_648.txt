@@ -7,8 +7,8 @@ state={
 	}
 	
 	history={
-		owner = DRG
-		add_core_of = DRG
+		owner = OUT
+		add_core_of = OUT
 	}
 	
 	manpower=100

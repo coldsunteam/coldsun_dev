@@ -4,8 +4,8 @@ state={
 	name="STATE_491"
 
 	history={
-		owner = MIT
-		add_core_of = MIT
+		owner = GRI
+		add_core_of = GRI
 
 	}
 
