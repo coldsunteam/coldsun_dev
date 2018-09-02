@@ -1,16 +1,18 @@
+
 state={
 	id=853
 	name="STATE_853"
-	provinces={
-		2412 2413 2414 2415 2416 5919 7848 8619 10110 
-	}
-	
+
 	history={
 		owner = EDC
 		add_core_of = EDC
+
 	}
-	
+
+	provinces={
+		2414 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

@@ -1,16 +1,18 @@
+
 state={
 	id=746
 	name="STATE_746"
-	provinces={
-		595 4151 5406 10804 
-	}
-	
+
 	history={
 		owner = SCD
 		add_core_of = SCD
+
 	}
-	
+
+	provinces={
+		595 
+	}
 	manpower=100
-state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

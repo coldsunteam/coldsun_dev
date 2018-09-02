@@ -1,17 +1,18 @@
+
 state={
 	id=829
 	name="STATE_829"
-	provinces={
-		4229 4230 4542 4543 4544 4550 4551 4552 4553 4554 4808 
-	}
-	
+
 	history={
-		owner = JDC
-		add_core_of = JDC
+		owner = NDR
+		add_core_of = NDR
 
 	}
-	
+
+	provinces={
+		1353 1371 1372 1860 1861 1862 1863 1864 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

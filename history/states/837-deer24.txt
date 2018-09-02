@@ -2,16 +2,17 @@
 state={
 	id=837
 	name="STATE_837"
-	provinces={
-		582 584 1849 2958 3074 7513 7514 10033 10034 10120 11679 
-	}
-	
+
 	history={
 		owner = SCD
 		add_core_of = SCD
+
 	}
-	
+
+	provinces={
+		7513 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

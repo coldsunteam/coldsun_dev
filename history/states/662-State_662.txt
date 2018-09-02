@@ -2,16 +2,17 @@
 state={
 	id=662
 	name="STATE_662"
-	provinces={
-		9143 9144 9767 
-	}
-	
+
 	history={
 		owner = OUT
 		add_core_of = OUT
+
 	}
-	
+
+	provinces={
+		4038 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

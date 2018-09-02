@@ -10,7 +10,7 @@ state={
 	}
 
 	provinces={
-		898 899 900 901 6776 8851 9038 10394 
+		898 899 900 6776 8850 8851 9038 10394 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -1,16 +1,18 @@
+
 state={
 	id=863
 	name="STATE_863"
-	provinces={
-		977 978 989 8498 8499 8863 9169 9783 9784 11869 19664 19666 
-	}
-	
+
 	history={
 		owner = SDN
 		add_core_of = SDN
+
 	}
-	
+
+	provinces={
+		8498 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

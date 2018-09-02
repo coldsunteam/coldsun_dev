@@ -1,16 +1,18 @@
+
 state={
 	id=813
 	name="STATE_813"
-	provinces={
-		897 5309 5310 7105 7106 7107 7108 8850 
-	}
-	
+
 	history={
 		owner = CER
 		add_core_of = CER
+
 	}
-	
+
+	provinces={
+		897 901 5309 5310 7106 7108 10634 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

@@ -1,16 +1,18 @@
+
 state={
 	id=827
 	name="STATE_827"
-	provinces={
-		350 351 352 353 4806 4807 5629 11469 11845 
-	}
-	
+
 	history={
 		owner = NDR
 		add_core_of = NDR
+
 	}
-	
+
+	provinces={
+		1246 1247 1250 1251 1252 1263 1264 5082 9485 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

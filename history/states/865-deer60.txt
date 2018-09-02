@@ -1,17 +1,18 @@
+
 state={
 	id=865
 	name="STATE_865"
-	provinces={
-		6663 8482 19659 
-	}
-	
+
 	history={
 		owner = VEN
 		add_core_of = VEN
+
 	}
-	
-	
+
+	provinces={
+		973 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

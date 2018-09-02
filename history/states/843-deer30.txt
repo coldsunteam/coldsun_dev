@@ -2,16 +2,17 @@
 state={
 	id=843
 	name="STATE_843"
-	provinces={
-		568 575 4183 6506 7398 7538 7539 7540 7960 8874 9888 9900 11819 
-	}
-	
+
 	history={
 		owner = OUT
 		add_core_of = OUT
+
 	}
-	
+
+	provinces={
+		9888 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

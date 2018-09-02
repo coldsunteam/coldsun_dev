@@ -4,13 +4,13 @@ state={
 	name="STATE_576"
 
 	history={
-		owner = CER
-		add_core_of = CER
+		owner = NDR
+		add_core_of = NDR
 
 	}
 
 	provinces={
-		1268 1269 1270 4219 8359 8586 9429 10085 11054 11638 
+		7042 7043 7153 7909 7910 19618 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

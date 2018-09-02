@@ -2,16 +2,17 @@
 state={
 	id=849
 	name="STATE_849"
-	provinces={
-		2821 2822 7048 7049 19663 
-	}
-	
+
 	history={
 		owner = SDN
 		add_core_of = SDN
+
 	}
-	
+
+	provinces={
+		7048 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

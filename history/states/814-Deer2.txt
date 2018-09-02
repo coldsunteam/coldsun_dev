@@ -2,16 +2,17 @@
 state={
 	id=814
 	name="STATE_814"
-	provinces={
-		2104 2603 2605 2606 2608 8321 8322 
-	}
-	
+
 	history={
-		owner = CER
-		add_core_of = CER
+		owner = NDR
+		add_core_of = NDR
+
 	}
-	
+
+	provinces={
+		976 1256 1257 2458 4496 5083 5888 6274 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

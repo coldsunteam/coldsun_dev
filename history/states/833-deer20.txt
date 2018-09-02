@@ -2,17 +2,17 @@
 state={
 	id=833
 	name="STATE_833"
-	provinces={
-		4110 4226 4227 4228 9296 9297 11465 11753 
-	}
-	
+
 	history={
 		owner = JDC
 		add_core_of = JDC
 
 	}
-	
+
+	provinces={
+		4228 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }
