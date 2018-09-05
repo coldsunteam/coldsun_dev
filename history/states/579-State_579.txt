@@ -4,13 +4,13 @@ state={
 	name="STATE_579"
 
 	history={
-		owner = EDC
-		add_core_of = EDC
+		owner = OUT
+		add_core_of = OUT
 
 	}
 
 	provinces={
-		10471 
+		5404 5408 5712 5713 10999 19650 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
