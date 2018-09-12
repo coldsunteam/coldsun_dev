@@ -4,13 +4,13 @@ state={
 	name="STATE_631"
 
 	history={
-		owner = NDR
-		add_core_of = NDR
+		owner = ARO
+		add_core_of = ARO
 
 	}
 
 	provinces={
-		781 
+		782 785 3142 3143 3144 3145 3146 3147 3701 6023 19672 19673 19677 19678 19679 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

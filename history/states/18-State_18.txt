@@ -4,13 +4,13 @@ state={
 	name="STATE_18"
 
 	history={
-		owner = PCF
-		add_core_of = PCF
+		owner = VEN
+		add_core_of = VEN
 
 	}
 
 	provinces={
-		11553 
+		9518 9745 10078 10418 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

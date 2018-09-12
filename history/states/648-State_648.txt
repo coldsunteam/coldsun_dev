@@ -4,13 +4,13 @@ state={
 	name="STATE_648"
 
 	history={
-		owner = OUT
-		add_core_of = OUT
+		owner = DIA
+		add_core_of = DIA
 
 	}
 
 	provinces={
-		9237 
+		2412 2442 2443 5919 5922 7584 9861 10468 10760 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

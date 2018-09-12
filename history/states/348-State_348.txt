@@ -4,13 +4,13 @@ state={
 	name="STATE_348"
 
 	history={
-		owner = JDC
-		add_core_of = JDC
+		owner = KAV
+		add_core_of = KAV
 
 	}
 
 	provinces={
-		5332 
+		206 207 2462 2463 2464 2465 10201 10225 19685 19687 9969
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

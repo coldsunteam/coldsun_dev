@@ -1,6 +1,6 @@
 ﻿capital = 690
 
-oob = "OUT_1936"
+oob = "DHO_1936"
 
 set_technology = {
 }

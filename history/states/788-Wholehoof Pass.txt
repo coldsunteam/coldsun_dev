@@ -4,13 +4,13 @@ state={
 	name="STATE_788"
 
 	history={
-		owner = ATI
-		add_core_of = ATI
+		owner = SCD
+		add_core_of = SCD
 
 	}
 
 	provinces={
-		11762 
+		1588 1589 1590 1591 2134 7144 7718 8531 9909 9972 11540 11575 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

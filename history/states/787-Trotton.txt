@@ -2,19 +2,15 @@
 state={
 	id=787
 	name="STATE_787"
-	resources={
-		grain=2.000
-		aluminium=10.000
-	}
 
 	history={
-		owner = EQS
-		add_core_of = EQS
+		owner = VEN
+		add_core_of = VEN
 
 	}
 
 	provinces={
-		11940 
+		6485 6487 6488 6883 10850 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

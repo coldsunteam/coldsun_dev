@@ -4,13 +4,13 @@ state={
 	name="STATE_732"
 
 	history={
-		owner = GPG
-		add_core_of = GPG
+		owner = SCD
+		add_core_of = SCD
 
 	}
 
 	provinces={
-		11821 
+		1596 1597 1600 5691 5692 5693 5694 5937 5938 6978 7568 9213 9669 10178 10871 11123 11366 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

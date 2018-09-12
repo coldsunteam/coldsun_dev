@@ -1,0 +1,16 @@
+state={
+	id=986
+	name="STATE_986"
+	
+	history={
+		owner = DHO
+		add_core_of = DHO
+
+	}
+	
+	provinces={
+		93 590 591 8089 9031 9032 10628 10700 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

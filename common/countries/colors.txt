@@ -166,11 +166,11 @@ NDR = {
 color = rgb { 0 0 64 }
 color_ui = rgb { 0 0 64 }
 }
-EDC = {
+DIA = {
 color = rgb { 72 62 164 }
 color_ui = rgb { 72 62 164 }
 }
-OUT = {
+DHO = {
 color = rgb { 116 116 116 }
 color_ui = rgb { 116 116 116 }
 }
@@ -357,4 +357,16 @@ color_ui = rgb { 150 150 150 }
 CAT = { 
 color = rgb { 196 154 77 } 
 color_ui = rgb { 196 154 77 } 
+}
+MNT = {
+color = rgb { 3 183 192 }
+color_ui = rgb { 3 183 192 }
+}
+ARO = {
+color = rgb { 0 107 159 }
+color_ui = rgb { 0 107 159 }
+}
+KAV = {
+color = rgb { 0 107 159 }
+color_ui = rgb { 0 107 159 }
 }
