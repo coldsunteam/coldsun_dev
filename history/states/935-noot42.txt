@@ -1,16 +1,18 @@
+
 state={
 	id=935
 	name="STATE_935"
-	
+
 	history={
 		owner = FPN
 		add_core_of = FPN
+
 	}
-	
+
 	provinces={
-		5183 6484 7853 9863 10173 10384 11099 20241 20249 20252 20262 20263 20325 
+		5183 6484 9863 10173 10384 11099 20241 20249 20252 20262 20263 20325 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

@@ -6,6 +6,7 @@ state={
 	history={
 		owner = DIA
 		add_core_of = DIA
+		victory_points = { 2416 10 }
 
 	}
 

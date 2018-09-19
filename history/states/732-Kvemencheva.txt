@@ -6,6 +6,7 @@ state={
 	history={
 		owner = SCD
 		add_core_of = SCD
+		victory_points = { 5694 15 }
 
 	}
 

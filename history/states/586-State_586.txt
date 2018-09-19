@@ -6,6 +6,7 @@ state={
 	history={
 		owner = SDN
 		add_core_of = SDN
+		victory_points = { 3136 20 }
 
 	}
 

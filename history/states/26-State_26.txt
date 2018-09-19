@@ -4,8 +4,8 @@ state={
 	name="STATE_26"
 
 	history={
-		owner = OPN
-		add_core_of = OPN
+		owner = BAP
+		add_core_of = BAP
 
 	}
 

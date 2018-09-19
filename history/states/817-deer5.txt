@@ -6,6 +6,7 @@ state={
 	history={
 		owner = CER
 		add_core_of = CER
+		victory_points = { 2199 50 }
 
 	}
 

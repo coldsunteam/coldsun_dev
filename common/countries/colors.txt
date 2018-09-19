@@ -299,16 +299,16 @@ RNG = {
 	color_ui = rgb { 67 101 165 }
 }
 APN = {
-	color = rgb { 67 101 165 }
-	color_ui = rgb { 67 101 165 }
+	color = rgb { 88 202 236 }
+	color_ui = rgb { 88 202 236 }
 }
 BPN = {
-	color = rgb { 67 101 165 }
-	color_ui = rgb { 67 101 165 }
+	color = rgb { 223 214 200 }
+	color_ui = rgb { 223 214 200 }
 }
 BAP = {
-	color = rgb { 67 101 165 }
-	color_ui = rgb { 67 101 165 }
+	color = rgb { 238 162 48 }
+	color_ui = rgb { 238 162 48 }
 }
 NPN = {
 	color = rgb { 67 101 165 }
