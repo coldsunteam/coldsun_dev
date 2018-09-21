@@ -132,6 +132,8 @@
   VICTORY_POINTS_8406:0 "Placeholder"
   VICTORY_POINTS_9499:0 "Placeholder1"
   VICTORY_POINTS_19803:0 "Placeholder2"
+  VICTORY_POINTS_9607:0 "Placeholder3"
+  VICTORY_POINTS_8864:0 "Placeholder4"
   ## Heartlands
   VICTORY_POINTS_168:0 "Placeholder"
   VICTORY_POINTS_546:0 "Placeholder1"
@@ -151,4 +153,16 @@
   ## Snowlands
   VICTORY_POINTS_8117:0 "Placeholder"
   VICTORY_POINTS_2633:0 "Placeholder1"
+  ## Confederation
+  VICTORY_POINTS_1500:0 "Placeholder"
+  VICTORY_POINTS_1503:0 "Placeholder1"
+  VICTORY_POINTS_2250:0 "Placeholder2"
+  ## Ikvari Reindeer
+  VICTORY_POINTS_4925:0 "Placeholder"
+  VICTORY_POINTS_10428:0 "Placeholder1"
+  VICTORY_POINTS_9037:0 "Placeholder2"
+  VICTORY_POINTS_3899:0 "Placeholder3"
+  VICTORY_POINTS_3331:0 "Placeholder4"
+  VICTORY_POINTS_11676:0 "Placeholder5"
+  VICTORY_POINTS_6167:0 "Placeholder6"
   

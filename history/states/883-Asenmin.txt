@@ -5,10 +5,11 @@ state={
 	history={
 		owner = APN
 		add_core_of = APN
+		victory_points = { 1500 30 }
 	}
 	
 	provinces={
-		1499 1500 1501 19701 19702 19706 19707 19709 19710 19712 19715 
+		1499 1500 1501 19701 19702 19706 19707 19709 19715 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
