@@ -5,6 +5,7 @@ state={
 	history={
 		owner = BAP
 		add_core_of = BAP
+		victory_points = { 7532 40 }
 	}
 	
 	provinces={

@@ -6,6 +6,7 @@ state={
 	history={
 		owner = RNG
 		add_core_of = RNG
+		victory_points = { 6961 40 }
 
 	}
 
