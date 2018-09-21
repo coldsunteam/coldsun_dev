@@ -6,7 +6,7 @@ state={
 	history={
 		owner = CER
 		add_core_of = CER
-		victory_points = { 10015 30 }
+		victory_points = { 10015 40 }
 
 	}
 
@@ -15,5 +15,5 @@ state={
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 }

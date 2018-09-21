@@ -6,14 +6,16 @@ state={
 	history={
 		owner = JDC
 		add_core_of = JDC
-		victory_points = { 11466 15 }
+		victory_points = {
+			11466 15 
+		}
 
 	}
 
 	provinces={
-		1096 6036 6037 6038 11466 19660 19661 
+		1096 2821 6036 6037 6038 11466 19660 19661 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=town
 }

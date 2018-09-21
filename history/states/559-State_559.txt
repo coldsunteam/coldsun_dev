@@ -12,6 +12,6 @@ state={
 	}
 	
 	manpower=100
-	state_category=metropolis
+	state_category=town
 	buildings_max_level_factor=1.000
 }
