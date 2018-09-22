@@ -2,15 +2,11 @@ state={
 	id=893
 	name="STATE_893"
 	
-	history={
-		owner = APN
-		add_core_of = APN
-	}
-	
 	provinces={
 		163 2433 20317 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category = wasteland
+	impassable = yes
 }
