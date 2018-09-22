@@ -1,7 +1,7 @@
 technologies = {
-	tank = {
+	light_tank = {
 		path = {
-			leads_to_tech = tank_1
+			leads_to_tech = post_war_lt
 			research_cost_coeff = 1
 		}		
 		research_cost = 1
@@ -20,7 +20,11 @@ technologies = {
 		}
 	}
 	
-	tank_1 = {	
+	post_war_lt = {	
+		path = {
+			leads_to_tech = lt_1954
+			research_cost_coeff = 1
+		}	
 		research_cost = 1.5
 		start_year = 1936
 		folder = {
@@ -34,4 +38,97 @@ technologies = {
 			factor = 1
 		}
 	}	
+	
+	lt_1954 = {	
+		path = {
+			leads_to_tech = lt_1958
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = parachutist_lt_1
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = mechanized_folder
+			position = { x = 0 y = 4 }
+		}
+		categories = {
+			tanks
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	lt_1958 = {	
+		path = {
+			leads_to_tech = lt_1964
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = mechanized_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			tanks
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	lt_1964 = {	
+		
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = mechanized_folder
+			position = { x = 0 y = 8 }
+		}
+		categories = {
+			tanks
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	parachutist_lt_1 = {	
+		path = {
+			leads_to_tech = parachutist_lt_2
+			research_cost_coeff = 1
+		}	
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = mechanized_folder
+			position = { x = 3 y = 6 }
+		}
+		categories = {
+			tanks
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	parachutist_lt_2 = {	
+		research_cost = 1.5
+		start_year = 1936
+		folder = {
+			name = mechanized_folder
+			position = { x = 3 y = 8 }
+		}
+		categories = {
+			tanks
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }
