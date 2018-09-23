@@ -10,13 +10,15 @@ technologies = {
 			name = mechanized_folder
 			position = { x = 0 y = 0 }
 		}
-		
 		categories = {
 			tanks
 		}
-		
 		ai_will_do = {
 			factor = 1
+		}
+		
+		enable_equipments = {
+			light_tank_equipment_1
 		}
 	}
 	
@@ -36,6 +38,10 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		
+		enable_equipments = {
+			light_tank_equipment_2
 		}
 	}	
 	
@@ -60,6 +66,10 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		enable_equipments = {
+			light_tank_equipment_3
+		}
 	}
 	
 	lt_1958 = {	
@@ -79,6 +89,11 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 		}
+		
+		
+		enable_equipments = {
+			light_tank_equipment_4
+		}
 	}
 	
 	lt_1964 = {	
@@ -94,6 +109,10 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+		
+		enable_equipments = {
+			light_tank_equipment_5
 		}
 	}
 	
@@ -129,6 +148,214 @@ technologies = {
 		}
 		ai_will_do = {
 			factor = 1
+		}
+	}
+	
+	### Medium Tanks
+	medium_tank = {
+		path = {
+			leads_to_tech = medium_tank_2
+			research_cost_coeff = 1
+		}		
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = mechanized_folder
+			position = { x = 6 y = 0 }
+		}
+		
+		categories = {
+			tanks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		enable_equipments = {
+			medium_tank_equipment_1
+		}
+	}
+	
+	medium_tank_2 = {
+		path = {
+			leads_to_tech = medium_tank_3
+			research_cost_coeff = 1
+		}		
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = mechanized_folder
+			position = { x = 6 y = 2 }
+		}
+		
+		categories = {
+			tanks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		enable_equipments = {
+			medium_tank_equipment_2
+		}
+	}
+	
+	medium_tank_3 = {
+		path = {
+			leads_to_tech = medium_tank_4
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = mbt_1
+			research_cost_coeff = 1
+		}	
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = mechanized_folder
+			position = { x = 6 y = 4 }
+		}
+		
+		categories = {
+			tanks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		enable_equipments = {
+			medium_tank_equipment_3
+		}
+	}
+	
+	medium_tank_4 = {
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = mechanized_folder
+			position = { x = 6 y = 6 }
+		}
+		
+		categories = {
+			tanks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		enable_equipments = {
+			medium_tank_equipment_4
+		}
+	}
+	
+	mbt_1 = {
+		path = {
+			leads_to_tech = mbt_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = mechanized_folder
+			position = { x = 9 y = 4 }
+		}
+		
+		categories = {
+			tanks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mbt_2 = {
+		path = {
+			leads_to_tech = mbt_3
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = mechanized_folder
+			position = { x = 9 y = 6 }
+		}
+		
+		categories = {
+			tanks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	mbt_3 = {
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = mechanized_folder
+			position = { x = 9 y = 8 }
+		}
+		
+		categories = {
+			tanks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### Heavy Tanks
+	
+	heavy_tank = {
+		path = {
+			leads_to_tech = heavy_tank_2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = mechanized_folder
+			position = { x = 12 y = 0 }
+		}
+		
+		categories = {
+			tanks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		enable_equipments = {
+			heavy_tank_equipment_1
+		}
+	}
+	
+	heavy_tank_2 = {
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = mechanized_folder
+			position = { x = 12 y = 2 }
+		}
+		
+		categories = {
+			tanks
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		enable_equipments = {
+			heavy_tank_equipment_2
 		}
 	}
 }
