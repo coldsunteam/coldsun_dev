@@ -7,7 +7,7 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-            10869 20
+            4412 20
         	}
 
 	}
