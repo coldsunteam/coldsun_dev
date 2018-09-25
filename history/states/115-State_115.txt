@@ -23,7 +23,7 @@ state={
 	provinces={
 		677 678 8706 9086 10668 10880 19870 
 	}
-	manpower=100
-	buildings_max_level_factor=1.000
-	state_category=metropolis
+	manpower = 18656000
+	buildings_max_level_factor = 1.000
+	state_category = metropolis
 }
