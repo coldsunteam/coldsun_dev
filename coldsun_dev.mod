@@ -1,4 +1,4 @@
-﻿name="Equestria:Cold Sun"
+﻿name="Equestria: Cold Sun (DEV)"
 path="mod/coldsun_dev/"
 replace_path="common/ai_peace"
 replace_path="common/ai_strategy"
