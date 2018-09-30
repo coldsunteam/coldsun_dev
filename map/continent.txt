@@ -2,7 +2,7 @@ continents = {
 	equis
 	zebrerica
 	greater_thermonia
-	haiyi_thal
+	ardu_alsahra
 	aetheria
 	obscurum_minor
 	cervinia
