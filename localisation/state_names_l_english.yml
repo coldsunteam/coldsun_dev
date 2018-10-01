@@ -987,3 +987,8 @@
  STATE_986:1 "Southern Spine"
  STATE_987:0 "Southern Spine"
  STATE_988:0 "Northern Spine"
+ STATE_989:0 "Desert3"
+ STATE_990:0 "desert4"
+ STATE_991:0 "desert5"
+ STATE_992:0 "desert6"
+ STATE_993:0 "desert7"

@@ -2,19 +2,16 @@
 state={
 	id=526
 	name="STATE_526"
-	
 	resources={
 		grain=12.000
 	}
 
 	history={
-		owner = MEG
-		add_core_of = MEG
 
 	}
 
 	provinces={
-		420 421 422 423 424 425 426 485 486 489 490 491 3457 5719 5720 6067 6069 6513 7277 7942 8748 9082 9084 10647 10853 11247 11319 
+		419 423 5719 5720 6067 6513 6514 7277 7942 9081 9082 9083 9084 11247 11319 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

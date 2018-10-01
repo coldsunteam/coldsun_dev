@@ -2,14 +2,17 @@
 state={
 	id=465
 	name="STATE_465"
-	provinces={
-		1907 7298 7299 8355 9823 10378 
-	}
-	manpower=100
-	state_category=metropolis
-	buildings_max_level_factor=1.000
+
 	history={
 		owner = PEG
 		add_core_of = PEG
+
 	}
+
+	provinces={
+		1907 1908 5456 9693 11291 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

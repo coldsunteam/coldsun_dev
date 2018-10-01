@@ -2,16 +2,17 @@
 state={
 	id=734
 	name="STATE_734"
-	provinces={
-		8789 11972 11973 
-	}
-	
+
 	history={
 		owner = THE
 		add_core_of = THE
+
 	}
-	
+
+	provinces={
+		3886 8700 8789 9874 9875 11969 11970 11972 11973 
+	}
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

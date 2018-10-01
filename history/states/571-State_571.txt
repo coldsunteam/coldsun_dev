@@ -4,13 +4,13 @@ state={
 	name="STATE_571"
 
 	history={
-		owner = MEG
-		add_core_of = MEG
+		owner = KIR
+		add_core_of = KIR
 
 	}
 
 	provinces={
-		415 416 417 418 419 3305 3306 5447 6514 6515 9081 9083 10816 
+		416 417 418 3305 3306 5447 6515 10816 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
