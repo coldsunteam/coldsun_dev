@@ -4,13 +4,13 @@ state={
 	name="STATE_472"
 
 	history={
-		owner = BUF
-		add_core_of = BUF
+		owner = TUT
+		add_core_of = TUT
 
 	}
 
 	provinces={
-		3439 4406 4407 4408 5587 5588 5589 5590 6726 6727 8784 10769 11049 11309 
+		3439 4406 4407 4408 5587 5588 5589 5590 6726 6727 8784 10666 10769 11049 11309 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -6,8 +6,8 @@ state={
 	}
 	
 	history={
-		owner = SAD
-		add_core_of = SAD
+		owner = OMH
+		add_core_of = OMH
 	}
 	
 	manpower=0

@@ -2,19 +2,18 @@
 state={
 	id=753
 	name="STATE_753"
-	
 	resources={
 		grain=6.000
 	}
 
 	history={
-		owner = BUF
-		add_core_of = BUF
+		owner = TUT
+		add_core_of = TUT
 
 	}
 
 	provinces={
-		30 31 34 427 428 429 430 431 5112 5113 5750 5751 6728 7892 7893 8391 8392 8678 10058 11277 11428 11452 
+		30 31 427 428 429 431 5750 5751 6728 10058 11277 11428 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

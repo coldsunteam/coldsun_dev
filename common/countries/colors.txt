@@ -370,3 +370,35 @@ KAV = {
 color = rgb { 0 107 159 }
 color_ui = rgb { 0 107 159 }
 }
+MUS = {
+color = rgb { 146 102 75 }
+color_ui = rgb { 146 102 75 }
+}
+SMU = {
+color = rgb { 196 173 83 }
+color_ui = rgb { 196 173 83 }
+}
+OMH = {
+color = rgb { 240 244 155 }
+color_ui = rgb { 240 244 155 }
+}
+CAL = {
+color = rgb { 210 203 53 }
+color_ui = rgb { 210 203 53 }
+}
+YMA = {
+color = rgb { 26 102 28 }
+color_ui = rgb { 26 102 28 }
+}
+MET = {
+color = rgb { 63 97 152 }
+color_ui = rgb { 63 97 152 }
+}
+TUT = {
+color = rgb { 219 169 119 }
+color_ui = rgb { 219 169 119 }
+}
+FEH = {
+color = rgb { 133 184 27 }
+color_ui = rgb { 133 184 27 }
+}

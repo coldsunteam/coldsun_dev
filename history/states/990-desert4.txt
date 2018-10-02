@@ -1,8 +1,16 @@
+
 state={
 	id=990
 	name="STATE_990"
+
+	history={
+		owner = SAD
+		add_core_of = SAD
+
+	}
+
 	provinces={
-		478 479 480 481 3270 4514 5257 8821 10396 10655 
+		478 479 480 3270 4514 5257 9182 9183 10396 10655 10969 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

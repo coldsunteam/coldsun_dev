@@ -4,13 +4,13 @@ state={
 	name="STATE_617"
 
 	history={
-		owner = SAD
-		add_core_of = SAD
+		owner = SMU
+		add_core_of = SMU
 
 	}
 
 	provinces={
-		3291 3292 3293 3296 3297 3298 3299 4871 4872 8183 11781 
+		3291 3292 3293 3296 3297 3298 3299 8183 11781 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

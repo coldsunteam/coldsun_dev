@@ -4,13 +4,13 @@ state={
 	name="STATE_503"
 
 	history={
-		owner = SAD
-		add_core_of = SAD
+		owner = CAL
+		add_core_of = CAL
 
 	}
 
 	provinces={
-		1474 3354 3355 3356 3357 3360 3361 3364 3367 6310 6778 8425 10815 11380 
+		1474 3354 3355 3356 3357 3367 6310 6778 8425 10815 11380 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

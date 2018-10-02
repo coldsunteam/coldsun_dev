@@ -1,0 +1,16 @@
+state={
+	id=995
+	name="STATE_995"
+	
+	history={
+		owner = FEH
+		add_core_of = FEH
+
+	}
+	
+	provinces={
+		199 202 203 679 680 681 1891 1892 1893 4883 9763 11690 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,16 @@
+state={
+	id=997
+	name="STATE_997"
+	
+	history={
+		owner = MET
+		add_core_of = MET
+
+	}
+	
+	provinces={
+		3966 4428 4429 5050 7877 10055 10615 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

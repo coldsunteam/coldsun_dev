@@ -4,13 +4,13 @@ state={
 	name="STATE_464"
 
 	history={
-		owner = SAD
-		add_core_of = SAD
+		owner = MET
+		add_core_of = MET
 
 	}
 
 	provinces={
-		681 682 683 684 685 686 4883 6092 6915 6916 6917 7018 7019 8711 9763 10073 11061 
+		682 683 684 685 686 6092 6915 6916 6917 7018 7019 8711 10073 11061 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
