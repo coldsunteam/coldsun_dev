@@ -2,6 +2,9 @@
 state={
 	id=358
 	name="STATE_358"
+	resources={
+		chromium=10
+	}
 
 	history={
 		owner = EQS

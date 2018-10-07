@@ -2,6 +2,9 @@
 state={
 	id=299
 	name="STATE_299"
+	resources={
+		coal=12
+	}
 
 	history={
 		owner = EQA

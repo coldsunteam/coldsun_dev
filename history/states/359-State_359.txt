@@ -2,6 +2,10 @@
 state={
 	id=359
 	name="STATE_359"
+	resources={
+		tungsten=15
+		coal=25
+	}
 
 	history={
 		owner = GPC

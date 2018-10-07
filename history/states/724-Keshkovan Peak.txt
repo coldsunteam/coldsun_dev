@@ -2,6 +2,10 @@
 state={
 	id=724
 	name="STATE_724"
+	resources={
+		coal=10
+		aluminium=12
+	}
 
 	history={
 		owner = ABA

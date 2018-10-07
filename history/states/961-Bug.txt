@@ -2,6 +2,9 @@
 state={
 	id=961
 	name="STATE_961"
+	resources={
+		gems=12
+	}
 	
 	history={
 		owner = ATI

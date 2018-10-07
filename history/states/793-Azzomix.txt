@@ -2,6 +2,10 @@
 state={
 	id=793
 	name="STATE_793"
+	resources={
+		gems=20
+		coal=32
+	}
 
 	history={
 		owner = CRY

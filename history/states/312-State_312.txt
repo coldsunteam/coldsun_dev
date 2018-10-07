@@ -5,6 +5,8 @@ state={
 	
 	resources={
 		gems=10.000
+		coal=6
+		oil=10
 	}
 
 	history={

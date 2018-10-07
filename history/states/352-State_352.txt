@@ -2,6 +2,10 @@
 state={
 	id=352
 	name="STATE_352"
+	resources={
+		tungsten=11
+		steel=12
+	}
 
 	history={
 		owner = CRY

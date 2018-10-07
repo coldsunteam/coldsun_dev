@@ -5,6 +5,7 @@ state={
 	
 	resources={
 		oil=20.000
+		grain=10.00
 	}
 
 	history={

@@ -2,6 +2,9 @@
 state={
 	id=279
 	name="STATE_279"
+	resources={
+		chromium=12
+	}
 
 	history={
 		owner = EQA

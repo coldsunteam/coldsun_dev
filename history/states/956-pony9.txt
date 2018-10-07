@@ -2,6 +2,10 @@
 state={
 	id=956
 	name="STATE_956"
+	resources={
+		aluminium=24
+	}
+	
 	history={
 		owner = GPD
 		add_core_of = GPD

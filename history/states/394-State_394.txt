@@ -5,6 +5,7 @@ state={
 	
 	resources={
 		grain=6.000
+		aluminium=10
 	}
 
 	history={
