@@ -2,7 +2,6 @@
 state={
 	id=717
 	name="STATE_717"
-	
 	resources={
 		rubber=25.000
 	}
@@ -14,7 +13,7 @@ state={
 	}
 
 	provinces={
-		1818 1819 1820 1823 1824 5708 5709 6290 8552 8553 11046 11664 
+		1818 1819 1820 1823 1824 5709 6290 8552 11664 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -2,7 +2,6 @@
 state={
 	id=436
 	name="STATE_436"
-	
 	resources={
 		rubber=6.000
 	}
@@ -11,16 +10,16 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-            2574 20
-        	}
+			2574 20 
+		}
 		victory_points = {
-            8030 20
-        	}
+			8030 20 
+		}
 
 	}
 
 	provinces={
-		2571 2572 2573 2574 4414 4415 6336 7511 8028 8029 8030 8103 8104 9159 10311 
+		2571 2572 2573 2574 4414 4415 6336 7511 8103 8104 9159 10311 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

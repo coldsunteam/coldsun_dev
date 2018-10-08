@@ -7,13 +7,13 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-            3317 20
-        	}
+			3317 20 
+		}
 
 	}
 
 	provinces={
-		3316 3317 3318 3319 6404 6571 6572 8372 10430 
+		3316 3317 3318 3319 3323 6571 6572 8119 8372 
 	}
 	manpower=18342000
 	buildings_max_level_factor=1.000

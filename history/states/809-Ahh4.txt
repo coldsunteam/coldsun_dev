@@ -4,20 +4,20 @@ state={
 	name="STATE_809"
 	resources={
 		grain=22.000
-		coal=15
+		coal=15.000
 	}
 
 	history={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-            4579 20
-        	}
+			4579 20 
+		}
 
 	}
 
 	provinces={
-		1684 1685 1686 1687 1688 1856 3019 4579 8413 10980 11310 20371 20372 
+		1684 1687 1688 1856 4579 8413 10980 11310 20371 20372 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

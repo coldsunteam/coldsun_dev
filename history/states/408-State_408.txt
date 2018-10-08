@@ -3,7 +3,7 @@ state={
 	id=408
 	name="STATE_408"
 	resources={
-		rubber=13
+		rubber=13.000
 	}
 
 	history={
@@ -13,7 +13,7 @@ state={
 	}
 
 	provinces={
-		19 20 21 3210 3211 3212 3218 3841 3842 8567 8584 9844 11091 11092 
+		18 19 20 21 3210 3218 3841 3842 8584 9844 11091 11092 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -3,23 +3,23 @@ state={
 	id=805
 	name="STATE_805"
 	resources={
-		steel=15
+		steel=15.000
 	}
 
 	history={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-            5346 20
-        	}
+			5346 20 
+		}
 		victory_points = {
-            19520 20
-        	}
+			19520 20 
+		}
 
 	}
 
 	provinces={
-		2953 2954 2955 5344 5346 5347 6731 8215 9142 9274 9589 9688 10883 11289 19517 19520 
+		2953 2954 2955 5344 6731 8215 9274 10883 11289 19520 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
