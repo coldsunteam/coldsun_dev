@@ -1,23 +1,24 @@
+
 state={
 	id=947
 	name="STATE_947"
-	
 	resources={
 		rubber=9.000
 	}
-	
-	provinces={
-		2281 2282 2283 3605 6667 6669 9901 9902 10238 10536 11744 11841 20336 20338 
-	}
-	
+
 	history={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-            20338 20
-        	}
+			20338 20 
+		}
+
+	}
+
+	provinces={
+		1405 2281 2282 2283 3605 6667 6669 9901 9902 10238 10536 11744 11841 20336 20338 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
-	state_category = large_city
+	state_category=large_city
 }

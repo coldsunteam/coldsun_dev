@@ -1,9 +1,16 @@
 state={
 	id=999
 	name="STATE_999"
+	
+	history={
+		owner = EQS
+		add_core_of = EQS
+	}
+		
 	provinces={
 		2949 2950 5346 5347 6653 9142 9568 9589 9688 19517 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
