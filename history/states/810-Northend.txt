@@ -2,7 +2,6 @@
 state={
 	id=810
 	name="STATE_810"
-	
 	resources={
 		gems=2.000
 	}
@@ -11,17 +10,16 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-            5956 20
-        	}
+			5956 20 
+		}
 		victory_points = {
-	    762 20
-        	}
-
+			762 20 
+		}
 
 	}
 
 	provinces={
-		762 1448 3405 4984 5955 5956 5957 5959 6646 6647 9105 9598 9599 19567 19568 19615 19616 20362 
+		762 3405 4984 5955 5956 6646 6647 9105 9598 9599 19567 19568 19615 19616 20362 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -3,15 +3,16 @@ state={
 	id=316
 	name="STATE_316"
 	resources={
-		steel=10.00
+		steel=10.000
 	}
 
 	history={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-            6628 15
-        	}
+			6628 15 
+		}
+
 	}
 
 	provinces={

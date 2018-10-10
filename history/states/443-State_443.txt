@@ -6,14 +6,14 @@ state={
 	history={
 		owner = EQS
 		add_core_of = EQS
-		
 		victory_points = {
 			7118 30 
 		}
+
 	}
 
 	provinces={
-		3225 7118 7119 8312 
+		3225 7118 8312 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

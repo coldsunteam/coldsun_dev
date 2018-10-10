@@ -3,22 +3,22 @@ state={
 	id=384
 	name="STATE_384"
 	resources={
-		coal=11
-		steel=5
-		tungsten=10
+		coal=11.000
+		steel=5.000
+		tungsten=10.000
 	}
 
 	history={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-            304 20
-        	}
+			304 20 
+		}
 
 	}
 
 	provinces={
-		304 308 2511 2513 2957 7975 9216 11358 20359 20360 
+		304 308 2511 2513 2957 7975 9216 20359 20360 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

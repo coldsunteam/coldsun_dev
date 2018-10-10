@@ -1,14 +1,16 @@
+
 state={
 	id=999
 	name="STATE_999"
-	
+
 	history={
 		owner = EQS
 		add_core_of = EQS
+
 	}
-		
+
 	provinces={
-		2949 2950 5346 5347 6653 9142 9568 9589 9688 19517 
+		5346 5347 9142 9304 9305 9306 9589 9688 10944 19517 19518 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

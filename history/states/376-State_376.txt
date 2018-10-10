@@ -2,7 +2,6 @@
 state={
 	id=376
 	name="STATE_376"
-	
 	resources={
 		grain=8.000
 	}
@@ -10,14 +9,14 @@ state={
 	history={
 		owner = EQS
 		add_core_of = EQS
-			
 		victory_points = {
 			7849 20 
 		}
+
 	}
 
 	provinces={
-		105 106 397 649 787 6631 6633 6634 6635 6636 7849 10851 
+		105 397 649 6635 6636 7849 
 	}
 	manpower=16948000
 	buildings_max_level_factor=1.000

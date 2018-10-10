@@ -2,7 +2,6 @@
 state={
 	id=377
 	name="STATE_377"
-	
 	resources={
 		grain=8.000
 	}
@@ -11,13 +10,13 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-            4747 20
-        	}
+			4747 20 
+		}
 
 	}
 
 	provinces={
-		108 2668 2669 4747 7646 7647 7907 9217 9505 
+		107 108 804 1858 1859 8308 8309 9217 10904 11421 
 	}
 	manpower=13640000
 	buildings_max_level_factor=1.000
