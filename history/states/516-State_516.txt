@@ -3,11 +3,7 @@ state={
 	id=516
 	name="STATE_516"
 
-	history={
-		owner = KOB
-		add_core_of = KOB
-
-	}
+	
 
 	provinces={
 		20782 20790 20801 20802 20803 20804 20815 20818 20826 20829 20833 20834 20846 20850 20857 

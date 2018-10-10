@@ -1,12 +1,7 @@
 state={
 	id=880
 	name="STATE_880"
-	
-	history={
-		owner = BPN
-		add_core_of = BPN
-		victory_points = { 9607 24 }
-	}
+
 	
 	provinces={
 		7379 8009 9381 9607 11209 11956 19694 19695 19696 19698 19699 19704 

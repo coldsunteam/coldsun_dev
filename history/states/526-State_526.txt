@@ -6,10 +6,7 @@ state={
 		grain=12.000
 	}
 
-	history={
-		owner = MUS
-		add_core_of = MUS
-	}
+	
 
 	provinces={
 		419 423 5719 5720 6067 6513 6514 7277 7942 9081 9082 9083 9084 11247 11319 

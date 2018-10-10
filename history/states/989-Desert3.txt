@@ -3,11 +3,7 @@ state={
 	id=989
 	name="STATE_989"
 
-	history={
-		owner = MET
-		add_core_of = MET
-
-	}
+	
 
 	provinces={
 		3358 3359 3965 3969 3971 3972 3973 3974 6091 8709 8710 

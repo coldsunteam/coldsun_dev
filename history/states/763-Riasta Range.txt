@@ -5,11 +5,6 @@ state={
 		2563 5702 10135 
 	}
 	
-    history = {
-		owner = PAN
-		add_core_of = PAN
-	}
-	
 	manpower=100
 state_category=metropolis
 	buildings_max_level_factor=1.000

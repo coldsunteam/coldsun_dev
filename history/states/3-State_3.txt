@@ -2,13 +2,6 @@
 state={
 	id=3
 	name="STATE_3"
-
-	history={
-		owner = OPN
-		add_core_of = OPN
-
-	}
-
 	provinces={
 		170 4521 10090 19925 19934 19942 19951 
 	}

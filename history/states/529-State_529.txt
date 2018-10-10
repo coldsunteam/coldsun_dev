@@ -3,13 +3,6 @@ state={
 	id=529
 	name="STATE_529"
 
-	history={
-		owner = MNT
-		add_core_of = MNT
-		victory_points = { 10489 30 }
-
-	}
-
 	provinces={
 		1017 1018 1019 1020 1761 3875 4195 6320 6322 6323 8156 8687 9797 10489 11853 
 	}

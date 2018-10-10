@@ -6,10 +6,7 @@ state={
 		825 826 3022 3023 3024 3025 3720 3721 6826 7099 7100 7158 7159 8694 10042 11292 
 	}
 	
-	history={
-		owner = SPX
-		add_core_of = SPX
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

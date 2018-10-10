@@ -3,11 +3,7 @@ state={
 	id=64
 	name="STATE_64"
 
-	history={
-		owner = OPN
-		add_core_of = OPN
-
-	}
+	
 
 	provinces={
 		6370 6371 11031 19879 19884 19885 19892 19909 19910 19919 19921 19929 20306 

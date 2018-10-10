@@ -6,11 +6,6 @@ state={
 		2557 2558 2559 2560 2561 2562 4990 4991 4992 5701 8611 9915 10136 10137 11446 11656 
 	}
 	
-    history = {
-		owner = PAN
-		add_core_of = PAN
-	}
-	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

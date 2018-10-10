@@ -3,10 +3,7 @@ state={
 	id=934
 	name="STATE_934"
 	
-	history={
-		owner = FPN
-		add_core_of = FPN
-	}
+	
 	
 	provinces={
 		2439 5182 6439 7241 8118 8154 20266 20272 20274 20275 20281 20283 20284 20326 

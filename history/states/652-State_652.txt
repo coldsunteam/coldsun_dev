@@ -3,12 +3,6 @@ state={
 	id=652
 	name="STATE_652"
 
-	history={
-		owner = CER
-		add_core_of = CER
-
-	}
-
 	provinces={
 		2101 2102 2201 6313 6314 9476 9704 9705 
 	}

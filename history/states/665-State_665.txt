@@ -6,10 +6,7 @@ state={
 		3537 4452 5351 9469 10542 11980 11981 
 	}
 	
-	history={
-		owner = SPD
-		add_core_of = SPD
-	}
+	
 	
 	manpower=100
 	buildings_max_level_factor=1.000

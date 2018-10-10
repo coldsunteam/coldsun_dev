@@ -6,10 +6,7 @@ state={
 	}
 	manpower=100
 
-	history={
-		owner = CER
-		add_core_of = CER
-	}
+	
 	state_category=small_island
 	buildings_max_level_factor=1.000
 }

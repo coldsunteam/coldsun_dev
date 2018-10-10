@@ -5,11 +5,7 @@ state={
 		556 557 558 559 560 561 562 3685 4983 5099 5234 7411 8473 9422 11083 
 	}
 	
-	history={
-		owner = XXX
-		add_core_of = XXX
-
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

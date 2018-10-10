@@ -3,12 +3,6 @@ state={
 	id=726
 	name="STATE_726"
 
-	history={
-		owner = DRG
-		add_core_of = DRG
-
-	}
-
 	provinces={
 		4002 5627 5628 5954 6155 6158 7038 7039 7094 7133 7149 
 	}

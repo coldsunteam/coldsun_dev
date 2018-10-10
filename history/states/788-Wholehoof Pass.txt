@@ -3,13 +3,6 @@ state={
 	id=788
 	name="STATE_788"
 
-	history={
-		owner = SCD
-		add_core_of = SCD
-		victory_points = { 8531 25 }
-
-	}
-
 	provinces={
 		1588 1589 1590 1591 2134 7144 7718 8531 9909 9972 11540 11575 
 	}

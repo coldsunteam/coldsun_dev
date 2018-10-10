@@ -6,10 +6,7 @@ state={
 		945 946 947 955 956 957 2029 2030 3524 3525 3656 3657 3658 7510 8906 8907 9199 9719 9749 9750 10270 10404 10405 11215 11824 
 	}
 	
-	history={
-		owner = SPX
-		add_core_of = SPX
-	}
+	
 	
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -6,12 +6,6 @@ state={
 		833 962 1211 1220 1222 1757 1945 1946 2203 2204 2205 2264 2265 2742 3352 3620 5077 6827 6828 7846 8220 8587 9328 11594 11660 
 	}
 	
-	history={
-		owner = SPX
-		add_core_of = SPX
-
-	}
-	
 	manpower=100
 	state_category=metropolis
 	buildings_max_level_factor=1.000

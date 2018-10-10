@@ -3,11 +3,7 @@ state={
 	id=450
 	name="STATE_450"
 
-	history={
-		owner = EQC
-		add_core_of = EQC
-
-	}
+	
 
 	provinces={
 		3036 4254 4878 4879 6743 9014 10240 11307 

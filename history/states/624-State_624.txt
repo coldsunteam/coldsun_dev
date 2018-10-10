@@ -6,10 +6,7 @@ state={
 		1649 1841 4269 4760 5004 5157 5698 6181 6597 8026 8515 8844 10525 
 	}
 	
-	history={
-		owner = SPV
-		add_core_of = SPV
-	}
+	
 	
 	manpower=100
 	buildings_max_level_factor=1.000

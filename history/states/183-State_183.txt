@@ -6,10 +6,7 @@ state={
 		3231 3232 4049 7590 8486 8487 10415 10861 
 	}
 	
-	history={
-		owner = HIP
-		add_core_of = HIP
-	}
+
 	
 	manpower=100
 	buildings_max_level_factor=1.000

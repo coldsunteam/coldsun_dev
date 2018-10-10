@@ -3,11 +3,7 @@ state={
 	id=536
 	name="STATE_536"
 
-	history={
-		owner = MEG
-		add_core_of = MEG
-
-	}
+	
 
 	provinces={
 		1438 1439 3365 3366 3372 3772 6756 6757 8951 10305 10504 10506 11022 

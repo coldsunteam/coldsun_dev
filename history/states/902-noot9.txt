@@ -2,12 +2,6 @@ state={
 	id=902
 	name="STATE_902"
 	
-	history={
-		owner = RNG
-		add_core_of = RNG
-		victory_points = { 7316 20 }
-	}
-	
 	provinces={
 		4189 7315 7316 7317 8041 8903 10434 11728 19988 19992 20018 20023 
 	}

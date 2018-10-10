@@ -3,12 +3,6 @@ state={
 	id=844
 	name="STATE_844"
 
-	history={
-		owner = DHO
-		add_core_of = DHO
-
-	}
-
 	provinces={
 		8401 9780 10250 10251 11462 11747 
 	}

@@ -3,11 +3,7 @@ state={
 	id=557
 	name="STATE_557"
 
-	history={
-		owner = DHO
-		add_core_of = DHO
-
-	}
+	
 
 	provinces={
 		2004 3702 3704 3705 3828 8660 10035 10346 10510 19676 19681 19682 

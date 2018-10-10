@@ -3,10 +3,7 @@ state={
 	id=922
 	name="STATE_922"
 	
-	history={
-		owner = PCF
-		add_core_of = PCF
-	}
+	
 	
 	provinces={
 		1437 4199 11136 20141 20146 20152 20162 20172 20179 20207 20215 

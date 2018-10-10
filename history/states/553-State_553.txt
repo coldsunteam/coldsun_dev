@@ -3,10 +3,7 @@ state={
 	id=553
 	name="STATE_553"
 
-	history={
-		owner = MUS
-		add_core_of = MUS
-	}
+	
 
 	provinces={
 		414 415 420 421 422 424 425 426 485 486 489 490 491 3457 6069 8748 9228 9229 10647 10853 

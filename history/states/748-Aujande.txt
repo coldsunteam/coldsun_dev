@@ -3,12 +3,6 @@ state={
 	id=748
 	name="STATE_748"
 
-	history={
-		owner = SMU
-		add_core_of = SMU
-
-	}
-
 	provinces={
 		2577 2578 2579 4845 5715 6765 7810 7811 7957 8002 9676 10876 11780 
 	}

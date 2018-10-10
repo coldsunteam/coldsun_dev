@@ -2,12 +2,6 @@ state={
 	id=885
 	name="STATE_885"
 	
-	history={
-		owner = APN
-		add_core_of = APN
-		victory_points = { 2250 15 }
-	}
-	
 	provinces={
 		2249 2250 19755 19763 19773 19776 19779 
 	}

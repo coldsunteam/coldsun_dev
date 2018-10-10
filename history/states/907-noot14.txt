@@ -2,12 +2,6 @@ state={
 	id=907
 	name="STATE_907"
 	
-	history={
-		owner = PCF
-		add_core_of = PCF
-		victory_points = { 11676 20 }
-	}
-	
 	provinces={
 		6518 6683 6684 6685 7065 7066 9918 10337 11544 11676 20196 20199 20203 20208 20211 20216 20223 20229 
 	}

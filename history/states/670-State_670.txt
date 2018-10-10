@@ -3,13 +3,6 @@ state={
 	id=670
 	name="STATE_670"
 
-	history={
-		owner = JDC
-		add_core_of = JDC
-		victory_points = { 10408 25 }
-
-	}
-
 	provinces={
 		1849 2285 2287 2289 3073 10408 10739 10740 
 	}

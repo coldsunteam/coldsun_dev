@@ -6,10 +6,7 @@ state={
 		820 7443 7533 8663 9402 9543 9744 10263 10962 
 	}
 	
-	history={
-		owner = IMJ
-		add_core_of = IMJ
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

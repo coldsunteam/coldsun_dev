@@ -6,10 +6,7 @@ state={
 		878 879 880 881 882 2124 4835 4836 4837 6866 6867 6955 7188 7189 8565 8566 8890 9393 9620 9675 9939 9940 11453 11883 
 	}
 	
-	history={
-		owner = SPD
-		add_core_of = SPD
-	}
+	
 	
 	manpower=100
 	buildings_max_level_factor=1.000

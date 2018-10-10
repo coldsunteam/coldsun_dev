@@ -3,11 +3,7 @@ state={
 	id=534
 	name="STATE_534"
 
-	history={
-		owner = DIA
-		add_core_of = DIA
-
-	}
+	
 
 	provinces={
 		4446 7327 7398 7580 8787 8817 8818 8858 9008 9012 9156 9592 9886 21006 

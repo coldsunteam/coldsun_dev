@@ -2,10 +2,7 @@ state={
 	id=889
 	name="STATE_889"
 	
-	history={
-		owner = APN
-		add_core_of = APN
-	}
+	
 	
 	provinces={
 		2086 5325 5326 19716 19720 19721 19725 19738 

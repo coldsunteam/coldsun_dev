@@ -2,11 +2,7 @@ state={
 	id=988
 	name="STATE_988"
 	
-	history={
-		owner = KAV
-		add_core_of = KAV
-
-	}
+	
 	
 	provinces={
 		215 505 2467 2468 7472 7473 8161 10837 19690 

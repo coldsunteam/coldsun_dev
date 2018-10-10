@@ -3,12 +3,6 @@ state={
 	id=761
 	name="STATE_761"
 
-	history={
-		owner = KET
-		add_core_of = KET
-
-	}
-
 	provinces={
 		8855 9397 
 	}

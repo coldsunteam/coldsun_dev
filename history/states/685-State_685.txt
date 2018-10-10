@@ -6,10 +6,7 @@ state={
 		4100 7780 8859 10629 11732 11983 11984 11986 
 	}
 	
-	history={
-		owner = SPX
-		add_core_of = SPX
-	}
+	
 	
 	manpower=100
 	buildings_max_level_factor=1.000

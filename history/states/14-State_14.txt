@@ -3,13 +3,6 @@ state={
 	id=14
 	name="STATE_14"
 
-	history={
-		owner = OPN
-		add_core_of = OPN
-		victory_points = { 10467 5 }
-
-	}
-
 	provinces={
 		384 385 7367 10467 19940 19941 19944 19947 19950 19954 19962 19967 
 	}

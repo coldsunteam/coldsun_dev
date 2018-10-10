@@ -3,11 +3,7 @@ state={
 	id=522
 	name="STATE_522"
 
-	history={
-		owner = POC
-		add_core_of = POC
-
-	}
+	
 
 	provinces={
 		933 934 935 936 937 940 941 2693 2694 2697 2698 3010 3011 3013 3889 3890 5574 9129 11562 

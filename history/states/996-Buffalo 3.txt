@@ -3,11 +3,7 @@ state={
 	id=996
 	name="STATE_996"
 	
-	history={
-		owner = FEH
-		add_core_of = FEH
-
-	}
+	
 	
 	provinces={
 		497 498 499 3440 5110 5111 8298 9579 11527 

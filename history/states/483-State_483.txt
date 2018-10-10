@@ -3,11 +3,7 @@ state={
 	id=483
 	name="STATE_483"
 
-	history={
-		owner = MET
-		add_core_of = MET
-
-	}
+	
 
 	provinces={
 		483 484 487 488 5051 5052 5758 6902 6903 7061 8657 

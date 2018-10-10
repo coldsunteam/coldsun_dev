@@ -2,10 +2,7 @@ state={
 	id=939
 	name="STATE_939"
 	
-	history={
-		owner = NNP
-		add_core_of = NNP
-	}
+	
 	
 	provinces={
 		2014 6329 9492 20219 20227 20228 20239 

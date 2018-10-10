@@ -6,10 +6,7 @@ state={
 		525 526 527 3079 3080 3081 8242 10562 11477 11528 
 	}
 	
-    history = {
-		owner = SPA
-		add_core_of = SPA
-	}
+    
 	
 	manpower=100
 	buildings_max_level_factor=1.000

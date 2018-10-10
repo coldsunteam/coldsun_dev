@@ -3,12 +3,6 @@ state={
 	id=699
 	name="STATE_699"
 
-	history={
-		owner = MNT
-		add_core_of = MNT
-
-	}
-
 	provinces={
 		5979 7612 7613 7870 8815 9679 11026 11608 
 	}

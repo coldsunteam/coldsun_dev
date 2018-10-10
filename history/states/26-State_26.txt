@@ -3,12 +3,6 @@ state={
 	id=26
 	name="STATE_26"
 
-	history={
-		owner = BAP
-		add_core_of = BAP
-		victory_points = { 5254 25 }
-
-	}
 
 	provinces={
 		252 253 383 765 5253 5254 5255 7604 19561 19937 

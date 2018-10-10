@@ -5,11 +5,6 @@ state={
 		94 3241 6200 10322 11846 
 	}
 	
-    history = {
-		owner = SPC
-		add_core_of = SPC
-	}
-	
 	manpower=100
 state_category=metropolis
 	buildings_max_level_factor=1.000

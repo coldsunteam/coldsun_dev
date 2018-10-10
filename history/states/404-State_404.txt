@@ -6,11 +6,7 @@ state={
 		grain=4.000
 	}
 
-	history={
-		owner = DRG
-		add_core_of = DRG
-
-	}
+	
 
 	provinces={
 		6316 6362 6417 6421 6422 6588 6610 6639 6650 7499 7566 7698 

@@ -3,11 +3,7 @@ state={
 	id=423
 	name="STATE_423"
 
-	history={
-		owner = CAL
-		add_core_of = CAL
-
-	}
+	
 
 	provinces={
 		5896 5897 5898 6007 6093 6311 9613 10464 11805 

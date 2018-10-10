@@ -2,10 +2,7 @@ state={
 	id=882
 	name="STATE_882"
 	
-	history={
-		owner = BPN
-		add_core_of = BPN
-	}
+	
 	
 	provinces={
 		2048 2375 6058 8394 9230 11401 11957 11959 11960 11961 11962 11963 

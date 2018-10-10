@@ -3,12 +3,6 @@ state={
 	id=659
 	name="STATE_659"
 
-	history={
-		owner = VEN
-		add_core_of = VEN
-
-	}
-
 	provinces={
 		4686 4688 4755 7008 7009 8935 9109 10008 11009 11520 11979 19658 9900
 	}

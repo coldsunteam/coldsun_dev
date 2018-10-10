@@ -6,11 +6,6 @@ state={
 		707 708 4449 5317 5318 5319 6780 10133 10134 10598 
 	}
 	
-    history = {
-		owner = PAN
-		add_core_of = PAN
-	}
-	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

@@ -3,12 +3,6 @@ state={
 	id=626
 	name="STATE_626"
 
-	history={
-		owner = GGA
-		add_core_of = GGA
-
-	}
-
 	provinces={
 		20716 20732 20739 20746 20756 20761 20762 20764 20781 
 	}

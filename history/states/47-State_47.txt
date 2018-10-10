@@ -6,11 +6,7 @@ state={
 		2876 2877 4259 4260 4261 4262 4306 4307 9115 10332 10695 11135 
 	}
 	
-	history={
-		owner = XXX
-		add_core_of = XXX
-
-	}
+	
 	
 	manpower=100
 	buildings_max_level_factor=1.000

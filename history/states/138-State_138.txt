@@ -8,8 +8,5 @@ state={
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
-        history={
-		owner = DEL
-		add_core_of = DEL
-	}
+        
 }

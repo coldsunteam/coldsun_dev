@@ -3,12 +3,6 @@ state={
 	id=537
 	name="STATE_537"
 
-	history={
-		owner = ARO
-		add_core_of = ARO
-
-	}
-
 	provinces={
 		780 781 4538 4539 4540 4541 4542 4553 4554 4808 4809 4810 4811 8175 9558 10427 
 	}

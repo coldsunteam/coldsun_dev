@@ -3,11 +3,7 @@ state={
 	id=472
 	name="STATE_472"
 
-	history={
-		owner = TUT
-		add_core_of = TUT
-
-	}
+	
 
 	provinces={
 		3439 4406 4407 4408 5587 5588 5589 5590 6726 6727 8784 10666 10769 11049 11309 

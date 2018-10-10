@@ -5,10 +5,7 @@ state={
 		2959 2960 2961 2962 5027 5028 5942 5943 9319 
 	}
 	
-	history={
-		owner = ZEC
-		add_core_of = ZEC
-	}
+
 	
 	manpower=100
 	state_category=metropolis

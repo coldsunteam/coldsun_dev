@@ -6,10 +6,7 @@ state={
 		5779 7356 7357 7358 7359 7360 7361 8013 8052 10289 11432 
 	}
 	
-	history={
-		owner = HIP
-		add_core_of = HIP
-	}
+
 	
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -3,12 +3,6 @@ state={
 	id=39
 	name="STATE_39"
 
-	history={
-		owner = BPN
-		add_core_of = BPN
-		victory_points = { 9499 36 }
-	}
-
 	provinces={
 		2331 2332 4738 4739 5846 5847 6027 6029 6030 9499 9748 19754 19756 19765 19770 19777 
 	}

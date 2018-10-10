@@ -3,11 +3,6 @@ state={
 	id=625
 	name="STATE_625"
 
-	history={
-		owner = PAN
-		add_core_of = PAN
-
-	}
 
 	provinces={
 		3996 4212 5100 6468 6469 6470 6472 8011 8012 8788 9537 11051 11100 11715 11942 

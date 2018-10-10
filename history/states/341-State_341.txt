@@ -6,10 +6,7 @@ state={
 		2022 2023 2024 2025 4175 4176 4177 6414 7682 7683 7684 7685 8446 9004 9716 10266 
 	}
 	
-	history={
-		owner = ZEC
-		add_core_of = ZEC
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

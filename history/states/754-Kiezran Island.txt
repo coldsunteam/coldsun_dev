@@ -6,10 +6,7 @@ state={
 		8939 9110 9424 10342 11621 
 	}
 	
-	history={
-		owner = THC
-		add_core_of = THC
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

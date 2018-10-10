@@ -3,11 +3,7 @@ state={
 	id=375
 	name="STATE_375"
 
-	history={
-		owner = GGB
-		add_core_of = GGB
-
-	}
+	
 
 	provinces={
 		10319 20575 20576 20577 20578 20579 20580 20581 20582 20583 20584 20585 20588 20589 20591 

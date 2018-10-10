@@ -3,11 +3,7 @@ state={
 	id=523
 	name="STATE_523"
 
-	history={
-		owner = BUF
-		add_core_of = BUF
-
-	}
+	
 
 	provinces={
 		3749 3750 3751 3752 3754 3983 6068 7943 7944 7948 9791 9792 

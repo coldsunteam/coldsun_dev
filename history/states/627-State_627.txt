@@ -3,11 +3,6 @@ state={
 	id=627
 	name="STATE_627"
 
-	history={
-		owner = SDN
-		add_core_of = SDN
-
-	}
 
 	provinces={
 		978 979 989 2823 5217 5219 10677 11314 11518 19664 

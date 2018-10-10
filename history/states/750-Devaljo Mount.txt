@@ -3,12 +3,6 @@ state={
 	id=750
 	name="STATE_750"
 
-	history={
-		owner = SAD
-		add_core_of = SAD
-
-	}
-
 	provinces={
 		2193 2194 2195 5562 5563 7441 8168 8243 8812 8921 8922 10482 10849 11565 
 	}

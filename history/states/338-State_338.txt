@@ -3,11 +3,7 @@ state={
 	id=338
 	name="STATE_338"
 
-	history={
-		owner = SCD
-		add_core_of = SCD
-
-	}
+	
 
 	provinces={
 		2775 2776 2777 2778 2907 8961 11425 11457 11625 

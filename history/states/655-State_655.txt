@@ -3,12 +3,6 @@ state={
 	id=655
 	name="STATE_655"
 
-	history={
-		owner = JDC
-		add_core_of = JDC
-
-	}
-
 	provinces={
 		587 3076 3077 4685 11486 11772 
 	}

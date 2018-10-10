@@ -3,11 +3,7 @@ state={
 	id=501
 	name="STATE_501"
 
-	history={
-		owner = GRI
-		add_core_of = GRI
-
-	}
+	
 
 	provinces={
 		20849 20859 20872 20879 20881 20885 20890 20896 20904 20917 

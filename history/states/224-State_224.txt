@@ -3,11 +3,7 @@ state={
 	id=224
 	name="STATE_224"
 
-	history={
-		owner = ZEB
-		add_core_of = ZEB
-
-	}
+	
 
 	provinces={
 		1008 1009 6391 6394 7519 7522 9594 10221 10436 10460 11036 11906 

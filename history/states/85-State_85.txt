@@ -5,11 +5,7 @@ state={
 		3191 3430 4509 4510 8037 9614 10729 
 	}
 	
-	history={
-		owner = XXX
-		add_core_of = XXX
-
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

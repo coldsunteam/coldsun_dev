@@ -6,10 +6,7 @@ state={
 		768 769 770 771 904 918 943 3682 3683 3684 4113 4114 4115 4139 4318 4334 8357 8358 8697 8881 8892 9726 9893 10029 10957 11194 11270 
 	}
 	
-	history={
-		owner = EQC
-		add_core_of = EQC
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

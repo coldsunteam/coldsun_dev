@@ -3,12 +3,6 @@ state={
 	id=834
 	name="STATE_834"
 
-	history={
-		owner = ARO
-		add_core_of = ARO
-		victory_points = { 4230 20 }
-
-	}
 
 	provinces={
 		3141 3700 4229 4230 4231 4232 4233 4234 4552 10298 10299 

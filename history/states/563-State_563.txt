@@ -3,11 +3,7 @@ state={
 	id=563
 	name="STATE_563"
 
-	history={
-		owner = KIR
-		add_core_of = KIR
-
-	}
+	
 
 	provinces={
 		2575 2576 4692 4693 5263 9001 

@@ -3,13 +3,6 @@ state={
 	id=813
 	name="STATE_813"
 
-	history={
-		owner = CER
-		add_core_of = CER
-		victory_points = { 897 20 }
-
-	}
-
 	provinces={
 		897 901 5309 5310 7106 7108 10634 
 	}

@@ -3,11 +3,7 @@ state={
 	id=104
 	name="STATE_104"
 
-	history={
-		owner = HIG
-		add_core_of = HIG
-
-	}
+	
 
 	provinces={
 		3509 3510 3511 3512 3513 5088 6840 7001 8234 9087 9088 10503 11603 

@@ -6,10 +6,7 @@ state={
 		100 101 102 103 639 7577 7578 8073 8074 9094 11416 11612 
 	}
 	
-    history = {
-		owner = SPC
-		add_core_of = SPC
-	}
+    
 	
 	manpower=100
 	buildings_max_level_factor=1.000

@@ -3,10 +3,7 @@ state={
 	id=89
 	name="STATE_89"
 
-	history={
-		owner = BAP
-		add_core_of = BAP
-	}
+	
 
 	provinces={
 		735 3416 19902 19912 19916 19920 19926 19928 19930 19933 

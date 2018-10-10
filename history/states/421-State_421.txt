@@ -6,10 +6,7 @@ state={
 		2471 4397 4398 4399 4400 8121 8122 10140 10925 11356 11471 11515 
 	}
 	
-	history={
-		owner = POC
-		add_core_of = POC
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

@@ -3,11 +3,7 @@ state={
 	id=71
 	name="STATE_71"
 
-	history={
-		owner = RNG
-		add_core_of = RNG
-
-	}
+	
 
 	provinces={
 		388 389 7319 9139 11769 19998 19999 20006 20009 20024 

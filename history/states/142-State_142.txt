@@ -6,10 +6,7 @@ state={
 		4380 4819 7995 11595 
 	}
 	
-	history={
-		owner = THC
-		add_core_of = THC
-	}
+
 	
 	manpower=100
 	buildings_max_level_factor=1.000

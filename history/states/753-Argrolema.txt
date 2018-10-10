@@ -6,12 +6,6 @@ state={
 		grain=6.000
 	}
 
-	history={
-		owner = TUT
-		add_core_of = TUT
-
-	}
-
 	provinces={
 		30 31 427 428 429 431 5750 5751 6728 10058 11277 11428 
 	}

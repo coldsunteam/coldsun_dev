@@ -3,12 +3,6 @@ state={
 	id=628
 	name="STATE_628"
 
-	history={
-		owner = SPX
-		add_core_of = SPX
-
-	}
-
 	provinces={
 		829 830 831 832 1944 3678 3716 3717 3718 7978 8680 8692 8693 9055 9134 10855 10856 11316 
 	}

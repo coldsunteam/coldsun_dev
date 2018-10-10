@@ -6,12 +6,6 @@ state={
 		3677 3866 3868 3869 8107 8108 9521 11177 
 	}
 	
-	history={
-		owner = XXX
-		add_core_of = XXX
-
-	}
-	
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis

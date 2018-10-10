@@ -5,10 +5,7 @@ state={
 		2911 3476 5193 5269 7085 7102 7614 7710 8064 8723 8833 9072 11225 11257 11554 
 	}
 	
-	history={
-		owner = NGF
-		add_core_of = NGF
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

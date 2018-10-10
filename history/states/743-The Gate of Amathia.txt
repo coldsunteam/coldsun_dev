@@ -5,10 +5,7 @@ state={
 		528 6997 
 	}
 	
-	history={
-		owner = SPD
-		add_core_of = SPD
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

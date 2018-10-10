@@ -5,11 +5,7 @@ state={
 		162 1510 2111 2482 2785 3261 4928 5606 5928 6257 6713 7781 8207 8301 8522 8843 9699 9801 11145 11186 11365 11503 11529 
 	}
 	
-	history={
-		owner = PFS
-		add_core_of = PFS
-
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

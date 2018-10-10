@@ -3,11 +3,7 @@ state={
 	id=554
 	name="STATE_554"
 
-	history={
-		owner = NDR
-		add_core_of = NDR
-
-	}
+	
 
 	provinces={
 		1869 2125 2126 8136 8137 8151 8393 9070 10891 

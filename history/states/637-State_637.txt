@@ -3,12 +3,6 @@ state={
 	id=637
 	name="STATE_637"
 
-	history={
-		owner = OMH
-		add_core_of = OMH
-
-	}
-
 	provinces={
 		1747 1748 1947 1948 1949 3552 5624 7675 8759 
 	}

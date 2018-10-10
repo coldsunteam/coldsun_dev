@@ -1,4 +1,4 @@
-﻿capital = 277
+﻿capital = 306
 
 oob = "GPA_1936"
 

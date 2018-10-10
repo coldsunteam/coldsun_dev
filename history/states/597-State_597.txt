@@ -6,10 +6,7 @@ state={
 		635 636 637 638 640 3773 6896 6897 7874 7875 7931 7932 
 	}
 	
-    history = {
-		owner = SPC
-		add_core_of = SPC
-	}
+    
 	
 	manpower=100
 	buildings_max_level_factor=1.000

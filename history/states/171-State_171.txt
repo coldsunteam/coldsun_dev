@@ -3,11 +3,7 @@ state={
 	id=171
 	name="STATE_171"
 
-	history={
-		owner = DES
-		add_core_of = DES
-
-	}
+	
 
 	provinces={
 		4748 6445 6446 7223 7224 7225 

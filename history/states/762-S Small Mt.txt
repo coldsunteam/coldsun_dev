@@ -3,12 +3,6 @@ state={
 	id=762
 	name="STATE_762"
 
-	history={
-		owner = KRA
-		add_core_of = KRA
-
-	}
-
 	provinces={
 		2115 2592 7628 10184 
 	}

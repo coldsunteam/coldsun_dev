@@ -3,11 +3,7 @@ state={
 	id=451
 	name="STATE_451"
 
-	history={
-		owner = PEG
-		add_core_of = PEG
-
-	}
+	
 
 	provinces={
 		7298 7299 8355 9823 10378 

@@ -3,12 +3,6 @@ state={
 	id=648
 	name="STATE_648"
 
-	history={
-		owner = DIA
-		add_core_of = DIA
-
-	}
-
 	provinces={
 		2412 2442 2443 5919 5922 7584 9861 10468 10760 
 	}

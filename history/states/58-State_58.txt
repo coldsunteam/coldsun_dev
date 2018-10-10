@@ -5,11 +5,7 @@ state={
 		1874 1975 1976 1978 5652 5653 5654 11719 
 	}
 	
-	history={
-		owner = XXX
-		add_core_of = XXX
-
-	}
+	
 	
 	manpower=100
 	state_category=metropolis

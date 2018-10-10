@@ -3,13 +3,6 @@ state={
 	id=831
 	name="STATE_831"
 
-	history={
-		owner = KAV
-		add_core_of = KAV
-		victory_points = { 4110 10 }
-
-	}
-
 	provinces={
 		2005 2006 4110 4235 4236 4237 4238 4239 4240 7620 7621 9291 11465 11753 
 	}
