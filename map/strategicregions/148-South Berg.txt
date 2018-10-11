@@ -1,3 +1,4 @@
+
 strategic_region={
 	id=148
 	name="STRATEGICREGION_148"
@@ -5,5 +6,31 @@ strategic_region={
 		1138 1916 2050 2051 4961 5766 6328 6341 8801 8915 9240 11128 11244 11822 20151 20158 20159 20168 20173 20180 20183 20185 20201 20202 20204 20205 20209 20218 20220 20222 20315 
 	}
 	weather={
+		period={
+			between={ 0.0 29.5 }
+			temperature={ -10.0 35.0 }
+			temperature_day_night={ 2.0 -2.0 }
+			no_phenomenon=1.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.000
+			blizzard=0.000
+			mud=0.000
+			sandstorm=0.000
+			min_snow_level=0.000
+		}
+		period={
+			between={ 0.6 30.11 }
+			temperature={ -10.0 35.0 }
+			temperature_day_night={ 2.0 -2.0 }
+			no_phenomenon=1.500
+			rain_light=0.250
+			rain_heavy=0.100
+			snow=0.000
+			blizzard=0.000
+			mud=0.000
+			sandstorm=0.000
+			min_snow_level=0.000
+		}
 	}
 }
