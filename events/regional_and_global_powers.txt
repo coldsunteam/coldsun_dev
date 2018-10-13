@@ -1,0 +1,31 @@
+﻿add_namespace = league_of_nations_focuses_events
+
+# League of Nations: 1. Focus completed
+country_event = {
+	id = league_of_nations_focuses_events.1
+	title = league_of_nations_focuses_events.EVTNAME1
+	desc = league_of_nations_focuses_events.EVTDESC1
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_variable = { global.frame_of_focus_links_1 = 1 }
+			sound_effect = complete_focus
+		}
+	}
+	
+	option = {
+		name = league_of_nations_focuses_events1.EVTOPT1
+		
+		ai_chance = { factor = 100 }
+		
+		add_political_power = 75
+		every_country = {
+			limit = {
+				has_country_flag = member_of_league_of_nations
+			}
+			add_ideas = league_of_nations_focus_idea_1
+		}
+	}
+}

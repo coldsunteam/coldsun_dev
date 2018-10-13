@@ -1,0 +1,43 @@
+guiTypes = {
+	containerWindowType = {
+		name = "powers_container"
+		position = { x = 300 y = 100 } 
+		
+		buttonType = {
+			name = "powers_button"
+			spriteType = "GFX_topbar_trade_button"
+			position = { x= 0 y = 0 }
+		}
+	}
+	
+	containerWindowType = {
+		name = "powers_window"
+		position = {x=480 y=100}
+		size = { width=400 height=380 }
+		
+		clipping = no
+		moveable = yes
+		
+		background = {
+			name = "powers_background"
+			spriteType = "GFX_tiled_bg"
+		}
+		
+		buttonType = {
+			name = "exitbutton_powers" 
+			position = {x=165 y=4}	
+			quadTextureSprite = "GFX_closebutton"
+			buttonFont = "Main_14_black"
+			shortcut = "ESCAPE"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+		
+		containerWindowType = {
+			name = "cql_window"
+			position = {x=480 y=100}
+			size = { width=400 height=380 }
+			
+		}
+	}
+}
