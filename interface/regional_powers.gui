@@ -25,7 +25,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "exitbutton_powers" 
-			position = {x=165 y=4}	
+			position = {x=355 y=13}	
 			quadTextureSprite = "GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -33,11 +33,15 @@ guiTypes = {
 			pdx_tooltip = "CLOSE"
 		}
 		
-		containerWindowType = {
-			name = "cql_window"
-			position = {x=480 y=100}
-			size = { width=400 height=380 }
-			
+		### Here are the buttons. 
+		buttonType = {
+			name = "region_powers_button"
+			position = { x = 140 y = 320 }
+			quadTextureSprite ="GFX_button_123x34"
+			buttonFont = "Main_14_black"
+			clicksound = click_close
+			buttonText = "Region Map"
+			buttonFont = "cg_16b"
 		}
 	}
 }

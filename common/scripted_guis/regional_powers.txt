@@ -1,0 +1,58 @@
+scripted_gui = {
+	regional_button = {
+		context_type = player_context
+		window_name = "powers_container"
+		visible = { always = yes }
+		
+		effects = {
+			powers_button_click = {
+				set_variable = { powers_show = 1 }
+			}
+		}
+	}
+	
+	powers_window_view = {
+		context_type = player_context
+		window_name = "powers_window"
+		visible = {
+			check_variable = { powers_show > 0 }
+		}
+		
+		effects = {
+			exitbutton_powers_click = {
+				set_variable = { powers_show = 0 }
+			}
+			
+			region_powers_button_click = {
+				YAK = { set_cosmetic_tag = CRY_REG }
+				CRY = { set_cosmetic_tag = CRY_REG }
+				EQA = { set_cosmetic_tag = CRY_REG }
+				GPA = { set_cosmetic_tag = CRY_REG }
+				
+				GPB = { set_cosmetic_tag = CEN_REG }
+				GPC = { set_cosmetic_tag = CEN_REG }
+				GPD = { set_cosmetic_tag = CEN_REG }
+				GPE = { set_cosmetic_tag = CEN_REG }
+				BIG = { set_cosmetic_tag = CEN_REG }
+				
+				TSU = { set_cosmetic_tag = CHN_REG }
+				THR = { set_cosmetic_tag = CHN_REG }
+				ATI = { set_cosmetic_tag = CHN_REG }
+				SIN = { set_cosmetic_tag = CHN_REG }
+				TAR = { set_cosmetic_tag = CHN_REG }
+				ABA = { set_cosmetic_tag = CHN_REG }
+				VIN = { set_cosmetic_tag = CHN_REG }
+				ZIN = { set_cosmetic_tag = CHN_REG }
+				
+				BPA = { set_cosmetic_tag = BAT_REG }
+				BPB = { set_cosmetic_tag = BAT_REG }
+				BPC = { set_cosmetic_tag = BAT_REG }
+				BAT = { set_cosmetic_tag = BAT_REG }
+				
+				EQS = { set_cosmetic_tag = EQS_REG }
+				
+				
+			}
+		}
+	}
+}

@@ -1,0 +1,30 @@
+################
+### Cosmetic ###
+
+CRY_REG = {
+    color = rgb { 219 83 214 }
+    color_ui = rgb { 219 83 214 }
+}
+
+EQS_REG = {
+    color = rgb { 212 87 208 }
+    color_ui = rgb { 212 87 208 }
+}
+
+CEN_REG = {
+    color = rgb { 37 127 61 }
+    color_ui = rgb { 37 127 61 }
+}
+
+CHN_REG = {
+    color = rgb { 110 111 110 }
+    color_ui = rgb { 110 111 110 }
+}
+
+BAT_REG = {
+    color = rgb { 108 125 232 }
+    color_ui = rgb { 108 125 232 }
+}
+
+### Cosmetic ###
+################
