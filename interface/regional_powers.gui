@@ -5,18 +5,87 @@ guiTypes = {
 		
 		buttonType = {
 			name = "powers_button"
-			spriteType = "GFX_topbar_trade_button"
-			position = { x= 0 y = 0 }
+			spriteType = "GFX_occupation_policy_button"
+			buttonFont = "Main_14_black"
+			position = { x = 1574 y = 690 }
 		}
 	}
 	
 	containerWindowType = {
+			name = "powers_region_list"
+			position = { x = 200 y = 242 }
+			size = { width = 150 height = 560 }
+			show_position = { x = 354 y =242 }
+			show_animation_type = decelerated
+			hide_animation_type = accelerated
+			animation_time = 300
+			clipping = no
+			
+			background = {
+				name = "powers_region_list_background"
+				spriteType = "GFX_tiled_window_thin_border"
+			}
+			
+			
+			buttonType = {
+				name = "equestria_button"
+				position = { x = 10 y = 10 }
+				quadTextureSprite = "GFX_button_reset_123x34"
+				buttonFont = "Main_14_black"
+				clicksound = click_close
+				buttonText = "Equestria"
+				buttonFont = "cg_16b"
+			}
+			
+			buttonType = {
+				name = "crystal_region_button"
+				position = { x = 10 y = 50 }
+				quadTextureSprite = "GFX_button_reset_123x34"
+				buttonFont = "Main_14_black"
+				clicksound = click_close
+				buttonText = "Crystal Mountains"
+				buttonFont = "cg_16b"
+			}
+			
+			buttonType = {
+				name = "central_equis_button"
+				position = { x = 10 y = 90 }
+				quadTextureSprite = "GFX_button_reset_123x34"
+				buttonFont = "Main_14_black"
+				clicksound = click_close
+				buttonText = "Central Equis"
+				buttonFont = "cg_16b"
+			}
+			
+			buttonType = {
+				name = "changeling_button"
+				position = { x = 10 y = 130 }
+				quadTextureSprite = "GFX_button_reset_123x34"
+				buttonFont = "Main_14_black"
+				clicksound = click_close
+				buttonText = "Badlands"
+				buttonFont = "cg_16b"
+			}
+			
+			buttonType = {
+				name = "bat_button"
+				position = { x = 10 y = 170 }
+				quadTextureSprite = "GFX_button_reset_123x34"
+				buttonFont = "Main_14_black"
+				clicksound = click_close
+				buttonText = "Batlands"
+				buttonFont = "cg_16b"
+			}
+		}
+	
+	containerWindowType = {
 		name = "powers_window"
-		position = {x=480 y=100}
-		size = { width=400 height=380 }
+		position = {x=500 y=240}
+		size = { width=954 height=594 }
 		
 		clipping = no
-		moveable = yes
+		moveable = no
+		
 		
 		background = {
 			name = "powers_background"
@@ -31,6 +100,161 @@ guiTypes = {
 			shortcut = "ESCAPE"
 			clicksound = click_close
 			pdx_tooltip = "CLOSE"
+		}
+		
+		buttonType = {
+			name = "region_list_button" 
+			position = {x=2 y=-32}	
+			quadTextureSprite = "GFX_occupation_policy_button_selected"
+			buttonFont = "Main_14_black"
+			clicksound = click_close
+			shortcut = "ESCAPE"
+			pdx_tooltip = "CLOSE"
+		}
+		
+		buttonType = {
+			name = "region_list_button_selected" 
+			position = {x=2 y=-32}	
+			quadTextureSprite = "GFX_occupation_policy_button"
+			buttonFont = "Main_14_black"
+			clicksound = click_close
+			pdx_tooltip = "CLOSE"
+		}
+	
+		
+		### Country List
+		containerWindowType = {
+			name = "powers_country_list"
+			position = { x = 12 y =20 }
+			size = { width = 343 height = 560}
+			
+			background = {
+				name = "powers_country_list_background"
+				spriteType = "GFX_tiled_window_thin_border"
+			}	
+			
+			iconType = {
+				name = "country_flag"
+				quadTextureSprite ="GFX_flag_small"
+				position = { x = 10 y = 60 }
+				Orientation = "UPPER_LEFT"
+				allwaystransparent = yes
+			}
+			iconType ={
+				name ="fascism_icon"
+				spriteType = "GFX_pol_factions_strip"
+				position = { x= 40 y = 60 }
+				frame = 1
+				scale = 0.5
+			}
+			iconType ={
+				name ="commie_icon"
+				spriteType = "GFX_pol_factions_strip"
+				position = { x= 40 y = 60 }
+				frame = 2
+				scale = 0.5
+			}	
+			iconType ={
+				name ="democracy_icon"
+				spriteType = "GFX_pol_factions_strip"
+				position = { x= 40 y = 60 }
+				frame = 3
+				scale = 0.5
+			}	
+			iconType ={
+				name ="neutrality_icon"
+				spriteType = "GFX_pol_factions_strip"
+				position = { x= 40 y = 60 }
+				frame = 4
+				scale = 0.5
+			}
+			
+			instantTextBoxType = {
+				name = "country_strength"
+				position = { x = 80 y = 60 }
+				textureFile = ""
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 0}
+				text = "strength"	
+				maxWidth = 80
+				maxHeight = 20
+			}
+			instantTextBoxType = {
+				name = "country_land"
+				position = { x = 160 y = 60 }
+				textureFile = ""
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 0}
+				text = "land"	
+				maxWidth = 80
+				maxHeight = 20
+				fixedsize = yes	
+			}
+			instantTextBoxType = {
+				name = "country_influence"
+				position = { x = 240 y = 60 }
+				textureFile = ""
+				font = "hoi_20b"
+				borderSize = {x = 0 y = 0}
+				text = "influence"	
+				maxWidth = 80
+				maxHeight = 20
+				fixedsize = yes	
+			}
+		}
+		### Country Leader
+		containerWindowType = {
+			name = "powers_country_leader"
+			position = { x = 360 y = 14 }
+			size = { width = 156 height = 210 }
+			background = {
+				name = "powers_country_list_background"
+				spriteType = "GFX_tiled_bg"
+			}
+		}
+		
+		### Country Leader
+		containerWindowType = {
+			name = "powers_country_summary"
+			position = { x = 520 y = 14 }
+			size = { width = 420 height = 210 }
+			background = {
+				name = "powers_country_leader_background"
+				spriteType = "GFX_tiled_bg"
+			}
+		}
+		
+		### Diplo Actions
+		containerWindowType = {
+			name = "powers_diplo_action"
+			position = { x = 360 y = 220 }
+			size = { width = 576 height = 100 }
+			background = {
+				name = "powers_diplo_action_background"
+				spriteType = "GFX_tiled_bg"
+			}
+		}
+		
+		### Intel Actions
+		containerWindowType = {
+			name = "powers_intel_action"
+			position = { x = 360 y = 320 }
+			size = { width = 576 height = 100 }
+			background = {
+				name = "powers_intel_action_background"
+				spriteType = "GFX_tiled_bg"
+			}
+		}
+		
+		### Special Actions
+		containerWindowType = {
+			name = "powers_Special_action"
+			position = { x = 360 y = 420 }
+			size = { width = 576 height = 100 }
+			background = {
+				name = "powers_Special_action_background"
+				spriteType = "GFX_tiled_bg"
+			}
 		}
 		
 		### Here are the buttons. 

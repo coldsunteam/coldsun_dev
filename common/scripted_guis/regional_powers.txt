@@ -11,47 +11,89 @@ scripted_gui = {
 		}
 	}
 	
+	region_list_view = {
+		context_type = player_context
+		window_name = "powers_region_list"
+		visible = {
+			check_variable = { region_show = show }
+		}
+	}
+	
 	powers_window_view = {
 		context_type = player_context
 		window_name = "powers_window"
-		visible = {
-			check_variable = { powers_show > 0 }
-		}
+		visible = { check_variable = { powers_show > 0 } }
 		
 		effects = {
-			exitbutton_powers_click = {
-				set_variable = { powers_show = 0 }
-			}
+			region_list_button_click = { set_variable = { region_show = 1 } }
+			region_list_button_selected_click = { set_variable = { region_show = 0 } }
+			exitbutton_powers_click = { set_variable = { powers_show = 0 } }
 			
 			region_powers_button_click = {
-				YAK = { set_cosmetic_tag = CRY_REG }
-				CRY = { set_cosmetic_tag = CRY_REG }
-				EQA = { set_cosmetic_tag = CRY_REG }
-				GPA = { set_cosmetic_tag = CRY_REG }
+					CRY = { set_cosmetic_tag = CRY_REG }
+					YAK = { set_cosmetic_tag = CRY_REG }
+					EQA = { set_cosmetic_tag = CRY_REG }
+					GPA = { set_cosmetic_tag = CRY_REG }
+					
+					GPB = { set_cosmetic_tag = CEN_REG }
+					GPC = { set_cosmetic_tag = CEN_REG }
+					GPD = { set_cosmetic_tag = CEN_REG }
+					GPE = { set_cosmetic_tag = CEN_REG }
+					BIG = { set_cosmetic_tag = CEN_REG }
 				
-				GPB = { set_cosmetic_tag = CEN_REG }
-				GPC = { set_cosmetic_tag = CEN_REG }
-				GPD = { set_cosmetic_tag = CEN_REG }
-				GPE = { set_cosmetic_tag = CEN_REG }
-				BIG = { set_cosmetic_tag = CEN_REG }
+					TSU = { set_cosmetic_tag = CHN_REG }
+					THR = { set_cosmetic_tag = CHN_REG }
+					ATI = { set_cosmetic_tag = CHN_REG }
+					SIN = { set_cosmetic_tag = CHN_REG }
+					TAR = { set_cosmetic_tag = CHN_REG }
+					ABA = { set_cosmetic_tag = CHN_REG }
+					VIN = { set_cosmetic_tag = CHN_REG }
+					ZIN = { set_cosmetic_tag = CHN_REG }
 				
-				TSU = { set_cosmetic_tag = CHN_REG }
-				THR = { set_cosmetic_tag = CHN_REG }
-				ATI = { set_cosmetic_tag = CHN_REG }
-				SIN = { set_cosmetic_tag = CHN_REG }
-				TAR = { set_cosmetic_tag = CHN_REG }
-				ABA = { set_cosmetic_tag = CHN_REG }
-				VIN = { set_cosmetic_tag = CHN_REG }
-				ZIN = { set_cosmetic_tag = CHN_REG }
+					BPA = { set_cosmetic_tag = BAT_REG }
+					BPB = { set_cosmetic_tag = BAT_REG }
+					BPC = { set_cosmetic_tag = BAT_REG }
+					BAT = { set_cosmetic_tag = BAT_REG }
 				
-				BPA = { set_cosmetic_tag = BAT_REG }
-				BPB = { set_cosmetic_tag = BAT_REG }
-				BPC = { set_cosmetic_tag = BAT_REG }
-				BAT = { set_cosmetic_tag = BAT_REG }
+					EQS = { set_cosmetic_tag = EQS_REG }
+			}
+			region_powers_button_right_click = {
+					CRY = { drop_cosmetic_tag = yes }
+					YAK = { drop_cosmetic_tag = yes }
+					EQA = { drop_cosmetic_tag = yes }
+					GPA = { drop_cosmetic_tag = yes }
+					
+					GPB = { drop_cosmetic_tag = yes }
+					GPC = { drop_cosmetic_tag = yes }
+					GPD = { drop_cosmetic_tag = yes }
+					GPE = { drop_cosmetic_tag = yes }
+					BIG = { drop_cosmetic_tag = yes }
+					
+					TSU = { drop_cosmetic_tag = yes  }
+					THR = { drop_cosmetic_tag = yes  }
+					ATI = { drop_cosmetic_tag = yes  }
+					SIN = { drop_cosmetic_tag = yes  }
+					TAR = { drop_cosmetic_tag = yes  }
+					ABA = { drop_cosmetic_tag = yes  }
+					VIN = { drop_cosmetic_tag = yes  }
+					ZIN = { drop_cosmetic_tag = yes  }
 				
-				EQS = { set_cosmetic_tag = EQS_REG }
+					BPA = { drop_cosmetic_tag = yes  }
+					BPB = { drop_cosmetic_tag = yes  }
+					BPC = { drop_cosmetic_tag = yes  }
+					BAT = { drop_cosmetic_tag = yes  }
 				
-				
+					EQS = { drop_cosmetic_tag = yes  }
+			}
+		}
+	
+		triggers = {
+			region_list_button_visible = {
+				check_variable = { region_show = 0 }
+			}
+			
+			region_list_button_selected_visible = {
+				check_variable = { region_show = 1 }
 			}
 		}
 	}

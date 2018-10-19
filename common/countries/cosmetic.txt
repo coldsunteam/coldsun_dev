@@ -2,8 +2,8 @@
 ### Cosmetic ###
 
 CRY_REG = {
-    color = rgb { 219 83 214 }
-    color_ui = rgb { 219 83 214 }
+    color = rgb { 200 80 200 }
+    color_ui = rgb { 200 80 200 }
 }
 
 EQS_REG = {
