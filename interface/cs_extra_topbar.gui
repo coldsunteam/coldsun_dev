@@ -5,7 +5,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "extraoptions_button"
-			spriteType = "GFX_topbar_decisionview_button"
+			spriteType = "GFX_extra_options_button"
 			position = { x= 340 y = 27 }
 		}
 	}
