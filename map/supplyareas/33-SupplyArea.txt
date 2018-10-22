@@ -2,7 +2,7 @@
 supply_area={
 	id=33
 	name="SUPPLYAREA_33"
-	value=1
+	value=10
 	states={
 		801 789 343 
 	}

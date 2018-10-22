@@ -4,6 +4,10 @@ set_research_slots = 3
 set_technology = {
 }
 
+add_ideas = {
+	DEFCON5
+}
+
 set_convoys = 70
 set_politics = {
 	

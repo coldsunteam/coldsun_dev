@@ -24,4 +24,29 @@ spriteTypes = {
 		name = "GFX_defcon_1"
 		texturefile = "gfx/interface/defcon/DEFCON 1.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_defcon_5_grayed"
+		texturefile = "gfx/interface/defcon/DEFCON 5_grayed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_defcon_4_grayed"
+		texturefile = "gfx/interface/defcon/DEFCON 4_grayed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_defcon_3_grayed"
+		texturefile = "gfx/interface/defcon/DEFCON 3_grayed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_defcon_2_grayed"
+		texturefile = "gfx/interface/defcon/DEFCON 2_grayed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_defcon_1_grayed"
+		texturefile = "gfx/interface/defcon/DEFCON 1_grayed.dds"
+	}
 }
