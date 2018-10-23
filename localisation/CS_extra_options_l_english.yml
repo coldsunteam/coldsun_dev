@@ -2,5 +2,11 @@
 DEFCON_1_DESCRIPTION:0 "Country is at War \nSome effects here and shit man"
 DEFCON_2_DESCRIPTION:0 "Ready for Anything \nSome effects here and shit man"
 DEFCON_3_DESCRIPTION:0 "Not Quite Ready \nSome effects here and shit man"
-DEFCON_4_DESCRIPTION:0 "Another Country just Sneezed at us \nSome effects here and shit man"
+DEFCON_4_DESCRIPTION:0 "Another Country just Sneezed on us \nSome effects here and shit man"
 DEFCON_5_DESCRIPTION:0 "Ooo, look at the pretty flowers! \nSome effects here and shit man"
+
+DEFCON_5_TOOLTIP:0 "Cost (£pol_power )§Y150§!"
+DEFCON_4_TOOLTIP:0 "Cost (£pol_power )§Y150§! \nNeeds §R10%§! World Tension"
+DEFCON_3_TOOLTIP:0 "Cost (£pol_power )§Y150§! \nNeeds §R50%§! World Tension and §R Partial Mobilization§!"
+DEFCON_2_TOOLTIP:0 "Cost (£pol_power )§Y150§! \nNeeds §R80%§! World Tension,§R War Economy§!, and you must be at§R War§!"
+DEFCON_1_TOOLTIP:0 "Cost (£pol_power )§Y150§! \nNeeds §R90%§! World Tension,§R War Economy§!, and you must be at§R War§!"

@@ -8,6 +8,12 @@ guiTypes = {
 			spriteType = "GFX_extra_options_button"
 			position = { x= 340 y = 27 }
 		}
+		
+		buttonType = {
+			name = "extraoptions_button_2"
+			spriteType = "GFX_extra_options_button"
+			position = { x= 340 y = 27 }
+		}
 	}
 
 	containerWindowType = {
@@ -54,55 +60,65 @@ guiTypes = {
 					name = "defcon_1" 
 					position = {x=20 y=50}
 					spriteType = "GFX_defcon_1"
+					pdx_tooltip =  DEFCON_1_TOOLTIP
 				}
 				buttonType = {
 					name = "defcon_1_unactive" 
 					position = {x=20 y=50}
 					spriteType = "GFX_defcon_1_grayed"
+					pdx_tooltip =  DEFCON_1_TOOLTIP
 				}
 				
 				buttonType = {
 					name = "defcon_2" 
 					position = {x=20 y=110}
 					spriteType = "GFX_defcon_2"
+					pdx_tooltip =  DEFCON_2_TOOLTIP
 				}
 				buttonType = {
 					name = "defcon_2_unactive" 
 					position = {x=20 y=110}
 					spriteType = "GFX_defcon_2_grayed"
+					pdx_tooltip =  DEFCON_2_TOOLTIP
 				}
 				
 				buttonType = {
 					name = "defcon_3" 
 					position = {x=20 y=170}	
 					spriteType = "GFX_defcon_3"
+					pdx_tooltip =  DEFCON_3_TOOLTIP
 				}
 				buttonType = {
 					name = "defcon_3_unactive" 
 					position = {x=20 y=170}	
 					spriteType = "GFX_defcon_3_grayed"
+					pdx_tooltip =  DEFCON_3_TOOLTIP
 				}
 				
 				buttonType = {
 					name = "defcon_4" 
 					position = {x=20 y=230}
 					spriteType = "GFX_defcon_4"
+					pdx_tooltip =  DEFCON_4_TOOLTIP
 				}
 				buttonType = {
 					name = "defcon_4_unactive" 
 					position = {x=20 y=230}
 					spriteType = "GFX_defcon_4_grayed"
+					pdx_tooltip =  DEFCON_4_TOOLTIP
 				}
 				
 				buttonType = {
 					name = "defcon_5" 
 					position = {x=20 y=290}	
 					spriteType = "GFX_defcon_5"
+					pdx_tooltip =  DEFCON_5_TOOLTIP
 				}
 				buttonType = {
 					name = "defcon_5_unactive" 
 					position = {x=20 y=290}	
 					spriteType = "GFX_defcon_5_grayed"
+					pdx_tooltip =  DEFCON_5_TOOLTIP
 				}
 				
 				instantTextboxType = {

@@ -3,19 +3,19 @@ DEFCON_switch = {
 		limit = { has_idea = DEFCON5 }
 		remove_ideas = DEFCON5
 	}
-	else_if = {
+	if = {
 		limit = { has_idea = DEFCON4 }
 		remove_ideas = DEFCON4
 	}
-	else_if = {
+	if = {
 		limit = { has_idea = DEFCON3 }
 		remove_ideas = DEFCON3
 	}
-	else_if = {
+	if = {
 		limit = { has_idea = DEFCON2 }
 		remove_ideas = DEFCON2
 	}
-	else_if = {
+	if = {
 		limit = { has_idea = DEFCON1 }
 		remove_ideas = DEFCON1
 	}
