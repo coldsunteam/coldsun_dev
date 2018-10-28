@@ -41,7 +41,7 @@ guiTypes = {
 				iconType ={
 					name ="extraoptions_defcon_header_bg"
 					spriteType = "GFX_header_bg"
-					position = { x= 5 y = 6 }
+					position = { x= 0 y = 6 }
 					Orientation = "UPPER_LEFT"
 				}	
 		
@@ -231,7 +231,7 @@ guiTypes = {
 		
 		buttonType = {
 			name = "exitbutton_extraoptions" 
-			position = {x=-39 y=10}	
+			position = {x=-44 y=10}	
 			quadTextureSprite = "GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -242,23 +242,23 @@ guiTypes = {
 		
 		
 		containerWindowType = {
-			name =  "extra_magic"
+			name =  "extra_moon"
 			position = { x = 4 y = 400 }
 			size = { width = 520 height = 200 }
 			
 				iconType ={
-					name ="extraoptions_magic_header_bg"
-					spriteType = "GFX_header_bg"
-					position = { x= 5 y = 6 }
+					name ="extraoptions_moon_header_bg"
+					spriteType = "GFX_pol_win_idea_header"
+					position = { x= 0 y = 6 }
 					Orientation = "UPPER_LEFT"
 				}	
 		
 				instantTextboxType = {
-					name = "extraoptions_magic_title"
-					position = { x = 45 y = 8 }
+					name = "extraoptions_moon_title"
+					position = { x = 210 y = 12 }
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 0}
-					text = "MAGIC"
+					text = "The Moon"
 					maxWidth = 240
 					maxHeight = 20
 					format = left	
