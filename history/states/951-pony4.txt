@@ -1,20 +1,20 @@
+
 state={
 	id=951
 	name="STATE_951"
-	
 	resources={
 		gems=6.000
-		steel=4
+		steel=4.000
 	}
-	
+
 	history={
 		owner = BIG
 		add_core_of = BIG
 
 	}
-	
+
 	provinces={
-		4200 4792 4793 4794 4795 4796 4904 7088 8555 8557 8794 20425 20432 
+		4200 4791 4792 4793 4794 4795 4796 4904 7088 8555 8557 8794 20425 20432 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

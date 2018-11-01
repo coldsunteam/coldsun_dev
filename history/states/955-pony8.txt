@@ -5,14 +5,15 @@ state={
 	resources={
 		grain=16.000
 	}
+
 	history={
 		owner = BIG
 		add_core_of = BIG
 
 	}
-	
+
 	provinces={
-		2377 2378 2379 2380 2381 2382 2595 2596 2597 4791 7703 9506 11081 11304 11468 11854 20457 
+		2377 2378 2379 2380 2381 2382 2596 2597 7703 9506 11081 11304 11468 20457 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

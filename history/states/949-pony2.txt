@@ -1,19 +1,19 @@
+
 state={
 	id=949
 	name="STATE_949"
-	
 	resources={
 		grain=8.000
 	}
-	
+
 	history={
 		owner = GPD
 		add_core_of = GPD
 
 	}
-	
+
 	provinces={
-		1872 2181 2185 2186 2386 2387 2388 3938 10248 
+		1872 2181 2182 2184 2185 2186 2387 2388 2595 3938 10248 11854 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

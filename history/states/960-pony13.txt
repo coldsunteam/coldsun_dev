@@ -2,20 +2,19 @@
 state={
 	id=960
 	name="STATE_960"
-	
 	resources={
 		grain=2.000
-		chromium=15
+		chromium=15.000
 	}
-	
+
 	history={
 		owner = GPE
 		add_core_of = GPE
 
 	}
-	
+
 	provinces={
-		1711 3408 4850 7341 7342 7416 7417 7418 8083 9064 9569 9570 9732 9733 9970 9993 10341 20452 
+		1711 3408 4850 7341 7342 7416 7417 7418 9569 9570 9732 9733 9970 9993 10341 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
