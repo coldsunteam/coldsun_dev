@@ -4,12 +4,20 @@ state={
 	history={
 		owner = EQS
 		add_core_of = EQS
+		victory_points = {
+			5956 18 
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+		}
 
 	}
 	
 	provinces={
 		3405 4984 5956 6646 6647 9599 20362 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

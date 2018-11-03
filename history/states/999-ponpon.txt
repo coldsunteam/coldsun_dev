@@ -6,6 +6,14 @@ state={
 	history={
 		owner = EQS
 		add_core_of = EQS
+		victory_points = {
+			5346 32 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 3
+		}
+
 
 	}
 
