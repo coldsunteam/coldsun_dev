@@ -6,7 +6,9 @@ state={
 	history={
 		owner = TSU
 		add_core_of = TSU
-
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -14,5 +16,5 @@ state={
 	}
 	manpower=744300
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

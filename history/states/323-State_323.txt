@@ -6,7 +6,9 @@ state={
 	history={
 		owner = ATI
 		add_core_of = ATI
-
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -14,5 +16,5 @@ state={
 	}
 	manpower=65400
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

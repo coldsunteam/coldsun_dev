@@ -9,7 +9,11 @@ state={
 	history={
 		owner = TAR
 		add_core_of = TAR
-
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+		}
 	}
 
 	provinces={

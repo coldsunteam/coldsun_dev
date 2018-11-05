@@ -10,9 +10,13 @@ state={
 		owner = EQA
 		add_core_of = EQA
 		victory_points = {
-            5149 20
+            5149 18
         	}
-
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
 	}
 
 	provinces={

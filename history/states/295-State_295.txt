@@ -6,7 +6,9 @@ state={
 	history={
 		owner = ABA
 		add_core_of = ABA
-
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -14,5 +16,5 @@ state={
 	}
 	manpower=100145
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

@@ -13,9 +13,13 @@ state={
 		add_core_of = THR
 		
 		victory_points = {
-			5274 30 
+			5274 28
 		}
-
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2 
+			arms_factory = 1
+		}
 	}
 
 	provinces={

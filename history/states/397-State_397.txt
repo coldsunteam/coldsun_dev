@@ -10,7 +10,9 @@ state={
 	history={
 		owner = THR
 		add_core_of = THR
-
+		buildings = {
+			infrastructure = 1
+		}
 	}
 
 	provinces={
@@ -18,5 +20,5 @@ state={
 	}
 	manpower=85041
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

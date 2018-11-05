@@ -9,7 +9,9 @@ state={
 	history={
 		owner = EQA
 		add_core_of = EQA
-
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
 	provinces={

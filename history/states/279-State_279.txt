@@ -11,9 +11,13 @@ state={
 		add_core_of = EQA
 		
 		victory_points = {
-			9443 50 
+			9443 34 
 		}
-
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			dockyard = 1
+		}
 	}
 
 	provinces={

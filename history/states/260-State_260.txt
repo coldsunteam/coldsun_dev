@@ -6,7 +6,9 @@ state={
 	history={
 		owner = TAR
 		add_core_of = TAR
-
+		buildings = {
+			infrastructure = 2
+		}
 	}
 
 	provinces={
@@ -14,5 +16,5 @@ state={
 	}
 	manpower=100442
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

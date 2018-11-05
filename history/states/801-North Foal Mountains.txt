@@ -10,9 +10,12 @@ state={
 		owner = CRY
 		add_core_of = CRY
 		victory_points = {
-			5482 20 
+			5482 10 
 		}
-
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
