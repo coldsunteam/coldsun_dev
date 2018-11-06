@@ -8,11 +8,13 @@ state={
 		add_core_of = ABA
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
 
 	provinces={
-		69 70 71 72 433 3238 3239 4060 4062 6594 6677 11426 11739 11864 11896 
+		69 70 71 72 433 434 3238 3239 4060 4062 6594 6677 9107 11426 11739 11864 11896 
 	}
 	manpower=100145
 	buildings_max_level_factor=1.000

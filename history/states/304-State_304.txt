@@ -14,6 +14,10 @@ state={
 		victory_points = {
 			8105 30 
 		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
 	}
 
 	provinces={
@@ -21,5 +25,5 @@ state={
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 }

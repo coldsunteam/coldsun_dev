@@ -10,12 +10,18 @@ state={
 	history={
 		owner = GPE
 		add_core_of = GPE
-
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 3
+			dockyard = 2
+		}
 	}
 
 	provinces={
 		1711 3408 4850 7341 7342 7416 7417 7418 9569 9570 9732 9733 9970 9993 10341 
 	}
-	manpower=0
+	manpower=10
 	buildings_max_level_factor=1.000
+	state_category = metropolis
 }

@@ -11,12 +11,18 @@ state={
 	history={
 		owner = BIG
 		add_core_of = BIG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 2
+
+		}
 
 	}
 
 	provinces={
-		615 788 790 791 792 805 807 9388 9842 9941 20444 20447 
+		788 790 791 792 20444 20447 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

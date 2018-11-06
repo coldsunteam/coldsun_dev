@@ -15,11 +15,13 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
+
 	}
 
 	provinces={
-		47 3456 8736 8737 9903 10175 11633 
+		47 3456 8736 8737 9903 10175 11082 11633 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000

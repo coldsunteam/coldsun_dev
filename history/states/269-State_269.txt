@@ -1,11 +1,17 @@
+
 state={
 	id=269
 	name="STATE_269"
+	
+	history={
+		owner = TAR
+		add_core_of = TAR
+	}
 	provinces={
-		818 4105 4106 4107 4697 4698 4699 4700 4701 4702 9846 9847 9848 9849 9967 10304 11839 
+		9812 10930 10939 
 	}
 	manpower=100
-        state_category=metropolis
 	buildings_max_level_factor=1.000
-
+	state_category=wasteland
+	impassable = yes
 }

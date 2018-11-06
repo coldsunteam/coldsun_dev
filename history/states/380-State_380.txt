@@ -2,7 +2,6 @@
 state={
 	id=380
 	name="STATE_380"
-	
 	resources={
 		oil=3.000
 	}
@@ -12,11 +11,13 @@ state={
 		add_core_of = THR
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
 
 	provinces={
-		687 3515 3516 5595 5596 6620 8351 8352 10909 10910 10911 11733 
+		701 2661 3515 3516 5595 5596 6259 6523 6620 8351 8352 10910 10911 11591 11723 11733 
 	}
 	manpower=20478
 	buildings_max_level_factor=1.000

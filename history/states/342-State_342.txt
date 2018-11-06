@@ -10,7 +10,11 @@ state={
 	history={
 		owner = GPC
 		add_core_of = GPC
-
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 2
+		}
 	}
 
 	provinces={
@@ -18,5 +22,5 @@ state={
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_city
 }

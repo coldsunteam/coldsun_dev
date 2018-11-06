@@ -6,13 +6,19 @@ state={
 	history={
 		owner = BIG
 		add_core_of = BIG
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			dockyard = 1
+
+		}
 
 	}
 
 	provinces={
-		3450 3451 3452 3453 3454 4797 8556 9238 9562 9632 10370 11082 11593 11759 19532 20418 
+		3450 3451 3452 3453 3454 4797 9238 9562 9632 10370 11593 11759 19532 19533 20418 20419 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 }

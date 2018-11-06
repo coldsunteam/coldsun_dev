@@ -4,19 +4,26 @@ state={
 	name="STATE_954"
 	resources={
 		grain=5.000
-		steel=25
-		tungsten=10
+		steel=25.000
+		tungsten=10.000
 	}
-	
+
 	history={
 		owner = BIG
 		add_core_of = BIG
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			arms_factory = 2
+
+		}
 
 	}
-	
+
 	provinces={
-		789 1870 2492 2493 2494 2495 2496 3404 4783 4903 7040 8282 9041 9249 9250 9251 9979 10236 11334 11480 20433 20436 20438 20442 
+		789 1870 2495 2496 4793 4903 4904 8282 9041 9979 11480 20433 20436 20442 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

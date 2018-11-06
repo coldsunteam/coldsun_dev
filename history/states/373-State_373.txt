@@ -2,7 +2,6 @@
 state={
 	id=373
 	name="STATE_373"
-	
 	resources={
 		oil=31.000
 	}
@@ -10,7 +9,6 @@ state={
 	history={
 		owner = THR
 		add_core_of = THR
-		
 		victory_points = {
 			10003 20 
 		}
@@ -18,11 +16,13 @@ state={
 			infrastructure = 4
 			industrial_complex = 1
 			dockyard = 2
+
 		}
+
 	}
 
 	provinces={
-		701 702 703 704 2116 2117 2118 2119 2997 2998 6523 6524 6525 6526 6527 6528 6529 6530 6531 6658 8696 10003 10625 10782 10827 11200 11591 11723 
+		702 703 704 2116 2117 2118 2119 2997 2998 6524 6525 6526 6527 6528 6529 6530 6531 6658 8696 10003 10625 10782 10827 11200 
 	}
 	manpower=3456879
 	buildings_max_level_factor=1.000
