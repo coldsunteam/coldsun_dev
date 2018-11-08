@@ -1,0 +1,311 @@
+technologies = {
+	electronic_mechanical_engineering = {
+		research_time_factor = -0.02
+		path = {
+			leads_to_tech = terminal_parallelization 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = liquid_crystal_display 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 0 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	
+	terminal_parallelization = {
+		path = {
+			leads_to_tech = transistors 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lasers 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -2 y = 2 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	transistors = {
+		path = {
+			leads_to_tech = hard_drives 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -4 y = 4 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	hard_drives = {
+		path = {
+			leads_to_tech = integrated_circuits 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = frequency_modulation 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = database 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -4 y = 6 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	frequency_modulation = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -6 y = 6 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	database = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -2 y = 6 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	integrated_circuits = {
+		path = {
+			leads_to_tech = leds 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mini_encryption_modules 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = kilohertz_clocked_computer 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -4 y = 8 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	mini_encryption_modules = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -6 y = 8 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	kilohertz_clocked_computer = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -2 y = 8 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	leds = {
+		path = {
+			leads_to_tech = electronic_calculators 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -4 y = 10 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	electronic_calculators = {
+		path = {
+			leads_to_tech = radio 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = modem 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = kilohertz_clocked_computer_mk2 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -4 y = 12 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	modem = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -6 y = 12 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	kilohertz_clocked_computer_mk2 = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -2 y = 12 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	lasers = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 2 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	
+	liquid_crystal_display = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 0 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics computing_tech }
+	}
+	
+	
+	
+	
+	
+	### NOOKS ###
+	atomic_research = {
+
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = nuclear_reactor 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1940
+		research_cost = 5
+		
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+	}
+}

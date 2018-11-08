@@ -27,6 +27,13 @@ technology_categories = {
 	synth_resources
 	electronics
 	space
+	encryption_tech
+	decryption_tech
+	computing_tech
+	nuclear
+	radar_tech
+	rocketry
+	jet_technology
 }
 
 technology_folders = {
