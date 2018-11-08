@@ -363,11 +363,28 @@ guiTypes = {
 				}				
 			}
 			gridboxtype = {
-				name = "civilian_tree"
-				position = { x = 140 y = 325 }
+				name = "basic_machine_tools_tree"
+				position = { x = 100 y = 172 }
+				size = { width = 520 height = 800 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
-			}			
+			}		
+			
+			gridboxtype = {
+				name = "synth_oil_experiments_tree"
+				position = { x = 1250 y = 172 }
+				size = { width =72 height = 650 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "construction1_tree"
+				position = { x = 894 y = 312 }
+				size = { width = 72 height = 650 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 		}
 		
 		containerWindowType = {
@@ -1285,7 +1302,7 @@ guiTypes = {
 			format = right
 		}
 	}
-	
+
 	containerWindowType = {
 		name = "techtree_space_folder_item"
 		position = { x=0 y=5 }
