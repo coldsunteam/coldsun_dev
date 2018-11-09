@@ -35,7 +35,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = civilian_folder
-			position = { x = -2 y = 2 }
+			position = { x = -2 y = 4 }
 		}
 		ai_will_do = {
 			factor = 30
@@ -124,6 +124,10 @@ technologies = {
 			leads_to_tech = kilohertz_clocked_computer 
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = communications_satellite 
+			research_cost_coeff = 1
+		}
 		research_cost = 1
 		start_year = 1936
 		folder = {
@@ -179,9 +183,32 @@ technologies = {
 		
 		categories = { electronics }
 	}
+	
+	communications_satellite = {
+		path = {
+			leads_to_tech = control_system_mk1 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = gps 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 14 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	
 	electronic_calculators = {
 		path = {
-			leads_to_tech = radio 
+			leads_to_tech = ram 
 			research_cost_coeff = 1
 		}
 		path = {
@@ -205,6 +232,10 @@ technologies = {
 		categories = { electronics }
 	}
 	modem = {
+		path = {
+			leads_to_tech = ram 
+			research_cost_coeff = 1
+		}
 		research_cost = 1
 		start_year = 1936
 		folder = {
@@ -218,6 +249,10 @@ technologies = {
 		categories = { electronics }
 	}
 	kilohertz_clocked_computer_mk2 = {
+		path = {
+			leads_to_tech = ram 
+			research_cost_coeff = 1
+		}
 		research_cost = 1
 		start_year = 1936
 		folder = {
@@ -230,12 +265,223 @@ technologies = {
 		
 		categories = { electronics }
 	}
-	lasers = {
+	
+	ram = {
+		path = {
+			leads_to_tech = cpu_chip 
+			research_cost_coeff = 1
+		}
 		research_cost = 1
 		start_year = 1936
 		folder = {
 			name = civilian_folder
-			position = { x = 0 y = 2 }
+			position = { x = -4 y = 14 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	cpu_chip = {
+		path = {
+			leads_to_tech = in_8_floppy 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = kilohertz_clocked_computer_mk3 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ethernet 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -4 y = 16 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	kilohertz_clocked_computer_mk3 = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -2 y = 16 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	ethernet = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -6 y = 16 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	in_8_floppy = {
+		path = {
+			leads_to_tech = ram 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -4 y = 18 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	half5_in_floppy = {
+		path = {
+			leads_to_tech = ram 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tcp 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = kilohertz_clocked_computer_mk4 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -4 y = 20 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	tcp = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -2 y = 20 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	kilohertz_clocked_computer_mk4 = {
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = -6 y = 20 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	
+	lasers = {
+		path = {
+			leads_to_tech = control_system_mk1 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 4 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	
+	control_system_mk1 = {
+		path = {
+			leads_to_tech = control_system_mk2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 6 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	control_system_mk2 = {
+		path = {
+			leads_to_tech = control_system_mk3
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 8 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	control_system_mk3 = {
+		path = {
+			leads_to_tech = control_system_mk4
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 10 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		
+		categories = { electronics }
+	}
+	control_system_mk4 = {
+		path = {
+			leads_to_tech = gps 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 12 }
 		}
 		ai_will_do = {
 			factor = 30
