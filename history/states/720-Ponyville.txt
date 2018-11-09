@@ -11,7 +11,7 @@ state={
 		owner = EQS
 		add_core_of = EQS
 		victory_points = {
-			7440 20 
+			7440 10 
 		}
 		buildings = {
 			infrastructure = 2
