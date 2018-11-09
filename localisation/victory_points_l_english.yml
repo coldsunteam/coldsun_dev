@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
  
  ### Equestria
@@ -14,11 +14,28 @@
   VICTORY_POINTS_6045:0 "Hoofington"
   VICTORY_POINTS_20375:0 "Baltimare"
   VICTORY_POINTS_5956:0 "Los Pegasos"
-  VICTORY_POINTS_762:0 "Califoalnia"
+  VICTORY_POINTS_762:0 "Justine"
   VICTORY_POINTS_7220:0 "Maretropolis"
   VICTORY_POINTS_3204:0 "Foaledo"
   VICTORY_POINTS_19566:0 "Sunnydale"
   VICTORY_POINTS_8444:0 "Castlerock"
+  VICTORY_POINTS_1446:0 "Copenhoofgen"
+  VICTORY_POINTS_7237:0 "Cottmare"
+  VICTORY_POINTS_9385:0 "Armeline"
+  VICTORY_POINTS_11181:0 "Melody City"
+  VICTORY_POINTS_3318:0 "Sunrift"
+  VICTORY_POINTS_5346:0 "Ponpiare"
+  VICTORY_POINTS_2574:0 "Mariflower"
+  VICTORY_POINTS_4316:0 "Glowmist"
+  VICTORY_POINTS_4314:0 "Isemist"
+  VICTORY_POINTS_20341:0 "Transisco"
+  VICTORY_POINTS_3021:0 "Themione"
+  VICTORY_POINTS_2515:0 "Maretriere"
+  VICTORY_POINTS_8649:0 "Marenaco"
+  VICTORY_POINTS_3883:0 "Lyse"
+  VICTORY_POINTS_20454:0 "Rightmare"
+  VICTORY_POINTS_112:0 "Tailheran"
+  VICTORY_POINTS_3187:0 "Galvary"
   
   ### Frontier
   VICTORY_POINTS_9498:0 "Appleloosa"
@@ -38,7 +55,12 @@
   VICTORY_POINTS_20408:0 "Maneille"
   VICTORY_POINTS_4625:0 "Strotsbourg"
   VICTORY_POINTS_19590:0 "Hondeaux"
-  VICTORY_POINTS_42:0 "Fille"
+  VICTORY_POINTS_42:0 "Fleury"
+  
+  ### BIG
+  VICTORY_POINTS_10531:0 "Lercetar"
+  VICTORY_POINTS_2495:0 "Mârenăven"
+  VICTORY_POINTS_3452:0 "Sangetäu"
   
   ### YAK
   VICTORY_POINTS_7858:0 "Smashania"
