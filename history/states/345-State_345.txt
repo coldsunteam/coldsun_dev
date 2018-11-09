@@ -12,6 +12,9 @@ state={
 			dockyard = 1
 
 		}
+		victory_points = {
+			3452 20 
+		}
 
 	}
 

@@ -10,7 +10,7 @@ state={
 		owner = THR
 		add_core_of = THR
 		victory_points = {
-			10003 20 
+			10003 25
 		}
 		buildings = {
 			infrastructure = 4
