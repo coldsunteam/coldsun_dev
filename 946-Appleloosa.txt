@@ -1,0 +1,18 @@
+
+state={
+	id=946
+	name="STATE_946"
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+
+	}
+
+	provinces={
+		650 1069 1146 1397 1398 1406 1408 1409 2279 2280 3606 6668 7897 8848 8849 10381 11410 
+	}
+	manpower=982110
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

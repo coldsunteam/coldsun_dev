@@ -1,0 +1,25 @@
+
+state={
+	id=716
+	name="STATE_716"
+	resources={
+		grain=5
+	}
+	
+	history={
+		owner = EQS
+		add_core_of = EQS
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1338 4812 4813 4814 5323 5950 5951 5952 6494 9225 11331 
+	}
+	manpower=964221
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

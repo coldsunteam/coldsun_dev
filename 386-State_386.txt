@@ -1,0 +1,31 @@
+
+state={
+	id=386
+	name="STATE_386"
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+            8649 28
+        }
+			
+		victory_points = {
+           3883 18
+        }
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			8649 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1341 3880 3882 3883 4614 5878 5879 5880 5881 6223 8504 8597 8598 8649 9907 10349 10550 11139 
+	}
+	manpower=14452000
+	buildings_max_level_factor=1.000
+	state_category=city
+}
