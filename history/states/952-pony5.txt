@@ -11,8 +11,10 @@ state={
 		add_core_of = BIG
 		buildings = {
 			infrastructure = 5
-			dockyard = 2
-
+			dockyard = 2	
+			10531 = {
+				naval_base = 6
+			}
 		}
 		victory_points = {
 			10531 20
