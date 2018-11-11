@@ -34,9 +34,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
+	name = "Chancellor Hayburns"
 	desc = ""
-	picture = ""
+	picture = "Chancellor.tga"
 	expire = "1965.1.1"
 	ideology = despotism
 	traits = {
@@ -44,9 +44,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
+	name = "Chancellor Hayburns"
 	desc = ""
-	picture = ""
+	picture = "Chancellor.tga"
 	expire = "1965.1.1"
 	ideology = imperialism
 	traits = {
@@ -54,9 +54,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
+	name = "Chancellor Hayburns"
 	desc = ""
-	picture = ""
+	picture = "Chancellor.tga"
 	expire = "1965.1.1"
 	ideology = conservatism
 	traits = {
@@ -64,9 +64,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
+	name = "Chancellor Hayburns"
 	desc = ""
-	picture = ""
+	picture = "Chancellor.tga"
 	expire = "1965.1.1"
 	ideology = totalism
 	traits = {
