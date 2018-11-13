@@ -1,6 +1,6 @@
 ideas = {
 
-	country = {
+	hidden_ideas = {
 		
 		DEFCON5 = {
 			picture = generic_morale_bonus

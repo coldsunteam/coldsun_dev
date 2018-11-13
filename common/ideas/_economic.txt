@@ -86,6 +86,8 @@ ideas = {
 			
 			available = {
 					has_war_support > 0.15
+					
+					NOT = { has_idea = EQS_magic_of_harmony }
 			}
 			
 			cost = 150
@@ -114,6 +116,7 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.25
+				NOT = { has_idea = EQS_magic_of_harmony }
 			}
 
 			cost = 150
@@ -144,6 +147,7 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.5
+				NOT = { has_idea = EQS_magic_of_harmony }
 				OR = {
 					has_government = fascism
 					has_government = communism
@@ -189,6 +193,7 @@ ideas = {
 			available = {
 				has_war = yes
 				has_war_support > 0.8
+				NOT = { has_idea = EQS_magic_of_harmony }
 				any_enemy_country = {
 					ic_ratio = { 
 						tag = ROOT 
@@ -261,6 +266,7 @@ ideas = {
 		export_focus = {
 			
 			available = {
+				NOT = { has_idea = EQS_magic_of_harmony }
 			}
 			
 			
@@ -297,6 +303,7 @@ ideas = {
 			
 			
 			available = {
+				NOT = { has_idea = EQS_magic_of_harmony }
 				OR = {
 					AND = {
 						has_government = democratic
@@ -357,6 +364,7 @@ ideas = {
 			
 			
 			available = {
+				NOT = { has_idea = EQS_magic_of_harmony }
 				has_war = yes
 				OR = { 
 					has_government = fascism

@@ -2,6 +2,11 @@
 set_research_slots = 3
 
 set_technology = {
+	pony_race = 1
+}
+
+add_ideas = {
+	DEFCON5
 }
 
 set_convoys = 70

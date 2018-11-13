@@ -7,6 +7,16 @@ set_technology = {
 
 add_ideas = {
 	DEFCON5
+	
+	EQS_nationwide_pacifism
+	EQS_magic_of_harmony
+	EQS_nightmare_cultists
+	EQS_overpopulation
+}
+
+set_autonomy = {
+	target = CRY
+	autonomous_state = autonomy_puppet
 }
 
 set_convoys = 70

@@ -9,13 +9,16 @@ bookmarks = {
 		
 		EQS = {
 			history = FRA_BLITZKRIEG_DESC
-			ideology = democratic
+			ideology = neutrality
 			ideas={
+				EQS_nationwide_pacifism
+				EQS_magic_of_harmony
+				EQS_overpopulation
 			}
 			focuses = {
 			}
 		}
-		CRY = {
+		BIG = {
 			history = FRA_BLITZKRIEG_DESC
 			ideology = democratic
 			ideas={
@@ -32,6 +35,14 @@ bookmarks = {
 			}
 		}
 		TSU = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = communism
+			ideas={
+			}
+			focuses = {
+			}
+		}
+		CRY = {
 			history = FRA_BLITZKRIEG_DESC
 			ideology = communism
 			ideas={
