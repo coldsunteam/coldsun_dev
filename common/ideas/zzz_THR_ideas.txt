@@ -1,19 +1,13 @@
 ideas = {
 	country = {
-		#EQS_nationwide_pacifism = {
-		#	allowed = { always = no }
-		#	removal_cost = -1
-		#	picture = tfv_can_conscription_crisis
+		THR_love_shortage = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = tfv_can_conscription_crisis
 		
-		#	modifier = {
-		#		stability_factor = 0.40
-		#		
-		#		war_support_factor = -0.40
-		#		conscription = -0.20
-		#		army_defence_factor = -0.20
-		#		army_attack_factor = -0.20
-		#		justify_war_goal_time = 0.60
-		#	}
-		#}
+			modifier = {
+				stability_factor = 0.40
+			}
+		}
 	}
 }
