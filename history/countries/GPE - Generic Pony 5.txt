@@ -3,7 +3,7 @@
 oob = "GPE_1936"
 
 set_technology = {
-	pony_race = 1
+	pegasi_race = 1
 }
 
 add_ideas = {

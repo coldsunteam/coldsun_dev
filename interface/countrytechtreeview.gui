@@ -479,6 +479,120 @@ guiTypes = {
 				format = "UP"
 			}			
 		}
+		
+		containerWindowType = {
+			name = "unicorn_folder"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "techtree_stripes"
+				position = { x= 0 y= 0 }
+				size = { 
+					width = 1400 height = 1275
+					min = { width = 100%% height = 100%% }
+				}
+				clipping = no
+
+				iconType = {
+					name ="unicorn_folder_techtree_bg"
+					spriteType = "GFX_infantry_techtree_bg"
+					position = { x=0 y=0 }
+					allwaystransparent = yes
+				}				
+			}
+			gridboxtype = {
+				name = "unicorn_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}			
+		}
+		
+		containerWindowType = {
+			name = "pegasi_folder"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "techtree_stripes"
+				position = { x= 0 y= 0 }
+				size = { 
+					width = 1400 height = 1275
+					min = { width = 100%% height = 100%% }
+				}
+				clipping = no
+
+				iconType = {
+					name ="pegasi_folder_techtree_bg"
+					spriteType = "GFX_infantry_techtree_bg"
+					position = { x=0 y=0 }
+					allwaystransparent = yes
+				}				
+			}
+			gridboxtype = {
+				name = "pegasi_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}			
+		}
+		
+		containerWindowType = {
+			name = "earth_folder"
+			position = { x=0 y=47 }
+			size = { width = 100%% height = 100%% }
+			margin = { top = 13 left = 13 bottom = 24 right = 25}
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border"
+			}
+
+			containerWindowType = {
+				name = "techtree_stripes"
+				position = { x= 0 y= 0 }
+				size = { 
+					width = 1400 height = 1275
+					min = { width = 100%% height = 100%% }
+				}
+				clipping = no
+
+				iconType = {
+					name ="earth_folder_techtree_bg"
+					spriteType = "GFX_infantry_techtree_bg"
+					position = { x=0 y=0 }
+					allwaystransparent = yes
+				}				
+			}
+			gridboxtype = {
+				name = "earth_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}			
+		}
 
 		containerWindowType = {
 			name = "folder_tabs"
@@ -629,6 +743,51 @@ guiTypes = {
 			}
 			iconType = {
 				name = "highlight_pony_folder"
+				spriteType = "GFX_tutorial_research_folder_icon_glow"
+				position = { x=1166 y=-5}
+				hide = yes
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "unicorn_folder_tab"
+				position = { x = 1166 y = 0 }
+				quadTextureSprite = "GFX_techtree_engineering_tab"
+				frame = 1
+				clicksound = click_default
+			}
+			iconType = {
+				name = "highlight_unicorn_folder"
+				spriteType = "GFX_tutorial_research_folder_icon_glow"
+				position = { x=1166 y=-5}
+				hide = yes
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "pegasi_folder_tab"
+				position = { x = 1166 y = 0 }
+				quadTextureSprite = "GFX_techtree_engineering_tab"
+				frame = 1
+				clicksound = click_default
+			}
+			iconType = {
+				name = "highlight_pegasi_folder"
+				spriteType = "GFX_tutorial_research_folder_icon_glow"
+				position = { x=1166 y=-5}
+				hide = yes
+				alwaystransparent = yes
+			}
+			
+			buttonType = {
+				name = "earth_folder_tab"
+				position = { x = 1166 y = 0 }
+				quadTextureSprite = "GFX_techtree_engineering_tab"
+				frame = 1
+				clicksound = click_default
+			}
+			iconType = {
+				name = "highlight_earth_folder"
 				spriteType = "GFX_tutorial_research_folder_icon_glow"
 				position = { x=1166 y=-5}
 				hide = yes
@@ -1358,6 +1517,114 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "techtree_pony_folder_item"
+		position = { x=0 y=5 }
+		size = { width = 204 height = 72 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=34 y=35 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "bonus_icon"
+			position = { x=3 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 17 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
+	}
+	
+	containerWindowType = {
+		name = "techtree_unicorn_folder_item"
+		position = { x=0 y=5 }
+		size = { width = 204 height = 72 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=34 y=35 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "bonus_icon"
+			position = { x=3 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 17 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
+	}
+	
+	containerWindowType = {
+		name = "techtree_pegasi_folder_item"
+		position = { x=0 y=5 }
+		size = { width = 204 height = 72 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=34 y=35 }
+			spriteType = "GFX_technology_medium"
+			centerposition = yes
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "bonus_icon"
+			position = { x=3 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 17 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
+	}
+	
+	containerWindowType = {
+		name = "techtree_earth_folder_item"
 		position = { x=0 y=5 }
 		size = { width = 204 height = 72 }
 		clipping = no

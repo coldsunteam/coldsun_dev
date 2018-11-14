@@ -17,6 +17,24 @@ technology_folders = {
 		}
 	}
 	
+	unicorn_folder = {
+		available = {
+			is_unicorn_race = yes
+		}
+	}
+	
+	pegasi_folder = {
+		available = {
+			is_pegasi_race = yes
+		}
+	}
+	
+	earth_folder = {
+		available = {
+			is_earth_race = yes
+		}
+	}
+	
 	deer_folder = {
 		available = {
 			is_changeling_race = yes
