@@ -9,9 +9,221 @@ technologies = {
 	earth = {	
 		research_cost = 1
 		start_year = 1918
+		path = {
+			leads_to_tech = earth_agri
+			research_cost_coeff = 1
+		}
 		folder = {
 			name = earth_folder
-			position = { x = 0 y = 1 }
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	earth_agri = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = earth_strength
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = earth_advanced_agri
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = earth_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	earth_strength = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = earth_natural_engineering
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = earth_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	earth_natural_engineering = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = earth_magic_industry
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = earth_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	earth_advanced_agri = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = earth_natural_remedies
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = earth_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	earth_natural_remedies = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = earth_magic_industry
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = earth_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	earth_magic_industry = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = earth_magi_tools
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = earth_geomancy
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = earth_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	earth_magi_tools = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = earth_magi_tools2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = earth_folder
+			position = { x = -2 y = 10 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	earth_magi_tools2 = {	
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = earth_folder
+			position = { x = -2 y = 12 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	earth_geomancy = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = earth_geomancy2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = earth_folder
+			position = { x = 2 y = 10 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	earth_geomancy2 = {	
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = earth_folder
+			position = { x = 2 y = 12 }
 		}
 		
 		categories = {

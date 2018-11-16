@@ -8,10 +8,224 @@ technologies = {
 	
 	pegasi = {	
 		research_cost = 1
+		path = {
+			leads_to_tech = pegasi_weather_manipulation
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = pegasi_flight_training
+			research_cost_coeff = 1
+		}
 		start_year = 1918
 		folder = {
 			name = pegasi_folder
-			position = { x = 0 y = 1 }
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pegasi_weather_manipulation = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = pegasi_weather_manipulation2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = pegasi_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pegasi_weather_manipulation2 = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = pegasi_weather_manipulation3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = pegasi_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pegasi_weather_manipulation3 = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = pegasi_thunder_rifles
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = pegasi_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pegasi_flight_training = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = pegasi_flight_training2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = pegasi_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pegasi_flight_training2 = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = pegasi_flight_training3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = pegasi_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pegasi_flight_training3 = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = pegasi_thunder_rifles
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = pegasi_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pegasi_thunder_rifles = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = pegasi_training
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = pegasi_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pegasi_training = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = pegasi_training2
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = pegasi_folder
+			position = { x = 0 y = 10 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pegasi_training2 = {	
+		research_cost = 1
+		start_year = 1918
+		path = {
+			leads_to_tech = pegasi_training3
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = pegasi_folder
+			position = { x = 0 y = 12 }
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	pegasi_training3 = {	
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = pegasi_folder
+			position = { x = 0 y = 14 }
 		}
 		
 		categories = {

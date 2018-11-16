@@ -512,7 +512,8 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "unicorn_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 100 y = 172 }
+				size = { width = 520 height = 800 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}			
@@ -550,7 +551,8 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "pegasi_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 100 y = 172 }
+				size = { width = 520 height = 800 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}			
@@ -580,7 +582,7 @@ guiTypes = {
 				clipping = no
 
 				iconType = {
-					name ="earth_folder_techtree_bg"
+					name ="earth_techtree_bg"
 					spriteType = "GFX_infantry_techtree_bg"
 					position = { x=0 y=0 }
 					allwaystransparent = yes
@@ -588,10 +590,11 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "earth_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 100 y = 172 }
+				size = { width = 520 height = 800 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
-			}			
+			}		
 		}
 
 		containerWindowType = {
