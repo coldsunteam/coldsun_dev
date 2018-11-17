@@ -51,4 +51,47 @@ ideas = {
 			}
 		}
 	}
+	
+	political_advisor = {
+		twilight_sparkle = {
+			allowed = { original_tag = EQS }
+			traits = { backroom_backstabber }
+		}
+		rainbow_dash = {
+			allowed = { original_tag = EQS }
+			traits = { backroom_backstabber }
+		}
+		rarity = {
+			allowed = { original_tag = EQS }
+			traits = { backroom_backstabber }
+		}
+		applejack = {
+			allowed = { original_tag = EQS }
+			traits = { backroom_backstabber }
+		}
+		fluttershy = {
+			allowed = { original_tag = EQS }
+			traits = { backroom_backstabber }
+		}
+	}
+	
+	theorist = {
+	
+	}
+	
+	high_command = {
+	
+	}
+	
+	army_chief = {
+	
+	}
+	
+	air_chief = {
+	
+	}
+	
+	navy_chief = {
+	
+	}
 }

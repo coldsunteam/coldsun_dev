@@ -1,0 +1,28 @@
+spriteTypes = {	
+	
+	spriteType = {
+		name = "GFX_idea_twilight_sparkle"
+		texturefile = "gfx/interface/ideas/advisors/idea_twilight_sparkle.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fluttershy"
+		texturefile = "gfx/interface/ideas/advisors/idea_fluttershy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rainbow_dash"
+		texturefile = "gfx/interface/ideas/advisors/idea_rainbow_dash.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_rarity"
+		texturefile = "gfx/interface/ideas/advisors/idea_rarity.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_applejack"
+		texturefile = "gfx/interface/ideas/advisors/idea_apple_jack.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_flurry_heart"
+		texturefile = "gfx/interface/ideas/advisors/idea_flurry_heart.dds"
+	}
+	
+}
