@@ -543,7 +543,7 @@ guiTypes = {
 				clipping = no
 
 				iconType = {
-					name ="pegasi_folder_techtree_bg"
+					name ="pegasi_techtree_bg"
 					spriteType = "GFX_infantry_techtree_bg"
 					position = { x=0 y=0 }
 					allwaystransparent = yes
@@ -555,7 +555,7 @@ guiTypes = {
 				size = { width = 520 height = 800 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
-			}			
+			}		
 		}
 		
 		containerWindowType = {
