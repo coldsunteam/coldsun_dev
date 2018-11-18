@@ -55,23 +55,23 @@ ideas = {
 	political_advisor = {
 		twilight_sparkle = {
 			allowed = { original_tag = EQS }
-			traits = { backroom_backstabber }
+			traits = { element_of_magic }
 		}
 		rainbow_dash = {
 			allowed = { original_tag = EQS }
-			traits = { backroom_backstabber }
+			traits = { element_of_loyalty }
 		}
 		rarity = {
 			allowed = { original_tag = EQS }
-			traits = { backroom_backstabber }
+			traits = { element_of_generosity }
 		}
 		applejack = {
 			allowed = { original_tag = EQS }
-			traits = { backroom_backstabber }
+			traits = { element_of_honesty }
 		}
 		fluttershy = {
 			allowed = { original_tag = EQS }
-			traits = { backroom_backstabber }
+			traits = { element_of_kindness }
 		}
 	}
 	
@@ -80,7 +80,10 @@ ideas = {
 	}
 	
 	high_command = {
-	
+		pinkie_pie = {
+			allowed = { original_tag = EQS }
+			traits = { element_of_laughter }
+		}
 	}
 	
 	army_chief = {

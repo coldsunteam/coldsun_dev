@@ -14,4 +14,18 @@ EQS_nightmare_cultists:0 "Nightmare Cultists"
 EQS_nightmare_cultists_desc:0 "spooby cult"
 
 
+## Advisors ##
+twilight_sparkle:0 "Twilight Sparkle"
+rarity:0 "Rarity"
+rainbow_dash:0 "Rainbow Dash"
+fluttershy:0 "Fluttershy"
+applejack:0 "Applejack"
+pinkie_pie:0 "Pinkie Pie"
+
+element_of_magic:0 "Element of Magic"
+element_of_loyalty:0 "Element of Loyalty"
+element_of_generosity:0 "Element of Generosity"
+element_of_honesty:0 "Element of Honesty"
+element_of_kindness:0 "Element of Kindness"
+element_of_laughter:0 "Element of Laughter"
 
