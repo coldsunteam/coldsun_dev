@@ -23,7 +23,7 @@ ideologies = {
 			"FACTION_NAME_DEMOCRATIC_6"
 		}
 		
-		color = { 19 98 22 }
+		color = { 0 0 150 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
