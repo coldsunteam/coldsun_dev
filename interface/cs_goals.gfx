@@ -1,0 +1,32 @@
+spriteTypes = {	
+
+	### Generic
+	
+	spriteType = {
+		name = "GFX_goal_focus_crystal"
+		texturefile = "gfx/interface/goals/focus_crystal.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_equestria"
+		texturefile = "gfx/interface/goals/focus_equestria.dds"
+	}
+	
+	### Prance Stuff
+	
+	spriteType = {
+		name = "GFX_goal_focus_eqa_abandon_equestria"
+		texturefile = "gfx/interface/goals/focus_eqa_abandon_equestria.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqa_grandeur"
+		texturefile = "gfx/interface/goals/focus_eqa_grandeur.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqa_neutral_position"
+		texturefile = "gfx/interface/goals/focus_eqa_neutral_position.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqa_status_quo"
+		texturefile = "gfx/interface/goals/focus_eqa_status_quo.dds"
+	}
+}
