@@ -357,10 +357,220 @@ guiTypes = {
 
 				iconType = {
 					name ="civilian_techtree_bg"
-					spriteType = "GFX_infantry_techtree_bg"
+					spriteType = "GFX_engineering_techtree_bg"
 					position = { x=0 y=0 }
 					allwaystransparent = yes
-				}				
+				}
+
+
+				instantTextBoxType = {
+					name = "electronics_year1"
+					position = { x = 2500 y = 190 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2033"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year2"
+					position = { x = 2500 y = 310 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2035"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year3"
+					position = { x = 2500 y = 430 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2036"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year4"
+					position = { x = 2500 y = 550 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2040"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year5"
+					position = { x = 2500 y = 670 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2042"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year6"
+					position = { x = 2500 y = 790 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2044"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year7"
+					position = { x = 2500 y = 910 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2046"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year8"
+					position = { x = 2500 y = 1030 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2050"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year9"
+					position = { x = 2500 y = 1150 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2052"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year10"
+					position = { x = 2500 y = 1270 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2054"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year11"
+					position = { x = 2500 y = 1440 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2058"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year12"
+					position = { x = 2500 y = 1740 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2060"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year13"
+					position = { x = 2500 y = 1870 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2062"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year14"
+					position = { x = 2500 y = 2100 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2065"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_year15"
+					position = { x = 2500 y = 2540 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = { x = 0 y = 0}
+					text = "2070"
+					maxWidth = 170
+					maxHeight = 32
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "electronics_title"
+					position = { x = 2050 y = 100 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = { x = 0 y = 0}
+					text = "Electronics"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}	
+				
 			}
 			gridboxtype = {
 				name = "basic_machine_tools_tree"
@@ -396,7 +606,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "uav_control_1_tree"
-				position = { x=1400 y=172 }
+				position = { x=1400 y=715 }
 				size = { width = 680 height = 800 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
@@ -404,7 +614,7 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "atomic_research_tree"
-				position = { x=2200 y=292 }
+				position = { x=2400 y=292 }
 				size = { width = 680 height = 500 }
 				slotsize = { width=60 height= 60 }
 				format = "UP"
