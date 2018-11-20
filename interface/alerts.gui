@@ -46,7 +46,7 @@ guiTypes = {
 
 	positionType = {
 		name = "alerticon_startposition"
-		position = { x = 880 y = 40 }
+		position = { x = 640 y = 40 }
 	}
 
 	positionType = {
