@@ -1,13 +1,16 @@
 focus_tree = {
-	id = equestria_focus
-
+	id = greifwald_bugs_focus
+	
 	country = {
 		factor = 0
-
+		
 		modifier = {
 			add = 10
-			original_tag = EQS
+			tag = EQS
 		}
 	}
+	default = no
+	continuous_focus_position = { x = 290 y = 2500 }
 	
+	shared_focus = EQS_industrial_overview
 }

@@ -1,0 +1,312 @@
+shared_focus = {
+	id = EQS_industrial_overview
+	icon = GFX_goal_generic_demand_territory
+	cost = 10.00
+	x = 6
+	y = 0
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+#######################
+### INDUSTRIAL TREE ###
+#######################
+shared_focus = {
+	id = EQS_develop_nw
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_industrial_overview }
+	relative_position_id = EQS_industrial_overview
+	cost = 10.00
+	x = -3
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_baltimare_automobiles
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_develop_nw }
+	relative_position_id = EQS_develop_nw
+	cost = 10.00
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_trottingham_shipyards
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_develop_nw }
+	relative_position_id = EQS_develop_nw
+	cost = 10.00
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_sionia_motorized_concern
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_baltimare_automobiles }
+	relative_position_id = EQS_develop_nw
+	cost = 10.00
+	x = -2
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_mine_vine_peaks
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_baltimare_automobiles }
+	prerequisite = { focus = EQS_trottingham_shipyards }
+	relative_position_id = EQS_develop_nw
+	cost = 10.00
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_fund_naval_research
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_trottingham_shipyards }
+	relative_position_id = EQS_develop_nw
+	cost = 10.00
+	x = 2
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_develop_sionia
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_sionia_motorized_concern }
+	prerequisite = { focus = EQS_mine_vine_peaks }
+	prerequisite = { focus = EQS_fund_naval_research }
+	relative_position_id = EQS_develop_nw
+	cost = 10.00
+	x = 0
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_world_trade
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_develop_sionia }
+	relative_position_id = EQS_develop_nw
+	cost = 10.00
+	x = 0
+	y = 4
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+
+
+
+shared_focus = {
+	id = EQS_develop_ne
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_industrial_overview }
+	relative_position_id = EQS_industrial_overview
+	cost = 10.00
+	x = 3
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_develop_infrastructure
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_develop_ne }
+	relative_position_id = EQS_develop_ne
+	cost = 10.00
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_tromare_tractor_factories
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_develop_infrastructure }
+	relative_position_id = EQS_develop_ne
+	cost = 10.00
+	x = -1
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_freefort_rifle_company
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_tromare_tractor_factories }
+	relative_position_id = EQS_develop_ne
+	cost = 10.00
+	x = -2
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_free_tractors
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_tromare_tractor_factories }
+	prerequisite = { focus = EQS_reach_out_to_farmers }
+	relative_position_id = EQS_develop_ne
+	cost = 10.00
+	x = 0
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_rural_education_program
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_develop_ne }
+	relative_position_id = EQS_develop_ne
+	cost = 10.00
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_reach_out_to_farmers
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_rural_education_program }
+	relative_position_id = EQS_develop_ne
+	cost = 10.00
+	x = 1
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_agricultural_advancements
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_reach_out_to_farmers }
+	relative_position_id = EQS_develop_ne
+	cost = 10.00
+	x = 2
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_construction_initiative
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_freefort_rifle_company }
+	prerequisite = { focus = EQS_free_tractors }
+	relative_position_id = EQS_develop_ne
+	cost = 10.00
+	x = -1
+	y = 4
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
