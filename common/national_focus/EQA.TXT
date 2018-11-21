@@ -687,7 +687,6 @@ continuous_focus_position = { x = 900 y = 2800 }
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_charsdecombat } 
-		prerequisite = { focus =  } 
 		ai_will_do = { 
 		 factor = 40
 		 } 
