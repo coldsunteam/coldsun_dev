@@ -14,6 +14,10 @@ spriteTypes = {
 		name = "GFX_idea_prance_command"
 		texturefile = "gfx/interface/ideas/idea_prance_command.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_academy"
+		texturefile = "gfx/interface/ideas/idea_academy.dds"
+	}
 	
 	### Equestria
 	
@@ -69,5 +73,9 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_fascist_democratic_prance"
 		texturefile = "gfx/interface/ideas/idea_fascist_democratic_prance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eqa_corrupt_army"
+		texturefile = "gfx/interface/ideas/idea_eqa_corrupt_army.dds"
 	}
 }
