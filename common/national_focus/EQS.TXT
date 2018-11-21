@@ -13,4 +13,5 @@ focus_tree = {
 	continuous_focus_position = { x = 290 y = 2500 }
 	
 	shared_focus = EQS_industrial_overview
+	shared_focus = EQS_friendship_games
 }

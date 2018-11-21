@@ -1,6 +1,6 @@
 shared_focus = {
 	id = EQS_industrial_overview
-	icon = GFX_goal_generic_demand_territory
+	icon = GFX_goal_focus_eqs_start
 	cost = 10.00
 	x = 6
 	y = 0
@@ -308,5 +308,312 @@ shared_focus = {
 	
 	completion_reward = {
 
+	}
+}
+
+###################################
+### Dealing with the Big Issues ###
+###################################
+shared_focus = {
+	id = EQS_friendship_games
+	icon = GFX_goal_focus_eqs_start
+	cost = 10.00
+	x = 20
+	y = 0
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_internal_affairs
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_friendship_games }
+	relative_position_id = EQS_friendship_games
+	cost = 10.00
+	x = -4
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_one_foal_policy
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_internal_affairs }
+	relative_position_id = EQS_internal_affairs
+	cost = 10.00
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_tax_breaks
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_one_foal_policy }
+	relative_position_id = EQS_internal_affairs
+	cost = 10.00
+	x = -3
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_southern_homestead
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_one_foal_policy }
+	relative_position_id = EQS_internal_affairs
+	cost = 10.00
+	x = -1
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_clear_the_south
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_tax_breaks focus = EQS_southern_homestead }
+	relative_position_id = EQS_internal_affairs
+	cost = 10.00
+	x = -2
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_suburban_explosion
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_clear_the_south }
+	relative_position_id = EQS_internal_affairs
+	cost = 10.00
+	x = -2
+	y = 4
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_encourage_emmigration
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_southern_homestead }
+	relative_position_id = EQS_internal_affairs
+	cost = 10.00
+	x = 1
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_prench_emmigration
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_encourage_emmigration }
+	relative_position_id = EQS_internal_affairs
+	cost = 10.00
+	x = 0
+	y = 4
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_independent_pony_emmigration
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_encourage_emmigration }
+	relative_position_id = EQS_internal_affairs
+	cost = 10.00
+	x = 2
+	y = 4
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+
+
+shared_focus = {
+	id = EQS_meeting_between_sisters
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_internal_affairs }
+	relative_position_id = EQS_internal_affairs
+	cost = 10.00
+	x = 6
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_confront_the_nightmare
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_meeting_between_sisters }
+	mutually_exclusive = { focus = EQS_endure_the_nightmare }
+	relative_position_id = EQS_meeting_between_sisters
+	cost = 10.00
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_friendship_forever
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_endure_the_nightmare }
+	relative_position_id = EQS_meeting_between_sisters
+	cost = 10.00
+	x = -2
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_endure_the_nightmare
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_meeting_between_sisters }
+	mutually_exclusive = { focus = EQS_confront_the_nightmare }
+	relative_position_id = EQS_meeting_between_sisters
+	cost = 10.00
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_behind_celestias_back
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_confront_the_nightmare }
+	relative_position_id = EQS_meeting_between_sisters
+	cost = 10.00
+	x = 2
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_dealing_with_cultists
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_confront_the_nightmare focus = EQS_endure_the_nightmare }
+	relative_position_id = EQS_meeting_between_sisters
+	cost = 10.00
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_ban_nightmare_worship
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_friendship_forever }
+	prerequisite = { focus = EQS_dealing_with_cultists }
+	relative_position_id = EQS_meeting_between_sisters
+	cost = 10.00
+	x = -1
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_hunt_down_cultists
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_ban_nightmare_worship }
+	relative_position_id = EQS_meeting_between_sisters
+	cost = 10.00
+	x = -1
+	y = 4
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_join_cultists
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_behind_celestias_back }
+	prerequisite = { focus = EQS_dealing_with_cultists }
+	relative_position_id = EQS_meeting_between_sisters
+	cost = 10.00
+	x = 1
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_gather_supporters
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_join_cultists }
+	relative_position_id = EQS_meeting_between_sisters
+	cost = 10.00
+	x = 1
+	y = 4
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
 	}
 }
