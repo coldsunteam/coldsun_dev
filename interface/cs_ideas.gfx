@@ -1,4 +1,21 @@
 spriteTypes = {	
+
+	### Generic
+	
+	spriteType = {
+		name = "GFX_idea_crystal_command"
+		texturefile = "gfx/interface/ideas/idea_crystal_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_equestrian_command"
+		texturefile = "gfx/interface/ideas/idea_equestrian_command.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_prance_command"
+		texturefile = "gfx/interface/ideas/idea_prance_command.dds"
+	}
+	
+	### Equestria
 	
 	spriteType = {
 		name = "GFX_idea_twilight_sparkle"
@@ -24,9 +41,33 @@ spriteTypes = {
 		name = "GFX_idea_pinkie_pie"
 		texturefile = "gfx/interface/ideas/advisors/idea_pinkie_pie.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_twilight_sparkle"
+		texturefile = "gfx/interface/ideas/idea_overpopulation.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_flurry_heart"
 		texturefile = "gfx/interface/ideas/advisors/idea_flurry_heart.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nationwide_pacifism"
+		texturefile = "gfx/interface/ideas/idea_nationwide_pacifism.dds"
+	}
+	
+	### Prance
+	
+	spriteType = {
+		name = "GFX_idea_incoherent_management"
+		texturefile = "gfx/interface/ideas/idea_incoherent_management.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_prance"
+		texturefile = "gfx/interface/ideas/idea_prance.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_fascist_democratic_prance"
+		texturefile = "gfx/interface/ideas/idea_fascist_democratic_prance.dds"
 	}
 }
