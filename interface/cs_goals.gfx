@@ -10,6 +10,10 @@ spriteTypes = {
 		name = "GFX_goal_focus_equestria"
 		texturefile = "gfx/interface/goals/focus_equestria.dds"
 	}
+	spriteType = {
+		name = "GFX_goal_focus_grade"
+		texturefile = "gfx/interface/goals/focus_grade.dds"
+	}
 	
 	### Prance Stuff
 	
@@ -28,5 +32,12 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_goal_focus_eqa_status_quo"
 		texturefile = "gfx/interface/goals/focus_eqa_status_quo.dds"
+	}
+	
+	### Equestria Stuff
+
+	spriteType = {
+		name = "GFX_goal_focus_eqs_start"
+		texturefile = "gfx/interface/goals/focus_eqs_start.dds"
 	}
 }
