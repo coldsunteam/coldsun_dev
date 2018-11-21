@@ -1,0 +1,49 @@
+add_namespace = prance
+
+add_namespace = prance
+
+## Prance Overview
+country_event = {
+	id = prance.1
+	title = prance.1.t
+	desc = prance.1.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = prance.1.a
+		ai_chance = {
+		factor = 100
+		}
+	}
+	
+	option = {
+		name = prance.1.b
+		ai_chance = {
+		factor = 1
+		}
+		EQA = { country_event = { id = prance.2 days = 1 } }
+	}
+}
+
+## Prance Situation
+country_event = {
+	id = prance.2
+	title = prance.2.t
+	desc = prance.2.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = prance.2.a
+		ai_chance = {
+		factor = 100
+		}
+	}
+}

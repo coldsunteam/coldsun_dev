@@ -1,0 +1,467 @@
+ideas = {
+	country = {
+		EQA_industrial_buildup = {
+			picture = civilian_economy
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.1
+				production_speed_industrial_complex_factor = 0.05
+				production_speed_arms_factory_factor = 0.05
+				production_speed_infrastructure_factor = 0.05
+			}
+		}
+		
+		EQA_defensive_posture = {
+			picture = german_advisors
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				army_leader_start_defense_level = 1
+				training_time_factor = -0.1
+				experience_loss_factor = -0.10
+				conscription = 0.005
+				army_morale_factor = 0.05
+			}
+		}
+		
+		EQA_aggressive_posture = {
+			picture = german_advisors
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				army_leader_start_attack_level = 1
+				production_speed_arms_factory_factor = 0.1
+				conscription = 0.0075
+				attrition = -0.05
+				land_reinforce_rate = 0.05
+				justify_war_goal_time = -0.1
+			}
+		}
+		
+		EQA_services_secrets = {
+			picture = SOV_scientist_defect
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_factor = 0.2
+				resistance_tick = -0.1
+				command_power_gain = 0.5
+				occupation_cost = -0.3
+			}
+		}
+		
+		EQA_crystal_command = {
+			picture = crystal_command
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				command_power_gain = 0.1
+				army_org_factor = 0.03
+				land_reinforce_rate = 0.03
+				defence = 0.04
+				offence = 0.01
+			}
+		}
+		
+		EQA_equestria_command = {
+			picture = equestrian_command
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				command_power_gain = 0.15
+				army_org_factor = 0.05
+				land_reinforce_rate = 0.05
+				defence = 0.03
+				offence = 0.02
+			}
+		}
+		
+		EQA_grandeur = {
+			picture = prance_command
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				attrition = -0.08
+				experience_loss_factor = -0.25
+				army_morale_factor = 0.05
+				defence = 0.04
+				offence = 0.04
+				army_speed_factor = 0.05
+				army_armor_speed_factor = 0.05
+			}
+		}
+		
+		EQA_defensive_mindset = {
+			picture = generic_artillery_regiments
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_core_attack_factor = 0.03
+			}
+		}
+		
+		EQA_united_front = {
+			picture = soviet_german_friendship
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				army_speed_factor = 0.05
+				defence = 0.06
+				offence = 0.10
+				army_morale_factor = 0.05
+				army_org_factor = 0.05
+			}
+		}
+		
+		EQA_punishment_needed = {
+			picture = ENG_the_war_to_end_all_wars
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_weekly = 0.02
+				stability_weekly = 0.002
+				political_power_factor = -0.1
+				trade_opinion_factor = -0.15
+				drift_defence_factor = 0.2
+			}
+		}
+		
+		EQA_facilitator = {
+			picture = neutrality_idea
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				war_support_weekly = -0.015
+				stability_weekly = 0.02
+				political_power_factor = 0.15
+				trade_opinion_factor = 0.25
+				opinion_gain_monthly_factor = 0.35
+				industry_repair_factor = 0.05
+			}
+		}
+		
+		EQA_neutral_policy = {
+			picture = FRA_national_mobilization_focus
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				drift_defence_factor = 0.1
+				stability_weekly = 0.005
+				political_power_factor = 0.1
+				trade_opinion_factor = 0.1
+				opinion_gain_monthly_factor = 0.1
+				industrial_capacity_factory = 0.05
+			}
+		}
+		
+		EQA_our_own_path = {
+			picture = generic_wall_line
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				stability_weekly = 0.01
+				war_support_weekly = 0.01
+				command_power_gain = 0.5
+			}
+		}
+		
+		EQA_military_state = {
+			picture = fascist_democratic_prance
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_gain = 0.5
+				command_power_gain = 2
+				industrial_capacity_factory = 0.1
+				land_reinforce_rate = 0.025
+				army_org_factor = 0.05
+				army_morale_factor = 0.07
+				fascism_drift = 0.6
+			}
+		}
+		
+		EQA_absolutism = {
+			picture = prance
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				political_power_gain = 1
+				neutrality_drift = 0.6
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+			}
+		}
+		
+		EQA_victors_wrath = {
+			picture = generic_morale_bonus
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				occupation_cost = -0.5
+				attrition = -0.05
+				experience_loss_factor = -0.20
+				army_morale_factor = 0.05
+				offence = 0.08
+				army_speed_factor = 0.05
+				local_org_regain = 0.05
+			}
+		}
+		
+		EQA_leased_ports = {
+			picture = generic_navy_bonus
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.03
+			}
+		}
+		
+		EQA_leasing_ports = {
+			picture = generic_navy_bonus
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.03
+				industrial_capacity_dockyard = 0.2
+			}
+		}
+		
+		EQA_infrastructure = {
+			picture = generic_build_infrastructure
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		
+		EQA_academy = {
+			picture = academy
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				army_leader_start_planning_level = 1
+				planning_speed = 0.25
+				max_planning = 0.25
+				training_time_factor = -0.1
+				conscription = 0.005
+				experience_loss_factor = -0.15
+				}
+			}
+		
+		EQA_incoherent_management1 = {
+			picture = incoherent_management
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				political_power_factor = -0.15
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				consumer_goods_factor = 0.08
+				industrial_capacity_factory = -0.1
+				}
+			}
+			
+		EQA_incoherent_management2 = {
+			picture = incoherent_management
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				political_power_factor = -0.125
+				stability_factor = -0.12
+				war_support_factor = -0.12
+				consumer_goods_factor = 0.07
+				industrial_capacity_factory = -0.07
+				}
+			}
+			
+		EQA_incoherent_management3 = {
+			picture = incoherent_management
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				political_power_factor = -0.08
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.05
+				}
+			}
+			
+		EQA_incoherent_management4 = {
+			picture = incoherent_management
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				political_power_factor = -0.05
+				stability_factor = -0.05
+				war_support_factor = -0.05
+				consumer_goods_factor = 0.03
+				industrial_capacity_factory = -0.03
+				}
+			}
+			
+		EQA_divided_army = {
+			picture = eqa_corrupt_army
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				army_core_attack_factor = -0.15
+				army_core_defence_factor = -0.15
+				army_morale_factor = -0.15
+				mobilization_speed = -0.2
+				conscription = -0.01
+				training_time_factor = 0.15
+				max_planning = -0.35
+				command_power_gain_mult = -0.3
+				surrender_limit = -0.1
+				}
+			}
+			
+		EQA_navy_support = {
+			picture = generic_sea_focused_navy
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				navy_org_factor = 0.1
+				naval_strike = 0.1
+				}
+			}
+			
+		EQA_historical_legacy = {
+			picture = generic_morale_bonus
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				army_leader_start_attack_level = 1
+				local_manpower = 0.1
+				conscription = 0.005
+				}
+			}
+			
+		EQA_marine = {
+			picture = generic_sea_focused_navy
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				navy_org_factor = 0.1
+				naval_strike = 0.1
+				}
+			}
+			
+}
+}
