@@ -333,7 +333,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_friendship_games }
 	relative_position_id = EQS_friendship_games
 	cost = 10.00
-	x = -4
+	x = -2
 	y = 1
 	ai_will_do = {
 		factor = 100
@@ -348,7 +348,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_internal_affairs }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = -2
+	x = -4
 	y = 1
 	ai_will_do = {
 		factor = 100
@@ -363,7 +363,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_one_foal_policy }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = -3
+	x = -5
 	y = 2
 	ai_will_do = {
 		factor = 100
@@ -378,7 +378,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_one_foal_policy }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = -1
+	x = -3
 	y = 2
 	ai_will_do = {
 		factor = 100
@@ -393,7 +393,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_tax_breaks focus = EQS_southern_homestead }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = -2
+	x = -4
 	y = 3
 	ai_will_do = {
 		factor = 100
@@ -408,7 +408,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_clear_the_south }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = -2
+	x = -4
 	y = 4
 	ai_will_do = {
 		factor = 100
@@ -423,7 +423,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_southern_homestead }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = 1
+	x = -1
 	y = 3
 	ai_will_do = {
 		factor = 100
@@ -438,7 +438,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_encourage_emmigration }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = 0
+	x = -2
 	y = 4
 	ai_will_do = {
 		factor = 100
@@ -453,7 +453,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_encourage_emmigration }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = 2
+	x = 0
 	y = 4
 	ai_will_do = {
 		factor = 100
@@ -470,7 +470,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_internal_affairs }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = 6
+	x = 4
 	y = 1
 	ai_will_do = {
 		factor = 100
