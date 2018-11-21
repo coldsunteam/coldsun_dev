@@ -40,4 +40,8 @@ spriteTypes = {
 		name = "GFX_goal_focus_eqs_start"
 		texturefile = "gfx/interface/goals/focus_eqs_start.dds"
 	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_friendship"
+		texturefile = "gfx/interface/goals/focus_eqs_friendship.dds"
+	}
 }
