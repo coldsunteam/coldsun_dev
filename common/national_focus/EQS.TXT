@@ -1,5 +1,5 @@
 focus_tree = {
-	id = greifwald_bugs_focus
+	id = equestria_base_tree
 	
 	country = {
 		factor = 0
@@ -14,4 +14,24 @@ focus_tree = {
 	
 	shared_focus = EQS_industrial_overview
 	shared_focus = EQS_friendship_games
+	shared_focus = EQS_ercenbrand_issue
+}
+
+focus_tree = {
+	id = equestria_ercenbrand_shit
+	
+	country = {
+		factor = 0
+		
+		#modifier = {
+		#	add = 10
+		#	tag = EQS
+		#}
+	}
+	default = no
+	continuous_focus_position = { x = 290 y = 2500 }
+	
+	shared_focus = EQS_industrial_overview
+	shared_focus = EQS_friendship_games
+	shared_focus = EQS_ercenbrand_issue
 }

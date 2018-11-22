@@ -11,9 +11,9 @@ shared_focus = {
 	}
 }
 
-#######################
-### INDUSTRIAL TREE ###
-#######################
+##############################
+### Develop the North West ###
+##############################
 shared_focus = {
 	id = EQS_develop_nw
 	icon = GFX_goal_generic_demand_territory
@@ -154,8 +154,9 @@ shared_focus = {
 }
 
 
-
-
+##############################
+### Develop the North East ###
+##############################
 shared_focus = {
 	id = EQS_develop_ne
 	icon = GFX_goal_generic_demand_territory
@@ -311,6 +312,113 @@ shared_focus = {
 	}
 }
 
+#########################
+### Develop the South ###
+#########################
+
+shared_focus = {
+	id = EQS_develop_south
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_industrial_overview }
+	relative_position_id = EQS_industrial_overview
+	cost = 10.00
+	x = 8
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_hoofston_oil
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_develop_south }
+	relative_position_id = EQS_develop_south
+	cost = 10.00
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_synth_oil_research
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_hoofston_oil }
+	relative_position_id = EQS_develop_south
+	cost = 10.00
+	x = -1
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_clear_the_south
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_develop_south }
+	relative_position_id = EQS_develop_south
+	cost = 10.00
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_prioritize_farmland
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_clear_the_south }
+	mutually_exclusive = { focus = EQS_prioritize_livingspace }
+	relative_position_id = EQS_develop_south
+	cost = 10.00
+	x = 1
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = EQS_land_grants
+	icon = GFX_goal_generic_demand_territory
+	prerequisite = { focus = EQS_synth_oil_research focus = EQS_prioritize_farmland }
+	relative_position_id = EQS_develop_south
+	cost = 10.00
+	x = 0
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	
+	completion_reward = {
+
+	}
+}
+
 ###################################
 ### Dealing with the Big Issues ###
 ###################################
@@ -318,7 +426,7 @@ shared_focus = {
 	id = EQS_friendship_games
 	icon = GFX_goal_focus_eqs_start
 	cost = 10.00
-	x = 20
+	x = 24
 	y = 0
 	ai_will_do = {
 		factor = 100
@@ -333,7 +441,7 @@ shared_focus = {
 	prerequisite = { focus = EQS_friendship_games }
 	relative_position_id = EQS_friendship_games
 	cost = 10.00
-	x = -2
+	x = -3
 	y = 1
 	ai_will_do = {
 		factor = 100
@@ -342,13 +450,63 @@ shared_focus = {
 	}
 }
 
+###########################
+### Overpopulation Tree ###
+###########################
 shared_focus = {
 	id = EQS_one_foal_policy
 	icon = GFX_goal_focus_eqs_start
 	prerequisite = { focus = EQS_internal_affairs }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = -4
+	x = -3
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+### Focus connection is fucked up if this focus is using relative position. For the aesthetics bruh ###
+shared_focus = {
+	id = EQS_prioritize_livingspace
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_one_foal_policy }
+	prerequisite = { focus = EQS_clear_the_south }
+	mutually_exclusive = { focus = EQS_prioritize_farmland }
+	cost = 10.00
+	x = 17
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_southern_homestead_act
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_prioritize_livingspace }
+	relative_position_id = EQS_one_foal_policy
+	cost = 10.00
+	x = -1
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_financial_incentives
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_one_foal_policy }
+	relative_position_id = EQS_one_foal_policy
+	cost = 10.00
+	x = 1
 	y = 1
 	ai_will_do = {
 		factor = 100
@@ -358,12 +516,12 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = EQS_tax_breaks
+	id = EQS_suburban_expansion
 	icon = GFX_goal_focus_eqs_start
-	prerequisite = { focus = EQS_one_foal_policy }
-	relative_position_id = EQS_internal_affairs
+	prerequisite = { focus = EQS_financial_incentives }
+	relative_position_id = EQS_one_foal_policy
 	cost = 10.00
-	x = -5
+	x = 1
 	y = 2
 	ai_will_do = {
 		factor = 100
@@ -373,88 +531,13 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = EQS_southern_homestead
+	id = EQS_push_for_contraceptives
 	icon = GFX_goal_focus_eqs_start
-	prerequisite = { focus = EQS_one_foal_policy }
-	relative_position_id = EQS_internal_affairs
-	cost = 10.00
-	x = -3
-	y = 2
-	ai_will_do = {
-		factor = 100
-	}
-	completion_reward = {
-	}
-}
-
-shared_focus = {
-	id = EQS_clear_the_south
-	icon = GFX_goal_focus_eqs_start
-	prerequisite = { focus = EQS_tax_breaks focus = EQS_southern_homestead }
-	relative_position_id = EQS_internal_affairs
-	cost = 10.00
-	x = -4
-	y = 3
-	ai_will_do = {
-		factor = 100
-	}
-	completion_reward = {
-	}
-}
-
-shared_focus = {
-	id = EQS_suburban_explosion
-	icon = GFX_goal_focus_eqs_start
-	prerequisite = { focus = EQS_clear_the_south }
-	relative_position_id = EQS_internal_affairs
-	cost = 10.00
-	x = -4
-	y = 4
-	ai_will_do = {
-		factor = 100
-	}
-	completion_reward = {
-	}
-}
-
-shared_focus = {
-	id = EQS_encourage_emmigration
-	icon = GFX_goal_focus_eqs_start
-	prerequisite = { focus = EQS_southern_homestead }
-	relative_position_id = EQS_internal_affairs
-	cost = 10.00
-	x = -1
-	y = 3
-	ai_will_do = {
-		factor = 100
-	}
-	completion_reward = {
-	}
-}
-
-shared_focus = {
-	id = EQS_prench_emmigration
-	icon = GFX_goal_focus_eqs_start
-	prerequisite = { focus = EQS_encourage_emmigration }
-	relative_position_id = EQS_internal_affairs
-	cost = 10.00
-	x = -2
-	y = 4
-	ai_will_do = {
-		factor = 100
-	}
-	completion_reward = {
-	}
-}
-
-shared_focus = {
-	id = EQS_independent_pony_emmigration
-	icon = GFX_goal_focus_eqs_start
-	prerequisite = { focus = EQS_encourage_emmigration }
-	relative_position_id = EQS_internal_affairs
+	prerequisite = { focus = EQS_suburban_expansion focus = EQS_southern_homestead_act }
+	relative_position_id = EQS_one_foal_policy
 	cost = 10.00
 	x = 0
-	y = 4
+	y = 3
 	ai_will_do = {
 		factor = 100
 	}
@@ -462,15 +545,16 @@ shared_focus = {
 	}
 }
 
-
-
+####################################
+### Nightmare Moon Starting Tree ###
+####################################
 shared_focus = {
 	id = EQS_meeting_between_sisters
 	icon = GFX_goal_focus_eqs_start
 	prerequisite = { focus = EQS_internal_affairs }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
-	x = 4
+	x = 3
 	y = 1
 	ai_will_do = {
 		factor = 100
@@ -496,7 +580,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = EQS_friendship_forever
+	id = EQS_help_from_celestia
 	icon = GFX_goal_focus_eqs_start
 	prerequisite = { focus = EQS_endure_the_nightmare }
 	relative_position_id = EQS_meeting_between_sisters
@@ -559,7 +643,7 @@ shared_focus = {
 shared_focus = {
 	id = EQS_ban_nightmare_worship
 	icon = GFX_goal_focus_eqs_start
-	prerequisite = { focus = EQS_friendship_forever }
+	prerequisite = { focus = EQS_help_from_celestia }
 	prerequisite = { focus = EQS_dealing_with_cultists }
 	relative_position_id = EQS_meeting_between_sisters
 	cost = 10.00
@@ -611,6 +695,261 @@ shared_focus = {
 	cost = 10.00
 	x = 1
 	y = 4
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+##########################
+### Diplomatic Focuses ###
+##########################
+
+shared_focus = {
+	id = EQS_diplomatic_initiative
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_friendship_games }
+	relative_position_id = EQS_friendship_games
+	cost = 10.00
+	x = 8
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+##########################
+### Ercenbrand Focuses ###
+##########################
+shared_focus = {
+	id = EQS_ercenbrand_issue
+	icon = GFX_goal_focus_eqs_start
+	available = { has_completed_focus = EQS_diplomatic_initiative }
+	relative_position_id = EQS_diplomatic_initiative
+	cost = 10.00
+	x = -2
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_recall_embassy
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_ercenbrand_issue }
+	mutually_exclusive = { focus = EQS_send_elements }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = -1
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_send_elements
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_ercenbrand_issue }
+	mutually_exclusive = { focus = EQS_recall_embassy }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = 1
+	y = 1
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_support_free_ponies
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_send_elements focus = EQS_recall_embassy }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = 0
+	y = 2
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_material_support
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_recall_embassy }
+	prerequisite = { focus = EQS_support_free_ponies }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = -2
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_diplomatic_aggression
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_material_support }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = -2
+	y = 4
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_guarantee_fetland
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_diplomatic_aggression }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = -3
+	y = 5
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_guarantee_felland
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_diplomatic_aggression }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = -1
+	y = 5
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_war_with_ercenbrand
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_guarantee_felland }
+	prerequisite = { focus = EQS_guarantee_fetland }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = -2
+	y = 6
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_visit_marenaven
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_send_elements }
+	prerequisite = { focus = EQS_support_free_ponies }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = 2
+	y = 3
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_talk_with_the_chancellor
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_visit_marenaven }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = 2
+	y = 4
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_concede_the_south
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_talk_with_the_chancellor }
+	mutually_exclusive = { focus = EQS_listen_to_luna }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = 1
+	y = 5
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_listen_to_luna
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_talk_with_the_chancellor }
+	mutually_exclusive = { focus = EQS_concede_the_south }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = 3
+	y = 5
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_pushed_too_far
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_listen_to_luna }
+	prerequisite = { focus = EQS_concede_the_south }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = 2
+	y = 6
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = EQS_no_longer_a_threat
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_pushed_too_far focus = EQS_war_with_ercenbrand }
+	relative_position_id = EQS_ercenbrand_issue
+	cost = 10.00
+	x = 0
+	y = 7
 	ai_will_do = {
 		factor = 100
 	}
