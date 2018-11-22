@@ -1,7 +1,5 @@
 technologies = {
 	terminal_parallelization = {
-		research_time_factor = -0.05
-		
 		path = {
 			leads_to_tech = transistors 
 			research_cost_coeff = 1
@@ -27,16 +25,6 @@ technologies = {
 	}
 	
 	laser = {
-		category_light_infantry = {
-			soft_attack = 0.04
-		}
-		motorized = {
-			soft_attack = 0.04
-		}
-		mechanized = {
-			soft_attack = 0.04
-		}
-		
 		research_cost = 1
 		start_year = 2033
 		folder = {
@@ -50,8 +38,6 @@ technologies = {
 	}
 	
 	lcd = {
-		industrial_capacity_factory = 0.05
-		
 		research_cost = 1
 		start_year = 2033
 		folder = {
@@ -65,8 +51,6 @@ technologies = {
 	}
 	
 	transistors = {
-		research_time_factor = -0.05
-		
 		path = {
 			leads_to_tech = hard_drive 
 			research_cost_coeff = 1
@@ -88,8 +72,6 @@ technologies = {
 	}
 	
 	hard_drive = {
-		research_time_factor = -0.02
-		
 		path = {
 			leads_to_tech = integrated_circuit 
 			research_cost_coeff = 1
@@ -115,8 +97,6 @@ technologies = {
 	}
 	
 	frequency_modulation = {
-		encryption = 1
-		
 		path = {
 			leads_to_tech = mini_encryption_modules 
 			research_cost_coeff = 1
@@ -134,8 +114,6 @@ technologies = {
 	}
 	
 	database = {
-		decryption = 1
-		
 		path = {
 			leads_to_tech = kh_clocked_computers 
 			research_cost_coeff = 1
@@ -153,10 +131,6 @@ technologies = {
 	}
 	
 	integrated_circuit = {
-		research_time_factor = -0.10
-		production_factory_max_efficiency_factor = 0.10
-		production_factory_efficiency_gain_factor = 0.10
-		
 		path = {
 			leads_to_tech = comm_sattelite 
 			research_cost_coeff = 1
@@ -174,17 +148,6 @@ technologies = {
 	}
 	
 	comm_sattelite = {
-		category_light_infantry = {
-			recon = 2
-		}
-		motorized = {
-			recon = 2
-		}
-		mechanized = {
-			recon = 2
-		}
-		
-		
 		research_cost = 1
 		start_year = 2035
 		folder = {
@@ -198,7 +161,6 @@ technologies = {
 	}
 	
 	mini_encryption_modules = {
-		encryption = 1
 		path = {
 			leads_to_tech = modem 
 			research_cost_coeff = 1
@@ -216,7 +178,6 @@ technologies = {
 	}
 	
 	kh_clocked_computers = {
-		decryption = 1
 		path = {
 			leads_to_tech = kh_clocked_computers2 
 			research_cost_coeff = 1
@@ -234,7 +195,6 @@ technologies = {
 	}
 	
 	modem = {
-		encryption = 1
 		path = {
 			leads_to_tech = ethernet 
 			research_cost_coeff = 1
@@ -252,7 +212,6 @@ technologies = {
 	}
 	
 	kh_clocked_computers2 = {
-		decryption = 1
 		path = {
 			leads_to_tech = kh_clocked_computers3 
 			research_cost_coeff = 1
@@ -274,8 +233,6 @@ technologies = {
 	}
 	
 	ram = {
-		research_time_factor = -0.05
-		
 		path = {
 			leads_to_tech = cpu 
 			research_cost_coeff = 1
@@ -293,8 +250,6 @@ technologies = {
 	}
 	
 	cpu = {
-		research_time_factor = -0.05
-		
 		path = {
 			leads_to_tech = floppy_8 
 			research_cost_coeff = 1
@@ -312,9 +267,6 @@ technologies = {
 	}
 	
 	floppy_8 = {
-		research_time_factor = -0.05
-		consumer_goods_factor = -0.02
-		
 		path = {
 			leads_to_tech = floppy_5 
 			research_cost_coeff = 1
@@ -332,9 +284,6 @@ technologies = {
 	}
 	
 	floppy_5 = {
-		research_time_factor = -0.05
-		consumer_goods_factor = -0.02
-		
 		research_cost = 1
 		start_year = 2035
 		folder = {
@@ -348,7 +297,6 @@ technologies = {
 	}
 	
 	ethernet = {
-		encryption = 1
 		path = {
 			leads_to_tech = tcp_ip 
 			research_cost_coeff = 1
@@ -369,7 +317,6 @@ technologies = {
 	}
 	
 	kh_clocked_computers3 = {
-		decryption = 1
 		path = {
 			leads_to_tech = kh_clocked_computers4 
 			research_cost_coeff = 1
@@ -390,7 +337,6 @@ technologies = {
 	}
 	
 	tcp_ip = {
-		encryption = 1
 		path = {
 			leads_to_tech = onboard_computers 
 			research_cost_coeff = 1
@@ -411,7 +357,6 @@ technologies = {
 	}
 	
 	kh_clocked_computers4 = {
-		decryption = 1
 		path = {
 			leads_to_tech = kh_clocked_computers5 
 			research_cost_coeff = 1
@@ -436,9 +381,6 @@ technologies = {
 	}
 	
 	personal_computer = {
-		research_time_factor = -0.05
-		industrial_capacity_factory = 0.05
-		
 		path = {
 			leads_to_tech = gps 
 			research_cost_coeff = 1
@@ -456,7 +398,6 @@ technologies = {
 	}
 	
 	onboard_computers = {
-		encryption = 1
 		path = {
 			leads_to_tech = laptop 
 			research_cost_coeff = 1
@@ -474,7 +415,6 @@ technologies = {
 	}
 	
 	kh_clocked_computers5 = {
-		decryption = 1
 		path = {
 			leads_to_tech = mh_clocked_computers 
 			research_cost_coeff = 1
@@ -539,7 +479,6 @@ technologies = {
 	}
 	
 	laptop = {
-		encryption = 1
 		path = {
 			leads_to_tech = html 
 			research_cost_coeff = 1
@@ -560,7 +499,6 @@ technologies = {
 	}
 	
 	mh_clocked_computers = {
-		decryption = 1
 		path = {
 			leads_to_tech = html 
 			research_cost_coeff = 1
@@ -640,8 +578,6 @@ technologies = {
 	}
 	
 	network_cable_laptop = {
-		encryption = 1
-		
 		path = {
 			leads_to_tech = world_wide_web 
 			research_cost_coeff = 1
@@ -659,8 +595,6 @@ technologies = {
 	}
 	
 	mh_clocked_computers2 = {
-		decryption = 1
-		
 		path = {
 			leads_to_tech = world_wide_web 
 			research_cost_coeff = 1
@@ -703,8 +637,6 @@ technologies = {
 	}
 	
 	advanced_server_protocols = {
-		encryption = 1
-				
 		research_cost = 1
 		start_year = 2035
 		folder = {
@@ -718,52 +650,11 @@ technologies = {
 	}
 	
 	gh_clocked_computers = {
-		decryption = 1
-		
 		research_cost = 1
 		start_year = 2035
 		folder = {
 			name = civilian_folder
 			position = { x = 4 y = 41 }
-		}
-		ai_will_do = {
-			factor = 30
-		}
-		categories = { electronics }
-	}
-	
-	
-	led = {
-		field_hospital = {
-			casualty_trickleback = 0.1
-			experience_loss_factor = -0.10
-		}
-		
-		path = {
-			leads_to_tech = electronic_calculator 
-			research_cost_coeff = 1
-		}
-		research_cost = 1
-		start_year = 2035
-		folder = {
-			name = civilian_folder
-			position = { x = 6 y = 8 }
-		}
-		ai_will_do = {
-			factor = 30
-		}
-		categories = { electronics }
-	}
-	
-	electronic_calculator = {
-		research_time_factor = -0.02
-		industrial_capacity_factory = 0.04
-		
-		research_cost = 1
-		start_year = 2035
-		folder = {
-			name = civilian_folder
-			position = { x = 6 y = 10 }
 		}
 		ai_will_do = {
 			factor = 30
