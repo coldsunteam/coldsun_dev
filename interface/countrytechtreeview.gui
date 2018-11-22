@@ -365,7 +365,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "electronics_year1"
-					position = { x = 2500 y = 190 }
+					position = { x = 2550 y = 190 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -378,7 +378,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year2"
-					position = { x = 2500 y = 310 }
+					position = { x = 2550 y = 310 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -391,7 +391,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year3"
-					position = { x = 2500 y = 430 }
+					position = { x = 2550 y = 430 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -404,7 +404,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year4"
-					position = { x = 2500 y = 550 }
+					position = { x = 2550 y = 550 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -417,7 +417,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year5"
-					position = { x = 2500 y = 670 }
+					position = { x = 2550 y = 670 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -430,7 +430,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year6"
-					position = { x = 2500 y = 790 }
+					position = { x = 2550 y = 790 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -443,7 +443,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year7"
-					position = { x = 2500 y = 910 }
+					position = { x = 2550 y = 910 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -456,7 +456,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year8"
-					position = { x = 2500 y = 1030 }
+					position = { x = 2550 y = 1030 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -469,7 +469,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year9"
-					position = { x = 2500 y = 1150 }
+					position = { x = 2550 y = 1150 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -482,7 +482,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year10"
-					position = { x = 2500 y = 1270 }
+					position = { x = 2550 y = 1270 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -495,7 +495,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year11"
-					position = { x = 2500 y = 1440 }
+					position = { x = 2550 y = 1440 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -508,7 +508,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year12"
-					position = { x = 2500 y = 1740 }
+					position = { x = 2550 y = 1740 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -521,7 +521,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year13"
-					position = { x = 2500 y = 1870 }
+					position = { x = 2550 y = 1870 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -534,7 +534,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year14"
-					position = { x = 2500 y = 2100 }
+					position = { x = 2550 y = 2100 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
@@ -547,7 +547,7 @@ guiTypes = {
 				
 				instantTextBoxType = {
 					name = "electronics_year15"
-					position = { x = 2500 y = 2540 }
+					position = { x = 2550 y = 2540 }
 					textureFile = ""
 					font = "hoi_36header"
 					borderSize = { x = 0 y = 0}
