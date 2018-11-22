@@ -14,6 +14,14 @@ spriteTypes = {
 		name = "GFX_goal_focus_grade"
 		texturefile = "gfx/interface/goals/focus_grade.dds"
 	}
+	spriteType = {
+		name = "GFX_goal_focus_food"
+		texturefile = "gfx/interface/goals/focus_food.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_education"
+		texturefile = "gfx/interface/goals/focus_education.dds"
+	}
 	
 	### Prance Stuff
 	
@@ -43,5 +51,37 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_goal_focus_eqs_friendship"
 		texturefile = "gfx/interface/goals/focus_eqs_friendship.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_confront"
+		texturefile = "gfx/interface/goals/focus_eqs_confront.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_dealing_with_cultists"
+		texturefile = "gfx/interface/goals/focus_eqs_dealing_with_cultists.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_gather_supporters"
+		texturefile = "gfx/interface/goals/focus_eqs_gather_supporters.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_hunt"
+		texturefile = "gfx/interface/goals/focus_eqs_hunt.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_join_cultists"
+		texturefile = "gfx/interface/goals/focus_eqs_join_cultists.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_nightmare"
+		texturefile = "gfx/interface/goals/focus_eqs_nightmare.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_behind_celestia"
+		texturefile = "gfx/interface/goals/focus_eqs_behind_celestia.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_celestia"
+		texturefile = "gfx/interface/goals/focus_eqs_celestia.dds"
 	}
 }
