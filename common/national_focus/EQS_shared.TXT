@@ -702,6 +702,21 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = EQS_final_focus
+	icon = GFX_goal_focus_eqs_start
+	prerequisite = { focus = EQS_gather_supporters focus = EQS_hunt_down_cultists }
+	relative_position_id = EQS_meeting_between_sisters
+	cost = 10.00
+	x = 0
+	y = 5
+	ai_will_do = {
+		factor = 100
+	}
+	completion_reward = {
+	}
+}
+
 ##########################
 ### Diplomatic Focuses ###
 ##########################

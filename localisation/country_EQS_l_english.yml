@@ -29,3 +29,196 @@ element_of_honesty:0 "Element of Honesty"
 element_of_kindness:0 "Element of Kindness"
 element_of_laughter:0 "Element of Laughter"
 
+###############
+### Focuses ###
+###############
+
+EQS_industrial_overview:0 "Industrial Overview"
+EQS_industrial_overview_desc:0 ""
+
+### Northwest ###
+EQS_develop_nw:0 "Develop the Northwest"
+EQS_develop_nw_desc:0 ""
+
+EQS_baltimare_automobiles:0 "Baltimare Automobile Factories"
+EQS_baltimare_automobiles_desc:0 ""
+
+EQS_trottingham_shipyards:0 "Trottingham Shipyards"
+EQS_trottingham_shipyards_desc:0 ""
+
+EQS_sionia_motorized_concern:0 "Sionia Motorized Concern"
+EQS_sionia_motorized_concern_desc:0 ""
+
+EQS_mine_vine_peaks:0 "Mine the Vine Peaks"
+EQS_mine_vine_peaks_desc:0 ""
+
+EQS_fund_naval_research:0 "Fund Naval Research"
+EQS_fund_naval_research_desc:0 ""
+
+EQS_develop_sionia:0 "Develop Sionia"
+EQS_develop_sionia_desc:0 ""
+
+EQS_world_trade:0 "World Trade"
+EQS_world_trade_desc:0 ""
+
+### Northeast ###
+EQS_develop_ne:0 "Develop the Northeast"
+EQS_develop_ne_desc:0 ""
+
+EQS_develop_infrastructure:0 "Develop Infrastructure"
+EQS_develop_infrastructure_desc:0 ""
+
+EQS_tromare_tractor_factories:0 "Tromare Tractor Factories"
+EQS_tromare_tractor_factories_desc:0 ""
+
+EQS_freefort_rifle_company:0 "Freefort Rifle Company"
+EQS_freefort_rifle_company_desc:0 ""
+
+EQS_free_tractors:0 "Free Tractors!?"
+EQS_free_tractors_desc:0 ""
+
+EQS_rural_education_program:0 "Rural Education Program"
+EQS_rural_education_program_desc:0 ""
+
+EQS_reach_out_to_farmers:0 "Reach out to Farmers"
+EQS_reach_out_to_farmers_desc:0 ""
+
+EQS_agricultural_advancements:0 "Agricultural Advancements"
+EQS_agricultural_advancements_desc:0 ""
+
+EQS_construction_initiative:0 "Construction Initiative"
+EQS_construction_initiative_desc:0 ""
+
+### South ###
+EQS_develop_south:0 "Develop the South"
+EQS_develop_south_desc:0 ""
+
+EQS_hoofston_oil:0 "Hoofston Oil Company"
+EQS_hoofston_oil_desc:0 ""
+
+EQS_synth_oil_research:0 "Synthetic Oil Research"
+EQS_synth_oil_research_desc:0 ""
+
+EQS_clear_the_south:0 "Clear the South"
+EQS_clear_the_south_desc:0 ""
+
+EQS_prioritize_farmland:0 "Prioritize Farmland"
+EQS_prioritize_farmland_desc:0 ""
+
+EQS_land_grants:0 "Land Grants"
+EQS_land_grants_desc:0 ""
+
+##################
+### Big Issues ###
+##################
+EQS_friendship_games:0 "The Friendship Games"
+EQS_friendship_games_desc:0 ""
+
+EQS_internal_affairs:0 "Internal Affairs"
+EQS_internal_affairs_desc:0 ""
+
+### Overpopulation ###
+EQS_one_foal_policy:0 "One Foal Policy"
+EQS_one_foal_policy_desc:0 ""
+
+EQS_prioritize_livingspace:0 "Prioritize Livingspace"
+EQS_prioritize_livingspace_desc:0 ""
+
+EQS_southern_homestead_act:0 "Southern Homestead Act"
+EQS_southern_homestead_act_desc:0 ""
+
+EQS_financial_incentives:0 "Financial Incentives"
+EQS_financial_incentives_desc:0 ""
+
+EQS_suburban_expansion:0 "Suburban Expansion"
+EQS_suburban_expansion_desc:0 ""
+
+EQS_push_for_contraceptives:0 "Push for Contraceptives"
+EQS_push_for_contraceptives_desc:0 ""
+
+### Nightmare Woona ###
+EQS_meeting_between_sisters:0 "A Meeting Between Sisters"
+EQS_meeting_between_sisters_desc:0 ""
+
+EQS_confront_the_nightmare:0 "Confront the Nightmare"
+EQS_confront_the_nightmare_desc:0 ""
+
+EQS_help_from_celestia:0 "Help from Celestia"
+EQS_help_from_celestia_desc:0 ""
+
+EQS_endure_the_nightmare:0 "Endure the Nightmare"
+EQS_endure_the_nightmare_desc:0 ""
+
+EQS_behind_celestias_back:0 "Behind Celestia's Back"
+EQS_behind_celestias_back_desc:0 ""
+
+EQS_dealing_with_cultists:0 "Dealing with the Cultists"
+EQS_dealing_with_cultists_desc:0 ""
+
+EQS_ban_nightmare_worship:0 "Ban Nightmare Worship"
+EQS_ban_nightmare_worship_desc:0 ""
+
+EQS_hunt_down_cultists:0 "Hunt Down Cultists"
+EQS_hunt_down_cultists_desc:0 ""
+
+EQS_join_cultists:0 "Join the Cultists"
+EQS_join_cultists_desc:0 ""
+
+EQS_gather_supporters:0 "Gather Supporters"
+EQS_gather_supporters_desc:0 ""
+
+EQS_final_focus:0 "Sisters Forever"
+EQS_final_focus_desc:0 ""
+
+#####################
+### Diplo Focuses ###
+#####################
+
+EQS_diplomatic_initiative:0 "Diplomatic Initiative"
+EQS_diplomatic_initiative_desc:0 ""
+
+### Ercenbrand ###
+EQS_ercenbrand_issue:0 "The Ercenbrand Issue"
+EQS_ercenbrand_issue_desc:0 ""
+
+EQS_recall_embassy:0 "Recall the Embassy"
+EQS_recall_embassy_desc:0 ""
+
+EQS_send_elements:0 "Send in the Elements"
+EQS_send_elements_desc:0 ""
+
+EQS_support_free_ponies:0 "Support the Free Ponies"
+EQS_support_free_ponies_desc:0 ""
+
+EQS_material_support:0 "Material Support"
+EQS_material_support_desc:0 ""
+
+EQS_diplomatic_aggression:0 "Diplomatic Aggression"
+EQS_diplomatic_aggression_desc:0 ""
+
+EQS_guarantee_fetland:0 "Guarantee Fetland"
+EQS_guarantee_fetland_desc:0 ""
+
+EQS_guarantee_felland:0 "Guarantee Felland"
+EQS_guarantee_felland_desc:0 ""
+
+EQS_war_with_ercenbrand:0 "War with Ercenbrand"
+EQS_war_with_ercenbrand_desc:0 ""
+
+EQS_visit_marenaven:0 "Visit Marenaven"
+EQS_visit_marenaven_desc:0 ""
+
+EQS_talk_with_the_chancellor:0 "Talk with the Chancellor"
+EQS_talk_with_the_chancellor_desc:0 ""
+
+EQS_concede_the_south:0 "Concede the South"
+EQS_concede_the_south_desc:0 ""
+
+EQS_listen_to_luna:0 "Listen to Luna"
+EQS_listen_to_luna_desc:0 ""
+
+EQS_pushed_too_far:0 "Pushed too Far"
+EQS_pushed_too_far_desc:0 ""
+
+EQS_no_longer_a_threat:0 "No Longer a Threat"
+EQS_no_longer_a_threat_desc:0 ""
