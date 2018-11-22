@@ -1,4 +1,13 @@
 ﻿l_english: 
+#### Cosmetic tag ###
+EQA_RESISTANCE_democratic:0 "Prench Resistance"
+EQA_RESISTANCE_democratic_DEF:0 "the Resistance"
+EQA_RESISTANCE_fascism:0 "Prench Underground Movement"
+EQA_RESISTANCE_fascism_DEF:0 "the Prench Underground Movement"
+EQA_RESISTANCE_communism:0 "Prench Communist Movement"
+EQA_RESISTANCE_communism_DEF:0 "the Prench Communist Movement"
+EQA_RESISTANCE_neutrality:0 "Prench Resistance"
+EQA_RESISTANCE_neutrality_DEF:0 "the Resistance"
 ########## focus localisation ######
 EQA_motorizedresearch:0 "Motorized Research"
 EQA_motorizedresearch_desc:0 ""
@@ -322,6 +331,9 @@ prance.1.b:0 "Explain Prance's situation to me."
 prance.2.t:0 "The Prench Dilemma"
 prance.2.d:0 "The Prench Army is in majority made of officers with ties to the nobility, and are unsurprisingly mostly incompetent, and very few competent officers occupy these ranks.\n\nDespite this, some officers still look beyond that and has in mind even more ambitious projects, including an overthrow of the King and the establishment of a Military Junta or Dictatorship.\n\nPrance also stands in the middle of two, even three major powers, and must choose a side to be able to survive the inevitable onslaught, and the most obvious options that the King and Nobility are routing for is staying alongside Equestria, whom Prance shares a long history with.\n\nThough some more optimistic ponies in the government have opted to become a neutral, buffer zone between these three nations."
 prance.2.a:0 "May Prance last for eternity."
+prance.4500.t:0 "La Flamme de la Résistance"
+prance.4500.d:0 "\"My fellow Prench camarades, the leaders and generals of Prance has evacuated the Capital, and has left what remains of the Prench forces behind, along with their citizens. It has claimed that the army was defeated, and retreated back behind Equestrian lines for their own safety.\n\nBut what about us? What twisted fate does the Ercenbrander has for us? Whatever it may be, we will not stand idly, waiting for our inevitable doom! Because has the last word been said? Should we give up hope? Is the defeat definitive? No! Nothing is lost for Prance, while they are fighting in the front, we must strike at their backs!\n\nIt's because Prance is not alone! This war is not limited to the unfortunate territory of our own country! This war will definitely not be decided by the battle of Prance. This is a world war. All the errors, all the delays, all the suffering cannot change the fact that there are, in this universe, all the means necessary to one day crush our enemies.\n\nI, Vaillante Mercure, call upon all the remaining Prench officers and soldiers, with or without their weapons, to rise up against the invaders! Upon all the engineers and workers, to contact our brave warriors and design, manufacture new weapons for them!\n\nWhatever happens, the flame of Prench Resistance must not be extinguished and will not be extinguished!\""
+prance.4500.a:0 "The Libération starts today."
 ### ideas #####
 EQA_industrial_buildup:0 "Industrial Build-Up"
 EQA_defensive_posture:0 "Defensive Posture"
@@ -364,3 +376,4 @@ EQA_marine:0 "Marine Nationale"
 2_EQA_tt:0 "You will reclaim §Mhistorical Prench holdings§!, but §Rgoing beyond that would be harder§!."
 3_EQA_tt:0 "The formation of §MGendarmerie Brigades§! will ensue."
 4_EQA_tt:0 "You will retrieve civilian ships and repurpose them into vessels for the navy."
+5_EQA_tt:0 "You will become the Prench Resistance."
