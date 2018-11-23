@@ -84,4 +84,16 @@ spriteTypes = {
 		name = "GFX_goal_focus_eqs_celestia"
 		texturefile = "gfx/interface/goals/focus_eqs_celestia.dds"
 	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_meeting"
+		texturefile = "gfx/interface/goals/focus_eqs_meeting.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_ban_worship"
+		texturefile = "gfx/interface/goals/focus_eqs_ban_worship.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqs_become_nightmarewoona"
+		texturefile = "gfx/interface/goals/focus_eqs_become_nightmarewoona.dds"
+	}
 }
