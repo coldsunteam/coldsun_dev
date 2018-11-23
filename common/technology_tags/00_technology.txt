@@ -3,8 +3,12 @@
 
 technology_categories = {
 	infantry_weapons
+	infantry_tech
+	cat_mechanized_equipment
+	mot_rockets
 	magical_weapons
 	artillery
+	cat_anti_tank
 	support_tech
 	engineers_tech
 	recon_tech

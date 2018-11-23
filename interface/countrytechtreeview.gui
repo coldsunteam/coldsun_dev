@@ -78,16 +78,23 @@ guiTypes = {
 			}
 			gridboxtype = {
 				name = "infantry_weapons_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 140 y = 172 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}
 			gridboxtype = {
 				name = "tech_support_tree"
-				position = { x = 140 y = 325 }
+				position = { x = 140 y = 172 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}	
+			
+			gridboxtype = {
+				name = "gw_artillery_tree"
+				position = { x = 140 y = 100 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
 		}
 
 		containerWindowType = {
@@ -136,6 +143,13 @@ guiTypes = {
 			
 			gridboxtype = {
 				name = "heavy_tank_tree"
+				position = { x = 140 y = 325 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			
+			gridboxtype = {
+				name = "motorised_infantry_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
