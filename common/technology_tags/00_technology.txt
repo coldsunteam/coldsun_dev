@@ -3,8 +3,12 @@
 
 technology_categories = {
 	infantry_weapons
+	infantry_tech
+	cat_mechanized_equipment
+	mot_rockets
 	magical_weapons
 	artillery
+	cat_anti_tank
 	support_tech
 	engineers_tech
 	recon_tech
@@ -17,10 +21,50 @@ technology_categories = {
 	rocket_artillery
 	tanks
 	land_doctrine
+	cat_mobile_warfare
+	cat_superior_firepower
+	cat_grand_battle_plan
+	cat_mass_assault
 	air_planes
+	light_air
+	light_fighter
+	naval_air
+	jet_technology
+	cas_bomber
+	naval_bomber
+	tactical_bomber
+	cat_heavy_fighter
+	cat_strategic_bomber
+	heavy_air
+	air_equipment
 	air_doctrine
+	medium_air
+	strategic_destruction_tree
+	cat_strategic_destruction
+	battlefield_support_tree
+	cat_battlefield_support
+	operational_integrity_tree
+	cat_operational_integrity
 	navy
+	naval_equipment
+	dd_tech
+	cl_tech
+	ca_tech
+	bc_tech
+	bb_tech
+	shbb_tech
+	tp_tech
+	cv_tech
+	ss_tech
 	naval_doctrine
+	fleet_in_being_tree
+	cat_fleet_in_being
+	convoy_defense_tree
+	submarine_doctrine
+	trade_interdiction_tree
+	cat_trade_interdiction
+	base_strike_main
+	cat_base_strike
 	civilian
 	construction_tech
 	excavation_tech
