@@ -1,0 +1,106 @@
+﻿add_namespace = equestria
+
+country_event = {  ### Industrial Overview event
+	id = equestria.1
+	title = equestria.1.t
+	desc = equestria.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### Focus on the Northwest
+		name = equestria.1.a
+		
+		set_country_flag = EQS_F_northwest
+		country_event = {
+			id = equestria.2
+		}
+	}
+	
+	option = { ### Focus on the Northeast
+		name = equestria.1.b
+		
+		set_country_flag = EQS_F_northeast
+		country_event = {
+			id = equestria.2
+		}
+	}
+	
+	option = { ### Focus on the South
+		name = equestria.1.c
+		
+		set_country_flag = EQS_F_south
+		country_event = {
+			id = equestria.2
+		}
+	}
+}
+
+country_event = {  ### Industrial Overview event 2
+	id = equestria.2
+	title = equestria.2.t
+	desc = equestria.2.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### Focus on the Northwest
+		name = equestria.2.a
+		trigger = {
+			NOT = {
+				has_country_flag = EQS_F_northwest
+			}
+		}
+		
+		if = {
+			limit = {
+				OR = {
+					has_country_flag = EQS_F_northeast
+					has_country_flag = EQS_F_south
+				}
+			}
+			
+			set_country_flag = EQS_F_northwest2
+		}
+	}
+	
+	option = { ### Focus on the Northeast
+		name = equestria.2.b
+		trigger = {
+			NOT = {
+				has_country_flag = EQS_F_northeast
+			}
+		}
+		
+		if = {
+			limit = {
+				OR = {
+					has_country_flag = EQS_F_northwest
+					has_country_flag = EQS_F_south
+				}
+			}
+			
+			set_country_flag = EQS_F_northeast2
+		}
+		
+		
+	}
+	
+	option = { ### Focus on the South
+		name = equestria.2.c
+		trigger = {
+			NOT = {
+				has_country_flag = EQS_F_south
+			}
+		}
+		if = {
+			limit = {
+				OR = {
+					has_country_flag = EQS_F_northwest
+					has_country_flag = EQS_F_northeast
+				}
+			}
+			set_country_flag = EQS_F_south2
+		}
+	}
+}

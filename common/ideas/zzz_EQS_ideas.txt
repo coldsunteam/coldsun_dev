@@ -50,6 +50,134 @@ ideas = {
 				stability_factor = -0.10
 			}
 		}
+		
+		
+		EQS_trade = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				trade_opinion_factor = 0.10
+				political_power_gain = 0.10
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		EQS_trade2 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				trade_opinion_factor = 0.15
+				political_power_gain = 0.15
+				consumer_goods_factor = -0.10
+			}
+		}
+		
+		EQS_trade3 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				trade_opinion_factor = 0.20
+				political_power_gain = 0.20
+				consumer_goods_factor = -0.15
+				stability_factor = 0.10
+			}
+		}
+		
+		EQS_tractors = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				political_power_gain = 0.20
+				stability_factor = 0.10
+				consumer_goods_factor = 0.05
+			}
+		}
+		EQS_tractors2 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				political_power_gain = 0.15
+				stability_factor = 0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+		EQS_tractors3 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				political_power_gain = 0.10
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		
+		EQS_education = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				research_time_factor = -0.15
+			}
+		}
+		EQS_education2 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				research_time_factor = -0.10
+			}
+		}
+		EQS_education3 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				research_time_factor = -0.05
+			}
+		}
+		
+		EQS_construction_initiative = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				production_speed_buildings_factor = 0.20
+			}
+		}
+		EQS_construction_initiative2 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				production_speed_buildings_factor = 0.15
+			}
+		}
+		EQS_construction_initiative3 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				production_speed_buildings_factor = 0.10
+			}
+		}
 	}
 	
 	political_advisor = {
@@ -96,5 +224,24 @@ ideas = {
 	
 	navy_chief = {
 	
+	}
+	
+	materiel_manufacturer = {
+		sionia_motorized_company = {
+			allowed = {
+				original_tag = EQS
+			}
+			available = {
+				has_completed_focus = EQS_sionia_motorized_concern
+			}
+			research_bonus = {
+				motorized_equipment = 0.15
+				mot_rockets = 0.50
+			}
+			traits = { motorized_equipment_manufacturer }
+
+			modifier = {
+			}
+		}
 	}
 }
