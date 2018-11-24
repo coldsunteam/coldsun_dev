@@ -1,0 +1,19 @@
+spriteTypes = {	
+	
+	### Equestria ###
+	spriteType = {
+		name = "GFX_cat_picture_luna"
+		texturefile = "gfx/interface/decisions/cat_picture_luna.dds"
+	}
+	
+	spriteType = {
+		name = "cat_picture_nightmare_moon"
+		texturefile = "gfx/interface/decisions/cat_picture_nightmare_moon.dds"
+	}
+	
+	
+	spriteType = {
+		name = "cat_icon_luna"
+		texturefile = "gfx/interface/decisions/cat_icon_luna.dds"
+	}
+}

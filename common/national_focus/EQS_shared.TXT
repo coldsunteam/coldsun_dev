@@ -1852,6 +1852,11 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		add_to_variable = {
+			var = luna_anger
+			val = 5
+		}
+		
 		country_event = {
 			id = equestria.7
 		}
@@ -1944,6 +1949,11 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		add_to_variable = {
+			var = luna_anger
+			val = 5
+		}
+		
 		country_event = {
 			id = equestria.10
 		}
@@ -2048,6 +2058,10 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		add_to_variable = {
+			var = luna_anger
+			val = 10
+		}
 	}
 }
 
@@ -2187,6 +2201,10 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		add_to_variable = {
+			var = luna_anger
+			val = 5
+		}
 	}
 }
 

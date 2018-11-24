@@ -323,4 +323,13 @@ country_event = {  ### Luna's pissed and she just turned into the nightmare
 			val = 10
 		}
 	}
+	
+	option = { ### 
+		name = equestrialunastuff.1.b
+		
+		add_to_variable = {
+			var = luna_anger 
+			val = -10
+		}
+	}
 }

@@ -1,10 +1,16 @@
 cat_anger = {
-	icon = generic_propaganda
+	icon = cat_icon_luna
 
+	picture = GFX_cat_picture_luna
+	
 	visible = {
 		check_variable = {
 			var = luna_anger
 			val > 1
+		}
+		check_variable = {
+			var = luna_anger
+			val < 60
 		}
 	}
 	
@@ -12,3 +18,21 @@ cat_anger = {
 		base = 200
 	}
 }
+
+cat_anger2 = {
+	icon = cat_icon_luna
+
+	picture = cat_picture_nightmare_moon
+	
+	visible = {
+		check_variable = {
+			var = luna_anger
+			val > 59
+		}
+	}
+	
+	priority = {
+		base = 200
+	}
+}
+

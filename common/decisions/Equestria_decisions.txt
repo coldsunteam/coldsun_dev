@@ -7,12 +7,48 @@ cat_anger = {
 				var = luna_anger
 				val > 1
 			}
+			check_variable = {
+				var = luna_anger
+				val < 60
+			}
 		}
 		visible = {
 			tag = EQS
 			check_variable = {
 				var = luna_anger
 				val > 1
+			}
+			check_variable = {
+				var = luna_anger
+				val < 60
+			}
+		}
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
+
+cat_anger2 = {
+	anger_meter2 = {
+		icon = generic_industry
+		available = {
+			tag = EQS
+			check_variable = {
+				var = luna_anger
+				val > 59
+			}
+		}
+		visible = {
+			tag = EQS
+			check_variable = {
+				var = luna_anger
+				val > 59
 			}
 		}
 
