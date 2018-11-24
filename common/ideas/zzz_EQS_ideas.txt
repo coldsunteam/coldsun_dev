@@ -30,17 +30,6 @@ ideas = {
 			}
 		}
 		
-		EQS_overpopulation = {
-			allowed = { always = no }
-			removal_cost = -1
-			picture = prc_low_popular_support3
-
-			modifier = {
-				MONTHLY_POPULATION = 2.5
-				consumer_goods_factor = 0.20
-			}
-		}
-		
 		EQS_nightmare_cultists = {
 			allowed = { always = no }
 			removal_cost = -1
@@ -176,6 +165,110 @@ ideas = {
 
 			modifier = {
 				production_speed_buildings_factor = 0.10
+			}
+		}
+		
+		
+		
+		
+		EQS_overpopulation = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 2.5
+				consumer_goods_factor = 0.25
+			}
+		}
+		EQS_overpopulation2 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 2.4
+				consumer_goods_factor = 0.22
+			}
+		}
+		EQS_overpopulation3 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 2.3
+				consumer_goods_factor = 0.20
+			}
+		}
+		EQS_overpopulation4 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 2.2
+				consumer_goods_factor = 0.18
+			}
+		}
+		EQS_overpopulation5 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 2.1
+				consumer_goods_factor = 0.16
+			}
+		}
+		EQS_overpopulation6 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 2.0
+				consumer_goods_factor = 0.14
+			}
+		}
+		EQS_overpopulation7 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 1.9
+				consumer_goods_factor = 0.12
+			}
+		}
+		EQS_overpopulation8 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 1.8
+				consumer_goods_factor = 0.10
+			}
+		}
+		EQS_overpopulation9 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 1.7
+				consumer_goods_factor = 0.08
+			}
+		}
+		EQS_overpopulation10 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 1.6
+				consumer_goods_factor = 0.06
 			}
 		}
 	}

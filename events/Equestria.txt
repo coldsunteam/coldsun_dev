@@ -104,3 +104,192 @@ country_event = {  ### Industrial Overview event 2
 		}
 	}
 }
+
+country_event = {  ### Sisterly Meeting
+	id = equestria.3
+	title = equestria.3.t
+	desc = equestria.3.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### You're right, Celestia
+		name = equestria.3.a
+		set_country_flag  = EQS_luna_good
+	}
+	
+	option = { ### IT'S NOT A PHASE CELESTIA JEEZE
+		name = equestria.3.b
+		set_country_flag  = EQS_luna_bad
+	}
+}
+
+country_event = {  ### Enduring the Nightmare
+	id = equestria.4
+	title = equestria.4.t
+	desc = equestria.4.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### I CAN FEEL THE WARP OVERTAKING ME
+		name = equestria.4.a
+		
+		hidden_effect = {
+			set_country_flag = EQS_luna_bad
+		}
+	}
+}
+
+country_event = {  ### Confronting the Nightmare
+	id = equestria.5
+	title = equestria.5.t
+	desc = equestria.5.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### I'm gonna bitch slap you, Nightmare
+		name = equestria.5.a
+		
+		hidden_effect = {
+			set_country_flag = EQS_luna_good
+		}
+	}
+}
+
+country_event = {  ### Help from Celestia
+	id = equestria.6
+	title = equestria.6.t
+	desc = equestria.6.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### The Nightmare's been banished. Also celestia's best princess
+		name = equestria.6.a
+	}
+}
+
+
+country_event = {  ### Behind Celestia's Back
+	id = equestria.7
+	title = equestria.7.t
+	desc = equestria.7.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### Something something event option
+		name = equestria.7.a
+	}
+}
+
+country_event = {  ### Dealing with the Cultists
+	id = equestria.8
+	title = equestria.8.t
+	desc =  { 
+		text = equestria.8.d_bad
+		trigger = { has_country_flag = EQS_luna_bad }
+	}
+	desc =  { 
+		text = equestria.8.d_good
+		trigger = { has_country_flag = EQS_luna_good }
+	}
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### 
+		name = equestria.8.a
+		trigger = {
+			has_country_flag = EQS_luna_bad
+		}
+	}
+	
+	option = { ###
+		name = equestria.8.b
+		trigger = {
+			has_country_flag = EQS_luna_good
+		}
+	}
+}
+
+country_event = {  ### Joining the Cults
+	id = equestria.9
+	title = equestria.9.t
+	desc = equestria.9.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### Together we'll bring down the sun
+		name = equestria.9.a
+	}
+}
+
+country_event = {  ### Gathering Supporters
+	id = equestria.10
+	title = equestria.10.t
+	desc = equestria.10.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### Twilight is near
+		name = equestria.10.a
+	}
+}
+
+country_event = {  ### THE NIGHT WILL LAST FOREVER
+	id = equestria.11
+	title = equestria.11.t
+	desc = equestria.11.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### MUHAHAHAHAHAHAHAHAHAHHAHA
+		name = equestria.11.a
+	}
+}
+
+country_event = {  ### Luna's better now or something
+	id = equestria.12
+	title = equestria.12.t
+	desc = equestria.12.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### Nice
+		name = equestria.12.a
+	}
+}
+
+country_event = {  ### Banning Nightmare Worship
+	id = equestria.13
+	title = equestria.13.t
+	desc = equestria.13.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### Nice
+		name = equestria.13.a
+	}
+}
+
+country_event = {  ### Hunting Cultists
+	id = equestria.14
+	title = equestria.14.t
+	desc = equestria.14.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	option = { ### Nice
+		name = equestria.14.a
+	}
+}
+

@@ -20,3 +20,87 @@ DEFCON_switch = {
 		remove_ideas = DEFCON1
 	}
 }
+
+EQS_lower_overpopulation = {
+	if = {
+		limit = { 
+			has_idea = EQS_overpopulation 
+		}
+		swap_ideas = {
+			remove_idea = EQS_overpopulation
+			add_idea = EQS_overpopulation2
+		}
+	}
+	else_if = {
+		limit = { 
+			has_idea = EQS_overpopulation2
+		}
+		swap_ideas = {
+			remove_idea = EQS_overpopulation2
+			add_idea = EQS_overpopulation3
+		}
+	}
+	else_if = {
+		limit = { 
+			has_idea = EQS_overpopulation3
+		}
+		swap_ideas = {
+			remove_idea = EQS_overpopulation3
+			add_idea = EQS_overpopulation4
+		}
+	}
+	else_if = {
+		limit = { 
+			has_idea = EQS_overpopulation4
+		}
+		swap_ideas = {
+			remove_idea = EQS_overpopulation4
+			add_idea = EQS_overpopulation5
+		}
+	}
+	else_if = {
+		limit = { 
+			has_idea = EQS_overpopulation5
+		}
+		swap_ideas = {
+			remove_idea = EQS_overpopulation5
+			add_idea = EQS_overpopulation6
+		}
+	}
+	else_if = {
+		limit = { 
+			has_idea = EQS_overpopulation6
+		}
+		swap_ideas = {
+			remove_idea = EQS_overpopulation6
+			add_idea = EQS_overpopulation7
+		}
+	}
+	else_if = {
+		limit = { 
+			has_idea = EQS_overpopulation7
+		}
+		swap_ideas = {
+			remove_idea = EQS_overpopulation7
+			add_idea = EQS_overpopulation8
+		}
+	}
+	else_if = {
+		limit = { 
+			has_idea = EQS_overpopulation8
+		}
+		swap_ideas = {
+			remove_idea = EQS_overpopulation8
+			add_idea = EQS_overpopulation9
+		}
+	}
+	else_if = {
+		limit = { 
+			has_idea = EQS_overpopulation9
+		}
+		swap_ideas = {
+			remove_idea = EQS_overpopulation9
+			add_idea = EQS_overpopulation10
+		}
+	}
+}

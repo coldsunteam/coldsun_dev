@@ -36,6 +36,7 @@ element_of_laughter:0 "Element of Laughter"
 EQS_TT_sionia:0 "Unlocks the Sionia Motorized Company\n"
 EQS_TT_freefort:0 "Unlocks the Freefort Rifle Company\n"
 EQS_TT_hoofston:0 "Unlocks the Hoofston Oil Company\n"
+EQS_TT_overpopulation:0 "§YOverpopulation can't be removed any further.§!"
 
 ###############
 ### Focuses ###
@@ -246,3 +247,54 @@ equestria.2.d:0 "Blah blah, but twice!"
 equestria.2.a:0 "Focus on the Northwest"
 equestria.2.b:0 "Focus on the Northeast"
 equestria.2.c:0 "Focus on the South"
+
+equestria.3.t:0 "Sisterly Meeting"
+equestria.3.d:0 "Blah blah"
+equestria.3.a:0 "You're right, Celestia"
+equestria.3.b:0 "It's not a phase, Celestia!"
+
+equestria.4.t:0 "Enduring the Nightmare"
+equestria.4.d:0 "Blah blah"
+equestria.4.a:0 "I CAN FEEL THE WARP OVERTAKING ME"
+
+equestria.5.t:0 "Confronting the Nightmare"
+equestria.5.d:0 "Blah blah"
+equestria.5.a:0 "I'm gonna fuckin bitch slap you, Nightmare"
+
+equestria.6.t:0 "Help from Celestia"
+equestria.6.d:0 "Blah blah"
+equestria.6.a:0 "The Nightmare's been Banished"
+
+equestria.7.t:0 "Behind Sister's Back"
+equestria.7.d:0 "Blah blah"
+equestria.7.a:0 "Celestia is Worst Princess"
+
+equestria.8.t:0 "Dealing with Cultists"
+equestria.8.d_bad:0 "Oh shit, Luna stop being a traitor"
+equestria.8.d_good:0 "Get fucked Traitors"
+equestria.8.a:0 "Insert Evil Luna Laugh here"
+equestria.8.b:0 "Good response goes here"
+
+equestria.9.t:0 "Meeting with the Cult"
+equestria.9.d:0 "Blah blah"
+equestria.9.a:0 "Together we will bring down the Sun"
+
+equestria.10.t:0 "Gathering Supporters"
+equestria.10.d:0 "Blah blah"
+equestria.10.a:0 "Twilight draws near"
+
+equestria.11.t:0 "The Night will Last Forever!"
+equestria.11.d:0 "Blah blah"
+equestria.11.a:0 "MUHAHAHAHAHAHAHAHAHAHAHA"
+
+equestria.12.t:0 "Nightmare Be Gon"
+equestria.12.d:0 "Blah blah"
+equestria.12.a:0 "Some good response here"
+
+equestria.13.t:0 "Banning Nightmare Worship"
+equestria.13.d:0 "Blah blah"
+equestria.13.a:0 "Nice"
+
+equestria.14.t:0 "Hunting Cultists"
+equestria.14.d:0 "Blah blah"
+equestria.14.a:0 "Nice"

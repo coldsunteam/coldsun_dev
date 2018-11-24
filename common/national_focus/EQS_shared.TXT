@@ -8,6 +8,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event  = {
+			id = equestria.1
+		}
 	}
 }
 
@@ -536,6 +539,14 @@ shared_focus = {
 				}
 			}
 		}
+		
+		EQS_lower_overpopulation = yes
+		if = {
+			limit = {
+				has_idea = EQS_overpopulation10
+			}
+			custom_effect_tooltip = EQS_TT_overpopulation
+		}
 	}
 }
 
@@ -1050,6 +1061,13 @@ shared_focus = {
 				}
 			}
 		}
+		EQS_lower_overpopulation = yes
+		if = {
+			limit = {
+				has_idea = EQS_overpopulation10
+			}
+			custom_effect_tooltip = EQS_TT_overpopulation
+		}
 	}
 }
 
@@ -1130,7 +1148,7 @@ shared_focus = {
 		custom_effect_tooltip = EQS_TT_hoofston
 		if = {
 			limit = {
-				has_country_flag = EQS_F_northeast
+				has_country_flag = EQS_F_south
 			}
 			947 = {
 				add_resource = {
@@ -1152,7 +1170,7 @@ shared_focus = {
 		
 		else_if = {
 			limit = {
-				has_country_flag = EQS_F_northeast2
+				has_country_flag = EQS_F_south2
 			}
 			947 = {
 				add_resource = {
@@ -1169,8 +1187,8 @@ shared_focus = {
 		else_if = {
 			limit = {
 				NOT = {
-					has_country_flag = EQS_F_northeast
-					has_country_flag = EQS_F_northeast2
+					has_country_flag = EQS_F_south
+					has_country_flag = EQS_F_south2
 				}
 			}
 			947 = {
@@ -1198,7 +1216,7 @@ shared_focus = {
 	completion_reward = {
 		if = {
 			limit = {
-				has_country_flag = EQS_F_northeast
+				has_country_flag = EQS_F_south
 			}
 			add_tech_bonus = {
 				name = GER_coal_liquidization
@@ -1210,7 +1228,7 @@ shared_focus = {
 		
 		else_if = {
 			limit = {
-				has_country_flag = EQS_F_northeast2
+				has_country_flag = EQS_F_south2
 			}
 			add_tech_bonus = {
 				name = GER_coal_liquidization
@@ -1223,8 +1241,8 @@ shared_focus = {
 		else_if = {
 			limit = {
 				NOT = {
-					has_country_flag = EQS_F_northeast
-					has_country_flag = EQS_F_northeast2
+					has_country_flag = EQS_F_south
+					has_country_flag = EQS_F_south2
 				}
 			}
 			add_tech_bonus = {
@@ -1252,21 +1270,134 @@ shared_focus = {
 	completion_reward = {
 		if = {
 			limit = {
-				has_country_flag = EQS_F_northeast
+				has_country_flag = EQS_F_south
+			}
+			405 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			417 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			426 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			448 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			438 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			947 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
 			}
 		}
 		
 		else_if = {
 			limit = {
-				has_country_flag = EQS_F_northeast2
+				has_country_flag = EQS_F_south2
+			}
+			405 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			417 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			426 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			448 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			438 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+				}
+			}
+			947 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 1
+					instant_build = yes
+				}
 			}
 		}
 		
 		else_if = {
 			limit = {
 				NOT = {
-					has_country_flag = EQS_F_northeast
-					has_country_flag = EQS_F_northeast2
+					has_country_flag = EQS_F_south
+					has_country_flag = EQS_F_south2
+				}
+			}
+			
+			405 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			417 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			426 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
+				}
+			}
+			448 = {
+				add_building_construction = {
+					type = infrastructure 
+					level = 2
+					instant_build = yes
 				}
 			}
 		}
@@ -1287,7 +1418,68 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-
+		if = {
+			limit = {
+				has_country_flag = EQS_F_south
+			}
+			417 = {
+				add_resource = {
+					type = grain
+					amount = 24
+				}
+			}
+			405 = {
+				add_resource = {
+					type = grain
+					amount = 12
+				}
+			}
+			448 = {
+				add_resource = {
+					type = grain
+					amount = 8
+				}
+			}
+		}
+		
+		else_if = {
+			limit = {
+				has_country_flag = EQS_F_south2
+			}
+			417 = {
+				add_resource = {
+					type = grain
+					amount = 20
+				}
+			}
+			405 = {
+				add_resource = {
+					type = grain
+					amount = 10
+				}
+			}
+		}
+		
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = EQS_F_south
+					has_country_flag = EQS_F_south2
+				}
+			}
+			417 = {
+				add_resource = {
+					type = grain
+					amount = 10
+				}
+			}
+			405 = {
+				add_resource = {
+					type = grain
+					amount = 10
+				}
+			}
+		}
 	}
 }
 
@@ -1304,7 +1496,96 @@ shared_focus = {
 	}
 	
 	completion_reward = {
-
+		if = {
+			limit = {
+				has_country_flag = EQS_F_south
+			}
+			947 = {
+				add_extra_state_shared_building_slots = 6
+				add_building_construction = {
+					type = industrial_complex  
+					level = 4
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory  
+					level = 2
+					instant_build = yes
+				}
+			}
+			
+			438 = {
+				add_extra_state_shared_building_slots = 4
+				add_building_construction = {
+					type = industrial_complex  
+					level = 4
+					instant_build = yes
+				}
+			}
+		}
+		
+		else_if = {
+			limit = {
+				has_country_flag = EQS_F_south2
+			}
+			947 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = industrial_complex  
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = arms_factory  
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			438 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex  
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+		
+		else_if = {
+			limit = {
+				NOT = {
+					has_country_flag = EQS_F_south
+					has_country_flag = EQS_F_south2
+				}
+			}
+			947 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex  
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			438 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex  
+					level = 1
+					instant_build = yes
+				}
+			}
+			
+			460 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex  
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 	}
 }
 
@@ -1336,6 +1617,7 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		add_political_power = 100
 	}
 }
 
@@ -1354,6 +1636,13 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		EQS_lower_overpopulation = yes
+		if = {
+			limit = {
+				has_idea = EQS_overpopulation10
+			}
+			custom_effect_tooltip = EQS_TT_overpopulation
+		}
 	}
 }
 
@@ -1371,6 +1660,14 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		
+		EQS_lower_overpopulation = yes
+		if = {
+			limit = {
+				has_idea = EQS_overpopulation10
+			}
+			custom_effect_tooltip = EQS_TT_overpopulation
+		}
 	}
 }
 
@@ -1386,6 +1683,14 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		
+		EQS_lower_overpopulation = yes
+		if = {
+			limit = {
+				has_idea = EQS_overpopulation10
+			}
+			custom_effect_tooltip = EQS_TT_overpopulation
+		}
 	}
 }
 
@@ -1401,6 +1706,14 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+	
+		EQS_lower_overpopulation = yes
+		if = {
+			limit = {
+				has_idea = EQS_overpopulation10
+			}
+			custom_effect_tooltip = EQS_TT_overpopulation
+		}
 	}
 }
 
@@ -1416,6 +1729,14 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		
+		EQS_lower_overpopulation = yes
+		if = {
+			limit = {
+				has_idea = EQS_overpopulation10
+			}
+			custom_effect_tooltip = EQS_TT_overpopulation
+		}
 	}
 }
 
@@ -1431,6 +1752,14 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		
+		EQS_lower_overpopulation = yes
+		if = {
+			limit = {
+				has_idea = EQS_overpopulation10
+			}
+			custom_effect_tooltip = EQS_TT_overpopulation
+		}
 	}
 }
 
@@ -1449,6 +1778,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event = {
+			id = equestria.3
+		}
 	}
 }
 
@@ -1465,6 +1797,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event = {
+			id = equestria.4
+		}
 	}
 }
 
@@ -1480,6 +1815,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event = {
+			id = equestria.6
+		}
 	}
 }
 
@@ -1496,6 +1834,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event = {
+			id = equestria.5
+		}
 	}
 }
 
@@ -1511,6 +1852,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event = {
+			id = equestria.7
+		}
 	}
 }
 
@@ -1526,6 +1870,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event = {
+			id = equestria.8
+		}
 	}
 }
 
@@ -1542,6 +1889,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event = {
+			id = equestria.13
+		}
 	}
 }
 
@@ -1557,6 +1907,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event = {
+			id = equestria.14
+		}
 	}
 }
 
@@ -1573,6 +1926,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event = {
+			id = equestria.9
+		}
 	}
 }
 
@@ -1588,6 +1944,9 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		country_event = {
+			id = equestria.10
+		}
 	}
 }
 
@@ -1603,6 +1962,23 @@ shared_focus = {
 		factor = 100
 	}
 	completion_reward = {
+		if = {
+			limit = {
+				has_country_flag = EQS_luna_bad
+			}
+			country_event = {
+				id = equestria.11
+			}
+		}
+		
+		else_if = {
+			limit = {
+				has_country_flag = EQS_luna_good
+			}
+			country_event = {
+				id = equestria.12
+			}
+		}
 	}
 }
 
