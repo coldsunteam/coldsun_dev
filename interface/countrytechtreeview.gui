@@ -2560,7 +2560,7 @@ guiTypes = {
 	}
 
 	containerWindowType = {
-		name = "techtree_naval_folder_small_item" 
+		name = "techtree_navy_folder_small_item" 
 		position = { x=0 y=5 }
 		size = { width = 72 height = 72 }
 		clipping = no
@@ -2595,7 +2595,7 @@ guiTypes = {
 	}	
 	
 	containerWindowType = {
-		name = "techtree_naval_folder_item"
+		name = "techtree_navy_folder_item"
 		position = { x=-131 y=1 }
 		size = { width = 204 height = 72 }
 		clipping = no
