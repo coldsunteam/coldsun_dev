@@ -1,0 +1,27 @@
+cat_anger = {
+	anger_meter = {
+		icon = generic_industry
+		available = {
+			tag = EQS
+			check_variable = {
+				var = luna_anger
+				val > 1
+			}
+		}
+		visible = {
+			tag = EQS
+			check_variable = {
+				var = luna_anger
+				val > 1
+			}
+		}
+
+		complete_effect = {
+
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

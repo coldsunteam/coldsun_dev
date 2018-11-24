@@ -293,3 +293,34 @@ country_event = {  ### Hunting Cultists
 	}
 }
 
+
+
+
+
+
+add_namespace = equestrialunastuff
+
+country_event = {  ### Luna's pissed and she just turned into the nightmare
+	id = equestrialunastuff.1
+	title = equestrialunastuff.1.t
+	desc = equestrialunastuff.1.d
+	picture = GFX_report_event_chinese_soldiers_fighting
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		check_variable = {
+			var = luna_anger
+			value > 100
+		}
+	}
+	
+	option = { ### 
+		name = equestrialunastuff.1.a
+		
+		add_to_variable = {
+			var = luna_anger 
+			val = 10
+		}
+	}
+}

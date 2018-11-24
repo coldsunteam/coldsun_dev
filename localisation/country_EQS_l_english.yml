@@ -298,3 +298,28 @@ equestria.13.a:0 "Nice"
 equestria.14.t:0 "Hunting Cultists"
 equestria.14.d:0 "Blah blah"
 equestria.14.a:0 "Nice"
+
+equestralunastuff.1.t:0 "Nightmare Woona has returned!"
+equestralunastuff.1.d:0 ""
+equestralunastuff.1.a:0 "Oh no!"
+equestralunastuff.1.b:0 "Just as planned"
+
+#################
+### Decisions ###
+#################
+cat_anger:0 "Luna's Wellbeing"
+cat_anger_desc:0 "As time goes on, Luna seems to be growing more and more distant from Celestia. Is this a sign of her returning to her old ways, or just simply a phase?"
+anger_meter:0 "[Root.getlunasanger]"
+
+
+lunas_anger_1:0 "Luna is §YCalm§!"
+lunas_anger_2:0 "Luna is §YAnnoyed§!"
+lunas_anger_3:0 "Luna is §YDistant§!"
+lunas_anger_4:0 "Luna is §YReally Distant§!"
+lunas_anger_5:0 "Luna is §RHostile§!"
+lunas_anger_6:0 "Luna is §RVicious§!"
+lunas_anger_7:0 "Luna is §RANGRY§!"
+lunas_anger_8:0 "Luna is §Rfucking LIVID§!"
+lunas_anger_9:0 "Luna is §RSEETHING§!"
+lunas_anger_10:0 "Luna is §RFURIOUS and SEETHING§!"
+lunas_anger_11:0 "Luna is Nightmare Moon"

@@ -1,0 +1,148 @@
+# Allows you to create your own dynamic keys
+# to be called in localization.
+# defined_text -> this is it, we're defining the text
+# text -> a discrete entry that can be picked to display in loc.
+# trigger -> determines if a text entry will be picked or not.
+# (The triggers need to be valid for the scope the key is called in
+# (eg Root or From.From).)
+# localization_key -> points to the localization key
+# that'll be used if trigger passes
+
+defined_text = { # Luna's Anger
+	name = getlunasanger
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 0
+			}
+		}
+		localization_key = lunas_anger_1
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 9
+			}
+			check_variable = {
+				val = luna_anger
+				var < 20
+			}
+		}
+		localization_key = lunas_anger_2
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 19
+			}
+			check_variable = {
+				val = luna_anger
+				var < 30
+			}
+		}
+		localization_key = lunas_anger_3
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 29
+			}
+			check_variable = {
+				val = luna_anger
+				var < 40
+			}
+		}
+		localization_key = lunas_anger_4
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 39
+			}
+			check_variable = {
+				val = luna_anger
+				var < 50
+			}
+		}
+		localization_key = lunas_anger_5
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 49
+			}
+			check_variable = {
+				val = luna_anger
+				var < 60
+			}
+		}
+		localization_key = lunas_anger_6
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 59
+			}
+			check_variable = {
+				val = luna_anger
+				var < 70
+			}
+		}
+		localization_key = lunas_anger_7
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 69 ## Hehe
+			}
+			check_variable = {
+				val = luna_anger
+				var < 80
+			}
+		}
+		localization_key = lunas_anger_8
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 79
+			}
+			check_variable = {
+				val = luna_anger
+				var < 90
+			}
+		}
+		localization_key = lunas_anger_9
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 89
+			}
+			check_variable = {
+				val = luna_anger
+				var < 100
+			}
+		}
+		localization_key = lunas_anger_10
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				val = luna_anger
+				var > 99
+			}
+		}
+		localization_key = lunas_anger_11
+	}
+}

@@ -1,0 +1,14 @@
+cat_anger = {
+	icon = generic_propaganda
+
+	visible = {
+		check_variable = {
+			var = luna_anger
+			val > 1
+		}
+	}
+	
+	priority = {
+		base = 200
+	}
+}
