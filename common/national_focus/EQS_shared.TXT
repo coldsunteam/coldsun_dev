@@ -1768,7 +1768,7 @@ shared_focus = {
 ####################################
 shared_focus = {
 	id = EQS_meeting_between_sisters
-	icon = GFX_goal_focus_eqs_start
+	icon = GFX_goal_focus_eqs_meeting
 	prerequisite = { focus = EQS_internal_affairs }
 	relative_position_id = EQS_internal_affairs
 	cost = 10.00
@@ -1883,7 +1883,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EQS_ban_nightmare_worship
-	icon = GFX_goal_focus_eqs_start
+	icon = GFX_goal_focus_eqs_ban_worship
 	prerequisite = { focus = EQS_help_from_celestia }
 	prerequisite = { focus = EQS_dealing_with_cultists }
 	relative_position_id = EQS_meeting_between_sisters
@@ -1962,7 +1962,7 @@ shared_focus = {
 
 shared_focus = {
 	id = EQS_final_focus
-	icon = GFX_goal_focus_eqs_start
+	icon = GFX_goal_focus_eqs_become_nightmarewoona
 	prerequisite = { focus = EQS_gather_supporters focus = EQS_hunt_down_cultists }
 	relative_position_id = EQS_meeting_between_sisters
 	cost = 10.00
@@ -2017,7 +2017,10 @@ shared_focus = {
 shared_focus = {
 	id = EQS_ercenbrand_issue
 	icon = GFX_goal_generic_war_with_comintern
-	available = { has_completed_focus = EQS_diplomatic_initiative }
+	prerequisite = { focus = EQS_diplomatic_initiative }
+	allow_branch = {
+		has_country_flag = ercenbrand_shitfest
+	}
 	relative_position_id = EQS_diplomatic_initiative
 	cost = 10.00
 	x = -2

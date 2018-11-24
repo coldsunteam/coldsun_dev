@@ -14,7 +14,6 @@ focus_tree = {
 	
 	shared_focus = EQS_industrial_overview
 	shared_focus = EQS_friendship_games
-	shared_focus = EQS_ercenbrand_issue
 }
 
 focus_tree = {

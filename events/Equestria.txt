@@ -318,6 +318,8 @@ country_event = {  ### Luna's pissed and she just turned into the nightmare
 	option = { ### 
 		name = equestrialunastuff.1.a
 		
+		set_country_flag = ercenbrand_shitfest
+		
 		add_to_variable = {
 			var = luna_anger 
 			val = 10
@@ -326,6 +328,8 @@ country_event = {  ### Luna's pissed and she just turned into the nightmare
 	
 	option = { ### 
 		name = equestrialunastuff.1.b
+		
+		load_focus_tree = equestria_ercenbrand_shit
 		
 		add_to_variable = {
 			var = luna_anger 
