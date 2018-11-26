@@ -4,6 +4,12 @@ technologies = {
 		allow = {
 			always = no
 		}
+		
+		enable_subunits = {
+			earth
+			unicorn
+			pegasi
+		}
 	}
 	
 	pony = {
