@@ -1,8 +1,11 @@
 ﻿capital = 730
 set_research_slots = 3
 
+oob = "EQS_start"
+
 set_technology = {
 	pony_race = 1
+	infantry_weapons = 1
 }
 
 add_ideas = {
