@@ -1,12 +1,13 @@
 ﻿capital = 279
 
-oob = "EQA_1936"
+oob = "EQA_Start"
 
 set_research_slots = 3
 set_stability = 0.30
 set_war_support = 0.20
 
 set_technology = {
+	pony_race = 1
 }
 set_convoys = 122
 set_politics = {
@@ -38,7 +39,7 @@ set_politics = {
 
 add_ideas = {
 	EQA_incoherent_management1
-	EQA_divided_army
+	EQA_divided_army1
 	DEFCON5
 }
 

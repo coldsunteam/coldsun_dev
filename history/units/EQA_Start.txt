@@ -1,0 +1,249 @@
+﻿division_template = {
+	name = "Division Magique"
+
+	regiments = {
+		unicorn = { x = 0 y = 0 }
+		unicorn = { x = 0 y = 1 }
+        unicorn = { x = 0 y = 2 }
+        unicorn = { x = 1 y = 0 }
+		unicorn = { x = 1 y = 1 }
+        unicorn = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Division Terrestre"
+
+	regiments = {
+		earth = { x = 0 y = 0 }
+		earth = { x = 0 y = 1 }
+        earth = { x = 0 y = 2 }
+        earth = { x = 1 y = 0 }
+		earth = { x = 1 y = 1 }
+        earth = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Division d'Intervention"
+
+	regiments = {
+		pegasi = { x = 0 y = 0 }
+		pegasi = { x = 0 y = 1 }
+        pegasi = { x = 0 y = 2 }
+        pegasi = { x = 1 y = 0 }
+		pegasi = { x = 1 y = 1 }
+        pegasi = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	division = {
+		name = "Garde Royale"
+		location = 9443
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Garde Licorne"
+		location = 9443
+		division_template = "Division Magique"
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division Terrestre de Neyghon"
+		location = 10175
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division Terrestre de Fleury"
+		location = 42
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division Terrestre de Maneille"
+		location = 20408
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division Terrestre de la Couronne"
+		location = 11226
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division Terrestre du Massif"
+		location = 54
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1ère Division Terrestre Frontalier-Est"
+		location = 11082
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3ème Division Terrestre Frontalier-Est"
+		location = 3456
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2ème Division Terrestre Frontalier-Est"
+		location = 1488
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "4ème Division Terrestre Frontalier-Est"
+		location = 20421
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2ème Division Terrestre Frontalier-Nord"
+		location = 4625
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1ère Division Terrestre Frontalier-Nord"
+		location = 4626
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "4ème Division Terrestre Frontalier-Nord"
+		location = 5940
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "3ème Division Terrestre Frontalier-Nord"
+		location = 19601
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "5ème Division Terrestre Frontalier-Nord"
+		location = 2654
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1ère Division Terrestre Frontalier-Sud"
+		location = 19590
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "2ème Division Terrestre Frontalier-Sud"
+		location = 19592
+		division_template = "Division Terrestre"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "5ème Division Magique Frontalier-Nord"
+		location = 2655
+		division_template = "Division Magique"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "1ère Division Magique Frontalier-Sud"
+		location = 19590
+		division_template = "Division Magique"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division Magique de Fleury"
+		location = 42
+		division_template = "Division Magique"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division Magique de Trolouise"
+		location = 3265
+		division_template = "Division Magique"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division Magique de Neyghon"
+		location = 10175
+		division_template = "Division Magique"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division Magique de Maneille"
+		location = 20408
+		division_template = "Division Magique"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division Magique de Strotsbourg"
+		location = 4625
+		division_template = "Division Magique"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	
+	division = {
+		name = "Division d'Intervention Rapide"
+		location = 19590
+		division_template = "Division d'Intervention"
+		start_experience_factor = 0.9
+		start_equipment_factor = 1.0
+	}
+}
