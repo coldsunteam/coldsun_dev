@@ -10,7 +10,7 @@ focus_tree = {
 		} 
 	} 
 
-continuous_focus_position = { x = 900 y = 2800 }
+continuous_focus_position = { x = 1000 y = 1800 }
 
 	#Focus for Motorized Research
 		focus = { 
@@ -310,7 +310,7 @@ continuous_focus_position = { x = 900 y = 2800 }
 		focus = { 
 		id = EQA_zoneindustrielle
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 30
+		x = 29
 		y = 2
 		cost = 10
 		available_if_capitulated = yes 
@@ -319,7 +319,9 @@ continuous_focus_position = { x = 900 y = 2800 }
 		 factor = 80
 		 } 
 			completion_reward = { 
-			add_offsite_building = { type = industrial_complex level = 2 }
+			279 = { add_extra_state_shared_building_slots = 2 }
+			279 = { add_building_construction
+			= { type = industrial_complex level = 2 instant_build = yes } }
 			add_tech_bonus
 			= { bonus = 1 uses = 2 category = civilian }
 		 } 
@@ -330,7 +332,7 @@ continuous_focus_position = { x = 900 y = 2800 }
 		focus = { 
 		id = EQA_stablegrowth
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 30
+		x = 29
 		y = 3
 		cost = 10
 		available_if_capitulated = yes 
@@ -339,7 +341,9 @@ continuous_focus_position = { x = 900 y = 2800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			add_offsite_building = { type = industrial_complex level = 2 }
+			279 = { add_extra_state_shared_building_slots = 2 }
+			279 = { add_building_construction
+			= { type = industrial_complex level = 2 instant_build = yes } }
 		 } 
 
 	 } 
@@ -348,7 +352,7 @@ continuous_focus_position = { x = 900 y = 2800 }
 		focus = { 
 		id = EQA_manufacturedarmesdetrolouise
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 32
+		x = 31
 		y = 2
 		cost = 10
 		available_if_capitulated = yes 
@@ -357,6 +361,7 @@ continuous_focus_position = { x = 900 y = 2800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
+			299 = { add_extra_state_shared_building_slots = 3 }
 			299 = { add_building_construction
 			= { type = arms_factory level = 3 instant_build = yes } }
 			add_tech_bonus
@@ -369,11 +374,11 @@ continuous_focus_position = { x = 900 y = 2800 }
 		focus = { 
 		id = EQA_autoroutes
 		icon = GFX_goal_generic_construct_infrastructure
-		x = 30
-		y = 5
+		x = 29
+		y = 4
 		cost = 10
 		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_rechercheindustrie } 
+		prerequisite = { focus = EQA_stablegrowth } 
 		ai_will_do = { 
 		 factor = 1
 		 } 
@@ -387,7 +392,7 @@ continuous_focus_position = { x = 900 y = 2800 }
 		focus = { 
 		id = EQA_seizefacilities
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 32
+		x = 31
 		y = 3
 		cost = 10
 		available_if_capitulated = yes 
@@ -396,8 +401,8 @@ continuous_focus_position = { x = 900 y = 2800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			add_offsite_building = { type = industrial_complex level = 3 }
-			add_equipment_to_stockpile = { type = infantry_weapons2 amount = 15000 producer = EQS }
+			add_offsite_building = { type = arms_factory level = 3 }
+			add_equipment_to_stockpile = { type = infantry_weapons2 amount = 15000 producer = EQA }
 		 } 
 
 	 } 
@@ -406,12 +411,11 @@ continuous_focus_position = { x = 900 y = 2800 }
 		focus = { 
 		id = EQA_rechercheindustrie
 		icon = GFX_goal_tfv_generic_tech_sharing
-		x = 30
+		x = 31
 		y = 4
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_seizefacilities } 
-		prerequisite = { focus = EQA_stablegrowth } 
 		ai_will_do = { 
 		 factor = 40
 		 } 
@@ -422,15 +426,55 @@ continuous_focus_position = { x = 900 y = 2800 }
 
 	 } 
 
-	#Focus for Deport Troublemakers
+	 
+	#Focus for Chambre de Commerce et d'Industrie du Havre ##CCIH Inspiration
+		focus = { 
+		id = EQA_chambre
+		icon = GFX_goal_generic_production
+		x = 33
+		y = 2
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_reformtheindustrialsector } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			every_owned_state = { add_extra_state_shared_building_slots = 3 }
+			country_event = { days = 1 id = prance.222 }
+		} 
+
+	}
+	
+	 
+	#Focus for Espace Indu
+		focus = { 
+		id = EQA_espace
+		icon = GFX_goal_generic_production
+		x = 33
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_chambre } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			every_owned_state = { add_extra_state_shared_building_slots = 2 }
+		} 
+
+	}
+	
+	
+	#Focus for Sweep Companies
 		focus = { 
 		id = EQA_deporttroublemakers
 		icon = GFX_goal_generic_production2
-		x = 32
+		x = 33
 		y = 4
 		cost = 10
 		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_seizefacilities } 
+		prerequisite = { focus = EQA_espace } 
 		ai_will_do = { 
 		 factor = 40
 		 } 
@@ -440,7 +484,7 @@ continuous_focus_position = { x = 900 y = 2800 }
 			add_stability = -0.15
 		} 
 
-	 } 
+	}
 
 	#Focus for Battlecruiser Development
 		focus = { 
@@ -783,6 +827,9 @@ continuous_focus_position = { x = 900 y = 2800 }
 		y = 2
 		cost = 10
 		available_if_capitulated = yes 
+		available = {
+		has_completed_focus = EQA_crackdown4
+		}
 		prerequisite = { focus = EQA_researchsector } 
 		prerequisite = { focus = EQA_reformtheindustrialsector } 
 		ai_will_do = { 
@@ -813,16 +860,232 @@ continuous_focus_position = { x = 900 y = 2800 }
 		} 
 
 	 } 
+	 
+	#Focus for Resource Stuff
+		focus = { 
+		id = EQA_resourceexploiting
+		icon = GFX_focus_generic_industry_3
+		x = 60
+		y = 3
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_industrialresearch } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+		 } 
+	 }
+	 
+	#Focus for Mine Carrébrieux Hills
+		focus = { 
+		id = EQA_minecarrebrieux
+		icon = GFX_focus_generic_steel
+		x = 63
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_resourceexploiting } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			799 = {
+				add_resource = 
+				{ type = steel amount = 10 } 
+			}
+		}
+	}
+	
+	#Focus for Mine Treuse
+		focus = { 
+		id = EQA_minetreuse
+		icon = GFX_focus_generic_steel
+		x = 63
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_minecarrebrieux } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			268 = {
+				add_resource = 
+				{ type = steel amount = 8 } 
+			}
+		}
+	}
+	
+	#Focus for Food in Livergnan
+		focus = { 
+		id = EQA_farm1
+		icon = GFX_goal_focus_food
+		x = 61
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_resourceexploiting } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			300 = {
+				add_resource = 
+				{ type = grain amount = 14 } 
+			}
+		}
+	}
+	
+	#Focus for Food in Vainnes
+		focus = { 
+		id = EQA_farm2
+		icon = GFX_goal_focus_food
+		x = 61
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_farm1 } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			795 = {
+				add_resource = 
+				{ type = grain amount = 18 } 
+			}
+		}
+	}
+	
+	#Focus for Coal 1
+		focus = { 
+		id = EQA_coalone
+		icon = GFX_focus_focus_generic_industry_1
+		x = 59
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_resourceexploiting } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			299 = {
+				add_resource = 
+				{ type = coal amount = 10 } 
+			}
+		}
+	}
+	
+	#Focus for Coal 2
+		focus = { 
+		id = EQA_coaltwo
+		icon = GFX_focus_generic_industry_2
+		x = 59
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_coalone } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			794 = {
+				add_resource = 
+				{ type = coal amount = 12 } 
+			}
+		}
+	}
+	
+	#Focus for Aluminium 1
+		focus = { 
+		id = EQA_alu1
+		icon = GFX_focus_generic_aluminum
+		x = 57
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_resourceexploiting } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			292 = {
+				add_resource = 
+				{ type = aluminium amount = 14 } 
+			}
+		}
+	}
+	
+	#Focus for Aluminium 2
+		focus = { 
+		id = EQA_alu2
+		icon = GFX_focus_generic_aluminum
+		x = 57
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_alu1 } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			292 = {
+				add_resource = 
+				{ type = aluminium amount = 10 } 
+			}
+		}
+	}
+	
+	#Focus for Tungsten 1
+		focus = { 
+		id = EQA_tungsten1
+		icon = GFX_focus_generic_tungsten
+		x = 55
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_resourceexploiting } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			279 = {
+				add_resource = 
+				{ type = tungsten amount = 8 } 
+			}
+		}
+	}
+	
+	#Focus for Tungsten 2
+		focus = { 
+		id = EQA_tungsten2
+		icon = GFX_focus_generic_tungsten
+		x = 55
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_tungsten1 } 
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			279 = {
+				add_resource = 
+				{ type = tungsten amount = 12 } 
+			}
+		}
+	}
 
 	#Focus for Synthetic Research
 		focus = { 
 		id = EQA_syntheticresearch
 		icon = GFX_goal_generic_army_motorized
-		x = 55
+		x = 65
 		y = 4
 		cost = 10
 		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_industrialresearch } 
+		prerequisite = { focus = EQA_resourceexploiting } 
 		ai_will_do = { 
 		 factor = 40
 		 } 
@@ -837,7 +1100,7 @@ continuous_focus_position = { x = 900 y = 2800 }
 		focus = { 
 		id = EQA_developsyntheticfacilities
 		icon = GFX_goal_generic_oil_refinery
-		x = 55
+		x = 65
 		y = 5
 		cost = 10
 		available_if_capitulated = yes 
@@ -846,8 +1109,8 @@ continuous_focus_position = { x = 900 y = 2800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			add_resource = { type = oil amount = 8 state = 231 }
-			add_resource = { type = rubber amount = 6 state = 231 }
+			add_resource = { type = oil amount = 8 state = 319 }
+			add_resource = { type = rubber amount = 6 state = 319 }
 		 } 
 
 	 } 
@@ -889,13 +1152,30 @@ continuous_focus_position = { x = 900 y = 2800 }
 		 } 
 
 	 }
+	 
+	#Focus for Nuclear
+		focus = { 
+		id = EQA_nuclearfocus
+		icon = GFX_goal_generic_CAS
+		x = 49
+		y = 7
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_moreresearchslot }  
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = nuclear }
+		 } 
+	}
 
 	#Focus for Construction Development
 		focus = { 
 		id = EQA_constructiondevelopment
 		icon = GFX_goal_generic_construction2
 		x = 54
-		y = 6
+		y = 3
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_industrialresearch } 
@@ -914,7 +1194,7 @@ continuous_focus_position = { x = 900 y = 2800 }
 		id = EQA_excavationdevelopment
 		icon = GFX_goal_generic_construct_civilian
 		x = 52
-		y = 6
+		y = 3
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_industrialresearch } 
