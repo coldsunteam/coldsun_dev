@@ -13,6 +13,7 @@ state={
 			9053 25 
 		}
 		buildings = {
+			infrastructure = 4
 			air_base = 2
 		}
 
@@ -21,7 +22,7 @@ state={
 	provinces={
 		816 817 4831 4832 5005 5007 5008 9053 10264 10426 11020 11870 
 	}
-	manpower=6875220
+	manpower=4875220
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }
