@@ -7,6 +7,10 @@ oob = "EQS_start"
 set_technology = {
 	pony_race = 1
 	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
 }
 
 add_ideas = {

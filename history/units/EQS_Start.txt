@@ -1,17 +1,4 @@
 ﻿division_template = {
-	name = "Infantry Division"
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-        infantry = { x = 0 y = 2 }
-        infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-        infantry = { x = 1 y = 2 }
-	}
-}
-
-division_template = {
 	name = "Unicorn Division"
 
 	regiments = {
@@ -20,7 +7,6 @@ division_template = {
         unicorn = { x = 0 y = 2 }
         unicorn = { x = 1 y = 0 }
 		unicorn = { x = 1 y = 1 }
-        unicorn = { x = 1 y = 2 }
 	}
 }
 
@@ -38,6 +24,19 @@ division_template = {
 }
 
 division_template = {
+	name = "Earth Garrison"
+
+	regiments = {
+		earth = { x = 0 y = 0 }
+		earth = { x = 0 y = 1 }
+        earth = { x = 0 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
 	name = "Pegasi Division"
 
 	regiments = {
@@ -46,37 +45,159 @@ division_template = {
         pegasi = { x = 0 y = 2 }
         pegasi = { x = 1 y = 0 }
 		pegasi = { x = 1 y = 1 }
-        pegasi = { x = 1 y = 2 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
 	}
 }
 
 
 units = {
 	division = {
-		#name = "Pegasi Division"
+		name = "Pegasi Division"
+		location = 20363
+		division_template = "Pegasi Division"
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Pegasi Division"
+		location = 20363
+		division_template = "Pegasi Division"
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Pegasi Division"
 		location = 20363
 		division_template = "Pegasi Division"
 		start_experience_factor = 1.0
 	}
 	
+	
 	division = {
-		#name = "Earth Division"
-		location = 20363
+		name = "Earth Division"
+		location = 6045
+		division_template = "Earth Division"
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Earth Division"
+		location = 6045
+		division_template = "Earth Division"
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Earth Garrison"
+		location = 6040
+		division_template = "Earth Division"
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Earth Division"
+		location = 2515
+		division_template = "Earth Division"
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Earth Division"
+		location = 10363
+		division_template = "Earth Division"
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Earth Garrison"
+		location = 10363
+		division_template = "Earth Division"
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Earth Garrison"
+		location = 10363
+		division_template = "Earth Division"
+		start_experience_factor = 1.0
+	}
+	division = {
+		name = "Earth Garrison"
+		location = 2151
 		division_template = "Earth Division"
 		start_experience_factor = 1.0
 	}
 	
 	division = {
-		#name = "Unicorn Division"
+		name = "Unicorn Division"
 		location = 20363
 		division_template = "Unicorn Division"
-		start_experience_factor = 1.0
+		start_experience_factor = 0.5
 	}
-	
 	division = {
-		#name = "Infantry Division"
+		name = "Unicorn Division"
 		location = 20363
-		division_template = "Infantry Division"
-		start_experience_factor = 1.0
+		division_template = "Unicorn Division"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Unicorn Division"
+		location = 9942
+		division_template = "Unicorn Division"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Unicorn Division"
+		location = 20454
+		division_template = "Unicorn Division"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Unicorn Division"
+		location = 7849
+		division_template = "Unicorn Division"
+		start_experience_factor = 0.5
+	}
+	division = {
+		name = "Unicorn Division"
+		location = 7849
+		division_template = "Unicorn Division"
+		start_experience_factor = 0.5
+	}
+}
+
+
+#### PRODUCTION
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "EQS"
+		}
+		requested_factories = 6
+		progress = 0.56
+		efficiency = 50
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "EQS" 
+		}
+		requested_factories = 3
+		progress = 0.40
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "EQS"
+		}
+		requested_factories = 2
+		progress = 0.90
+		efficiency = 80
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "EQS"
+		}
+		requested_factories = 1
+		progress = 0.30
+		efficiency = 50
 	}
 }
