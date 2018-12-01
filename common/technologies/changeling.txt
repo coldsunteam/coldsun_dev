@@ -4,6 +4,14 @@ technologies = {
 		allow = {
 			always = no
 		}
+		
+		land_night_attack = 0.30
+		
+		enable_subunits = {
+			changeling
+			colossi
+			bat
+		}
 	}
 	
 	changeling = {

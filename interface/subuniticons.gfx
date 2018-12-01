@@ -9,12 +9,18 @@ spriteTypes = {
 	spriteType = { name = "GFX_unit_earth_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_earth_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_unicorn_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_unicorn_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_pegasi_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_pegasi_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_changeling_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_changeling_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_colossi_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_colossi_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_bat_icon_medium"								textureFile = "gfx/interface/counters/divisions_large/unit_bat_icon.dds" noOfFrames = 2 }
 
 
 	### Small Images ###
 	spriteType = { name = "GFX_unit_earth_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_earth_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_unicorn_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_unicorn_icon.dds" noOfFrames = 2 }
 	spriteType = { name = "GFX_unit_pegasi_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_pegasi_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_changeling_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_changeling_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_colossi_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_colossi_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_bat_icon_medium_white"							textureFile = "gfx/interface/counters/divisions_small/onmap_unit_bat_icon.dds" noOfFrames = 2 }
 
 
 

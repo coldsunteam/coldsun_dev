@@ -1,0 +1,62 @@
+﻿division_template = {
+	name = "Changeling Division"
+
+	regiments = {
+		changeling = { x = 0 y = 0 }
+		changeling = { x = 0 y = 1 }
+        changeling = { x = 0 y = 2 }
+        changeling = { x = 1 y = 0 }
+		changeling = { x = 1 y = 1 }
+        changeling = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Colossi Division"
+
+	regiments = {
+		colossi = { x = 0 y = 0 }
+		colossi = { x = 0 y = 1 }
+        colossi = { x = 0 y = 2 }
+        colossi = { x = 1 y = 0 }
+		colossi = { x = 1 y = 1 }
+        colossi = { x = 1 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Bat Division"
+
+	regiments = {
+		bat = { x = 0 y = 0 }
+		bat = { x = 0 y = 1 }
+        bat = { x = 0 y = 2 }
+        bat = { x = 1 y = 0 }
+		bat = { x = 1 y = 1 }
+        bat = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	division = {
+		#name = "Bat Division"
+		location = 20363
+		division_template = "Bat Division"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		#name = "Colossi Division"
+		location = 20363
+		division_template = "Colossi Division"
+		start_experience_factor = 1.0
+	}
+	
+	division = {
+		#name = "Changeling Division"
+		location = 20363
+		division_template = "Changeling Division"
+		start_experience_factor = 1.0
+	}
+}
