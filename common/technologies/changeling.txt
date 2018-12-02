@@ -338,7 +338,6 @@ technologies = {
 			leads_to_tech = natural_weapons
 			research_cost_coeff = 1
 		}
-		xor = { alchemical_reproductive_aid }
 		research_cost = 1
 		start_year = 1918
 		folder = {
@@ -419,7 +418,6 @@ technologies = {
 			leads_to_tech = drone_conversion
 			research_cost_coeff = 1
 		}
-		xor = { strengthened_carapace }
 		research_cost = 1
 		start_year = 1918
 		folder = {

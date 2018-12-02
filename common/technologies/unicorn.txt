@@ -18,6 +18,10 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 		
+		enable_subunits = {
+			unicorn
+		}
+		
 		categories = {
 			pony_tech
 		}
@@ -42,6 +46,8 @@ technologies = {
 			name = unicorn_folder
 			position = { x = 0 y = 4 }
 		}
+		
+		research_time_factor = -0.10
 		
 		categories = {
 			pony_tech
@@ -68,6 +74,8 @@ technologies = {
 			position = { x = -2 y = 8 }
 		}
 		
+		research_time_factor = -0.05
+		
 		categories = {
 			pony_tech
 		}
@@ -89,6 +97,10 @@ technologies = {
 			position = { x = -4 y = 12 }
 		}
 		
+		unicorn = {
+			soft_attack = 0.10
+		}
+		
 		categories = {
 			pony_tech
 		}
@@ -104,6 +116,10 @@ technologies = {
 		folder = {
 			name = unicorn_folder
 			position = { x = -4 y = 16 }
+		}
+		
+		unicorn = {
+			soft_attack = 0.10
 		}
 		
 		categories = {
@@ -127,6 +143,11 @@ technologies = {
 			position = { x = -0 y = 12 }
 		}
 		
+		unicorn = {
+			hard_attack = 0.05
+			breakthrough = 0.10
+		}
+		
 		categories = {
 			pony_tech
 		}
@@ -142,6 +163,11 @@ technologies = {
 		folder = {
 			name = unicorn_folder
 			position = { x = -0 y = 16 }
+		}
+		
+		unicorn = {
+			hard_attack = 0.05
+			breakthrough = 0.10
 		}
 		
 		categories = {
@@ -165,6 +191,11 @@ technologies = {
 			position = { x = 2 y = 8 }
 		}
 		
+		unicorn = {
+			entrenchment = 1
+			casualty_trickleback = 0.05
+		}
+		
 		categories = {
 			pony_tech
 		}
@@ -186,6 +217,11 @@ technologies = {
 			position = { x = 2 y = 12 }
 		}
 		
+		unicorn = {
+			initiative = 0.05
+			casualty_trickleback = 0.05
+		}
+		
 		categories = {
 			pony_tech
 		}
@@ -201,6 +237,11 @@ technologies = {
 		folder = {
 			name = unicorn_folder
 			position = { x = 2 y = 16 }
+		}
+		
+		unicorn =  {
+			initiative = 0.10
+			default_morale = 5
 		}
 		
 		categories = {
