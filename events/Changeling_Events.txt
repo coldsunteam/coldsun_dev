@@ -1,0 +1,131 @@
+﻿#############################
+### Changeling Pop Events ###
+#############################
+
+add_namespace = changeling_pop_event
+
+country_event = {
+	id = changeling_pop_event.1
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_tech = changeling_race
+		NOT = {
+			has_country_flag = changeling_pop_started
+		}
+	}
+	
+	option = {
+		name = changeling_pop_event.1.a
+		set_country_flag =  changeling_pop_started
+		every_country = {
+			limit = {
+				has_tech = changeling_race
+			}
+			set_temp_variable = {
+				var = temp_population
+				value = manpower
+			}
+				
+			subtract_from_variable = {
+				var = temp_population
+				value = population
+			}
+				
+			set_temp_variable = {
+				var = temp_bug
+				value = bug_population
+			}
+				
+			add_to_variable = {
+				var = temp_bug
+				value = temp_population
+			}
+			divide_variable = {
+				var = temp_bug 
+				value = 1000
+			}
+					
+			round_variable = bug_population
+				
+			add_to_variable = {
+				var = temp_bug
+				value = bug_population
+			}
+		}
+		
+		every_country = {
+			limit = { has_tech = changeling_race }
+			
+			country_event = {
+				id = changeling_pop_event.2
+				days = 30
+			}
+		}
+	}
+}
+
+country_event = {
+	id = changeling_pop_event.2
+	hidden = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_tech = changeling_race
+		NOT = {
+			has_country_flag = changeling_pop_started
+		}
+	}
+	
+	option = {
+		name = changeling_pop_event.2.a
+		set_country_flag =  changeling_pop_started
+		every_country = {
+			limit = {
+				has_tech = changeling_race
+			}
+			set_temp_variable = {
+				var = temp_population
+				value = manpower
+			}
+				
+			subtract_from_variable = {
+				var = temp_population
+				value = population
+			}
+				
+			set_temp_variable = {
+				var = temp_bug
+				value = bug_population
+			}
+				
+			add_to_variable = {
+				var = temp_bug
+				value = temp_population
+			}
+			divide_variable = {
+				var = temp_bug 
+				value = 1000
+			}
+					
+			round_variable = bug_population
+				
+			add_to_variable = {
+				var = temp_bug
+				value = bug_population
+			}
+		}
+		
+		every_country = {
+			limit = { has_tech = changeling_race }
+			
+			country_event = {
+				id = changeling_pop_event.1
+				days = 30
+			}
+		}
+	}
+}
