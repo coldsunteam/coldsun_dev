@@ -40,7 +40,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 4 }
 		}
 		
 		categories = {
@@ -65,7 +65,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = -2 y = 4 }
+			position = { x = -2 y = 8 }
 		}
 		
 		categories = {
@@ -86,7 +86,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = -4 y = 6 }
+			position = { x = -4 y = 12 }
 		}
 		
 		categories = {
@@ -103,7 +103,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = -4 y = 8 }
+			position = { x = -4 y = 16 }
 		}
 		
 		categories = {
@@ -124,7 +124,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = -0 y = 6 }
+			position = { x = -0 y = 12 }
 		}
 		
 		categories = {
@@ -141,7 +141,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = -0 y = 8 }
+			position = { x = -0 y = 16 }
 		}
 		
 		categories = {
@@ -162,7 +162,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = 2 y = 4 }
+			position = { x = 2 y = 8 }
 		}
 		
 		categories = {
@@ -183,7 +183,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = 2 y = 6 }
+			position = { x = 2 y = 12 }
 		}
 		
 		categories = {
@@ -200,7 +200,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = 2 y = 8 }
+			position = { x = 2 y = 16 }
 		}
 		
 		categories = {
