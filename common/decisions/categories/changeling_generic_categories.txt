@@ -1,0 +1,8 @@
+what_is_love = {
+	icon = generic_crisis
+	priority = 100
+
+	visible = {
+		has_tech = changeling_race
+	}
+}

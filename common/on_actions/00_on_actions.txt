@@ -1,5 +1,35 @@
 on_actions = {
-
+	on_startup = {
+		effect = {
+			every_country = {
+				limit = {
+					has_tech = changeling_race
+				}
+				set_variable = {
+					var = bug_population
+					value = 0
+				}	
+				every_state = {
+					set_temp_variable = {
+						var = temp_population
+						value = state_population
+					}
+				}
+				
+				add_to_variable = {
+					var = bug_population 
+					value = temp_population
+				}
+				
+				round_variable = bug_population
+				
+				divide_variable = {
+					var = bug_population 
+					value = 1000
+				}
+			}
+		}
+	}
 }
 
 

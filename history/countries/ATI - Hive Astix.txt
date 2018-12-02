@@ -3,6 +3,7 @@
 oob = "ATI_1936"
 
 set_technology = {
+	changeling_race = 1
 }
 set_convoys = 10
 set_politics = {

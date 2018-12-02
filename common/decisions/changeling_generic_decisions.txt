@@ -1,0 +1,22 @@
+what_is_love = {
+
+	just_a_test = {
+		icon = generic_industry
+		available = {
+			has_tech = changeling_race
+		}
+		visible = {
+			has_tech = changeling_race
+		}
+
+		cost = 100
+
+		complete_effect = {
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+}
