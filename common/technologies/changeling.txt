@@ -14,16 +14,24 @@ technologies = {
 		}
 	}
 	
-	changeling = {
+	love_research = {
 		path = {
-			leads_to_tech = changeling_1
+			leads_to_tech = artificial_love_creation
 			research_cost_coeff = 1
-		}		
+		}	
+		path = {
+			leads_to_tech = love_refinement
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = long_term_love_storage
+			research_cost_coeff = 1
+		}	
 		research_cost = 1
 		start_year = 1918
 		folder = {
-			name = pony_folder
-			position = { x = 0 y = 1 }
+			name = changeling_folder
+			position = { x = 0 y = 0 }
 		}
 		
 		categories = {
@@ -35,12 +43,429 @@ technologies = {
 		}
 	}
 	
-	changeling_1 = {	
+	artificial_love_creation = {
+		path = {
+			leads_to_tech = improved_love_creation
+			research_cost_coeff = 1
+		}
+		xor = { love_refinement } 
 		research_cost = 1
 		start_year = 1936
 		folder = {
-			name = pony_folder
+			name = changeling_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	improved_love_creation = {
+		path = {
+			leads_to_tech = advanced_love_creation
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advanced_love_creation = {
+		path = {
+			leads_to_tech = advanced_love_creation2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advanced_love_creation2 = {	
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	love_refinement = {	
+		path = {
+			leads_to_tech = improved_love_refinement
+			research_cost_coeff = 1
+		}
+		xor = { artificial_love_creation } 
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
 			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	improved_love_refinement = {	
+		path = {
+			leads_to_tech = advanced_love_refinement
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advanced_love_refinement = {	
+		path = {
+			leads_to_tech = advanced_love_refinement2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advanced_love_refinement2 = {	
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	long_term_love_storage = {	
+		path = {
+			leads_to_tech = battelfield_rations
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
+			position = { x = 2 y = 2 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	battelfield_rations = {	
+		path = {
+			leads_to_tech = battelfield_rations2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	battelfield_rations2 = {
+		path = {
+			leads_to_tech = battelfield_rations3
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	battelfield_rations3 = {	
+		research_cost = 1
+		start_year = 1936
+		folder = {
+			name = changeling_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	
+	
+	
+	
+	
+	colossi = {
+		path = {
+			leads_to_tech = hardened_carapace
+			research_cost_coeff = 1
+		}	
+		path = {
+			leads_to_tech = reproductive_assistance
+			research_cost_coeff = 1
+		}		
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = changeling_folder
+			position = { x = 9 y = 0 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	hardened_carapace = {	
+		path = {
+			leads_to_tech = strengthened_carapace
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = changeling_folder
+			position = { x = 8 y = 2 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	strengthened_carapace = {
+		path = {
+			leads_to_tech = natural_weapons
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = changeling_folder
+			position = { x = 8 y = 4 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	natural_weapons = {	
+		path = {
+			leads_to_tech = battle_transformations
+			research_cost_coeff = 1
+		}
+		xor = { drone_conversion }
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = changeling_folder
+			position = { x = 8 y = 6 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	battle_transformations = {	
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = changeling_folder
+			position = { x = 8 y = 8 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	reproductive_assistance = {	
+		path = {
+			leads_to_tech = alchemical_reproductive_aid
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = changeling_folder
+			position = { x = 10 y = 2 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	alchemical_reproductive_aid = {	
+		path = {
+			leads_to_tech = drone_conversion
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = changeling_folder
+			position = { x = 10 y = 4 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	drone_conversion = {
+		path = {
+			leads_to_tech = colossi_queens
+			research_cost_coeff = 1
+		}
+		xor = { natural_weapons }
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = changeling_folder
+			position = { x = 10 y = 6 }
+		}
+		
+		categories = {
+			changeling_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	colossi_queens = {	
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = changeling_folder
+			position = { x = 10 y = 8 }
 		}
 		
 		categories = {
