@@ -5,12 +5,9 @@ technologies = {
 			always = no
 		}
 		
-		land_night_attack = 0.30
-		
 		enable_subunits = {
 			changeling
 			colossi
-			bat
 		}
 	}
 	
@@ -53,7 +50,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = -2 y = 2 }
+			position = { x = -2 y = 4 }
 		}
 		
 		categories = {
@@ -74,7 +71,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = -2 y = 4 }
+			position = { x = -2 y = 8 }
 		}
 		
 		categories = {
@@ -95,7 +92,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = -2 y = 6 }
+			position = { x = -2 y = 12 }
 		}
 		
 		categories = {
@@ -112,7 +109,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = -2 y = 8 }
+			position = { x = -2 y = 16 }
 		}
 		
 		categories = {
@@ -134,7 +131,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 4 }
 		}
 		
 		categories = {
@@ -155,7 +152,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = 0 y = 4 }
+			position = { x = 0 y = 8 }
 		}
 		
 		categories = {
@@ -176,7 +173,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = 0 y = 6 }
+			position = { x = 0 y = 12 }
 		}
 		
 		categories = {
@@ -193,7 +190,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = 16 }
 		}
 		
 		categories = {
@@ -214,7 +211,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = 2 y = 2 }
+			position = { x = 2 y = 4 }
 		}
 		
 		categories = {
@@ -235,7 +232,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = 2 y = 4 }
+			position = { x = 2 y = 8 }
 		}
 		
 		categories = {
@@ -256,7 +253,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = 2 y = 6 }
+			position = { x = 2 y = 12 }
 		}
 		
 		categories = {
@@ -273,7 +270,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = changeling_folder
-			position = { x = 2 y = 8 }
+			position = { x = 2 y = 16 }
 		}
 		
 		categories = {
@@ -324,7 +321,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = changeling_folder
-			position = { x = 8 y = 2 }
+			position = { x = 8 y = 4 }
 		}
 		
 		categories = {
@@ -341,11 +338,12 @@ technologies = {
 			leads_to_tech = natural_weapons
 			research_cost_coeff = 1
 		}
+		xor = { alchemical_reproductive_aid }
 		research_cost = 1
 		start_year = 1918
 		folder = {
 			name = changeling_folder
-			position = { x = 8 y = 4 }
+			position = { x = 8 y = 8 }
 		}
 		
 		categories = {
@@ -362,12 +360,11 @@ technologies = {
 			leads_to_tech = battle_transformations
 			research_cost_coeff = 1
 		}
-		xor = { drone_conversion }
 		research_cost = 1
 		start_year = 1918
 		folder = {
 			name = changeling_folder
-			position = { x = 8 y = 6 }
+			position = { x = 8 y = 12 }
 		}
 		
 		categories = {
@@ -384,7 +381,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = changeling_folder
-			position = { x = 8 y = 8 }
+			position = { x = 8 y = 16 }
 		}
 		
 		categories = {
@@ -405,7 +402,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = changeling_folder
-			position = { x = 10 y = 2 }
+			position = { x = 10 y = 4 }
 		}
 		
 		categories = {
@@ -422,11 +419,12 @@ technologies = {
 			leads_to_tech = drone_conversion
 			research_cost_coeff = 1
 		}
+		xor = { strengthened_carapace }
 		research_cost = 1
 		start_year = 1918
 		folder = {
 			name = changeling_folder
-			position = { x = 10 y = 4 }
+			position = { x = 10 y = 8 }
 		}
 		
 		categories = {
@@ -443,12 +441,11 @@ technologies = {
 			leads_to_tech = colossi_queens
 			research_cost_coeff = 1
 		}
-		xor = { natural_weapons }
 		research_cost = 1
 		start_year = 1918
 		folder = {
 			name = changeling_folder
-			position = { x = 10 y = 6 }
+			position = { x = 10 y = 12 }
 		}
 		
 		categories = {
@@ -465,7 +462,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = changeling_folder
-			position = { x = 10 y = 8 }
+			position = { x = 10 y = 16 }
 		}
 		
 		categories = {
