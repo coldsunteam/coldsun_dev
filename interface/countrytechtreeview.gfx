@@ -585,22 +585,22 @@ spriteTypes = {
 	#### naval tech ######
 
 	spriteType = {
-		name = "GFX_technology_naval_folder_small_unavailable_item_bg"
+		name = "GFX_technology_navy_folder_small_unavailable_item_bg"
 		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_technology_naval_folder_small_available_item_bg"
+		name = "GFX_technology_navy_folder_small_available_item_bg"
 		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_technology_naval_folder_small_researched_item_bg"
+		name = "GFX_technology_navy_folder_small_researched_item_bg"
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}
 
 	frameAnimatedSpriteType = {
-		name = "GFX_technology_naval_folder_small_currently_researching_item_bg"
+		name = "GFX_technology_navy_folder_small_currently_researching_item_bg"
 		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"
@@ -612,22 +612,22 @@ spriteTypes = {
 	}	
 	
 	spriteType = { 
-		name = "GFX_technology_naval_folder_currently_researching_item_bg"
+		name = "GFX_technology_navy_folder_currently_researching_item_bg"
 		textureFile = "gfx//interface//techtree//tech_naval_currently_researching_item.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_technology_naval_folder_available_item_bg"
+		name = "GFX_technology_navy_folder_available_item_bg"
 		textureFile = "gfx//interface//techtree//tech_naval_available_item_bg.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_technology_naval_folder_unavailable_item_bg"
+		name = "GFX_technology_navy_folder_unavailable_item_bg"
 		textureFile = "gfx//interface//techtree//tech_naval_unavailable_item_bg.dds"
 	}
 	
 	spriteType = {
-		name = "GFX_technology_naval_folder_researched_item_bg"
+		name = "GFX_technology_navy_folder_researched_item_bg"
 		textureFile = "gfx//interface//techtree//tech_naval_researched_item_bg.dds"
 	}			
 	
@@ -1380,28 +1380,29 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}
 	
+	
 	spriteType = {
-		name = "GFX_technology_navy_folder_small_unavailable_item_bg"
+		name = "GFX_technology_changeling_folder_small_unavailable_item_bg"
 		textureFile = "gfx//interface//techtree//tech_doctrine_unavailable_item_bg.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_technology_navy_folder_small_available_item_bg"
+		name = "GFX_technology_changeling_folder_small_available_item_bg"
 		textureFile = "gfx//interface//techtree//tech_doctrine_available_item_bg.dds"
 	}
 
 	spriteType = {
-		name = "GFX_technology_navy_folder_small_researched_item_bg"
+		name = "GFX_technology_changeling_folder_small_researched_item_bg"
 		textureFile = "gfx//interface//techtree//tech_landdoctrine_researched_item_bg.dds"
 	}	
 
 	spriteType = {
-		name = "GFX_technology_navy_folder_small_branch_item_bg"
+		name = "GFX_technology_changeling_folder_small_branch_item_bg"
 		textureFile = "gfx/interface/techtree/tech_doctrine_branch_item_bg.dds"
 	}	
 	
 	frameAnimatedSpriteType = {
-		name = "GFX_technology_navy_folder_small_currently_researching_item_bg"
+		name = "GFX_technology_changeling_folder_small_currently_researching_item_bg"
 		texturefile = "gfx//interface//techtree//tech_doctrine_researching_anim_strip.dds"
 		noOfFrames = 9
 		loadType = "INGAME"

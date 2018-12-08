@@ -1,18 +1,23 @@
 technologies = {
 	earth_race = {
-		research_cost = 1
+		research_cost = 2
 		allow = {
 			always = no
 		}
 	}
 	
 	earth = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		path = {
 			leads_to_tech = earth_agri
 			research_cost_coeff = 1
 		}
+		
+		enable_subunits = {
+			earth
+		}
+		
 		folder = {
 			name = earth_folder
 			position = { x = 0 y = 0 }
@@ -28,7 +33,7 @@ technologies = {
 	}
 	
 	earth_agri = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		path = {
 			leads_to_tech = earth_strength
@@ -38,9 +43,13 @@ technologies = {
 			leads_to_tech = earth_advanced_agri
 			research_cost_coeff = 1
 		}
+		
+		MONTHLY_POPULATION = 0.10
+		production_factory_efficiency_gain_factor = 0.10
+		
 		folder = {
 			name = earth_folder
-			position = { x = 0 y = 2 }
+			position = { x = 0 y = 4 }
 		}
 		
 		categories = {
@@ -53,7 +62,7 @@ technologies = {
 	}
 	
 	earth_strength = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		path = {
 			leads_to_tech = earth_natural_engineering
@@ -61,7 +70,11 @@ technologies = {
 		}
 		folder = {
 			name = earth_folder
-			position = { x = -2 y = 4 }
+			position = { x = -2 y = 8 }
+		}
+		
+		earth = {
+			max_strength = 0.05
 		}
 		
 		categories = {
@@ -73,7 +86,7 @@ technologies = {
 		}
 	}
 	earth_natural_engineering = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		path = {
 			leads_to_tech = earth_magic_industry
@@ -81,8 +94,10 @@ technologies = {
 		}
 		folder = {
 			name = earth_folder
-			position = { x = -2 y = 6 }
+			position = { x = -2 y = 12 }
 		}
+		
+		production_speed_buildings_factor = 0.10
 		
 		categories = {
 			pony_tech
@@ -94,7 +109,7 @@ technologies = {
 	}
 	
 	earth_advanced_agri = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		path = {
 			leads_to_tech = earth_natural_remedies
@@ -102,8 +117,12 @@ technologies = {
 		}
 		folder = {
 			name = earth_folder
-			position = { x = 2 y = 4 }
+			position = { x = 2 y = 8 }
 		}
+		
+		MONTHLY_POPULATION = 0.10
+		production_factory_efficiency_gain_factor = 0.05
+		
 		
 		categories = {
 			pony_tech
@@ -114,7 +133,7 @@ technologies = {
 		}
 	}
 	earth_natural_remedies = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		path = {
 			leads_to_tech = earth_magic_industry
@@ -122,7 +141,11 @@ technologies = {
 		}
 		folder = {
 			name = earth_folder
-			position = { x = 2 y = 6 }
+			position = { x = 2 y = 12 }
+		}
+		
+		field_hospital = {
+			casualty_trickleback = 0.15
 		}
 		
 		categories = {
@@ -135,7 +158,7 @@ technologies = {
 	}
 	
 	earth_magic_industry = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		path = {
 			leads_to_tech = earth_magi_tools
@@ -147,8 +170,11 @@ technologies = {
 		}
 		folder = {
 			name = earth_folder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = 16 }
 		}
+		
+		production_speed_buildings_factor = 0.10
+		industrial_capacity_factory = 0.05
 		
 		categories = {
 			pony_tech
@@ -160,7 +186,7 @@ technologies = {
 	}
 	
 	earth_magi_tools = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		path = {
 			leads_to_tech = earth_magi_tools2
@@ -168,8 +194,11 @@ technologies = {
 		}
 		folder = {
 			name = earth_folder
-			position = { x = -2 y = 10 }
+			position = { x = -2 y = 20 }
 		}
+		
+		line_change_production_efficiency_factor = 0.10
+		production_factory_start_efficiency_factor = 0.05
 		
 		categories = {
 			pony_tech
@@ -181,11 +210,15 @@ technologies = {
 	}
 	
 	earth_magi_tools2 = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
+		
+		line_change_production_efficiency_factor = 0.1
+		production_factory_start_efficiency_factor = 0.05
+		
 		folder = {
 			name = earth_folder
-			position = { x = -2 y = 12 }
+			position = { x = -2 y = 24 }
 		}
 		
 		categories = {
@@ -198,15 +231,23 @@ technologies = {
 	}
 	
 	earth_geomancy = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
 		path = {
 			leads_to_tech = earth_geomancy2
 			research_cost_coeff = 1
 		}
+		
+		earth = {
+			entrenchment  = 2
+		}
+		engineer = {
+			entrenchment  = 1
+		}
+		
 		folder = {
 			name = earth_folder
-			position = { x = 2 y = 10 }
+			position = { x = 2 y = 20 }
 		}
 		
 		categories = {
@@ -219,11 +260,19 @@ technologies = {
 	}
 	
 	earth_geomancy2 = {	
-		research_cost = 1
+		research_cost = 2
 		start_year = 1918
+		
+		earth = {
+			entrenchment  = 2
+		}
+		engineer = {
+			entrenchment  = 1
+		}
+		
 		folder = {
 			name = earth_folder
-			position = { x = 2 y = 12 }
+			position = { x = 2 y = 24 }
 		}
 		
 		categories = {

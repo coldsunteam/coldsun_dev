@@ -7,15 +7,19 @@ technologies = {
 	}
 	
 	unicorn = {	
-		research_cost = 1
-		start_year = 1918
 		path = {
-			leads_to_tech = unicorn2
+			leads_to_tech = spell_development
 			research_cost_coeff = 1
 		}
+		research_cost = 1
+		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = 0 y = 1 }
+			position = { x = 0 y = 0 }
+		}
+		
+		enable_subunits = {
+			unicorn
 		}
 		
 		categories = {
@@ -27,12 +31,217 @@ technologies = {
 		}
 	}
 	
-	unicorn2 = {	
+	spell_development = {	
+		path = {
+			leads_to_tech = spell_matrixes
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = utility_spells
+			research_cost_coeff = 1
+		}
 		research_cost = 1
 		start_year = 1918
 		folder = {
 			name = unicorn_folder
-			position = { x = 0 y = 3 }
+			position = { x = 0 y = 4 }
+		}
+		
+		research_time_factor = -0.10
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	spell_matrixes = {	
+		path = {
+			leads_to_tech = anti_infantry_spells
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = anti_armor_spells
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = unicorn_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		research_time_factor = -0.05
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anti_infantry_spells = {	
+		path = {
+			leads_to_tech = anti_infantry_spells2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = unicorn_folder
+			position = { x = -4 y = 12 }
+		}
+		
+		unicorn = {
+			soft_attack = 0.10
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anti_infantry_spells2 = {	
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = unicorn_folder
+			position = { x = -4 y = 16 }
+		}
+		
+		unicorn = {
+			soft_attack = 0.10
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anti_armor_spells = {	
+		path = {
+			leads_to_tech = anti_armor_spells2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = unicorn_folder
+			position = { x = -0 y = 12 }
+		}
+		
+		unicorn = {
+			hard_attack = 0.05
+			breakthrough = 0.10
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	anti_armor_spells2 = {	
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = unicorn_folder
+			position = { x = -0 y = 16 }
+		}
+		
+		unicorn = {
+			hard_attack = 0.05
+			breakthrough = 0.10
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	utility_spells = {	
+		path = {
+			leads_to_tech = utility_spells2
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = unicorn_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		unicorn = {
+			entrenchment = 1
+			casualty_trickleback = 0.05
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	utility_spells2 = {	
+		path = {
+			leads_to_tech = teleportation
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = unicorn_folder
+			position = { x = 2 y = 12 }
+		}
+		
+		unicorn = {
+			initiative = 0.05
+			casualty_trickleback = 0.05
+		}
+		
+		categories = {
+			pony_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	teleportation = {	
+		research_cost = 1
+		start_year = 1918
+		folder = {
+			name = unicorn_folder
+			position = { x = 2 y = 16 }
+		}
+		
+		unicorn =  {
+			initiative = 0.10
+			default_morale = 5
 		}
 		
 		categories = {
