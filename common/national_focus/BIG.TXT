@@ -1,0 +1,334 @@
+focus_tree = {
+	id = thorax_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			original_tag = BIG
+		}
+	}
+	
+	continuous_focus_position = { x = 200 y = 1900 }
+	
+	focus = {
+		id = BIG_on_the_campaign_trail
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 10
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_hayburns_run
+		icon = GFX_goal_generic_allies_build_infantry
+		mutually_exclusive = { focus = BIG_ironhoof }
+		prerequisite = { focus = BIG_on_the_campaign_trail }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = -3
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_marenaven_speeches
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_hayburns_run }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = -4
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_high_society
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_marenaven_speeches }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = -4
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_foreign_donations
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_high_society }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = -4
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_dirty_politics
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_hayburns_run }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = -2
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_bribe_officials
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_dirty_politics }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = -2
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_rig_votes
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_bribe_officials }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = -2
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_last_laps
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_rig_votes }
+		prerequisite = { focus = BIG_foreign_donations }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = -3
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	
+	focus = {
+		id = BIG_ironhoof
+		icon = GFX_goal_generic_allies_build_infantry
+		mutually_exclusive = { focus = BIG_hayburns_run }
+		prerequisite = { focus = BIG_on_the_campaign_trail }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 3
+		y = 1
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_speak_to_people
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_ironhoof }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 2
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_middle_class
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_speak_to_people }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 2
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_radio_ads
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_middle_class }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 2
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_lercetar_rally
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_ironhoof }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 4
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_sangetau_rally
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_lercetar_rally }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 4
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_countryside_rallies
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_sangetau_rally }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 4
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_chancellor_for_the_people
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_countryside_rallies }
+		prerequisite = { focus = BIG_radio_ads }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 3
+		y = 5
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_first_debate
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_ironhoof focus = BIG_hayburns_run }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 0
+		y = 2
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_second_debate
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_first_debate }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 0
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_third_debate
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_first_debate }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 0
+		y = 4
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_final_count
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_third_debate }
+		prerequisite = { focus = BIG_chancellor_for_the_people focus = BIG_last_laps }
+		relative_position_id = BIG_on_the_campaign_trail
+		x = 0
+		y = 6
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+}
