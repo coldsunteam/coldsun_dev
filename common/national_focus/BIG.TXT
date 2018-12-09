@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = BIG_on_the_campaign_trail
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 10
+		x = 6
 		y = 0
 		cost = 10
 
