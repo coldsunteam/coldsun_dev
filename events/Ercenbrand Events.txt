@@ -383,3 +383,26 @@ country_event = {
 		set_country_flag = BIG_they_chose_peace
 	}
 }
+
+
+### Gain claims on Istrimark and Kradsava
+country_event = {
+	id = big.15
+	title = big.15.t
+	desc = big.15.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+
+	option = {
+		name = big.15.a
+		every_state = {
+			limit = { is_core_of = GPD }
+			add_claim_by = BIG
+		}
+		every_state = {
+			limit = { is_core_of = GPB }
+			add_claim_by = BIG
+		}
+	}
+}
