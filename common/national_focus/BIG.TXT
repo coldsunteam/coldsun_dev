@@ -22,6 +22,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.1
+			}
 		}
 	}
 	
@@ -30,14 +33,18 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		mutually_exclusive = { focus = BIG_ironhoof }
 		prerequisite = { focus = BIG_on_the_campaign_trail }
+		available = {
+			has_country_flag = BIG_chose_hayburn
+		}
 		relative_position_id = BIG_on_the_campaign_trail
 		x = -3
 		y = 1
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = 40
 		}
 	}
 	
@@ -53,6 +60,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.2
+			}
 		}
 	}
 	
@@ -68,6 +78,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.3
+			}
 		}
 	}
 	
@@ -83,6 +96,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.4
+			}
 		}
 	}
 	
@@ -98,6 +114,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			custom_effect_tooltip = BIG_TT_hayburn_decisions
 		}
 	}
 	
@@ -113,6 +130,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			custom_effect_tooltip = BIG_TT_hayburn_decisions2
 		}
 	}
 	
@@ -128,6 +146,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = -100
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.15
+			}
 		}
 	}
 	
@@ -144,6 +167,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = 40
+			add_war_support = 0.10
 		}
 	}
 	
@@ -153,10 +178,13 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		mutually_exclusive = { focus = BIG_hayburns_run }
 		prerequisite = { focus = BIG_on_the_campaign_trail }
+		available = {
+			has_country_flag = BIG_chose_ironhoof
+		}
 		relative_position_id = BIG_on_the_campaign_trail
 		x = 3
 		y = 1
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = yes
 
@@ -176,6 +204,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = -60
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.10
+			}
 		}
 	}
 	
@@ -191,6 +224,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = -80
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.10
+			}
 		}
 	}
 	
@@ -206,6 +244,11 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = -100
+			add_popularity = {
+				ideology = neutrality
+				popularity = 0.15
+			}
 		}
 	}
 	
@@ -221,6 +264,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.5
+			}
 		}
 	}
 	
@@ -236,6 +282,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.6
+			}
 		}
 	}
 	
@@ -251,6 +300,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.7
+			}
 		}
 	}
 	
@@ -267,6 +319,8 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.20
 		}
 	}
 	
@@ -282,6 +336,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.8
+			}
 		}
 	}
 	
@@ -297,13 +354,16 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.9
+			}
 		}
 	}
 	
 	focus = {
 		id = BIG_third_debate
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_first_debate }
+		prerequisite = { focus = BIG_second_debate }
 		relative_position_id = BIG_on_the_campaign_trail
 		x = 0
 		y = 4
@@ -312,6 +372,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.10
+			}
 		}
 	}
 	
@@ -328,6 +391,26 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			custom_effect_tooltip = BIG_TT_end_of_election
+			
+			hidden_effect = {
+				if = {
+					limit = {
+						fascism > 0.50
+					}
+				}
+				
+				else_if = {
+					limit = {
+						neutrality > 0.50
+					}
+					
+					set_politics = {
+						ruling_party = neutrality
+						elections_allowed = no
+					}
+				}
+			}
 		}
 	}
 	
@@ -336,9 +419,12 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = BIG_final_count }
 		relative_position_id = BIG_on_the_campaign_trail
+		bypass = {
+			has_government = fascism
+		}
 		x = -4
 		y = 7
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = yes
 
@@ -350,10 +436,13 @@ focus_tree = {
 		id = BIG_ironhoof_wins
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = BIG_final_count }
+		bypass = {
+			has_government = neutrality
+		}
 		relative_position_id = BIG_on_the_campaign_trail
 		x = 4
 		y = 7
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = yes
 
@@ -373,6 +462,9 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			country_event = {
+				id = big.11
+			}
 		}
 	}
 	
@@ -382,14 +474,21 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = BIG_secure_vendiactra }
 		mutually_exclusive = { focus = BIG_takeover }
+		available = {
+			has_country_flag = BIG_they_chose_peace
+		}
 		relative_position_id = BIG_on_the_campaign_trail
 		x = -1
 		y = 9
-		cost = 10
+		cost = 4
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = GPE
+			}
 		}
 	}
 	
@@ -398,10 +497,13 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = BIG_secure_vendiactra }
 		mutually_exclusive = { focus = BIG_annexation }
+		available = {
+			has_country_flag = BIG_they_chose_war
+		}
 		relative_position_id = BIG_on_the_campaign_trail
 		x = 1
 		y = 9
-		cost = 10
+		cost = 4
 
 		available_if_capitulated = yes
 
@@ -421,10 +523,14 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			every_state = {
+				limit = { is_core_of = GPE }
+				add_core_of = GPE
+			}
 		}
 	}
 	
-	focus = {
+	focus = { ### Do later
 		id = BIG_visit_to_capital
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = BIG_annexation }
@@ -439,7 +545,7 @@ focus_tree = {
 		}
 	}
 	
-	focus = {
+	focus = { ### Do Later
 		id = BIG_military_integration
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = BIG_takeover }
