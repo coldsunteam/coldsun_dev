@@ -137,7 +137,7 @@ focus_tree = {
 			}
 			
 			hidden_effect = {
-				country_event = { id = big.5 }
+				country_event = { id = big.5 days = 120 }
 			}
 		}
 	}
@@ -152,11 +152,16 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -4
 		y = 5
-		cost = 1
+		cost = 16
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			remove_ideas = BIG_ID_emergency
+			set_politics = {
+				ruling_party = fascism
+				elections_allowed = no
+			}
 		}
 	}
 	
@@ -167,11 +172,13 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -4
 		y = 6
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = 100
+			add_ideas = BIG_ID_accord_member
 		}
 	}
 	
@@ -182,11 +189,14 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -5
 		y = 7
-		cost = 1
+		cost = 5
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			GPD = {
+				country_event = { id = big.7 }
+			}
 		}
 	}
 	
@@ -197,11 +207,14 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -3
 		y = 7
-		cost = 1
+		cost = 5
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			GPB = {
+				country_event = { id = big.6 }
+			}
 		}
 	}
 	
@@ -213,11 +226,21 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -4
 		y = 8
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			diplomatic_relation = {
+				country = GPE
+				relation = non_aggression_pact
+				active = yes
+			}
+			diplomatic_relation = {
+				country = GPB
+				relation = non_aggression_pact
+				active = yes
+			}
 		}
 	}
 	
@@ -228,11 +251,13 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -6
 		y = 9
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = 100
+			add_ideas = BIG_ID_diplomatic_campaign
 		}
 	}
 	
@@ -243,7 +268,7 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -7
 		y = 10
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
@@ -258,7 +283,7 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -5
 		y = 10
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
@@ -273,7 +298,7 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -6
 		y = 11
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
@@ -288,11 +313,14 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -2
 		y = 9
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			create_faction = "Marenaven Accord"
+			add_to_faction = GPE
+			add_to_faction = GPB
 		}
 	}
 	
@@ -303,11 +331,67 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -1
 		y = 10
-		cost = 1
+		cost = 12
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			GPE = {
+				add_political_power = 100
+				
+				948 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+				949 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 1
+						instant_build = yes
+					}
+				}
+			}
+			
+			GPB = {
+				add_political_power = 100
+				
+				335 = {
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = industrial_complex
+						level = 1
+						instant_build = yes
+					}
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+				731 = {
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = arms_factory
+						level = 2
+						instant_build = yes
+					}
+				}
+			}
 		}
 	}
 	
@@ -323,6 +407,12 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			GPE = {
+				add_ideas = BIG_ID_ercenbrand_military_advisors
+			}
+			GPB = {
+				add_ideas = BIG_ID_ercenbrand_military_advisors
+			}
 		}
 	}
 	
@@ -627,7 +717,7 @@ focus_tree = {
 		prerequisite = { focus = BIG_ercenbrand_forever focus = BIG_free_fetland_and_felland }
 		relative_position_id = BIG_reunion
 		x = 4
-		y = 12
+		y = 13
 		cost = 1
 
 		available_if_capitulated = yes

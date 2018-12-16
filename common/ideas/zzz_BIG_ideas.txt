@@ -53,6 +53,41 @@ ideas = {
 				war_support_factor = -0.40
 			}
 		}
+		
+		BIG_ID_accord_member = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = tfv_can_conscription_crisis
+
+			modifier = {
+				political_power_gain = 0.20
+				trade_laws_cost_factor = -0.10
+				economy_cost_factor = -0.10
+				mobilization_laws_cost_factor = -0.10
+			}
+		}
+		
+		BIG_ID_diplomatic_campaign = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = tfv_can_conscription_crisis
+
+			modifier = {
+				improve_relations_maintain_cost_factor = -0.75
+			}
+		}
+		
+		BIG_ID_ercenbrand_military_advisors = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = tfv_can_conscription_crisis
+
+			modifier = {
+				experience_gain_army = 0.05
+				military_leader_cost_factor = -0.50
+				army_leader_start_level = 1
+			}
+		}
 	}
 	
 	political_advisor = {

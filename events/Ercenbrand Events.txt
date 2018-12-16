@@ -75,7 +75,7 @@ country_event = {  ### To War!
 	}
 }
 
-country_event = {  ### To War!
+country_event = {  ### Hayburns gets assassinated after a parade through Vendiactra's capital
 	id = big.5
 	title = big.5.t
 	desc = big.5.desc
@@ -86,6 +86,54 @@ country_event = {  ### To War!
 	option = { 
 		name = big.5.a	
 		
-		add_idea = BIG_ID_emergency
+		add_ideas = BIG_ID_emergency
+		kill_country_leader = yes
+		create_country_leader = {
+			name = "Emergency Government"
+			picture = "Switzerland_Federal_Council.dds"
+			expire = "2444.1.1"
+			ideology = imperialism
+			traits = { }
+		}
+	}
+}
+
+country_event = {  ### For Istrimark
+	id = big.6
+	title = big.6.t
+	desc = big.6.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { ## Sure!
+		name = big.6.a	
+		
+		add_ideas = BIG_ID_accord_member
+	}
+	
+	option = { ## No
+		name = big.6.b
+		
+	}
+}
+
+country_event = {  ### For Kradsava
+	id = big.7
+	title = big.7.t
+	desc = big.7.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { ## Sure!
+		name = big.7.a	
+		
+		add_ideas = BIG_ID_accord_member
+	}
+	
+	option = { ## No
+		name = big.7.b
+		
 	}
 }
