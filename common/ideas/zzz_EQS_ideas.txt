@@ -3,7 +3,7 @@ ideas = {
 		EQS_nationwide_pacifism = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = tfv_can_conscription_crisis
+			picture = nationwide_pacifism
 
 			modifier = {
 				stability_factor = 0.40
@@ -174,7 +174,7 @@ ideas = {
 		EQS_overpopulation = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = prc_low_popular_support3
+			picture = overpopulation
 
 			modifier = {
 				MONTHLY_POPULATION = 2.5
@@ -184,7 +184,7 @@ ideas = {
 		EQS_overpopulation2 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = prc_low_popular_support3
+			picture = overpopulation
 
 			modifier = {
 				MONTHLY_POPULATION = 2.4
@@ -194,7 +194,7 @@ ideas = {
 		EQS_overpopulation3 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = prc_low_popular_support3
+			picture = overpopulation
 
 			modifier = {
 				MONTHLY_POPULATION = 2.3
@@ -204,7 +204,7 @@ ideas = {
 		EQS_overpopulation4 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = prc_low_popular_support3
+			picture = overpopulation
 
 			modifier = {
 				MONTHLY_POPULATION = 2.2
@@ -214,7 +214,7 @@ ideas = {
 		EQS_overpopulation5 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = prc_low_popular_support3
+			picture = overpopulation
 
 			modifier = {
 				MONTHLY_POPULATION = 2.1
@@ -224,7 +224,7 @@ ideas = {
 		EQS_overpopulation6 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = prc_low_popular_support3
+			picture = overpopulation
 
 			modifier = {
 				MONTHLY_POPULATION = 2.0
@@ -234,7 +234,7 @@ ideas = {
 		EQS_overpopulation7 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = prc_low_popular_support3
+			picture = overpopulation
 
 			modifier = {
 				MONTHLY_POPULATION = 1.9
@@ -244,7 +244,7 @@ ideas = {
 		EQS_overpopulation8 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = prc_low_popular_support3
+			picture = overpopulation
 
 			modifier = {
 				MONTHLY_POPULATION = 1.8
@@ -254,7 +254,7 @@ ideas = {
 		EQS_overpopulation9 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = prc_low_popular_support3
+			picture = overpopulation
 
 			modifier = {
 				MONTHLY_POPULATION = 1.7
@@ -264,7 +264,7 @@ ideas = {
 		EQS_overpopulation10 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = prc_low_popular_support3
+			picture = overpopulation
 
 			modifier = {
 				MONTHLY_POPULATION = 1.6
