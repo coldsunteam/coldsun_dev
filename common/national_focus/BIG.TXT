@@ -13,177 +13,86 @@ focus_tree = {
 	continuous_focus_position = { x = 200 y = 3000 }
 	
 	focus = {
-		id = BIG_on_the_campaign_trail
+		id = BIG_reunion
 		icon = GFX_goal_generic_allies_build_infantry
-		x = 6
+		x = 8
 		y = 0
 		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			country_event = {
-				id = big.1
-			}
 		}
 	}
 	
 	focus = {
-		id = BIG_hayburns_run
+		id = BIG_peaceful_integration
 		icon = GFX_goal_generic_allies_build_infantry
-		mutually_exclusive = { focus = BIG_ironhoof }
-		prerequisite = { focus = BIG_on_the_campaign_trail }
-		available = {
-			has_country_flag = BIG_chose_hayburn
+		mutually_exclusive = { focus = BIG_aggressive_solutions }
+		prerequisite = { focus = BIG_reunion }
+		relative_position_id = BIG_reunion
+		x = -4
+		y = 1
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
 		}
-		relative_position_id = BIG_on_the_campaign_trail
+	}
+	
+	focus = {
+		id = BIG_state_integration
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_peaceful_integration }
+		relative_position_id = BIG_reunion
+		x = -5
+		y = 2
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_clean_up_bureaucracy
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_state_integration }
+		relative_position_id = BIG_reunion
+		x = -5
+		y = 3
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_joining_militaries
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_peaceful_integration }
+		relative_position_id = BIG_reunion
 		x = -3
-		y = 1
+		y = 2
 		cost = 1
 
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_political_power = 40
 		}
 	}
 	
 	focus = {
-		id = BIG_marenaven_speeches
+		id = BIG_new_spec_op
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_hayburns_run }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = -4
-		y = 2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.2
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_high_society
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_marenaven_speeches }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = -4
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.3
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_foreign_donations
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_high_society }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = -4
-		y = 4
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.4
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_dirty_politics
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_hayburns_run }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = -2
-		y = 2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			custom_effect_tooltip = BIG_TT_hayburn_decisions
-		}
-	}
-	
-	focus = {
-		id = BIG_bribe_officials
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_dirty_politics }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = -2
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			custom_effect_tooltip = BIG_TT_hayburn_decisions2
-		}
-	}
-	
-	focus = {
-		id = BIG_rig_votes
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_bribe_officials }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = -2
-		y = 4
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = -100
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.15
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_last_laps
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_rig_votes }
-		prerequisite = { focus = BIG_foreign_donations }
-		relative_position_id = BIG_on_the_campaign_trail
+		prerequisite = { focus = BIG_joining_militaries }
+		relative_position_id = BIG_reunion
 		x = -3
-		y = 5
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 40
-			add_war_support = 0.10
-		}
-	}
-	
-	
-	focus = {
-		id = BIG_ironhoof
-		icon = GFX_goal_generic_allies_build_infantry
-		mutually_exclusive = { focus = BIG_hayburns_run }
-		prerequisite = { focus = BIG_on_the_campaign_trail }
-		available = {
-			has_country_flag = BIG_chose_ironhoof
-		}
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 3
-		y = 1
+		y = 3
 		cost = 1
 
 		available_if_capitulated = yes
@@ -193,237 +102,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BIG_speak_to_people
+		id = BIG_full_integration
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_ironhoof }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 2
-		y = 2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = -60
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.10
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_middle_class
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_speak_to_people }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 2
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = -80
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.10
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_radio_ads
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_middle_class }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 2
-		y = 4
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = -100
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.15
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_lercetar_rally
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_ironhoof }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 4
-		y = 2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.5
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_sangetau_rally
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_lercetar_rally }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 4
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.6
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_countryside_rallies
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_sangetau_rally }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 4
-		y = 4
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.7
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_chancellor_for_the_people
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_countryside_rallies }
-		prerequisite = { focus = BIG_radio_ads }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 3
-		y = 5
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_political_power = 100
-			add_stability = 0.20
-		}
-	}
-	
-	focus = {
-		id = BIG_first_debate
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_ironhoof focus = BIG_hayburns_run }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 0
-		y = 2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.8
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_second_debate
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_first_debate }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 0
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.9
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_third_debate
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_second_debate }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 0
-		y = 4
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.10
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_final_count
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_third_debate }
-		prerequisite = { focus = BIG_chancellor_for_the_people focus = BIG_last_laps }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 0
-		y = 6
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			custom_effect_tooltip = BIG_TT_end_of_election
-			
-			hidden_effect = {
-				if = {
-					limit = {
-						fascism > 0.50
-					}
-				}
-				
-				else_if = {
-					limit = {
-						neutrality > 0.50
-					}
-					
-					set_politics = {
-						ruling_party = neutrality
-						elections_allowed = no
-					}
-				}
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_hayburn_wins
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_final_count }
-		relative_position_id = BIG_on_the_campaign_trail
-		bypass = {
-			has_government = fascism
-		}
+		prerequisite = { focus = BIG_clean_up_bureaucracy }
+		prerequisite = { focus = BIG_new_spec_op }
+		relative_position_id = BIG_reunion
 		x = -4
-		y = 7
+		y = 4
 		cost = 1
 
 		available_if_capitulated = yes
@@ -433,423 +118,13 @@ focus_tree = {
 	}
 	
 	focus = {
-		id = BIG_ironhoof_wins
+		id = BIG_state_of_emergency
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_final_count }
-		bypass = {
-			has_government = neutrality
-		}
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 4
-		y = 7
-		cost = 1
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_secure_vendiactra
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_ironhoof_wins focus = BIG_hayburn_wins }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 0
-		y = 8
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.11
-			}
-		}
-	}
-	
-	
-	focus = {
-		id = BIG_annexation
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_secure_vendiactra }
-		mutually_exclusive = { focus = BIG_takeover }
-		available = {
-			has_country_flag = BIG_they_chose_peace
-		}
-		relative_position_id = BIG_on_the_campaign_trail
-		x = -1
-		y = 9
-		cost = 4
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = GPE
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_takeover
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_secure_vendiactra }
-		mutually_exclusive = { focus = BIG_annexation }
-		available = {
-			has_country_flag = BIG_they_chose_war
-		}
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 1
-		y = 9
-		cost = 4
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			annex_country = { target = GPE }
-		}
-	}
-	
-	focus = {
-		id = BIG_integration
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_annexation focus = BIG_takeover }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 0
-		y = 10
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			every_state = {
-				limit = { is_core_of = GPE }
-				add_core_of = BIG
-			}
-		}
-	}
-	
-	focus = { ### Do later
-		id = BIG_visit_to_capital
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_annexation }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = -2
-		y = 10
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = { ### Do Later
-		id = BIG_military_integration
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_takeover }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 2
-		y = 10
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_fight_against_equestria
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_integration }
-		relative_position_id = BIG_on_the_campaign_trail
-		available = {
-			has_war_with = EQS
-			strength_ratio = {
-				tag = EQS
-				ratio > 1
-			}
-		}
-		x = 0
-		y = 11
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_total_war
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_fight_against_equestria }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = -1
-		y = 12
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_stability = -0.10
-			add_ideas = tot_economic_mobilisation
-		}
-	}
-	
-	focus = {
-		id = BIG_every_mare_and_stallion
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_fight_against_equestria }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 1
-		y = 12
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_stability = -0.10
-			add_ideas = all_adults_serve
-		}
-	}
-	
-	focus = {  
-		id = BIG_march_to_victory
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_total_war }
-		prerequisite = { focus = BIG_every_mare_and_stallion }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 0
-		y = 13
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = BIG_victory
-		}
-	}
-	
-	
-	focus = {
-		id = BIG_reassert_southern_claims
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_integration }
-		prerequisite = { focus = BIG_hayburn_wins }
-		relative_position_id = BIG_on_the_campaign_trail
+		prerequisite = { focus = BIG_full_integration }
+		relative_position_id = BIG_reunion
 		x = -4
-		y = 11
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			country_event = {
-				id = big.15
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_return_of_istrimark
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_reassert_southern_claims }
-		relative_position_id = BIG_reassert_southern_claims
-		x = -1
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = GPB
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_return_of_kradsava
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_reassert_southern_claims }
-		relative_position_id = BIG_reassert_southern_claims
-		x = 1
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			create_wargoal = {
-				type = annex_everything
-				target = GPD
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_reintegration
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_return_of_kradsava }
-		prerequisite = { focus = BIG_return_of_istrimark }
-		relative_position_id = BIG_reassert_southern_claims
-		x = 0
-		y = 2
-		cost = 15
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			every_state = {
-				limit = { is_core_of = GPD }
-				add_core_of = BIG
-			}
-			every_state = {
-				limit = { is_core_of = GPB }
-				add_core_of = BIG
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_pacification
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_reintegration }
-		relative_position_id = BIG_reassert_southern_claims
-		x = -2
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = BIG_pacify
-				days = 300
-			}	
-		}
-	}
-	
-	focus = {
-		id = BIG_cultural_conversion	
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_reintegration }
-		relative_position_id = BIG_reassert_southern_claims
-		x = 0
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_timed_idea = {
-				idea = BIG_conversion
-				days = 300
-			}	
-		}
-	}
-	
-	focus = {
-		id = BIG_land_apropriation	
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_cultural_conversion }
-		prerequisite = { focus = BIG_pacification }
-		relative_position_id = BIG_reassert_southern_claims
-		x = -1
-		y = 4
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			335 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			721 = {
-				add_extra_state_shared_building_slots = 2
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-			}
-			956 = {
-				add_extra_state_shared_building_slots = 1
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_military_expansion	
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_reintegration }
-		relative_position_id = BIG_reassert_southern_claims
-		x = 2
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			335 = {
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-			956 = {
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = arms_factory
-					level = 1
-					instant_build = yes
-				}
-			}
-		}
-	}
-	
-	focus = {
-		id = BIG_conscript_the_populace	
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_military_expansion }
-		relative_position_id = BIG_reassert_southern_claims
-		x = 2
-		y = 4
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-			add_ideas = BIG_conscript
-		}
-	}
-	
-	focus = {
-		id = BIG_everlasting_march	
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_conscript_the_populace }
-		prerequisite = { focus = BIG_land_apropriation }
-		available = {
-			NOT = {
-				has_idea = BIG_conversion
-				has_idea = BIG_pacify
-			}
-		}
-		relative_position_id = BIG_reassert_southern_claims
-		x = 0
 		y = 5
-		cost = 10
+		cost = 1
 
 		available_if_capitulated = yes
 
@@ -857,16 +132,14 @@ focus_tree = {
 		}
 	}
 	
-	
 	focus = {
-		id = BIG_marenaven_accord
+		id = BIG_marenaven_accords
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_integration }
-		prerequisite = { focus = BIG_ironhoof_wins }
-		relative_position_id = BIG_on_the_campaign_trail
-		x = 4
-		y = 11
-		cost = 10
+		prerequisite = { focus = BIG_full_integration }
+		relative_position_id = BIG_reunion
+		x = -4
+		y = 5
+		cost = 1
 
 		available_if_capitulated = yes
 
@@ -877,11 +150,11 @@ focus_tree = {
 	focus = {
 		id = BIG_invite_kradsava
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_marenaven_accord }
-		relative_position_id = BIG_marenaven_accord
-		x = -1
-		y = 1
-		cost = 10
+		prerequisite = { focus = BIG_marenaven_accords }
+		relative_position_id = BIG_reunion
+		x = -5
+		y = 6
+		cost = 1
 
 		available_if_capitulated = yes
 
@@ -892,166 +165,442 @@ focus_tree = {
 	focus = {
 		id = BIG_invite_istrimark
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_marenaven_accord }
-		relative_position_id = BIG_marenaven_accord
-		x = 1
-		y = 1
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_war_prep
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_invite_istrimark }
-		prerequisite = { focus = BIG_invite_kradsava }
-		relative_position_id = BIG_marenaven_accord
-		x = 0
-		y = 2
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	
-	focus = {
-		id = BIG_kradsava_wartime_industry
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_war_prep }
-		relative_position_id = BIG_marenaven_accord
-		x = -2
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_kradsava_engineers
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_kradsava_wartime_industry }
-		relative_position_id = BIG_marenaven_accord
-		x = -2
-		y = 5
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_tech_sharing
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_war_prep }
-		relative_position_id = BIG_marenaven_accord
-		x = 0
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_tank_programs
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_tech_sharing }
-		relative_position_id = BIG_marenaven_accord
-		x = -1
-		y = 4
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_magic_sharing
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_tech_sharing }
-		relative_position_id = BIG_marenaven_accord
-		x = 1
-		y = 4
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_tech_might
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_magic_sharing }
-		prerequisite = { focus = BIG_tank_programs }
-		relative_position_id = BIG_marenaven_accord
-		x = 0
-		y = 5
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_istrimarkian_special_forces
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_war_prep }
-		relative_position_id = BIG_marenaven_accord
-		x = 2
-		y = 3
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_istrimark_speedsters
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_istrimarkian_special_forces }
-		relative_position_id = BIG_marenaven_accord
-		x = 2
-		y = 5
-		cost = 10
-
-		available_if_capitulated = yes
-
-		completion_reward = {
-		}
-	}
-	
-	focus = {
-		id = BIG_empire_to_last
-		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_istrimark_speedsters }
-		prerequisite = { focus = BIG_tech_might }
-		prerequisite = { focus = BIG_kradsava_engineers }
-		relative_position_id = BIG_marenaven_accord
-		x = 0
+		prerequisite = { focus = BIG_marenaven_accords }
+		relative_position_id = BIG_reunion
+		x = -3
 		y = 6
-		cost = 10
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_pact_against_equestria
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_invite_kradsava }
+		prerequisite = { focus = BIG_invite_istrimark }
+		relative_position_id = BIG_reunion
+		x = -4
+		y = 7
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_unlikely_allies
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_pact_against_equestria }
+		relative_position_id = BIG_reunion
+		x = -6
+		y = 8
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_alliance_with_chrysalis
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_unlikely_allies }
+		relative_position_id = BIG_reunion
+		x = -7
+		y = 9
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_bring_in_the_bats
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_unlikely_allies }
+		relative_position_id = BIG_reunion
+		x = -5
+		y = 9
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_rekindle_prench_alliance
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_unlikely_allies }
+		relative_position_id = BIG_reunion
+		x = -6
+		y = 10
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_formalize_the_pact
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_pact_against_equestria }
+		relative_position_id = BIG_reunion
+		x = -2
+		y = 8
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_economic_assistance
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_formalize_the_pact }
+		relative_position_id = BIG_reunion
+		x = -1
+		y = 9
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_help_our_allies
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_formalize_the_pact }
+		relative_position_id = BIG_reunion
+		x = -3
+		y = 9
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_end_equestrian_influence
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_help_our_allies }
+		relative_position_id = BIG_reunion
+		x = -3
+		y = 10
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_free_fetland_and_felland
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_end_equestrian_influence }
+		prerequisite = { focus = BIG_economic_assistance }
+		relative_position_id = BIG_reunion
+		x = -2
+		y = 11
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	
+	
+	
+	focus = {
+		id = BIG_aggressive_solutions
+		icon = GFX_goal_generic_allies_build_infantry
+		mutually_exclusive = { focus = BIG_peaceful_integration }
+		prerequisite = { focus = BIG_reunion }
+		relative_position_id = BIG_reunion
+		x = 5
+		y = 1
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_gearing_for_war
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_aggressive_solutions }
+		relative_position_id = BIG_reunion
+		x = 6
+		y = 2
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_economic_mobilization
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_aggressive_solutions }
+		relative_position_id = BIG_reunion
+		x = 4
+		y = 2
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_to_arms
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_economic_mobilization }
+		prerequisite = { focus = BIG_gearing_for_war }
+		relative_position_id = BIG_reunion
+		x = 5
+		y = 3
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_annexation_of_vendiactra
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_to_arms }
+		relative_position_id = BIG_reunion
+		x = 5
+		y = 4
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_cut_ties_with_equestria
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_annexation_of_vendiactra }
+		relative_position_id = BIG_reunion
+		x = 5
+		y = 5
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_fight_equestria
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_cut_ties_with_equestria }
+		relative_position_id = BIG_reunion
+		x = 2
+		y = 6
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_anti_equestrian_propaganda
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_fight_equestria }
+		relative_position_id = BIG_reunion
+		x = 1
+		y = 7
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_influence_equestrian_allies
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_fight_equestria }
+		relative_position_id = BIG_reunion
+		x = 3
+		y = 7
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_war_time_espionage
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_anti_equestrian_propaganda }
+		prerequisite = { focus = BIG_influence_equestrian_allies }
+		relative_position_id = BIG_reunion
+		x = 2
+		y = 8
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_intimidate_prance
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_cut_ties_with_equestria }
+		relative_position_id = BIG_reunion
+		x = 5
+		y = 6
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_take_neyghon
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_intimidate_prance }
+		relative_position_id = BIG_reunion
+		x = 5
+		y = 7
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_fight_bats
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_cut_ties_with_equestria }
+		relative_position_id = BIG_reunion
+		x = 8
+		y = 6
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_revenge_for_1132
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_fight_bats }
+		relative_position_id = BIG_reunion
+		x = 7
+		y = 7
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_bash_the_bugs
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_fight_bats }
+		relative_position_id = BIG_reunion
+		x = 9
+		y = 7
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_fight_chrysalis
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_bash_the_bugs }
+		relative_position_id = BIG_reunion
+		x = 9
+		y = 8
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_ercenbrand_forever
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_war_time_espionage }
+		prerequisite = { focus = BIG_take_neyghon }
+		prerequisite = { focus = BIG_revenge_for_1132 }
+		prerequisite = { focus = BIG_fight_chrysalis }
+		relative_position_id = BIG_reunion
+		x = 6
+		y = 9
+		cost = 1
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = BIG_greater_ercenia
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = BIG_ercenbrand_forever focus = BIG_free_fetland_and_felland }
+		relative_position_id = BIG_reunion
+		x = 4
+		y = 12
+		cost = 1
 
 		available_if_capitulated = yes
 
