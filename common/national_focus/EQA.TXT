@@ -291,7 +291,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 	#Focus for Reform the Political Sector
 		focus = { 
 		id = EQA_reformthepoliticalsector
-		icon = GFX_goal_focus_eqs_start #GFX_goal_generic_neutrality_focus
+		icon = GFX_goal_focus_eqa_reform1
 		x = 13
 		y = 0
 		cost = 10
@@ -2692,7 +2692,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 	#Focus for Befriend Ercenbrand
 		focus = { 
 		id = EQA_befriendercenbrand
-		icon = GFX_goal_unknown
+		icon = GFX_goal_focus_ercenbrand
 		x = 15
 		y = 5
 		cost = 10
