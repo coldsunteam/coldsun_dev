@@ -1,6 +1,6 @@
 ﻿add_namespace = big
 
-country_event = {
+country_event = {  ### A Meeting with Vendiactra
 	id = big.1
 	title = big.1.t
 	desc = big.1.desc
@@ -10,5 +10,82 @@ country_event = {
 	
 	option = {
 		name = big.1.a
+		
+		GPE = {
+			country_event = { id = big.2 }
+		}
+	}
+	
+}
+
+country_event = {  ### Vendiactra's Decision
+	id = big.2
+	title = big.2.t
+	desc = big.2.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {  ### We accept.
+		name = big.2.a
+		
+		BIG = {
+			country_event = { id = big.3 }
+		}
+	}
+	
+	option = {  ### We refuse.
+		name = big.2.b
+		
+		BIG = {
+			country_event = { id = big.4 }
+		}
+	}
+}
+
+country_event = {  ### Ercenbrand Reunited
+	id = big.3
+	title = big.3.t
+	desc = big.3.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = big.3.a	
+		
+		set_country_flag = BIG_F_reunited
+	}
+}
+
+country_event = {  ### To War!
+	id = big.4
+	title = big.4.t
+	desc = big.4.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = big.4.a	
+		
+		set_country_flag = BIG_F_refused
+		add_stability = -0.10
+		add_war_support = 0.10
+	}
+}
+
+country_event = {  ### To War!
+	id = big.5
+	title = big.5.t
+	desc = big.5.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = big.5.a	
+		
+		add_idea = BIG_ID_emergency
 	}
 }

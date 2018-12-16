@@ -1,56 +1,56 @@
 ideas = {
 	country = {
-		BIG_victory = {
+		BIG_reunion_movement = {
 			allowed = { always = no }
 			removal_cost = -1
 			picture = tfv_can_conscription_crisis
 
 			modifier = {
 				stability_factor = -0.10
-				war_support_factor = 0.20
-				
-				army_defence_factor = 0.20
-				army_attack_factor = 0.10
-			}
-			
-			equipment_bonus = {
-				infantry_equipment = {
-					build_cost_ic = -0.10
-				}
-			}
-		}
-		
-		
-		BIG_pacify = {
-			allowed = { always = no }
-			removal_cost = -1
-			picture = tfv_can_conscription_crisis
-
-			modifier = {
 				war_support_factor = -0.10
-				political_power_gain = -0.50
-			}
-		}
-		
-		BIG_conversion = {
-			allowed = { always = no }
-			removal_cost = -1
-			picture = tfv_can_conscription_crisis
-
-			modifier = {
-				stability_factor = -0.10
 				political_power_gain = -0.40
 			}
 		}
 		
-		BIG_conscript = {
+		
+		BIG_ID_ongoing_integration = {
 			allowed = { always = no }
 			removal_cost = -1
 			picture = tfv_can_conscription_crisis
 
 			modifier = {
-				stability_factor = -0.10
-				conscription = 0.04
+				political_power_gain = -0.40
+			}
+		}
+		
+		BIG_ID_ongoing_integration2 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = tfv_can_conscription_crisis
+
+			modifier = {
+				political_power_gain = -0.30
+			}
+		}
+		
+		BIG_ID_ongoing_integration3 = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = tfv_can_conscription_crisis
+
+			modifier = {
+				political_power_gain = -0.20
+			}
+		}
+		
+		BIG_ID_emergency = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = tfv_can_conscription_crisis
+
+			modifier = {
+				stability_factor = -0.40
+				war_support_factor = -0.40
 			}
 		}
 	}
