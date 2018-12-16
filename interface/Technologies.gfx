@@ -4216,93 +4216,93 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_earth_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	SpriteType = {
 		name = "GFX_earth_agri_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	SpriteType = {
 		name = "GFX_earth_strength_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	SpriteType = {
 		name = "GFX_earth_natural_engineering_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	SpriteType = {
 		name = "GFX_earth_advanced_agri_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	SpriteType = {
 		name = "GFX_earth_natural_remedies_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	SpriteType = {
 		name = "GFX_earth_magic_industry_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	SpriteType = {
 		name = "GFX_earth_magi_tools_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	SpriteType = {
 		name = "GFX_earth_magi_tools2_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	SpriteType = {
 		name = "GFX_earth_geomancy_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	SpriteType = {
 		name = "GFX_earth_geomancy2_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/advanced_construction.dds"
 	}
 	
 	### Pegasi Technology ###
 	
 	SpriteType = {
 		name = "GFX_pegasi_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	SpriteType = {
 		name = "GFX_pegasi_weather_manipulation_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	SpriteType = {
 		name = "GFX_pegasi_weather_manipulation2_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	SpriteType = {
 		name = "GFX_pegasi_weather_manipulation3_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	SpriteType = {
 		name = "GFX_pegasi_flight_training_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	SpriteType = {
 		name = "GFX_pegasi_flight_training2_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	SpriteType = {
 		name = "GFX_pegasi_flight_training3_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	SpriteType = {
 		name = "GFX_pegasi_thunder_rifles_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	SpriteType = {
 		name = "GFX_pegasi_training_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	SpriteType = {
 		name = "GFX_pegasi_training2_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 	SpriteType = {
 		name = "GFX_pegasi_training3_medium"
-		texturefile = "gfx/interface/technologies/basic_construction.dds"
+		texturefile = "gfx/interface/technologies/artillery1.dds"
 	}
 }

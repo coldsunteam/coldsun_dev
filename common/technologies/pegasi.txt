@@ -22,6 +22,10 @@ technologies = {
 			position = { x = 0 y = 0 }
 		}
 		
+		enable_subunits = {
+			pegasi
+		}
+		
 		categories = {
 			pony_tech
 		}
@@ -40,8 +44,12 @@ technologies = {
 		}
 		folder = {
 			name = pegasi_folder
-			position = { x = -2 y = 2 }
+			position = { x = -2 y = 4 }
 		}
+		
+		air_weather_penalty = -0.10
+		winter_attrition_factor = -0.1
+		heat_attrition_factor = -0.1
 		
 		categories = {
 			pony_tech
@@ -61,8 +69,10 @@ technologies = {
 		}
 		folder = {
 			name = pegasi_folder
-			position = { x = -2 y = 4 }
+			position = { x = -2 y = 8 }
 		}
+		
+		air_weather_penalty = -0.10
 		
 		categories = {
 			pony_tech
@@ -82,8 +92,10 @@ technologies = {
 		}
 		folder = {
 			name = pegasi_folder
-			position = { x = -2 y = 6 }
+			position = { x = -2 y = 12 }
 		}
+		
+		enemy_army_bonus_air_superiority_factor = -0.1
 		
 		categories = {
 			pony_tech
@@ -103,7 +115,11 @@ technologies = {
 		}
 		folder = {
 			name = pegasi_folder
-			position = { x = 2 y = 2 }
+			position = { x = 2 y = 4 }
+		}
+		
+		pegasi = {
+			maximum_speed = 0.05
 		}
 		
 		categories = {
@@ -124,7 +140,11 @@ technologies = {
 		}
 		folder = {
 			name = pegasi_folder
-			position = { x = 2 y = 4 }
+			position = { x = 2 y = 8 }
+		}
+		
+		pegasi = {
+			maximum_speed = 0.05
 		}
 		
 		categories = {
@@ -145,7 +165,11 @@ technologies = {
 		}
 		folder = {
 			name = pegasi_folder
-			position = { x = 2 y = 6 }
+			position = { x = 2 y = 12 }
+		}
+		
+		pegasi = {
+			maximum_speed = 0.05
 		}
 		
 		categories = {
@@ -166,7 +190,11 @@ technologies = {
 		}
 		folder = {
 			name = pegasi_folder
-			position = { x = 0 y = 8 }
+			position = { x = 0 y = 16 }
+		}
+		
+		pegasi = {
+			soft_attack = 0.05
 		}
 		
 		categories = {
@@ -187,7 +215,12 @@ technologies = {
 		}
 		folder = {
 			name = pegasi_folder
-			position = { x = 0 y = 10 }
+			position = { x = 0 y = 20 }
+		}
+		
+		pegasi = {
+			soft_attack = 0.05
+			max_organisation = 5
 		}
 		
 		categories = {
@@ -208,7 +241,12 @@ technologies = {
 		}
 		folder = {
 			name = pegasi_folder
-			position = { x = 0 y = 12 }
+			position = { x = 0 y = 24 }
+		}
+		
+		pegasi = {
+			soft_attack = 0.05
+			max_organisation = 5
 		}
 		
 		categories = {
@@ -225,7 +263,12 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = pegasi_folder
-			position = { x = 0 y = 14 }
+			position = { x = 0 y = 28 }
+		}
+		
+		pegasi = {
+			soft_attack = 0.05
+			max_organisation = 5
 		}
 		
 		categories = {

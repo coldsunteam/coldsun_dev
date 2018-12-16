@@ -1,7 +1,7 @@
 ﻿capital = 730
 set_research_slots = 3
 
-oob = "EQS_start"
+oob = "EQS_2030"
 
 set_technology = {
 	pony_race = 1
