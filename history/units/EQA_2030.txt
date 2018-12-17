@@ -37,8 +37,49 @@ division_template = {
 	}
 }
 
+division_template = {
+	name = "Division Blindée"
+ 	regiments = {
+		medium_armor = { x = 0 y = 0 }
+		medium_armor = { x = 0 y = 1 }
+		medium_armor = { x = 0 y = 2 }
+        medium_armor = { x = 0 y = 3 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Division Motorisée"
+ 	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+        motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+}
+
 
 units = {
+
+	division = {
+		name = "1ère Division Blindée"
+		location = 9443
+		division_template = "Division Blindée"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	
+	division = {
+		name = "1ère Division Motorisée"
+		location = 3265
+		division_template = "Division Motorisée"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1.0
+	}
+	
 	division = {
 		name = "Garde Royale"
 		location = 9443
@@ -60,14 +101,6 @@ units = {
 		location = 10175
 		division_template = "Division Terrestre"
 		start_experience_factor = 0.4
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "Division Terrestre de Fleury"
-		location = 42
-		division_template = "Division Terrestre"
-		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	
@@ -104,23 +137,7 @@ units = {
 	}
 	
 	division = {
-		name = "3ème Division Terrestre Frontalier-Est"
-		location = 3456
-		division_template = "Division Terrestre"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
 		name = "2ème Division Terrestre Frontalier-Est"
-		location = 1488
-		division_template = "Division Terrestre"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "4ème Division Terrestre Frontalier-Est"
 		location = 20421
 		division_template = "Division Terrestre"
 		start_experience_factor = 0.2
@@ -160,14 +177,6 @@ units = {
 	}
 	
 	division = {
-		name = "5ème Division Terrestre Frontalier-Nord"
-		location = 2654
-		division_template = "Division Terrestre"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
 		name = "1ère Division Terrestre Frontalier-Sud"
 		location = 19590
 		division_template = "Division Terrestre"
@@ -176,15 +185,7 @@ units = {
 	}
 	
 	division = {
-		name = "2ème Division Terrestre Frontalier-Sud"
-		location = 19592
-		division_template = "Division Terrestre"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "5ème Division Magique Frontalier-Nord"
+		name = "2ème Division Magique Frontalier-Nord"
 		location = 2655
 		division_template = "Division Magique"
 		start_experience_factor = 0.3
@@ -208,24 +209,8 @@ units = {
 	}
 	
 	division = {
-		name = "Division Magique de Trolouise"
-		location = 3265
-		division_template = "Division Magique"
-		start_experience_factor = 0.2
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
 		name = "Division Magique de Neyghon"
 		location = 10175
-		division_template = "Division Magique"
-		start_experience_factor = 0.3
-		start_equipment_factor = 1.0
-	}
-	
-	division = {
-		name = "Division Magique de Maneille"
-		location = 20408
 		division_template = "Division Magique"
 		start_experience_factor = 0.3
 		start_equipment_factor = 1.0
