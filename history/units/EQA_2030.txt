@@ -9,6 +9,9 @@
 		unicorn = { x = 1 y = 1 }
         unicorn = { x = 1 y = 2 }
 	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
 }
 
 division_template = {
@@ -21,6 +24,9 @@ division_template = {
         earth = { x = 1 y = 0 }
 		earth = { x = 1 y = 1 }
         earth = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
 	}
 }
 
@@ -35,6 +41,9 @@ division_template = {
 		pegasi = { x = 1 y = 1 }
         pegasi = { x = 1 y = 2 }
 	}
+	support = {
+		recon = { x = 0 y = 0 }
+	}
 }
 
 division_template = {
@@ -47,6 +56,7 @@ division_template = {
 		motorized = { x = 1 y = 0 }
 		motorized = { x = 1 y = 1 }
 	}
+	priority = 2
 }
 
 division_template = {
@@ -113,10 +123,10 @@ units = {
 	}
 	
 	division = {
-		name = "Division Terrestre de la Couronne"
+		name = "Division Motorisée de la Couronne"
 		location = 11226
-		division_template = "Division Terrestre"
-		start_experience_factor = 0.1
+		division_template = "Division Motorisée"
+		start_experience_factor = 0.2
 		start_equipment_factor = 1.0
 	}
 	
@@ -230,5 +240,27 @@ units = {
 		division_template = "Division d'Intervention"
 		start_experience_factor = 0.9
 		start_equipment_factor = 1.0
+	}
+	
+	##Marine Nationale
+	navy = {
+		name = "Marine Nationale"
+		base = 9443
+		location = 9443  
+		ship = { name = "Justice" definition = battlecruiser equipment = { battle_cruiser_2 = { amount = 1 owner = EQA } } }
+		ship = { name = "Patrimoine" definition = battlecruiser equipment = { battle_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Givre" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = EQA } } }			
+		ship = { name = "Cristalline" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Briseur" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Admiral Jolie" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } } 					
+		ship = { name = "Vaniteux" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Fier" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = EQA } } }
+		ship = { name = "L'Espoir" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Solide" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = EQA } } }
+		ship = { name = "L'Energétique" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Vigoureux" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Strident" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Dent de Sabre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Faucon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
 	}
 }

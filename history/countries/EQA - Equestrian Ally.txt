@@ -19,6 +19,16 @@ set_technology = {
 	medium_tank = 1
 	motorised_infantry = 1
 	mechanised_infantry = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	basic_heavy_cruiser = 1
+	early_battlecruiser = 1
+	basic_battlecruiser = 1
+	transport = 1
+	landing_craft = 1
+	early_submarine = 1
 }
 set_convoys = 122
 set_politics = {
