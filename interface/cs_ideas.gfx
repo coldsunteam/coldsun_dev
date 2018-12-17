@@ -60,6 +60,26 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/idea_nationwide_pacifism.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_overpopulation1"
+		texturefile = "gfx/interface/ideas/idea_overpopulation1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_overpopulation2"
+		texturefile = "gfx/interface/ideas/idea_overpopulation2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_overpopulation3"
+		texturefile = "gfx/interface/ideas/idea_overpopulation3.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_overpopulation4"
+		texturefile = "gfx/interface/ideas/idea_overpopulation4.dds"
+	}
+	
 	### Prance
 	
 	spriteType = {

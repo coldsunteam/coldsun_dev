@@ -3,11 +3,12 @@
 oob = "GPD_1936"
 
 set_technology = {
-	pony_race = 1
+	unicorn_race = 1
 }
 
 add_ideas = {
 	DEFCON5
+	equestrian_influence
 }
 set_convoys = 10
 set_politics = {
