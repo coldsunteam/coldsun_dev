@@ -3,7 +3,7 @@ ideas = {
 		BIG_reunion_movement = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = tfv_can_conscription_crisis
+			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
 				stability_factor = -0.10
@@ -16,7 +16,7 @@ ideas = {
 		BIG_ID_ongoing_integration = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = tfv_can_conscription_crisis
+			picture = SOV_scientist_defect
 
 			modifier = {
 				political_power_gain = -0.40
@@ -26,7 +26,7 @@ ideas = {
 		BIG_ID_ongoing_integration2 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = tfv_can_conscription_crisis
+			picture = SOV_scientist_defect
 
 			modifier = {
 				political_power_gain = -0.30
@@ -36,7 +36,7 @@ ideas = {
 		BIG_ID_ongoing_integration3 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = tfv_can_conscription_crisis
+			picture = SOV_scientist_defect
 
 			modifier = {
 				political_power_gain = -0.20
@@ -46,7 +46,7 @@ ideas = {
 		BIG_ID_emergency = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = tfv_can_conscription_crisis
+			picture = FRA_matignon_agreements
 
 			modifier = {
 				stability_factor = -0.40
@@ -57,7 +57,7 @@ ideas = {
 		BIG_ID_accord_member = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = tfv_can_conscription_crisis
+			picture = HUN_treaty_of_triannon
 
 			modifier = {
 				political_power_gain = 0.20
@@ -70,7 +70,7 @@ ideas = {
 		BIG_ID_diplomatic_campaign = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = tfv_can_conscription_crisis
+			picture = generic_morale_bonus
 
 			modifier = {
 				improve_relations_maintain_cost_factor = -0.75
@@ -80,7 +80,7 @@ ideas = {
 		BIG_ID_ercenbrand_military_advisors = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = tfv_can_conscription_crisis
+			picture = generic_manpower_bonus
 
 			modifier = {
 				experience_gain_army = 0.05

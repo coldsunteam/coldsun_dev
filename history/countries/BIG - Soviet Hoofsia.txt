@@ -1,9 +1,20 @@
 ﻿capital = 954
 
-oob = "BIG_1936"
+oob = "BIG_2030"
 
 set_technology = {
 	unicorn_race = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_artillery = 1
+	light_tank = 1
+	medium_tank = 1
+	motorised_infantry = 1
+	mechanised_infantry = 1
 }
 
 add_ideas = {

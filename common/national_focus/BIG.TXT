@@ -1,5 +1,5 @@
 focus_tree = {
-	id = thorax_focus
+	id = ercenbrand_focus
 
 	country = {
 		factor = 0
@@ -99,6 +99,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			load_oob = "BIG_join_mil"
 		}
 	}
 	

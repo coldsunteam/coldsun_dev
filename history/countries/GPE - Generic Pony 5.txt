@@ -1,9 +1,13 @@
 ﻿capital = 960
 
-oob = "GPE_1936"
+oob = "GPE_2030"
 
 set_technology = {
 	pegasi_race = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
 }
 
 add_ideas = {
