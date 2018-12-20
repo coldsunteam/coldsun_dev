@@ -1,5 +1,17 @@
 ideas = {
 
+	country = {	
+		equestrian_influence = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = nationwide_pacifism
+
+			modifier = {
+				democratic_drift = 0.04
+				neutrality_drift = 0.02
+			}
+		}
+	}
 	hidden_ideas = {
 
 		continuous_naval_production = {

@@ -11,6 +11,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_equestria.dds"
 	}
 	spriteType = {
+		name = "GFX_goal_focus_ercenbrand"
+		texturefile = "gfx/interface/goals/focus_ercenbrand.dds"
+	}
+	spriteType = {
 		name = "GFX_goal_focus_grade"
 		texturefile = "gfx/interface/goals/focus_grade.dds"
 	}
@@ -40,6 +44,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_goal_focus_eqa_status_quo"
 		texturefile = "gfx/interface/goals/focus_eqa_status_quo.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqa_reform1"
+		texturefile = "gfx/interface/goals/focus_eqa_reform1.dds"
 	}
 	
 	### Equestria Stuff
