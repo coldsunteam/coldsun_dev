@@ -1,26 +1,72 @@
-BIG_dirty_politics = {
+BIG_approach_parliament = {
 
-	BIG_criminal_dealings = {
+	BIG_raise_economic_law = {
 		icon = generic_industry
-		available = {
-		}
-		visible = {
-			always = yes
-		}
+		available = { always = yes }
+		visible = { always = yes }
 		fire_only_once = no
+		days_remove = 10
 
-		days_remove = 40
+		cost = 20
+		remove_effect = {
+			parliament_check_econ = yes
+
+			if = {
+				limit = { 
+					check_variable = { 
+						var = yes
+						value = 10
+						compare = greater_than_or_equals
+					}
+				}
+				country_event = { id = bigparliament.1 }
+			}
+			
+			if = {
+				limit = { 
+					check_variable = { 
+						var = yes
+						value = 10
+						compare = less_than
+					}
+				}
+				country_event = { id = bigparliament.2 }
+			}
+			
+			clear_variable = yes
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	BIG_lower_economic_law = {
+		icon = generic_industry
+		available = { always = yes }
+		visible = { always = yes }
+		fire_only_once = no
+		days_remove = 60
+
+		cost = 20
+		remove_effect = {
+			lower_economy_law = yes
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+	
+	BIG_raise_manpower_law = {
+		icon = generic_industry
+		available = { always = yes }
+		visible = { always = yes }
+		fire_only_once = no
+		days_remove = 60
 
 		cost = 80
-		modifier = {
-			political_power_gain = -0.2
-			stability_weekly = -0.04
-		}
-		complete_effect = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
+		remove_effect = {
 		}
 
 		ai_will_do = {
@@ -28,108 +74,15 @@ BIG_dirty_politics = {
 		}
 	}
 	
-	BIG_backroom_deals = {
+	BIG_lower_manpower_law = {
 		icon = generic_industry
-		available = {
-		}
-		visible = {
-			always = yes
-		}
+		available = { always = yes }
+		visible = { always = yes }
 		fire_only_once = no
+		days_remove = 60
 
-		days_remove = 40
-
-		cost = 100
-		modifier = {
-			political_power_gain = -0.8
-			stability_weekly = -0.08
-		}
-		complete_effect = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.10
-			}
-		}
-
-		ai_will_do = {
-			base = 0
-		}
-	}
-	
-	BIG_rig_marenaven_votes = {
-		icon = generic_industry
-		available = {
-		}
-		visible = {
-			always = yes
-		}
-		fire_only_once = yes
-
-		days_remove = 20
-
-		cost = 100
-		modifier = {
-			political_power_gain = -0.40
-		}
-		complete_effect = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
-		}
-
-		ai_will_do = {
-			base = 0
-		}
-	}
-	
-	BIG_rig_lercetar_votes = {
-		icon = generic_industry
-		available = {
-		}
-		visible = {
-			always = yes
-		}
-		fire_only_once = yes
-
-		days_remove = 20
-
-		cost = 100
-		modifier = {
-			political_power_gain = -0.40
-		}
-		complete_effect = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
-		}
-
-		ai_will_do = {
-			base = 0
-		}
-	}
-	
-	BIG_rig_sangetau_votes = {
-		icon = generic_industry
-		available = {
-		}
-		visible = {
-			always = yes
-		}
-		fire_only_once = yes
-
-		days_remove = 20
-
-		cost = 100
-		modifier = {
-			political_power_gain = -0.40
-		}
-		complete_effect = {
-			add_popularity = {
-				ideology = fascism
-				popularity = 0.05
-			}
+		cost = 80
+		remove_effect = {
 		}
 
 		ai_will_do = {

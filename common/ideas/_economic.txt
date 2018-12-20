@@ -87,6 +87,7 @@ ideas = {
 			available = {
 					has_war_support > 0.15
 					
+					NOT = { has_idea = BIG_ID_parliament }
 					NOT = { has_idea = EQS_magic_of_harmony }
 			}
 			
@@ -116,6 +117,7 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.25
+				NOT = { has_idea = BIG_ID_parliament }
 				NOT = { has_idea = EQS_magic_of_harmony }
 			}
 
@@ -148,6 +150,7 @@ ideas = {
 			available = {
 				has_war_support > 0.5
 				NOT = { has_idea = EQS_magic_of_harmony }
+				NOT = { has_idea = BIG_ID_parliament }
 				OR = {
 					has_government = fascism
 					has_government = communism
@@ -194,6 +197,7 @@ ideas = {
 				has_war = yes
 				has_war_support > 0.8
 				NOT = { has_idea = EQS_magic_of_harmony }
+				NOT = { has_idea = BIG_ID_parliament }
 				any_enemy_country = {
 					ic_ratio = { 
 						tag = ROOT 
@@ -267,6 +271,7 @@ ideas = {
 			
 			available = {
 				NOT = { has_idea = EQS_magic_of_harmony }
+				NOT = { has_idea = BIG_ID_parliament }
 			}
 			
 			
@@ -304,6 +309,7 @@ ideas = {
 			
 			available = {
 				NOT = { has_idea = EQS_magic_of_harmony }
+				NOT = { has_idea = BIG_ID_parliament }
 				OR = {
 					AND = {
 						has_government = democratic
@@ -365,6 +371,7 @@ ideas = {
 			
 			available = {
 				NOT = { has_idea = EQS_magic_of_harmony }
+				NOT = { has_idea = BIG_ID_parliament }
 				has_war = yes
 				OR = { 
 					has_government = fascism

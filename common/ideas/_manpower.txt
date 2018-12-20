@@ -58,6 +58,7 @@ ideas = {
 
 			available = {
 				NOT = { has_idea = EQS_magic_of_harmony }
+				NOT = { has_idea = BIG_ID_parliament }
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
 				NOT = { has_idea = undisturbed_isolation }
@@ -84,6 +85,7 @@ ideas = {
 			
 			available = {
 				NOT = { has_idea = EQS_magic_of_harmony }
+				NOT = { has_idea = BIG_ID_parliament }
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
 					has_government = fascism
@@ -131,6 +133,7 @@ ideas = {
 			
 			available = {
 				NOT = { has_idea = EQS_magic_of_harmony }
+				NOT = { has_idea = BIG_ID_parliament }
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
 					has_government = fascism
@@ -186,6 +189,7 @@ ideas = {
 			
 			available = {
 				NOT = { has_idea = EQS_magic_of_harmony }
+				NOT = { has_idea = BIG_ID_parliament }
 				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
 				has_war = yes
 				OR = {
@@ -236,6 +240,7 @@ ideas = {
 			
 			available = {
 				NOT = { has_idea = EQS_magic_of_harmony }
+				NOT = { has_idea = BIG_ID_parliament }
 				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				has_war = yes
 				OR = {

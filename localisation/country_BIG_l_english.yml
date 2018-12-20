@@ -1,183 +1,19 @@
 ﻿l_english:
+### Ideas ###
+
 ### Focuses ###
 BIG_on_the_campaign_trail:0 "The Campaign Trail"
 BIG_on_the_campaign_trail_desc:0 ""
 
 
-BIG_hayburns_run:0 "Hayburn's Run"
-BIG_hayburns_run_desc:0 ""
-
-BIG_marenaven_speeches:0 "Marenaven Speeches"
-BIG_marenaven_speeches_desc:0 ""
-
-BIG_high_society:0 "High Society Parties"
-BIG_high_society_desc:0 ""
-
-BIG_foreign_donations:0 "Foreign Donations"
-BIG_foreign_donations_desc:0 ""
-
-BIG_dirty_politics:0 "Dirty Politics"
-BIG_dirty_politics_desc:0 ""
-
-BIG_bribe_officials:0 "Bribe Officials"
-BIG_bribe_officials_desc:0 ""
-
-BIG_rig_votes:0 "Rig the Votes"
-BIG_rig_votes_desc:0 ""
-
-BIG_last_laps:0 "Last Laps"
-BIG_last_laps_desc:0 ""
-
-
-
-BIG_ironhoof:0 "Ironhoof's Run"
-BIG_ironhoof_desc:0 ""
-
-BIG_speak_to_people:0 "Speak to the People"
-BIG_speak_to_people_desc:0 ""
-
-BIG_middle_class:0 "Reaching out to the Middle Class"
-BIG_middle_class_desc:0 ""
-
-BIG_radio_ads:0 "Radio Ads"
-BIG_radio_ads_desc:0 ""
-
-BIG_lercetar_rally:0 "Lercetar Rally"
-BIG_lercetar_rally_desc:0 ""
-
-BIG_sangetau_rally:0 "Sangetau Rally"
-BIG_sangetau_rally_desc:0 ""
-
-BIG_countryside_rallies:0 "Countryside Rallies"
-BIG_countryside_rallies_desc:0 ""
-
-BIG_chancellor_for_the_people:0 "Chancellor for the People"
-BIG_chancellor_for_the_people_desc:0 ""
-
-
-
-BIG_first_debate:0 "First Debate"
-BIG_first_debate_desc:0 ""
-
-BIG_second_debate:0 "Second Debate"
-BIG_second_debate_desc:0 ""
-
-BIG_third_debate:0 "Third Debate"
-BIG_third_debate_desc:0 ""
-
-
-
-BIG_final_count:0 "The Final Count"
-BIG_final_count_desc:0 ""
-
-BIG_hayburn_wins:0 "Hayburn Wins"
-BIG_hayburn_wins_desc:0 ""
-
-BIG_ironhoof_wins:0 "Ironhoof Wins"
-BIG_ironhoof_wins_desc:0 ""
-
-BIG_secure_vendiactra:0 "Secure Vendiactra"
-BIG_secure_vendiactra_desc:0 ""
-
-BIG_annexation:0 "Annexation"
-BIG_annexation_desc:0 ""
-
-BIG_takeover:0 "Military Takeover"
-BIG_takeover_desc:0 ""
-
-BIG_integration:0 "Integration"
-BIG_integration_desc:0 ""
-
-BIG_visit_to_capital:0 "A Visit to the Capital"
-BIG_visit_to_capital_desc:0 ""
-
-BIG_military_integration:0 "Military Integration"
-BIG_military_integration_desc:0 ""
-
-BIG_fight_against_equestria:0 "Fight against Equestria"
-BIG_fight_against_equestria_desc:0 ""
-
-BIG_total_war:0 "Total War"
-BIG_total_war_desc:0 ""
-
-BIG_every_mare_and_stallion:0 "Every Mare and Stallion"
-BIG_every_mare_and_stallion_desc:0 ""
-
-BIG_march_to_victory:0 "March to Victory"
-BIG_march_to_victory_desc:0 ""
-
-
-
-BIG_reassert_southern_claims:0 "Reassert Southern Claims"
-BIG_reassert_southern_claims_desc:0 ""
-
-BIG_return_of_istrimark:0 "Return of Istrimark"
-BIG_return_of_istrimark_desc:0 ""
-
-BIG_return_of_kradsava:0 "Return of Kradsava"
-BIG_return_of_kradsava_desc:0 ""
-
-BIG_reintegration:0 "Reintegration"
-BIG_reintegration_desc:0 ""
-
-BIG_pacification:0 "Pacify the Populace"
-BIG_pacification_desc:0 ""
-
-BIG_cultural_conversion:0 "Cultural Conversion"
-BIG_cultural_conversion_desc:0 ""
-
-BIG_land_apropriation:0 "Land Apropriation"
-BIG_land_apropriation_desc:0 ""
-
-BIG_military_expansion:0 "Military Expansion"
-BIG_military_expansion_desc:0 ""
-
-BIG_conscript_the_populace:0 "Conscript the Populace"
-BIG_conscript_the_populace_desc:0 ""
-
-BIG_everlasting_march:0 "Everlasting March"
-BIG_everlasting_march_desc:0 ""
-
-
-
-BIG_marenaven_accord:0 "Marenaven Accord"
-BIG_marenaven_accord_desc:0 ""
-
-BIG_invite_kradsava:0 "Invite Kradsava"
-BIG_invite_kradsava_desc:0 ""
-
-BIG_invite_istrimark:0 "Invite Istrimark"
-BIG_invite_istrimark_desc:0 ""
-
-BIG_war_prep:0 "War Preparations"
-BIG_war_prep_desc:0 ""
-
-BIG_kradsava_wartime_industry:0 "Kradsavian Wartime Industry"
-BIG_kradsava_wartime_industry_desc:0 ""
-
-BIG_kradsava_engineers:0 "Kradsavian Engineers"
-BIG_kradsava_engineers_desc:0 ""
-
-BIG_tech_sharing:0 "Technology Sharing"
-BIG_tech_sharing_desc:0 ""
-
-BIG_tank_programs:0 "Tank Programs"
-BIG_tank_programs_desc:0 ""
-
-BIG_magic_sharing:0 "Magic Sharing Program"
-BIG_magic_sharing_desc:0 ""
-
-BIG_tech_might:0 "Technological MIght"
-BIG_tech_might_desc:0 ""
-
-BIG_istrimarkian_special_forces:0 "Istrimarkian Special Forces"
-BIG_istrimarkian_special_forces_Desc:0 ""
-
-BIG_istrimark_speedsters:0 "Istrimark Speedsters"
-BIG_istrimark_speedsters_desc:0 ""
-
-BIG_empire_to_last:0 "An Empire to Last"
-BIG_empire_to_last_desc:0 ""
+### Decisions ###
+BIG_raise_economic_law:0 "Raise Economy Law"
+BIG_lower_economic_law:0 "Lower Economic Law"
+BIG_raise_manpower_law:0 "Raise Manpower Law"
+BIG_lower_manpower_law:0 "Lower Manpower Law"
+
+## Category ##
+BIG_approach_parliament:0 "Approach Parliament"
 
 
 

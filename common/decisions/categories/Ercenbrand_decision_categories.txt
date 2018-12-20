@@ -1,12 +1,12 @@
-BIG_dirty_politics = {
+BIG_approach_parliament = {
 	icon = generic_propaganda
 
 	available = {
 		tag = BIG
-		has_completed_focus = "BIG_dirty_politics"
 	}
 	visible = {
 		tag = BIG
-		has_completed_focus = "BIG_dirty_politics"
 	}
+	
+	priority = 140
 }

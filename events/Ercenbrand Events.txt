@@ -1,4 +1,5 @@
 ﻿add_namespace = big
+add_namespace = bigparliament
 
 country_event = {  ### A Meeting with Vendiactra
 	id = big.1
@@ -189,5 +190,53 @@ country_event = {  ### Intimidate Prance
 	option = { ## Hon hon, we are true cowards yes
 		name = big.10.a	
 		
+	}
+}
+
+
+
+
+
+
+
+
+country_event = {  ### Yes to raising econ law
+	id = bigparliament.1
+	title = bigparliament.1.t
+	desc = bigparliament.1.desc
+	picture = GFX_report_event_hitler_handshake
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = bigparliament.1.a
+		raise_economy_law = yes
+	}
+}
+
+country_event = {  ### No to raising econ law
+	id = bigparliament.2
+	title = bigparliament.2.t
+	desc = bigparliament.2.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = bigparliament.2.a	
+		lower_economy_law  = yes
+	}
+}
+
+country_event = { 
+	id = bigparliament.3
+	title = bigparliament.3.t
+	desc = bigparliament.3.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { 
+		name = bigparliament.3.a	
 	}
 }

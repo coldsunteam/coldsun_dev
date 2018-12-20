@@ -762,7 +762,11 @@ focus_tree = {
 		completion_reward = {
 			create_wargoal = {
   				type = annex_everything
-  				target = BAT
+  				target = GPD
+  			}
+			create_wargoal = {
+  				type = annex_everything
+  				target = GPB
   			}
 		}
 	}
@@ -825,7 +829,6 @@ focus_tree = {
 	focus = {
 		id = BIG_ercenbrand_forever
 		icon = GFX_goal_generic_allies_build_infantry
-		prerequisite = { focus = BIG_war_time_espionage }
 		prerequisite = { focus = BIG_take_neyghon }
 		prerequisite = { focus = BIG_revenge_for_1132 }
 		prerequisite = { focus = BIG_fight_chrysalis }

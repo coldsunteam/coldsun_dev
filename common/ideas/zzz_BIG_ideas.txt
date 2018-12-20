@@ -16,7 +16,7 @@ ideas = {
 		BIG_ID_ongoing_integration = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = SOV_scientist_defect
+			picture = generic_production_bonus
 
 			modifier = {
 				political_power_gain = -0.40
@@ -26,7 +26,7 @@ ideas = {
 		BIG_ID_ongoing_integration2 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = SOV_scientist_defect
+			picture = generic_production_bonus
 
 			modifier = {
 				political_power_gain = -0.30
@@ -36,7 +36,7 @@ ideas = {
 		BIG_ID_ongoing_integration3 = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = SOV_scientist_defect
+			picture = generic_production_bonus
 
 			modifier = {
 				political_power_gain = -0.20
@@ -93,7 +93,7 @@ ideas = {
 		BIG_ID_ercenbrand_forever = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = generic_manpower_bonus
+			picture = stiff_upper_lip
 
 			modifier = {
 				experience_gain_army = 0.05
@@ -111,10 +111,19 @@ ideas = {
 				has_war_with = EQS
 			}
 			removal_cost = -1
-			picture = generic_manpower_bonus
+			picture = generic_spy_intel
 
 			modifier = {
 				war_support_weekly = 0.01
+			}
+		}
+		
+		BIG_ID_parliament = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_disjointed_gov
+
+			modifier = {
 			}
 		}
 	}

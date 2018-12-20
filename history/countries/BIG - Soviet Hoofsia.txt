@@ -20,6 +20,7 @@ set_technology = {
 add_ideas = {
 	DEFCON5
 	BIG_reunion_movement
+	BIG_ID_parliament
 }
 
 set_convoys = 10
