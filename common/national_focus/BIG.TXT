@@ -274,6 +274,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_opinion_modifier = { target = TSU modifier = BIG_OP_diplomacy }
 		}
 	}
 	
@@ -289,6 +290,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_opinion_modifier = { target = BAT modifier = BIG_OP_diplomacy }
 		}
 	}
 	
@@ -304,6 +306,7 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_opinion_modifier = { target = EQA modifier = BIG_OP_diplomacy }
 		}
 	}
 	
@@ -403,7 +406,7 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -3
 		y = 10
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
@@ -424,11 +427,50 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -3
 		y = 11
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			GPB = {
+				if = {
+					limit = {
+						has_idea = equestrian_influence
+					}
+					
+					remove_ideas = equestrian_influence
+				}
+			}
+			
+			GPD = {
+				if = {
+					limit = {
+						has_idea = equestrian_influence
+					}
+					
+					remove_ideas = equestrian_influence
+				}
+			}
+			
+			GPC = {
+				if = {
+					limit = {
+						has_idea = equestrian_influence
+					}
+					
+					remove_ideas = equestrian_influence
+				}
+			}
+			
+			GPA = {
+				if = {
+					limit = {
+						has_idea = equestrian_influence
+					}
+					
+					remove_ideas = equestrian_influence
+				}
+			}
 		}
 	}
 	
@@ -440,11 +482,19 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = -2
 		y = 12
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = GPA
+			}
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = GPC
+			}
 		}
 	}
 	
