@@ -274,7 +274,10 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_opinion_modifier = { target = TSU modifier = BIG_OP_diplomacy }
+			add_opinion_modifier = { 
+				target = TSU 
+				modifier = BIG_OP_diplomacy 
+			}
 		}
 	}
 	
@@ -509,11 +512,14 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 5
 		y = 1
-		cost = 1
+		cost = 5
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = 100
+			add_stability = -0.10
+			add_war_support = 0.10
 		}
 	}
 	
@@ -524,11 +530,13 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 6
 		y = 2
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_ideas = limited_conscription
+			add_stability = -0.05
 		}
 	}
 	
@@ -539,11 +547,13 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 4
 		y = 2
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_ideas = partial_economic_mobilisation
+			add_stability = -0.05
 		}
 	}
 	
@@ -555,11 +565,15 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 5
 		y = 3
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			create_wargoal = {
+  				type = annex_everything
+  				target = GPE
+  			}
 		}
 	}
 	
@@ -570,11 +584,18 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 5
 		y = 4
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			every_state = {
+				limit = { 
+					is_core_of = GPE
+				}
+				
+				add_core_of = BIG
+			}
 		}
 	}
 	
@@ -585,11 +606,17 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 5
 		y = 5
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = 100
+			
+			add_opinion_modifier = {
+				target = EQS
+				modifier = BIG_OP_cut_ties
+			}
 		}
 	}
 	
@@ -598,13 +625,17 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = BIG_cut_ties_with_equestria }
 		relative_position_id = BIG_reunion
+		available = {
+			has_war_with = EQS
+		}
 		x = 2
 		y = 6
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			
 		}
 	}
 	
@@ -615,11 +646,12 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 1
 		y = 7
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_ideas = BIG_ID_propaganda
 		}
 	}
 	
@@ -630,7 +662,7 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 3
 		y = 7
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
@@ -646,7 +678,7 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 2
 		y = 8
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
@@ -661,11 +693,14 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 5
 		y = 6
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			EQA = {
+				country_event = { id = big.8 }
+			}
 		}
 	}
 	
@@ -674,13 +709,23 @@ focus_tree = {
 		icon = GFX_goal_generic_allies_build_infantry
 		prerequisite = { focus = BIG_intimidate_prance }
 		relative_position_id = BIG_reunion
+		bypass = {
+			owns_state = 271
+			owns_state = 319
+		}
 		x = 5
 		y = 7
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_state_claim = 271
+			add_state_claim = 319
+			create_wargoal = {
+  				type = annex_everything
+  				target = EQA
+  			}
 		}
 	}
 	
@@ -691,11 +736,15 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 8
 		y = 6
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			create_wargoal = {
+  				type = annex_everything
+  				target = BPA
+  			}
 		}
 	}
 	
@@ -706,11 +755,15 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 7
 		y = 7
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			create_wargoal = {
+  				type = annex_everything
+  				target = BAT
+  			}
 		}
 	}
 	
@@ -721,11 +774,32 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 9
 		y = 7
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			if = {
+				limit = {
+					ZIN = { exists = yes }
+				}	
+				
+				create_wargoal = {
+					type = annex_everything
+					target = ZIN
+				}
+			}
+			
+			if = {
+				limit = {
+					VIN = { exists = yes }
+				}	
+				
+				create_wargoal = {
+					type = annex_everything
+					target = VIN
+				}
+			}
 		}
 	}
 	
@@ -736,11 +810,15 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 9
 		y = 8
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = TSU
+			}
 		}
 	}
 	
@@ -754,11 +832,13 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 6
 		y = 9
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_political_power = 100
+			add_ideas = BIG_ID_ercenbrand_forever
 		}
 	}
 	
@@ -769,11 +849,12 @@ focus_tree = {
 		relative_position_id = BIG_reunion
 		x = 4
 		y = 13
-		cost = 1
+		cost = 10
 
 		available_if_capitulated = yes
 
 		completion_reward = {
+			set_cosmetic_tag = BIG_EMP
 		}
 	}
 	

@@ -88,6 +88,35 @@ ideas = {
 				army_leader_start_level = 1
 			}
 		}
+		
+		
+		BIG_ID_ercenbrand_forever = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_manpower_bonus
+
+			modifier = {
+				experience_gain_army = 0.05
+				army_attack_factor = 0.10
+				army_defence_factor = 0.10
+				stability_factor = 0.10
+				war_support_factor = 0.10
+			}
+		}
+		
+		
+		BIG_ID_propaganda = {
+			allowed = { 
+				always = no 
+				has_war_with = EQS
+			}
+			removal_cost = -1
+			picture = generic_manpower_bonus
+
+			modifier = {
+				war_support_weekly = 0.01
+			}
+		}
 	}
 	
 	political_advisor = {

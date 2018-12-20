@@ -137,3 +137,57 @@ country_event = {  ### For Kradsava
 		
 	}
 }
+
+country_event = {  ### Intimidate Prance
+	id = big.8
+	title = big.8.t
+	desc = big.8.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { ## Hon hon, we are true cowards yes
+		name = big.8.a	
+		
+		country_event = { id = big.9 }
+	}
+	
+	
+	option = { ## Nevar
+		name = big.8.b
+		
+		country_event = { id = big.10 }
+	}
+}
+
+
+
+country_event = {  ### Intimidate Prance
+	id = big.9
+	title = big.9.t
+	desc = big.9.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { ## Neyghon is ours 
+		name = big.9.a	
+		transfer_state = 271
+		transfer_state = 319
+	
+	}
+}
+
+country_event = {  ### Intimidate Prance
+	id = big.10
+	title = big.10.t
+	desc = big.10.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { ## Hon hon, we are true cowards yes
+		name = big.10.a	
+		
+	}
+}

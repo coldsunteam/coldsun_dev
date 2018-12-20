@@ -10,7 +10,11 @@
 
 opinion_modifiers = {
 
-	BIG_OP_diplomacy = { #special used for civil wars that are on hold and blocks faction stuff
+	BIG_OP_diplomacy = { 
 		value = 100
+	}
+	
+	BIG_OP_cut_ties = { 
+		value = -100
 	}
 }	
