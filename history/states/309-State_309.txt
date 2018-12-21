@@ -2,17 +2,17 @@
 state={
 	id=309
 	name="STATE_309"
-	
+
 	history={
 		owner = BIG
 		add_core_of = BIG
+
 	}
-	
+
 	provinces={
-		615 805 807 9388 9842 9941 
+		615 805 9388 9842 9941 
 	}
 	manpower=184221
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	impassable = yes
 }

@@ -2,16 +2,16 @@
 state={
 	id=188
 	name="STATE_188"
-	provinces={
-		2190 2623 2624 2625 2626 2627 2629 2632 3099 3100 6364 8180 8799 9881 11002 
-	}
-	
+
 	history={
 		owner = BPC
 		add_core_of = BPC
 
 	}
 
+	provinces={
+		2624 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=metropolis
