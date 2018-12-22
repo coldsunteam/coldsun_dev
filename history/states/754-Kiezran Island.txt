@@ -3,12 +3,9 @@ state={
 	id=754
 	name="STATE_754"
 	provinces={
-		8939 9110 9424 10342 11621 
+		3166 6940 11122 21225 
 	}
-	
-	
-	
 	manpower=100
-	state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
