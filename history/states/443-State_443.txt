@@ -14,13 +14,15 @@ state={
 			industrial_complex = 2
 			7118 = {
 				naval_base = 2
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		3225 7118 8312 
+		3225 7118 7119 8312 
 	}
 	manpower=19542000
 	buildings_max_level_factor=1.000

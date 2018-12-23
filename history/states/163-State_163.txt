@@ -3,7 +3,7 @@ state={
 	id=163
 	name="STATE_163"
 	provinces={
-		856 2068 7733 21079 21081 21232 
+		856 2068 7733 21068 21079 21081 21232 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
