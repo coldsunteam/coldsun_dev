@@ -1488,7 +1488,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			swap_ideas = { remove_idea = EQA_incoherent_management1 add_idea = EQA_incoherent_management2 }
+			custom_effect_tooltip = 7_EQA_tt
 		 } 
 
 	 } 
@@ -1506,46 +1506,10 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			swap_ideas = { remove_idea = EQA_incoherent_management2 add_idea = EQA_incoherent_management3 }
+			custom_effect_tooltip = 9_EQA_tt
 	 } 
 
 	 } 
-	 
-	  #Focus for Crackdown3
-	focus = { 
-	id = EQA_crackdown3
-	icon = GFX_focus_generic_anti_fascist_diplomacy
-	x = 25
-	y = 2
-	cost = 10
-	available_if_capitulated = yes 
-	prerequisite = { focus = EQA_crackdown2 } 
-	ai_will_do = { 
-	 factor = 40
-	 } 
-		completion_reward = { 
-		swap_ideas = { remove_idea = EQA_incoherent_management3 add_idea = EQA_incoherent_management4 }
-		 } 
-
-	 } 
-	 
-	  #Focus for Crackdown4
-		focus = { 
-		id = EQA_crackdown4
-		icon = GFX_focus_generic_anti_fascist_diplomacy
-		x = 25
-		y = 3
-		cost = 20
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_crackdown3 } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-			completion_reward = { 
-			remove_ideas = EQA_incoherent_management4
-			 } 
-
-		 } 
 		 
 	 #Focus for Army Debuff 1
 		focus = { 
@@ -1559,7 +1523,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			swap_ideas = { remove_idea = EQA_divided_army1 add_idea = EQA_divided_army2 }
+			custom_effect_tooltip = 6_EQA_tt
 		 } 
 
 	 } 
@@ -1577,53 +1541,17 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			swap_ideas = { remove_idea = EQA_divided_army2 add_idea = EQA_divided_army3 }
+			custom_effect_tooltip = 8_EQA_tt
 	 } 
 
 	 } 
-	 
-	  #Focus for Army Debuff 3
-		focus = { 
-		id = EQA_removearmydebuff3
-		icon = GFX_goal_rhineland
-		x = 27
-		y = 2
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_removearmydebuff2 } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-			completion_reward = { 
-			swap_ideas = { remove_idea = EQA_divided_army3 add_idea = EQA_divided_army4 }
-			 } 
-
-	 } 
-	 
-	  #Focus for Army Debuff 4
-		focus = { 
-		id = EQA_removearmydebuff4
-		icon = GFX_goal_rhineland
-		x = 27
-		y = 3
-		cost = 20
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_removearmydebuff3 } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-			completion_reward = { 
-			remove_ideas = EQA_divided_army4
-			 } 
-
-		 }
 
 	#Focus for Re-integrate Prench Lands
 		focus = { 
 		id = EQA_reintegrateprenchlands
 		icon = GFX_goal_generic_national_unity
 		x = 26
-		y = 6
+		y = 4
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_endthestryska focus = EQA_endercenbrand } 
@@ -1653,11 +1581,11 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		id = EQA_emergencyintervention
 		icon = GFX_goal_generic_attack_allies
 		x = 26
-		y = 4
+		y = 2
 		cost = 4
 		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_crackdown4 }
-		prerequisite = { focus = EQA_removearmydebuff4 }
+		prerequisite = { focus = EQA_crackdown2 }
+		prerequisite = { focus = EQA_removearmydebuff2 }
 		ai_will_do = { 
 		 factor = 40
 		 } 
@@ -1683,7 +1611,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		id = EQA_endthestryska
 		icon = GFX_goal_generic_attack_allies
 		x = 27
-		y = 5
+		y = 3
 		cost = 4
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_emergencyintervention } 
@@ -1787,7 +1715,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		id = EQA_endercenbrand
 		icon = GFX_goal_generic_attack_allies
 		x = 25
-		y = 5
+		y = 3
 		cost = 4
 		available_if_capitulated = yes
 		prerequisite = { focus = EQA_emergencyintervention }  

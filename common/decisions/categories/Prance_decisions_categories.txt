@@ -1,0 +1,17 @@
+EQA_army_corruption = {
+
+	icon = army_reform
+	available = { 
+        EQA = { has_completed_focus = EQA_removearmydebuff1 }
+	}
+
+}
+
+EQA_gov_corruption = {
+
+	icon = generic_propaganda
+	available = { 
+        EQA = { has_completed_focus = EQA_crackdown1 }
+	}
+
+}
