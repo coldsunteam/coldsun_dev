@@ -16,12 +16,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 2
+
 		}
 
 	}
 
 	provinces={
-		304 308 2511 2513 2957 7975 9216 20359 20360 
+		304 308 2511 2513 2957 7975 9216 11358 20359 20360 
 	}
 	manpower=8845000
 	buildings_max_level_factor=1.000

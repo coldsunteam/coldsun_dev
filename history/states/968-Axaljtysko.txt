@@ -1,3 +1,4 @@
+
 state={
 	id=968
 	name="STATE_968"
@@ -7,9 +8,9 @@ state={
 		add_core_of = BAT
 
 	}
-	
+
 	provinces={
-		4454 4455 5079 10580 11556 20472 20483 
+		9281 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

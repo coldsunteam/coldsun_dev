@@ -1,3 +1,4 @@
+
 state={
 	id=63
 	name="STATE_63"
@@ -5,7 +6,6 @@ state={
 		1029 2519 3707 3839 4805 6175 6312 6400 6475 6559 6929 7508 7783 8112 8262 9329 9346 9439 10585 10612 11284 11736 11777 
 	}
 	manpower=100
-	state_category="metropolis"
 	buildings_max_level_factor=1.000
-	
+	state_category=metropolis
 }

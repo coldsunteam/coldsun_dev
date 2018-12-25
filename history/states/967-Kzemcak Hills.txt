@@ -8,9 +8,9 @@ state={
 		add_core_of = BAT
 
 	}
-	
+
 	provinces={
-		11913 20471 20478 20480 
+		20480 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000
