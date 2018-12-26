@@ -4,14 +4,14 @@ state={
 	name="STATE_967"
 
 	history={
-		owner = BAT
-		add_core_of = BAT
-
+		owner = TZY
+		add_core_of = TZY
 	}
 
 	provinces={
 		20480 
 	}
-	manpower=0
+	manpower=74
 	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

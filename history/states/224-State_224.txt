@@ -2,10 +2,16 @@
 state={
 	id=224
 	name="STATE_224"
-	provinces={
-		2651 2652 2653 4629 4631 9702 10199 10920 21009 21011 21012 21013 21018 21019 
+
+	history={
+		owner = TZY
+		add_core_of = TZY
 	}
-	manpower=100
+
+	provinces={
+		2651 2652 2653 4629 4631 10199 10920 21009 21012 21013 21019 
+	}
+	manpower=64800
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

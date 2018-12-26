@@ -4,14 +4,15 @@ state={
 	name="STATE_974"
 
 	history={
-		owner = BAT
-		add_core_of = BAT
+		owner = TZY
+		add_core_of = TZY
 
 	}
 
 	provinces={
 		5986 6792 20536 20545 20551 21134 
 	}
-	manpower=0
+	manpower=8300
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

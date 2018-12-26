@@ -4,15 +4,14 @@ state={
 	name="STATE_705"
 
 	history={
-		owner = BAT
-		add_core_of = BAT
-
+		owner = TZY
+		add_core_of = TZY
 	}
 
 	provinces={
 		4454 4455 5079 10204 10578 10579 10580 19536 19538 20472 20478 20483 21034 21035 21041 21044 21048 21060 
 	}
-	manpower=100
+	manpower=1273800
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=city
 }

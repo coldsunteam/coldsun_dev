@@ -1,6 +1,6 @@
 ﻿capital = 707
 
-oob = "BAT_1936"
+oob = "TZY_1936"
 
 set_technology = {
 }
