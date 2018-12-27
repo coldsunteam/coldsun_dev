@@ -2,10 +2,16 @@
 state={
 	id=274
 	name="STATE_274"
+
+	history={
+		owner = BAT
+		add_core_of = BAT
+	}
+
 	provinces={
 		4241 20508 20521 21047 21051 21056 21061 
 	}
-	manpower=100
+	manpower=474250
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 }

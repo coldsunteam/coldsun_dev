@@ -6,12 +6,12 @@ state={
 	history={
 		owner = BAT
 		add_core_of = BAT
-
 	}
 
 	provinces={
 		19646 19647 19648 19649 
 	}
-	manpower=0
+	manpower=43500
 	buildings_max_level_factor=1.000
+	state_category=small_island
 }
