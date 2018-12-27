@@ -19,7 +19,7 @@ technologies = {
 		start_year = 2028
 		folder = {
 			name = infantry_folder
-			position = { x = 2 y = -1 }
+			position = { x = 0 y = -1 }
 		}
 		
 		categories = {
@@ -183,149 +183,6 @@ technologies = {
 		}
 	}
 	
-	magical_weapons1 = {	
-		path = {
-			leads_to_tech = magical_weapons2
-			research_cost_coeff = 1
-		}
-		research_cost = 1.5
-		start_year = 1936
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = 1 }
-		}
-		categories = {
-			magical_weapons
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-	magical_weapons2 = {
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
-		cavalry = {
-			soft_attack = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-		}
-		path = {
-			leads_to_tech = magical_weapons3
-			research_cost_coeff = 1
-		}		
-		research_cost = 1.5
-		start_year = 1938
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = 3 }
-		}
-		categories = {
-			magical_weapons
-		}
-		ai_will_do = {
-			factor = 2
-		}
-	}
-	
-	magical_weapons3 = {
-		path = {
-			leads_to_tech = magical_weapons4
-			research_cost_coeff = 1
-		}
-		research_cost = 2
-		start_year = 1939
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = 5 }
-		}
-		categories = {
-			magical_weapons
-		}
-		ai_will_do = {
-			factor = 3	
-		}
-	}
-	magical_weapons4 = {
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
-		cavalry = {
-			soft_attack = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-		}
-		path = {
-			leads_to_tech = magical_weapons5
-			research_cost_coeff = 1
-		}
-		research_cost = 2
-		start_year = 1940
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = 7 }
-		}
-		categories = {
-			magical_weapons
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	magical_weapons5 = {
-		path = {
-			leads_to_tech = magical_weapons6
-			research_cost_coeff = 1
-		}
-		research_cost = 2
-		start_year = 1942
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = 9 }
-		}
-		categories = {
-			magical_weapons
-		}
-		ai_will_do = {
-			factor = 0.8
-		}
-	}
-	magical_weapons6 = {
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
-		cavalry = {
-			soft_attack = 0.1
-		}		
-		motorized = {
-			soft_attack = 0.1
-		}
-		mechanized = {
-			soft_attack = 0.1
-		}		
-		research_cost = 1.5
-		start_year = 1944
-		folder = {
-			name = infantry_folder
-			position = { x = 4 y = 11 }
-		}
-		categories = {
-			magical_weapons
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	tech_support = {
 		enable_equipments = {
 			support_equipment_1
@@ -362,7 +219,7 @@ technologies = {
 		start_year = 1918
 		folder = {
 			name = infantry_folder
-			position = { x = 6 y = -1 }
+			position = { x = 12 y = -1 }
 		}
 		categories = {
 			support_tech

@@ -1,11 +1,17 @@
+
 state={
 	id=252
 	name="STATE_252"
-	provinces={
-		369 370 371 3532 3533 7904 8577 8983 10398 
+
+	history={
+		owner = BPC
+		add_core_of = BPC
 	}
-	manpower=100
-        state_category=metropolis
+
+	provinces={
+		6804 8180 8182 21146 21153 
+	}
+	manpower=32230
 	buildings_max_level_factor=1.000
-     
+	state_category=pastoral
 }

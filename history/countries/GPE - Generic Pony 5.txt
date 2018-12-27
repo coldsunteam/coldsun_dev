@@ -8,6 +8,7 @@ set_technology = {
 
 add_ideas = {
 	DEFCON5
+	equestrian_influence
 }
 set_convoys = 10
 set_politics = {

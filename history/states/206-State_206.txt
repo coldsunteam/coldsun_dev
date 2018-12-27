@@ -3,16 +3,10 @@ state={
 	id=206
 	name="STATE_206"
 
-	history={
-		owner = BPB
-		add_core_of = BPB
-
-	}
-
 	provinces={
-		834 835 837 2191 2192 2602 3101 3102 3103 3105 7843 9332 9333 9334 9335 9588 10575 11254 
+		835 3105 7843 9333 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=wasteland
 }

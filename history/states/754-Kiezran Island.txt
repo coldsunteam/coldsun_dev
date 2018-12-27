@@ -2,13 +2,16 @@
 state={
 	id=754
 	name="STATE_754"
-	provinces={
-		8939 9110 9424 10342 11621 
+
+	history={
+		owner = BPC
+		add_core_of = BPC
 	}
-	
-	
-	
-	manpower=100
-	state_category=metropolis
+
+	provinces={
+		3166 6940 11122 21225 
+	}
+	manpower=34420
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

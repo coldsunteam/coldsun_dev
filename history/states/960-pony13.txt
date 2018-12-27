@@ -15,16 +15,18 @@ state={
 			industrial_complex = 2
 			arms_factory = 3
 			dockyard = 2
+
 		}
 		victory_points = {
 			9970 20 
 		}
+
 	}
 
 	provinces={
-		1711 3408 4850 7341 7342 7416 7417 7418 9569 9570 9732 9733 9970 9993 10341 
+		4850 7341 7342 9732 9970 10341 
 	}
 	manpower=11942000
 	buildings_max_level_factor=1.000
-	state_category = metropolis
+	state_category=metropolis
 }

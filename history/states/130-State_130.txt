@@ -3,10 +3,9 @@ state={
 	id=130
 	name="STATE_130"
 	provinces={
-		1042 1043 1044 1045 1046 1047 1277 1278 1279 1280 1281 6216 6217 7527 10840 
+		3581 
 	}
 	manpower=100
-        state_category=metropolis
 	buildings_max_level_factor=1.000
-     
+	state_category=metropolis
 }

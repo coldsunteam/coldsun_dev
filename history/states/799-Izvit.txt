@@ -3,7 +3,7 @@ state={
 	id=799
 	name="STATE_799"
 	resources={
-		steel=29
+		steel=29.000
 	}
 
 	history={
@@ -14,11 +14,13 @@ state={
 		}
 		buildings = {
 			infrastructure = 4
+
 		}
+
 	}
 
 	provinces={
-		2657 2659 4586 4587 5298 6761 9597 19535 19596 19599 19601 20422 20426 
+		2657 2659 4586 4587 5298 6761 9211 9597 19535 19596 19599 19601 20422 20426 
 	}
 	manpower=2874000
 	buildings_max_level_factor=1.000

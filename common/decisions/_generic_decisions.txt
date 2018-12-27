@@ -81,6 +81,39 @@ political_actions = {
 			}
 		}
 	}
+	
+	
+	remove_equestrian_influence = {
+
+		icon = generic_political_discourse
+
+		available = {
+			has_idea = equestrian_influence
+			has_war = no
+			OR = {
+				democratic < 0.20
+				neutrality < 0.20
+			}
+		}
+
+		visible = {
+			has_idea = equestrian_influence
+		}
+
+		fire_only_once = yes
+
+		days_remove = 70
+
+		cost = 100
+
+		complete_effect = {
+			remove_ideas = equestrian_influence
+		}
+
+		ai_will_do = {
+			base = 40
+		}
+	}
 }
 propaganda_efforts = {
 
