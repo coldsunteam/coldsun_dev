@@ -2,10 +2,16 @@
 state={
 	id=755
 	name="STATE_755"
+
+	history={
+		owner = BPC
+		add_core_of = BPC
+	}
+
 	provinces={
 		1322 3483 5817 21183 21197 21205 21206 21220 21221 21223 
 	}
-	manpower=100
+	manpower=74450
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=town
 }

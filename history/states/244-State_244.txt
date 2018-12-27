@@ -6,13 +6,12 @@ state={
 	history={
 		owner = BPA
 		add_core_of = BPA
-
 	}
 
 	provinces={
 		4419 5965 8682 9417 9640 9641 9993 10064 10367 11643 20572 21149 
 	}
-	manpower=100
+	manpower=4336500
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_city
 }

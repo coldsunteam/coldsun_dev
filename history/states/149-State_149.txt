@@ -6,13 +6,12 @@ state={
 	history={
 		owner = BPC
 		add_core_of = BPC
-
 	}
 
 	provinces={
 		6803 6805 8046 8337 8338 21163 
 	}
-	manpower=100
+	manpower=344304
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 }

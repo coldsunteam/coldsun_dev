@@ -3,12 +3,6 @@ state={
 	id=217
 	name="STATE_217"
 
-	history={
-		owner = BPA
-		add_core_of = BPA
-
-	}
-
 	provinces={
 		800 801 2270 2271 2743 2744 2745 8070 8958 11705 
 	}

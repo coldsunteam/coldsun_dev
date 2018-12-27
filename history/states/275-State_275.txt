@@ -2,10 +2,16 @@
 state={
 	id=275
 	name="STATE_275"
+
+	history={
+		owner = BPB
+		add_core_of = BPB
+	}
+
 	provinces={
 		836 837 4752 6790 6791 21072 21083 21095 21096 21097 21104 
 	}
-	manpower=100
+	manpower=43503
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=pastoral
 }

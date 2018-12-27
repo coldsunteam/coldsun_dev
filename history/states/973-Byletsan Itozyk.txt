@@ -3,12 +3,6 @@ state={
 	id=973
 	name="STATE_973"
 
-	history={
-		owner = BAT
-		add_core_of = BAT
-
-	}
-
 	provinces={
 		852 853 859 5401 8681 9570 11652 21029 21046 21054 21230 
 	}

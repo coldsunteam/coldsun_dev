@@ -2,10 +2,16 @@
 state={
 	id=186
 	name="STATE_186"
+
+	history={
+		owner = BPC
+		add_core_of = BPC
+	}
+
 	provinces={
 		2622 6364 8799 21160 
 	}
-	manpower=100
+	manpower=43325
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }
