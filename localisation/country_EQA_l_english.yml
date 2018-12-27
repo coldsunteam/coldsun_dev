@@ -415,7 +415,7 @@ EQA_divided_army3_desc:0 "The Prench Army is in majority made of officers with t
 EQA_divided_army4:0 "Corrupt Army"
 EQA_divided_army4_desc:0 "The Prench Army is in majority made of officers with ties to the government or nobility, while most competent officers occupy the lower ranks, severely hurting the competence and expertise of the Armed Forces. Despite that, there are still some officers tied to the bureaucracy that has shown remarkable skill."
 EQA_navy_support:0 "La Royale"
-EQA_historical_legacy:0 "Legacy of the Prench Empire"
+EQA_historical_legacy:0 "Prench Chauvinism"
 EQA_marine:0 "Marine Nationale"
 ### tooltips #####
 1_EQA_tt:0 "You will create a new §MGreater Prance§! instead of §Rreclaiming historical Prench holdings§!."

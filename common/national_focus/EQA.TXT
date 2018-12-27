@@ -1561,15 +1561,17 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		available = { 
 		EQA = { controls_state = 345 }
 		EQA = { controls_state = 952 }
-		EQA = { controls_state = 273 }
-		EQA = { controls_state = 247 }
+		EQA = { controls_state = 160 }
+		EQA = { controls_state = 224 }
+		EQA = { controls_state = 256 }
 		EQA = { controls_state = 951 }
 		 } 
 			completion_reward = { 
 			EQA = { add_state_core = 345 } 
 			EQA = { add_state_core = 952 }
-			EQA = { add_state_core = 273 } 
-			EQA = { add_state_core = 247 } 
+			EQA = { add_state_core = 160 } 
+			EQA = { add_state_core = 224 } 
+			EQA = { add_state_core = 256 }
 			EQA = { add_state_core = 951 } 
 			add_war_support = 0.15
 		}
@@ -1973,19 +1975,23 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 42
 		 } 
 		bypass = { 
-		EQA = { owns_state = 273}
-		EQA = { owns_state = 247}
+		EQA = { owns_state = 256}
+		EQA = { owns_state = 224}
+		EQA = { owns_state = 160}
 		EQA = { owns_state = 345}
 		EQA = { owns_state = 952}
+		EQA = { owns_state = 951}
 		 } 
 		available = { 
 		has_army_manpower = { size > 100000 }
 		 } 
 			completion_reward = { 
-			add_state_claim = 273
-			add_state_claim = 247
+			add_state_claim = 256
+			add_state_claim = 224
+			add_state_claim = 160
 			add_state_claim = 345
 			add_state_claim = 952
+			add_state_claim = 951
 		 } 
 
 	 }
