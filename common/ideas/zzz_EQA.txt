@@ -26,9 +26,6 @@ ideas = {
 			modifier = {
 				army_leader_start_defense_level = 1
 				training_time_factor = -0.1
-				experience_loss_factor = -0.10
-				conscription = 0.005
-				army_morale_factor = 0.05
 			}
 		}
 		
@@ -42,10 +39,7 @@ ideas = {
 			
 			modifier = {
 				army_leader_start_attack_level = 1
-				production_speed_arms_factory_factor = 0.1
-				conscription = 0.0075
 				attrition = -0.05
-				land_reinforce_rate = 0.05
 				justify_war_goal_time = -0.1
 			}
 		}
@@ -76,10 +70,8 @@ ideas = {
 			
 			modifier = {
 				command_power_gain = 0.1
-				army_org_factor = 0.03
-				land_reinforce_rate = 0.03
-				defence = 0.04
-				offence = 0.01
+				army_org_factor = 0.04
+				land_reinforce_rate = 0.04
 			}
 		}
 		
@@ -93,10 +85,8 @@ ideas = {
 			
 			modifier = {
 				command_power_gain = 0.15
-				army_org_factor = 0.05
-				land_reinforce_rate = 0.05
-				defence = 0.03
-				offence = 0.02
+				army_org_factor = 0.06
+				land_reinforce_rate = 0.06
 			}
 		}
 		
@@ -176,8 +166,6 @@ ideas = {
 			}
 			
 			modifier = {
-				war_support_weekly = -0.015
-				stability_weekly = 0.02
 				political_power_factor = 0.15
 				trade_opinion_factor = 0.25
 				opinion_gain_monthly_factor = 0.35
@@ -212,9 +200,7 @@ ideas = {
 			}
 			
 			modifier = {
-				political_power_gain = 0.5
-				stability_weekly = 0.01
-				war_support_weekly = 0.01
+				political_power_gain = 0.75
 				command_power_gain = 0.5
 			}
 		}
@@ -399,7 +385,7 @@ ideas = {
 				}
 			}
 			
-		EQA_divided_army = {
+		EQA_divided_army1 = {
 			picture = eqa_corrupt_army
 			removal_cost = -1
 			
@@ -417,6 +403,68 @@ ideas = {
 				max_planning = -0.35
 				command_power_gain_mult = -0.3
 				surrender_limit = -0.1
+				}
+			}
+			
+		EQA_divided_army2 = {
+			picture = eqa_corrupt_army
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				army_core_attack_factor = -0.11
+				army_core_defence_factor = -0.11
+				army_morale_factor = -0.12
+				mobilization_speed = -0.16
+				conscription = -0.008
+				training_time_factor = 0.13
+				max_planning = -0.3
+				command_power_gain_mult = -0.25
+				surrender_limit = -0.1
+				}
+			}
+			
+		EQA_divided_army3 = {
+			picture = eqa_corrupt_army
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				army_core_attack_factor = -0.09
+				army_core_defence_factor = -0.09
+				army_morale_factor = -0.1
+				mobilization_speed = -0.14
+				conscription = -0.005
+				training_time_factor = 0.1
+				max_planning = -0.25
+				command_power_gain_mult = -0.2
+				surrender_limit = -0.075
+				}
+			}
+			
+		EQA_divided_army4 = {
+			picture = eqa_corrupt_army
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				army_core_attack_factor = -0.05
+				army_core_defence_factor = -0.05
+				army_morale_factor = -0.075
+				mobilization_speed = -0.1
+				training_time_factor = 0.05
+				max_planning = -0.15
+				command_power_gain_mult = -0.1
+				surrender_limit = -0.05
 				}
 			}
 			

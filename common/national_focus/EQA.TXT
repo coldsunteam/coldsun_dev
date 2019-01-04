@@ -296,6 +296,14 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		y = 0
 		cost = 10
 		available_if_capitulated = yes 
+		available = {											#####REMOVE THIS FOR LATER - FOR DEBUGGING ONLY
+		tag = EQA
+		AND = {
+			TZY = { has_global_flag = hayris_conference_here }
+			BIG = { has_global_flag = hayris_conference_here }
+			EQS = { has_global_flag = hayris_conference_here }
+		}
+		}
 		ai_will_do = { 
 		 factor = 800
 		 } 
@@ -1592,11 +1600,11 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 		bypass = { 
-		BAT = { exists = no }
+		TZY = { exists = no }
 		BIG = { exists = no }
 		 } 
 		available = { 
-		BAT = { has_added_tension_amount > 25 }
+		TZY = { has_added_tension_amount > 25 }
 		BIG = { has_added_tension_amount > 25 }
 		is_puppet = no
 		 } 
@@ -1621,17 +1629,17 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 20
 		 } 
 		bypass = { 
-		BAT = { exists = no }
+		TZY = { exists = no }
 		 } 
 		available = { 
 		is_puppet = no
 		has_war = no
-		BAT = { has_added_tension_amount > 50 }
+		TZY = { has_added_tension_amount > 50 }
 		 } 
 			completion_reward = { 
 			add_war_support = 0.05
 			add_stability = -0.08
-			create_wargoal = { type = topple_government target = BAT }
+			create_wargoal = { type = topple_government target = TZY }
 		 } 
 
 	 } 
@@ -1672,6 +1680,10 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		y = 8
 		cost = 10
 		available_if_capitulated = yes 
+		available = {
+				EQA = { owns_state = 794 }
+				EQA = { owns_state = 292 }
+		}
 		prerequisite = { focus = EQA_strotsbourgline } 
 		ai_will_do = { 
 		 factor = 40
@@ -1925,7 +1937,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 		bypass = { 
-		has_war_with = BAT
+		has_war_with = TZY
 		has_war_with = BIG
 		 } 
 			completion_reward = { 
@@ -1933,7 +1945,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_war_support = 0.05
 			add_equipment_to_stockpile = { type = infantry_weapons1 amount = -250 producer = }
 			add_opinion_modifier = { target = BIG modifier = threatens_us }
-			add_opinion_modifier = { target = BAT modifier = threatens_us }
+			add_opinion_modifier = { target = TZY modifier = threatens_us }
 		 } 
 
 	 } 
@@ -1952,7 +1964,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 		bypass = { 
 		has_war_with = BIG
-		has_war_with = BAT
+		has_war_with = TZY
 		 } 
 			completion_reward = { 
 			navy_experience = 35
@@ -2053,13 +2065,13 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 		bypass = { 
-		has_war_with = BAT
+		has_war_with = TZY
 		 } 
 		available = { 
 		is_puppet = no
 		 } 
 			completion_reward = { 
-			declare_war_on = { target = BAT type = annex_everything }
+			declare_war_on = { target = TZY type = annex_everything }
 			add_manpower = 50000
 		 } 
 
@@ -2188,7 +2200,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 		available = { 
 		BIG = { exists = yes }
-		BAT = { exists = yes }
+		TZY = { exists = yes }
 		EQS = { exists = yes }
 		is_puppet = no
 		 } 
@@ -2295,7 +2307,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 			completion_reward = { 
 			EQS = { country_event = { days = 1 id = prance.150 } }
-			BAT = { country_event = { days = 1 id = prance.150 } }
+			TZY = { country_event = { days = 1 id = prance.150 } }
 			declare_war_on = { target = BIG type = annex_everything }
 			add_war_support = 0.05
 		 } 
@@ -2318,7 +2330,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		has_global_flag = hayris_conference_eqs
 		 } 
 			completion_reward = { 
-			BAT = { country_event = { days = 1 id = prance.150 } }
+			TZY = { country_event = { days = 1 id = prance.150 } }
 			BIG = { country_event = { days = 1 id = prance.150 } }
 			declare_war_on = { target = EQS type = annex_everything }
 			add_war_support = 0.05
@@ -2339,12 +2351,12 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 		bypass = { 
-		has_global_flag = hayris_conference_bat
+		has_global_flag = hayris_conference_tzy
 		 } 
 			completion_reward = { 
 			EQS = { country_event = { days = 1 id = prance.150 } }
 			BIG = { country_event = { days = 1 id = prance.150 } }
-			declare_war_on = { target = BAT type = annex_everything }
+			declare_war_on = { target = TZY type = annex_everything }
 			add_war_support = 0.05
 		 } 
 
@@ -2399,8 +2411,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_political_power = 250
 			add_opinion_modifier = { target = EQS modifier = facilitator }
 			add_opinion_modifier = { target = BIG modifier = facilitator }
-			add_opinion_modifier = { target = BAT modifier = facilitator }
-			BAT = { give_guarantee = EQA }
+			add_opinion_modifier = { target = TZY modifier = facilitator }
+			TZY = { give_guarantee = EQA }
 			BIG = { give_guarantee = EQA }
 			EQS = { give_guarantee = EQA }
 		 } 
@@ -2450,7 +2462,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			country_event = { days = 1 id = prance.100 }
 			EQS = { country_event = { days = 7 id = prance.101 } }
 			BIG = { country_event = { days = 7 id = prance.103 } }
-			BAT = { country_event = { days = 7 id = prance.102 } }
+			TZY = { country_event = { days = 7 id = prance.102 } }
 			add_political_power = 150
 			add_stability = 0.1
 		 } 
@@ -2469,6 +2481,10 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		ai_will_do = { 
 		 factor = 40
 		 } 
+		available = { 
+			has_war = no
+			is_puppet = no
+		}
 			completion_reward = { 
 			279 = { add_building_construction = { type = air_base level = 2 instant_build = yes } }
 			add_political_power = 50
@@ -2513,7 +2529,11 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		prerequisite = { focus = EQA_hayrisconferencepreparations } 
 		ai_will_do = { 
 		 factor = 40
-		 } 
+		}
+		available = { 
+			has_war = no
+			is_puppet = no
+		}
 			completion_reward = { 
 			add_manpower = 15000
 			add_stability = 0.05
@@ -2611,14 +2631,14 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 		bypass = { 
-		BAT = { exists = no }
+		TZY = { exists = no }
 		 } 
 		available = { 
 		has_war = no
-		BAT = { exists = yes }
+		TZY = { exists = yes }
 		 } 
 			completion_reward = { 
-			add_opinion_modifier = { target = BAT modifier = befriended }
+			add_opinion_modifier = { target = TZY modifier = befriended }
 		 } 
 
 	 } 
@@ -2953,7 +2973,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			completion_reward = { 
 			add_political_power = 90
 			add_manpower = 60000
-			create_wargoal = { type = annex_everything target = BAT }
+			create_wargoal = { type = annex_everything target = TZY }
 			create_wargoal = { type = annex_everything target = BPA }
 			create_wargoal = { type = annex_everything target = BPB }
 		 } 
@@ -3559,7 +3579,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			add_opinion_modifier = { target = BAT modifier = threatens_us }
+			add_opinion_modifier = { target = TZY modifier = threatens_us }
 		 } 
 
 	 }
@@ -3582,7 +3602,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			BAT = { country_event = { days = 5 id = prance.350 } }
+			TZY = { country_event = { days = 5 id = prance.350 } }
 		 } 
 
 	 }
