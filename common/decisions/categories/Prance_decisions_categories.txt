@@ -4,6 +4,9 @@ EQA_army_corruption = {
 	available = { 
         EQA = { has_completed_focus = EQA_removearmydebuff1 }
 	}
+	visible = {
+        EQA = { has_completed_focus = EQA_removearmydebuff1 }
+    }
 
 }
 
@@ -13,5 +16,8 @@ EQA_gov_corruption = {
 	available = { 
         EQA = { has_completed_focus = EQA_crackdown1 }
 	}
+	visible = {
+        EQA = { has_completed_focus = EQA_crackdown1 }
+    }
 
 }

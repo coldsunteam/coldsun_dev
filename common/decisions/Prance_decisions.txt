@@ -185,7 +185,7 @@ EQA_gov_corruption = {
 
 		available = {
 			tag = EQA
-			has_idea = EQA_incoherent_management1
+			has_idea = EQA_incoherent_management4
 		}
 		
 		visible = {
