@@ -299,9 +299,9 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		available = {											#####REMOVE THIS FOR LATER - FOR DEBUGGING ONLY
 		tag = EQA
 		AND = {
-			TZY = { has_global_flag = hayris_conference_here }
-			BIG = { has_global_flag = hayris_conference_here }
-			EQS = { has_global_flag = hayris_conference_here }
+			TZY = { has_country_flag = hayris_conference_here }
+			BIG = { has_country_flag = hayris_conference_here }
+			EQS = { has_country_flag = hayris_conference_here }
 		}
 		}
 		ai_will_do = { 
@@ -642,8 +642,12 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_reformthepoliticalsector } 
 		ai_will_do = { 
-		 factor = 40
-		 } 
+			factor = 40
+				modifier = {
+					add = 40
+					is_historical_focus_on = yes
+			}
+		} 
 			completion_reward = { 
 			add_war_support = 0.01
 			add_stability = 0.05
@@ -700,7 +704,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		cost = 10
 		available_if_capitulated = yes 
 		available = {
-		has_completed_focus = EQA_removearmydebuff4
+		has_completed_focus = EQA_removearmydebuff2
 		}
 		prerequisite = { focus = EQA_approachequestria } 
 		prerequisite = { focus = EQA_approachthecrystalempire } 
@@ -1415,8 +1419,12 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		mutually_exclusive = { focus = EQA_opposeintervention } 
 		mutually_exclusive = { focus = EQA_abandonequestria } 
 		ai_will_do = { 
-		 factor = 800
-		 } 
+		factor = 800
+			modifier = {
+				add = 100
+				is_historical_focus_on = yes
+			}
+		} 
 			completion_reward = { 
 			add_political_power = 25
 			add_opinion_modifier = { target = EQS modifier = remains_cordial }
@@ -2192,7 +2200,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		cost = 10
 		available_if_capitulated = yes 
 		available = {
-		has_completed_focus = EQA_crackdown4
+		has_completed_focus = EQA_crackdown2
 		}
 		prerequisite = { focus = EQA_opposeintervention } 
 		ai_will_do = { 
@@ -2677,7 +2685,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		cost = 10
 		available_if_capitulated = yes 
 		available = {
-		has_completed_focus = EQA_crackdown4
+		has_completed_focus = EQA_crackdown2
 		}
 		prerequisite = { focus = EQA_abandonequestria } 
 		ai_will_do = { 
@@ -2762,7 +2770,6 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 		available = { 
 		is_puppet = no
-		has_completed_focus = EQA_crackdown4
 		 } 
 			completion_reward = { 
 			add_political_power = 180
@@ -2787,8 +2794,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 		available = { 
 		is_puppet = no
-		has_completed_focus = EQA_crackdown4
-		 } 
+		}
 			completion_reward = { 
 			add_political_power = 180
 			add_war_support = 0.15
@@ -2816,7 +2822,6 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 		available = { 
 		is_puppet = no
-		has_completed_focus = EQA_crackdown4
 		 } 
 			completion_reward = { 
 			add_political_power = 50

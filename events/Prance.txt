@@ -132,15 +132,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		ai_will_do = {
+		ai_chance = {
 			factor = 100
 		}
 		name = prance.101.a
-		set_country_flag = hayris_conference_here
+		EQS = { set_country_flag = hayris_conference_here }
 	}
 	
 	option = {
-		ai_will_do = {
+		ai_chance = {
 			factor = 0
 		}
 		name = prance.101.b
@@ -161,15 +161,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		ai_will_do = {
+		ai_chance = {
 			factor = 100
 		}
 		name = prance.103.a
-		set_country_flag = hayris_conference_here
+		BIG = { set_country_flag = hayris_conference_here }
 	}
 	
 	option = {
-		ai_will_do = {
+		ai_chance = {
 			factor = 0
 		}
 		name = prance.103.b
@@ -190,15 +190,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		ai_will_do = {
+		ai_chance = {
 			factor = 100
 		}
 		name = prance.102.a
-		set_country_flag = hayris_conference_here
+		TZY = { set_country_flag = hayris_conference_here }
 	}
 	
 	option = {
-		ai_will_do = {
+		ai_chance = {
 			factor = 0
 		}
 		name = prance.102.b
