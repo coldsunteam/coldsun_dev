@@ -214,7 +214,6 @@ ideas = {
 				political_power_gain = 0.5
 				command_power_gain = 2
 				industrial_capacity_factory = 0.1
-				fascism_drift = 0.6
 			}
 		}
 		
@@ -503,6 +502,19 @@ ideas = {
 				naval_strike = 0.1
 				}
 			}
+			
+		EQA_republicansupport = {
+			picture = generic_democratic_drift_bonus
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				democratic_drift = 0.2
+			}
+		}
 			
 }
 }

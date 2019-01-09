@@ -53,6 +53,10 @@ spriteTypes = {
 		name = "GFX_goal_focus_eqa_republican_movement"
 		texturefile = "gfx/interface/goals/focus_eqa_republican_movement.dds"
 	}
+	spriteType = {
+		name = "GFX_goal_focus_eqa_movement1"
+		texturefile = "gfx/interface/goals/focus_eqa_movement1.dds"
+	}
 	
 	### Equestria Stuff
 

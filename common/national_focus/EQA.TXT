@@ -296,19 +296,11 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		y = 0
 		cost = 10
 		available_if_capitulated = yes 
-		available = {											#####REMOVE THIS FOR LATER - FOR DEBUGGING ONLY
-		tag = EQA
-		AND = {
-			TZY = { has_country_flag = hayris_conference_here }
-			BIG = { has_country_flag = hayris_conference_here }
-			EQS = { has_country_flag = hayris_conference_here }
-		}
-		}
 		ai_will_do = { 
 		 factor = 800
 		 } 
 			completion_reward = { 
-			add_political_power = 75
+			add_political_power = 25
 			add_stability = 0.02
 		} 
 
@@ -649,9 +641,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			}
 		} 
 			completion_reward = { 
-			add_war_support = 0.01
-			add_stability = 0.05
-			add_political_power = 80
+			add_stability = 0.02
+			add_political_power = 15
 	 } 
 
 	 } 
@@ -1420,9 +1411,9 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		mutually_exclusive = { focus = EQA_opposeintervention } 
 		mutually_exclusive = { focus = EQA_abandonequestria } 
 		ai_will_do = { 
-		factor = 800
+		factor = 80
 			modifier = {
-				add = 100
+				add = 40
 				is_historical_focus_on = yes
 			}
 		} 
@@ -1486,7 +1477,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 800
 		 } 
 			completion_reward = { 
-			add_political_power = 140
+			add_political_power = 20
 			add_war_support = 0.03
 			add_stability = 0.08
 		 } 
@@ -1728,7 +1719,6 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_stability = 0.10
 			army_experience = 10
 			add_ideas = EQA_defensive_posture
-			add_popularity = { ideology = democratic popularity = 0.1 }
 		 } 
 
 	 } 
@@ -1784,7 +1774,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_war_support = 0.1
 			add_political_power = -50
 			add_ideas = EQA_aggressive_posture
-			add_popularity = { ideology = neutrality popularity = 0.10 }
+			add_popularity = { ideology = neutrality popularity = 0.05 }
 		 } 
 
 	 } 
@@ -2205,18 +2195,18 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		mutually_exclusive = { focus = EQA_opposeintervention } 
 		mutually_exclusive = { focus = EQA_statusquo } 
 		ai_will_do = { 
-		 factor = 1
+		 factor = 40
 		 } 
 		available = { 
 		is_puppet = no
 		 } 
 			completion_reward = { 
+			EQS = { country_event = { days = 1 id = prance.75 } }
 			add_opinion_modifier = { target = BIG modifier = abandoned_equestria }
 			add_opinion_modifier = { target = EQS modifier = betrayal }
 			add_political_power = -20
 			add_stability = -0.05
 			add_popularity = { ideology = fascism popularity = 0.05 }
-			EQS = { country_event = { days = 1 id = prance.75 } }
 		 } 
 
 	} 
@@ -2240,10 +2230,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		is_puppet = no
 		 } 
 			completion_reward = { 
-			add_political_power = 125
+			add_political_power = 50
 			add_stability = -0.05
-			add_popularity = { ideology = fascism popularity = 0.08 }
-			add_popularity = { ideology = neutrality popularity = 0.05 }
 		 } 
 
 	 } 
@@ -2259,7 +2247,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		prerequisite = { focus = EQA_strenghtengovernment } 
 		mutually_exclusive = { focus = EQA_ourownpath }
 		ai_will_do = { 
-		 factor = 80
+		 factor = 1
 		 } 
 		available = { 
 		is_puppet = no
@@ -2274,30 +2262,6 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 
 	 } 
-	 
-	#Focus for Republican Movement
-		focus = { 
-		id = EQA_republicaprima
-		icon = GFX_goal_focus_eqa_republican_movement
-		x = 16
-		y = 4
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_strenghtengovernment } 
-		mutually_exclusive = { focus = EQA_neyghonpact }
-		ai_will_do = { 
-			factor = 20
-		} 
-		available = { 
-			is_puppet = no
-		} 
-			completion_reward = { 
-			add_political_power = 25
-			add_stability = 0.05
-			add_popularity = { ideology = democratic popularity = 0.05 }
-		} 
-
-	} 
 	 
 	#Focus for Military Takeover
 		focus = { 
@@ -2315,7 +2279,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		is_puppet = no
 		 } 
 			completion_reward = { 
-			add_political_power = 50
+			add_political_power = -50
 			add_war_support = 0.05
 			add_stability = -0.1
 			add_manpower = 150000
@@ -2341,7 +2305,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		is_puppet = no
 		 } 
 			completion_reward = { 
-			add_political_power = 70
+			add_political_power = 20
 			add_stability = 0.05
 			add_war_support = 0.05
 			add_manpower = 12000
@@ -2365,7 +2329,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		is_puppet = no
 		 } 
 			completion_reward = { 
-			add_political_power = 50
+			add_political_power = 20
 			add_stability = 0.15
 			add_opinion_modifier = { target = BIG modifier = remains_cordial }
 		 } 
@@ -2389,7 +2353,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		is_puppet = no
 		 } 
 			completion_reward = { 
-			add_political_power = 150
+			add_political_power = 50
 			add_stability = 0.3
 			add_war_support = 0.2
 			add_ideas = EQA_military_state
@@ -2827,8 +2791,57 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_ideas = EQA_grandeur
 		 } 
 
-	 }
-	 
+	}
+	
+	### REPUBLICAN MOVEMENT TREE ###
+	
+	#Focus for Republican Movements
+		focus = { 
+		id = EQA_republicaprima
+		icon = GFX_goal_focus_eqa_republican_movement
+		x = 16
+		y = 4
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_strenghtengovernment } 
+		mutually_exclusive = { focus = EQA_neyghonpact }
+		ai_will_do = { 
+			factor = 120
+		} 
+		available = { 
+			is_puppet = no
+		} 
+			completion_reward = { 
+			country_event = { days = 1 id = prance.republic.1 }
+			add_political_power = 25
+			add_stability = 0.05
+			add_popularity = { ideology = democratic popularity = 0.05 }
+			add_ideas = EQA_republicansupport
+		} 
+
+	}
+	
+	#Focus for Maquis
+		focus = { 
+		id = EQA_mouvementmaquis
+		icon = GFX_goal_focus_eqa_movement1
+		x = 13
+		y = 5
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_republicaprima } 
+		ai_will_do = { 
+			factor = 120
+		} 
+		available = { 
+			is_puppet = no
+		} 
+			completion_reward = { 
+			country_event = { days = 1 id = prance.republic.2 }
+			add_political_power = 10
+		} 
+
+	}
 	 
 	##THE END
 	##Made by NCBlizzard ##Before even state population, buildings, and most essential things were even made lol

@@ -1,5 +1,6 @@
 ﻿add_namespace = prance
 add_namespace = prance.flavor
+add_namespace = prance.republic
 
 ##### Generic Stuff
 
@@ -73,7 +74,7 @@ country_event = {
 		279 = { is_controlled_by = BIG }
 		is_in_faction_with = EQS
 		EQS = { has_war_with = BIG }
-		surrender_progress > 0.7
+		surrender_progress > 0.8
 	}
 
 	option = {
@@ -99,6 +100,23 @@ country_event = {
 			complete_national_focus = EQA_crackdown1
 			complete_national_focus = EQA_crackdown2
 		}
+	}
+}
+
+## Abandon Equestria
+country_event = {
+	id = prance.75
+	title = prance.75.t
+	desc = prance.75.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = prance.75.a
+		add_political_power = -50
 	}
 }
 
