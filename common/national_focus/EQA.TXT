@@ -371,7 +371,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			completion_reward = { 
 			299 = { add_extra_state_shared_building_slots = 3 }
 			299 = { add_building_construction
-			= { type = arms_factory level = 3 instant_build = yes } }
+			= { type = arms_factory level = 2 instant_build = yes } }
 			add_tech_bonus
 			= { bonus = 1 uses = 2 category = infantry_weapons }
 		 } 
@@ -409,7 +409,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			add_offsite_building = { type = arms_factory level = 3 }
+			add_offsite_building = { type = arms_factory level = 2 }
 			add_equipment_to_stockpile = { type = infantry_weapons2 amount = 15000 producer = EQA }
 		 } 
 
@@ -588,7 +588,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			completion_reward = { 
 			add_tech_bonus
 			= { bonus = 0.5 uses = 2 category = bb_tech }
-			add_offsite_building = { type = dockyard level = 2 }
+			add_offsite_building = { type = dockyard level = 1 }
 		 } 
 
 	 } 
@@ -712,6 +712,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
+			country_event = { days = 1 id = prance.flavor.2 }
 		 } 
 
 	 } 
@@ -730,8 +731,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = {
+			country_event = { days = 1 id = prance.flavor.1 }
 			add_ideas = EQA_navy_support 
-			navy_experience = 25
 		} 
 
 	 } 
@@ -1824,7 +1825,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		299 = { is_controlled_by = EQA }
 		 } 
 			completion_reward = { 
-			299 = { add_building_construction = { type = arms_factory level = 3 instant_build = yes } }
+			299 = { add_building_construction = { type = arms_factory level = 2 instant_build = yes } }
 			add_war_support = 0.05
 		 } 
 
@@ -1864,7 +1865,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		279 = { is_controlled_by = EQA }
 		 } 
 			completion_reward = { 
-			279 = { add_building_construction = { type = bunker province = 9443 level = 6 instant_build = yes } }
+			279 = { add_building_construction = { type = bunker province = 9443 level = 3 instant_build = yes } }
 		 } 
 
 	 } 
@@ -1877,7 +1878,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		y = 8
 		cost = 10
 		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_expandmatfacilities focus = EQA_reinforcethegendarmerie } 
+		prerequisite = { focus = EQA_expandmatfacilities } 
 		ai_will_do = { 
 		 factor = 40
 		 } 
@@ -2189,60 +2190,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_ideas = EQA_defensive_mindset
 		 } 
 
-	 } 
-
-	#Focus for Secure Neutral Position
-		focus = { 
-		id = EQA_secureneutralposition
-		icon = GFX_goal_generic_propaganda
-		x = 13
-		y = 3
-		cost = 10
-		available_if_capitulated = yes 
-		available = {
-		has_completed_focus = EQA_crackdown2
-		}
-		prerequisite = { focus = EQA_opposeintervention } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		BIG = { exists = yes }
-		TZY = { exists = yes }
-		EQS = { exists = yes }
-		is_puppet = no
-		 } 
-			completion_reward = { 
-			add_stability = 0.05
-			add_war_support = -0.05
-			add_political_power = 120
-		 } 
-
-	 } 
-
-	#Focus for Oppose Intervention
-		focus = { 
-		id = EQA_opposeintervention
-		icon = GFX_goal_focus_eqa_neutral_position
-		x = 13
-		y = 2
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_cradleofliberty } 
-		mutually_exclusive = { focus = EQA_abandonequestria } 
-		mutually_exclusive = { focus = EQA_statusquo } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		has_war = no
-		is_puppet = no
-		 } 
-			completion_reward = { 
-			add_stability = 0.1
-		 } 
-
-	 } 
+	} 
 
 	#Focus for Abandon Equestria
 		focus = { 
@@ -2271,410 +2219,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			EQS = { country_event = { days = 1 id = prance.75 } }
 		 } 
 
-	 } 
-
-	#Focus for United Front
-		focus = { 
-		id = EQA_unitedfront
-		icon = GFX_goal_generic_alliance
-		x = 16
-		y = 12
-		cost = 1
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_ercenbrandbruteness focus = EQA_thestryskanschemes focus = EQA_equestrianbluntness } 
-		ai_will_do = { 
-		 factor = 80
-		 } 
-		available = { 
-		has_war = yes
-		 } 
-			completion_reward = { 
-			add_war_support = 0.35
-			add_manpower = 250000
-			add_offsite_building = { type = arms_factory level = 3 }
-			add_offsite_building = { type = industrial_complex level = 2 }
-			add_ideas = EQA_united_front
-		 } 
-
-	 } 
-
-	#Focus for Ercenbrand Bruteness
-		focus = { 
-		id = EQA_ercenbrandbruteness
-		icon = GFX_goal_continuous_restrict_freedom
-		x = 18
-		y = 11
-		cost = 4
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_catastrophe } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		bypass = { 
-		has_global_flag = hayris_conference_big
-		 } 
-			completion_reward = { 
-			EQS = { country_event = { days = 1 id = prance.150 } }
-			TZY = { country_event = { days = 1 id = prance.150 } }
-			declare_war_on = { target = BIG type = annex_everything }
-			add_war_support = 0.05
-		 } 
-
-	 }
-
-	#Focus for Equestrian Bluntness
-		focus = { 
-		id = EQA_equestrianbluntness
-		icon = GFX_goal_generic_forceful_treaty
-		x = 14
-		y = 11
-		cost = 4
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_catastrophe } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		bypass = { 
-		has_global_flag = hayris_conference_eqs
-		 } 
-			completion_reward = { 
-			TZY = { country_event = { days = 1 id = prance.150 } }
-			BIG = { country_event = { days = 1 id = prance.150 } }
-			declare_war_on = { target = EQS type = annex_everything }
-			add_war_support = 0.05
-		 } 
-
-	 }
-
-	#Focus for Thestryskan Schemes
-		focus = { 
-		id = EQA_thestryskanschemes
-		icon = GFX_goal_generic_dangerous_deal
-		x = 16
-		y = 11
-		cost = 4
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_catastrophe } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		bypass = { 
-		has_global_flag = hayris_conference_tzy
-		 } 
-			completion_reward = { 
-			EQS = { country_event = { days = 1 id = prance.150 } }
-			BIG = { country_event = { days = 1 id = prance.150 } }
-			declare_war_on = { target = TZY type = annex_everything }
-			add_war_support = 0.05
-		 } 
-
-	 }
-
-	#Focus for Catastrophe!
-		focus = { 
-		id = EQA_catastrophe
-		icon = GFX_focus_renounce_the_treaty_of_trianon
-		x = 16
-		y = 10
-		cost = 1
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_hayrisconference } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		bypass = { 
-		has_global_flag = hayris_conference_bad
-		 } 
-		available = { 
-		has_war = no
-		 } 
-			completion_reward = { 
-			add_stability = -0.35
-			add_war_support = 0.45
-			add_political_power = -250
-			add_ideas = EQA_punishment_needed
-		 } 
-
-	 } 
-
-	#Focus for The Mediator
-		focus = { 
-		id = EQA_themediator
-		icon = GFX_focus_generic_self_management
-		x = 11
-		y = 12
-		cost = 1
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_peacefulconclusion } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		has_war = no
-		 } 
-			completion_reward = { 
-			add_ideas = EQA_facilitator
-			add_war_support = -0.15
-			add_stability = 0.35
-			add_political_power = 250
-			add_opinion_modifier = { target = EQS modifier = facilitator }
-			add_opinion_modifier = { target = BIG modifier = facilitator }
-			add_opinion_modifier = { target = TZY modifier = facilitator }
-			TZY = { give_guarantee = EQA }
-			BIG = { give_guarantee = EQA }
-			EQS = { give_guarantee = EQA }
-		 } 
-
-	 } 
-
-	#Focus for Peaceful Conclusion
-		focus = { 
-		id = EQA_peacefulconclusion
-		icon = GFX_focus_generic_treaty
-		x = 11
-		y = 10
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_hayrisconference } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		bypass = { 
-		has_global_flag = hayris_conference_good
-		 } 
-		completion_reward = { 
-			add_stability = 0.15
-			add_political_power = 150
-			add_war_support = -0.5
-		 } 
-
-	 } 
-
-	#Focus for Hayris Conference
-		focus = { 
-		id = EQA_hayrisconference
-		icon = GFX_goal_continuous_increase_nu
-		x = 13
-		y = 9
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_scheduleflights } 
-		prerequisite = { focus = EQA_reinforcethegendarmerie } 
-		ai_will_do = { 
-		 factor = 80
-		 } 
-		available = { 
-		has_war = no
-		 } 
-			completion_reward = { 
-			country_event = { days = 1 id = prance.100 }
-			EQS = { country_event = { days = 7 id = prance.101 } }
-			BIG = { country_event = { days = 7 id = prance.103 } }
-			TZY = { country_event = { days = 7 id = prance.102 } }
-			add_political_power = 150
-			add_stability = 0.1
-		 } 
-
-	 } 
-
-	#Focus for Schedule Flights
-		focus = { 
-		id = EQA_scheduleflights
-		icon = GFX_goal_continuous_non_factory_construct
-		x = 14
-		y = 7
-		cost = 4
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_strenghtensecurity } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-			has_war = no
-			is_puppet = no
-		}
-			completion_reward = { 
-			279 = { add_building_construction = { type = air_base level = 2 instant_build = yes } }
-			add_political_power = 50
-		 } 
-
-	 } 
-
-	#Focus for Strenghten Security
-		focus = { 
-		id = EQA_strenghtensecurity
-		icon = GFX_goal_continuous_boost_freedom
-		x = 14
-		y = 6
-		cost = 4
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_befriendercenbrand } 
-		prerequisite = { focus = EQA_befriendthestryska } 
-		prerequisite = { focus = EQA_befriendequestria } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		has_war = no
-		 } 
-			completion_reward = { 
-			add_manpower = 8000
-			add_political_power = 50
-			add_stability = 0.05
-		 } 
-
-	 } 
-
-	#Focus for Reinforce the Gendarmerie
-		focus = { 
-		id = EQA_reinforcethegendarmerie
-		icon = GFX_goal_continuous_def_against_influence
-		x = 12
-		y = 7
-		cost = 4
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_hayrisconferencepreparations } 
-		ai_will_do = { 
-		 factor = 40
-		}
-		available = { 
-			has_war = no
-			is_puppet = no
-		}
-			completion_reward = { 
-			add_manpower = 15000
-			add_stability = 0.05
-			add_political_power = -50
-			custom_effect_tooltip = 3_EQA_tt
-			load_oob = "EQA_gendarmerie"
-		 } 
-
-	 } 
-
-	#Focus for Hayris Conference Preparations
-		focus = { 
-		id = EQA_hayrisconferencepreparations
-		icon = GFX_goal_generic_improve_relations
-		x = 12
-		y = 6
-		cost = 4
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_befriendercenbrand } 
-		prerequisite = { focus = EQA_befriendthestryska } 
-		prerequisite = { focus = EQA_befriendequestria } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		has_war = no
-		is_puppet = no
-		 } 
-			completion_reward = { 
-			279 = { add_extra_state_shared_building_slots = 2 }
-			279 = { add_building_construction = { type = bunker province = 9443 level = 4 instant_build = yes } }
-			279 = { add_building_construction = { type = industrial_complex level = 3 instant_build = yes } }
-			279 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } } 
-		 }
 	} 
-
-	#Focus for Neutral Foreign Policy
-		focus = { 
-		id = EQA_neutralforeignpolicy
-		icon = GFX_goal_anschluss
-		x = 13
-		y = 4
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_secureneutralposition } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		has_war = no
-		is_puppet = no
-		 } 
-			completion_reward = { 
-			add_ideas = EQA_neutral_policy
-			add_political_power = 80
-		 } 
-
-	 } 
-
-	#Focus for Befriend Equestria
-		focus = { 
-		id = EQA_befriendequestria
-		icon = GFX_goal_focus_equestria
-		x = 11
-		y = 5
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_neutralforeignpolicy } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		bypass = { 
-		EQS = { exists = no }
-		 } 
-		available = { 
-		has_war = no
-		EQS = { exists = yes }
-		 } 
-			completion_reward = { 
-			add_opinion_modifier = { target = EQS modifier = befriended }
-		 } 
-
-	 } 
-
-	#Focus for Befriend Thestryska
-		focus = { 
-		id = EQA_befriendthestryska
-		icon = GFX_goal_unknown
-		x = 13
-		y = 5
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_neutralforeignpolicy } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		bypass = { 
-		TZY = { exists = no }
-		 } 
-		available = { 
-		has_war = no
-		TZY = { exists = yes }
-		 } 
-			completion_reward = { 
-			add_opinion_modifier = { target = TZY modifier = befriended }
-		 } 
-
-	 } 
-
-	#Focus for Befriend Ercenbrand
-		focus = { 
-		id = EQA_befriendercenbrand
-		icon = GFX_goal_focus_ercenbrand
-		x = 15
-		y = 5
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_neutralforeignpolicy } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		bypass = { 
-		BIG = { exists = yes }
-		 } 
-		available = { 
-		has_war = no
-		BIG = { exists = yes }
-		 } 
-			completion_reward = { 
-			add_opinion_modifier = { target = BIG modifier = befriended }
-		 } 
-
-	 }
 
 	 #Focus for Strenghten Government
 		focus = { 
@@ -2706,7 +2251,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 	  #Focus for Neyghon Pact
 		focus = { 
 		id = EQA_neyghonpact
-		icon = GFX_focus_generic_strike_at_democracy2
+		icon = GFX_goal_focus_ercenbrand
 		x = 22
 		y = 4
 		cost = 10
@@ -2730,93 +2275,39 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	  #Focus for Our Own Path
+	#Focus for Republican Movement
 		focus = { 
-		id = EQA_ourownpath
-		icon = GFX_goal_generic_major_war
-		x = 20
+		id = EQA_republicaprima
+		icon = GFX_goal_focus_eqa_republican_movement
+		x = 16
 		y = 4
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_strenghtengovernment } 
 		mutually_exclusive = { focus = EQA_neyghonpact }
 		ai_will_do = { 
-		 factor = 20
-		 } 
+			factor = 20
+		} 
 		available = { 
-		is_puppet = no
-		 } 
+			is_puppet = no
+		} 
 			completion_reward = { 
-			add_political_power = 80
-			add_war_support = 0.08
-			add_stability = 0.04
-			add_popularity = { ideology = fascism popularity = 0.06 }
-			add_ideas = EQA_our_own_path
-		 } 
+			add_political_power = 25
+			add_stability = 0.05
+			add_popularity = { ideology = democratic popularity = 0.05 }
+		} 
 
-	 } 
+	} 
 	 
-	  #Focus for Towards South
-		focus = { 
-		id = EQA_towardssouth
-		icon = GFX_goal_generic_forceful_treaty
-		x = 17
-		y = 5
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_ourownpath } 
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		 } 
-			completion_reward = { 
-			add_political_power = 180
-			add_war_support = 0.1
-			add_popularity = { ideology = neutrality popularity = 0.05 }
-			add_popularity = { ideology = fascism popularity = 0.02 }
-		 } 
-
-	 } 
-	 
-	  #Focus for Battle the East
-		focus = { 
-		id = EQA_battletheeast
-		icon = GFX_goal_generic_defence
-		x = 19
-		y = 5
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_ourownpath }  
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		}
-			completion_reward = { 
-			add_political_power = 180
-			add_war_support = 0.15
-			add_stability = -0.05
-			add_manpower = 10000
-			add_popularity = { ideology = neutrality popularity = 0.1 }
-			add_opinion_modifier = { target = BIG modifier = betrayal }
-		 } 
-
-	 }
-	 
-	  #Focus for Military Takeover
+	#Focus for Military Takeover
 		focus = { 
 		id = EQA_militarytakeover
 		icon = GFX_goal_support_fascism
 		x = 23
-		y = 6
+		y = 5
 		cost = 10
 		available_if_capitulated = yes 
-
 		prerequisite = { focus = EQA_neyghonpact } 
-		mutually_exclusive = { focus = EQA_remainmonarchist }
 		ai_will_do = { 
 		 factor = 40
 		 } 
@@ -2831,60 +2322,6 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_popularity = { ideology = fascism popularity = 0.45 }
 			set_politics = { ruling_party = fascism elections_allowed = no }
 			country_event = { days = 1 id = prance.30 }
-		 } 
-
-	 }
-	 
-	  #Focus for Remain Monarchist
-		focus = { 
-		id = EQA_remainmonarchist
-		icon = GFX_goal_generic_neutrality_focus
-		x = 21
-		y = 6
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_battletheeast focus = EQA_neyghonpact } 
-		mutually_exclusive = { focus = EQA_militarytakeover }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		 } 
-			completion_reward = { 
-			add_political_power = 150
-			add_war_support = 0.05
-			add_stability = 0.1
-			add_manpower = 8000
-			add_popularity = { ideology = fascism popularity = -0.25 }
-			add_popularity = { ideology = neutrality popularity = 0.25 }
-			set_politics = { ruling_party = neutrality elections_allowed = no }
-		 } 
-
-	 }
-	 
-	  #Focus for Integrate the Yaks
-		focus = { 
-		id = EQA_integratetheyaks
-		icon = GFX_goal_generic_more_territorial_claims
-		x = 17
-		y = 6
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_towardssouth }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		bypass = { 
-		YAK = { exists = no }
-		 } 
-		available = { 
-		is_puppet = no
-		 } 
-			completion_reward = { 
-			add_political_power = 70
-			add_manpower = 55000
-			create_wargoal = { type = annex_everything target = YAK }
 		 } 
 
 	 }
@@ -2911,213 +2348,15 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 
 	 }
-
-	  #Focus for Establish Dominance
-		focus = { 
-		id = EQA_establishdom
-		icon = GFX_goal_generic_alliance
-		x = 17
-		y = 7
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_integratetheyaks }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		 } 
-			completion_reward = { 
-			add_political_power = 85
-			add_manpower = 15000
-		 } 
-
-	 }
-	 
-	  #Focus for Take down the Juggernaut
-		focus = { 
-		id = EQA_takedownthejuggernaut
-		icon = GFX_goal_generic_attack_allies #GFX_goal_generic_military_deal
-		x = 15
-		y = 8
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_establishdom }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		has_army_manpower = { size > 150000 }
-		 } 
-			completion_reward = { 
-			add_political_power = 110
-			add_manpower = 85000
-			create_wargoal = { type = annex_everything target = EQS }
-			create_wargoal = { type = annex_everything target = CRY }
-		 } 
-
-	 }
-	 
-	  #Focus for Take down the Batdom				###Queendom of Bats server reference :3
-		focus = { 
-		id = EQA_takedownthebatdom
-		icon = GFX_goal_generic_attack_allies #GFX_goal_generic_military_deal
-		x = 17
-		y = 8
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_establishdom }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		has_army_manpower = { size > 125000 }
-		 } 
-			completion_reward = { 
-			add_political_power = 90
-			add_manpower = 60000
-			create_wargoal = { type = annex_everything target = TZY }
-			create_wargoal = { type = annex_everything target = BPA }
-			create_wargoal = { type = annex_everything target = BPB }
-		 } 
-
-	 }
-	 
-	  #Focus for Expand l'Armée Royale
-		focus = { 
-		id = EQA_expandlarmeedeterre
-		icon = GFX_focus_generic_anti_fascist_diplomacy
-		x = 19
-		y = 6
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_battletheeast }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		has_war = no
-		 } 
-			completion_reward = { 
-			add_political_power = 50
-			add_manpower = 110000
-		 } 
-
-	 }
-	 
-	  #Focus for Expand l'Armée de l'Air
-		focus = { 
-		id = EQA_expandlarmeedelair
-		icon = GFX_goal_continuous_repairments
-		x = 19
-		y = 7
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_expandlarmeedeterre }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		has_war = no
-		 } 
-			completion_reward = { 
-			add_political_power = 25
-			add_manpower = 5000
-			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = air_planes }
-		 } 
-
-	 }
-	 
-	  #Focus for Expand la Royale
-		focus = { 
-		id = EQA_expandlarmeedemer
-		icon = GFX_goal_continuous_naval_production
-		x = 19
-		y = 8
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_expandlarmeedelair }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		has_war = no
-		 } 
-			completion_reward = { 
-			add_political_power = 35
-			add_manpower = 8000
-			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = navy }
-			add_tech_bonus
-			= { bonus = 0.5 uses = 1 category = naval_doctrine }
-			add_ideas = EQA_navy_support 
-		 } 
-
-	 }
-	 
-	 #Focus for Annihilate Ercenbrand
-		focus = { 
-		id = EQA_annihilateercenbrand
-		icon = GFX_focus_generic_home_defense 
-		x = 19
-		y = 9
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_expandlarmeedemer focus = EQA_takedownthebatdom focus = EQA_placatethenobility }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		has_army_manpower = { size > 175000 }
-		 } 
-			completion_reward = { 
-			add_political_power = 115
-			add_manpower = 90000
-			create_wargoal = { type = annex_everything target = BIG }
-		 } 
-
-	 }
-	 
-	 #Focus for Placate the Nobility
-		focus = { 
-		id = EQA_placatethenobility
-		icon = GFX_focus_generic_diplomatic_treaty 
-		x = 21
-		y = 8
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_remainmonarchist }
-		prerequisite = { focus = EQA_battletheeast }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		 } 
-			completion_reward = { 
-			add_political_power = 85
-			add_stability = 0.15
-			add_war_support = 0.03
-		 } 
-
-	 }
 	 
 	 #Focus for Pranco-Ercenbrand Friendship
 		focus = { 
 		id = EQA_prancoercenbrandfriendship
 		icon = GFX_goal_generic_military_deal 
-		x = 22
-		y = 7
+		x = 21
+		y = 5
 		cost = 10
 		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_remainmonarchist focus = EQA_militarytakeover }
 		prerequisite = { focus = EQA_neyghonpact }
 		ai_will_do = { 
 		 factor = 40
@@ -3137,11 +2376,12 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_enforcemilitarygovernment
 		icon = GFX_goal_generic_military_sphere 
-		x = 24
-		y = 7
+		x = 22
+		y = 6
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_militarytakeover }
+		prerequisite = { focus = EQA_prancoercenbrandfriendship }
 		ai_will_do = { 
 		 factor = 80
 		 } 
@@ -3157,40 +2397,15 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Enforce Absolutism
-		focus = { 
-		id = EQA_enforceabsolutism
-		icon = GFX_goal_generic_propaganda 
-		x = 23
-		y = 8
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_remainmonarchist }
-		prerequisite = { focus = EQA_prancoercenbrandfriendship }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-		available = { 
-		is_puppet = no
-		 } 
-			completion_reward = { 
-			add_political_power = 120
-			add_stability = 0.25
-			add_ideas = EQA_absolutism
-		 } 
-
-	 }
-	 
 	 #Focus for Form new State-Owned Companies
 		focus = { 
 		id = EQA_formnewstateownedcompanies
 		icon = GFX_goal_generic_small_arms 
-		x = 25
-		y = 9
+		x = 23
+		y = 7
 		cost = 10
 		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_enforcemilitarygovernment focus = EQA_enforceabsolutism }
-		prerequisite = { focus = EQA_expandmatweaponry }
+		prerequisite = { focus = EQA_enforcemilitarygovernment }
 		ai_will_do = { 
 		 factor = 80
 		 } 
@@ -3199,8 +2414,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 			completion_reward = { 
 			add_stability = 0.1
-			random_owned_state = { add_building_construction = { type = arms_factory level = 4 instant_build = yes } }
-			random_owned_state = { add_building_construction = { type = industrial_complex level = 3 instant_build = yes } }
+			random_owned_state = { add_building_construction = { type = arms_factory level = 2 instant_build = yes } }
+			random_owned_state = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
 		 } 
 
 	 }
@@ -3209,10 +2424,11 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_expandmatweaponry
 		icon = GFX_goal_generic_construct_mil_factory
-		x = 26
-		y = 7
+		x = 24
+		y = 8
 		cost = 10
 		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_formnewstateownedcompanies }
 		ai_will_do = { 
 		 factor = 40
 		 } 
@@ -3220,7 +2436,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		EQA = { has_completed_focus = EQA_manufacturedarmesdetrolouise }
 		 } 
 			completion_reward = { 
-			299 = { add_building_construction = { type = arms_factory level = 4 instant_build = yes } }
+			299 = { add_building_construction = { type = arms_factory level = 2 instant_build = yes } }
 			add_tech_bonus
 			= { bonus = 0.5 uses = 2 category = infantry_weapons }
 			add_tech_bonus
@@ -3235,8 +2451,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_expandconsumermarket
 		icon = GFX_goal_generic_construct_civ_factory
-		x = 25
-		y = 10
+		x = 22
+		y = 8
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_formnewstateownedcompanies }
@@ -3244,8 +2460,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			random_owned_state = { add_building_construction = { type = industrial_complex level = 3 instant_build = yes } }
-			random_owned_state = { add_building_construction = { type = industrial_complex level = 2 instant_build = yes } }
+			random_owned_state = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			random_owned_state = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
 		 } 
 
 	 } 
@@ -3255,7 +2471,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		id = EQA_laroyale
 		icon = GFX_goal_generic_navy_battleship
 		x = 22
-		y = 11
+		y = 9
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_expandconsumermarket }
@@ -3263,8 +2479,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			795 = { add_building_construction = { type = dockyard level = 3 instant_build = yes } }
-			799 = { add_building_construction = { type = dockyard level = 2 instant_build = yes } }
+			795 = { add_building_construction = { type = dockyard level = 2 instant_build = yes } }
+			799 = { add_building_construction = { type = dockyard level = 1 instant_build = yes } }
 			279 = { add_building_construction = { type = dockyard level = 1 instant_build = yes } }
 			navy_experience = 25
 			add_ideas = EQA_navy_support 
@@ -3277,7 +2493,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		id = EQA_leasedockstoercenbrand
 		icon = GFX_goal_generic_navy_cruiser
 		x = 22
-		y = 12
+		y = 10
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_laroyale }
@@ -3297,16 +2513,15 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		id = EQA_armyexercices
 		icon = GFX_goal_generic_army_doctrines
 		x = 24
-		y = 11
+		y = 9
 		cost = 10
 		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_expandconsumermarket }
+		prerequisite = { focus = EQA_expandmatweaponry }
 		ai_will_do = { 
 		 factor = 40
 		 } 
 			completion_reward = { 
 			army_experience = 40
-			add_manpower = 15000
 		 } 
 
 	 } 
@@ -3316,7 +2531,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		id = EQA_encourateenlistment
 		icon = GFX_goal_generic_allies_build_infantry
 		x = 24
-		y = 12
+		y = 10
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_armyexercices }
@@ -3336,7 +2551,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		id = EQA_gardenationale
 		icon = GFX_goal_generic_axis_build_infantry
 		x = 24
-		y = 13
+		y = 11
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_encourateenlistment }
@@ -3358,7 +2573,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		id = EQA_repurposedvessels
 		icon = GFX_goal_generic_build_navy
 		x = 22
-		y = 13
+		y = 11
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_leasedockstoercenbrand }
@@ -3375,192 +2590,15 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Puissance Militaire
-		focus = { 
-		id = EQA_puissancemilitaire
-		icon = GFX_goal_focus_eqa_grandeur
-		x = 23
-		y = 14
-		cost = 10
-		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_repurposedvessels focus = EQA_gardenationale } 
-		ai_will_do = { 
-		 factor = 80
-		 } 
-			completion_reward = { 
-			add_ideas = EQA_grandeur
-			army_experience = 15
-			navy_experience = 10
-			air_experience = 5
-		 } 
-
-	 }
-	 
-	 #Focus for Prance Proper
-		focus = { 
-		id = EQA_pranceproper
-		icon = GFX_goal_generic_army_doctrines
-		x = 27
-		y = 8
-		cost = 10
-		available_if_capitulated = yes
-		mutually_exclusive = { focus = EQA_irredentism } 
-		prerequisite = { focus = EQA_enforcemilitarygovernment }
-		prerequisite = { focus = EQA_expandmatweaponry }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-			completion_reward = { 
-			custom_effect_tooltip = 1_EQA_tt
-		 } 
-
-	 }
-	 
-	 #Focus for Demand the Azzomix
-		focus = { 
-		id = EQA_demandazzomix
-		icon = GFX_goal_generic_occupy_states_ongoing_war
-		x = 26
-		y = 11
-		cost = 10
-		available_if_capitulated = yes
-		bypass = { 
-		CRY = { exists = no }
-		 } 
-		 available = { 
-		is_puppet = NO
-		 } 
-		available = { 
-		has_army_manpower = { size > 145000 }
-		 }  
-		prerequisite = { focus = EQA_pranceproper }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-			completion_reward = { 
-			CRY = { country_event = { days = 1 id = prance.42 } } 
-		 } 
-
-	 }
-	 
-	 #Focus for Annex Yakyakistan
-		focus = { 
-		id = EQA_annexyakyakistan
-		icon = GFX_goal_generic_demand_territory
-		x = 28
-		y = 9
-		cost = 10
-		available_if_capitulated = yes
-		available = { 
-		is_puppet = NO
-		 }  
-		bypass = { 
-		YAK = { exists = no }
-		 } 
-		available = { 
-		has_army_manpower = { size > 95000 }
-		 }  
-		prerequisite = { focus = EQA_pranceproper }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-			completion_reward = { 
-			add_political_power = 70
-			add_manpower = 45000
-			create_wargoal = { type = annex_everything target = YAK }
-		 } 
-
-	 }
-	 
-	 #Focus for Annex Fetland
-		focus = { 
-		id = EQA_annexfetland
-		icon = GFX_goal_generic_demand_territory
-		x = 27
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		available = { 
-		is_puppet = NO
-		 } 
-		bypass = { 
-		GPA = { exists = no }
-		 } 
-		prerequisite = { focus = EQA_annexyakyakistan }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-			completion_reward = { 
-			add_political_power = 70
-			add_manpower = 15000
-			create_wargoal = { type = annex_everything target = GPA }
-		 } 
-
-	 }
-	 
-	 #Focus for Dominate Istrimark
-		focus = { 
-		id = EQA_dominateistrimark
-		icon = GFX_goal_generic_demand_territory
-		x = 29
-		y = 10
-		cost = 10
-		available_if_capitulated = yes
-		available = { 
-		is_puppet = NO
-		 } 
-		bypass = { 
-		GPB = { exists = no }
-		 } 
-		prerequisite = { focus = EQA_annexyakyakistan }
-		ai_will_do = { 
-		 factor = 40
-		 } 
-			completion_reward = { 
-			add_political_power = 70
-			add_manpower = 15000
-			create_wargoal = { type = annex_everything target = GPB }
-		 } 
-
-	 }
-	 
-	  #Focus for Victor's Wrath
-		focus = { 
-		id = EQA_victorswrath
-		icon = GFX_goal_generic_construct_military
-		x = 28
-		y = 12
-		cost = 10
-		available_if_capitulated = yes
-		available = { 
-		is_puppet = NO
-		 } 
-		prerequisite = { focus = EQA_dominateistrimark }
-		prerequisite = { focus = EQA_demandazzomix }
-		prerequisite = { focus = EQA_annexfetland }
-		ai_will_do = { 
-		 factor = 80
-		 } 
-			completion_reward = { 
-			add_political_power = 350
-			add_stability = 0.20
-			add_war_support = 0.15
-			add_ideas = EQA_victors_wrath
-		 } 
-
-	 }
-	 
 	 #Focus for Prench Irredentism
 		focus = { 
 		id = EQA_irredentism
 		icon = GFX_goal_generic_special_forces
-		x = 32
-		y = 8
+		x = 28
+		y = 7
 		cost = 10
 		available_if_capitulated = yes
-		mutually_exclusive = { focus = EQA_pranceproper } 
 		prerequisite = { focus = EQA_enforcemilitarygovernment }
-		prerequisite = { focus = EQA_expandmatweaponry }
 		ai_will_do = { 
 		 factor = 80
 		 } 
@@ -3575,8 +2613,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_thestrals
 		icon = GFX_focus_generic_strike_at_democracy2
-		x = 31
-		y = 9
+		x = 27
+		y = 8
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = EQA_irredentism }
@@ -3593,8 +2631,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_themartheandfrantal
 		icon = GFX_focus_generic_strike_at_democracy1
-		x = 31
-		y = 10
+		x = 27
+		y = 9
 		cost = 10
 		available_if_capitulated = yes
 		available = { 
@@ -3616,8 +2654,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_ponies
 		icon = GFX_focus_generic_support_the_left_right
-		x = 33
-		y = 9
+		x = 29
+		y = 8
 		cost = 10
 		available_if_capitulated = yes
 		prerequisite = { focus = EQA_irredentism }
@@ -3629,6 +2667,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_opinion_modifier = { target = EQS modifier = threatens_us }
 			add_opinion_modifier = { target = CRY modifier = threatens_us }
 			add_opinion_modifier = { target = YAK modifier = threatens_us }
+			EQS = { country_event = { days = 1 id = prance.1000 } }
 		 } 
 
 	 }
@@ -3637,8 +2676,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_hondeauxwall
 		icon = GFX_goal_fortify_the_westwall
-		x = 33
-		y = 10
+		x = 29
+		y = 9
 		cost = 10
 		available_if_capitulated = yes
 		available = { 
@@ -3659,8 +2698,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_provinceyakis
 		icon = GFX_goal_rhineland
-		x = 32
-		y = 11
+		x = 28
+		y = 10
 		cost = 10
 		available_if_capitulated = yes
 		available = { 
@@ -3681,8 +2720,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_bordure
 		icon = GFX_goal_anschluss
-		x = 34
-		y = 11
+		x = 30
+		y = 10
 		cost = 10
 		available_if_capitulated = yes
 		available = { 
@@ -3704,8 +2743,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_littoraux
 		icon = GFX_goal_demand_sudetenland
-		x = 30
-		y = 11
+		x = 26
+		y = 10
 		cost = 10
 		available_if_capitulated = yes
 		available = { 
@@ -3726,8 +2765,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		focus = { 
 		id = EQA_marinenationale
 		icon = GFX_goal_generic_navy_battleship
-		x = 31
-		y = 12
+		x = 27
+		y = 11
 		cost = 10
 		available_if_capitulated = yes
 		available = { 
@@ -3743,20 +2782,44 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Empire Prançais
+	#Focus for Élan!
+		focus = { 
+		id = EQA_elanfocus
+		icon = GFX_goal_focus_eqa_neutral_position
+		x = 29
+		y = 11
+		cost = 10
+		available_if_capitulated = yes
+		available = { 
+		any_owned_state = { is_coastal = yes }
+		 } 
+		prerequisite = { focus = EQA_bordure }
+		prerequisite = { focus = EQA_provinceyakis }
+		prerequisite = { focus = EQA_littoraux }
+		ai_will_do = { 
+		 factor = 40
+		 } 
+			completion_reward = { 
+			add_ideas = EQA_elan
+		 } 
+
+	 }
+	 
+	 #Focus for Ambitions Fulfilled
 		focus = { 
 		id = EQA_prenchempire
 		icon = GFX_goal_focus_eqa_grandeur
-		x = 33
+		x = 26
 		y = 12
 		cost = 10
 		available_if_capitulated = yes
 		available = { 
 		is_puppet = no
 		 } 
-		prerequisite = { focus = EQA_littoraux }
-		prerequisite = { focus = EQA_bordure }
-		prerequisite = { focus = EQA_provinceyakis }
+		prerequisite = { focus = EQA_repurposedvessels }
+		prerequisite = { focus = EQA_gardenationale }
+		prerequisite = { focus = EQA_marinenationale }
+		prerequisite = { focus = EQA_elanfocus }
 		ai_will_do = { 
 		 factor = 40
 		 } 

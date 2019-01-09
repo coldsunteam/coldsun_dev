@@ -1,4 +1,7 @@
 ﻿add_namespace = prance
+add_namespace = prance.flavor
+
+##### Generic Stuff
 
 ## Prance Overview
 country_event = {
@@ -92,261 +95,45 @@ country_event = {
 		custom_effect_tooltip = 5_EQA_tt
 			hidden_effect = {
 			load_oob = "EQA_resistance"
-			remove_ideas = { EQA_divided_army EQA_incoherent_management1 EQA_incoherent_management2 EQA_incoherent_management3 EQA_incoherent_management4 }
+			remove_ideas = { EQA_incoherent_management1 EQA_incoherent_management2 EQA_incoherent_management3 EQA_incoherent_management4 }
 			complete_national_focus = EQA_crackdown1
 			complete_national_focus = EQA_crackdown2
 		}
 	}
 }
 
-############## HAYRIS CONFERENCE ##################
+############## FLAVOR EVENTS ##################
 
-## Hayris Conference
+## Navy's Support
 country_event = {
-	id = prance.100
-	title = prance.100.t
-	desc = prance.100.d
+	id = prance.flavor.1
+	title = prance.flavor.1.t
+	desc = prance.flavor.1.d
 	picture = 
 
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
 	option = {
-		name = prance.100.a
-		set_global_flag = hayris_conference
-		add_political_power = 100
-		custom_effect_tooltip = 10_EQA_tt
+		name = prance.flavor.1.a
+		navy_experience = 25
 	}
 }
 
-## Hayris Conference - Equestria
+## Army's Support
 country_event = {
-	id = prance.101
-	title = prance.101.t
-	desc = prance.101.d
+	id = prance.flavor.2
+	title = prance.flavor.2.t
+	desc = prance.flavor.2.d
 	picture = 
 
 	fire_only_once = yes
-	
+
 	is_triggered_only = yes
 
 	option = {
-		ai_chance = {
-			factor = 100
-		}
-		name = prance.101.a
-		EQS = { set_country_flag = hayris_conference_here }
-	}
-	
-	option = {
-		ai_chance = {
-			factor = 0
-		}
-		name = prance.101.b
-		add_political_power = -50
-		add_stability = -0.05
-	}
-}
-
-## Hayris Conference - Ercenbrand
-country_event = {
-	id = prance.103
-	title = prance.103.t
-	desc = prance.103.d
-	picture = 
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		ai_chance = {
-			factor = 100
-		}
-		name = prance.103.a
-		BIG = { set_country_flag = hayris_conference_here }
-	}
-	
-	option = {
-		ai_chance = {
-			factor = 0
-		}
-		name = prance.103.b
-		add_political_power = -50
-		add_stability = -0.05
-	}
-}
-
-## Hayris Conference - Bats
-country_event = {
-	id = prance.102
-	title = prance.102.t
-	desc = prance.102.d
-	picture = 
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		ai_chance = {
-			factor = 100
-		}
-		name = prance.102.a
-		TZY = { set_country_flag = hayris_conference_here }
-	}
-	
-	option = {
-		ai_chance = {
-			factor = 0
-		}
-		name = prance.102.b
-		add_political_power = -50
-		add_stability = -0.05
-	}
-}
-
-## Hayris Conference - Confirming everyone's here - Everyone's a good boi
-country_event = {
-	id = prance.104
-	title = prance.104.t
-	desc = prance.104.d
-	picture = 
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = EQA
-		AND = {
-			TZY = { has_country_flag = hayris_conference_here }
-			BIG = { has_country_flag = hayris_conference_here }
-			EQS = { has_country_flag = hayris_conference_here }
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = prance.104.a
-		set_global_flag = hayris_conference_start
-		EQA = { country_event = { id = prance.108 days = 14 } }
-	}
-}
-
-## Hayris Conference - Confirming everyone's here - Bats buggered off
-country_event = {
-	id = prance.105
-	title = prance.105.t
-	desc = prance.105.d
-	picture = 
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = EQA
-		AND = {
-			BIG = { has_country_flag = hayris_conference_here }
-			EQS = { has_country_flag = hayris_conference_here }
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = prance.105.a
-		set_global_flag = hayris_conference_start
-		EQA = { country_event = { id = prance.?? days = 14 } }
-		TZY = { set_country_flag = hayris_conference_not_here }
-	}
-}
-
-## Hayris Conference - Confirming everyone's here - Ercenbrand buggered off
-country_event = {
-	id = prance.106
-	title = prance.106.t
-	desc = prance.106.d
-	picture = 
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = EQA
-		AND = {
-			TZY = { has_country_flag = hayris_conference_here }
-			EQS = { has_country_flag = hayris_conference_here }
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = prance.106.a
-		set_global_flag = hayris_conference_start
-		EQA = { country_event = { id = prance.?? days = 14 } }
-		BIG = { set_country_flag = hayris_conference_not_here }
-	}
-}
-
-## Hayris Conference - Confirming everyone's here - Equestria buggered off
-country_event = {
-	id = prance.107
-	title = prance.107.t
-	desc = prance.107.d
-	picture = 
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = EQA
-		AND = {
-			TZY = { has_country_flag = hayris_conference_here }
-			BIG = { has_country_flag = hayris_conference_here }
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = prance.107.a
-		set_global_flag = hayris_conference_start
-		EQA = { country_event = { id = prance.?? days = 14 } }
-		EQS = { set_country_flag = hayris_conference_not_here }
-	}
-}
-
-## Hayris Conference - Chain - 1
-country_event = {
-	id = prance.108
-	title = prance.108.t
-	desc = prance.108.d
-	picture = 
-
-	fire_only_once = yes
-	
-	trigger = {
-		tag = EQA
-		AND = {
-			has_global_flag = tzy_hayris_conference
-			has_global_flag = big_hayris_conference
-		}
-	}
-	
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	option = {
-		name = prance.108.a
-		set_global_flag = hayris_conference_1
-		 = { country_event = { id = prance.109 days = 14 } }
+		name = prance.flavor.2.a
+		army_experience = 15
 	}
 }
