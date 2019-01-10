@@ -3,8 +3,8 @@ state={
 	id=359
 	name="STATE_359"
 	resources={
-		tungsten=15
-		coal=25
+		tungsten=15.000
+		coal=25.000
 	}
 
 	history={
@@ -12,11 +12,13 @@ state={
 		add_core_of = GPC
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
 
 	provinces={
-		3109 3110 3111 3278 3279 3616 5662 7206 7465 7466 9153 9631 10039 10646 
+		892 1484 1992 2388 3938 8126 8127 10079 11053 11064 11097 11159 11171 11203 11212 11854 11907 11919 
 	}
 	manpower=1342100
 	buildings_max_level_factor=1.000

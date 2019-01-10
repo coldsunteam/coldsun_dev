@@ -2,7 +2,6 @@
 state={
 	id=304
 	name="STATE_304"
-	
 	resources={
 		grain=20.000
 	}
@@ -10,18 +9,19 @@ state={
 	history={
 		owner = GPC
 		add_core_of = GPC
-
 		victory_points = {
 			8105 30 
 		}
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
+
 		}
+
 	}
 
 	provinces={
-		2188 2189 3571 3572 3573 3574 4088 4089 4090 8105 8940 9806 11159 20398 
+		156 895 2683 2684 5643 5645 5717 8018 8019 8020 9714 9715 10094 20424 
 	}
 	manpower=7125432
 	buildings_max_level_factor=1.000

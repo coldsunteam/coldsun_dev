@@ -1,11 +1,11 @@
+
 state={
 	id=139
 	name="STATE_139"
 	provinces={
-		741 742 743 744 745 746 1230 3787 3788 3789 3790 4823 4824 4825 6497 7509 8299 10519 10577 11496 
+		7785 11038 
 	}
 	manpower=100
-        state_category=metropolis
 	buildings_max_level_factor=1.000
-     
+	state_category=metropolis
 }

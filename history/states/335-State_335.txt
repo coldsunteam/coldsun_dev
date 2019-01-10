@@ -2,7 +2,6 @@
 state={
 	id=335
 	name="STATE_335"
-	
 	resources={
 		grain=6.000
 	}
@@ -13,14 +12,16 @@ state={
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+
 		}
 		victory_points = {
-			8467 15
+			8467 15 
 		}
+
 	}
 
 	provinces={
-		2928 4278 6104 6477 7086 7097 7098 8467 8488 9276 10271 11893 20407 
+		2154 3985 3986 3987 11606 17728 19604 19605 20366 20369 
 	}
 	manpower=6184500
 	buildings_max_level_factor=1.000
