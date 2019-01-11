@@ -2,6 +2,11 @@
 state={
 	id=161
 	name="STATE_161"
+	resources={
+		grain=12.000
+		chromium=8.000
+	}
+	
 	history={
 		owner = BIG
 		add_core_of = BIG

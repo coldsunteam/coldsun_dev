@@ -2,6 +2,10 @@
 state={
 	id=278
 	name="STATE_278"
+	resources={
+		tungsten=7.000
+	}
+	
 	history={
 		owner = GPC
 		add_core_of = GPC

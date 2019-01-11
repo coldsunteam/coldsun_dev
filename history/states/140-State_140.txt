@@ -2,6 +2,10 @@
 state={
 	id=140
 	name="STATE_140"
+	resources={
+		gems=6.000
+	}
+	
 	history={
 		owner = GPC
 		add_core_of = GPC

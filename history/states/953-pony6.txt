@@ -4,8 +4,8 @@ state={
 	name="STATE_953"
 	resources={
 		grain=12.000
-		gems=12.000
 		steel=8.000
+		coal=16.000
 	}
 
 	history={
@@ -13,7 +13,6 @@ state={
 		add_core_of = BIG
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 2
 
 		}
 

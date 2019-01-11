@@ -2,6 +2,9 @@
 state={
 	id=321
 	name="STATE_321"
+	resources={
+		grain=10.000
+	}
 
 	history={
 		owner = GPE

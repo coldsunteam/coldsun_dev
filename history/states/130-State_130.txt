@@ -2,6 +2,10 @@
 state={
 	id=130
 	name="STATE_130"
+	resources={
+		gems=16.000
+	}
+	
 	history={
 		owner = BIG
 		add_core_of = BIG

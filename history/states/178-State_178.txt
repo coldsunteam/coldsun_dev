@@ -2,6 +2,9 @@
 state={
 	id=178
 	name="STATE_178"
+	resources={
+		grain=10.000
+	}
 
 	history={
 		owner = GPC
