@@ -2,21 +2,21 @@
 state={
 	id=321
 	name="STATE_321"
-	
-	
+
 	history={
-		owner = GPD
-		add_core_of = GPD
+		owner = GPE
+		add_core_of = GPE
 		buildings = {
 			infrastructure = 2
+
 		}
 
 	}
-	
+
 	provinces={
-		153 156 2315 2316 2317 5689 7209 7785 10703 10954 11038 20424 20427 
+		610 1485 1778 2403 2677 2679 2680 2681 2682 5690 6406 7515 7703 8125 11738 20391 
 	}
 	manpower=3101000
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

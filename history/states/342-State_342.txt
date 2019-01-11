@@ -3,26 +3,28 @@ state={
 	id=342
 	name="STATE_342"
 	resources={
-		tungsten=8
-		steel=25
+		tungsten=8.000
+		steel=25.000
 	}
 
 	history={
-		owner = GPC
-		add_core_of = GPC
+		owner = GPD
+		add_core_of = GPD
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
 			arms_factory = 2
 			air_base = 5
+
 		}
 		victory_points = {
-			1780 15
+			1780 15 
 		}
+
 	}
 
 	provinces={
-		1777 1779 1780 3280 3281 3282 4091 7567 8125 8307 20385 20391 20393 
+		620 1965 3594 3824 7705 8105 11050 11876 11889 11967 12030 12173 12340 12569 12851 
 	}
 	manpower=6762000
 	buildings_max_level_factor=1.000

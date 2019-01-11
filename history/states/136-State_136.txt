@@ -1,11 +1,19 @@
+
 state={
 	id=136
 	name="STATE_136"
+	history={
+		owner = BIG
+		add_core_of = BIG
+
+	}
+
+	
 	provinces={
-		860 861 862 863 864 1480 1481 1484 1485 3785 3786 5158 5159 5160 5161 5162 7688 7728 8809 8810 10303 10915 10972 10973 11535 
+		5158 8083 
 	}
 	manpower=100
-        state_category=metropolis
 	buildings_max_level_factor=1.000
-     
+	state_category=wasteland
+	impassable=yes
 }

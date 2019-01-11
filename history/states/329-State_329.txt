@@ -3,19 +3,21 @@ state={
 	id=329
 	name="STATE_329"
 	resources={
-		steel=20
+		steel=20.000
 	}
 
 	history={
-		owner = GPA
-		add_core_of = GPA
+		owner = GPC
+		add_core_of = GPC
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
 	provinces={
-		3162 3163 3165 8457 9203 9412 19577 19611 19613 19614 20388 
+		772 773 2157 2158 2159 5040 7378 8181 10860 19606 19607 19610 
 	}
 	manpower=2121874
 	buildings_max_level_factor=1.000

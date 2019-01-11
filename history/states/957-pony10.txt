@@ -2,18 +2,21 @@
 state={
 	id=957
 	name="STATE_957"
+
 	history={
-		owner = GPE
-		add_core_of = GPE
+		owner = GPA
+		add_core_of = GPA
 		buildings = {
 			infrastructure = 1
+
 		}
+
 	}
-	
+
 	provinces={
-		612 613 614 616 4320 4321 7208 7515 7516 9132 10386 20431 20439 20440 
+		3158 3159 3160 3163 5439 10338 11195 19571 19575 19577 
 	}
 	manpower=2548722
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=town
 }

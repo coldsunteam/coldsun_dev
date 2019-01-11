@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = GPE
-		add_core_of = GPE
+		owner = GPA
+		add_core_of = GPA
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
@@ -19,9 +19,9 @@ state={
 	}
 
 	provinces={
-		806 3407 4851 5703 8846 10153 10242 10928 20443 20445 20446 20448 20450 
+		5104 5105 5440 5441 6493 6495 6496 10635 11934 
 	}
 	manpower=3257000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=large_city
 }

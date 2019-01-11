@@ -1,19 +1,22 @@
+
 state={
 	id=1000
 	name="STATE_1000"
+
 	history={
-		owner = GPE
-		add_core_of = GPE
+		owner = GPB
+		add_core_of = GPB
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
-	
-	
+
 	provinces={
-		617 618 4323 4325 4852 8083 9064 10745 11874 20452 
+		3571 9049 10409 10939 10951 10997 11040 11043 19580 20399 20998 21059 21236 
 	}
 	manpower=2643112
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=rural
 }

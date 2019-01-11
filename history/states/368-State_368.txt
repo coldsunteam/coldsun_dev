@@ -8,16 +8,18 @@ state={
 		add_core_of = THR
 		buildings = {
 			infrastructure = 1
+
 		}
 		victory_points = {
-			3984 10
+			3984 10 
 		}
+
 	}
 
 	provinces={
-		3984 3985 3986 5395 5398 11052 11606 11684 
+		3984 4784 5068 5395 5396 5397 5398 8570 11052 11684 17080 17180 17471 
 	}
 	manpower=12456
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 }

@@ -4,15 +4,17 @@ state={
 	name="STATE_314"
 
 	history={
-		owner = GPA
-		add_core_of = GPA
+		owner = GPD
+		add_core_of = GPD
 		buildings = {
 			infrastructure = 2
+
 		}
+
 	}
 
 	provinces={
-		5102 5103 5106 5107 5473 5475 5476 5478 5483 5949 6495 6496 10803 10889 
+		2379 2380 2381 2597 2685 2686 6369 7688 10303 11229 11430 
 	}
 	manpower=2945101
 	buildings_max_level_factor=1.000

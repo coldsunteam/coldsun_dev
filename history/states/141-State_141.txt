@@ -1,11 +1,18 @@
+
 state={
 	id=141
 	name="STATE_141"
+	history={
+		owner = GPE
+		add_core_of = GPE
+
+	}
+
 	provinces={
-		1030 1031 1032 1033 1034 2520 2527 2528 4224 4225 5132 6500 6615 6865 8336 8805 10096 10971 11413 11807 
+		617 4320 10386 10954 11874 
 	}
 	manpower=100
-        state_category=metropolis
 	buildings_max_level_factor=1.000
-     
+	state_category=wasteland
+	impassable=yes
 }

@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = GPD
-		add_core_of = GPD
+		owner = GPB
+		add_core_of = GPB
 		buildings = {
 			infrastructure = 3
 
@@ -20,7 +20,7 @@ state={
 	}
 
 	provinces={
-		154 610 611 2183 5688 5690 6406 7261 7262 20428 
+		3575 3595 3826 5646 5666 5667 5671 8060 19408 19524 19531 19583 20517 
 	}
 	manpower=6984000
 	buildings_max_level_factor=1.000

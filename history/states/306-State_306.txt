@@ -3,26 +3,27 @@ state={
 	id=306
 	name="STATE_306"
 	resources={
-		coal=8
-		
+		coal=8.000
 	}
 
 	history={
-		owner = GPA
-		add_core_of = GPA
+		owner = GPC
+		add_core_of = GPC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
+
 		}
 		victory_points = {
 			5105 20 
 		}
+
 	}
 
 	provinces={
-		3158 3159 3160 3161 5104 5105 5439 5440 5477 10338 11195 11475 11934 19571 19575 
+		2155 2156 3107 3108 3109 3730 5806 5807 9140 16813 17710 17916 18113 18179 18643 
 	}
 	manpower=5874000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=town
 }

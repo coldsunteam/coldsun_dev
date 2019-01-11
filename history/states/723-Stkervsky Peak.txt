@@ -3,21 +3,23 @@ state={
 	id=723
 	name="STATE_723"
 	resources={
-		aluminium=19
+		aluminium=19.000
 	}
 
 	history={
-		owner = GPC
-		add_core_of = GPC
+		owner = GPE
+		add_core_of = GPE
 		buildings = {
 			infrastructure = 2
+
 		}
-	}	
+
+	}
 
 	provinces={
-		772 773 1119 1120 1121 1122 3283 5040 5803 5804 5805 5808 9212 10308 10860 11451 11867 
+		611 613 616 2182 2189 4321 5688 5900 7516 9577 10248 11334 20431 20438 20443 
 	}
 	manpower=1974300
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 }

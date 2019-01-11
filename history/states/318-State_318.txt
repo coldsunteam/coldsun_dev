@@ -3,7 +3,7 @@ state={
 	id=318
 	name="STATE_318"
 	resources={
-		steel=6
+		steel=6.000
 	}
 
 	history={
@@ -12,13 +12,15 @@ state={
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 2
+
 		}
+
 	}
 
 	provinces={
-		1778 2081 2402 2403 2404 2767 2768 2769 3617 3618 3619 7205 10725 11607 11648 
+		622 623 3282 3823 5644 7304 10308 14299 14410 16121 16341 16694 18907 19527 19529 
 	}
 	manpower=2745110
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }
