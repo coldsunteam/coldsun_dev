@@ -26,6 +26,10 @@ spriteTypes = {
 		name = "GFX_goal_focus_education"
 		texturefile = "gfx/interface/goals/focus_education.dds"
 	}
+	spriteType = {
+		name = "GFX_goal_focus_stability"
+		texturefile = "gfx/interface/goals/focus_stability.dds"
+	}
 	
 	### Prance Stuff
 	

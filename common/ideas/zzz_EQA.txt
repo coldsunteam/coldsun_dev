@@ -515,6 +515,24 @@ ideas = {
 				democratic_drift = 0.2
 			}
 		}
+		
+		EQA_prenchic = {
+			picture = generic_acquire_tanks
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_dockyard = 0.1
+				industrial_capacity_factory = 0.1
+				industry_repair_factor = 0.05
+				trade_opinion_factor = 0.15
+				
+			}
+		}
 			
 }
 }

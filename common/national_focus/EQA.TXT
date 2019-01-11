@@ -12,7 +12,7 @@ focus_tree = {
 
 continuous_focus_position = { x = 1000 y = 1800 }
 
-	#Focus for Motorized Research
+	#Focus: Motorized Research
 		focus = { 
 			id = EQA_motorizedresearch
 			icon = GFX_goal_generic_army_doctrines
@@ -33,7 +33,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Chars Lourds
+	#Focus: Chars Lourds
 		focus = { 
 		id = EQA_charslourds
 		icon = GFX_goal_generic_secret_weapon
@@ -53,7 +53,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Chars Légers
+	#Focus: Chars Légers
 		focus = { 
 		id = EQA_charslgers
 		icon = GFX_goal_generic_position_armies
@@ -73,7 +73,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Chars de Combat
+	#Focus: Chars de Combat
 		focus = { 
 		id = EQA_charsdecombat
 		icon = GFX_goal_continuous_armor_production
@@ -93,7 +93,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 
-	#Focus for Magical Weapons
+	#Focus: Magical Weapons
 		focus = { 
 		id = EQA_magie
 		icon = GFX_focus_generic_commonwealth_build_infantry
@@ -113,7 +113,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 
-	#Focus for Rocket Artillery
+	#Focus: Rocket Artillery
 		focus = { 
 		id = EQA_rockets
 		icon = GFX_goal_generic_army_artillery
@@ -132,7 +132,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Chars d'Assaut
+	#Focus: Chars d'Assaut
 		focus = { 
 		id = EQA_charsdassaut
 		icon = GFX_goal_generic_army_tanks
@@ -152,7 +152,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Artillerie de Saturation
+	#Focus: Artillerie de Saturation
 		focus = { 
 		id = EQA_artilleriedesaturation
 		icon = GFX_goal_generic_army_artillery2
@@ -171,7 +171,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Research Sector
+	#Focus: Research Sector
 		focus = { 
 		id = EQA_researchsector
 		icon = GFX_goal_tfv_generic_tech_sharing
@@ -190,7 +190,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Batterie Prançaise
+	#Focus: Batterie Prançaise
 		focus = { 
 		id = EQA_batteriepranaise
 		icon = GFX_focus_generic_provoke_border_clashes
@@ -210,7 +210,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Amphibious Assaults
+	#Focus: Amphibious Assaults
 		focus = { 
 		id = EQA_amphibiousassaults
 		icon = GFX_focus_prc_infiltration
@@ -230,7 +230,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Naval Doctrines
+	#Focus: Naval Doctrines
 		focus = { 
 		id = EQA_navaldoctrines
 		icon = GFX_goal_generic_navy_doctrines_tactics
@@ -250,7 +250,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Naval Sector
+	#Focus: Naval Sector
 		focus = { 
 		id = EQA_navalsector
 		icon = GFX_goal_generic_navy_doctrines_tactics
@@ -270,7 +270,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Reform the Industrial Sector
+	#Focus: Reform the Industrial Sector
 		focus = { 
 		id = EQA_reformtheindustrialsector
 		icon = GFX_goal_generic_production
@@ -288,7 +288,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Reform the Political Sector
+	#Focus: Reform the Political Sector
 		focus = { 
 		id = EQA_reformthepoliticalsector
 		icon = GFX_goal_focus_eqa_reform1
@@ -306,7 +306,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Zone Industrielle
+	#Focus: Zone Industrielle
 		focus = { 
 		id = EQA_zoneindustrielle
 		icon = GFX_goal_generic_construct_civ_factory
@@ -328,7 +328,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Stable Growth
+	#Focus: Stable Growth
 		focus = { 
 		id = EQA_stablegrowth
 		icon = GFX_goal_generic_construct_civ_factory
@@ -348,7 +348,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Manufacture d'Armes de Trolouise
+	#Focus: Manufacture d'Armes de Trolouise
 		focus = { 
 		id = EQA_manufacturedarmesdetrolouise
 		icon = GFX_goal_generic_construct_mil_factory
@@ -370,7 +370,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Autoroutes
+	#Focus: Autoroutes
 		focus = { 
 		id = EQA_autoroutes
 		icon = GFX_goal_generic_construct_infrastructure
@@ -388,7 +388,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Seize Facilities
+	#Focus: Seize Facilities
 		focus = { 
 		id = EQA_seizefacilities
 		icon = GFX_goal_generic_construct_mil_factory
@@ -407,7 +407,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Recherche, Industrie
+	#Focus: Recherche, Industrie
 		focus = { 
 		id = EQA_rechercheindustrie
 		icon = GFX_goal_tfv_generic_tech_sharing
@@ -427,7 +427,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 	 } 
 
 	 
-	#Focus for Chambre de Commerce et d'Industrie du Havre ##CCIH Inspiration
+	#Focus: Chambre de Commerce et d'Industrie du Havre ##CCIH Inspiration
 		focus = { 
 		id = EQA_chambre
 		icon = GFX_goal_generic_production
@@ -447,7 +447,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 	}
 	
 	 
-	#Focus for Espace Indu
+	#Focus: Espace Indu
 		focus = { 
 		id = EQA_espace
 		icon = GFX_goal_generic_production
@@ -466,7 +466,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 	}
 	
 	
-	#Focus for Sweep Companies
+	#Focus: Sweep Companies
 		focus = { 
 		id = EQA_deporttroublemakers
 		icon = GFX_goal_generic_production2
@@ -486,7 +486,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	}
 
-	#Focus for Battlecruiser Development
+	#Focus: Battlecruiser Development
 		focus = { 
 		id = EQA_battlecruiserdevelopment
 		icon = GFX_goal_generic_navy_doctrines_tactics
@@ -505,7 +505,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Cruisers
+	#Focus: Cruisers
 		focus = { 
 		id = EQA_cruisers
 		icon = GFX_goal_generic_amphibious_assault
@@ -524,7 +524,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Porte-avions
+	#Focus: Porte-avions
 		focus = { 
 		id = EQA_porteavions
 		icon = GFX_goal_generic_navy_carrier
@@ -545,7 +545,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Bêtes Noires
+	#Focus: Bêtes Noires
 		focus = { 
 		id = EQA_btesnoires
 		icon = GFX_goal_generic_navy_submarine
@@ -564,7 +564,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Battleship Priority
+	#Focus: Battleship Priority
 		focus = { 
 		id = EQA_battleshippriority
 		icon = GFX_goal_generic_navy_battleship
@@ -585,7 +585,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Layer of Steel
+	#Focus: Layer of Steel
 		focus = { 
 		id = EQA_layerofsteel
 		icon = GFX_goal_generic_navy_cruiser
@@ -605,7 +605,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Chantiers de Hayris
+	#Focus: Chantiers de Hayris
 		focus = { 
 		id = EQA_chantiersdehayris
 		icon = GFX_goal_generic_construct_naval_dockyard
@@ -624,7 +624,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Cradle of Liberty
+	#Focus: Cradle of Liberty
 		focus = { 
 		id = EQA_cradleofliberty
 		icon = GFX_goal_generic_neutrality_focus
@@ -647,7 +647,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Castlerock Naval Treaty
+	#Focus: Castlerock Naval Treaty
 		focus = { 
 		id = EQA_castlerocknavaltreaty
 		icon = GFX_goal_generic_navy_doctrines_tactics
@@ -665,7 +665,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Queighbek-Hondeaux Railroad
+	#Focus: Queighbek-Hondeaux Railroad
 		focus = { 
 		id = EQA_queighbekhondeauxrailroad
 		icon = GFX_goal_generic_construct_infrastructure
@@ -686,7 +686,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Secure Army
+	 #Focus: Secure Army
 		focus = { 
 		id = EQA_securethearmy
 		icon = GFX_goal_generic_army_doctrines
@@ -708,7 +708,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Navy Support
+	 #Focus: Navy Support
 		focus = { 
 		id = EQA_navysupport
 		icon = GFX_goal_generic_navy_doctrines_tactics
@@ -728,7 +728,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Académie Saint Je ne sais Quoi
+	#Focus: Académie Saint Je ne sais Quoi
 		focus = { 
 		id = EQA_academy
 		icon = GFX_goal_focus_grade
@@ -747,7 +747,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Radar Technology
+	#Focus: Radar Technology
 		focus = { 
 		id = EQA_radartechnology
 		icon = GFX_goal_generic_radar
@@ -766,7 +766,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Encryption
+	#Focus: Encryption
 		focus = { 
 		id = EQA_encryption
 		icon = GFX_goal_generic_radar
@@ -785,7 +785,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Decryption
+	#Focus: Decryption
 		focus = { 
 		id = EQA_decryption
 		icon = GFX_goal_generic_radar
@@ -804,7 +804,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Electronic Development
+	#Focus: Electronic Development
 		focus = { 
 		id = EQA_electronicdevelopment
 		icon = GFX_goal_continuous_research
@@ -823,7 +823,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Industrial Research
+	#Focus: Industrial Research
 		focus = { 
 		id = EQA_industrialresearch
 		icon = GFX_goal_generic_production2
@@ -832,7 +832,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		cost = 10
 		available_if_capitulated = yes 
 		available = {
-		has_completed_focus = EQA_crackdown4
+		has_completed_focus = EQA_crackdown2
 		}
 		prerequisite = { focus = EQA_researchsector } 
 		prerequisite = { focus = EQA_reformtheindustrialsector } 
@@ -846,7 +846,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Manage Industrial Output
+	#Focus: Manage Industrial Output
 	focus = { 
 		id = EQA_manageindustrialoutput
 		icon = GFX_goal_generic_production
@@ -865,7 +865,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	#Focus for Resource Stuff
+	#Focus: Resource Stuff
 		focus = { 
 		id = EQA_resourceexploiting
 		icon = GFX_focus_generic_industry_3
@@ -881,7 +881,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 	 }
 	 
-	#Focus for Mine Carrébrieux Hills
+	#Focus: Mine Carrébrieux Hills
 		focus = { 
 		id = EQA_minecarrebrieux
 		icon = GFX_focus_generic_steel
@@ -901,7 +901,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	}
 	
-	#Focus for Mine Treuse
+	#Focus: Mine Treuse
 		focus = { 
 		id = EQA_minetreuse
 		icon = GFX_focus_generic_steel
@@ -921,7 +921,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	}
 	
-	#Focus for Food in Livergnan
+	#Focus: Food in Livergnan
 		focus = { 
 		id = EQA_farm1
 		icon = GFX_goal_focus_food
@@ -941,7 +941,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	}
 	
-	#Focus for Food in Vainnes
+	#Focus: Food in Vainnes
 		focus = { 
 		id = EQA_farm2
 		icon = GFX_goal_focus_food
@@ -961,7 +961,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	}
 	
-	#Focus for Coal 1
+	#Focus: Coal 1
 		focus = { 
 		id = EQA_coalone
 		icon = GFX_focus_focus_generic_industry_1
@@ -981,7 +981,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	}
 	
-	#Focus for Coal 2
+	#Focus: Coal 2
 		focus = { 
 		id = EQA_coaltwo
 		icon = GFX_focus_generic_industry_2
@@ -1001,7 +1001,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	}
 	
-	#Focus for Aluminium 1
+	#Focus: Aluminium 1
 		focus = { 
 		id = EQA_alu1
 		icon = GFX_focus_generic_aluminum
@@ -1021,7 +1021,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	}
 	
-	#Focus for Aluminium 2
+	#Focus: Aluminium 2
 		focus = { 
 		id = EQA_alu2
 		icon = GFX_focus_generic_aluminum
@@ -1041,7 +1041,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	}
 	
-	#Focus for Tungsten 1
+	#Focus: Tungsten 1
 		focus = { 
 		id = EQA_tungsten1
 		icon = GFX_focus_generic_tungsten
@@ -1061,7 +1061,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	}
 	
-	#Focus for Tungsten 2
+	#Focus: Tungsten 2
 		focus = { 
 		id = EQA_tungsten2
 		icon = GFX_focus_generic_tungsten
@@ -1081,7 +1081,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	}
 
-	#Focus for Synthetic Research
+	#Focus: Synthetic Research
 		focus = { 
 		id = EQA_syntheticresearch
 		icon = GFX_goal_generic_army_motorized
@@ -1100,7 +1100,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Develop Synthetic Facilities
+	#Focus: Develop Synthetic Facilities
 		focus = { 
 		id = EQA_developsyntheticfacilities
 		icon = GFX_goal_generic_oil_refinery
@@ -1119,7 +1119,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Computing Tech
+	#Focus: Computing Tech
 		focus = { 
 		id = EQA_computingtech
 		icon = GFX_goal_generic_scientific_exchange
@@ -1139,7 +1139,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Research Slot
+	 #Focus: Research Slot
 		focus = { 
 		id = EQA_moreresearchslot
 		icon = GFX_focus_research2
@@ -1157,7 +1157,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	#Focus for Nuclear
+	#Focus: Nuclear
 		focus = { 
 		id = EQA_nuclearfocus
 		icon = GFX_goal_generic_CAS
@@ -1174,7 +1174,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 	}
 
-	#Focus for Construction Development
+	#Focus: Construction Development
 		focus = { 
 		id = EQA_constructiondevelopment
 		icon = GFX_goal_generic_construction2
@@ -1193,7 +1193,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Excavation Development
+	#Focus: Excavation Development
 		focus = { 
 		id = EQA_excavationdevelopment
 		icon = GFX_goal_generic_construct_civilian
@@ -1212,7 +1212,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Military Research
+	#Focus: Military Research
 		focus = { 
 		id = EQA_militaryresearch
 		icon = GFX_goal_generic_construct_mil_factory
@@ -1235,7 +1235,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Heavy Fighter Design
+	#Focus: Heavy Fighter Design
 		focus = { 
 		id = EQA_heavyfighterdesign
 		icon = GFX_goal_generic_air_production
@@ -1255,7 +1255,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for CAS Design
+	#Focus: CAS Design
 		focus = { 
 		id = EQA_casdesign
 		icon = GFX_goal_generic_occupy_start_war
@@ -1275,7 +1275,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Fighter Design
+	#Focus: Fighter Design
 		focus = { 
 		id = EQA_fighterdesign
 		icon = GFX_goal_generic_air_fighter2
@@ -1297,7 +1297,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Aerial Sector
+	#Focus: Aerial Sector
 		focus = { 
 		id = EQA_aerialsector
 		icon = GFX_goal_generic_air_fighter2
@@ -1319,7 +1319,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Tactical Design
+	#Focus: Tactical Design
 		focus = { 
 		id = EQA_tacticaldesign
 		icon = GFX_goal_generic_CAS
@@ -1340,7 +1340,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Strategic Design
+	#Focus: Strategic Design
 		focus = { 
 		id = EQA_strategicdesign
 		icon = GFX_goal_generic_air_bomber
@@ -1362,7 +1362,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Mechanized Research
+	#Focus: Mechanized Research
 		focus = { 
 		id = EQA_mechanizedresearch
 		icon = GFX_goal_generic_air_doctrine
@@ -1380,7 +1380,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Aerial Training
+	#Focus: Aerial Training
 		focus = { 
 		id = EQA_aerialtraining
 		icon = GFX_goal_generic_air_fighter2
@@ -1398,7 +1398,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Status Quo
+	#Focus: Status Quo
 		focus = { 
 		id = EQA_statusquo
 		icon = GFX_goal_focus_eqa_status_quo
@@ -1427,7 +1427,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Approach the Crystal Empire
+	#Focus: Approach the Crystal Empire
 		focus = { 
 		id = EQA_approachthecrystalempire
 		icon = GFX_goal_focus_crystal
@@ -1446,7 +1446,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Approach Equestria
+	#Focus: Approach Equestria
 		focus = { 
 		id = EQA_approachequestria
 		icon = GFX_goal_focus_equestria
@@ -1465,7 +1465,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Liberté, Egalité, Fraternité
+	#Focus: Liberté, Egalité, Fraternité
 		focus = { 
 		id = EQA_libertegalitfraternit
 		icon = GFX_goal_continuous_boost_freedom
@@ -1484,7 +1484,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Crackdown1
+	 #Focus: Crackdown1
 		focus = { 
 		id = EQA_crackdown1
 		icon = GFX_focus_generic_self_management
@@ -1501,7 +1501,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Crackdown2
+	 #Focus: Crackdown2
 		focus = { 
 		id = EQA_crackdown2
 		icon = GFX_focus_generic_self_management
@@ -1519,7 +1519,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 		 
-	 #Focus for Army Debuff 1
+	 #Focus: Army Debuff 1
 		focus = { 
 		id = EQA_removearmydebuff1
 		icon = GFX_goal_generic_axis_build_infantry
@@ -1536,7 +1536,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Army Debuff 2
+	 #Focus: Army Debuff 2
 		focus = { 
 		id = EQA_removearmydebuff2
 		icon = GFX_goal_generic_axis_build_infantry
@@ -1554,7 +1554,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Re-integrate Prench Lands
+	#Focus: Re-integrate Prench Lands
 		focus = { 
 		id = EQA_reintegrateprenchlands
 		icon = GFX_goal_generic_national_unity
@@ -1567,26 +1567,26 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 factor = 40
 		 } 
 		available = { 
-		EQA = { controls_state = 345 }
+		EQA = { controls_state = 953 }
 		EQA = { controls_state = 952 }
 		EQA = { controls_state = 160 }
 		EQA = { controls_state = 224 }
 		EQA = { controls_state = 256 }
-		EQA = { controls_state = 951 }
+		EQA = { controls_state = 955 }
 		 } 
 			completion_reward = { 
-			EQA = { add_state_core = 345 } 
+			EQA = { add_state_core = 953 } 
 			EQA = { add_state_core = 952 }
 			EQA = { add_state_core = 160 } 
 			EQA = { add_state_core = 224 } 
 			EQA = { add_state_core = 256 }
-			EQA = { add_state_core = 951 } 
+			EQA = { add_state_core = 955 } 
 			add_war_support = 0.15
 		}
 
 	 } 
 	 
-	 #Focus for Emergency Intervention
+	 #Focus: Emergency Intervention
 		focus = { 
 		id = EQA_emergencyintervention
 		icon = GFX_goal_generic_attack_allies
@@ -1616,7 +1616,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for End Thestryska
+	#Focus: End Thestryska
 		focus = { 
 		id = EQA_endthestryska
 		icon = GFX_goal_generic_attack_allies
@@ -1644,7 +1644,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Strotsbourg Line
+	#Focus: Strotsbourg Line
 		focus = { 
 		id = EQA_strotsbourgline
 		icon = GFX_goal_generic_fortify_city
@@ -1672,7 +1672,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 	 }
 
-	#Focus for Expand the Civilian Market
+	#Focus: Expand the Civilian Market
 		focus = { 
 		id = EQA_expandthecivilianmarket
 		icon = GFX_goal_generic_consumer_goods
@@ -1696,7 +1696,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			 } 
 		 }
 
-	#Focus for Defensive Posture
+	#Focus: Defensive Posture
 		focus = { 
 		id = EQA_defensiveposture
 		icon = GFX_goal_generic_build_tank
@@ -1723,7 +1723,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for End Ercenbrand
+	#Focus: End Ercenbrand
 		focus = { 
 		id = EQA_endercenbrand
 		icon = GFX_goal_generic_attack_allies
@@ -1751,7 +1751,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Aggressive Posture
+	#Focus: Aggressive Posture
 		focus = { 
 		id = EQA_aggressiveposture
 		icon = GFX_goal_generic_political_pressure
@@ -1779,7 +1779,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Services Secrets Prançaises
+	#Focus: Services Secrets Prançaises
 		focus = { 
 		id = EQA_servicessecretspranaises
 		icon = GFX_goal_generic_position_armies
@@ -1798,7 +1798,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Expand MAT Facilities
+	#Focus: Expand MAT Facilities
 		focus = { 
 		id = EQA_expandmatfacilities
 		icon = GFX_goal_generic_construct_mil_factory
@@ -1821,7 +1821,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Magical Weapons Development
+	#Focus: Magical Weapons Development
 		focus = { 
 		id = EQA_magicalweaponsdevelopment
 		icon = GFX_goal_generic_small_arms
@@ -1839,7 +1839,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Hayris Bastille
+	#Focus: Hayris Bastille
 		focus = { 
 		id = EQA_hayrisbastille
 		icon = GFX_goal_generic_fortify_city
@@ -1860,7 +1860,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Swift Forces
+	#Focus: Swift Forces
 		focus = { 
 		id = EQA_swiftforces
 		icon = GFX_goal_generic_army_tanks
@@ -1879,7 +1879,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Ligne Rouillée (Hayris Wall)
+	#Focus: Ligne Rouillée (Hayris Wall)
 		focus = { 
 		id = EQA_hayriswall
 		icon = GFX_focus_secret_rearmament
@@ -1906,7 +1906,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Links
+	 #Focus: Links
 		focus = { 
 		id = EQA_links
 		icon = GFX_focus_generic_treaty
@@ -1923,7 +1923,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Exercices on the Border
+	#Focus: Exercices on the Border
 		focus = { 
 		id = EQA_exercicesontheborder
 		icon = GFX_goal_generic_secret_weapon
@@ -1949,7 +1949,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Naval Exercices
+	#Focus: Naval Exercices
 		focus = { 
 		id = EQA_navalexercices
 		icon = GFX_goal_generic_navy_battleship
@@ -1972,7 +1972,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Claim Historical Holdings
+	#Focus: Claim Historical Holdings
 		focus = { 
 		id = EQA_claimhistoricalholdings
 		icon = GFX_goal_generic_major_war
@@ -1989,9 +1989,9 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		EQA = { owns_state = 256}
 		EQA = { owns_state = 224}
 		EQA = { owns_state = 160}
-		EQA = { owns_state = 345}
+		EQA = { owns_state = 953}
 		EQA = { owns_state = 952}
-		EQA = { owns_state = 951}
+		EQA = { owns_state = 955}
 		 } 
 		available = { 
 		has_army_manpower = { size > 100000 }
@@ -2000,14 +2000,14 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_state_claim = 256
 			add_state_claim = 224
 			add_state_claim = 160
-			add_state_claim = 345
+			add_state_claim = 953
 			add_state_claim = 952
-			add_state_claim = 951
+			add_state_claim = 955
 		 } 
 
 	 }
 
-	#Focus for Shell Ercenbrand Ports
+	#Focus: Shell Ercenbrand Ports
 		focus = { 
 		id = EQA_shellercenbrandports
 		icon = GFX_goal_generic_occupy_start_war
@@ -2032,7 +2032,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }  
 
-	#Focus for Final Preparations
+	#Focus: Final Preparations
 		focus = { 
 		id = EQA_finalprep
 		icon = GFX_goal_generic_secret_weapon
@@ -2051,7 +2051,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Bombard the Thestrals
+	#Focus: Bombard the Thestrals
 		focus = { 
 		id = EQA_bombardthethestrals
 		icon = GFX_goal_generic_army_artillery2
@@ -2076,7 +2076,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Crystal-Prench Command
+	#Focus: Crystal-Prench Command
 		focus = { 
 		id = EQA_crystalprenchcommand
 		icon = GFX_goal_generic_air_doctrine
@@ -2099,7 +2099,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Pranco-Equestrian Command
+	#Focus: Pranco-Equestrian Command
 		focus = { 
 		id = EQA_prancoequestriancommand
 		icon = GFX_goal_generic_air_doctrine
@@ -2122,7 +2122,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Grandeur Prançaise
+	#Focus: Grandeur Prançaise
 		focus = { 
 		id = EQA_grandeurpranaise
 		icon = GFX_goal_focus_eqa_grandeur
@@ -2145,7 +2145,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Midnight Bay Priority
+	#Focus: Midnight Bay Priority
 		focus = { 
 		id = EQA_midnightbaypriority
 		icon = GFX_goal_generic_navy_cruiser
@@ -2164,7 +2164,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 
-	#Focus for Defensive Mindset
+	#Focus: Defensive Mindset
 		focus = { 
 		id = EQA_defensivemindset
 		icon = GFX_goal_generic_defence
@@ -2182,7 +2182,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	} 
 
-	#Focus for Abandon Equestria
+	#Focus: Abandon Equestria
 		focus = { 
 		id = EQA_abandonequestria
 		icon = GFX_goal_focus_eqa_abandon_equestria
@@ -2211,7 +2211,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	} 
 
-	 #Focus for Strenghten Government
+	 #Focus: Strenghten Government
 		focus = { 
 		id = EQA_strenghtengovernment
 		icon = GFX_focus_generic_self_management
@@ -2236,7 +2236,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	  #Focus for Neyghon Pact
+	  #Focus: Neyghon Pact
 		focus = { 
 		id = EQA_neyghonpact
 		icon = GFX_goal_focus_ercenbrand
@@ -2263,7 +2263,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	#Focus for Military Takeover
+	#Focus: Military Takeover
 		focus = { 
 		id = EQA_militarytakeover
 		icon = GFX_goal_support_fascism
@@ -2290,7 +2290,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	  #Focus for Travaille, Famille, Patrie
+	  #Focus: Travaille, Famille, Patrie
 		focus = { 
 		id = EQA_travailfamillepatrie
 		icon = GFX_goal_generic_army_doctrines
@@ -2313,7 +2313,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Pranco-Ercenbrand Friendship
+	 #Focus: Pranco-Ercenbrand Friendship
 		focus = { 
 		id = EQA_prancoercenbrandfriendship
 		icon = GFX_goal_generic_military_deal 
@@ -2336,7 +2336,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Enforce Military Government
+	 #Focus: Enforce Military Government
 		focus = { 
 		id = EQA_enforcemilitarygovernment
 		icon = GFX_goal_generic_military_sphere 
@@ -2361,7 +2361,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Form new State-Owned Companies
+	 #Focus: Form new State-Owned Companies
 		focus = { 
 		id = EQA_formnewstateownedcompanies
 		icon = GFX_goal_generic_small_arms 
@@ -2384,7 +2384,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Expand MAT Weaponry
+	 #Focus: Expand MAT Weaponry
 		focus = { 
 		id = EQA_expandmatweaponry
 		icon = GFX_goal_generic_construct_mil_factory
@@ -2411,7 +2411,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Expand Consumer Market
+	 #Focus: Expand Consumer Market
 		focus = { 
 		id = EQA_expandconsumermarket
 		icon = GFX_goal_generic_construct_civ_factory
@@ -2430,7 +2430,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for La Royale
+	 #Focus: La Royale
 		focus = { 
 		id = EQA_laroyale
 		icon = GFX_goal_generic_navy_battleship
@@ -2452,7 +2452,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Lease Docks to Ercenbrand
+	 #Focus: Lease Docks to Ercenbrand
 		focus = { 
 		id = EQA_leasedockstoercenbrand
 		icon = GFX_goal_generic_navy_cruiser
@@ -2472,7 +2472,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Army Exercices
+	 #Focus: Army Exercices
 		focus = { 
 		id = EQA_armyexercices
 		icon = GFX_goal_generic_army_doctrines
@@ -2490,7 +2490,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Encourage Enlistment
+	 #Focus: Encourage Enlistment
 		focus = { 
 		id = EQA_encourateenlistment
 		icon = GFX_goal_generic_allies_build_infantry
@@ -2510,7 +2510,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Garde Nationale
+	 #Focus: Garde Nationale
 		focus = { 
 		id = EQA_gardenationale
 		icon = GFX_goal_generic_axis_build_infantry
@@ -2532,7 +2532,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Repurposed Vessels
+	 #Focus: Repurposed Vessels
 		focus = { 
 		id = EQA_repurposedvessels
 		icon = GFX_goal_generic_build_navy
@@ -2554,7 +2554,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 } 
 	 
-	 #Focus for Prench Irredentism
+	 #Focus: Prench Irredentism
 		focus = { 
 		id = EQA_irredentism
 		icon = GFX_goal_generic_special_forces
@@ -2573,7 +2573,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for The Thestrals
+	 #Focus: The Thestrals
 		focus = { 
 		id = EQA_thestrals
 		icon = GFX_focus_generic_strike_at_democracy2
@@ -2591,7 +2591,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for The Marthe
+	 #Focus: The Marthe
 		focus = { 
 		id = EQA_themartheandfrantal
 		icon = GFX_focus_generic_strike_at_democracy1
@@ -2614,7 +2614,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for The Ponies
+	 #Focus: The Ponies
 		focus = { 
 		id = EQA_ponies
 		icon = GFX_focus_generic_support_the_left_right
@@ -2636,7 +2636,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Hondeaux Wall Thingy
+	 #Focus: Hondeaux Wall Thingy
 		focus = { 
 		id = EQA_hondeauxwall
 		icon = GFX_goal_fortify_the_westwall
@@ -2658,7 +2658,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Provinces Yakistanais
+	 #Focus: Provinces Yakistanais
 		focus = { 
 		id = EQA_provinceyakis
 		icon = GFX_goal_rhineland
@@ -2680,7 +2680,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for La Bordure
+	 #Focus: La Bordure
 		focus = { 
 		id = EQA_bordure
 		icon = GFX_goal_anschluss
@@ -2703,7 +2703,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Littoraux d'Ercenbrand
+	 #Focus: Littoraux d'Ercenbrand
 		focus = { 
 		id = EQA_littoraux
 		icon = GFX_goal_demand_sudetenland
@@ -2725,7 +2725,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Marine Nationale
+	 #Focus: Marine Nationale
 		focus = { 
 		id = EQA_marinenationale
 		icon = GFX_goal_generic_navy_battleship
@@ -2746,7 +2746,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	#Focus for Élan!
+	#Focus: Élan!
 		focus = { 
 		id = EQA_elanfocus
 		icon = GFX_goal_focus_eqa_neutral_position
@@ -2769,7 +2769,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	 }
 	 
-	 #Focus for Ambitions Fulfilled
+	 #Focus: Ambitions Fulfilled
 		focus = { 
 		id = EQA_prenchempire
 		icon = GFX_goal_focus_eqa_grandeur
@@ -2795,7 +2795,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 	
 	### REPUBLICAN MOVEMENT TREE ###
 	
-	#Focus for Republican Movements
+	#Focus: Republican Movements
 		focus = { 
 		id = EQA_republicaprima
 		icon = GFX_goal_focus_eqa_republican_movement
@@ -2816,12 +2816,12 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_political_power = 25
 			add_stability = 0.05
 			add_popularity = { ideology = democratic popularity = 0.05 }
-			add_ideas = EQA_republicansupport
+			add_timed_idea = { idea = EQA_republicansupport days = 365 }
 		} 
 
 	}
 	
-	#Focus for Maquis
+	#Focus: Maquis
 		focus = { 
 		id = EQA_mouvement1
 		icon = GFX_goal_focus_eqa_movement1
@@ -2843,7 +2843,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	}
 	
-	#Focus for Radicaux
+	#Focus: Radicaux
 		focus = {
 		id = EQA_mouvement2
 		icon = GFX_goal_focus_eqa_movement2
@@ -2865,7 +2865,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	}
 	
-	#Focus for L'Alliance en Avant
+	#Focus: L'Alliance en Avant
 		focus = {
 		id = EQA_mouvement3
 		icon = GFX_goal_focus_eqa_movement3
@@ -2887,7 +2887,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	}
 	
-	#Focus for Les Insoumis
+	#Focus: Les Insoumis
 		focus = {
 		id = EQA_mouvement4
 		icon = GFX_goal_focus_eqa_movement4
@@ -2909,7 +2909,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	}
 	
-	#Focus for Réunion
+	#Focus: Réunion
 		focus = {
 		id = EQA_reunion
 		icon = GFX_goal_continuous_increase_nu
@@ -2933,7 +2933,8 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 
 	}
-	#Focus for Prench Republic
+	
+	#Focus: Prench Republic
 		focus = {
 		id = EQA_prenchrepublic
 		icon = GFX_goal_support_democracy
@@ -2953,6 +2954,132 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		}
 			completion_reward = {
 			add_political_power = 100
+			add_stability = 0.1
+		}
+
+	}
+	
+	#Focus: MAT Factories
+		focus = {
+		id = EQA_expandmatfactories
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 15
+		y = 8
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_prenchrepublic }
+		ai_will_do = {
+			factor = 20
+		}
+		available = {
+			EQA = { has_completed_focus = EQA_manufacturedarmesdetrolouise }
+			299 = { is_controlled_by = EQA }
+		}
+			completion_reward = {
+			299 = { add_building_construction = { type = arms_factory level = 2 instant_build = yes } }
+			add_tech_bonus
+			= { bonus = 0.5 uses = 2 category = infantry_weapons }
+			add_tech_bonus
+			= { bonus = 0.5 uses = 2 category = magical_weapons }
+		}
+
+	}
+	
+	#Focus: Dexter Naval Conglomerate
+		focus = {
+		id = EQA_dexter
+		icon = GFX_goal_generic_construct_naval_dockyard
+		x = 17
+		y = 8
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_prenchrepublic }
+		ai_will_do = {
+			factor = 20
+		}
+			completion_reward = {
+			
+		}
+
+	}
+	
+	#Focus: Prench Industry
+		focus = {
+		id = EQA_prenchindustry
+		icon = GFX_focus_generic_industry_3
+		x = 16
+		y = 9
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_dexter focus = EQA_expandmatfactories }
+		ai_will_do = {
+			factor = 20
+		}
+			completion_reward = {
+			279 = { add_building_construction = { type = industrial_complex level = 2 instant_build = yes } }
+			268 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			794 = { add_building_construction = { type = industrial_complex level = 1 instant_build = yes } }
+			add_ideas = EQA_prenchic
+		}
+
+	}
+	
+	#Focus: Consolidate Republic
+		focus = {
+		id = EQA_consolidaterepublic
+		icon = GFX_goal_focus_stability
+		x = 18
+		y = 9
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_prenchrepublic }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.05
+			add_political_power = 25
+		}
+
+	}
+	
+	#Focus: Brightest Minds
+		focus = {
+		id = EQA_brightestminds
+		icon = GFX_goal_focus_education
+		x = 19
+		y = 8
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_prenchrepublic }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_tech_bonus = { bonus = 0.5 uses = 1 category = motorized_equipment }
+			add_tech_bonus = { bonus = 0.5 uses = 3 category = construction_tech }
+			add_tech_bonus = { bonus = 0.5 uses = 3 category = excavation_tech }
+		}
+
+	}
+	
+	#Focus: Freedom Army
+		focus = {
+		id = EQA_freedomarmy
+		icon = GFX_focus_generic_combined_arms
+		x = 14
+		y = 9
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_prenchrepublic }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.03
+			add_war_support = 0.075
+			army_experience = 25
 		}
 
 	}
