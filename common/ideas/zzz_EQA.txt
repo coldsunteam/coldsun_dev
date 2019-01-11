@@ -533,6 +533,57 @@ ideas = {
 				
 			}
 		}
+		
+		EQA_securitesocialeidea = {
+			picture = air_support_focus
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+				trade_opinion_factor = 0.25
+				political_power_gain = 0.15
+				monthly_population = 0.25
+			}
+		}
+		
+		EQA_neversurrender = {
+			picture = FRA_scw_intervention_nationalists_focus
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				army_core_defence_factor = 0.05
+				army_morale_factor = 0.05
+				conscription = 0.01
+				surrender_limit = 0.15
+			}
+		}
+		
+		EQA_opportunityland = {
+			picture = generic_foreign_capital
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				consumer_goods_factor = -0.03
+				industrial_capacity_dockyard = 0.05
+				industrial_capacity_factory = 0.05
+				industry_repair_factor = 0.02
+				trade_opinion_factor = 0.1
+				political_power_gain = 0.1
+				monthly_population = 0.1
+			}
+		}
 			
 }
 }

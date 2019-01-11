@@ -2139,7 +2139,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		 } 
 			completion_reward = { 
 			add_ideas = EQA_grandeur
-			add_popularity = { ideology = democratic popularity = 0.12 }
+			add_popularity = { ideology = democratic popularity = 0.03 }
 			add_popularity = { ideology = neutrality popularity = 0.12 }
 		 } 
 
@@ -3057,9 +3057,9 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			factor = 40
 		}
 			completion_reward = {
-			add_tech_bonus = { bonus = 0.5 uses = 1 category = motorized_equipment }
-			add_tech_bonus = { bonus = 0.5 uses = 3 category = construction_tech }
-			add_tech_bonus = { bonus = 0.5 uses = 3 category = excavation_tech }
+			add_tech_bonus = { bonus = 0.33 uses = 2 category = construction_tech }
+			add_tech_bonus = { bonus = 0.33 uses = 2 category = excavation_tech }
+			country_event = { days = 1 id = prance.flavor.3 }
 		}
 
 	}
@@ -3080,6 +3080,132 @@ continuous_focus_position = { x = 1000 y = 1800 }
 			add_stability = 0.03
 			add_war_support = 0.075
 			army_experience = 25
+		}
+
+	}
+	
+	#Focus: Freedom Navy
+		focus = {
+		id = EQA_freedomnavy
+		icon = GFX_focus_generic_navy_battleship2
+		x = 13
+		y = 8
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_prenchrepublic }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			navy_experience = 25
+		}
+
+	}
+	
+	#Focus: Sécurité Sociale
+		focus = {
+		id = EQA_securitesociale
+		icon = GFX_goal_focus_stability2
+		x = 19
+		y = 10
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_consolidaterepublic }
+		prerequisite = { focus = EQA_brightestminds }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.1
+			add_ideas = EQA_securitesocialeidea
+		}
+
+	}
+	
+	#Focus: Unyielding Spirit
+		focus = {
+		id = EQA_unyieldingspirit
+		icon = GFX_goal_generic_defence
+		x = 13
+		y = 10
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_freedomarmy }
+		prerequisite = { focus = EQA_freedomnavy }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_ideas = EQA_neversurrender
+		}
+
+	}
+	
+	#Focus: Land of Opportunity
+		focus = {
+		id = EQA_landofopportunity
+		icon = GFX_goal_generic_intelligence_exchange
+		x = 16
+		y = 10
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_prenchindustry }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.03
+			add_ideas = EQA_opportunityland
+		}
+
+	}
+	
+	#Focus: External Matters
+		focus = {
+		id = EQA_externalmatters
+		icon = GFX_goal_generic_improve_relations
+		x = 14
+		y = 11
+		cost = 10
+		available_if_capitulated = yes 
+		available = { 
+		has_war = no
+		}
+		prerequisite = { focus = EQA_landofopportunity }
+		prerequisite = { focus = EQA_unyieldingspirit }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.03
+			add_war_support = 0.05
+		}
+
+	}
+	
+	#Focus: Internal Matters
+		focus = {
+		id = EQA_internalmatters
+		icon = GFX_goal_generic_propaganda
+		x = 18
+		y = 11
+		cost = 10
+		available_if_capitulated = yes 
+		available = { 
+		has_war = no
+		}
+		prerequisite = { focus = EQA_landofopportunity }
+		prerequisite = { focus = EQA_securitesociale }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.03
 		}
 
 	}
