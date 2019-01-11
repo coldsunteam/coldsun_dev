@@ -2,10 +2,16 @@
 state={
 	id=130
 	name="STATE_130"
+	history={
+		owner = BIG
+		add_core_of = BIG
+	}
+	
 	provinces={
 		9842 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=wasteland
+	impassable=yes
 }

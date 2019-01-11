@@ -4,8 +4,8 @@ state={
 	name="STATE_178"
 
 	history={
-		owner = BPC
-		add_core_of = BPC
+		owner = GPC
+		add_core_of = GPC
 
 	}
 
@@ -14,5 +14,5 @@ state={
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

@@ -8,8 +8,8 @@ state={
 	}
 
 	history={
-		owner = GPC
-		add_core_of = GPC
+		owner = GPD
+		add_core_of = GPD
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1

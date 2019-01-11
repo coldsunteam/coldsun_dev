@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = GPA
-		add_core_of = GPA
+		owner = GPE
+		add_core_of = GPE
 		buildings = {
 			infrastructure = 3
 

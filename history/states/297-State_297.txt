@@ -4,8 +4,8 @@ state={
 	name="STATE_297"
 
 	history={
-		owner = BIG
-		add_core_of = BIG
+		owner = GPB
+		add_core_of = GPB
 
 	}
 
@@ -14,5 +14,5 @@ state={
 	}
 	manpower=264000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 }

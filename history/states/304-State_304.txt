@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = GPC
-		add_core_of = GPC
+		owner = GPD
+		add_core_of = GPD
 		victory_points = {
 			8105 30 
 		}
@@ -25,5 +25,5 @@ state={
 	}
 	manpower=7125432
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=rural
 }

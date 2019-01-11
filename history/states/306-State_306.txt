@@ -7,8 +7,8 @@ state={
 	}
 
 	history={
-		owner = GPA
-		add_core_of = GPA
+		owner = GPC
+		add_core_of = GPC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 2
@@ -25,5 +25,5 @@ state={
 	}
 	manpower=5874000
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=town
 }

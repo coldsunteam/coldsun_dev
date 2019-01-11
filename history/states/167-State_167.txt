@@ -2,10 +2,15 @@
 state={
 	id=167
 	name="STATE_167"
+	history={
+		owner = GPD
+		add_core_of = GPD
+	}	
+		
 	provinces={
 		153 1872 2181 2186 2187 2188 5901 9690 10703 11628 11630 11641 11779 11810 20411 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

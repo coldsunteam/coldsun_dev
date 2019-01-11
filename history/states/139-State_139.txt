@@ -2,10 +2,16 @@
 state={
 	id=139
 	name="STATE_139"
+	history={
+		owner = GPD
+		add_core_of = GPD
+	}	
+	
 	provinces={
 		7785 11038 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=wasteland
+	impassable=yes
 }
