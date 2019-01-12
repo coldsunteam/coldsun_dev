@@ -5,6 +5,10 @@ state={
 	history={
 		owner = GPC
 		add_core_of = GPC
+		
+		victory_points = {
+			1780 28 
+		}
 	}
 	
 	provinces={

@@ -10,7 +10,10 @@ state={
 	history={
 		owner = GPB
 		add_core_of = GPB
-
+		
+		victory_points = {
+			8467 26 
+		}
 	}
 
 	provinces={
