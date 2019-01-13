@@ -6,6 +6,7 @@ state={
 	provinces={
 		1746 1803 1804 1805 3294 4094 4095 4096 7082 7083 7084 10530 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
