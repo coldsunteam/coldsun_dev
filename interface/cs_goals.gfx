@@ -77,6 +77,10 @@ spriteTypes = {
 		name = "GFX_goal_focus_eqa_movement4"
 		texturefile = "gfx/interface/goals/focus_eqa_movement4.dds"
 	}
+	spriteType = {
+		name = "GFX_goal_focus_eqa_estermeylen_scandal"
+		texturefile = "gfx/interface/goals/focus_eqa_estermeylen_scandal.dds"
+	}
 	
 	### Equestria Stuff
 

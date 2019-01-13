@@ -10,7 +10,7 @@ focus_tree = {
 		} 
 	} 
 
-continuous_focus_position = { x = 1000 y = 1800 }
+continuous_focus_position = { x = 150 y = 1900 }
 
 	#Focus: Motorized Research
 		focus = { 
@@ -1221,7 +1221,7 @@ continuous_focus_position = { x = 1000 y = 1800 }
 		cost = 10
 		available_if_capitulated = yes 
 		available = {
-		NOT = { has_idea = EQA_divided_army }
+		has_completed_focus = EQA_removearmydebuff2
 		}
 		prerequisite = { focus = EQA_researchsector } 
 		ai_will_do = { 
@@ -3164,48 +3164,318 @@ continuous_focus_position = { x = 1000 y = 1800 }
 
 	}
 	
-	#Focus: External Matters
+	#Focus: Republican Celebrations
 		focus = {
-		id = EQA_externalmatters
-		icon = GFX_goal_generic_improve_relations
-		x = 14
-		y = 11
-		cost = 10
-		available_if_capitulated = yes 
-		available = { 
-		has_war = no
-		}
-		prerequisite = { focus = EQA_landofopportunity }
-		prerequisite = { focus = EQA_unyieldingspirit }
-		ai_will_do = {
-			factor = 40
-		}
-			completion_reward = {
-			add_stability = 0.03
-			add_war_support = 0.05
-		}
-
-	}
-	
-	#Focus: Internal Matters
-		focus = {
-		id = EQA_internalmatters
+		id = EQA_repcelebrations
 		icon = GFX_goal_generic_propaganda
-		x = 18
+		x = 16
 		y = 11
-		cost = 10
+		cost = 5
 		available_if_capitulated = yes 
 		available = { 
 		has_war = no
 		}
 		prerequisite = { focus = EQA_landofopportunity }
 		prerequisite = { focus = EQA_securitesociale }
+		prerequisite = { focus = EQA_unyieldingspirit }
 		ai_will_do = {
 			factor = 40
 		}
 			completion_reward = {
-			add_stability = 0.05
+			add_stability = 0.1
 			add_war_support = 0.03
+			country_event = { days = 1 id = prance.100 }
+		}
+
+	}
+	
+	#Focus: Estermeylen Scandal
+		focus = {
+		id = EQA_estermeylenscandal
+		icon = GFX_goal_focus_eqa_estermeylen_scandal
+		x = 16
+		y = 12
+		cost = 1
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_repcelebrations }
+		available = {
+		has_country_flag = estermeylen_affair
+		}
+		bypass = {
+		has_country_flag = estermeylen_affair
+		}
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = -0.25
+			add_war_support = -0.25
+			add_ideas = EQA_estermeylenaffair
+		}
+
+	}
+	
+	#Focus: The Trial
+		focus = {
+		id = EQA_thetrial
+		icon = GFX_focus_generic_self_management
+		x = 15
+		y = 13
+		cost = 3
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_estermeylenscandal }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			country_event = { days = 1 id = prance.102 }
+		}
+
+	}
+	
+	#Focus: The Papers
+		focus = {
+		id = EQA_thepapers
+		icon = GFX_goal_generic_forceful_treaty
+		x = 17
+		y = 13
+		cost = 3
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_estermeylenscandal }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			country_event = { days = 1 id = prance.103 }
+		}
+
+	}
+	
+	#Focus: The Public
+		focus = {
+		id = EQA_thepublic
+		icon = GFX_goal_generic_demand_territory
+		x = 18
+		y = 14
+		cost = 8
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_thepapers }
+		prerequisite = { focus = EQA_thetrial }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			country_event = { days = 1 id = prance.104 }
+			add_stability = -0.03
+			add_war_support = -0.03
+		}
+
+	}
+	
+	#Focus: The Outrage
+		focus = {
+		id = EQA_theoutrage
+		icon = GFX_focus_generic_strike_at_democracy2
+		x = 14
+		y = 14
+		cost = 8
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_thetrial }
+		prerequisite = { focus = EQA_thepapers }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			country_event = { days = 1 id = prance.105 }
+			add_stability = -0.05
+		}
+
+	}
+	
+	#Focus: J'Accuse!
+		focus = {
+		id = EQA_jaccuse
+		icon = GFX_focus_generic_treaty
+		x = 16
+		y = 14
+		cost = 3
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_thetrial }
+		prerequisite = { focus = EQA_thepapers }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			country_event = { days = 1 id = prance.106 }
+			add_stability = 0.02
+		}
+
+	}
+	
+	#Focus: Government Action
+		focus = {
+		id = EQA_govaction
+		icon = GFX_goal_focus_eqa_reform1
+		x = 16
+		y = 15
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_theoutrage }
+		prerequisite = { focus = EQA_thepublic }
+		prerequisite = { focus = EQA_jaccuse }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			custom_effect_tooltip = 10_EQA_tt
+			country_event = { days = 1 id = prance.107 }
+		}
+
+	}
+	
+	#Focus: Turn a Blind Eye
+		focus = {
+		id = EQA_turnblindeye
+		icon = GFX_goal_tfv_saf_anti_colonialist_crusade
+		x = 13
+		y = 16
+		cost = 1
+		available_if_capitulated = yes 
+		available = {
+		has_country_flag = ignore_ester
+		}
+		bypass = {
+		has_country_flag = ignore_ester
+		}
+		prerequisite = { focus = EQA_govaction }
+		mutually_exclusive = { focus = EQA_repairholes }
+		ai_will_do = {
+			factor = 20
+		}
+			completion_reward = {
+			add_stability = 0.2
+			add_war_support = 0.15
+		}
+
+	}
+	
+	#Focus: Supreme Republic
+		focus = {
+		id = EQA_suprep
+		icon = GFX_focus_generic_strike_at_democracy3
+		x = 13
+		y = 17
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_turnblindeye }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.15
+		}
+
+	}
+	
+	#Focus: A Proud Nationality
+		focus = {
+		id = EQA_aproudnat
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 13
+		y = 18
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_suprep }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.15
+			add_war_support = 0.2
+			remove_ideas = EQA_estermeylenaffair
+		}
+
+	}
+	
+	#Focus: Repair the Holes
+		focus = {
+		id = EQA_repairholes
+		icon = GFX_goal_generic_improve_relations
+		x = 19
+		y = 16
+		cost = 1
+		available_if_capitulated = yes 
+		available = {
+		has_country_flag = save_ester
+		}
+		bypass = {
+		has_country_flag = save_ester
+		}
+		prerequisite = { focus = EQA_govaction }
+		mutually_exclusive = { focus = EQA_turnblindeye }
+		ai_will_do = {
+			factor = 80
+		}
+			completion_reward = {
+			add_stability = 0.35
+			add_war_support = 0.1
+		}
+
+	}
+	
+	#Focus: Aftermath of the Scandal
+		focus = {
+		id = EQA_aftermath
+		icon = GFX_goal_generic_improve_relations
+		x = 19
+		y = 17
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_repairholes }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.05
+		}
+
+	}
+	
+	#Focus: A Fair Judicial System
+		focus = {
+		id = EQA_afairjustice
+		icon = GFX_goal_focus_stability
+		x = 19
+		y = 18
+		cost = 10
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_aftermath }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			add_stability = 0.15
+			remove_ideas = EQA_estermeylenaffair
+		}
+
+	}
+	
+	#Focus: Second Prench Republic
+		focus = {
+		id = EQA_secondprenchrep
+		icon = GFX_goal_focus_eqa_republican_movement
+		x = 16
+		y = 19
+		cost = 20
+		available_if_capitulated = yes 
+		prerequisite = { focus = EQA_afairjustice focus = EQA_aproudnat }
+		ai_will_do = {
+			factor = 40
+		}
+			completion_reward = {
+			country_event = { days = 1 id = prance.109 }
 		}
 
 	}

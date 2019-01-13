@@ -584,6 +584,20 @@ ideas = {
 				monthly_population = 0.1
 			}
 		}
+		
+		EQA_estermeylenaffair = {
+			picture = ast_classify_aliens
+			removal_cost = -1
+			
+			allowed = {
+				always = yes
+			}
+			
+			modifier = {
+				surrender_limit = -0.25
+				political_power_gain = -0.5
+			}
+		}
 			
 }
 }
