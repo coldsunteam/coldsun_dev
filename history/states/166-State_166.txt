@@ -1,11 +1,17 @@
+
 state={
 	id=166
 	name="STATE_166"
-	provinces={
-		2165 2166 2167 3660 3663 8899 8900 
+
+	history={
+		owner = BPB
+		add_core_of = BPB
 	}
-	manpower=100
-        state_category=metropolis
+
+	provinces={
+		2190 2191 3101 11254 21114 21120 21121 21128 21133 21135 21138 
+	}
+	manpower=78445
 	buildings_max_level_factor=1.000
-     
+	state_category=town
 }

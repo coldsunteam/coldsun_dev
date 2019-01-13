@@ -10,15 +10,19 @@ state={
 		owner = BIG
 		add_core_of = BIG
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			arms_factory = 1
 
+		}
+		
+		victory_points = {
+			9506 25 
 		}
 
 	}
 
 	provinces={
-		2382 2383 4788 4789 4790 7087 7089 7090 8996 8997 11430 11431 11468 11611 20414 
+		860 2183 2493 3481 3786 9249 9506 11081 20439 
 	}
 	manpower=2845000
 	buildings_max_level_factor=1.000

@@ -4,20 +4,26 @@ state={
 	name="STATE_949"
 	resources={
 		grain=8.000
+		steel=14.000
 	}
 
 	history={
-		owner = GPD
-		add_core_of = GPD
+		owner = GPB
+		add_core_of = GPB
 		buildings = {
 			infrastructure = 2
+
+		}
+		
+		victory_points = {
+			175 21 
 		}
 	}
 
 	provinces={
-		1872 2181 2182 2184 2185 2186 2387 2388 2595 3938 10248 11854 
+		175 775 1121 9212 10649 10666 10775 10801 10881 10897 11867 19001 19335 21235 
 	}
 	manpower=2874000
 	buildings_max_level_factor=1.000
-	state_category = rural
+	state_category=large_city
 }

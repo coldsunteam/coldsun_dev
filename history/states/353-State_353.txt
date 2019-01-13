@@ -4,22 +4,24 @@ state={
 	name="STATE_353"
 
 	history={
-		owner = GPC
-		add_core_of = GPC
+		owner = GPD
+		add_core_of = GPD
 		buildings = {
 			infrastructure = 4
-			industrial_complex = 3
+			industrial_complex = 1
 			arms_factory = 1
+
 		}
 		victory_points = {
-			19604 14 
+			11674 4 
 		}
+
 	}
 
 	provinces={
-		2154 2155 2156 2157 2158 2159 3108 3730 3987 5806 5807 7378 9140 19604 19605 19606 19607 20366 20369 
+		2404 2405 5902 5903 9542 9578 10946 11674 11712 11757 11789 11872 11929 12477 
 	}
 	manpower=6218100
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=rural
 }

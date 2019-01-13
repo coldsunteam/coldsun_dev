@@ -4,15 +4,15 @@ state={
 	name="STATE_216"
 
 	history={
-		owner = BPA
-		add_core_of = BPA
+		owner = BIG
+		add_core_of = BIG
 
 	}
 
 	provinces={
-		850 851 852 853 854 855 856 857 858 1712 2066 2067 2068 2069 2070 5534 7733 10210 10211 11652 
+		2492 3404 4783 5703 9250 9388 20446 20448 20450 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_city
 }

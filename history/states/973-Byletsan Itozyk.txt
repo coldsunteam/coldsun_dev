@@ -3,15 +3,10 @@ state={
 	id=973
 	name="STATE_973"
 
-	history={
-		owner = BAT
-		add_core_of = BAT
-
-	}
-
 	provinces={
-		848 849 9242 9547 20497 20569 20570 
+		852 853 859 5401 8681 9570 11652 21029 21046 21054 21230 
 	}
-	manpower=0
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

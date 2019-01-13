@@ -2,16 +2,17 @@
 state={
 	id=269
 	name="STATE_269"
-	
+
 	history={
 		owner = TAR
 		add_core_of = TAR
+
 	}
+
 	provinces={
-		9812 10930 10939 
+		9812 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=wasteland
-	impassable = yes
 }

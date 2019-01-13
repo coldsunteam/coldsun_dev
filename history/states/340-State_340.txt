@@ -3,19 +3,23 @@ state={
 	id=340
 	name="STATE_340"
 	resources={
-		grain=12.000
+		grain=24.000
 	}
 
 	history={
-		owner = GPA
-		add_core_of = GPA
+		owner = GPE
+		add_core_of = GPE
 		buildings = {
 			infrastructure = 3
+
+		}
+		victory_points = {
+			2185 8 
 		}
 	}
 
 	provinces={
-		5322 5441 6284 6493 8456 9694 9695 9696 10635 19608 19609 19610 19612 
+		2184 2185 2377 2378 2595 7261 7262 8307 9251 20385 20393 20398 20428 20436 
 	}
 	manpower=2698742
 	buildings_max_level_factor=1.000

@@ -2,13 +2,15 @@
 state={
 	id=148
 	name="STATE_148"
-
+	history={
+		owner = GPC
+		add_core_of = GPC
+	}
 	
-
 	provinces={
-		1206 1207 1538 3943 4663 4664 6575 6576 6863 6864 7414 7415 9933 10125 
+		621 3572 4088 4091 12006 13386 13623 13747 13857 13932 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

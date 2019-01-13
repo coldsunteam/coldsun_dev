@@ -4,8 +4,8 @@ state={
 	name="STATE_953"
 	resources={
 		grain=12.000
-		gems=12.000
 		steel=8.000
+		coal=16.000
 	}
 
 	history={
@@ -13,14 +13,13 @@ state={
 		add_core_of = BIG
 		buildings = {
 			infrastructure = 1
-			industrial_complex = 2
 
 		}
 
 	}
 
 	provinces={
-		788 790 791 792 20444 20447 
+		612 614 2494 3453 4797 8282 8379 8556 9238 10236 11304 20433 20457 
 	}
 	manpower=3975000
 	buildings_max_level_factor=1.000

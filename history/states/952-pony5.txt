@@ -11,19 +11,21 @@ state={
 		add_core_of = BIG
 		buildings = {
 			infrastructure = 5
-			dockyard = 2	
+			dockyard = 2
 			10531 = {
 				naval_base = 6
+
 			}
+
 		}
 		victory_points = {
-			10531 20
+			10531 20 
 		}
 
 	}
 
 	provinces={
-		1743 1744 4200 4794 7611 10531 20432 20434 20435 20437 
+		791 1742 4791 4792 4793 4794 4903 7088 7611 8555 8557 9941 10531 20437 
 	}
 	manpower=13854000
 	buildings_max_level_factor=1.000

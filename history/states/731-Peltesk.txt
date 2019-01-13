@@ -2,26 +2,26 @@
 state={
 	id=731
 	name="STATE_731"
+	resources={
+		grain=6.000
+	}
 
 	history={
-		owner = GPB
-		add_core_of = GPB
+		owner = GPA
+		add_core_of = GPA
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
 			arms_factory = 1
 
 		}
-		victory_points = {
-			774 34 
-		}
 
 	}
 
 	provinces={
-		172 173 174 175 176 774 775 5941 6026 7992 9316 9682 11655 20396 
+		3161 3162 5322 6284 8456 8457 9333 9694 9695 9696 10650 11475 19608 19609 19611 19612 
 	}
 	manpower=5485000
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=town
 }

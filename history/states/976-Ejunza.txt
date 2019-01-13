@@ -1,16 +1,17 @@
+
 state={
 	id=976
 	name="STATE_976"
 
 	history={
-		owner = BAT
-		add_core_of = BAT
-
+		owner = TZY
+		add_core_of = TZY
 	}
 
 	provinces={
-		6789 6793 6794 20520 20525 20537 
+		2549 2550 7713 7714 7984 9430 21042 21043 
 	}
-	manpower=0
+	manpower=36620
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

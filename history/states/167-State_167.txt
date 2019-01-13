@@ -2,11 +2,20 @@
 state={
 	id=167
 	name="STATE_167"
+	resources={
+		tungsten=8.000
+		steel=25.000
+	}
+	
+	history={
+		owner = GPD
+		add_core_of = GPD
+	}	
+		
 	provinces={
-		1581 1585 1586 1587 2206 2208 2787 6942 6943 9054 10188 10919 
+		153 1872 2181 2186 2187 2188 5901 9690 10703 11628 11630 11641 11779 11810 20411 
 	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
-        
+	state_category=rural
 }

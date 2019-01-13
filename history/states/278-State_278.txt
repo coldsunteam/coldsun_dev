@@ -2,10 +2,19 @@
 state={
 	id=278
 	name="STATE_278"
+	resources={
+		tungsten=7.000
+	}
+	
+	history={
+		owner = GPC
+		add_core_of = GPC
+	}
+	
 	provinces={
-		669 670 671 5464 6784 6785 9035 9894 10505 
+		3110 3111 3278 3279 3280 3281 3283 4089 7465 7466 9153 10039 
 	}
 	manpower=100
-        state_category=metropolis
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -2,13 +2,22 @@
 state={
 	id=161
 	name="STATE_161"
-	provinces={
-		4050 4051 4052 4082 4083 4084 4085 5446 5780 5781 5782 9964 10512 10546 10702 
+	resources={
+		grain=12.000
+		chromium=8.000
 	}
 	
+	history={
+		owner = BIG
+		add_core_of = BIG
+
+	}
 
 	
+	provinces={
+		4850 4851 7341 7342 9064 9732 9970 10341 20452 
+	}
 	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_city
 }
