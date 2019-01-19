@@ -274,13 +274,13 @@ guiTypes = {
 				}	
 				iconType = {
 					name ="artifact_1"
-					spriteType = "GFX_defcon_3_grayed"	
+					spriteType = "GFX_defcon_1_grayed"	
 					position = { x =20 y = 60 }
 					alwaystransparent = yes
 				}	
 				iconType = {
 					name ="artifact_2"
-					spriteType = "GFX_defcon_3_grayed"	
+					spriteType = "GFX_defcon_2_grayed"	
 					position = { x =20 y = 60 }
 					alwaystransparent = yes
 				}	
@@ -292,24 +292,24 @@ guiTypes = {
 				}	
 				
 				buttonType = {
+					name = "artifact_choose_button" 
+					position = {x=260 y=80}	
+					spriteType = "GFX_button_221x34"
+					buttonFont = "hoi_16mbs"
+					text = "Choose Artifact"
+				}
+				
+				buttonType = {
 					name = "artifact_equip_button" 
-					position = {x=260 y=60}	
+					position = {x=260 y=140}	
 					spriteType = "GFX_button_221x34"
 					buttonFont = "hoi_16mbs"
 					text = "Equip Artifact"
 				}
 				
 				buttonType = {
-					name = "artifact_destroy_button" 
-					position = {x=260 y=120}	
-					spriteType = "GFX_button_221x34"
-					buttonFont = "hoi_16mbs"
-					text = "Destroy Artifact"
-				}
-				
-				buttonType = {
 					name = "artifact_switch_button" 
-					position = {x=260 y=180}	
+					position = {x=260 y=200}	
 					spriteType = "GFX_button_221x34"
 					buttonFont = "hoi_16mbs"
 					text = "Switch Artifact"
