@@ -242,26 +242,77 @@ guiTypes = {
 		
 		
 		containerWindowType = {
-			name =  "extra_moon"
-			position = { x = 4 y = 400 }
+			name =  "extra_artifact"
+			position = { x = 4 y = 370 }
 			size = { width = 520 height = 200 }
 			
 				iconType ={
-					name ="extraoptions_moon_header_bg"
+					name ="extraoptions_artifact_header_bg"
 					spriteType = "GFX_pol_win_idea_header"
 					position = { x= 0 y = 6 }
 					Orientation = "UPPER_LEFT"
 				}	
 		
 				instantTextboxType = {
-					name = "extraoptions_moon_title"
+					name = "extraoptions_artifact_title"
 					position = { x = 210 y = 12 }
 					font = "hoi_36header"
 					borderSize = {x = 0 y = 0}
-					text = "The Moon"
+					text = "Artifacts"
 					maxWidth = 240
 					maxHeight = 20
 					format = left	
+				}
+				
+				
+				
+				iconType = {
+					name ="artifact_frame"
+					spriteType = "GFX_tiled_paper_w_frame_bg"	
+					position = { x =20 y = 60 }
+					alwaystransparent = yes
+				}	
+				iconType = {
+					name ="artifact_1"
+					spriteType = "GFX_defcon_3_grayed"	
+					position = { x =20 y = 60 }
+					alwaystransparent = yes
+				}	
+				iconType = {
+					name ="artifact_2"
+					spriteType = "GFX_defcon_3_grayed"	
+					position = { x =20 y = 60 }
+					alwaystransparent = yes
+				}	
+				iconType = {
+					name ="artifact_3"
+					spriteType = "GFX_defcon_3_grayed"	
+					position = { x =20 y = 60 }
+					alwaystransparent = yes
+				}	
+				
+				buttonType = {
+					name = "artifact_equip_button" 
+					position = {x=260 y=60}	
+					spriteType = "GFX_button_221x34"
+					buttonFont = "hoi_16mbs"
+					text = "Equip Artifact"
+				}
+				
+				buttonType = {
+					name = "artifact_destroy_button" 
+					position = {x=260 y=120}	
+					spriteType = "GFX_button_221x34"
+					buttonFont = "hoi_16mbs"
+					text = "Destroy Artifact"
+				}
+				
+				buttonType = {
+					name = "artifact_switch_button" 
+					position = {x=260 y=180}	
+					spriteType = "GFX_button_221x34"
+					buttonFont = "hoi_16mbs"
+					text = "Switch Artifact"
 				}
 		}
 	}

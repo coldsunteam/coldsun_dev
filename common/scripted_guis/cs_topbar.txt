@@ -115,6 +115,20 @@ scripted_gui = {
 					add_political_power = -150
 				}
 			}
+			
+			
+			
+			
+			### Artifact Stuff ###
+			artifact_equip_button_click = {
+			}
+			
+			artifact_destroy_button_click = {
+			}
+			
+			artifact_switch_button_click = {
+			}
+			
 		}
 		
 		triggers = {
