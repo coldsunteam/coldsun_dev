@@ -441,7 +441,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			every_owned_state = { add_extra_state_shared_building_slots = 3 }
-			country_event = { days = 1 id = prance.222 }
+			country_event = { days = 1 id = prance.flavor.4 }
 		} 
 
 	}

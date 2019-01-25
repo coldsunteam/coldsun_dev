@@ -244,23 +244,46 @@ units = {
 	
 	##Marine Nationale
 	navy = {
-		name = "Marine Nationale"
+		name = "1ère Région Navale"
 		base = 9443
 		location = 9443  
-		ship = { name = "Justice" definition = battlecruiser equipment = { battle_cruiser_2 = { amount = 1 owner = EQA } } }
-		ship = { name = "Patrimoine" definition = battlecruiser equipment = { battle_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Liberté" definition = battleship equipment = { battleship_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Justice" definition = battleship equipment = { battleship_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Patrimoine" definition = battle_cruiser equipment = { battle_cruiser_1 = { amount = 1 owner = EQA } } }
 		ship = { name = "Givre" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = EQA } } }			
 		ship = { name = "Cristalline" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = EQA } } }
 		ship = { name = "Briseur" definition = heavy_cruiser  equipment = { heavy_cruiser_1 = { amount = 1 owner = EQA } } }
 		ship = { name = "Admiral Jolie" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } } 					
 		ship = { name = "Vaniteux" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Indomptable" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Coquelicot" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } }
 		ship = { name = "Le Fier" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = EQA } } }
 		ship = { name = "L'Espoir" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = EQA } } }
-		ship = { name = "Le Solide" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = EQA } } }
-		ship = { name = "L'Energétique" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Solide" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "L'Energétique" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
 		ship = { name = "Le Vigoureux" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
 		ship = { name = "Le Strident" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
 		ship = { name = "Le Dent de Sabre" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
 		ship = { name = "Le Faucon" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "La Féroce" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "La Combattante" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Baron" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+	}
+	
+	navy = {
+		name = "2nde Région Navale"
+		base = 42
+		location = 42  
+		ship = { name = "La Grande Rousse" definition = heavy_cruiser  equipment = { heavy_cruiser_2 = { amount = 1 owner = EQA } } }
+		ship = { name = "Marignon" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Victoire" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "L'Invincible" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = EQA } } }
+		ship = { name = "La Mignonne" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Secours" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Videur" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Mer Lactée" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Sirène" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Corde" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }
+		ship = { name = "Château" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FRA } } }
 	}
 }

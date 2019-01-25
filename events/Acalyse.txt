@@ -1,10 +1,10 @@
-﻿add_namespace = prance
-add_namespace = prance.flavor
-add_namespace = prance.republic
+﻿add_namespace = acalyse
+add_namespace = acalyse.flavor
+add_namespace = acalyse.republic
 
 ##### Generic Stuff
 
-## Prance Overview
+## Acalyse Overview
 country_event = {
 	id = prance.1
 	title = prance.1.t
@@ -153,5 +153,42 @@ country_event = {
 	option = {
 		name = prance.flavor.2.a
 		army_experience = 15
+	}
+}
+
+## Brightest Minds
+country_event = {
+	id = prance.flavor.3
+	title = prance.flavor.3.t
+	desc = prance.flavor.3.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = prance.flavor.3.a
+		add_tech_bonus = { bonus = 0.5 uses = 1 category = excavation_tech }
+	}
+	option = {
+		name = prance.flavor.3.b
+		add_tech_bonus = { bonus = 0.5 uses = 1 category = construction_tech }
+	}
+}
+
+## Chambre de Commerce et d'Industrie
+country_event = {
+	id = prance.flavor.4
+	title = prance.flavor.4.t
+	desc = prance.flavor.4.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = prance.flavor.4.a
 	}
 }
