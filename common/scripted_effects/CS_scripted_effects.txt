@@ -199,7 +199,6 @@ parliament_check_econ = {
 			add_to_variable = { yes = 6 }
 		}
 				
-		num_of_civilian_factories
 		##
 		if = {
 			limit = { num_of_civilian_factories < 11 }
@@ -311,7 +310,6 @@ parliament_check_econ = {
 			add_to_variable = { yes = 6 }
 		}
 				
-		num_of_civilian_factories
 		##
 		if = {
 			limit = { num_of_civilian_factories < 11 }

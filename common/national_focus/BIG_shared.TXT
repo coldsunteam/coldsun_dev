@@ -1,0 +1,151 @@
+shared_focus = {
+	id = BIG_state_of_the_republic
+	icon = GFX_goal_generic_allies_build_infantry
+	x = 8
+	y = 0
+	cost = 10
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}
+}
+	
+shared_focus = {
+	id = BIG_the_assassination
+	icon = GFX_goal_generic_allies_build_infantry
+	prerequisite = { focus = BIG_state_of_the_republic }
+	relative_position_id = BIG_state_of_the_republic
+	x = -4
+	y = 1
+	cost = 4
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}	
+}
+
+shared_focus = {
+	id = BIG_the_right_place
+	icon = GFX_goal_generic_allies_build_infantry
+	prerequisite = { focus = BIG_the_assassination }
+	relative_position_id = BIG_state_of_the_republic
+	x = -5
+	y = 2
+	cost = 4
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}	
+}
+
+shared_focus = {
+	id = BIG_the_right_time
+	icon = GFX_goal_generic_allies_build_infantry
+	prerequisite = { focus = BIG_the_assassination }
+	relative_position_id = BIG_state_of_the_republic
+	x = -3
+	y = 2
+	cost = 4
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}	
+}
+
+shared_focus = {
+	id = BIG_bloody_parade
+	icon = GFX_goal_generic_allies_build_infantry
+	prerequisite = { focus = BIG_the_right_place }
+	prerequisite = { focus = BIG_the_right_time }
+	relative_position_id = BIG_state_of_the_republic
+	x = -4
+	y = 3
+	cost = 4
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}	
+}
+
+
+
+shared_focus = {
+	id = BIG_win_them_over
+	icon = GFX_goal_generic_allies_build_infantry
+	prerequisite = { focus = BIG_state_of_the_republic }
+	relative_position_id = BIG_state_of_the_republic
+	x = 4
+	y = 1
+	cost = 4
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}	
+}
+
+shared_focus = {
+	id = BIG_propaganda_leaflets
+	icon = GFX_goal_generic_allies_build_infantry
+	prerequisite = { focus = BIG_win_them_over }
+	relative_position_id = BIG_state_of_the_republic
+	x = 3
+	y = 2
+	cost = 4
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}	
+}
+
+shared_focus = {
+	id = BIG_gov_infiltration
+	icon = GFX_goal_generic_allies_build_infantry
+	prerequisite = { focus = BIG_win_them_over }
+	relative_position_id = BIG_state_of_the_republic
+	x = 5
+	y = 2
+	cost = 4
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}	
+}
+
+shared_focus = {
+	id = BIG_support_integration_groups
+	icon = GFX_goal_generic_allies_build_infantry
+	prerequisite = { focus = BIG_gov_infiltration }
+	relative_position_id = BIG_state_of_the_republic
+	x = 5
+	y = 3
+	cost = 4
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}	
+}
+
+shared_focus = {
+	id = BIG_referendum
+	icon = GFX_goal_generic_allies_build_infantry
+	prerequisite = { focus = BIG_support_integration_groups }
+	prerequisite = { focus = BIG_propaganda_leaflets }
+	relative_position_id = BIG_state_of_the_republic
+	x = 4
+	y = 4
+	cost = 4
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+	}	
+}
