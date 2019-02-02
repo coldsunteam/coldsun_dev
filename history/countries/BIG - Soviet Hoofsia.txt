@@ -91,3 +91,5 @@ create_country_leader = {
 	}
 }
 
+
+set_country_flag = ercenbrand_default

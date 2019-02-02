@@ -1,16 +1,17 @@
 focus_tree = {
-	id = ercenbrand_focus_one
-
+	id = ercenbrand_focus_success
+	
 	country = {
 		factor = 0
-
-		modifier = {
-			add = 10
-			tag = BIG
-		}
+		
+		#modifier = {
+		#	add = 10
+		#	tag = EQS
+		#}
 	}
 	default = no
 	continuous_focus_position = { x = 290 y = 2500 }
-
+	
 	shared_focus = BIG_state_of_the_republic
+	shared_focus = BIG_complete_sucess
 }
