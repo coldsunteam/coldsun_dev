@@ -92,6 +92,11 @@ BPA_communism:0 "Generic Bat"
 BPA_fascism:0 "Generic Bat"
 BPA_neutrality:0 "Generic Bat"
 
+BPM_democratic:0 "Generic Bat"
+BPM_communism:0 "Generic Bat"
+BPM_fascism:0 "Generic Bat"
+BPM_neutrality:0 "Generic Bat"
+
 BAT_democratic:0 "Island Bat"
 BAT_communism:0 "Island Bat"
 BAT_fascism:0 "Island Bat"

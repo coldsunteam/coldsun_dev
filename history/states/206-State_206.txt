@@ -2,10 +2,15 @@
 state={
 	id=206
 	name="STATE_206"
+
+	history={
+		owner = BPM
+		add_core_of = BPM
+	}
 	provinces={
 		835 3105 7843 
 	}
-	manpower=100
+	manpower=53
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

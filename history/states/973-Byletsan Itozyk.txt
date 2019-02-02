@@ -3,10 +3,15 @@ state={
 	id=973
 	name="STATE_973"
 
+	history={
+		owner = BPM
+		add_core_of = BPM
+	}
+
 	provinces={
 		852 853 859 5401 8681 9570 11652 21029 21046 21054 21230 
 	}
-	manpower=100
+	manpower=434204
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 }
