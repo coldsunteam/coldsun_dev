@@ -855,7 +855,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BIG_armed_revolt
+	id = BIG_intervention
 	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = { focus = BIG_armed_revolt }
 	prerequisite = { focus = BIG_embargo_equestria }

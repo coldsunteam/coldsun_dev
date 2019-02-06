@@ -2,9 +2,234 @@
 ### Ideas ###
 
 ### Focuses ###
-BIG_on_the_campaign_trail:0 "The Campaign Trail"
-BIG_on_the_campaign_trail_desc:0 ""
+BIG_state_of_the_republic:0 "State of the Republic"
+BIG_state_of_the_republic_desc:0 ""
 
+BIG_the_assassination:0 "The Assassination"
+BIG_the_assassination_desc:0 ""
+
+BIG_the_right_place:0 "The Right Place"
+BIG_the_right_place_desc:0 ""
+
+BIG_the_right_time:0 "The Right Time"
+BIG_the_right_time_desc:0 ""
+
+BIG_bloody_parade:0 "Bloody Parade"
+BIG_bloody_parade_desc:0 ""
+
+BIG_win_them_over:0 "Win Them Over"
+BIG_win_them_over_desc:0 ""
+
+BIG_propaganda_leaflets:0 "Propoganda Leaflets"
+BIG_propaganda_leaflets_desc:0 ""
+
+BIG_gov_infiltration:0 "Government Infiltration"
+BIG_gov_infiltration_desc:0 ""
+
+BIG_support_integration_groups:0 "Support Integration Groups"
+BIG_support_integration_groups_desc:0 ""
+
+BIG_referendum:0 "Referendum"
+BIG_referendum_desc:0 ""
+
+BIG_complete_sucess:0 "Complete Success"
+BIG_complete_sucess_desc:0 ""
+
+BIG_merging_militaries:0 "Merging Militaries"
+BIG_merging_militaries_desc:0 ""
+
+BIG_conscription_issues:0 "Conscription Issues"
+BIG_conscription_issues_desc:0 ""
+
+BIG_new_branch:0 "New Branch of the Armed Forces" 
+BIG_new_branch_desc:0 ""
+
+BIG_vendiactran_generals:0 "Vendiactran Generals"
+BIG_vendiactran_generals_desc:0 ""
+
+BIG_military_expansion:0 "Military Expansion"
+BIG_military_expansion_desc:0 ""
+
+BIG_integrating_vendiactra:0 "Integrating Vendiactra"
+BIG_integrating_vendiactra_desc:0 ""
+
+BIG_parliamentary_representation:0 "Parliamentary Representation"
+BIG_parliamentary_representation_desc:0 ""
+
+BIG_citizenship_to_vendiactrans:0 "Citizenship to Vendiactrans"
+BIG_citizenship_to_vendiactrans_desc:0 ""
+
+BIG_industrial_innovations:0 "Industrial Innovations"
+BIG_industrial_innovations_desc:0 ""
+
+BIG_great_push_forwards:0 "Great Push Forwards"
+BIG_great_push_forwards_desc:0 ""
+
+BIG_duchy_of_istrimark:0 "The Duchy of Istrimark"
+BIG_duchy_of_istrimark_desc:0 ""
+
+BIG_reward_the_loyalists:0 "Reward the Loyalists"
+BIG_reward_the_loyalists_desc:0 ""
+
+BIG_duchy_of_kradsava:0 "The Duchy of Kradsava"
+BIG_duchy_of_kradsava_desc:0 ""
+
+BIG_crush_resistance:0 "Crush Resistance"
+BIG_crush_resistance_desc:0 ""
+
+BIG_barrier_princedoms:0 "The Barrier Princedoms"
+BIG_barrier_princedoms_desc:0 ""
+
+BIG_gearing_for_war:0 "Gearing for War"
+BIG_gearing_for_war_desc:0 ""
+
+BIG_secure_prench_border:0 "Secure the Acalyse Border"
+BIG_secure_prench_border_desc:0 ""
+
+BIG_defense_against_thestras:0 "Defense against the Thestrals"
+BIG_defense_against_thestras_desc:0 ""
+
+BIG_nationalize_military_industries:0 "Nationalize Military Industries"
+BIG_nationalize_military_industries_desc:0 ""
+
+BIG_final_war:0 "The Final War"
+BIG_final_war_desc:0 ""
+
+BIG_international_dealings:0 "International Dealings"
+BIG_international_dealings_desc:0 ""
+
+BIG_mission_to_prance:0 "Mission to Acalyse"
+BIG_mission_to_prance_desc:0 ""
+
+BIG_unrest_in_equestria:0 "Unrest in Equestria"
+BIG_unrest_in_equestria_desc:0 ""
+
+BIG_mission_to_kythestrys:0 "Mission to Kythestrys"
+BIG_mission_to_kythestrys_desc:0 ""
+
+
+BIG_worst_case_scenario:0 "Worst Case Scenario"
+BIG_worst_case_scenario_desc:0 ""
+
+BIG_the_aftermath:0 "The Aftermath"
+BIG_the_aftermath_desc:0 ""
+
+BIG_parliament_objects:0 "Parliament Objects"
+BIG_parliament_objects_desc:0 ""
+
+BIG_takedown_hayburns:0 "Takedown Hayburns"
+BIG_takedown_hayburns_desc:0 ""
+
+BIG_new_chancellorship:0 "New Chancellorship"
+BIG_new_chancellorship_desc:0 ""
+
+BIG_emergency_powers:0 "Emergency Powers"
+BIG_emergency_powers_desc:0 ""
+
+BIG_shut_down_parliament:0 "Shut Down Parliament"
+BIG_shut_down_parliament_desc:0 ""
+
+BIG_government_crackdown:0 "Government Crackdown"
+BIG_government_crackdown_desc:0 ""
+
+BIG_red_rebels:0 "Red Rebels"
+BIG_red_rebels_desc:0 ""
+
+BIG_securing_peace:0 "Securing Peace"
+BIG_securing_peace_desc:0 ""
+
+BIG_keep_vendiactra:0 "Keep Vendiactra"
+BIG_keep_vendiactra_desc:0 ""
+
+BIG_release_vendiactra:0 "Release Vendiactra"
+BIG_release_vendiactra_desc:0 ""
+
+BIG_reconciliation:0 "Reconciliation"
+BIG_reconciliation_desc:0 ""
+
+BIG_establish_league:0 "Establish the League of Ercenia"
+BIG_establish_league_desc:0 ""
+
+BIG_expand_the_league:0 "Expand the League"
+BIG_expand_the_league_desc:0 ""
+
+BIG_free_trade_for_all:0 "Free Trade"
+BIG_free_trade_for_all_desc:0 ""
+
+BIG_mutual_military_assistance:0 "Mutual Military Assistance"
+BIG_mutual_military_assistance_desc:0 ""
+
+BIG_felland_and_fetland:0 "Felland and Fetland"
+BIG_felland_and_fetland_desc:0 ""
+
+BIG_end_equestrian_influence:0 "End Equestrian Influence"
+BIG_end_equestrian_influence_desc:0 ""
+
+BIG_forming_relationships:0 "Forming Relationships"
+BIG_forming_relationships_desc:0 ""
+
+BIG_friendship_with_kythestris:0 "Friendship with Kythestris"
+BIG_friendship_with_kythestris_desc:0 ""
+
+BIG_friendship_with_acalyse:0 "Friendship with Acalyse"
+BIG_friendship_with_acalyse_desc:0 ""
+
+BIG_recall_embassies:0 "Recall Equestrian Embassies"
+BIG_recall_embassies_desc:0 ""
+
+BIG_denounce_equestria:0 "Denounce Equestria"
+BIG_denounce_equestria_desc:0 ""
+
+BIG_embargo_equestria:0 "Embargo Equestria"
+BIG_embargo_equestria_desc:0 ""
+
+BIG_sow_dissent_in_equestria:0 "Sow Dissent in Equestria"
+BIG_sow_dissent_in_equestria_desc:0 ""
+
+BIG_anti_imperalist_rallies:0 "Anti Imperialist Rallies"
+BIG_anti_imperalist_rallies_desc:0 ""
+
+BIG_question_princesses:0 "Question the Princesses"
+BIG_question_princesses_desc:0 ""
+
+BIG_infiltrate_equestrian_politics:0 "Infiltrate Equestrian Politics"
+BIG_infiltrate_equestrian_politics_desc:0 ""
+
+BIG_seeds_of_revolution:0 "The Seeds of Revolution"
+BIG_seeds_of_revolution_desc:0 ""
+
+BIG_armed_revolt:0 "Armed Revolt"
+BIG_armed_revolt_desc:0 ""
+
+BIG_intervention:0 "Intervention"
+BIG_intervention_desc:0 ""
+
+BIG_new_empire:0 "New Empire"
+BIG_new_empire_desc:0 ""
+
+BIG_force_them_into_the_fold:0 "Force Them Into the Fold"
+BIG_force_them_into_the_fold_desc:0 ""
+
+BIG_threats_to_the_east:0 "Threats to the East"
+BIG_threats_to_the_east_desc:0 ""
+
+BIG_secret_royal_forces:0 "Secrety Royal Services"
+BIG_secret_royal_forces_desc:0 ""
+
+BIG_wasteland_kingdom:0 "Chrysalis' Wasteland Kingdom"
+BIG_wasteland_kingdom_desc:0 ""
+
+BIG_threats_to_the_south:0 "Threats to the South"
+BIG_threats_to_the_south_desc:0 ""
+
+BIG_anti_equestrian_propaganda:0 "Anti Equestrian Propaganda"
+BIG_anti_equestrian_propaganda_desc:0 ""
+
+BIG_equestria_and_its_allies:0 "Equestria and Its Allies"
+BIG_equestria_and_its_allies_desc:0 ""
+
+BIG_war_for_victory:0 "War for Victory"
+BIG_war_for_victory_desc:0 ""
 
 ### Decisions ###
 BIG_raise_economic_law:0 "Raise Economy Law"
@@ -14,9 +239,6 @@ BIG_lower_manpower_law:0 "Lower Manpower Law"
 
 ## Category ##
 BIG_approach_parliament:0 "Approach Parliament"
-
-
-
 
 ### Misc ###
 BIG_EMP_fascism:0 "Greater Ercenia"
