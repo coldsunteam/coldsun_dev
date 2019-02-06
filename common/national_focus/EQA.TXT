@@ -441,7 +441,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			every_owned_state = { add_extra_state_shared_building_slots = 3 }
-			country_event = { days = 1 id = prance.flavor.4 }
+			country_event = { days = 1 id = acalyse.flavor.4 }
 		} 
 
 	}
@@ -660,7 +660,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			EQS = { country_event = { days = 1 id = prance.1939 } }
+			EQS = { country_event = { days = 1 id = acalyse.1939 } }
 	 } 
 
 	 } 
@@ -680,8 +680,8 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			794 = { add_extra_state_shared_building_slots = 2 }
-			EQS = { country_event = { days = 3 id = prance.1800 } }
-			CRY = { country_event = { days = 3 id = prance.1801 } }
+			EQS = { country_event = { days = 3 id = acalyse.1800 } }
+			CRY = { country_event = { days = 3 id = acalyse.1801 } }
 		} 
 
 	 } 
@@ -703,7 +703,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			country_event = { days = 1 id = prance.flavor.2 }
+			country_event = { days = 1 id = acalyse.flavor.2 }
 		 } 
 
 	 } 
@@ -722,7 +722,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 factor = 40
 		 } 
 			completion_reward = {
-			country_event = { days = 1 id = prance.flavor.1 }
+			country_event = { days = 1 id = acalyse.flavor.1 }
 			add_ideas = EQA_navy_support 
 		} 
 
@@ -1705,7 +1705,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		cost = 10
 		available_if_capitulated = yes 
 		available = {
-		has_completed_focus = EQA_crackdown4
+		has_completed_focus = EQA_crackdown2
 		}
 		prerequisite = { focus = EQA_queighbekhondeauxrailroad } 
 		prerequisite = { focus = EQA_securethearmy } 
@@ -1760,7 +1760,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		cost = 10
 		available_if_capitulated = yes 
 		available = {
-		has_completed_focus = EQA_crackdown4
+		has_completed_focus = EQA_crackdown2
 		}
 		prerequisite = { focus = EQA_queighbekhondeauxrailroad } 
 		prerequisite = { focus = EQA_securethearmy } 
@@ -2201,7 +2201,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		is_puppet = no
 		 } 
 			completion_reward = { 
-			EQS = { country_event = { days = 1 id = prance.75 } }
+			EQS = { country_event = { days = 1 id = acalyse.75 } }
 			add_opinion_modifier = { target = BIG modifier = abandoned_equestria }
 			add_opinion_modifier = { target = EQS modifier = betrayal }
 			add_political_power = -20
@@ -2257,7 +2257,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			add_war_support = 0.05
 			add_stability = -0.02
 			add_popularity = { ideology = fascism popularity = 0.04 }
-			BIG = { country_event = { days = 1 id = prance.50 } }
+			BIG = { country_event = { days = 1 id = acalyse.50 } }
 			add_opinion_modifier = { target = BIG modifier = neyghon_pact }
 		 } 
 
@@ -2285,7 +2285,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			add_manpower = 150000
 			add_popularity = { ideology = fascism popularity = 0.45 }
 			set_politics = { ruling_party = fascism elections_allowed = no }
-			country_event = { days = 1 id = prance.30 }
+			country_event = { days = 1 id = acalyse.30 }
 		 } 
 
 	 }
@@ -2609,7 +2609,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			TZY = { country_event = { days = 5 id = prance.350 } }
+			TZY = { country_event = { days = 5 id = acalyse.350 } }
 		 } 
 
 	 }
@@ -2631,7 +2631,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			add_opinion_modifier = { target = EQS modifier = threatens_us }
 			add_opinion_modifier = { target = CRY modifier = threatens_us }
 			add_opinion_modifier = { target = YAK modifier = threatens_us }
-			EQS = { country_event = { days = 1 id = prance.1000 } }
+			EQS = { country_event = { days = 1 id = acalyse.1000 } }
 		 } 
 
 	 }
@@ -2812,7 +2812,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			is_puppet = no
 		} 
 			completion_reward = { 
-			country_event = { days = 1 id = prance.republic.1 }
+			country_event = { days = 1 id = acalyse.republic.1 }
 			add_political_power = 25
 			add_stability = 0.05
 			add_popularity = { ideology = democratic popularity = 0.05 }
@@ -2837,7 +2837,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			is_puppet = no
 		} 
 			completion_reward = { 
-			country_event = { days = 1 id = prance.republic.2 }
+			country_event = { days = 1 id = acalyse.republic.2 }
 			add_political_power = 10
 		} 
 
@@ -2859,7 +2859,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			is_puppet = no
 		}
 			completion_reward = {
-			country_event = { days = 1 id = prance.republic.3 }
+			country_event = { days = 1 id = acalyse.republic.3 }
 			add_political_power = 10
 		}
 
@@ -2881,7 +2881,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			is_puppet = no
 		}
 			completion_reward = {
-			country_event = { days = 1 id = prance.republic.4 }
+			country_event = { days = 1 id = acalyse.republic.4 }
 			add_political_power = 10
 		}
 
@@ -2903,7 +2903,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			is_puppet = no
 		}
 			completion_reward = {
-			country_event = { days = 1 id = prance.republic.5 }
+			country_event = { days = 1 id = acalyse.republic.5 }
 			add_political_power = 10
 		}
 
@@ -2928,7 +2928,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			is_puppet = no
 		}
 			completion_reward = {
-			country_event = { days = 1 id = prance.republic.6 }
+			country_event = { days = 1 id = acalyse.republic.6 }
 			add_political_power = 50
 		}
 
@@ -3059,7 +3059,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			completion_reward = {
 			add_tech_bonus = { bonus = 0.33 uses = 2 category = construction_tech }
 			add_tech_bonus = { bonus = 0.33 uses = 2 category = excavation_tech }
-			country_event = { days = 1 id = prance.flavor.3 }
+			country_event = { days = 1 id = acalyse.flavor.3 }
 		}
 
 	}
@@ -3184,7 +3184,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			completion_reward = {
 			add_stability = 0.1
 			add_war_support = 0.03
-			country_event = { days = 1 id = prance.100 }
+			country_event = { days = 1 id = acalyse.100 }
 		}
 
 	}
@@ -3210,7 +3210,6 @@ continuous_focus_position = { x = 150 y = 1900 }
 			completion_reward = {
 			add_stability = -0.25
 			add_war_support = -0.25
-			add_ideas = EQA_estermeylenaffair
 		}
 
 	}
@@ -3228,7 +3227,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			factor = 40
 		}
 			completion_reward = {
-			country_event = { days = 1 id = prance.102 }
+			country_event = { days = 1 id = acalyse.102 }
 		}
 
 	}
@@ -3246,7 +3245,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			factor = 40
 		}
 			completion_reward = {
-			country_event = { days = 1 id = prance.103 }
+			country_event = { days = 1 id = acalyse.103 }
 		}
 
 	}
@@ -3265,9 +3264,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			factor = 40
 		}
 			completion_reward = {
-			country_event = { days = 1 id = prance.104 }
-			add_stability = -0.03
-			add_war_support = -0.03
+			country_event = { days = 1 id = acalyse.104 }
 		}
 
 	}
@@ -3286,8 +3283,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			factor = 40
 		}
 			completion_reward = {
-			country_event = { days = 1 id = prance.105 }
-			add_stability = -0.05
+			country_event = { days = 1 id = acalyse.105 }
 		}
 
 	}
@@ -3306,8 +3302,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			factor = 40
 		}
 			completion_reward = {
-			country_event = { days = 1 id = prance.106 }
-			add_stability = 0.02
+			country_event = { days = 1 id = acalyse.106 }
 		}
 
 	}
@@ -3327,8 +3322,8 @@ continuous_focus_position = { x = 150 y = 1900 }
 			factor = 40
 		}
 			completion_reward = {
+			country_event = { days = 1 id = acalyse.107 }
 			custom_effect_tooltip = 10_EQA_tt
-			country_event = { days = 1 id = prance.107 }
 		}
 
 	}
@@ -3475,7 +3470,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			factor = 40
 		}
 			completion_reward = {
-			country_event = { days = 1 id = prance.109 }
+			country_event = { days = 1 id = acalyse.109 }
 		}
 
 	}

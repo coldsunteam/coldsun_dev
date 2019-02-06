@@ -6,9 +6,9 @@ add_namespace = acalyse.republic
 
 ## Acalyse Overview
 country_event = {
-	id = prance.1
-	title = prance.1.t
-	desc = prance.1.d
+	id = acalyse.1
+	title = acalyse.1.t
+	desc = acalyse.1.d
 	picture = 
 
 	fire_only_once = yes
@@ -23,26 +23,26 @@ country_event = {
 	}
 
 	option = {
-		name = prance.1.a
+		name = acalyse.1.a
 		ai_chance = {
 		factor = 100
 		}
 	}
 	
 	option = {
-		name = prance.1.b
+		name = acalyse.1.b
 		ai_chance = {
 		factor = 1
 		}
-		EQA = { country_event = { id = prance.2 days = 1 } }
+		EQA = { country_event = { id = acalyse.2 days = 1 } }
 	}
 }
 
 ## Prance Situation
 country_event = {
-	id = prance.2
-	title = prance.2.t
-	desc = prance.2.d
+	id = acalyse.2
+	title = acalyse.2.t
+	desc = acalyse.2.d
 	picture = 
 
 	fire_only_once = yes
@@ -50,7 +50,7 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = prance.2.a
+		name = acalyse.2.a
 		ai_chance = {
 		factor = 100
 		}
@@ -59,9 +59,9 @@ country_event = {
 
 ## Resistance against Ercenbrand
 country_event = {
-	id = prance.4500
-	title = prance.4500.t
-	desc = prance.4500.d
+	id = acalyse.4500
+	title = acalyse.4500.t
+	desc = acalyse.4500.d
 	picture = 
 
 	fire_only_once = yes
@@ -78,7 +78,7 @@ country_event = {
 	}
 
 	option = {
-		name = prance.4500.a
+		name = acalyse.4500.a
 		set_global_flag = prench_resistance
 		EQA = {
 			set_cosmetic_tag = EQA_RESISTANCE
@@ -105,9 +105,9 @@ country_event = {
 
 ## Abandon Equestria
 country_event = {
-	id = prance.75
-	title = prance.75.t
-	desc = prance.75.d
+	id = acalyse.75
+	title = acalyse.75.t
+	desc = acalyse.75.d
 	picture = 
 
 	fire_only_once = yes
@@ -115,8 +115,179 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = prance.75.a
+		name = acalyse.75.a
 		add_political_power = -50
+	}
+}
+
+## Republic Celebrations
+country_event = {
+	id = acalyse.100
+	title = acalyse.100.t
+	desc = acalyse.100.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.100.a
+		country_event = { days = 4 id = acalyse.101 }
+	}
+}
+
+## Republic Celebrations
+country_event = {
+	id = acalyse.100
+	title = acalyse.100.t
+	desc = acalyse.100.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.100.a
+		country_event = { days = 4 id = acalyse.101 }
+	}
+}
+
+## Republic Celebrations
+country_event = {
+	id = acalyse.101
+	title = acalyse.101.t
+	desc = acalyse.101.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.101.a
+		set_country_flag = estermeylen_affair
+		add_ideas = EQA_estermeylenaffair
+	}
+}
+
+## The Trial
+country_event = {
+	id = acalyse.102
+	title = acalyse.102.t
+	desc = acalyse.102.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.102.a
+		add_political_power = -50
+		add_stability = -0.05
+		add_war_support = -0.05
+	}
+}
+
+## The Papers
+country_event = {
+	id = acalyse.103
+	title = acalyse.103.t
+	desc = acalyse.103.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.103.a
+		add_political_power = -50
+		add_war_support = -0.1
+	}
+}
+
+## The Public
+country_event = {
+	id = acalyse.104
+	title = acalyse.104.t
+	desc = acalyse.104.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.104.a
+		add_political_power = -25
+		add_stability = -0.02
+	}
+}
+
+## The Outrage
+country_event = {
+	id = acalyse.105
+	title = acalyse.105.t
+	desc = acalyse.105.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.105.a
+		add_political_power = -75
+		add_stability = -0.05
+		add_war_support = 0.03
+	}
+}
+
+## J'Accuse!
+country_event = {
+	id = acalyse.106
+	title = acalyse.106.t
+	desc = acalyse.106.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.106.a
+		add_political_power = 150
+		add_stability = 0.1
+	}
+}
+
+## The Fate of the Captain
+country_event = {
+	id = acalyse.107
+	title = acalyse.107.t
+	desc = acalyse.107.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.107.a
+		add_political_power = 100
+		add_stability = 0.15
+		add_war_support = 0.05
+		set_country_flag = save_ester
+	}
+	option = {
+		name = acalyse.107.b
+		add_political_power = 150
+		add_stability = 0.1
+		add_war_support = 0.1
+		set_country_flag = ignore_ester
 	}
 }
 
@@ -124,9 +295,9 @@ country_event = {
 
 ## Navy's Support
 country_event = {
-	id = prance.flavor.1
-	title = prance.flavor.1.t
-	desc = prance.flavor.1.d
+	id = acalyse.flavor.1
+	title = acalyse.flavor.1.t
+	desc = acalyse.flavor.1.d
 	picture = 
 
 	fire_only_once = yes
@@ -134,16 +305,16 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = prance.flavor.1.a
+		name = acalyse.flavor.1.a
 		navy_experience = 25
 	}
 }
 
 ## Army's Support
 country_event = {
-	id = prance.flavor.2
-	title = prance.flavor.2.t
-	desc = prance.flavor.2.d
+	id = acalyse.flavor.2
+	title = acalyse.flavor.2.t
+	desc = acalyse.flavor.2.d
 	picture = 
 
 	fire_only_once = yes
@@ -151,16 +322,16 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = prance.flavor.2.a
+		name = acalyse.flavor.2.a
 		army_experience = 15
 	}
 }
 
 ## Brightest Minds
 country_event = {
-	id = prance.flavor.3
-	title = prance.flavor.3.t
-	desc = prance.flavor.3.d
+	id = acalyse.flavor.3
+	title = acalyse.flavor.3.t
+	desc = acalyse.flavor.3.d
 	picture = 
 
 	fire_only_once = yes
@@ -168,20 +339,20 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = prance.flavor.3.a
-		add_tech_bonus = { bonus = 0.5 uses = 1 category = excavation_tech }
+		name = acalyse.flavor.3.a
+		add_tech_bonus = { bonus = 0.5 uses = 2 category = excavation_tech }
 	}
 	option = {
-		name = prance.flavor.3.b
-		add_tech_bonus = { bonus = 0.5 uses = 1 category = construction_tech }
+		name = acalyse.flavor.3.b
+		add_tech_bonus = { bonus = 0.5 uses = 2 category = construction_tech }
 	}
 }
 
 ## Chambre de Commerce et d'Industrie
 country_event = {
-	id = prance.flavor.4
-	title = prance.flavor.4.t
-	desc = prance.flavor.4.d
+	id = acalyse.flavor.4
+	title = acalyse.flavor.4.t
+	desc = acalyse.flavor.4.d
 	picture = 
 
 	fire_only_once = yes
@@ -189,6 +360,94 @@ country_event = {
 	is_triggered_only = yes
 
 	option = {
-		name = prance.flavor.4.a
+		name = acalyse.flavor.4.a
+		add_political_power = 25
+	}
+}
+
+############## REPUBLIC EVENTS ##################
+
+## Republican Sentiment
+country_event = {
+	id = acalyse.republic.1
+	title = acalyse.republic.1.t
+	desc = acalyse.republic.1.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.republic.1.a
+		add_political_power = 25
+	}
+}
+
+## Maquis
+country_event = {
+	id = acalyse.republic.2
+	title = acalyse.republic.2.t
+	desc = acalyse.republic.2.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.republic.2.a
+		add_political_power = 25
+	}
+}
+
+## Radicaux
+country_event = {
+	id = acalyse.republic.3
+	title = acalyse.republic.3.t
+	desc = acalyse.republic.3.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.republic.3.a
+		add_political_power = 25
+	}
+}
+
+## Alliance en Avant
+country_event = {
+	id = acalyse.republic.4
+	title = acalyse.republic.4.t
+	desc = acalyse.republic.4.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.republic.4.a
+		add_political_power = 25
+	}
+}
+
+## Etat Insoumis
+country_event = {
+	id = acalyse.republic.5
+	title = acalyse.republic.5.t
+	desc = acalyse.republic.5.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.republic.5.a
+		add_political_power = 25
 	}
 }
