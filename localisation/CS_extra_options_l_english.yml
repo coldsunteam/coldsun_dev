@@ -10,3 +10,19 @@ DEFCON_4_TOOLTIP:0 "Cost (£pol_power )§Y150§! \nNeeds §R10%§! World Tension
 DEFCON_3_TOOLTIP:0 "Cost (£pol_power )§Y150§! \nNeeds §R50%§! World Tension and §R Partial Mobilization§!"
 DEFCON_2_TOOLTIP:0 "Cost (£pol_power )§Y150§! \nNeeds §R80%§! World Tension,§R War Economy§!, and you must be at§R War§!"
 DEFCON_1_TOOLTIP:0 "Cost (£pol_power )§Y150§! \nNeeds §R90%§! World Tension,§R War Economy§!, and you must be at§R War§!"
+
+artifact.1.t:0 "Artifact List"
+artifact.1.d:0 "Choose artifact"
+artifact.1.a:0 "Less attrition"
+artifact.1.b:0 "Organization"
+artifact.1.c:0 "Morale"
+
+artifact.2.t:0 "General List"
+artifact.2.d:0 "Choose the general to assign the artifact to"
+artifact.2.a:0 "General 1"
+artifact.2.b:0 "General 2"
+artifact.2.c:0 "General 3"
+
+artifact_1:0 "Attrition artifact"
+artifact_2:0 "Organization artifact"
+artifact_3:0 "Morale artifact"

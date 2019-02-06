@@ -115,6 +115,22 @@ scripted_gui = {
 					add_political_power = -150
 				}
 			}
+			
+			
+			
+			
+			### Artifact Stuff ###
+			artifact_choose_button_click = {
+				country_event = { id = artifact.1 }
+			}
+			
+			artifact_equip_button_click = {
+				country_event = { id = artifact.2 }
+			}
+			
+			artifact_switch_button_click = {
+			}
+			
 		}
 		
 		triggers = {
@@ -170,6 +186,16 @@ scripted_gui = {
 				NOT = {
 					has_idea = DEFCON5
 				}
+			}
+			
+			artifact_1_visible = {
+				has_country_flag = artifact_one
+			}
+			artifact_2_visible = {
+				has_country_flag = artifact_two
+			}
+			artifact_3_visible = {
+				has_country_flag = artifact_three
 			}
 		}
 		

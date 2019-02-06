@@ -22,5 +22,6 @@ BAT = "countries/Island Bats.txt"
 BPA = "countries/Bat Pony 1.txt"
 BPB = "countries/Bat Pony 2.txt"
 BPC = "countries/Bat Pony 3.txt"
+BPM = "countries/Bat Pony Mountains.txt"
 ### Equis ###
 #############

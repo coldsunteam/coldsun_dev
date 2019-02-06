@@ -93,3 +93,39 @@ create_country_leader = {
 		
 	}
 }
+
+create_corps_commander = {
+	name = "Artifact Test 1"
+	portrait_path = ""
+	traits = { }
+	skill = 1
+	id = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Artifact Test 2"
+	portrait_path = ""
+	traits = { }
+	skill = 1
+	id = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Artifact Test 3"
+	portrait_path = ""
+	traits = { }
+	skill = 1
+	id = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
