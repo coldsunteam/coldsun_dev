@@ -8,6 +8,7 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		country_event = { id = big.1 }
 	}
 }
 	
@@ -24,6 +25,7 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		country_event = { id = big.2 }
 	}	
 }
 
@@ -39,6 +41,7 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		country_event = { id = big.3 }
 	}	
 }
 
@@ -54,6 +57,7 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		country_event = { id = big.4 }
 	}	
 }
 
@@ -70,6 +74,27 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		if = {
+			limit = {
+				check_variable = {
+					var = assassinationshit
+					val = 5
+					compare = greater_than_or_equals
+				}
+			}
+			country_event = { id = big.5 }
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					var = assassinationshit
+					val = 5
+					compare = less_than
+				}
+			}
+			country_event = { id = big.6 }
+		}
+		
 	}	
 }
 
@@ -88,6 +113,8 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		add_political_power = 100
+		add_stability = 0.10
 	}	
 }
 
@@ -103,6 +130,12 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		GPE = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+		}
 	}	
 }
 
@@ -118,6 +151,12 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		GPE = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.10
+			}
+		}
 	}	
 }
 

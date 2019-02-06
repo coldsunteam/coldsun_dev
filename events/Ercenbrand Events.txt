@@ -1,7 +1,7 @@
 ﻿add_namespace = big
 add_namespace = bigparliament
 
-country_event = {  ### A Meeting with Vendiactra
+country_event = {  ### State of the Republic
 	id = big.1
 	title = big.1.t
 	desc = big.1.desc
@@ -16,12 +16,144 @@ country_event = {  ### A Meeting with Vendiactra
 	}
 	
 	option = {
-		name = big.1.a
+		name = big.1.b
 		set_country_flag = ercenbrand_fail
 		load_focus_tree = ercenbrand_focus_fail
 	}
 	
 }
+
+country_event = {  ### Who to choose for the assassination?
+	id = big.2
+	title = big.2.t
+	desc = big.2.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { ## Right Guy
+		name = big.2.a
+		
+		add_to_variable = {
+			var = assassinationshit
+			val = 3
+		}
+	}
+	
+	option = { ## Meh Guy 
+		name = big.2.b
+		
+		add_to_variable = {
+			var = assassinationshit
+			val = 2
+		}
+	}
+	
+	option = { ## Wrong Guy 
+		name = big.2.c
+		
+		add_to_variable = {
+			var = assassinationshit
+			val = 1
+		}
+	}
+}
+
+country_event = {  ### Where to do the assassination?
+	id = big.3
+	title = big.3.t
+	desc = big.3.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { ## From the Theatre
+		name = big.3.a
+		
+		add_to_variable = {
+			var = assassinationshit
+			val = 2
+		}
+	}
+	
+	option = { ## In the Crowds 
+		name = big.3.b
+		
+		add_to_variable = {
+			var = assassinationshit
+			val = 1
+		}
+	}
+	
+	option = { ## In the Cafe
+		name = big.3.c
+		
+		add_to_variable = {
+			var = assassinationshit
+			val = 3
+		}
+	}
+}
+
+country_event = {  ### When to do the Parade?
+	id = big.4
+	title = big.4.t
+	desc = big.4.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { ## During the holiday parade
+		name = big.4.a
+		
+		add_to_variable = {
+			var = assassinationshit
+			val = 2
+		}
+	}
+	
+	option = { ## During the speech
+		name = big.4.b
+		
+		add_to_variable = {
+			var = assassinationshit
+			val = 1
+		}
+	}
+}
+
+country_event = {  ### Assassination goes off without a hitch
+	id = big.5
+	title = big.5.t
+	desc = big.5.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = big.5.a
+		
+		set_country_flag = ercenbrand_win
+		load_focus_tree = ercenbrand_focus_win
+	}
+}
+
+country_event = {  ### Assassination happens, but people find out who dun it
+	id = big.6
+	title = big.6.t
+	desc = big.6.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = big.6.a
+		
+		set_country_flag = ercenbrand_fail
+		load_focus_tree = ercenbrand_focus_fail
+	}
+}
+
 country_event = {  ### Yes to raising econ law
 	id = bigparliament.1
 	title = bigparliament.1.t
