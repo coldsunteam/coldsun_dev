@@ -1,17 +1,52 @@
 focus_tree = {
-	id = ercenbrand_focus_success
+	id = ercenbrand_focus_start
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = BIG
+		}
+	}
+	default = no
+	continuous_focus_position = { x = 290 y = 5000 }
+	
+	shared_focus = BIG_state_of_the_republic
+}
+
+focus_tree = {
+	id = ercenbrand_focus_win
 	
 	country = {
 		factor = 0
 		
 		#modifier = {
 		#	add = 10
-		#	tag = EQS
+		#	tag = BIG
 		#}
 	}
 	default = no
-	continuous_focus_position = { x = 290 y = 2500 }
+	continuous_focus_position = { x = 290 y = 5000 }
 	
 	shared_focus = BIG_state_of_the_republic
 	shared_focus = BIG_complete_sucess
+}
+
+focus_tree = {
+	id = ercenbrand_focus_fail
+	
+	country = {
+		factor = 0
+		
+		#modifier = {
+		#	add = 10
+		#	tag = BIG
+		#}
+	}
+	default = no
+	continuous_focus_position = { x = 290 y = 5000 }
+	
+	shared_focus = BIG_state_of_the_republic
+	shared_focus = BIG_worst_case_scenario
 }

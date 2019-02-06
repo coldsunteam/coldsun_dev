@@ -160,7 +160,7 @@ shared_focus = {
 		focus = BIG_bloody_parade
 	}
 	allow_branch = {
-		has_country_flag = ercenbrand_default
+		has_country_flag = ercenbrand_win
 	}
 	relative_position_id = BIG_state_of_the_republic
 	cost = 10.00
@@ -176,7 +176,7 @@ shared_focus = {
 	prerequisite = { focus = BIG_complete_sucess }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
-	x = 3
+	x = 2
 	y = 1
 	completion_reward = {
 	}
@@ -188,7 +188,7 @@ shared_focus = {
 	prerequisite = { focus = BIG_merging_militaries }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
-	x = 3
+	x = 1
 	y = 2
 	completion_reward = {
 	}
@@ -200,7 +200,7 @@ shared_focus = {
 	prerequisite = { focus = BIG_conscription_issues }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
-	x = 2
+	x = 1
 	y = 3
 	completion_reward = {
 	}
@@ -212,7 +212,7 @@ shared_focus = {
 	prerequisite = { focus = BIG_conscription_issues }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
-	x = 4
+	x = 3
 	y = 3
 	completion_reward = {
 	}
@@ -225,7 +225,7 @@ shared_focus = {
 	prerequisite = { focus = BIG_new_branch }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
-	x = 3
+	x = 2
 	y = 4
 	completion_reward = {
 	}
@@ -269,7 +269,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = BIG_citizenship_to_vendiactrans
+	id = BIG_industrial_innovations
 	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = { focus = BIG_parliamentary_representation }
 	prerequisite = { focus = BIG_citizenship_to_vendiactrans }
@@ -284,7 +284,7 @@ shared_focus = {
 shared_focus = {
 	id = BIG_great_push_forwards
 	icon = GFX_goal_generic_war_with_comintern
-	prerequisite = { focus = BIG_citizenship_to_vendiactrans }
+	prerequisite = { focus = BIG_industrial_innovations }
 	prerequisite = { focus = BIG_military_expansion }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
@@ -339,7 +339,7 @@ shared_focus = {
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
 	x = 1
-	y = 6
+	y = 7
 	completion_reward = {
 	}
 }
@@ -347,10 +347,10 @@ shared_focus = {
 shared_focus = {
 	id = BIG_barrier_princedoms
 	icon = GFX_goal_generic_war_with_comintern
-	prerequisite = { focus = BIG_reward_the_loyalists }
+	prerequisite = { focus = BIG_reward_the_loyalists focus = BIG_crush_resistance }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
-	x = 1
+	x = -2
 	y = 8
 	completion_reward = {
 	}
@@ -362,8 +362,617 @@ shared_focus = {
 	prerequisite = { focus = BIG_barrier_princedoms }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
+	x = -2
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_secure_prench_border
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_gearing_for_war }
+	relative_position_id = BIG_complete_sucess
+	cost = 10.00
+	x = -2
+	y = 10
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_defense_against_thestras
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_gearing_for_war }
+	relative_position_id = BIG_complete_sucess
+	cost = 10.00
+	x = -4
+	y = 10
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_nationalize_military_industries
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_gearing_for_war }
+	relative_position_id = BIG_complete_sucess
+	cost = 10.00
+	x = 0
+	y = 10
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_final_war
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_nationalize_military_industries }
+	prerequisite = { focus = BIG_defense_against_thestras }
+	prerequisite = { focus = BIG_secure_prench_border }
+	relative_position_id = BIG_complete_sucess
+	cost = 10.00
+	x = -2
+	y = 11
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_international_dealings
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_reward_the_loyalists focus = BIG_crush_resistance }
+	relative_position_id = BIG_complete_sucess
+	cost = 10.00
+	x = 2
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_mission_to_prance
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_international_dealings }
+	relative_position_id = BIG_complete_sucess
+	cost = 10.00
+	x = 1
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_unrest_in_equestria
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_international_dealings }
+	relative_position_id = BIG_complete_sucess
+	cost = 10.00
+	x = 2
+	y = 10
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_mission_to_kythestrys
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_international_dealings }
+	relative_position_id = BIG_complete_sucess
+	cost = 10.00
+	x = 3
+	y = 9
+	completion_reward = {
+	}
+}
+
+
+
+shared_focus = {
+	id = BIG_worst_case_scenario
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { 
+		focus = BIG_referendum
+		focus = BIG_bloody_parade
+	}
+	allow_branch = {
+		has_country_flag = ercenbrand_fail
+	}
+	relative_position_id = BIG_state_of_the_republic
+	cost = 10.00
+	x = 0
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_the_aftermath
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_worst_case_scenario }
+	relative_position_id = BIG_worst_case_scenario
+	cost = 10.00
+	x = 0
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_parliament_objects
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_the_aftermath }
+	mutually_exclusive = { focus = BIG_emergency_powers }
+	relative_position_id = BIG_worst_case_scenario
+	cost = 10.00
+	x = -1
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_takedown_hayburns
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_parliament_objects }
+	relative_position_id = BIG_worst_case_scenario
+	cost = 10.00
+	x = -2
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_new_chancellorship
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_takedown_hayburns }
+	relative_position_id = BIG_worst_case_scenario
+	cost = 10.00
+	x = -2
+	y = 4
+	completion_reward = {
+	}
+}
+
+
+shared_focus = {
+	id = BIG_emergency_powers
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_the_aftermath }
+	mutually_exclusive = { focus = BIG_parliament_objects }
+	relative_position_id = BIG_worst_case_scenario
+	cost = 10.00
+	x = 1
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_shut_down_parliament
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_emergency_powers }
+	relative_position_id = BIG_worst_case_scenario
+	cost = 10.00
+	x = 2
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_government_crackdown
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_shut_down_parliament }
+	relative_position_id = BIG_worst_case_scenario
+	cost = 10.00
+	x = 2
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_red_rebels
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_emergency_powers focus = BIG_parliament_objects }
+	relative_position_id = BIG_worst_case_scenario
+	cost = 10.00
+	x = 0
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_securing_peace
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_red_rebels }
+	prerequisite = { focus = BIG_new_chancellorship }
+	relative_position_id = BIG_worst_case_scenario
+	cost = 10.00
+	x = -3
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_keep_vendiactra
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_securing_peace }
+	mutually_exclusive = { focus = BIG_release_vendiactra }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = -1
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_release_vendiactra
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_securing_peace }
+	mutually_exclusive = { focus = BIG_keep_vendiactra }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 1
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_reconciliation
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_release_vendiactra focus = BIG_keep_vendiactra }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 0
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_establish_league
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_reconciliation }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 1
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_expand_the_league
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_establish_league }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 2
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_free_trade_for_all
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_expand_the_league }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 2
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_mutual_military_assistance
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_establish_league }
+	prerequisite = { focus = BIG_forming_relationships }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 0
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_felland_and_fetland
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_mutual_military_assistance }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 0
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_end_equestrian_influence
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_felland_and_fetland }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 0
+	y = 6
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_forming_relationships
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_reconciliation }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = -1
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_friendship_with_kythestris
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_establish_league }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = -2
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_friendship_with_acalyse
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_friendship_with_kythestris }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = -2
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_recall_embassies
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_end_equestrian_influence }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = -2
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_denounce_equestria
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_recall_embassies }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = -2
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_embargo_equestria
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_denounce_equestria }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = -2
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_sow_dissent_in_equestria
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_end_equestrian_influence }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 2
+	y = 7
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_anti_imperalist_rallies
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_sow_dissent_in_equestria }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
 	x = 1
 	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_question_princesses
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_anti_imperalist_rallies }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 1
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_infiltrate_equestrian_politics
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_sow_dissent_in_equestria }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 3
+	y = 8
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_seeds_of_revolution
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_infiltrate_equestrian_politics }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 3
+	y = 9
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_armed_revolt
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_seeds_of_revolution }
+	prerequisite = { focus = BIG_question_princesses }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 2
+	y = 10
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_armed_revolt
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_armed_revolt }
+	prerequisite = { focus = BIG_embargo_equestria }
+	relative_position_id = BIG_securing_peace
+	cost = 10.00
+	x = 0
+	y = 11
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_new_empire
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_red_rebels }
+	prerequisite = { focus = BIG_government_crackdown }
+	relative_position_id = BIG_worst_case_scenario
+	cost = 10.00
+	x = 3
+	y = 5
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_force_them_into_the_fold
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_new_empire }
+	relative_position_id = BIG_new_empire
+	cost = 10.00
+	x = 0
+	y = 1
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_threats_to_the_east
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_force_them_into_the_fold }
+	relative_position_id = BIG_new_empire
+	cost = 10.00
+	x = -1
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_secret_royal_forces
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_threats_to_the_east }
+	relative_position_id = BIG_new_empire
+	cost = 10.00
+	x = -1
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_wasteland_kingdom
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_secret_royal_forces }
+	relative_position_id = BIG_new_empire
+	cost = 10.00
+	x = -1
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_threats_to_the_south
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_force_them_into_the_fold }
+	relative_position_id = BIG_new_empire
+	cost = 10.00
+	x = 1
+	y = 2
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_anti_equestrian_propaganda
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_threats_to_the_south }
+	relative_position_id = BIG_new_empire
+	cost = 10.00
+	x = 1
+	y = 3
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_equestria_and_its_allies
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_threats_to_the_south }
+	relative_position_id = BIG_new_empire
+	cost = 10.00
+	x = 1
+	y = 4
+	completion_reward = {
+	}
+}
+
+shared_focus = {
+	id = BIG_war_for_victory
+	icon = GFX_goal_generic_war_with_comintern
+	prerequisite = { focus = BIG_equestria_and_its_allies }
+	prerequisite = { focus = BIG_wasteland_kingdom }
+	relative_position_id = BIG_new_empire
+	cost = 10.00
+	x = 0
+	y = 5
 	completion_reward = {
 	}
 }
