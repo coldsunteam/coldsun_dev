@@ -42,7 +42,7 @@ country_event = {
 		279 = { is_controlled_by = BIG }
 		is_in_faction_with = EQS
 		EQS = { has_war_with = BIG }
-		surrender_progress > 0.8
+		EQA = { has_capitulated = yes }
 	}
 
 	option = {

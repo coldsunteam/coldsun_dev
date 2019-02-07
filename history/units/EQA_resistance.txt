@@ -1,0 +1,100 @@
+division_template = {
+	name = "Forces Acalysoises Libres"
+
+	regiments = {
+		unicorn = { x = 0 y = 0 }
+		unicorn = { x = 0 y = 1 }
+        earth = { x = 1 y = 0 }
+		earth = { x = 1 y = 1 }
+		pegasi = { x = 2 y = 0 }
+		pegasi = { x = 2 y = 1 }
+	}
+}
+
+units = {
+	division = {
+		name = "Forces Libres"
+		location = 9443
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 9443
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 11226
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 3642
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 3637
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 5149
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 5149
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 3265
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 3265
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 3265
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 11905
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Forces Libres"
+		location = 1239
+		division_template = "Forces Acalysoises Libres"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	
+}
