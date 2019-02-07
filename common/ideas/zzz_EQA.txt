@@ -617,10 +617,10 @@ ideas = {
 	##### DESIGNERS
 	
 	tank_manufacturer = {
-
-		designer = yes
 	
 		EQA_des_inidault = {
+		
+			designer = yes
 		
 			picture = eqa_initiativeardault
 						
@@ -637,6 +637,8 @@ ideas = {
 	
 		EQA_des_socsidcar = {
 		
+			designer = yes
+		
 			picture = eqa_societesiderurgiquedecarrebrieux
 						
 			allowed = {
@@ -648,6 +650,50 @@ ideas = {
 			}
 
 			traits = { fast_tank_manufacturer }
+		}
+	}
+	
+	materiel_manufacturer = {
+	
+		EQA_des_mat = {
+			
+			designer = yes
+			
+			picture = eqa_matrolouise
+		
+			allowed = {
+				original_tag = EQA
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.10
+				infantry_weapons = 0.10
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+
+		}
+	
+	}
+	
+	naval_manufacturer = {
+		
+		EQA_des_ruche = {
+			
+			designer = yes
+			
+			picture = eqa_ruchecire
+		
+			allowed = {
+				original_tag = EQA
+			}
+
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+
 		}
 	}
 }
