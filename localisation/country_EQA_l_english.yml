@@ -594,6 +594,11 @@ EQA_securitesocialeidea:0 "Sécurité Sociale"
 EQA_neversurrender:0 "Unyielding Spirit"
 EQA_opportunityland:0 "Land of Opportunity"
 EQA_estermeylenaffair:0 "Estermeylen Scandal"
+### ministers and designers ###
+EQA_des_mat:0 "Manufacture d'Armes de Trolouise"
+EQA_des_inidault:0 "Initiative Ardault"
+EQA_des_socsidcar:0 "Société Sidérurgique de Carrébrieux"
+EQA_des_ruche:0 "Chantiers de Ruchecire"
 ### tooltips #####
 1_EQA_tt:0 "You will create a new §MGreater Acalyse§! instead of §Rreclaiming historical Acalysian holdings§!."
 2_EQA_tt:0 "You will lay claims on §Mforeign territory§!, but other powers might §Rretaliate§!."
