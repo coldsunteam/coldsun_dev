@@ -1509,6 +1509,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		y = 1
 		cost = 20
 		available_if_capitulated = yes 
+		available = { has_country_flag = no_corruptiongov }
 		prerequisite = { focus = EQA_crackdown1 } 
 		ai_will_do = { 
 		 factor = 40
@@ -1544,6 +1545,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		y = 1
 		cost = 20
 		available_if_capitulated = yes 
+		available = { has_country_flag = no_corruptiongarm }
 		prerequisite = { focus = EQA_removearmydebuff1 } 
 		ai_will_do = { 
 		 factor = 40
@@ -2245,7 +2247,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		cost = 10
 		available_if_capitulated = yes 
 		prerequisite = { focus = EQA_strenghtengovernment } 
-		mutually_exclusive = { focus = EQA_ourownpath }
+		mutually_exclusive = { focus = EQA_republicaprima }
 		ai_will_do = { 
 		 factor = 1
 		 } 

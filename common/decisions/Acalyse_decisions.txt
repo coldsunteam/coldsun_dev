@@ -96,6 +96,7 @@ EQA_army_corruption = {
 		}
 
 		complete_effect = {
+			set_country_flag = no_corruptionarm
 			remove_ideas = EQA_divided_army4
 			complete_national_focus = EQA_removearmydebuff2
 		}
@@ -200,6 +201,7 @@ EQA_gov_corruption = {
 		}
 
 		complete_effect = {
+			set_country_flag = no_corruptiongov
 			remove_ideas = EQA_incoherent_management4
 			complete_national_focus = EQA_crackdown2
 		}
