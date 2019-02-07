@@ -2,7 +2,7 @@
 add_namespace = acalyse.flavor
 add_namespace = acalyse.republic
 
-##### Generic Stuff
+##### RESISTANCE AND REPUBLIC ######
 
 ## Acalyse Overview
 
@@ -105,24 +105,7 @@ country_event = {
 	}
 }
 
-## Republic Celebrations
-country_event = {
-	id = acalyse.100
-	title = acalyse.100.t
-	desc = acalyse.100.d
-	picture = 
-
-	fire_only_once = yes
-	
-	is_triggered_only = yes
-
-	option = {
-		name = acalyse.100.a
-		country_event = { days = 4 id = acalyse.101 }
-	}
-}
-
-## Republic Celebrations
+## The Plot #00f
 country_event = {
 	id = acalyse.101
 	title = acalyse.101.t
@@ -282,6 +265,319 @@ country_event = {
 	}
 }
 
+############ MILITARY ROUTE ###############
+
+## Neyghon Pact
+country_event = {
+	id = acalyse.50
+	title = acalyse.50.t
+	desc = acalyse.50.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.50.a
+		ai_chance = {
+		factor = 500
+		}
+		add_political_power = 50
+		EQA = { country_event = { days = 1 id = acalyse.51 } }
+		hidden_effect = {
+		set_country_flag = eqa_big_friend
+		}
+	}
+	
+	option = {
+		name = acalyse.50.b
+		ai_chance = {
+		factor = 0
+		}
+		add_political_power = -50
+		EQA = { country_event = { days = 1 id = acalyse.52 } }
+	}
+}
+
+## Ercenbrand Accepts
+country_event = {
+	id = acalyse.51
+	title = acalyse.51.t
+	desc = acalyse.51.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.51.a
+		add_political_power = 50
+		give_guarantee = BIG
+		BIG = { give_guarantee = EQA }
+		add_opinion_modifier = { target = BIG modifier = neyghon_pact }
+		BIG = { add_opinion_modifier = { target = EQA modifier = neyghon_pact } }
+	}
+}
+
+## Ercenbrand Refuses
+country_event = {
+	id = acalyse.52
+	title = acalyse.52.t
+	desc = acalyse.52.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.52.a
+		add_political_power = -50
+	}
+}
+
+## Military Takeover
+country_event = {
+	id = acalyse.30
+	title = acalyse.30.t
+	desc = acalyse.30.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.30.a
+		add_political_power = 50
+		add_war_support = 0.05
+		add_stability = -0.05
+		add_manpower = 15000
+		add_popularity = { ideology = fascism popularity = 0.45 }
+		set_politics = { ruling_party = fascism elections_allowed = no }
+	}
+}
+
+## Acalyse demands our colonies
+country_event = {
+	id = acalyse.350
+	title = acalyse.350.t
+	desc = acalyse.350.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.350.a
+		EQA = { transfer_state = 256 }
+		EQA = { transfer_state = 224 }
+		EQA = { transfer_state = 160 }
+	}
+	
+	option = {
+		name = acalyse.350.b
+		EQA = { country_event = { days = 1 id = acalyse.351 } }
+	}
+}
+
+## Bats Refuse
+country_event = {
+	id = acalyse.351
+	title = acalyse.351.t
+	desc = acalyse.351.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.351.a
+		create_wargoal = { type = take_state_focus target = TZY }
+	}
+}
+
+## Pre-emptive Strike? (EQS)
+country_event = {
+	id = acalyse.1000
+	title = acalyse.1000.t
+	desc = acalyse.1000.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.1000.a
+		create_wargoal = { type = topple_government target = EQA }
+		add_stability = -0.05
+	}
+	
+	option = {
+		name = acalyse.1000.b
+		add_political_power = 25
+		add_stability = 0.05
+	}
+}
+
+################# STATUS QUO ROUTE ############
+
+## Castlerock Naval Treaty (EQS)
+country_event = {
+	id = acalyse.1939
+	title = acalyse.1939.t
+	desc = acalyse.1939.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.1939.a
+		ai_chance = {
+		factor = 100
+		}
+		EQA = { country_event = { days = 1 id = acalyse.1940 } }
+		add_ideas = EQA_navy_support2
+	}
+	
+	option = {
+		name = acalyse.1939.b
+		ai_chance = {
+		factor = 50
+		}
+		add_political_power = 50
+		EQA = { country_event = { days = 1 id = acalyse.1941 } }
+	}
+}
+
+## Castlerock Naval Treaty accepted
+country_event = {
+	id = acalyse.1940
+	title = acalyse.1940.t
+	desc = acalyse.1940.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.1940.a
+		add_ideas = EQA_navy_support2
+	}
+}
+
+## Castlerock Naval Treaty refused
+country_event = {
+	id = acalyse.1941
+	title = acalyse.1941.t
+	desc = acalyse.1941.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.1941.a
+		add_political_power = -50
+	}
+}
+
+## Qu-Ho Railroad (EQS)
+country_event = {
+	id = acalyse.1800
+	title = acalyse.1800.t
+	desc = acalyse.1800.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.1800.a
+		ai_chance = {
+		factor = 100
+		}
+		EQA = { country_event = { days = 0 id = acalyse.1802 } }
+		add_political_power = 50
+	}
+}
+
+## Qu-Ho Railroad (CRY)
+country_event = {
+	id = acalyse.1801
+	title = acalyse.1801.t
+	desc = acalyse.1801.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.1801.a
+		ai_chance = {
+		factor = 100
+		}
+		EQA = { country_event = { days = 0 id = acalyse.1803 } }
+		add_political_power = 50
+	}
+}
+
+## Qu-Ho Railroad (EQS yes)
+country_event = {
+	id = acalyse.1802
+	title = acalyse.1802.t
+	desc = acalyse.1802.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.1802.a
+		ai_chance = {
+		factor = 100
+		}
+		add_political_power = 50
+		794 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } }
+		714 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } }
+		786 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } }
+	}
+}
+
+## Qu-Ho Railroad (CRY yes)
+country_event = {
+	id = acalyse.1803
+	title = acalyse.1803.t
+	desc = acalyse.1803.d
+	picture = 
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.1803.a
+		ai_chance = {
+		factor = 100
+		}
+		add_political_power = 50
+		794 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } }
+		812 = { add_building_construction = { type = infrastructure level = 2 instant_build = yes } }
+	}
+}
+
 ############## FLAVOR EVENTS ##################
 
 ## Navy's Support
@@ -353,6 +649,71 @@ country_event = {
 	option = {
 		name = acalyse.flavor.4.a
 		add_political_power = 25
+	}
+}
+
+## Links to Equestria
+country_event = {
+	id = acalyse.flavor.5
+	title = acalyse.flavor.5.t
+	desc = acalyse.flavor.5.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.flavor.5.a
+		add_political_power = 50
+	}
+}
+
+## Final Preparations
+country_event = {
+	id = acalyse.flavor.6
+	title = acalyse.flavor.6.t
+	desc = acalyse.flavor.6.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.flavor.6.a
+	}
+}
+
+## Exercices on the Border
+country_event = {
+	id = acalyse.flavor.7
+	title = acalyse.flavor.7.t
+	desc = acalyse.flavor.7.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.flavor.7.a
+	}
+}
+
+## Naval Exercices
+country_event = {
+	id = acalyse.flavor.8
+	title = acalyse.flavor.8.t
+	desc = acalyse.flavor.8.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.flavor.8.a
 	}
 }
 

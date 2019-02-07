@@ -475,6 +475,20 @@ ideas = {
 				}
 			}
 			
+		EQA_navy_support2 = {
+			picture = generic_sea_focused_navy
+			removal_cost = -1
+			
+			allowed = { 
+				always = yes
+			}
+
+			modifier = {
+				navy_org_factor = 0.1
+				naval_strike = 0.1
+				}
+			}
+			
 		EQA_historical_legacy = {
 			picture = generic_morale_bonus
 			removal_cost = -1

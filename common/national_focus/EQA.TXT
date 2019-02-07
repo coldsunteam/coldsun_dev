@@ -1875,7 +1875,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			add_tech_bonus = { bonus = 1 uses = 2 category = tanks }
+			add_tech_bonus = { bonus = 0.5 uses = 2 category = tanks }
 			army_experience = 20
 		 } 
 
@@ -1921,6 +1921,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 factor = 40
 		 } 
 			completion_reward = { 
+			country_event = { days = 1 id = acalyse.flavor.5 }
 		} 
 
 	 } 
@@ -1947,6 +1948,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			add_equipment_to_stockpile = { type = infantry_weapons1 amount = -250 producer = }
 			add_opinion_modifier = { target = BIG modifier = threatens_us }
 			add_opinion_modifier = { target = TZY modifier = threatens_us }
+			country_event = { days = 1 id = acalyse.flavor.7 }
 		 } 
 
 	 } 
@@ -1970,6 +1972,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			completion_reward = { 
 			navy_experience = 35
 			add_tech_bonus = { bonus = 0.5 uses = 3 category = naval_doctrine }
+			country_event = { days = 1 id = acalyse.flavor.8 }
 		 } 
 
 	 } 
@@ -2049,6 +2052,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			completion_reward = { 
 			add_manpower = 50000
 			add_war_support = 0.1
+			country_event = { days = 1 id = acalyse.flavor.6 }
 		 } 
 
 	 } 
@@ -2260,7 +2264,6 @@ continuous_focus_position = { x = 150 y = 1900 }
 			add_stability = -0.02
 			add_popularity = { ideology = fascism popularity = 0.04 }
 			BIG = { country_event = { days = 1 id = acalyse.50 } }
-			add_opinion_modifier = { target = BIG modifier = neyghon_pact }
 		 } 
 
 	 } 
@@ -2281,12 +2284,6 @@ continuous_focus_position = { x = 150 y = 1900 }
 		is_puppet = no
 		 } 
 			completion_reward = { 
-			add_political_power = -50
-			add_war_support = 0.05
-			add_stability = -0.1
-			add_manpower = 150000
-			add_popularity = { ideology = fascism popularity = 0.45 }
-			set_politics = { ruling_party = fascism elections_allowed = no }
 			country_event = { days = 1 id = acalyse.30 }
 		 } 
 
@@ -2323,6 +2320,11 @@ continuous_focus_position = { x = 150 y = 1900 }
 		y = 5
 		cost = 10
 		available_if_capitulated = yes 
+		available = {
+		hidden_effect = {
+		has_country_flag = eqa_big_friend
+		}
+		}
 		prerequisite = { focus = EQA_neyghonpact }
 		ai_will_do = { 
 		 factor = 40
@@ -2346,8 +2348,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		y = 6
 		cost = 10
 		available_if_capitulated = yes 
-		prerequisite = { focus = EQA_militarytakeover }
-		prerequisite = { focus = EQA_prancoercenbrandfriendship }
+		prerequisite = { focus = EQA_militarytakeover focus = EQA_prancoercenbrandfriendship }
 		ai_will_do = { 
 		 factor = 80
 		 } 
@@ -2633,7 +2634,9 @@ continuous_focus_position = { x = 150 y = 1900 }
 			add_opinion_modifier = { target = EQS modifier = threatens_us }
 			add_opinion_modifier = { target = CRY modifier = threatens_us }
 			add_opinion_modifier = { target = YAK modifier = threatens_us }
+			hidden_effect = {
 			EQS = { country_event = { days = 1 id = acalyse.1000 } }
+			}
 		 } 
 
 	 }
