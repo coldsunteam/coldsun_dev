@@ -1,129 +1,53 @@
 ideas = {
 	country = {
-		BIG_reunion_movement = {
+		BIG_ID_successful_integration = {
 			allowed = { always = no }
 			removal_cost = -1
 			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
-				stability_factor = -0.10
-				war_support_factor = -0.10
-				political_power_gain = -0.40
+				stability_weekly = 0.05
+				political_power_gain = 0.05
 			}
 		}
 		
-		
-		BIG_ID_ongoing_integration = {
+		BIG_ID_conscription = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = generic_production_bonus
+			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
-				political_power_gain = -0.40
+				non_core_manpower = -0.60
 			}
 		}
 		
-		BIG_ID_ongoing_integration2 = {
+		BIG_ID_special_forces = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = generic_production_bonus
+			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
-				political_power_gain = -0.30
-			}
-		}
-		
-		BIG_ID_ongoing_integration3 = {
-			allowed = { always = no }
-			removal_cost = -1
-			picture = generic_production_bonus
-
-			modifier = {
-				political_power_gain = -0.20
-			}
-		}
-		
-		BIG_ID_emergency = {
-			allowed = { always = no }
-			removal_cost = -1
-			picture = FRA_matignon_agreements
-
-			modifier = {
-				stability_factor = -0.40
-				war_support_factor = -0.40
-			}
-		}
-		
-		BIG_ID_accord_member = {
-			allowed = { always = no }
-			removal_cost = -1
-			picture = HUN_treaty_of_triannon
-
-			modifier = {
-				political_power_gain = 0.20
-				trade_laws_cost_factor = -0.10
-				economy_cost_factor = -0.10
-				mobilization_laws_cost_factor = -0.10
-			}
-		}
-		
-		BIG_ID_diplomatic_campaign = {
-			allowed = { always = no }
-			removal_cost = -1
-			picture = generic_morale_bonus
-
-			modifier = {
-				improve_relations_maintain_cost_factor = -0.75
-			}
-		}
-		
-		BIG_ID_ercenbrand_military_advisors = {
-			allowed = { always = no }
-			removal_cost = -1
-			picture = generic_manpower_bonus
-
-			modifier = {
-				experience_gain_army = 0.05
-				military_leader_cost_factor = -0.50
-				army_leader_start_level = 1
-			}
-		}
-		
-		
-		BIG_ID_ercenbrand_forever = {
-			allowed = { always = no }
-			removal_cost = -1
-			picture = stiff_upper_lip
-
-			modifier = {
-				experience_gain_army = 0.05
-				army_attack_factor = 0.10
-				army_defence_factor = 0.10
-				stability_factor = 0.10
-				war_support_factor = 0.10
-			}
-		}
-		
-		
-		BIG_ID_propaganda = {
-			allowed = { 
-				always = no 
-				has_war_with = EQS
-			}
-			removal_cost = -1
-			picture = generic_spy_intel
-
-			modifier = {
-				war_support_weekly = 0.01
+				experience_gain_army_factor = 0.20
 			}
 		}
 		
 		BIG_ID_parliament = {
 			allowed = { always = no }
 			removal_cost = -1
-			picture = generic_disjointed_gov
+			picture = FRA_scw_intervention_republicans_focus
 
 			modifier = {
+			}
+		}
+		
+		BIG_ID_innovation = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+
+			modifier = {
+				production_speed_industrial_complex_factor = 0.15
+				production_speed_buildings_factor = 0.05
 			}
 		}
 	}

@@ -154,6 +154,83 @@ country_event = {  ### Assassination happens, but people find out who dun it
 	}
 }
 
+country_event = { 
+	id = big.7
+	title = big.7.t
+	desc = big.7.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = big.7.a
+		
+		annex_country = {
+			target = GPE
+			transfer_troops = no
+		}
+		set_country_flag = ercenbrand_win
+		load_focus_tree = ercenbrand_focus_win
+	}
+}
+
+country_event = { 
+	id = big.8
+	title = big.8.t
+	desc = big.8.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = big.8.a
+		
+		set_country_flag = ercenbrand_fail
+		load_focus_tree = ercenbrand_focus_fail
+	}
+}
+
+country_event = { ### Emperor of Ercenbrand
+	id = big.9
+	title = big.9.t
+	desc = big.9.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = big.9.a
+		
+		custom_effect_tooltip = BIG_TT_emperor
+		set_cosmetic_tag = BIG_EMP
+		hidden_effect = {
+			kill_country_leader = yes
+			create_country_leader = {
+				name = "Emperor Hayburns"
+				desc = ""
+				picture = "Chancellor.tga"
+				expire = "1965.1.1"
+				ideology = despotism
+				traits = {
+				}
+			}
+		}
+	}
+}
+
+country_event = { ### Approach Istrimark
+	id = big.10
+	title = big.10.t
+	desc = big.10.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = big.10.a
+	}
+}
+
 country_event = {  ### Yes to raising econ law
 	id = bigparliament.1
 	title = bigparliament.1.t

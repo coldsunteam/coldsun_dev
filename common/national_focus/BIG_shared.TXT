@@ -26,6 +26,7 @@ shared_focus = {
 
 	completion_reward = {
 		country_event = { id = big.2 }
+		add_political_power = -100
 	}	
 }
 
@@ -42,6 +43,7 @@ shared_focus = {
 
 	completion_reward = {
 		country_event = { id = big.3 }
+		add_political_power = -50
 	}	
 }
 
@@ -58,6 +60,7 @@ shared_focus = {
 
 	completion_reward = {
 		country_event = { id = big.4 }
+		add_political_power = -50
 	}	
 }
 
@@ -133,8 +136,9 @@ shared_focus = {
 		GPE = {
 			add_popularity = {
 				ideology = fascism
-				popularity = 0.10
+				popularity = 0.05
 			}
+			add_stability = -0.10
 		}
 	}	
 }
@@ -154,8 +158,13 @@ shared_focus = {
 		GPE = {
 			add_popularity = {
 				ideology = fascism
-				popularity = 0.10
+				popularity = 0.05
 			}
+		}
+		
+		add_opinion_modifier = { 
+			target = GPE 
+			modifier = BIG_improved_opinion 
 		}
 	}	
 }
@@ -172,6 +181,13 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		GPE = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.05
+			}
+			add_stability = -0.10
+		}
 	}	
 }
 
@@ -188,6 +204,18 @@ shared_focus = {
 	available_if_capitulated = yes
 
 	completion_reward = {
+		if = {
+			limit = {
+				GPE = { fascism > 0.49 }
+			}
+			country_event = { id = big.7 }
+		}
+		else_if = {
+			limit = {
+				GPE = { fascism < 0.5 }
+			}
+			country_event = { id = big.8 }
+		}
 	}	
 }
 
@@ -206,6 +234,12 @@ shared_focus = {
 	x = 0
 	y = 5
 	completion_reward = {
+		add_timed_idea = {
+			idea = BIG_ID_successful_integration
+			days = 280
+		}
+		
+		add_ideas = BIG_ID_conscription
 	}
 }
 
@@ -218,6 +252,7 @@ shared_focus = {
 	x = 2
 	y = 1
 	completion_reward = {
+		load_oob = BIG_join_mil
 	}
 }
 
@@ -226,10 +261,11 @@ shared_focus = {
 	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = { focus = BIG_merging_militaries }
 	relative_position_id = BIG_complete_sucess
-	cost = 10.00
+	cost = 14.00
 	x = 1
 	y = 2
 	completion_reward = {
+		remove_ideas = BIG_ID_conscription
 	}
 }
 
@@ -242,6 +278,8 @@ shared_focus = {
 	x = 1
 	y = 3
 	completion_reward = {
+		add_ideas = BIG_ID_special_forces
+		set_technology = { ercenbrand_pegasi_special = 1 }
 	}
 }
 
@@ -267,6 +305,9 @@ shared_focus = {
 	x = 2
 	y = 4
 	completion_reward = {
+		add_manpower = 100000
+		add_war_support = 0.15
+		add_political_power = 100
 	}
 }
 
@@ -280,6 +321,10 @@ shared_focus = {
 	x = -2
 	y = 1
 	completion_reward = {
+		every_owned_state = {
+			limit = { is_core_of = GPE }
+			add_core_of = BIG
+		}
 	}
 }
 
@@ -292,6 +337,14 @@ shared_focus = {
 	x = -3
 	y = 2
 	completion_reward = {
+		add_popularity = {
+			ideology = communism
+			popularity = 0.12
+		}
+		add_popularity = {
+			ideology = democratic
+			popularity = 0.15
+		}
 	}
 }
 
@@ -304,6 +357,8 @@ shared_focus = {
 	x = -1
 	y = 2
 	completion_reward = {
+		add_stability = 0.15
+		add_war_support = 0.10
 	}
 }
 
@@ -317,6 +372,10 @@ shared_focus = {
 	x = -2
 	y = 3
 	completion_reward = {
+		add_timed_idea = {
+			idea = BIG_ID_innovation
+			days = 180
+		}
 	}
 }
 
@@ -330,6 +389,7 @@ shared_focus = {
 	x = 0
 	y = 5
 	completion_reward = {
+		country_event = { id = big.9 }
 	}
 }
 
