@@ -98,4 +98,20 @@ spriteTypes = {
 		name = "GFX_idea_eqa_corrupt_army"
 		texturefile = "gfx/interface/ideas/idea_eqa_corrupt_army.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_eqa_initiativeardault"
+		texturefile = "gfx/interface/ideas/designers/idea_eqa_initiativeardault.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eqa_matrolouise"
+		texturefile = "gfx/interface/ideas/designers/idea_eqa_matrolouise.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eqa_ruchecire"
+		texturefile = "gfx/interface/ideas/designers/idea_eqa_ruchecire.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eqa_societesiderurgiquedecarrebrieux"
+		texturefile = "gfx/interface/ideas/designers/idea_eqa_societesiderurgiquedecarrebrieux.dds"
+	}
 }

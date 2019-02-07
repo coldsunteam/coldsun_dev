@@ -612,6 +612,42 @@ ideas = {
 				political_power_gain = -0.5
 			}
 		}
+	}
 			
-}
+	##### DESIGNERS
+	
+	tank_manufacturer = {
+
+		designer = yes
+	
+		EQA_des_inidault = {
+		
+			picture = eqa_initiativeardault
+						
+			allowed = {
+				original_tag = EQA
+			}
+						
+			research_bonus = {
+				armor = 0.10
+			}
+
+			traits = { heavy_tank_manufacturer }
+		}
+	
+		EQA_des_socsidcar = {
+		
+			picture = eqa_societesiderurgiquedecarrebrieux
+						
+			allowed = {
+				original_tag = EQA
+			}
+						
+			research_bonus = {
+				armor = 0.10
+			}
+
+			traits = { fast_tank_manufacturer }
+		}
+	}
 }
