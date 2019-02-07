@@ -2162,11 +2162,13 @@ continuous_focus_position = { x = 150 y = 1900 }
 		prerequisite = { focus = EQA_shellercenbrandports focus = EQA_bombardthethestrals } 
 		ai_will_do = { 
 		 factor = 40
-		 } 
+		} 
 			completion_reward = { 
 			custom_effect_tooltip = 4_EQA_tt
+			hidden_effect = {
 			load_oob = "EQA_navy"
-		 } 
+			}
+		}
 
 	 } 
 
@@ -2530,8 +2532,11 @@ continuous_focus_position = { x = 150 y = 1900 }
 			add_stability = 0.05
 			army_experience = 35
 			add_manpower = 5000
+			custom_effect_tooltip = 12_EQA_tt
+			hidden_effect = {
 			load_oob = "EQA_gardenationale"
-		 } 
+			}
+		} 
 
 	 } 
 	 
@@ -2552,7 +2557,10 @@ continuous_focus_position = { x = 150 y = 1900 }
 			add_stability = 0.05
 			navy_experience = 35
 			add_manpower = 2000
-			load_oob = "EQA_repurposedvessels"
+			custom_effect_tooltip = 4_EQA_tt
+			hidden_effect = {
+			load_oob = "EQA_navy"
+			}
 		 } 
 
 	 } 

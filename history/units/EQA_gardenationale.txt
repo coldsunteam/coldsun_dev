@@ -1,0 +1,65 @@
+division_template = {
+	name = "Garde Nationale"
+
+	regiments = {
+		unicorn = { x = 0 y = 0 }
+		unicorn = { x = 0 y = 1 }
+        unicorn = { x = 0 y = 2 }
+        earth = { x = 1 y = 0 }
+		earth = { x = 1 y = 1 }
+        earth = { x = 1 y = 2 }
+		pegasi = { x = 2 y = 0 }
+		pegasi = { x = 2 y = 1 }
+		pegasi = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1ere Garde Nationale"
+		location = 9443
+		division_template = "Garde Nationale"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "2nde Garde Nationale"
+		location = 5149
+		division_template = "Garde Nationale"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		name = "3eme Garde Nationale"
+		location = 3265
+		division_template = "Garde Nationale"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "4eme Garde Nationale"
+		location = 42
+		division_template = "Garde Nationale"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		name = "5eme Garde Nationale"
+		location = 3642
+		division_template = "Garde Nationale"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "6eme Garde Nationale"
+		location = 9443
+		division_template = "Garde Nationale"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+}

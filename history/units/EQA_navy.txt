@@ -1,0 +1,16 @@
+units = {
+	navy = {
+		name = "Marine Civile"
+		base = 9443
+		location = 9443 
+		ship = { name = "Le Guet" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } } 					
+		ship = { name = "Ombre" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Bougainville" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Bazar" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Maillage" definition = destroyer equipment = { destroyer_21= { amount = 1 owner = EQA } } }
+		ship = { name = "Filet" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "La Coque" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "Le Rive" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+		ship = { name = "L'Union" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = EQA } } }
+	}
+}

@@ -613,6 +613,7 @@ EQA_estermeylenaffair:0 "Estermeylen Scandal"
 9_EQA_tt:0 "§GCorruption and incompetence in the government has been routed out.§"
 10_EQA_tt:0 "You will decide §Rthe fate of Captain Estermeylen§!."
 11_EQA_tt:0 "The Republican March on Hayris will begin."
+12_EQA_tt:0 "Six National Guard divisions will spawn."
 ### Decisions ###
 EQA_army_corruption:0 "Army Corruption Cleansing"
 EQA_armcor1:0 "Cleansing Stage I"
