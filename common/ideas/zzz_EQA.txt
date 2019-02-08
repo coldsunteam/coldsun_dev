@@ -663,6 +663,7 @@ ideas = {
 		
 			allowed = {
 				original_tag = EQA
+				has_completed_focus = EQA_manufacturedarmesdetrolouise
 			}
 
 			research_bonus = {
@@ -671,6 +672,24 @@ ideas = {
 			}
 			
 			traits = { infantry_equipment_manufacturer }
+
+		}
+		
+		EQA_des_usinagedehondeaux = {
+			
+			designer = yes
+			
+			picture = eqa_usinagedehondeaux
+		
+			allowed = {
+				original_tag = EQA
+			}
+
+			research_bonus = {
+				artillery = 0.10
+			}
+			
+			traits = { artillery_manufacturer }
 
 		}
 	
@@ -687,12 +706,60 @@ ideas = {
 			allowed = {
 				original_tag = EQA
 			}
+			
+			available = {
+				NOT = { has_completed_focus = EQA_dexter }
+			}
+
+			research_bonus = {
+				naval_equipment = 0.1
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+
+		}
+		
+		EQA_des_dexter = {
+			
+			designer = yes
+			
+			picture = eqa_dexter
+		
+			allowed = {
+				original_tag = EQA
+			}
+			
+			available = {
+				has_completed_focus = EQA_dexter
+			}
 
 			research_bonus = {
 				naval_equipment = 0.15
 			}
 			
-			traits = { raiding_fleet_naval_manufacturer }
+			traits = { battlefleet_designer raiding_fleet_naval_manufacturer }
+
+		}
+		
+		EQA_des_emve = {
+			
+			designer = yes
+			
+			picture = eqa_emve
+		
+			allowed = {
+				original_tag = EQA
+			}
+			
+			available = {
+				NOT = { has_completed_focus = EQA_dexter }
+			}
+
+			research_bonus = {
+				naval_equipment = 0.1
+			}
+			
+			traits = { convoy_escort_naval_manufacturer }
 
 		}
 	}

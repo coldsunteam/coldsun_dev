@@ -717,6 +717,22 @@ country_event = {
 	}
 }
 
+## Naval Exercices
+country_event = {
+	id = acalyse.flavor.9
+	title = acalyse.flavor.9.t
+	desc = acalyse.flavor.9.d
+	picture = 
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = acalyse.flavor.9.a
+	}
+}
+
 ############## REPUBLIC EVENTS ##################
 
 ## Republican Sentiment
