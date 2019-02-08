@@ -663,6 +663,9 @@ ideas = {
 		
 			allowed = {
 				original_tag = EQA
+			}
+			
+			available = {
 				has_completed_focus = EQA_manufacturedarmesdetrolouise
 			}
 
