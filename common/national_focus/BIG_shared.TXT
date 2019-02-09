@@ -262,7 +262,7 @@ shared_focus = {
 	prerequisite = { focus = BIG_merging_militaries }
 	relative_position_id = BIG_complete_sucess
 	cost = 14.00
-	x = 1
+	x = 2
 	y = 2
 	completion_reward = {
 		remove_ideas = BIG_ID_conscription
@@ -292,6 +292,29 @@ shared_focus = {
 	x = 3
 	y = 3
 	completion_reward = {
+		create_corps_commander = {
+			name = "Vendiactran General 1"
+			portrait_path = ""
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
+		
+		create_corps_commander = {
+			name = "Vendiactran General 2"
+			portrait_path = ""
+			traits = {
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+		}
 	}
 }
 
@@ -402,6 +425,9 @@ shared_focus = {
 	x = -1
 	y = 6
 	completion_reward = {
+		GPB = {
+			country_event = { id = big.10 }
+		}
 	}
 }
 
@@ -409,12 +435,27 @@ shared_focus = {
 	id = BIG_reward_the_loyalists
 	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = { focus = BIG_duchy_of_kradsava focus = BIG_duchy_of_istrimark }
+	available = { 
+		GPB = {
+			is_puppet_of = BIG
+		}
+		GPD = {
+			is_puppet_of = BIG
+		}
+	}
 	mutually_exclusive = { focus = BIG_crush_resistance }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
 	x = -1
 	y = 7
 	completion_reward = {
+		GPB = {
+			add_ideas = BIG_ID_rewards
+		}
+		GPD = {
+			add_ideas = BIG_ID_rewards
+		}
+		add_political_power = 100
 	}
 }
 
@@ -427,6 +468,9 @@ shared_focus = {
 	x = 1
 	y = 6
 	completion_reward = {
+		GPD = {
+			country_event = { id = big.11 }
+		}
 	}
 }
 
@@ -434,12 +478,24 @@ shared_focus = {
 	id = BIG_crush_resistance
 	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = { focus = BIG_duchy_of_kradsava focus = BIG_duchy_of_istrimark }
+	available = {
+		GPB = {
+			exists = no
+		}
+		GPD = {
+			exists = no
+		}
+	}
 	mutually_exclusive = { focus = BIG_reward_the_loyalists }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
 	x = 1
 	y = 7
 	completion_reward = {
+		every_owned_state = {
+			limit = { OR = { is_core_of = GPB is_core_of = GPD } }
+			add_core_of = BIG
+		}
 	}
 }
 
@@ -452,6 +508,14 @@ shared_focus = {
 	x = -2
 	y = 8
 	completion_reward = {
+		create_wargoal = {
+			type = annex_everything
+			target = GPA
+		}
+		create_wargoal = {
+			type = annex_everything
+			target = GPC
+		}
 	}
 }
 
@@ -459,11 +523,13 @@ shared_focus = {
 	id = BIG_gearing_for_war
 	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = { focus = BIG_barrier_princedoms }
+	bypass = { has_war_with = EQS }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
 	x = -2
 	y = 9
 	completion_reward = {
+		add_ideas = BIG_ID_war_prep
 	}
 }
 
@@ -471,11 +537,38 @@ shared_focus = {
 	id = BIG_secure_prench_border
 	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = { focus = BIG_gearing_for_war }
+	bypass = { has_war_with = EQS }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
 	x = -2
 	y = 10
 	completion_reward = {
+		955 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 20419
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 19533
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 19532
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 9562
+			}
+		}
 	}
 }
 
@@ -483,11 +576,32 @@ shared_focus = {
 	id = BIG_defense_against_thestras
 	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = { focus = BIG_gearing_for_war }
+	bypass = { has_war_with = EQS }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
 	x = -4
 	y = 10
 	completion_reward = {
+		170 = {
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 792
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 805
+			}
+			add_building_construction = {
+				type = bunker
+				level = 2
+				instant_build = yes
+				province = 806
+			}
+		}
 	}
 }
 
@@ -495,11 +609,29 @@ shared_focus = {
 	id = BIG_nationalize_military_industries
 	icon = GFX_goal_generic_war_with_comintern
 	prerequisite = { focus = BIG_gearing_for_war }
+	bypass = { has_war_with = EQS }
 	relative_position_id = BIG_complete_sucess
 	cost = 10.00
 	x = 0
 	y = 10
 	completion_reward = {
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 2
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+		
+		random_owned_state = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
 	}
 }
 
@@ -514,6 +646,7 @@ shared_focus = {
 	x = -2
 	y = 11
 	completion_reward = {
+		
 	}
 }
 
@@ -526,6 +659,8 @@ shared_focus = {
 	x = 2
 	y = 8
 	completion_reward = {
+		add_political_power = 50
+		add_ideas = BIG_ID_international_diplomacy
 	}
 }
 

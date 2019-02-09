@@ -226,8 +226,81 @@ country_event = { ### Approach Istrimark
 
 	is_triggered_only = yes
 	
-	option = {
+	option = { ## We agree!
 		name = big.10.a
+		BIG = { puppet = GPB }
+	}
+	
+	option = { ## Fuck off
+		name = big.10.b
+		
+		BIG = {
+			country_event = { id = big.12 }
+		}
+		add_opinion_modifier = { 
+			target = BIG 
+			modifier = BIG_refused_to_join 
+		}
+	}
+}
+
+country_event = { ### Approach Kradsava
+	id = big.11
+	title = big.11.t
+	desc = big.11.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = { ## We agree!
+		name = big.11.a
+		BIG = { puppet = GPD }
+	}
+	
+	option = { ## Fuck off
+		name = big.11.b
+		
+		BIG = {
+			country_event = { id = big.13 }
+		}
+		add_opinion_modifier = { 
+			target = BIG 
+			modifier = BIG_refused_to_join 
+		}
+	}
+}
+
+country_event = { ### Istrimark Refused
+	id = big.12
+	title = big.12.t
+	desc = big.12.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = big.12.a
+		create_wargoal = {
+			type = annex_everything
+			target = GPB
+		}
+	}
+}
+
+country_event = { ### Approach Kradsava
+	id = big.13
+	title = big.13.t
+	desc = big.13.desc
+	picture = GFX_report_event_hitler_handshake
+
+	is_triggered_only = yes
+	
+	option = {
+		name = big.13.a
+		create_wargoal = {
+			type = annex_everything
+			target = GPD
+		}
 	}
 }
 

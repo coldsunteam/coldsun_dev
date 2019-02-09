@@ -13,4 +13,8 @@ opinion_modifiers = {
 	BIG_improved_opinion = { 
 		value = 50
 	}
+	
+	BIG_refused_to_join = { 
+		value = -50
+	}
 }	

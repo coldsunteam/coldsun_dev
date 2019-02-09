@@ -50,6 +50,49 @@ ideas = {
 				production_speed_buildings_factor = 0.05
 			}
 		}
+		
+		BIG_ID_rewards = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+
+			modifier = {
+				political_power_gain = 0.15
+				consumer_goods_factor = -0.08
+				fascism_drift = 0.04
+			}
+		}
+		
+		BIG_ID_war_prep = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+
+			modifier = {
+			}
+			
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				motorized_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+		}
+		
+		BIG_ID_international_diplomacy = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = FRA_scw_intervention_republicans_focus
+
+			modifier = {
+				opinion_gain_monthly_factor = 0.15
+				opinion_gain_monthly_same_ideology_factor = 0.20
+			}
+		}
 	}
 	
 	political_advisor = {

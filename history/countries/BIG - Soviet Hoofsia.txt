@@ -19,7 +19,6 @@ set_technology = {
 
 add_ideas = {
 	DEFCON5
-	BIG_reunion_movement
 	BIG_ID_parliament
 }
 
@@ -91,5 +90,28 @@ create_country_leader = {
 	}
 }
 
+create_field_marshal = {
+	name = "Marius Negutesco"
+	portrait_path = ""
+	traits = {
+	}
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Radu Lahovary"
+	portrait_path = ""
+	traits = {
+	}
+	skill = 1
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
 
 set_country_flag = ercenbrand_default
