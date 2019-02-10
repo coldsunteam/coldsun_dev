@@ -126,4 +126,12 @@ spriteTypes = {
 		name = "GFX_idea_eqa_usinagedehondeaux"
 		texturefile = "gfx/interface/ideas/designers/idea_eqa_usinagedehondeaux.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_eqa_xetencre"
+		texturefile = "gfx/interface/ideas/designers/idea_eqa_xetencre.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_eqa_usinerienationale"
+		texturefile = "gfx/interface/ideas/designers/idea_eqa_usinerienationale.dds"
+	}
 }

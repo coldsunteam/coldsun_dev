@@ -695,6 +695,24 @@ ideas = {
 			traits = { artillery_manufacturer }
 
 		}
+		
+		EQA_des_xetencre = {
+			
+			designer = yes
+			
+			picture = eqa_xetencre
+		
+			allowed = {
+				original_tag = EQA
+			}
+
+			research_bonus = {
+				motorized_equipment = 0.10
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+
+		}
 	
 	}
 	
@@ -765,5 +783,102 @@ ideas = {
 			traits = { convoy_escort_naval_manufacturer }
 
 		}
+	}
+	
+	industrial_concern = {	
+		
+		EQA_des_usinagenationale = {
+			
+			designer = yes
+			
+			cost = 50
+			
+			picture = eqa_usinerienationale
+		
+			allowed = {
+				original_tag = EQA
+			}
+
+			research_bonus = {
+				industry = 0.05
+				electronics = 0.05
+			}
+			
+			traits = { industrial_concern electronics_concern }
+
+		}
+		
+	}
+	
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		
+		
+		EQA_des_leger = {
+		
+			picture = amiot
+			
+			allowed = {
+				original_tag = EQA
+			}
+			
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		EQA_des_moyen = {
+		
+			picture = ast_volunteer_defence_corps
+						
+			allowed = {
+				original_tag = EQA
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		EQA_des_lourd = {
+		
+			picture = dornier
+						
+			allowed = {
+				original_tag = EQA
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		EQA_des_airnaval = {
+		
+			picture = famh
+						
+			allowed = {
+				original_tag = EQA
+			}
+			
+			available = {
+				has_completed_focus = EQA_dexter
+			}
+						
+			research_bonus = {
+				air_equipment = 0.10
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+		
 	}
 }
