@@ -23,12 +23,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_food.dds"
 	}
 	spriteType = {
+		name = "GFX_goal_focus_food2"
+		texturefile = "gfx/interface/goals/focus_food2.dds"
+	}
+	spriteType = {
 		name = "GFX_goal_focus_education"
 		texturefile = "gfx/interface/goals/focus_education.dds"
 	}
 	spriteType = {
+		name = "GFX_goal_focus_education2"
+		texturefile = "gfx/interface/goals/focus_education2.dds"
+	}
+	spriteType = {
 		name = "GFX_goal_focus_stability"
 		texturefile = "gfx/interface/goals/focus_stability.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_stability2"
+		texturefile = "gfx/interface/goals/focus_stability2.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_weaponry1"
+		texturefile = "gfx/interface/goals/focus_weaponry1.dds"
 	}
 	
 	### Prance Stuff
@@ -72,6 +88,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_goal_focus_eqa_movement4"
 		texturefile = "gfx/interface/goals/focus_eqa_movement4.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_eqa_estermeylen_scandal"
+		texturefile = "gfx/interface/goals/focus_eqa_estermeylen_scandal.dds"
 	}
 	
 	### Equestria Stuff
