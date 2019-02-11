@@ -319,11 +319,11 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = -0.15
+				political_power_gain = -0.33
 				stability_factor = -0.15
 				war_support_factor = -0.15
-				consumer_goods_factor = 0.08
-				industrial_capacity_factory = -0.1
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.2
 				}
 			}
 			
@@ -336,11 +336,11 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = -0.125
+				political_power_gain = -0.22
 				stability_factor = -0.12
 				war_support_factor = -0.12
-				consumer_goods_factor = 0.07
-				industrial_capacity_factory = -0.07
+				consumer_goods_factor = 0.1
+				industrial_capacity_factory = -0.15
 				}
 			}
 			
@@ -353,11 +353,11 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = -0.08
+				political_power_gain = -0.11
 				stability_factor = -0.1
 				war_support_factor = -0.1
-				consumer_goods_factor = 0.05
-				industrial_capacity_factory = -0.05
+				consumer_goods_factor = 0.6
+				industrial_capacity_factory = -0.1
 				}
 			}
 			
@@ -370,11 +370,11 @@ ideas = {
 			}
 
 			modifier = {
-				political_power_factor = -0.05
+				political_power_gain = -0.05
 				stability_factor = -0.05
 				war_support_factor = -0.05
 				consumer_goods_factor = 0.03
-				industrial_capacity_factory = -0.03
+				industrial_capacity_factory = -0.05
 				}
 			}
 			
@@ -387,8 +387,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_core_attack_factor = -0.15
-				army_core_defence_factor = -0.15
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
 				army_morale_factor = -0.15
 				mobilization_speed = -0.2
 				conscription = -0.01
@@ -408,8 +408,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_core_attack_factor = -0.11
-				army_core_defence_factor = -0.11
+				army_attack_factor = -0.11
+				army_defence_factor = -0.11
 				army_morale_factor = -0.12
 				mobilization_speed = -0.16
 				conscription = -0.008
@@ -429,8 +429,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_core_attack_factor = -0.09
-				army_core_defence_factor = -0.09
+				army_attack_factor = -0.09
+				army_defence_factor = -0.09
 				army_morale_factor = -0.1
 				mobilization_speed = -0.14
 				conscription = -0.005
@@ -450,8 +450,8 @@ ideas = {
 			}
 
 			modifier = {
-				army_core_attack_factor = -0.05
-				army_core_defence_factor = -0.05
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
 				army_morale_factor = -0.075
 				mobilization_speed = -0.1
 				training_time_factor = 0.05
@@ -609,6 +609,8 @@ ideas = {
 			
 			modifier = {
 				surrender_limit = -0.25
+				stability_factor = -0.25
+				war_support_factor = -0.2
 				political_power_gain = -0.5
 			}
 		}
