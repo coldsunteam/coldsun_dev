@@ -373,6 +373,9 @@ country_event = {
 
 	option = {
 		name = acalyse.350.a
+		ai_chance = {
+		factor = 50
+		}
 		EQA = { transfer_state = 256 }
 		EQA = { transfer_state = 224 }
 		EQA = { transfer_state = 160 }
@@ -380,6 +383,9 @@ country_event = {
 	
 	option = {
 		name = acalyse.350.b
+		ai_chance = {
+		factor = 50
+		}
 		EQA = { country_event = { days = 1 id = acalyse.351 } }
 	}
 }

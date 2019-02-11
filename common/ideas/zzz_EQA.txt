@@ -99,10 +99,14 @@ ideas = {
 			}
 			
 			modifier = {
-				experience_loss_factor = -0.25
-				army_morale_factor = 0.05
 				defence = 0.02
 				offence = 0.02
+				army_morale_factor = 0.05
+				planning_speed = 0.1
+				max_planning = 0.1
+				experience_loss_factor = -0.25
+				
+				
 			}
 		}
 		
