@@ -15,6 +15,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/goals/focus_ercenbrand.dds"
 	}
 	spriteType = {
+		name = "GFX_goal_focus_acalyse"
+		texturefile = "gfx/interface/goals/focus_acalyse.dds"
+	}
+	spriteType = {
 		name = "GFX_goal_focus_grade"
 		texturefile = "gfx/interface/goals/focus_grade.dds"
 	}
@@ -33,6 +37,10 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_goal_focus_education2"
 		texturefile = "gfx/interface/goals/focus_education2.dds"
+	}
+	spriteType = {
+		name = "GFX_goal_focus_education3"
+		texturefile = "gfx/interface/goals/focus_education3.dds"
 	}
 	spriteType = {
 		name = "GFX_goal_focus_stability"

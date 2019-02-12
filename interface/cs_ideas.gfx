@@ -18,6 +18,10 @@ spriteTypes = {
 		name = "GFX_idea_academy"
 		texturefile = "gfx/interface/ideas/idea_academy.dds"
 	}
+	spriteType = {
+		name = "GFX_idea_education"
+		texturefile = "gfx/interface/ideas/idea_education.dds"
+	}
 	
 	### Equestria
 	
@@ -78,6 +82,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_overpopulation4"
 		texturefile = "gfx/interface/ideas/idea_overpopulation4.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_magic_of_harmony"
+		texturefile = "gfx/interface/ideas/idea_magic_of_harmony.dds"
 	}
 	
 	### Prance
