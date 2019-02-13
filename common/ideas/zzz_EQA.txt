@@ -570,7 +570,7 @@ ideas = {
 		}
 		
 		EQA_neversurrender = {
-			picture = FRA_scw_intervention_nationalists_focus
+			picture = fascist_democratic_prance
 			removal_cost = -1
 			
 			allowed = {
