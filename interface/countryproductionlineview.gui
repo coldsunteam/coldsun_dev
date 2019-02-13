@@ -1241,6 +1241,70 @@ guiTypes = {
 				Orientation = "UPPER_LEFT"
 				clicksound = click_checkbox
 			}
+			
+			iconType = {
+				name = "grain_icon"
+				position = { x=345 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 7
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+			
+			buttonType = {
+				name = "grain_checkbox"
+				position = { x = 369 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+			
+			iconType = {
+				name = "aeterium_icon"
+				position = { x=403 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 8
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+			
+			buttonType = {
+				name = "aeterium_checkbox"
+				position = { x = 427 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+			
+			iconType = {
+				name = "coal_icon"
+				position = { x=461 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 9
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+			
+			buttonType = {
+				name = "coal_checkbox"
+				position = { x = 485 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
+			
+			iconType = {
+				name = "gems_icon"
+				position = { x=518 y=2 }
+				spriteType = "GFX_resources_strip"
+				frame = 10
+				#pdx_tooltip = "PRODUCTION_MATERIALS_CHROMIUM"
+			}
+			
+			buttonType = {
+				name = "gems_checkbox"
+				position = { x = 543 y = 1 }
+				quadTextureSprite ="GFX_generic_checkbox"
+				Orientation = "UPPER_LEFT"
+				clicksound = click_checkbox
+			}
 		}
 		
 		buttonType = {

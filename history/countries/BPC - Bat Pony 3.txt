@@ -1,4 +1,4 @@
-﻿capital = 168
+﻿capital = 177
 
 oob = "BPC_1936"
 

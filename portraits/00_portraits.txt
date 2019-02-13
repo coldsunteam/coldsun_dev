@@ -1,1 +1,472 @@
-#
+default = {
+	#navy = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	#army = {
+		#male = {
+		#}
+		#female = {
+		#}
+	#}
+	
+	male = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+	female = {
+		"gfx/leaders/leader_unknown.dds"
+	}
+}
+
+continent = {
+	name = equis
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = zebrerica
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = greater_thermonia
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = ardu_alsahra
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = aetheria
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = obscurum_minor
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = cervinia
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = transartica
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = obscurum_major
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+	}
+}
+
+continent = {
+	name = mortuus_insulae
+	army = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			"gfx/leaders/Europe/portrait_Europe_Generic_land_13.dds"
+		}
+	}
+	
+	navy = {
+		male = {
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			"gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+		}
+	}
+	
+	political = {
+		communism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+			}
+		}
+		democratic = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_2.dds" 
+			}
+		}
+		fascism = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+		neutrality = {
+				male = { 
+					"gfx/leaders/Europe/Portrait_Europe_Generic_3.dds" 
+			}
+		}
+	}
+}
