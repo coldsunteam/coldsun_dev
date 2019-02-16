@@ -27,7 +27,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 				 
 				completion_reward = { 
 				add_tech_bonus
-				= { bonus = 0.5 uses = 2 category = motorized_equipment }
+				= { bonus = 0.33 uses = 2 category = motorized_equipment }
 				army_experience = 10
 		 } 
 
@@ -48,7 +48,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			 
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = cat_heavy_armor }
+			= { bonus = 0.5 uses = 1 category = cat_heavy_armor }
 		 } 
 
 	 } 
@@ -68,7 +68,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			 
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = cat_light_armor }
+			= { bonus = 0.5 uses = 1 category = cat_light_armor }
 		 } 
 
 	 } 
@@ -88,7 +88,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = cat_medium_armor }
+			= { bonus = 0.5 uses = 1 category = cat_medium_armor }
 		 } 
 
 	 }
@@ -108,7 +108,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			 
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = magical_weapons }
+			= { bonus = 0.33 uses = 2 category = magical_weapons }
 	 } 
 
 	 }
@@ -127,7 +127,9 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = rocket_artillery }
+			= { bonus = 0.5 uses = 1 category = rocket_artillery }
+			add_tech_bonus
+			= { bonus = 0.5 uses = 1 category = artillery }
 		 } 
 
 	 } 
@@ -166,7 +168,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = rocket_artillery }
+			= { bonus = 0.5 uses = 1 category = rocket_artillery }
 		 } 
 
 	 } 
@@ -263,8 +265,8 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			add_tech_bonus = { bonus = 0.5 uses = 2 category = navy }
-			add_tech_bonus = { bonus = 0.5 uses = 1 category = naval_doctrine }
+			add_tech_bonus = { bonus = 0.33 uses = 2 category = navy }
+			add_tech_bonus = { bonus = 0.33 uses = 1 category = naval_doctrine }
 			navy_experience = 10
 	 } 
 
@@ -323,7 +325,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			279 = { add_building_construction
 			= { type = industrial_complex level = 2 instant_build = yes } }
 			add_tech_bonus
-			= { bonus = 1 uses = 2 category = civilian }
+			= { bonus = 0.33 uses = 2 category = civilian }
 		 } 
 
 	 } 
@@ -344,6 +346,8 @@ continuous_focus_position = { x = 150 y = 1900 }
 			279 = { add_extra_state_shared_building_slots = 2 }
 			279 = { add_building_construction
 			= { type = industrial_complex level = 2 instant_build = yes } }
+			add_tech_bonus
+			= { bonus = 0.33 uses = 2 category = civilian }
 		 } 
 
 	 } 
@@ -365,7 +369,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 			299 = { add_building_construction
 			= { type = arms_factory level = 2 instant_build = yes } }
 			add_tech_bonus
-			= { bonus = 1 uses = 2 category = infantry_weapons }
+			= { bonus = 1 uses = 0.5 category = infantry_weapons }
 			custom_effect_tooltip = 13_EQA_tt
 		 } 
 
@@ -781,7 +785,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = encryption_tech }
+			= { bonus = 0.5 uses = 1 category = encryption_tech }
 	 } 
 
 	 } 
@@ -800,7 +804,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = decryption_tech }
+			= { bonus = 0.5 uses = 1 category = decryption_tech }
 	 } 
 
 	 } 
@@ -925,7 +929,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 	#Focus: Food in Livergnan
 		focus = { 
 		id = EQA_farm1
-		icon = GFX_goal_focus_food
+		icon = GFX_goal_focus_food2
 		x = 61
 		y = 4
 		cost = 10
@@ -945,7 +949,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 	#Focus: Food in Vainnes
 		focus = { 
 		id = EQA_farm2
-		icon = GFX_goal_focus_food
+		icon = GFX_goal_focus_food2
 		x = 61
 		y = 5
 		cost = 10
@@ -1161,7 +1165,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 	#Focus: Nuclear
 		focus = { 
 		id = EQA_nuclearfocus
-		icon = GFX_goal_generic_CAS
+		icon = GFX_goal_focus_education2
 		x = 49
 		y = 7
 		cost = 10
@@ -1216,7 +1220,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 	#Focus: Military Research
 		focus = { 
 		id = EQA_militaryresearch
-		icon = GFX_goal_generic_construct_mil_factory
+		icon = GFX_goal_focus_weaponry1
 		x = 40
 		y = 2
 		cost = 10
@@ -1230,7 +1234,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 1 category = land_doctrine }
+			= { bonus = 0.5 uses = 2 category = land_doctrine }
 			army_experience = 50
 		 } 
 
@@ -1251,7 +1255,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = cat_heavy_fighter }
+			= { bonus = 0.5 uses = 1 category = cat_heavy_fighter }
 		 } 
 
 	 } 
@@ -1271,7 +1275,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = cas_bomber }
+			= { bonus = 0.5 uses = 1 category = cas_bomber }
 		 } 
 
 	 } 
@@ -1376,7 +1380,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			add_tech_bonus = { bonus = 0.5 uses = 2 category = cat_mechanized_equipment }
+			add_tech_bonus = { bonus = 0.33 uses = 2 category = cat_mechanized_equipment }
 		 } 
 
 	 } 
@@ -1394,7 +1398,7 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			air_experience = 25
+			air_experience = 50
 		 } 
 
 	 } 
@@ -1819,6 +1823,10 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 } 
 			completion_reward = { 
 			299 = { add_building_construction = { type = arms_factory level = 2 instant_build = yes } }
+			add_tech_bonus
+			= { bonus = 0.33 uses = 1 category = infantry_weapons }
+			add_tech_bonus
+			= { bonus = 0.33 uses = 1 category = magical_weapons }
 			add_war_support = 0.05
 		 } 
 
@@ -1837,7 +1845,8 @@ continuous_focus_position = { x = 150 y = 1900 }
 		 factor = 40
 		 } 
 			completion_reward = { 
-			add_tech_bonus = { bonus = 0.5 uses = 2 category = magical_weapons }
+			add_tech_bonus = { bonus = 0.33 uses = 2 category = magical_weapons }
+			add_tech_bonus = { bonus = 1 uses = 1 category = magical_weapons }
 		 } 
 
 	 } 
@@ -2408,9 +2417,9 @@ continuous_focus_position = { x = 150 y = 1900 }
 			completion_reward = { 
 			299 = { add_building_construction = { type = arms_factory level = 2 instant_build = yes } }
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = infantry_weapons }
+			= { bonus = 0.33 uses = 1 category = infantry_weapons }
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = magical_weapons }
+			= { bonus = 0.33 uses = 1 category = magical_weapons }
 			army_experience = 25
 			add_war_support = 0.05
 		 } 
@@ -2992,9 +3001,9 @@ continuous_focus_position = { x = 150 y = 1900 }
 			completion_reward = {
 			299 = { add_building_construction = { type = arms_factory level = 2 instant_build = yes } }
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = infantry_weapons }
+			= { bonus = 0.33 uses = 1 category = infantry_weapons }
 			add_tech_bonus
-			= { bonus = 0.5 uses = 2 category = magical_weapons }
+			= { bonus = 0.33 uses = 1 category = magical_weapons }
 		}
 
 	}
@@ -3491,5 +3500,5 @@ continuous_focus_position = { x = 150 y = 1900 }
 	}
 	 
 	##THE END
-	##Made by NCBlizzard ##Before even state population, buildings, and most essential things were even made lol
+	##Made by NCBlizzard ##Before even state population, buildings, and most essential things were even made lol ##160 foci
 }

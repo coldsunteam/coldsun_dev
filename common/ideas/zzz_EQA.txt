@@ -564,7 +564,7 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.1
 				trade_opinion_factor = 0.25
-				political_power_gain = 0.15
+				political_power_gain = 0.2
 				monthly_population = 0.25
 			}
 		}
@@ -597,7 +597,7 @@ ideas = {
 				consumer_goods_factor = -0.03
 				industrial_capacity_dockyard = 0.05
 				industrial_capacity_factory = 0.05
-				industry_repair_factor = 0.02
+				industry_repair_factor = 0.1
 				trade_opinion_factor = 0.1
 				political_power_gain = 0.1
 				monthly_population = 0.1
