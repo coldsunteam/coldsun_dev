@@ -22,7 +22,7 @@ sub_units = {
 		combat_width = 1
 
 		need = {
-			infantry_equipment = 140
+			light_tank_aa_equipment = 15
 		}
 		manpower = 500
 		max_organisation = 0
@@ -86,7 +86,7 @@ sub_units = {
 		combat_width = 1
 
 		need = {
-			infantry_equipment = 140
+			medium_tank_aa_equipment = 12
 		}
 		manpower = 500
 		max_organisation = 0
@@ -153,7 +153,7 @@ sub_units = {
 		combat_width = 1
 
 		need = {
-			infantry_equipment = 140
+			heavy_tank_aa_equipment = 8
 		}
 		manpower = 500
 		max_organisation = 0
