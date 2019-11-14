@@ -1,0 +1,14 @@
+state={
+	id=338
+	name="STATE_338"
+	provinces={
+		4799 4806 4846 4881 
+	}
+	history={
+		owner = THR
+		add_core_of = THR
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

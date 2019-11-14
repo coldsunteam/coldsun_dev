@@ -1,11 +1,17 @@
 state={
 	id=43
 	name="STATE_43"
-	provinces={
-		990 4338 4827 5862 6056 6195 6601 6885 7302 7712 7929 7954 8335 8512 8632 8839 10026 10288 10343 10893 11230 
-	}
-	manpower=100
-	state_category="metropolis"
-	buildings_max_level_factor=1.000
 	
+	history={
+		owner = NUB
+		add_core_of = NUB
+	}
+	
+	provinces={
+		818 
+	}
+	manpower=10
+	state_category = rural
+
+	buildings_max_level_factor=1.000
 }

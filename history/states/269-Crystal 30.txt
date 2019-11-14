@@ -1,0 +1,18 @@
+state={
+	id=269
+	name="STATE_269"
+	resources={
+		steel=62
+	}
+	
+	provinces={
+		4326 4330 4369 4377 4408 4435 4452 4458 4491 4524 4573 5758 
+	}
+	history={
+		owner = CRY
+		add_core_of = CRY
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

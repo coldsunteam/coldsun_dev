@@ -2,10 +2,20 @@
 state={
 	id=126
 	name="STATE_126"
-	provinces={
-		9097 9647 9648 
+	resources={
+		oil=84
 	}
-	manpower=100
+	
+	history={
+		owner = EQS
+		add_core_of = EQS
+	}
+	
+	provinces={
+		81 353 423 503 564 3796 3807 3817 3827 3838 
+	}
+	manpower=400891
+	state_category = rural
+
 	buildings_max_level_factor=1.000
-	state_category=metropolis
 }

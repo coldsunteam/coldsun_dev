@@ -2,11 +2,23 @@
 state={
 	id=49
 	name="STATE_49"
-	provinces={
-		24 386 814 1337 1913 1963 3290 4337 4799 5252 5471 5540 5730 6197 6535 6904 7239 7656 7657 8374 8381 8631 8739 8908 9176 9278 9536 9555 10272 10907 11232 11238 11741 
+	resources={
+		steel=78
 	}
-	manpower=100
+
+	history={
+		owner = FET
+		add_core_of = FET
+		
+		victory_points = {
+			168 35
+		}
+	}
+
+	provinces={
+		4 25 88 168 178 383 398 880 882 
+	}
+	manpower=5696035
 	buildings_max_level_factor=1.000
-	state_category=metropolis
-	
+	state_category=rural
 }

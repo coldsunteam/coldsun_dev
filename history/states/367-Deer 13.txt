@@ -1,0 +1,18 @@
+state={
+	id=367
+	name="STATE_367"
+	resources={
+		tungsten=23
+	}
+	
+	provinces={
+		101 5790 5794 5801 5807 5812 5813 5820 5822 
+	}
+	history={
+		owner = CER
+		add_core_of = CER
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

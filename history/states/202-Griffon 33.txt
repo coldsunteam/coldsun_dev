@@ -1,0 +1,18 @@
+state={
+	id=202
+	name="STATE_202"
+	resources={
+		oil=8
+	}
+	
+	provinces={
+		5412 5418 5423 5436 5438 5448 5454 5455 5467 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

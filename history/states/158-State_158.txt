@@ -2,13 +2,20 @@
 state={
 	id=158
 	name="STATE_158"
-	provinces={
-		3284 3285 3286 3287 3288 7251 7252 9437 9438 10961 11392 11718 
+	resources={
+		aluminium=19
 	}
-	
 
-	
-	manpower=100
-	state_category=metropolis
+	history={
+		owner = PEO
+		add_core_of = PEO
+
+	}
+
+	provinces={
+		3561 4000 4005 4006 4012 4015 4020 
+	}
+	manpower=10
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

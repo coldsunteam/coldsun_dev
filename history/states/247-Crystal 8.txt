@@ -1,0 +1,14 @@
+state={
+	id=247
+	name="STATE_247"
+	provinces={
+		4805 4814 4825 4828 4860 4861 4868 4869 4887 
+	}
+	history={
+		owner = CRY
+		add_core_of = CRY
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

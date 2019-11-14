@@ -1,6 +1,0 @@
-on_actions = {
-
-}
-
-
-### Don't forget to add ( effect = { } ) you fuckwit

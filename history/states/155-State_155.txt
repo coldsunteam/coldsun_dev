@@ -2,15 +2,21 @@
 state={
 	id=155
 	name="STATE_155"
+	resources={
+		oil=6
+		steel=28
+	}
 
 	history={
-		owner = BPM
-		add_core_of = BPM
+		owner = PRA
+		add_core_of = PRA
+
 	}
+
 	provinces={
-		839 840 843 846 4751 11198 11637 21050 21231 
+		65 180 626 634 648 668 775 785 4010 
 	}
-	manpower=63023
+	manpower=1342036
 	buildings_max_level_factor=1.000
 	state_category=town
 }

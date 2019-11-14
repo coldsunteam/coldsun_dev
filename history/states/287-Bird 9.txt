@@ -1,0 +1,14 @@
+state={
+	id=287
+	name="STATE_287"
+	provinces={
+		5031 5046 5051 5079 5085 5131 5149 5163 5193 5834 
+	}
+	history={
+		owner = SOR
+		add_core_of = SOR
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

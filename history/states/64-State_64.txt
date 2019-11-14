@@ -2,13 +2,21 @@
 state={
 	id=64
 	name="STATE_64"
+	resources={
+		oil=4
+		steel=20
+	}
 
-	
+	history={
+		owner = ERC
+		add_core_of = ERC
+
+	}
 
 	provinces={
-		6370 6371 11031 19879 19884 19885 19892 19909 19910 19919 19921 19929 20306 
+		3507 3511 3513 3516 3522 3527 3528 3537 3541 
 	}
-	manpower=100
+	manpower=10
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

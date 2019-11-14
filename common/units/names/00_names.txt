@@ -177,8 +177,3 @@ generic = {
 		unique = {}
 	}
 }
-
-# Country specific names.
-# Prefix is always appended at the begin of each generated name.
-# Unique - only one unit can carry it at a time.
-# Generic - are used when all unique are used. Those have numbers appended at the end.

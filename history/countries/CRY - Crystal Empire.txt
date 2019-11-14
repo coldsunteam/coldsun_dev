@@ -1,84 +1,68 @@
-﻿capital = 730
-set_research_slots = 3
+﻿capital = 236
 
-oob = "EQS_2030"
-
+# Starting tech
 set_technology = {
-	pony_race = 1
 	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
 }
 
-add_ideas = {
-	DEFCON5
+set_convoys = 10
+
+set_popularities = {
+    democratic = 64
+    communism = 12
+    fascism = 0
+    neutrality = 24
 }
 
-set_convoys = 70
 set_politics = {
-	
-	parties = {
-		democratic = {
-			popularity = 0
-		}
-		
-		fascism = {
-			popularity = 15
-		}
-		
-		communism = {
-			popularity = 0
-			#banned = no #default is no
-		}
-		
-		neutrality = {
-			popularity = 85
-		}
-	}
-	
-	ruling_party = neutrality
-	last_election = "1000.10.10"
-	election_frequency = 36
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
-	desc = ""
-	picture = "Cadenza.tga"
-	expire = "1965.1.1"
-	ideology = alicornism
-	traits = {
-	}
+    name = "Notachangeling"
+    desc = ""
+    picture = "gfx/leaders/Steely Gaze.tga"
+    expire = "1965.1.1"
+    ideology = despotism
+    traits = {
+        #
+    }
 }
 
 create_country_leader = {
-	name = "King Sombra"
-	
-	picture = "Cadenza.tga"
-	expire = "1965.1.1"
-	ideology = imperialism
-	traits = {
-		
-	}
+    name = "Notachangeling"
+    desc = ""
+    picture = "gfx/leaders/Steely Gaze.tga"
+    expire = "1965.1.1"
+    ideology = nazism
+    traits = {
+        #
+    }
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
-	desc = ""
-	picture = "Cadenza.tga"
-	expire = "1965.1.1"
-	ideology = conservatism
-	traits = {
-		
-	}
+    name = "Notachangeling"
+    desc = ""
+    picture = "gfx/leaders/Steely Gaze.tga"
+    expire = "1965.1.1"
+    ideology = marxism
+    traits = {
+        #
+    }
 }
 
 create_country_leader = {
-	name = "Princess Mi Amore Cadenza"
-	desc = ""
-	picture = "Cadenza.tga"
-	expire = "1965.1.1"
-	ideology = totalism
-	traits = {
-		
-	}
+    name = "Princess Mi Amore Cadenza"
+    desc = ""
+    picture = "gfx/leaders/CRY/Mi Amore Cadenza.tga"
+    expire = "1965.1.1"
+    ideology = liberalism
+    traits = {
+        #
+    }
 }

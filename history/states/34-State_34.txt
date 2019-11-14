@@ -2,11 +2,22 @@
 state={
 	id=34
 	name="STATE_34"
-	provinces={
-		596 597 598 2880 2881 2882 2883 3460 4856 4857 4858 9825 11372 11626 
+	resources={
+		oil=6
+		aluminium=10
+		tungsten=24
 	}
-	
-	manpower=100
+
+	history={
+		owner = PRA
+		add_core_of = PRA
+
+	}
+
+	provinces={
+		3594 3599 3608 3609 3614 3619 
+	}
+	manpower=1548188
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 }

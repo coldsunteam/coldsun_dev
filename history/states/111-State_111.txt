@@ -2,13 +2,20 @@
 state={
 	id=111
 	name="STATE_111"
+	resources={
+		rubber=24
+	}
 
+	history={
+		owner = VRA
+		add_core_of = VRA
 
+	}
 
 	provinces={
-		2735 3793 3794 6049 8428 19793 19795 19800 19805 19809 19816 19818 19819 19824 19841 
+		15 72 117 142 159 788 792 3433 
 	}
-	manpower=100
+	manpower=744565
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_town
 }

@@ -1,0 +1,14 @@
+state={
+	id=369
+	name="STATE_369"
+	provinces={
+		5799 5800 5808 5815 5816 5817 5824 5825 5826 5827 5829 5832 5833 
+	}
+	history={
+		owner = CER
+		add_core_of = CER
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

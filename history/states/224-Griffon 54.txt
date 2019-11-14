@@ -1,0 +1,18 @@
+state={
+	id=224
+	name="STATE_224"
+	provinces={
+		4766 4772 4804 4821 4858 4859 4878 4891 4892 4893 4913 4918 4919 5784 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+		
+		victory_points = {
+			4858 32
+		}
+	}
+	manpower=1856798
+	state_category=city
+	buildings_max_level_factor=1.000
+}

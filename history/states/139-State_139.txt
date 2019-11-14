@@ -2,16 +2,20 @@
 state={
 	id=139
 	name="STATE_139"
-	history={
-		owner = GPD
-		add_core_of = GPD
-	}	
-	
-	provinces={
-		7785 11038 
+	resources={
+		steel=17
 	}
-	manpower=100
+
+	history={
+		owner = FEL
+		add_core_of = FEL
+
+	}
+
+	provinces={
+		171 593 603 632 784 3584 3586 3590 
+	}
+	manpower=758651
 	buildings_max_level_factor=1.000
-	state_category=wasteland
-	impassable=yes
+	state_category=town
 }

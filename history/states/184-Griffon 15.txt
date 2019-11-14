@@ -1,0 +1,22 @@
+state={
+	id=184
+	name="STATE_184"
+	resources={
+		steel=24
+	}
+	
+	provinces={
+		2 42 111 322 329 426 542 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+		
+		victory_points = {
+			542 22
+		}
+	}
+	manpower=828837
+	state_category=town
+	buildings_max_level_factor=1.000
+}

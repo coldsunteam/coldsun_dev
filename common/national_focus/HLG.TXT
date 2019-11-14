@@ -1,0 +1,13 @@
+focus_tree = {
+	id = league_focus
+
+	country = {
+		factor = 0
+
+		modifier = {
+			add = 10
+			original_tag = HLG
+		}
+	}
+	
+}

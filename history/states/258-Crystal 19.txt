@@ -1,0 +1,14 @@
+state={
+	id=258
+	name="STATE_258"
+	provinces={
+		173 211 332 486 514 545 567 686 
+	}
+	history={
+		owner = CRY
+		add_core_of = CRY
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

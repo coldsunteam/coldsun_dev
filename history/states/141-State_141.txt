@@ -1,22 +1,17 @@
-
 state={
 	id=141
 	name="STATE_141"
-	resources={
-		gems=4.000
-	}
 	
 	history={
-		owner = GPE
-		add_core_of = GPE
-
+		owner = NUB
+		add_core_of = NUB
 	}
-
+	
 	provinces={
-		617 4320 10386 10954 11874 
+		891 
 	}
-	manpower=100
+	manpower=10
+	state_category = rural
+
 	buildings_max_level_factor=1.000
-	state_category=wasteland
-	impassable=yes
 }

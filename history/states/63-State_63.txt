@@ -2,10 +2,20 @@
 state={
 	id=63
 	name="STATE_63"
-	provinces={
-		1029 2519 3707 3839 4805 6175 6312 6400 6475 6559 6929 7508 7783 8112 8262 9329 9346 9439 10585 10612 11284 11736 11777 
+	resources={
+		steel=45
 	}
-	manpower=100
+
+	history={
+		owner = ERC
+		add_core_of = ERC
+
+	}
+
+	provinces={
+		3495 3497 3499 3504 3515 3519 3524 3534 3538 3543 
+	}
+	manpower=1224562
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=city
 }

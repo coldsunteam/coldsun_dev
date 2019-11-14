@@ -2,12 +2,21 @@
 state={
 	id=21
 	name="STATE_21"
+	resources={
+		tungsten=19
+	}
 
+	history={
+		owner = EQS
+		add_core_of = EQS
+
+	}
 
 	provinces={
-		4740 4741 4742 4743 6073 6074 6076 7767 8495 11346 19711 19722 19726 19737 20299 
+		196 4077 4078 4079 
 	}
-	manpower=100
+	manpower=3400
+	state_category = wasteland
+
 	buildings_max_level_factor=1.000
-	state_category=rural
 }

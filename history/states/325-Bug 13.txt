@@ -1,0 +1,18 @@
+state={
+	id=325
+	name="STATE_325"
+	resources={
+		steel=12
+	}
+	
+	provinces={
+		5258 5266 5272 5291 5308 5310 5311 5341 5343 
+	}
+	history={
+		owner = THR
+		add_core_of = THR
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -4,14 +4,18 @@ state={
 	name="STATE_153"
 
 	history={
-		owner = BPB
-		add_core_of = BPB
+		owner = FEL
+		add_core_of = FEL
+		
+		victory_points = {
+			3617 15
+		}
 	}
 
 	provinces={
-		2192 6441 9334 11170 21136 21140 21144 21151 
+		3593 3601 3602 3610 3615 3617 
 	}
-	manpower=24440
+	manpower=3385428
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=large_city
 }

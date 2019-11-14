@@ -1,0 +1,17 @@
+state={
+	id=352
+	name="STATE_352"
+	resources={
+		chromium=14
+	}
+	provinces={
+		814 816 
+	}
+	history={
+		owner = THR
+		add_core_of = THR
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

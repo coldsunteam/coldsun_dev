@@ -1,0 +1,18 @@
+state={
+	id=231
+	name="STATE_231"
+	resources={
+		aluminium=42
+	}
+	
+	provinces={
+		435 5264 5275 5281 5301 5306 5321 5324 5338 5377 5404 5840 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

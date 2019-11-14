@@ -1,12 +1,5 @@
 continents = {
-	equis
-	zebrerica
-	greater_thermonia
-	ardu_alsahra
-	aetheria
-	obscurum_minor
-	cervinia
-        transartica
-        obscurum_major
-        mortuus_insulae
+	ponia
+	gryphus
+	zecodia
 }

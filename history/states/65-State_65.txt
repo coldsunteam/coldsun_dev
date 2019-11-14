@@ -2,13 +2,25 @@
 state={
 	id=65
 	name="STATE_65"
-	provinces={
-		1970 1971 1972 1973 1974 1983 1984 1985 7115 7116 7117 7727 8830 9302 11237 11400 11549 
+	resources={
+		aluminium=19
+		tungsten=25
+		steel=48
 	}
-	
-	
-	
-	manpower=100
+
+	history={
+		owner = ERC
+		add_core_of = ERC
+		
+		victory_points = {
+			884 40
+		}
+	}
+
+	provinces={
+		883 884 900 3555 3564 3570 3573 3976 3982 3986 3994 
+	}
+	manpower=4441262
 	buildings_max_level_factor=1.000
 	state_category=metropolis
 }

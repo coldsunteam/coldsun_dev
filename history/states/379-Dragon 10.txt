@@ -1,0 +1,20 @@
+
+state={
+	id=379
+	name="STATE_379"
+	resources={
+		aluminium=8
+		tungsten=16
+		steel=10
+	}
+	provinces={
+		330 565 5545 5551 5565 5566 5573 5578 
+	}
+	history={
+		owner = DRG
+		add_core_of = DRG
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -2,13 +2,19 @@
 state={
 	id=99
 	name="STATE_99"
-
-	
-
-	provinces={
-		1668 1669 1919 2038 2039 2040 2041 2042 2044 4469 4470 4471 4472 4473 4474 4475 4476 5983 5984 5985 6854 6855 6856 6857 6858 6859 6860 7654 9317 9549 10368 10970 11716 
+	history={
+		owner = EQS
+		add_core_of = EQS
+		
+		victory_points = {
+			3764 20
+		}
 	}
-	manpower=100
+	provinces={
+		3722 3733 3750 3756 3764 3776 3785 3787 3788 3805 
+	}
+	manpower=4001225
+	state_category = large_city
+
 	buildings_max_level_factor=1.000
-	state_category=metropolis
 }

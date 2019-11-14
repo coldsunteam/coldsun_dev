@@ -1,0 +1,15 @@
+
+state={
+	id=365
+	name="STATE_365"
+	provinces={
+		532 5626 5783 5786 5792 5793 5797 5809 5810 5811 
+	}
+	history={
+		owner = CER
+		add_core_of = CER
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

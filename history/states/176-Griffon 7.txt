@@ -1,0 +1,14 @@
+state={
+	id=176
+	name="STATE_176"
+	provinces={
+		66 67 699 5236 5260 5261 5277 5278 5305 5309 5838 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+	}
+	manpower=65412
+	state_category=wasteland
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,17 @@
+state={
+	id=302
+	name="STATE_302"
+	resources={
+		steel=20
+	}
+	provinces={
+		4183 4191 4192 4201 4208 4210 4218 4226 4229 4244 
+	}
+	history={
+		owner = AIE
+		add_core_of = AIE
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

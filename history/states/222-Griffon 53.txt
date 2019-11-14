@@ -1,0 +1,14 @@
+state={
+	id=222
+	name="STATE_222"
+	provinces={
+		4753 4754 4764 4794 4809 4832 4842 4877 4884 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+	}
+	manpower=10
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

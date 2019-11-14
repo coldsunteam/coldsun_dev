@@ -2,11 +2,24 @@
 state={
 	id=44
 	name="STATE_44"
+	resources={
+		oil=23
+		steel=20
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		
+		victory_points = {
+			3643 15
+		}
+	}
 
 	provinces={
-		6961 6962 6989 9828 10437 10823 10824 20104 
+		3633 3634 3642 3643 3646 3647 3653 3654 3657 3661 3668 3676 3681 3695 
 	}
-	manpower=100
+	manpower=888745
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=town
 }

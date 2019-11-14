@@ -1,0 +1,23 @@
+
+state={
+	id=164
+	name="STATE_164"
+	resources={
+		tungsten=40
+		rubber=8
+		chromium=6
+	}
+
+	history={
+		owner = PEO
+		add_core_of = PEO
+
+	}
+
+	provinces={
+		213 384 3547 3559 4105 4110 4112 4113 
+	}
+	manpower=244125
+	buildings_max_level_factor=1.000
+	state_category=town
+}

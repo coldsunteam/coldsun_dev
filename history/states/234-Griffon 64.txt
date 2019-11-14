@@ -1,0 +1,18 @@
+state={
+	id=234
+	name="STATE_234"
+	resources={
+		steel=16
+	}
+	
+	provinces={
+		5387 5393 5400 5403 5407 5425 5426 5434 5435 5441 5451 5453 5469 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=361
+	name="STATE_361"
+	resources={
+		rubber=2
+	}
+	
+	provinces={
+		5690 5691 5695 5697 5701 5702 5711 5712 5718 
+	}
+	history={
+		owner = CER
+		add_core_of = CER
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

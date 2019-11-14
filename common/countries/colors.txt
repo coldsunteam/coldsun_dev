@@ -1,99 +1,92 @@
-### Equis ###
 EQS = {
-	color = rgb { 212 87 208 }
-	color_ui = rgb { 212 87 208 }
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+PRA = {
+	color = rgb { 49 100 176 }
+	color_ui = rgb { 49 100 176 }
+}
+FEL = {
+	color = rgb { 48 107 62 }
+	color_ui = rgb { 48 107 62 }
+}
+FET = {
+	color = rgb { 91 124 58 }
+	color_ui = rgb { 91 124 58 }
+}
+ERC = {
+	color = rgb { 140 91 200 }
+	color_ui = rgb { 140 91 200 }
+}
+VEN = {
+	color = rgb { 71 47 102 }
+	color_ui = rgb { 71 47 102 }
+}
+IST = {
+	color = rgb { 71 47 102 }
+	color_ui = rgb { 71 47 102 }
+}
+DDT = {
+	color = rgb { 187 115 66 }
+	color_ui = rgb { 187 115 66 }
+}
+PEO = {
+	color = rgb { 187 115 66 }
+	color_ui = rgb { 187 115 66 }
+}
+ISL = {
+	color = rgb { 195 132 132 }
+	color_ui = rgb { 195 132 132 }
+}
+MON = {
+	color = rgb { 100  100  66 }
+	color_ui = rgb { 100  100  66 }
+}
+VRA = {
+	color = rgb { 107  115  66 }
+	color_ui = rgb { 107  115  66 }
+}
+THA = {
+	color = rgb { 187  105  111 }
+	color_ui = rgb { 187  105  111 }
+}
+HLG = {
+	color = rgb { 251 173 57 }
+	color_ui = rgb { 251 173 57 }
 }
 CRY = {
-	color = rgb { 165  66  162 }
-	color_ui = rgb { 165  66  162 }
+	color = rgb { 243 112 240 }
+	color_ui = rgb { 243 112 240 }
+}
+AIE = {
+	color = rgb { 196 98 0 }
+	color_ui = rgb { 196 98 0 }
 }
 THR = {
-	color = rgb { 57  143  97 }
-	color_ui = rgb { 57  143  97 }
+	color = rgb { 147 147 147 }
+	color_ui = rgb { 147 147 147 }
 }
-TSU = {
-	color = rgb { 57  143  97 }
-	color_ui = rgb { 57  143  97 }
+DRG = {
+	color = rgb { 227 4 10 }
+	color_ui = rgb { 227 4 10 }
 }
-ATI = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+CER = {
+	color = rgb { 189 120 28 }
+	color_ui = rgb { 189 120 28 }
 }
-ABA = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
+POG = {
+	color = rgb { 209 147 16 }
+	color_ui = rgb { 209 147 16 }
 }
-SIN = {
-	color = rgb { 100 100 100 }
-	color_ui = rgb { 100 100 100 }
+SOR = {
+	color = rgb { 151 79 6 }
+	color_ui = rgb { 151 79 6 }
 }
-TAR = {
-	color = rgb { 100 96 134 }
-	color_ui = rgb { 100 96 134 }
+GRT = {
+	color = rgb { 6 104 157 }
+	color_ui = rgb { 6 104 157 }
 }
-VIN = {
-	color = rgb { 122 172 89 }
-	color_ui = rgb { 122 172 89 }
+NUB = {
+	color = rgb { 0 0 0 }
+	color_ui = rgb { 0 0 0 }
 }
-ZIN = {
-	color = rgb { 134 70 70 }
-	color_ui = rgb { 134 70 70 }
-}
-YAK = {
-	color = rgb { 0 128 64 }
-	color_ui = rgb { 0 128 64 }
-}
-BIG = {
-	color = rgb { 158 44 72 }
-	color_ui = rgb { 158 44 72 }
-}
-GPA = {
-	color = rgb { 62 149 36 }
-	color_ui = rgb { 62 149 36 }
-}
-GPB = {
-	color = rgb { 62 149 36 }
-	color_ui = rgb { 62 149 36 }
-}
-GPC = {
-	color = rgb { 124 163 54 }
-	color_ui = rgb { 124 163 54 }
-}
-GPD = {
-	color = rgb { 124 163 54 }
-	color_ui = rgb { 124 163 54 }
-}
-EQA = {
-	color = rgb { 139 35 141 }
-	color_ui = rgb { 139 35 141 }
-}
-GPE = {
-	color = rgb { 223 192 68 }
-	color_ui = rgb { 223 192 68 }
-}
-BAT = {
-	color = rgb { 150 150 150 }
-	color_ui = rgb { 150 150 150 }
-}
-BPA = {
-	color = rgb { 27 151 252 }
-	color_ui = rgb { 27 151 252 }
-}
-BPB = {
-	color = rgb { 238 244 159 }
-	color_ui = rgb { 238 244 159 }
-}
-BPC = {
-	color = rgb { 217  88  51 }
-	color_ui = rgb { 217  88  51 }
-}
-BPM = {
-	color = rgb { 198 183 41 }
-	color_ui = rgb { 198 183 41 }
-}
-TZY = {
-	color = rgb { 140  114  153 }
-	color_ui = rgb { 140  114  153 }
-}
-### Equis ###
-#############

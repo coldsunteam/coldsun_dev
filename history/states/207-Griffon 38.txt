@@ -1,0 +1,15 @@
+
+state={
+	id=207
+	name="STATE_207"
+	provinces={
+		4780 4787 4802 4820 4841 4867 4902 4903 4923 5882 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+	}
+	manpower=10
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

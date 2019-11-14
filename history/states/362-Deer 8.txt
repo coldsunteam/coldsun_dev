@@ -1,0 +1,19 @@
+
+state={
+	id=362
+	name="STATE_362"
+	resources={
+		steel=6
+	}
+	
+	provinces={
+		836 5675 5679 5687 5692 5696 5700 5703 5709 5713 5716 
+	}
+	history={
+		owner = CER
+		add_core_of = CER
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -2,12 +2,22 @@
 state={
 	id=26
 	name="STATE_26"
-
-
-	provinces={
-		252 253 383 765 5253 5254 5255 7604 19561 19937 
+	resources={
+		tungsten=15
 	}
-	manpower=100
+	
+	history={
+		owner = EQS
+		add_core_of = EQS
+	
+		victory_points = {
+			2933 28
+		}
+	}
+	provinces={
+		2933 3844 3845 3851 3855 3859 3870 
+	}
+	manpower=2995445
+	state_category = large_town
 	buildings_max_level_factor=1.000
-	state_category=large_town
 }

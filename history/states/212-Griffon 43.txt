@@ -1,0 +1,21 @@
+state={
+	id=212
+	name="STATE_212"
+	resources={
+		steel=84
+	}
+	provinces={
+		4836 4857 4876 4899 4906 4941 4950 4996 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+		
+		victory_points = {
+			4899 34
+		}
+	}
+	manpower=3060980
+	state_category=large_city
+	buildings_max_level_factor=1.000
+}

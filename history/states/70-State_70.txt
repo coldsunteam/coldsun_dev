@@ -2,13 +2,24 @@
 state={
 	id=70
 	name="STATE_70"
-	provinces={
-		83 85 555 563 4761 4762 4763 6589 6590 7187 8469 8470 8471 8472 9484 10676 11322 
+	resources={
+		oil=2
+		aluminium=98
+		tungsten=109
+		steel=145
+		chromium=72
 	}
-	
-	
-	
-	manpower=100
+
+	history={
+		owner = DDT
+		add_core_of = DDT
+
+	}
+
+	provinces={
+		296 3431 3432 3437 3442 3449 3450 3930 3932 3933 3935 3936 3940 3943 3945 3946 
+	}
+	manpower=1322100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=large_town
 }

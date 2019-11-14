@@ -3,19 +3,22 @@ state={
 	id=140
 	name="STATE_140"
 	resources={
-		gems=6.000
+		rubber=60
 	}
-	
+
 	history={
-		owner = GPC
-		add_core_of = GPC
+		owner = THA
+		add_core_of = THA
+		
+		victory_points = {
+			4108 22
+		}
 	}
-	
+
 	provinces={
-		1777 1779 7567 
+		258 452 791 3553 3970 4108 
 	}
-	manpower=100
+	manpower=1121141
 	buildings_max_level_factor=1.000
-	state_category=wasteland
-	impassable=yes
+	state_category=city
 }

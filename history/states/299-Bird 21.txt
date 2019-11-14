@@ -1,0 +1,14 @@
+state={
+	id=299
+	name="STATE_299"
+	provinces={
+		4313 4331 4351 4381 4399 4413 4463 5721 
+	}
+	history={
+		owner = AIE
+		add_core_of = AIE
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

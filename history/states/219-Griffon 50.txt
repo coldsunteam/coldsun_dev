@@ -1,0 +1,14 @@
+state={
+	id=219
+	name="STATE_219"
+	provinces={
+		4603 4623 4628 4633 4654 4669 4686 4693 4702 4722 4738 4763 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+	}
+	manpower=855100
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

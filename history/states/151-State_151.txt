@@ -2,15 +2,17 @@
 state={
 	id=151
 	name="STATE_151"
+
 	history={
-		owner = GPC
-		add_core_of = GPC
+		owner = EQS
+		add_core_of = EQS
+
 	}
-	
+
 	provinces={
-		176 177 774 1120 2402 2768 2769 3573 3574 6922 6923 9203 9682 
+		193 355 491 662 672 777 781 
 	}
-	manpower=100
+	manpower=221035
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -1,0 +1,19 @@
+state={
+	id=268
+	name="STATE_268"
+	resources={
+		aluminium=21
+		tungsten=120
+	}
+	
+	provinces={
+		4194 4213 4220 4225 4237 4246 4257 4267 4278 4288 4312 4319 4343 
+	}
+	history={
+		owner = CRY
+		add_core_of = CRY
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

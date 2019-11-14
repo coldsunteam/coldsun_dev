@@ -2,48 +2,29 @@ bookmarks = {
 	bookmark = {
 		name = "GATHERING_STORM_NAME"
 		desc = "GATHERING_STORM_DESC"
-		date = 2030.1.1.1
+		date = 2000.1.1.1
 		picture = "GFX_select_date_1936"
 		default_country = "EQS"
 		default = yes
 		
-		EQS = {
-			history = FRA_BLITZKRIEG_DESC
-			ideology = democratic
-			ideas={
-			}
-			focuses = {
-			}
+		"EQS"={
+			history = "OTHER_GATHERING_STORM_DESC"
 		}
-		CRY = {
-			history = FRA_BLITZKRIEG_DESC
-			ideology = democratic
-			ideas={
-			}
-			focuses = {
-			}
+		"HLG"={
+			history = "OTHER_GATHERING_STORM_DESC"
 		}
-		THR = {
-			history = FRA_BLITZKRIEG_DESC
-			ideology = democratic
-			ideas={
-			}
-			focuses = {
-			}
+		"THR"={
+			history = "OTHER_GATHERING_STORM_DESC"
 		}
-		TSU = {
-			history = FRA_BLITZKRIEG_DESC
-			ideology = communism
-			ideas={
-			}
-			focuses = {
-			}
+		"CRY"={
+			history = "OTHER_GATHERING_STORM_DESC"
 		}
-		
+		"ERC"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
 		effect = {
-			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
 		}
-		
 	}
 }

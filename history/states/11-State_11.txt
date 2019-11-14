@@ -2,10 +2,15 @@
 state={
 	id=11
 	name="STATE_11"
-	provinces={
-		1174 6319 11947 
+	history={
+		owner = EQS
+		add_core_of = EQS
 	}
-	manpower=100
-	state_category="metropolis"
+	provinces={
+		277 448 559 3863 3871 3884 
+	}
+	manpower=56125
+	state_category = town
+
 	buildings_max_level_factor=1.000
 }

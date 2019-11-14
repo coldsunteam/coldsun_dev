@@ -1,0 +1,14 @@
+state={
+	id=289
+	name="STATE_289"
+	provinces={
+		5092 5098 5099 5121 5142 5178 5879 5883 
+	}
+	history={
+		owner = SOR
+		add_core_of = SOR
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

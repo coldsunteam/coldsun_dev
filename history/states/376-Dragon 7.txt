@@ -1,0 +1,14 @@
+state={
+	id=376
+	name="STATE_376"
+	provinces={
+		5504 5514 5519 5530 5532 5534 5540 5558 
+	}
+	history={
+		owner = DRG
+		add_core_of = DRG
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

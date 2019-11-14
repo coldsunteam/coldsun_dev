@@ -2,16 +2,20 @@
 state={
 	id=157
 	name="STATE_157"
+	resources={
+		tungsten=40
+	}
 
 	history={
-		owner = BPB
-		add_core_of = BPB
+		owner = FEL
+		add_core_of = FEL
+
 	}
 
 	provinces={
-		7318 21164 21168 21178 21179 21191 21192 
+		120 235 316 349 760 768 779 
 	}
-	manpower=9534050
+	manpower=812330
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=town
 }

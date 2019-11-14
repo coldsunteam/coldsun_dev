@@ -3,17 +3,18 @@ state={
 	id=144
 	name="STATE_144"
 	history={
-		owner = BIG
-		add_core_of = BIG
-
+		owner = EQS
+		add_core_of = EQS
+		
+		victory_points = {
+			3848 20
+		}
 	}
-
-	
 	provinces={
-		7040 
+		744 3828 3831 3840 3846 3848 3862
 	}
-	manpower=100
+	manpower=5000894
+	state_category = metropolis
+
 	buildings_max_level_factor=1.000
-	state_category=wasteland
-	impassable=yes
 }

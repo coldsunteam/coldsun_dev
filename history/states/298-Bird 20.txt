@@ -1,0 +1,18 @@
+state={
+	id=298
+	name="STATE_298"
+	resources={
+		tungsten=20
+	}
+	
+	provinces={
+		4302 4310 4328 4338 4339 4344 4380 
+	}
+	history={
+		owner = AIE
+		add_core_of = AIE
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

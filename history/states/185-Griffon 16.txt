@@ -1,0 +1,14 @@
+state={
+	id=185
+	name="STATE_185"
+	provinces={
+		4647 4695 4716 4717 4767 4789 4822 4833 4873 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

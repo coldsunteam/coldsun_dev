@@ -1,0 +1,14 @@
+state={
+	id=395
+	name="STATE_395"
+	provinces={
+		370 867 
+	}
+	history={
+		owner = DRG
+		add_core_of = DRG
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -2,20 +2,15 @@
 state={
 	id=130
 	name="STATE_130"
-	resources={
-		gems=16.000
-	}
-	
 	history={
-		owner = BIG
-		add_core_of = BIG
+		owner = EQS
+		add_core_of = EQS
 	}
-	
 	provinces={
-		9842 
+		3655 3664 3677 3684 3691 3704 3715 3744 
 	}
-	manpower=100
+	manpower=480125
+	state_category = town
+
 	buildings_max_level_factor=1.000
-	state_category=wasteland
-	impassable=yes
 }

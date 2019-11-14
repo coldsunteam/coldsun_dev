@@ -2,11 +2,18 @@
 state={
 	id=13
 	name="STATE_13"
-	provinces={
-		5609 5610 7216 8253 8254 8639 8640 8804 
+	resources={
+		steel=12
 	}
 	
-	manpower=100
+	provinces={
+		412 464 467 642 652 697 4981 4994 5014 
+	}
+	history={
+		owner = THR
+		add_core_of = THR
+	}
+	manpower=10
+	state_category=rural
 	buildings_max_level_factor=1.000
-	state_category=metropolis
 }

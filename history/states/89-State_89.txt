@@ -2,13 +2,20 @@
 state={
 	id=89
 	name="STATE_89"
+	resources={
+		oil=13
+	}
 
-	
+	history={
+		owner = VEN
+		add_core_of = VEN
+
+	}
 
 	provinces={
-		735 3416 19902 19912 19916 19920 19926 19928 19930 19933 
+		3475 3479 3494 3501 3503 
 	}
-	manpower=100
+	manpower=599845
 	buildings_max_level_factor=1.000
 	state_category=town
 }

@@ -1,0 +1,14 @@
+state={
+	id=357
+	name="STATE_357"
+	provinces={
+		716 819 5751 5756 5761 5763 5767 5775 5778 5851 
+	}
+	history={
+		owner = CER
+		add_core_of = CER
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

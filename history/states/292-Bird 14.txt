@@ -1,0 +1,14 @@
+state={
+	id=292
+	name="STATE_292"
+	provinces={
+		4776 4800 4807 4829 4870 4904 
+	}
+	history={
+		owner = POG
+		add_core_of = POG
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

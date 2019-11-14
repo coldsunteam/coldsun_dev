@@ -3,17 +3,14 @@ state={
 	id=136
 	name="STATE_136"
 	history={
-		owner = BIG
-		add_core_of = BIG
-
+		owner = EQS
+		add_core_of = EQS
 	}
-
-	
 	provinces={
-		8083 
+		3763 3765 3781 3783 3786 3806 
 	}
-	manpower=100
+	manpower=465111
+	state_category = rural
+
 	buildings_max_level_factor=1.000
-	state_category=wasteland
-	impassable=yes
 }

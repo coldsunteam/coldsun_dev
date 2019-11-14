@@ -1,11 +1,18 @@
+
 state={
 	id=80
 	name="STATE_80"
-	provinces={
-		642 924 3939 3956 3957 3958 4708 5247 5321 5327 6021 6022 6264 6294 6665 6964 8607 9658 10032 10414 10438 10439 11498 11618 11815 
+
+	history={
+		owner = IST
+		add_core_of = IST
+
 	}
-	manpower=100
-	state_category="metropolis"
+
+	provinces={
+		3436 3448 3455 3460 3461 3472 3473 3491 3492 
+	}
+	manpower=200147
 	buildings_max_level_factor=1.000
-	
+	state_category=rural
 }

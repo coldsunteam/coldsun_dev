@@ -2,36 +2,24 @@
 state={
 	id=115
 	name="STATE_115"
-	
 	resources={
-		grain=8.000
+		aluminium=23
+		steel=103
 	}
-
+	
 	history={
 		owner = EQS
 		add_core_of = EQS
 		
 		victory_points = {
-			19870 25
+			751 50
 		}
-		victory_points = {
-			678 10
-		}
-		
-		buildings = {
-			infrastructure = 6
-			dockyard = 2
-			19870 = {
-				naval_base = 8
-			}
-		}
-
 	}
-
 	provinces={
-		677 678 8706 9086 10668 10880 19870 
+		91 253 317 341 456 476 751 755 757 3830 3832 3849 
 	}
-	manpower = 18656000
-	buildings_max_level_factor = 1.000
-	state_category = metropolis
+	manpower=4001259
+	state_category = large_city
+
+	buildings_max_level_factor=1.000
 }

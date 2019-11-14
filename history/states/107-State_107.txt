@@ -2,11 +2,21 @@
 state={
 	id=107
 	name="STATE_107"
-	provinces={
-		2804 2805 2806 2807 2808 2831 2832 2833 2834 2835 2836 2837 2838 2839 3621 3622 3623 3624 3625 3910 3911 5172 5173 6119 6120 9181 9741 9743 10202 11161 11461 
+	resources={
+		steel=73
 	}
-	manpower=100
-	state_category=metropolis
-	buildings_max_level_factor=1.000
 
+	history={
+		owner = EQS
+		add_core_of = EQS
+
+	}
+
+	provinces={
+		312 539 561 624 682 750 3857 4053 4054 4056 4059 4062 4083 
+	}
+	manpower=899457
+	state_category = large_town
+
+	buildings_max_level_factor=1.000
 }

@@ -2,10 +2,20 @@
 state={
 	id=106
 	name="STATE_106"
-	provinces={
-		3589 3590 3591 3592 3593 5166 5167 5168 5169 5171 5872 6265 6965 7674 8857 
+	resources={
+		oil=15
 	}
-	manpower=100
+
+	history={
+		owner = IST
+		add_core_of = IST
+
+	}
+
+	provinces={
+		3465 3466 3471 3485 3486 3489 3496 
+	}
+	manpower=437912
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

@@ -2,13 +2,15 @@
 state={
 	id=127
 	name="STATE_127"
-
-
-
-	provinces={
-		767 1428 1429 1430 1432 3250 19845 19847 19848 19855 19866 19868 19873 
+	history={
+		owner = EQS
+		add_core_of = EQS
 	}
-	manpower=100
+	provinces={
+		643 3667 3674 3685 3707 3710 3711 3732 
+	}
+	manpower=289541
+	state_category = rural
+
 	buildings_max_level_factor=1.000
-	state_category=rural
 }

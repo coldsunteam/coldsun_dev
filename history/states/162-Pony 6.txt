@@ -1,0 +1,21 @@
+
+state={
+	id=162
+	name="STATE_162"
+	resources={
+		rubber=20
+	}
+
+	history={
+		owner = THA
+		add_core_of = THA
+
+	}
+
+	provinces={
+		3512 3526 3532 4097 4099 4100 4102 4103 
+	}
+	manpower=800214
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

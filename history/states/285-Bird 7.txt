@@ -1,0 +1,14 @@
+state={
+	id=285
+	name="STATE_285"
+	provinces={
+		5168 5190 5191 5192 5200 5217 5226 5234 5244 5259 5288 
+	}
+	history={
+		owner = GRT
+		add_core_of = GRT
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

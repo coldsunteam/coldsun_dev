@@ -2,11 +2,23 @@
 state={
 	id=61
 	name="STATE_61"
+	resources={
+		oil=10
+	}
+
+	history={
+		owner = IST
+		add_core_of = IST
+		
+		victory_points = {
+			3937 20
+		}
+	}
 
 	provinces={
-		399 400 4862 4863 8252 8732 11441 19564 20311 
+		3435 3440 3443 3445 3453 3464 3469 3480 3488 3937 3944 
 	}
-	manpower=100
+	manpower=1754665
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

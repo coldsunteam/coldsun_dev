@@ -1,17 +1,19 @@
-
 state={
 	id=160
 	name="STATE_160"
-
+	resources={
+		chromium=32
+	}
+	
 	history={
-		owner = TZY
-		add_core_of = TZY
+		owner = EQS
+		add_core_of = EQS
 	}
-
 	provinces={
-		59 402 403 4624 4627 4628 4630 4632 4633 11866 21010 21014 21015 21016 
+		879 881 4029 4034 
 	}
-	manpower=101320
+	manpower=554666
+	state_category = small_island
+
 	buildings_max_level_factor=1.000
-	state_category=town
 }

@@ -2,10 +2,19 @@
 state={
 	id=110
 	name="STATE_110"
-	provinces={
-		1964 3959 3960 3961 4705 5870 5871 6914 8241 11588 11812 
+	resources={
+		steel=32
 	}
-	manpower=100
+	
+	history={
+		owner = EQS
+		add_core_of = EQS
+	}
+	provinces={
+		158 176 331 428 451 3761 3777 
+	}
+	manpower=200144
+	state_category = rural
+
 	buildings_max_level_factor=1.000
-	state_category=metropolis
 }

@@ -1,0 +1,18 @@
+state={
+	id=314
+	name="STATE_314"
+	resources={
+		tungsten=54
+	}
+	
+	provinces={
+		68 144 186 374 411 466 518 546 596 707 
+	}
+	history={
+		owner = THR
+		add_core_of = THR
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,18 @@
+state={
+	id=290
+	name="STATE_290"
+	resources={
+		aluminium=10
+	}
+	
+	provinces={
+		4847 4856 4871 4898 4905 4917 4940 
+	}
+	history={
+		owner = SOR
+		add_core_of = SOR
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

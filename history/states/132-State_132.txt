@@ -2,16 +2,23 @@
 state={
 	id=132
 	name="STATE_132"
-
+	resources={
+		steel=12
+	}
+	
 	history={
-		owner = BPC
-		add_core_of = BPC
+		owner = EQS
+		add_core_of = EQS
+		
+		victory_points = {
+			469 24
+		}
 	}
-
 	provinces={
-		4562 7170 7899 8879 10156 21214 21217 21224 21226 21227 
+		274 371 469 738 
 	}
-	manpower=655100
+	manpower=2501221
+	state_category = city
+
 	buildings_max_level_factor=1.000
-	state_category=city
 }

@@ -1,0 +1,18 @@
+state={
+	id=189
+	name="STATE_189"
+	provinces={
+		4362 4389 4406 4422 4423 4433 4446 4456 4488 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+		
+		victory_points = {
+			4423 24
+		}
+	}
+	manpower=1482644
+	state_category=city
+	buildings_max_level_factor=1.000
+}

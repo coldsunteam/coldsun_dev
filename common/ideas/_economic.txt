@@ -14,6 +14,7 @@ ideas = {
 				consumer_goods_factor = 0.50
 				production_speed_industrial_complex_factor = -0.5
 				production_speed_arms_factory_factor = -0.5
+				production_speed_dockyard_factor = -0.5
 				conversion_cost_civ_to_mil_factor = 0.5
 				conversion_cost_mil_to_civ_factor = 0.5
 				generate_wargoal_tension = 1.00
@@ -21,6 +22,8 @@ ideas = {
 				lend_lease_tension = 0.50
 				send_volunteers_tension = 0.20
 				guarantee_tension = 0.75
+				max_fuel_factor = -0.45
+				fuel_gain_factor = -0.6
 			}
 			
 			allowed_to_remove = {
@@ -46,17 +49,21 @@ ideas = {
 				consumer_goods_factor = 0.4
 				production_speed_industrial_complex_factor = -0.4
 				production_speed_arms_factory_factor = -0.4
+				production_speed_dockyard_factor = -0.4
 				conversion_cost_civ_to_mil_factor= 0.4
 				conversion_cost_mil_to_civ_factor = 0.4
 				generate_wargoal_tension = 1.00
 				join_faction_tension = 0.20
 				send_volunteers_tension = 0.20
 				guarantee_tension = 0.5
+				max_fuel_factor = -0.35
+				fuel_gain_factor = -0.5
 			}
 			allowed_to_remove = {
 				OR = {
 					has_war_support > 0.75
-					has_war = yes					
+					has_war = yes
+							
 				}
 			}
 			
@@ -75,6 +82,8 @@ ideas = {
 				production_speed_arms_factory_factor = -0.3
 				conversion_cost_civ_to_mil_factor= 0.3
 				conversion_cost_mil_to_civ_factor = 0.3
+				max_fuel_factor = -0.25
+				fuel_gain_factor = -0.4
 			}
 			
 			default = yes
@@ -85,9 +94,26 @@ ideas = {
 		low_economic_mobilisation = {
 			
 			available = {
-					has_war_support > 0.15
-					
-					NOT = { has_idea = EQS_magic_of_harmony }
+				has_war_support > 0.15
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+
+				}
+				if = {
+					limit = {
+						has_defensive_war = no
+					}
+					has_war_support > 0.3
+				}	
+			}
+			on_add = {
+				if = {
+					limit = {
+						has_defensive_war = no
+					}
+				}
 			}
 			
 			cost = 150
@@ -97,6 +123,7 @@ ideas = {
 				consumer_goods_factor = 0.3
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = -0.1
+				fuel_gain_factor = -0.25
 			}
 			
 			cancel_if_invalid = no
@@ -109,6 +136,15 @@ ideas = {
 					
 					is_major = yes
 				}
+				modifier = {
+					has_war_support > 0.25
+					factor = 0 #don't even look at it if you could be taking partial mob
+				}
+				modifier = {
+					has_war = no
+					date < 1937.6.1
+					factor = 0
+				}
    			}
 		}
 		
@@ -116,7 +152,20 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.25
-				NOT = { has_idea = EQS_magic_of_harmony }
+
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+					OR = {
+					}
+				}
+				if = {
+					limit = {
+						has_defensive_war = no
+					}
+					has_war_support > 0.5
+				}
 			}
 
 			cost = 150
@@ -127,10 +176,17 @@ ideas = {
 				production_speed_arms_factory_factor = 0.1
 				conversion_cost_civ_to_mil_factor= -0.1
 				conversion_cost_mil_to_civ_factor = -0.1
+				fuel_gain_factor = -0.1
 			}
 			
 			cancel_if_invalid = no
-
+			on_add = {
+				if = {
+					limit = {
+						has_defensive_war = no
+					}
+				}
+			}
 			ai_will_do = {
    				factor = 2
 
@@ -147,7 +203,6 @@ ideas = {
 			
 			available = {
 				has_war_support > 0.5
-				NOT = { has_idea = EQS_magic_of_harmony }
 				OR = {
 					has_government = fascism
 					has_government = communism
@@ -161,7 +216,7 @@ ideas = {
 							}
 						}
 					}
-				}	
+				}
 			}
 		
 			cost = 150
@@ -175,7 +230,13 @@ ideas = {
 			}
 			
 			cancel_if_invalid = no
-			
+			on_add = {
+				if = {
+					limit = {
+						has_defensive_war = no
+					}
+				}
+			}
 			ai_will_do = {
    				factor = 5
 
@@ -193,28 +254,45 @@ ideas = {
 			available = {
 				has_war = yes
 				has_war_support > 0.8
-				NOT = { has_idea = EQS_magic_of_harmony }
 				any_enemy_country = {
 					ic_ratio = { 
 						tag = ROOT 
 						ratio > 0.5
 					}
 				}
-			}
 
+				if = {
+					limit = {
+						has_dlc = "Death or Dishonor"
+					}
+				}
+				if = {
+					limit = {
+						has_defensive_war = no
+					}
+					has_war_support > 0.9
+				}
+			}
+			on_add = {
+				if = {
+					limit = {
+						has_defensive_war = no
+					}
+				}
+			}
 			ai_will_do = {
    				factor = 1
 
 				modifier = {
 					factor = 25
 					#Prio this if nation has a lot of manpower compared to MIC
-					manpower_per_military_factory >  10000
+					manpower_per_military_factory > 15000
 				}
 
 				modifier = {
 					#Block  unless nation has a lot of manpower
 					factor = 0
-					manpower_per_military_factory <  3000
+					manpower_per_military_factory <  7000
 				}
 
 				
@@ -225,7 +303,30 @@ ideas = {
 						has_idea = volunteer_only
 						has_idea = limited_conscription
 					}
-				}				
+				}
+
+				# Germany needs to be careful
+				modifier = {
+					factor = 0
+
+					NOT = { has_tech = volkssturm }
+					has_war = yes
+					date < 1944.01.01
+				}
+				modifier = {
+					factor = 0
+
+					has_war = yes
+					OR = {
+						has_manpower < 2000000
+						NOT = {
+							OR = {
+								has_idea = all_adults_serve
+								has_idea = service_by_requirement
+							}
+						}
+					}									
+				}
    			}
 			
 			cost = 150
@@ -247,8 +348,7 @@ ideas = {
 		law = yes
 
 		free_trade = {
-			
-			
+						
 			cost = 150
 			removal_cost = -1
 			
@@ -257,16 +357,43 @@ ideas = {
 				industrial_capacity_factory = 0.15
 				industrial_capacity_dockyard = 0.15
 				production_speed_buildings_factor = 0.15
-				research_time_factor = -0.10
+				research_speed_factor = 0.10
 			}
 			
 			cancel_if_invalid = no
+
+			ai_will_do = {
+   				factor = 1
+
+   				modifier = {
+					factor = 300
+
+					is_in_faction = no
+				}
+
+				modifier = {
+					factor = 300
+
+					date > 1943.1.1 # at this point we can probably cash in on rubber lack in the world
+				}
+
+				# Oil for hitlers oil throne!
+				modifier = {
+					factor = 600
+				}
+   			}
 		}
 		
 		export_focus = {
 			
 			available = {
-				NOT = { has_idea = EQS_magic_of_harmony }
+
+				if = {
+					limit = {
+
+						has_dlc = "Waking the Tiger"
+					}
+				}
 			}
 			
 			
@@ -278,7 +405,7 @@ ideas = {
 				industrial_capacity_factory = 0.1
 				industrial_capacity_dockyard = 0.1
 				production_speed_buildings_factor = 0.1
-				research_time_factor = -0.05
+				research_speed_factor = 0.05
 			}
 			
 			default = yes
@@ -288,7 +415,6 @@ ideas = {
 			ai_will_do = {
    				factor = 1
 
-				# portugal and sweden are special tungsten snowflakes
 				modifier = {
 					factor = 0
 					
@@ -303,7 +429,6 @@ ideas = {
 			
 			
 			available = {
-				NOT = { has_idea = EQS_magic_of_harmony }
 				OR = {
 					AND = {
 						has_government = democratic
@@ -324,6 +449,13 @@ ideas = {
 						}
 					}
 				}
+
+
+				if = {
+					limit = {
+						has_dlc = "Waking the Tiger"
+					}
+				}
 			}
 		
 			cost = 150
@@ -334,7 +466,7 @@ ideas = {
 				industrial_capacity_factory = 0.05
 				industrial_capacity_dockyard = 0.05
 				production_speed_buildings_factor = 0.05
-				research_time_factor = -0.01
+				research_speed_factor = 0.01
 			}
 			
 			cancel_if_invalid = no
@@ -364,7 +496,6 @@ ideas = {
 			
 			
 			available = {
-				NOT = { has_idea = EQS_magic_of_harmony }
 				has_war = yes
 				OR = { 
 					has_government = fascism
@@ -373,6 +504,12 @@ ideas = {
 				OR = {
 					has_idea = war_economy
 					has_idea = tot_economic_mobilisation
+				}
+
+				if = {
+					limit = {
+						has_dlc = "Waking the Tiger"
+					}
 				}
 			}
 			

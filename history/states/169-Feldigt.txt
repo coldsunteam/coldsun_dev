@@ -1,0 +1,27 @@
+
+state={
+	id=169
+	name="STATE_169"
+
+	history={
+		owner = HLG
+		add_core_of = HLG
+		
+		victory_points = {
+			5019 40
+		}
+		
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			air_base = 1
+		}
+	}
+
+	provinces={
+		3414 5011 5019 5048 
+	}
+	manpower=6504544
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

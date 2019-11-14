@@ -1,0 +1,14 @@
+state={
+	id=391
+	name="STATE_391"
+	provinces={
+		5620 5627 5628 5636 5645 5650 5652 5661 5666 
+	}
+	history={
+		owner = DRG
+		add_core_of = DRG
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

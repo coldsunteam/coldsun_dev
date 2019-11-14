@@ -1,0 +1,14 @@
+state={
+	id=380
+	name="STATE_380"
+	provinces={
+		5492 5493 5494 5496 5498 5506 5509 5516 5539 5843 5846 
+	}
+	history={
+		owner = DRG
+		add_core_of = DRG
+	}
+	manpower=10
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

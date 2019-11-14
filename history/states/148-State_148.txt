@@ -3,14 +3,14 @@ state={
 	id=148
 	name="STATE_148"
 	history={
-		owner = GPC
-		add_core_of = GPC
+		owner = EQS
+		add_core_of = EQS
 	}
-	
 	provinces={
-		621 3572 4088 4091 12006 13386 13623 13747 13857 13932 
+		3631 3635 3637 3638 3649 3660 3663 3670 3719 
 	}
-	manpower=100
+	manpower=201145
+	state_category = rural
+
 	buildings_max_level_factor=1.000
-	state_category=rural
 }

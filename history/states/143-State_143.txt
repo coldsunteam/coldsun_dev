@@ -2,16 +2,21 @@
 state={
 	id=143
 	name="STATE_143"
+	resources={
+		aluminium=8
+		steel=46
+	}
 
 	history={
-		owner = TZY
-		add_core_of = TZY
+		owner = EQS
+		add_core_of = EQS
+
 	}
-	
+
 	provinces={
-		1559 9674 19543 19544 20495 20499 21071 21075 21078 
+		172 303 352 369 485 619 621 633 667 874 877 3650 3683 
 	}
-	manpower=5564000
+	manpower=1224300
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=large_town
 }

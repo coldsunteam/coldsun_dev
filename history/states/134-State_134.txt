@@ -2,10 +2,20 @@
 state={
 	id=134
 	name="STATE_134"
-	provinces={
-		1035 1036 1037 1038 1039 1040 1041 1042 1043 1044 1045 1046 1047 1277 1278 1279 1280 1281 3949 4820 5362 5363 5364 5365 5366 5367 5637 5638 5639 5640 5641 5642 6216 6217 6218 6616 6617 6625 6626 8934 9554 10840 11710 
+	resources={
+		steel=38
 	}
-	manpower=100
+
+	history={
+		owner = PEO
+		add_core_of = PEO
+
+	}
+
+	provinces={
+		3562 3566 3567 3571 3578 3580 4109 4111 
+	}
+	manpower=200124
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

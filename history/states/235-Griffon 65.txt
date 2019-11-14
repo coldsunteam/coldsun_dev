@@ -1,0 +1,22 @@
+state={
+	id=235
+	name="STATE_235"
+	resources={
+		steel=13
+	}
+	
+	provinces={
+		5359 5366 5378 5379 5381 5386 5399 5406 5410 5416 5417 5422 5428 5431 5444 5445 5452 5877 
+	}
+	history={
+		owner = HLG
+		add_core_of = HLG
+		
+		victory_points = {
+			5379 25
+		}
+	}
+	manpower=1588477
+	state_category=large_town
+	buildings_max_level_factor=1.000
+}

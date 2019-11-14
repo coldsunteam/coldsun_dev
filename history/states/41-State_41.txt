@@ -1,13 +1,22 @@
+
 state={
 	id=41
 	name="STATE_41"
-	provinces={
-		1977 1979 1980 1981 1982 8823 8824 10963 11555 
+	resources={
+		tungsten=20
+		steel=65
 	}
-	
-	
-	
-	manpower=100
-	state_category="metropolis"
+
+	history={
+		owner = FEL
+		add_core_of = FEL
+
+	}
+
+	provinces={
+		229 511 574 770 774 3627 
+	}
+	manpower=1718659
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }

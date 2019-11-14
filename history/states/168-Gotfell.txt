@@ -1,0 +1,21 @@
+
+state={
+	id=168
+	name="STATE_168"
+
+	history={
+		owner = HLG
+		add_core_of = HLG
+		
+		victory_points = {
+			5074 38
+		}
+	}
+
+	provinces={
+		3413 5058 5074 5082 5105 
+	}
+	manpower=5604534
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}
