@@ -1,0 +1,35 @@
+spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_defcon_bg"
+		size= { x=550 y=430 }
+		textureFile = "gfx//interface//ttstcc_gui//Defcon//defcon_bg.dds"
+		borderSize = { x=225 y=215 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+		alwaystransparent = no
+	}
+	SpriteType = {
+		name = "GFX_defcon_open"
+		texturefile = "gfx/interface/ttstcc_gui/Defcon/defcon_open_window.dds"
+	}
+	SpriteType = {
+		name = "GFX_defcon_1"
+		texturefile = "gfx/interface/ttstcc_gui/Defcon/defcon_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_defcon_2"
+		texturefile = "gfx/interface/ttstcc_gui/Defcon/defcon_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_defcon_3"
+		texturefile = "gfx/interface/ttstcc_gui/Defcon/defcon_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_defcon_4"
+		texturefile = "gfx/interface/ttstcc_gui/Defcon/defcon_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_defcon_5"
+		texturefile = "gfx/interface/ttstcc_gui/Defcon/defcon_5.dds"
+	}
+}

@@ -1,0 +1,10 @@
+EQS_noble_council_dc = {
+	USA_small_lobby_effort = {
+		icon = generic_political_discourse
+		available = {
+			
+			always = yes
+			
+		}
+		}
+		}

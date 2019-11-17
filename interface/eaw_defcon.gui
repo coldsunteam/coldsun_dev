@@ -1,0 +1,130 @@
+guiTypes = {
+	containerWindowType = {
+		name = "defcon_open_button"
+		position = { x=-145 y=-30 }
+		Orientation = UPPER_RIGHT
+
+		buttonType = {
+			name = "dob"
+			quadTextureSprite = "GFX_defcon_open"
+			pdx_tooltip = "DEFCON_OPEN_TT"
+			position = { x = 50 y = 50 }
+
+		}
+	}
+	containerWindowType = {
+		name = "defcon_window"
+		position = { x=-4 y=-1 }
+		size = { width = 550 height = 430}	
+		moveable = yes
+
+
+		Background = {
+			name = "tts_defcon_bg"
+			quadTextureSprite = "GFX_defcon_bg"
+		}
+
+		instantTextboxType = {
+			name = "header_desc"
+			position = { x = -267 y = 13 }
+			font = "hoi_24header"
+			text = "DEFCON_HEADER"
+			Orientation = center_up
+			format = center
+			maxWidth = 530
+			maxHeight = 30
+		}
+		
+		instantTextboxType = {
+			name = "defcon_progress_desc"
+			position = { x = -267 y = 13 }
+			font = "hoi_24header"
+			text = "DEFCON_HEADER"
+			Orientation = center_up
+			format = center
+			maxWidth = 530
+			maxHeight = 30
+		}
+		instantTextboxType = {
+			name = "world_threat_level"
+			position = { x = -267 y = 80 }
+			font = "hoi_24header"
+			text = "world_threat_level"
+			Orientation = center_up
+			format = center
+			maxWidth = 530
+			maxHeight = 30
+		}
+		instantTextboxType = {
+			name = "defcon_desc"
+			position = { x = -450 y = 300 }
+			font = "hoi_24header"
+			text = "defcon_desc"
+			Orientation = center_up
+			format = center
+			maxWidth = 530
+			maxHeight = 30
+		}
+instantTextboxType = {
+			name = "defcon_action_desc"
+			position = { x = -260 y = 150 }
+			font = "hoi_24header"
+			text = "defcon_action_desc"
+			Orientation = center_up
+			format = center
+			maxWidth = 530
+			maxHeight = 30
+		}
+		instantTextboxType = {
+			name = "tension_progress_desc"
+			position = { x = -80 y = 75 }
+			font = "hoi_36header"
+			text = "THREAT_PROGRESS"
+			Orientation = center_up
+			format = center
+			maxWidth = 530
+			maxHeight = 30
+		}
+		iconType = {
+			name ="defcon_1"
+			spriteType = "GFX_defcon_1"
+			position = { x= 0 y = 0 }
+			
+		}
+	
+	
+		iconType = {
+			name ="defcon_2"
+			spriteType = "GFX_defcon_2"
+			position = { x= 0 y = 0 }
+			
+		}
+	
+		
+		
+		iconType = {
+			name ="defcon_3"
+			spriteType = "GFX_defcon_3"
+			position = { x= 0 y = 0 }
+			
+		}
+	
+		
+		iconType = {
+			name ="defcon_4"
+			spriteType = "GFX_defcon_4"
+			position = { x= 0 y = 0 }
+			
+		}
+	
+		iconType = {
+			name ="defcon_5"
+			spriteType = "GFX_defcon_5"
+			position = { x= 25 y = 80 }
+			
+		}
+	
+	}
+	
+	
+}

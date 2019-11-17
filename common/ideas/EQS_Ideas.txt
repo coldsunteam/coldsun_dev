@@ -1,0 +1,59 @@
+ideas = {
+
+	country = {
+		EQS_storm_war_fatigue = {
+
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			available = {
+				is_subject = no
+			}
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.40
+				conscription_factor = -0.5
+			}
+		}
+		EQS_noble_council = {
+
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			available = {
+				is_subject = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+		EQS_batpony_segregation = {
+
+
+			allowed = {
+				always = no
+			}
+			allowed_civil_war = {
+				has_government = democratic
+			}
+			available = {
+				is_subject = no
+			}
+			removal_cost = -1
+
+			modifier = {
+			}
+		}
+	}
+}

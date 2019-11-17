@@ -1,0 +1,150 @@
+scripted_gui = {
+defcon_button = {
+		context_type = player_context
+		parent_window_token = top_bar
+		window_name = "defcon_open_button"
+
+		visible = {
+			is_ai = no
+		}
+
+		effects = {
+			dob_click = {
+				if = {
+					limit = { NOT = { has_variable = defcon_tab_on } }
+					set_variable = { defcon_tab_on = 1 }
+				}
+				else = {
+					clear_variable = defcon_tab_on
+				}
+			}
+		}
+	}
+tts_defcon_window = {
+		context_type = player_context
+
+		window_name = "defcon_window"
+
+		visible = {
+			is_ai = no
+			has_variable = defcon_tab_on
+		}
+
+		triggers = {
+			
+			defcon_1_visible = {
+				check_variable = { global.defcon_level = 1 }
+			}
+
+			defcon_2_visible = {
+				check_variable = { global.defcon_level = 2 }
+			}
+
+			defcon_3_visible = {
+				check_variable = { global.defcon_level = 3 }
+			}
+
+			defcon_4_visible = {
+				check_variable = { global.defcon_level = 4 }
+			}
+
+			defcon_5_visible = {
+				check_variable = { global.defcon_level = 5 }
+			}
+		}
+
+		effects = {
+			
+		}
+	}
+tts_defcon_1 = {
+		context_type = player_context
+
+		window_name = "defcon_1"
+		parent_window_name = "defcon_window"
+		visible = {
+			is_ai = no
+			check_variable = { global.defcon_level = 1 }
+		}
+
+		triggers = {
+			
+		}
+
+		effects = {
+			
+		}
+	}
+tts_defcon_2 = {
+		context_type = player_context
+
+		window_name = "defcon_2"
+parent_window_name = "defcon_window"
+		visible = {
+			is_ai = no
+			check_variable = { global.defcon_level = 2 }
+		}
+
+		triggers = {
+			
+		}
+
+		effects = {
+			
+		}
+	}
+tts_defcon_3 = {
+		context_type = player_context
+
+		window_name = "defcon_3"
+parent_window_name = "defcon_window"
+		visible = {
+			is_ai = no
+			check_variable = { global.defcon_level = 3 }
+		}
+
+		triggers = {
+			
+		}
+
+		effects = {
+			
+		}
+	}
+tts_defcon_4 = {
+		context_type = player_context
+
+		window_name = "defcon_4"
+parent_window_name = "defcon_window"
+		visible = {
+			is_ai = no
+			check_variable = { global.defcon_level = 4 }
+		}
+
+		triggers = {
+			
+		}
+
+		effects = {
+			
+		}
+	}
+tts_defcon_5 = {
+		context_type = player_context
+
+		window_name = "defcon_5"
+parent_window_name = "defcon_window"
+		visible = {
+			is_ai = no
+			check_variable = { global.defcon_level = 5 }
+		}
+
+		triggers = {
+			
+		}
+
+		effects = {
+			
+		}
+	}
+}

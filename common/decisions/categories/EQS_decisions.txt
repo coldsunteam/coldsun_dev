@@ -1,0 +1,15 @@
+EQS_noble_council_dc = {
+	icon = EQS_NC_ICON
+	visible = {
+		original_tag = EQS
+	}
+
+	allowed = {
+		original_tag = EQS
+		has_idea = EQS_noble_council
+	}
+
+	scripted_gui = eqs_nc_decision_ui
+
+	priority = 85
+}

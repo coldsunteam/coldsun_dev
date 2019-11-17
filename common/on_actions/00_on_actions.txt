@@ -1,0 +1,16 @@
+on_actions = {
+
+
+	on_startup = {
+		effect = {
+			set_variable = { global.defcon_level = 5 }
+			set_variable = { dc_progress = 0 }
+		}
+	}
+	on_daily = {
+		effect = {
+			set_variable = {dc_progress = global.threat} 
+			multiply_variable = {dc_progress = 100}
+			}
+		}
+}
