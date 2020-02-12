@@ -2,17 +2,13 @@
 state={
 	id=54
 	name="STATE_54"
-
-	history={
-		owner = ERC
-		add_core_of = ERC
-
-	}
-
 	provinces={
-		3505 3506 3521 3529 3536 3540 3542 3544 3554 3556 
+		80 81 82 4279 4280 4281 4282 4284 4458 4459 10953 11415 
 	}
-	manpower=1254652
+	
+	
+	
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=city
+	state_category=metropolis
 }

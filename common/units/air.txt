@@ -27,7 +27,7 @@ sub_units = {
 	}
 
 	jet_fighter = {
-		sprite = jet_plane
+		sprite = light_plane
 		priority = 1
 		active = yes
 		type = { fighter }

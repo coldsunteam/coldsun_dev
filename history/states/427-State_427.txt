@@ -1,0 +1,25 @@
+
+state={
+	id=427
+	name="STATE_427"
+	
+	resources={
+		rubber=20.000
+		oil=10
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		919 920 921 922 923 1123 3921 3922 6894 6895 7483 9839 10737 11398 11399 20329 
+	}
+	manpower=1014000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

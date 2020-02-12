@@ -1,0 +1,25 @@
+
+state={
+	id=267
+	name="STATE_267"
+
+	history={
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			dockyard = 2
+		}
+		victory_points = {
+			4661 20
+		}
+	}
+
+	provinces={
+		2484 2485 4142 4328 4661 5144 5145 5146 5147 6861 7109 9928 10678 11113 11420 
+	}
+	manpower=3745963
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

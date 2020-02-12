@@ -1,0 +1,28 @@
+
+state={
+	id=359
+	name="STATE_359"
+	resources={
+		tungsten=15.000
+		coal=25.000
+	}
+
+	history={
+		owner = GPD
+		add_core_of = GPD
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			11854 16 
+		}
+	}
+
+	provinces={
+		892 1484 1992 2388 3938 8126 8127 10079 11053 11064 11097 11159 11171 11203 11212 11854 11907 11919 
+	}
+	manpower=1342100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

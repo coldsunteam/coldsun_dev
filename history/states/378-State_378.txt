@@ -1,0 +1,25 @@
+
+state={
+	id=378
+	name="STATE_378"
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+			20341 14 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		549 776 8553 8554 11046 20341 20344 
+	}
+	manpower=3542000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

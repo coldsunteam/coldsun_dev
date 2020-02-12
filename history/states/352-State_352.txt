@@ -1,0 +1,24 @@
+
+state={
+	id=352
+	name="STATE_352"
+	resources={
+		tungsten=11
+		steel=12
+	}
+
+	history={
+		owner = CRY
+		add_core_of = CRY
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		6483 6611 6613 10466 11408 19584 19585 
+	}
+	manpower=4578221
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

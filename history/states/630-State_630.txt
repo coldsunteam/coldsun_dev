@@ -1,0 +1,13 @@
+
+state={
+	id=630
+	name="STATE_630"
+	provinces={
+		3289 7743 11502 
+	}
+	manpower=100
+
+	
+    state_category=small_island
+	buildings_max_level_factor=1.000
+}

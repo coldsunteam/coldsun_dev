@@ -1,0 +1,29 @@
+
+state={
+	id=949
+	name="STATE_949"
+	resources={
+		grain=8.000
+		steel=14.000
+	}
+
+	history={
+		owner = GPB
+		add_core_of = GPB
+		buildings = {
+			infrastructure = 2
+
+		}
+		
+		victory_points = {
+			175 21 
+		}
+	}
+
+	provinces={
+		175 775 1121 9212 10649 10666 10775 10801 10881 10897 11867 19001 19335 21235 
+	}
+	manpower=2874000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

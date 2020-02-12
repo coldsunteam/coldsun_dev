@@ -1,0 +1,28 @@
+
+state={
+	id=713
+	name="STATE_713"
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		buildings = {
+			infrastructure = 10
+			air_base = 10
+			arms_factory = 2
+			industrial_complex = 4
+
+		}
+		victory_points = {
+			20363 50 
+		}
+
+	}
+
+	provinces={
+		20363 
+	}
+	manpower=4284662
+	buildings_max_level_factor=2.000
+	state_category=large_city
+}

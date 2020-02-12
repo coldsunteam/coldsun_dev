@@ -1,0 +1,25 @@
+
+state={
+	id=429
+	name="STATE_429"
+	resources={
+		grain=10.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1125 1126 1127 2741 3251 6131 6401 6402 7961 7962 8306 8451 10077 11437 20337 
+	}
+	manpower=1874000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

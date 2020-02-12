@@ -1,22 +1,13 @@
-
 state={
 	id=113
 	name="STATE_113"
-	resources={
-		tungsten=6
-	}
-
-	history={
-		owner = EQS
-		add_core_of = EQS
-
-	}
-
 	provinces={
-		218 4042 4045 4047 4049 4050 4052 4055 4058 4063 4065 4067 4069 4070 
+		361 362 1617 1618 1619 2965 2966 5953 6106 6107 6247 6307 6308 9652 9685 9991 11056 11614 
 	}
-	manpower=12000
-	state_category = wasteland
-
+	
+	
+	
+	manpower=100
+	state_category=metropolis
 	buildings_max_level_factor=1.000
 }

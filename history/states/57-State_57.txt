@@ -2,21 +2,13 @@
 state={
 	id=57
 	name="STATE_57"
-	resources={
-		aluminium=8
-	}
 
-	history={
-		owner = EQS
-		add_core_of = EQS
-
-	}
+	
 
 	provinces={
-		747 4060 4061 4066 4068 
+		1833 2333 2334 4560 8511 11659 11950 11951 11952 19775 
 	}
-	manpower=2100
-	state_category = wasteland
-
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,0 +1,25 @@
+
+state={
+	id=405
+	name="STATE_405"
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+			3610 8 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1407 3607 3610 7650 7651 7896 8847 11397 
+	}
+	manpower=875000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

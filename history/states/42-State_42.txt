@@ -2,20 +2,13 @@
 state={
 	id=42
 	name="STATE_42"
-	resources={
-		aluminium=29
-	}
-
-	history={
-		owner = PRA
-		add_core_of = PRA
-
-	}
-
 	provinces={
-		663 3971 3972 3974 3979 3980 3988 3991 3996 4002 
+		5704 5705 7021 7022 7023 7024 7025 7026 10571 11924 
 	}
-	manpower=200111
+	
+	
+	
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 }

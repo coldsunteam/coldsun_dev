@@ -2,22 +2,12 @@
 state={
 	id=73
 	name="STATE_73"
-	resources={
-		aluminium=92
-		steel=90
-		chromium=72
-	}
-
-	history={
-		owner = DDT
-		add_core_of = DDT
-
-	}
 
 	provinces={
-		579 673 3919 3920 3921 3922 3923 3924 3925 3926 3927 3929 3931 3934 3938 3941 
+		6598 8865 
 	}
-	manpower=100121
+	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=wasteland
+	impassable = yes
 }

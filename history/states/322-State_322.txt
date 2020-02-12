@@ -1,0 +1,22 @@
+
+state={
+	id=322
+	name="STATE_322"
+	resources={
+		gems=10.000
+	}
+
+	history={
+		owner = YAK
+		add_core_of = YAK
+
+	}
+
+	provinces={
+		2543 2544 2545 4866 4867 6146 7498 7500 7501 8620 8725 10410 10435 10664 19530 
+	}
+	manpower=484511
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	impassable = yes
+}

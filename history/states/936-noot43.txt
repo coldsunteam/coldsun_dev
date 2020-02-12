@@ -1,0 +1,11 @@
+state={
+	id=936
+	name="STATE_936"
+	
+	provinces={
+		1138 5766 6341 8801 20159 20173 20180 20201 20202 20218 20315 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category = large_town
+}

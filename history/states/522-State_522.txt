@@ -1,0 +1,14 @@
+
+state={
+	id=522
+	name="STATE_522"
+
+	
+
+	provinces={
+		933 934 935 936 937 940 941 2693 2694 2697 2698 3010 3011 3013 3889 3890 5574 9129 11562 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

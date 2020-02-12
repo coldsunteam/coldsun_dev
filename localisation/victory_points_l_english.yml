@@ -1,51 +1,191 @@
 ﻿l_english:
-
- ### Equestria
  VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
- VICTORY_POINTS_751:0 "Canterlot"
- VICTORY_POINTS_601:0 "Baltimare"
- VICTORY_POINTS_2933:0 "Foaledo"
- VICTORY_POINTS_3906:0 "Manechester"
- VICTORY_POINTS_110:0 "Coltlumbus"
- VICTORY_POINTS_3764:0 "Neighopolis"
- VICTORY_POINTS_3698:0 "Neighton"
- VICTORY_POINTS_307:0 "Vanhoover"
- VICTORY_POINTS_3618:0 "Applewood"
- VICTORY_POINTS_3643:0 "Sealand"
- VICTORY_POINTS_3848:0 "Los Pegasus"
- VICTORY_POINTS_3852:0 "Tall Tales"
- VICTORY_POINTS_469:0 "Coltshire"
- VICTORY_POINTS_628:0 "Ponyville"
  
- ### Prance
- VICTORY_POINTS_138:0 "Hayris"
- VICTORY_POINTS_346:0 "Mareseilles"
- VICTORY_POINTS_3987:0 "Neighce"
- 
- ### Fetland
- VICTORY_POINTS_168:0 "Albuck"
- 
- ### Felland
- VICTORY_POINTS_3585:0 "Felland"
- VICTORY_POINTS_3617:0 "Rivernere"
- 
- ### Ercenbrand
- VICTORY_POINTS_3967:0 "Hoofenburg"
- VICTORY_POINTS_884:0 "Denmare"
- 
- ### Istrimark
- VICTORY_POINTS_3937:0 "Maresaw"
- 
- ### Peota
- VICTORY_POINTS_3569:0 "Tesony"
- 
- ### Thalassa
- VICTORY_POINTS_4108:0 "Sparmon"
- 
- ### Vrachodis
- VICTORY_POINTS_461:0 "Vrechod"
- 
- ### Isle Collective
- VICTORY_POINTS_3989:0 "Ilopolis"
- 
+ ### Equestria
+  VICTORY_POINTS_20363:0 "Canterlot"
+  VICTORY_POINTS_9942:0 "Ponyville"
+  VICTORY_POINTS_3921:0 "Applewood"
+  VICTORY_POINTS_6040:0 "Manehatten"
+  VICTORY_POINTS_7118:0 "Rio de Janeighro"
+  VICTORY_POINTS_7849:0 "Fillydelphia"
+  VICTORY_POINTS_19870:0 "Trottingham"
+  VICTORY_POINTS_678:0 "Inverneighs"
+  VICTORY_POINTS_20379:0 "Vanhoover"
+  VICTORY_POINTS_6045:0 "Hoofington"
+  VICTORY_POINTS_20375:0 "Baltimare"
+  VICTORY_POINTS_5956:0 "Los Pegasos"
+  VICTORY_POINTS_762:0 "Justine"
+  VICTORY_POINTS_7220:0 "Maretropolis"
+  VICTORY_POINTS_3204:0 "Foaledo"
+  VICTORY_POINTS_19566:0 "Sunnydale"
+  VICTORY_POINTS_8444:0 "Castlerock"
+  VICTORY_POINTS_1446:0 "Copenhoofgen"
+  VICTORY_POINTS_7237:0 "Cottmare"
+  VICTORY_POINTS_9385:0 "Armeline"
+  VICTORY_POINTS_11181:0 "Melody City"
+  VICTORY_POINTS_3318:0 "Sunrift"
+  VICTORY_POINTS_5346:0 "Ponpiare"
+  VICTORY_POINTS_2574:0 "Mariflower"
+  VICTORY_POINTS_4316:0 "Glowmist"
+  VICTORY_POINTS_4314:0 "Isemist"
+  VICTORY_POINTS_20341:0 "Transisco"
+  VICTORY_POINTS_3021:0 "Themione"
+  VICTORY_POINTS_2515:0 "Maretriere"
+  VICTORY_POINTS_8649:0 "Marenaco"
+  VICTORY_POINTS_3883:0 "Lyse"
+  VICTORY_POINTS_20454:0 "Rightmare"
+  VICTORY_POINTS_112:0 "Tailheran"
+  VICTORY_POINTS_3187:0 "Galvary"
+  
+  ### Frontier
+  VICTORY_POINTS_9498:0 "Appleloosa"
+  VICTORY_POINTS_1066:0 "Detrot"
+  VICTORY_POINTS_9851:0 "Applewood"
+  
+  ### Crystal Empoire
+  VICTORY_POINTS_1445:0 "Queighbek"
+  VICTORY_POINTS_760:0 "Trotonto"
+  VICTORY_POINTS_20402:0 "Crystal City"
+  
+  ### Prance
+  VICTORY_POINTS_9443:0 "Hayris"
+  VICTORY_POINTS_3265:0 "Trolouise"
+  VICTORY_POINTS_10175:0 "Neyghon"
+  VICTORY_POINTS_5149:0 "Fancee"
+  VICTORY_POINTS_20408:0 "Maneille"
+  VICTORY_POINTS_4625:0 "Strotsbourg"
+  VICTORY_POINTS_19590:0 "Hondeaux"
+  VICTORY_POINTS_42:0 "Fleury"
+  
+  ### BIG
+  VICTORY_POINTS_10531:0 "Lercetar"
+  VICTORY_POINTS_2495:0 "Mârenăven"
+  VICTORY_POINTS_3452:0 "Sangetäu"
+  
+  ### YAK
+  VICTORY_POINTS_7858:0 "Smashania"
+  VICTORY_POINTS_20384:0 "Fortetudies"
+  VICTORY_POINTS_1871:0 "Violenmountania"
+  
+ ### Changelings
+  VICTORY_POINTS_692:0 "Thrixlan"
+  VICTORY_POINTS_5274:0 "Pharynz"
+  VICTORY_POINTS_10003:0 "Cordulix"
+  VICTORY_POINTS_20455:0 "Nopterax"
+  VICTORY_POINTS_2397:0 "Chryslan"
+  VICTORY_POINTS_11803:0 "Senieax"
+  VICTORY_POINTS_6820:0 "Sidanaa"
 
+ ###Ezpassion
+  VICTORY_POINTS_10057:0 "Starynople"
+  VICTORY_POINTS_10118:0 "Trîlêlirçonêktir Superioris"
+  VICTORY_POINTS_4370:0 "Trîlêlirçonêktir Inferioris"
+  VICTORY_POINTS_8484:0 "Kai Pa"
+  VICTORY_POINTS_10899:0 "Maiorinople"
+  VICTORY_POINTS_1309:0 "Thalesia"
+  VICTORY_POINTS_1319:0 "Boênçia"
+  VICTORY_POINTS_10009:0 "Sunkénople"
+  
+ ### Cervidia
+  VICTORY_POINTS_2199:0 "Etelähamn"
+  VICTORY_POINTS_10015:0 "Själpenkki"
+  VICTORY_POINTS_9038:0 "Rentakharju"
+  VICTORY_POINTS_897:0 "Kyligahti"
+  VICTORY_POINTS_10216:0 "Joukolanda"
+  VICTORY_POINTS_8319:0 "Fjaramaa"
+  ## Republic of Cervidia
+  VICTORY_POINTS_10085:0 "Jordääri"
+  VICTORY_POINTS_8063:0 "Västrakaukki"
+  VICTORY_POINTS_19618:0 "Jättekante"
+  VICTORY_POINTS_6221:0 "Strömpämaa"
+  VICTORY_POINTS_4500:0 "Elkunta"
+  ## Keskusia
+  VICTORY_POINTS_8498:0 "Jarvihamn"
+  VICTORY_POINTS_11903:0 "Peurojahafen"
+  VICTORY_POINTS_3136:0 "Sujuvad"
+  ## Jungle Clans
+  VICTORY_POINTS_5130:0 "Hirvidettu"
+  VICTORY_POINTS_2958:0 "Rabamaa"
+  VICTORY_POINTS_10408:0 "Placeholder2"
+  VICTORY_POINTS_11466:0 "Rannidrapp"
+  ## Therakr's Hoard
+  VICTORY_POINTS_9059:0 "Placeholder"
+  VICTORY_POINTS_3906:0 "Placeholder1"
+  VICTORY_POINTS_7451:0 "Placeholder2"
+  VICTORY_POINTS_6509:0 "Placeholder3"
+  VICTORY_POINTS_9143:0 "Placeholder4"
+  VICTORY_POINTS_8840:0 "Placeholder5"
+  ## Canida
+  VICTORY_POINTS_2541:0 "Placeholder"
+  VICTORY_POINTS_2416:0 "Placeholder1"
+  VICTORY_POINTS_506:0 "Placeholder2"
+  VICTORY_POINTS_2446:0 "Placeholder3"
+  VICTORY_POINTS_1878:0 "Placeholder4"
+  ## Arothenia
+  VICTORY_POINTS_4537:0 "Placeholder"
+  VICTORY_POINTS_19679:0 "Placeholder1"
+  VICTORY_POINTS_4230:0 "Placeholder2"
+  ## Kavoliki
+  VICTORY_POINTS_4110:0 "Placeholder"
+  VICTORY_POINTS_9969:0 "Placeholder1"
+  ## Minotauria
+  VICTORY_POINTS_9969:0 "Placeholder"
+  VICTORY_POINTS_1758:0 "Placeholder1"
+  VICTORY_POINTS_10489:0 "Placeholder2"
+  VICTORY_POINTS_2746:0 "Placeholder3"
+  VICTORY_POINTS_9002:0 "Placeholder4"
+  VICTORY_POINTS_3500:0 "Placeholder5"
+  ## Merchant Republic
+  VICTORY_POINTS_8048:0 "Placeholder"
+  VICTORY_POINTS_6488:0 "Placeholder1"
+  VICTORY_POINTS_9518:0 "Placeholder2"
+  ## Commune of Cervidas
+  VICTORY_POINTS_8531:0 "Placeholder"
+  VICTORY_POINTS_9330:0 "Placeholder1"
+  VICTORY_POINTS_5694:0 "Placeholder2"
+  
+ ### Pinguinlands
+  ## Vulpes
+  VICTORY_POINTS_734:0 "Placeholder"
+  VICTORY_POINTS_251:0 "Placeholder1"
+  VICTORY_POINTS_5254:0 "Placeholder2"
+  VICTORY_POINTS_7532:0 "Placeholder3"
+  ## Ursa
+  VICTORY_POINTS_8406:0 "Placeholder"
+  VICTORY_POINTS_9499:0 "Placeholder1"
+  VICTORY_POINTS_19803:0 "Placeholder2"
+  VICTORY_POINTS_9607:0 "Placeholder3"
+  VICTORY_POINTS_8864:0 "Placeholder4"
+  ## Heartlands
+  VICTORY_POINTS_168:0 "Placeholder"
+  VICTORY_POINTS_546:0 "Placeholder1"
+  VICTORY_POINTS_10467:0 "Placeholder2"
+  ## Convedi
+  VICTORY_POINTS_8378:0 "Placeholder"
+  VICTORY_POINTS_8731:0 "Placeholder1"
+  VICTORY_POINTS_8252:0 "Placeholder2"
+  ## Oyalv
+  VICTORY_POINTS_3652:0 "Placeholder"
+  VICTORY_POINTS_4726:0 "Placeholder1"
+  VICTORY_POINTS_6961:0 "Placeholder2"
+  VICTORY_POINTS_7316:0 "Placeholder3"
+  ## Pinguinkingdom
+  VICTORY_POINTS_1138:0 "Placeholder"
+  VICTORY_POINTS_10644:0 "Placeholder1"
+  VICTORY_POINTS_3836:0 "Placeholder2"
+  ## Snowlands
+  VICTORY_POINTS_8117:0 "Placeholder"
+  VICTORY_POINTS_2633:0 "Placeholder1"
+  ## Confederation
+  VICTORY_POINTS_1500:0 "Placeholder"
+  VICTORY_POINTS_1503:0 "Placeholder1"
+  VICTORY_POINTS_2250:0 "Placeholder2"
+  ## Ikvari Reindeer
+  VICTORY_POINTS_4925:0 "Placeholder"
+  VICTORY_POINTS_10428:0 "Placeholder1"
+  VICTORY_POINTS_9037:0 "Placeholder2"
+  VICTORY_POINTS_3899:0 "Placeholder3"
+  VICTORY_POINTS_3331:0 "Placeholder4"
+  VICTORY_POINTS_11676:0 "Placeholder5"
+  VICTORY_POINTS_6167:0 "Placeholder6"
+  

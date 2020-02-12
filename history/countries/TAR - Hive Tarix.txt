@@ -1,0 +1,74 @@
+﻿capital = 286
+
+oob = "TAR_1936"
+
+set_technology = {
+}
+set_convoys = 10
+set_politics = {
+	
+	parties = {
+		democratic = {
+			popularity = 0
+		}
+		
+		fascism = {
+			popularity = 0
+		}
+		
+		communism = {
+			popularity = 20
+			#banned = no #default is no
+		}
+		
+		neutrality = {
+			popularity = 80
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1000.10.10"
+	election_frequency = 36
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Queen Tarix"
+	desc = ""
+	picture = "Tarix.tga"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Queen Tarix"
+	desc = ""
+	picture = "Tarix.tga"
+	expire = "1965.1.1"
+	ideology = imperialism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Queen Tarix"
+	desc = ""
+	picture = "Tarix.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Queen Tarix"
+	desc = ""
+	picture = "Tarix.tga"
+	expire = "1965.1.1"
+	ideology = totalism
+	traits = {
+	}
+}
+

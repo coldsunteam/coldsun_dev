@@ -114,7 +114,6 @@ equipments = {
 
 		default_modules = {
 			rear_1_custom_slot = empty
-			fixed_ship_engine_slot = sub_ship_engine_2
 		}
 		sub_visibility = 20
 		naval_speed = 14
@@ -218,7 +217,7 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
 		
-		sub_visibility = 12
+		sub_visibility = 10
 		naval_speed = 16
 		reliability = 0.80
 
@@ -403,7 +402,7 @@ equipments = {
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 12
+		torpedo_attack = 20
 		
 		anti_air_attack = 0
 		
@@ -423,7 +422,7 @@ equipments = {
 
 
 		
-		build_cost_ic = 350
+		build_cost_ic = 550
 		resources = {
 			#oil = 2
 			steel = 2
@@ -448,7 +447,7 @@ equipments = {
 		}
 		lg_armor_piercing = 0
 		lg_attack = 0
-		torpedo_attack = 20
+		torpedo_attack = 0
 		
 		anti_air_attack = 0
 		
@@ -468,7 +467,7 @@ equipments = {
 		
 
 		
-		build_cost_ic = 400
+		build_cost_ic = 200
 		resources = {
 			#oil = 2
 			steel = 3

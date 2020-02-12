@@ -1,0 +1,31 @@
+
+state={
+	id=304
+	name="STATE_304"
+	resources={
+		grain=10.000
+		coal=8.000
+		aluminium=4.000
+	}
+
+	history={
+		owner = GPD
+		add_core_of = GPD
+		victory_points = {
+			8105 30 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		156 895 2683 2684 5643 5645 5717 8018 8019 8020 9714 9715 10094 20424 
+	}
+	manpower=7125432
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

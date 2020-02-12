@@ -2,21 +2,16 @@
 state={
 	id=137
 	name="STATE_137"
-	resources={
-		aluminium=13
-		chromium=4
-	}
 
 	history={
-		owner = ERC
-		add_core_of = ERC
-
+		owner = BPC
+		add_core_of = BPC
 	}
 
 	provinces={
-		445 3517 3959 3960 3963 3964 3965 3966 3968 
+		9884 21166 21171 21181 21184 21190 21201 21209 21216 
 	}
-	manpower=654544
+	manpower=26660
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=pastoral
 }

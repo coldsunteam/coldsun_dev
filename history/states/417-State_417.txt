@@ -1,0 +1,33 @@
+
+state={
+	id=417
+	name="STATE_417"
+	resources={
+		grain=6.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+			112 15 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			112 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		112 1066 1067 1068 1069 1071 1678 2284 7354 7842 8100 9662 10426 10682 11862 20339 
+	}
+	manpower=6874000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

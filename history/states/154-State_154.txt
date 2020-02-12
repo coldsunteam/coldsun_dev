@@ -2,23 +2,17 @@
 state={
 	id=154
 	name="STATE_154"
-	resources={
-		steel=32
-	}
-
 	history={
-		owner = PRA
-		add_core_of = PRA
-		
-		victory_points = {
-			138 40
-		}
+		owner = BIG
+		add_core_of = BIG
+
 	}
 
+	
 	provinces={
-		138 163 259 311 372 475 783 
+		618 861 3407 4323 4852 8846 10153 10242 10928 
 	}
-	manpower=7047092
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+	state_category=rural
 }

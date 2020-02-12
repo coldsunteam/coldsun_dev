@@ -1,0 +1,22 @@
+
+state={
+	id=804
+	name="STATE_804"
+	resources={
+		gems=10.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+
+	}
+
+	provinces={
+		4583 6149 6152 6153 6154 8408 8409 8410 10843 
+	}
+	manpower=26000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

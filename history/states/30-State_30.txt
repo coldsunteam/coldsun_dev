@@ -3,16 +3,10 @@ state={
 	id=30
 	name="STATE_30"
 
-	history={
-		owner = EQS
-		add_core_of = EQS
-
-	}
-
 	provinces={
-		3539 3597 3603 3611 3613 3621 3623 3624 3641 
+		1653 1654 3176 3177 3179 7782 8671 11242 19834 
 	}
-	manpower=212446
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=rural
 }

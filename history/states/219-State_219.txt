@@ -1,0 +1,17 @@
+
+state={
+	id=219
+	name="STATE_219"
+
+	history={
+		owner = BAT
+		add_core_of = BAT
+	}
+
+	provinces={
+		9411 11102 20193 20319 20386 20416 20430 20464 20470 20473 20474 21115 
+	}
+	manpower=24300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

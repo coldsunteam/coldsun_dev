@@ -1,25 +1,13 @@
-
 state={
 	id=58
 	name="STATE_58"
-	resources={
-		tungsten=68
-		steel=40
-	}
-
-	history={
-		owner = PEO
-		add_core_of = PEO
-		
-		victory_points = {
-			3569 25
-		}
-	}
-
 	provinces={
-		3548 3549 3557 3558 3560 3568 3569 3577 3579 3582 
+		1874 1975 1976 1978 5652 5653 5654 11719 
 	}
-	manpower=4512446
-	buildings_max_level_factor=1.000
+	
+	
+	
+	manpower=100
 	state_category=metropolis
+	buildings_max_level_factor=1.000
 }

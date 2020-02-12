@@ -1,0 +1,17 @@
+
+state={
+	id=708
+	name="STATE_708"
+
+	history={
+		owner = TZY
+		add_core_of = TZY
+	}
+	
+	provinces={
+		9243 9244 20563 20564 20565 20566 21169 
+	}
+	manpower=22100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

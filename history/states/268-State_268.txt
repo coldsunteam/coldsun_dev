@@ -1,0 +1,33 @@
+
+state={
+	id=268
+	name="STATE_268"
+	
+	resources={
+		grain=6.000
+		steel=10
+	}
+
+	history={
+		owner = EQA
+		add_core_of = EQA
+		victory_points = {
+			42 25
+        }
+		buildings = {
+			infrastructure = 5
+			dockyard = 2
+			42 = {
+				naval_base = 4
+			}
+		}
+
+	}
+
+	provinces={
+		42 43 44 45 46 57 58 60 5939 5940 6798 8738 9170 
+	}
+	manpower=13452000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

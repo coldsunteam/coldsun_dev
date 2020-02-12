@@ -1,76 +1,131 @@
-﻿capital = 115
+﻿capital = 713
+set_research_slots = 3
 
-#oob = "USA_1936"
+oob = "EQS_2030"
 
-set_research_slots = 4
-set_stability = 0.80
-set_war_support = 0
-set_convoys = 10
 
-## Felland-Fetland Friendship
-give_guarantee = FEL
-give_guarantee = FET
-
-# Starting tech
 set_technology = {
+	pony_race = 1
 	infantry_weapons = 1
-	gw_artillery = 1
-	early_fighter = 1
 }
 
+add_ideas = {
+	DEFCON5
+	
+	EQS_nationwide_pacifism
+	EQS_magic_of_harmony
+	EQS_nightmare_cultists
+	EQS_overpopulation
+}
+
+set_autonomy = {
+	target = CRY
+	autonomous_state = autonomy_puppet
+}
+
+set_convoys = 70
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
-	election_frequency = 48
+	
+	parties = {
+		democratic = {
+			popularity = 10
+		}
+		
+		fascism = {
+			popularity = 5
+		}
+		
+		communism = {
+			popularity = 5
+			#banned = no #default is no
+		}
+		
+		neutrality = {
+			popularity = 80
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1000.10.10"
+	election_frequency = 36
 	elections_allowed = no
 }
-set_popularities = {
-	democratic = 86
-	communism = 8
-    neutrality = 6
+
+create_country_leader = {
+	name = "Celestia and Luna"
+	desc = ""
+	picture = "Celestia and Luna.tga"
+	expire = "1965.1.1"
+	ideology = alicornism
+	traits = {
+	}
 }
 
 create_country_leader = {
-    name = "The Royal Sisters"
-    desc = ""
-    picture = "gfx/leaders/EQS/Celestia and Luna.tga"
-    expire = "4000.1.1"
-    ideology = liberalism
-    traits = {
-        #
-    }
+	name = "Celestia and Luna"
+	
+	picture = "Celestia and Luna.tga"
+	expire = "1965.1.1"
+	ideology = imperialism
+	traits = {
+		
+	}
 }
 
 create_country_leader = {
-    name = "Starlight Glimmer"
-    desc = ""
-    picture = "gfx/leaders/EQS/GlimGlam.tga"
-    expire = "4000.1.1"
-    ideology = marxism
-    traits = {
-        #
-    }
+	name = "Celestia and Luna"
+	desc = ""
+	picture = "Celestia and Luna.tga"
+	expire = "1965.1.1"
+	ideology = conservatism
+	traits = {
+		
+	}
 }
 
 create_country_leader = {
-    name = "Unicorn Council"
-    desc = ""
-    picture = "gfx/leaders/EQS/Unicorn Council.tga"
-    expire = "4000.1.1"
-    ideology = oligarchism
-    traits = {
-        #
-    }
+	name = "Celestia and Luna"
+	desc = ""
+	picture = "Celestia and Luna.tga"
+	expire = "1965.1.1"
+	ideology = totalism
+	traits = {
+		
+	}
 }
 
-create_country_leader = {
-    name = "Mecha Hitler"
-    desc = ""
-    picture = "gfx/leaders/EQS/Mecha Hitler.tga"
-    expire = "4000.1.1"
-    ideology = nazism
-    traits = {
-        #
-    }
+create_corps_commander = {
+	name = "Artifact Test 1"
+	portrait_path = ""
+	traits = { }
+	skill = 1
+	id = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
 }
 
+create_corps_commander = {
+	name = "Artifact Test 2"
+	portrait_path = ""
+	traits = { }
+	skill = 1
+	id = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Artifact Test 3"
+	portrait_path = ""
+	traits = { }
+	skill = 1
+	id = 3
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}

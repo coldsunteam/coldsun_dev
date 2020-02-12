@@ -1,0 +1,27 @@
+
+state={
+	id=953
+	name="STATE_953"
+	resources={
+		grain=12.000
+		steel=8.000
+		coal=16.000
+	}
+
+	history={
+		owner = BIG
+		add_core_of = BIG
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		612 614 2494 3453 4797 8282 8379 8556 9238 10236 11304 20433 20457 
+	}
+	manpower=3975000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

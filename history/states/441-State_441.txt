@@ -1,0 +1,14 @@
+
+state={
+	id=441
+	name="STATE_441"
+
+	
+
+	provinces={
+		4884 5410 7809 9033 9162 9387 9432 9501 11729 19686 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,936 @@
+technologies = {
+	terminal_parallelization = {
+		research_time_factor = -0.05
+		
+		path = {
+			leads_to_tech = transistors 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = laser 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lcd 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2033
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 0 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	laser = {
+		category_light_infantry = {
+			soft_attack = 0.04
+		}
+		motorized = {
+			soft_attack = 0.04
+		}
+		mechanized = {
+			soft_attack = 0.04
+		}
+		
+		research_cost = 1
+		start_year = 2033
+		folder = {
+			name = civilian_folder
+			position = { x = -2 y = 2 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	lcd = {
+		industrial_capacity_factory = 0.05
+		
+		research_cost = 1
+		start_year = 2033
+		folder = {
+			name = civilian_folder
+			position = { x = -4 y = 2 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	transistors = {
+		research_time_factor = -0.05
+		
+		path = {
+			leads_to_tech = hard_drive 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = led 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 2 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	hard_drive = {
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = integrated_circuit 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = database 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = frequency_modulation 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 4 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	frequency_modulation = {
+		encryption = 1
+		
+		path = {
+			leads_to_tech = mini_encryption_modules 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 6 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	database = {
+		decryption = 1
+		
+		path = {
+			leads_to_tech = kh_clocked_computers 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 4 y = 6 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	integrated_circuit = {
+		research_time_factor = -0.10
+		production_factory_max_efficiency_factor = 0.10
+		production_factory_efficiency_gain_factor = 0.10
+		
+		path = {
+			leads_to_tech = comm_sattelite 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 6 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	comm_sattelite = {
+		category_light_infantry = {
+			recon = 2
+		}
+		motorized = {
+			recon = 2
+		}
+		mechanized = {
+			recon = 2
+		}
+		
+		
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 8 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	mini_encryption_modules = {
+		encryption = 1
+		path = {
+			leads_to_tech = modem 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 9 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	kh_clocked_computers = {
+		decryption = 1
+		path = {
+			leads_to_tech = kh_clocked_computers2 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 4 y = 9 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	modem = {
+		encryption = 1
+		path = {
+			leads_to_tech = ethernet 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 11 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	kh_clocked_computers2 = {
+		decryption = 1
+		path = {
+			leads_to_tech = kh_clocked_computers3 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = ram 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 4 y = 11 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	ram = {
+		research_time_factor = -0.05
+		
+		path = {
+			leads_to_tech = cpu 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 12 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	cpu = {
+		research_time_factor = -0.05
+		
+		path = {
+			leads_to_tech = floppy_8 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 14 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	floppy_8 = {
+		research_time_factor = -0.05
+		consumer_goods_factor = -0.02
+		
+		path = {
+			leads_to_tech = floppy_5 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 17 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	floppy_5 = {
+		research_time_factor = -0.05
+		consumer_goods_factor = -0.02
+		
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 19 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	ethernet = {
+		encryption = 1
+		path = {
+			leads_to_tech = tcp_ip 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			cpu = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 15 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	kh_clocked_computers3 = {
+		decryption = 1
+		path = {
+			leads_to_tech = kh_clocked_computers4 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			cpu = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 4 y = 15 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	tcp_ip = {
+		encryption = 1
+		path = {
+			leads_to_tech = onboard_computers 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			floppy_5 = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 20 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	kh_clocked_computers4 = {
+		decryption = 1
+		path = {
+			leads_to_tech = kh_clocked_computers5 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = personal_computer 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			floppy_5 = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 4 y = 20 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	personal_computer = {
+		research_time_factor = -0.05
+		industrial_capacity_factory = 0.05
+		
+		path = {
+			leads_to_tech = gps 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 21 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	onboard_computers = {
+		encryption = 1
+		path = {
+			leads_to_tech = laptop 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 23 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	kh_clocked_computers5 = {
+		decryption = 1
+		path = {
+			leads_to_tech = mh_clocked_computers 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 4 y = 23 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	gps = {
+		path = {
+			leads_to_tech = cellphone 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 24 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	cellphone = {
+		path = {
+			leads_to_tech = compact_disk 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 26 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	compact_disk = {
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 28 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	laptop = {
+		encryption = 1
+		path = {
+			leads_to_tech = html 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			compact_disk = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 29 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	mh_clocked_computers = {
+		decryption = 1
+		path = {
+			leads_to_tech = html 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			compact_disk = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 4 y = 29 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	html = {
+		path = {
+			leads_to_tech = url 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			mh_clocked_computers = 1
+			laptop = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 31 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	url = {
+		path = {
+			leads_to_tech = aio 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 33 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	aio = {
+		path = {
+			leads_to_tech = network_cable_laptop 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mh_clocked_computers2 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 35 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	network_cable_laptop = {
+		encryption = 1
+		
+		path = {
+			leads_to_tech = world_wide_web 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 37 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	mh_clocked_computers2 = {
+		decryption = 1
+		
+		path = {
+			leads_to_tech = world_wide_web 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 4 y = 37 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	world_wide_web = {
+		path = {
+			leads_to_tech = advanced_server_protocols 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = gh_clocked_computers 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			network_cable_laptop = 1
+			mh_clocked_computers2 = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 2 y = 39 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	advanced_server_protocols = {
+		encryption = 1
+				
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 41 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	gh_clocked_computers = {
+		decryption = 1
+		
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 4 y = 41 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	
+	led = {
+		field_hospital = {
+			casualty_trickleback = 0.1
+			experience_loss_factor = -0.10
+		}
+		
+		path = {
+			leads_to_tech = electronic_calculator 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 6 y = 8 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	electronic_calculator = {
+		research_time_factor = -0.02
+		industrial_capacity_factory = 0.04
+		
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 6 y = 10 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	
+	
+	uav_control_1 = {
+		path = {
+			leads_to_tech = uav_control_2 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			laser = 1
+			comm_sattelite = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 0 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	uav_control_2 = {
+		path = {
+			leads_to_tech = uav_control_3 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			cpu = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 4 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	uav_control_3 = {
+		path = {
+			leads_to_tech = uav_control_4 
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			kh_clocked_computers4 = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 8 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	uav_control_4 = {
+		path = {
+			leads_to_tech = uav_control_5
+			research_cost_coeff = 1
+		}
+		dependencies = { 
+			gps = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 12 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	uav_control_5 = {
+		path = {
+			leads_to_tech = uav_control_6
+			research_cost_coeff = 1
+		}
+		dependencies = { 
+			laptop = 1
+			mh_clocked_computers = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 16 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	uav_control_6 = {
+		dependencies = { 
+			advanced_server_protocols = 1
+			gh_clocked_computers = 1
+		}
+		research_cost = 1
+		start_year = 2035
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 20 }
+		}
+		ai_will_do = {
+			factor = 30
+		}
+		categories = { electronics }
+	}
+	
+	### NOOKS ###
+	atomic_research = {
+
+		research_time_factor = -0.02
+		
+		path = {
+			leads_to_tech = nuclear_reactor 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1940
+		research_cost = 5
+		
+		folder = {
+			name = civilian_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+	}
+}

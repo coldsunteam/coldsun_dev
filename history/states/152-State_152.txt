@@ -2,15 +2,16 @@
 state={
 	id=152
 	name="STATE_152"
-	history={
-		owner = EQS
-		add_core_of = EQS
-	}
-	provinces={
-		212 3701 3725 3729 3752 3755 3769 3780 3782 3797 3798 
-	}
-	manpower=50000
-	state_category = rural
 
+	history={
+		owner = BPB
+		add_core_of = BPB
+	}
+
+	provinces={
+		5570 5571 7069 7070 8814 21150 
+	}
+	manpower=5303
 	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

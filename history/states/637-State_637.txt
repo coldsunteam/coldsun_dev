@@ -1,0 +1,12 @@
+
+state={
+	id=637
+	name="STATE_637"
+
+	provinces={
+		1747 1748 1947 1948 1949 3552 5624 7675 8759 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

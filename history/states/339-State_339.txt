@@ -1,0 +1,20 @@
+
+state={
+	id=339
+	name="STATE_339"
+
+	history={
+		owner = CRY
+		add_core_of = CRY
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1529 1530 3597 3598 4124 20389 20392 20397 
+	}
+	manpower=4257000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

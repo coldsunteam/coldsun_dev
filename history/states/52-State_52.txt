@@ -1,21 +1,11 @@
-
 state={
 	id=52
 	name="STATE_52"
-	resources={
-		oil=9
-	}
-
-	history={
-		owner = IST
-		add_core_of = IST
-
-	}
-
 	provinces={
-		3462 3467 3476 3478 3483 3484 
+		134 279 407 553 793 5289 5350 5623 6070 6123 6180 6884 7368 8819 8831 9323 9723 9727 9804 10534 11574 
 	}
-	manpower=654852
+	manpower=100
+	state_category="metropolis"
 	buildings_max_level_factor=1.000
-	state_category=town
+	
 }

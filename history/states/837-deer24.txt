@@ -1,0 +1,12 @@
+
+state={
+	id=837
+	name="STATE_837"
+
+	provinces={
+		1349 1352 1850 1851 1852 6554 6555 9201 10120 19656 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

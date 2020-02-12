@@ -1,22 +1,13 @@
-
 state={
 	id=118
 	name="STATE_118"
-	resources={
-		aluminium=6
-		tungsten=61
-	}
-
-	history={
-		owner = FEL
-		add_core_of = FEL
-
-	}
-
 	provinces={
-		121 400 403 449 463 536 551 597 604 615 4001 4008 4013 4014 4017 4021 4025 
+		1231 1232 1233 1614 1615 1616 6108 6111 6112 6160 7300 7301 7544 7545 7546 7547 8221 8650 9062 11187 11288 11844 
 	}
-	manpower=450632
+	
+	
+	
+	manpower=100
+	state_category=metropolis
 	buildings_max_level_factor=1.000
-	state_category=rural
 }

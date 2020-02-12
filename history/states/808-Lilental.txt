@@ -1,0 +1,26 @@
+
+state={
+	id=808
+	name="STATE_808"
+	resources={
+		grain=2.000
+		coal=13.000
+		tungsten=3.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+			4715 10 
+		}
+
+	}
+
+	provinces={
+		311 1490 1554 2512 2662 2663 2664 2665 2666 4712 4713 4714 4715 11756 11801 
+	}
+	manpower=9656991
+	buildings_max_level_factor=1.000
+	state_category=city
+}

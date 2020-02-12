@@ -1,0 +1,14 @@
+
+state={
+	id=469
+	name="STATE_469"
+
+	
+
+	provinces={
+		4838 5617 5618 5619 6006 6933 8513 8925 9487 9488 9892 10690 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

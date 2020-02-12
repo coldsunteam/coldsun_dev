@@ -1,0 +1,17 @@
+
+state={
+	id=728
+	name="STATE_728"
+
+	history={
+		owner = BPM
+		add_core_of = BPM
+	}
+
+	provinces={
+		851 855 7123 7777 7778 10638 10639 11921 21228 
+	}
+	manpower=3521
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

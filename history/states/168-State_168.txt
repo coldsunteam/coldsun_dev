@@ -1,0 +1,18 @@
+
+state={
+	id=168
+	name="STATE_168"
+
+	history={
+		owner = BPA
+		add_core_of = BPA
+
+	}
+
+	provinces={
+		5961 5962 5963 6428 6429 6430 8042 
+	}
+	manpower=43820
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

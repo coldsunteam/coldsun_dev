@@ -1,0 +1,12 @@
+
+state={
+	id=831
+	name="STATE_831"
+
+	provinces={
+		2005 2006 4110 4235 4236 4237 4238 4239 4240 7620 7621 9291 11465 11753 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

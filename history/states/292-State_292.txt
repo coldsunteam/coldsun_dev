@@ -1,0 +1,29 @@
+
+state={
+	id=292
+	name="STATE_292"
+	
+	resources={
+		grain=16.000
+		aluminium=20
+	}
+
+	history={
+		owner = EQA
+		add_core_of = EQA
+		victory_points = {
+			4625 15 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		50 52 53 54 55 56 2654 2655 2656 2658 4625 4626 6760 8561 10116 
+	}
+	manpower=7852667
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

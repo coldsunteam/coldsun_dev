@@ -22,7 +22,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1933
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 0 y = 2 }
 		}
 		
@@ -61,17 +61,14 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1.5
+			factor = 1
 			modifier = {
 				factor = 0
-				OR = {
-					has_tech = fighter1
-					is_researching_technology = fighter1
-				}
+				has_tech = fighter1 
 			}
 			modifier = {
-				factor = 3
-				has_navy_size = { type = carrier size > 3 }# if nation has several carriers, more likely
+				factor = 2
+				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
 			}
 			modifier = {
 				factor = 0
@@ -95,7 +92,7 @@ technologies = {
 		start_year = 1936
 
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 0 y = 4 }
 		}
 		
@@ -155,13 +152,20 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2.5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2.5
+				tag = JAP
+			}
 
 			modifier = {
 				factor = 0
-				OR = {
-					has_tech = fighter2
-					is_researching_technology = fighter2
-				}
+				has_tech = fighter2
 			}
 
 			modifier = {
@@ -190,7 +194,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 0 y = 6 }
 		}
 		folder = {
@@ -215,7 +219,7 @@ technologies = {
 				factor = 4
 				is_major = yes
 			}
-
+			
 			modifier = {
 				factor = 1.2
 				date > "1941.1.1"
@@ -254,7 +258,24 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2.5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2.5
+				tag = JAP
+			}
 
+			modifier = {
+				factor = 10
+				AND = {
+					is_historical_focus_on = yes
+					tag = JAP
+				}
+			}
 			modifier = {
 				factor = 1.5
 				date > "1941.6.1"
@@ -262,10 +283,7 @@ technologies = {
 
 			modifier = {
 				factor = 0
-				OR = {
-					has_tech = fighter3
-					is_researching_technology = fighter3
-				}
+				has_tech = fighter3
 			}
 			modifier = {
 				factor = 2.5
@@ -293,7 +311,7 @@ technologies = {
 		start_year = 1944
 
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 0 y = 8 }
 		}
 		
@@ -353,6 +371,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 2.5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 2.5
+				tag = JAP
+			}
 			modifier = {
 				factor = 1.5
 				date > "1945.1.1"
@@ -367,68 +395,6 @@ technologies = {
 			}
 		}
 	}
-	
-	jet_fighter1 = {
-
-		enable_equipments = {
-				jet_fighter_equipment_1
-		}
-			
-		path = {
-			leads_to_tech = jet_fighter2
-			research_cost_coeff = 1
-		}
-
-		dependencies = {
-			jet_engines = 1
-		}
-		
-		research_cost = 2
-		start_year = 1945
-
-		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = 12 }
-		}
-		
-		categories = {
-			light_air
-			jet_technology
-		}
-
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_major = yes
-				factor = 2
-			}
-		}
-	}
-	
-	jet_fighter2 = {
-
-		enable_equipments = {
-			jet_fighter_equipment_2
-		}
-		
-		research_cost = 2
-		start_year = 1950
-
-		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = 14 }
-		}
-		
-		categories = {
-			light_air
-			jet_technology
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	
 	CAS1 = {
 
@@ -445,7 +411,7 @@ technologies = {
 		start_year = 1936
 
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = -4 y = 4 }
 		}
 		
@@ -461,7 +427,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
-
+			
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 2
+				tag = SOV
+			}
 		}
 	}
 	
@@ -483,9 +458,20 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
+				has_tech = CAS2
+			}
+			modifier = {
+				factor = 2
 				OR = {
-					has_tech = CAS2
-					is_researching_technology = CAS2
+					tag = USA
+					tag = JAP
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					has_war_with = USA
+					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -514,7 +500,7 @@ technologies = {
 		start_year = 1940
 
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = -4 y = 6 }
 		}
 		
@@ -532,11 +518,13 @@ technologies = {
 			factor = 1
 			
 			modifier = {
-				has_deployed_air_force_size = {
-					size > 400
-					type = cas
-				}
-				factor = 3
+				factor = 2
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 2
+				tag = SOV
 			}
 		}
 	}
@@ -559,9 +547,20 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 0
+				has_tech = CAS3
+			}
+			modifier = {
+				factor = 2
 				OR = {
-					has_tech = CAS3
-					is_researching_technology = CAS3
+					tag = USA
+					tag = JAP
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					has_war_with = USA
+					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -589,7 +588,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1944
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = -4 y = 8 }
 		}
 		
@@ -605,12 +604,15 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
 			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = cas
-				}
-				factor = 3
+				factor = 2
+				tag = GER
+			}
+			
+			modifier = {
+				factor = 2
+				tag = SOV
 			}
 		}
 	}
@@ -631,6 +633,20 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					tag = USA
+					tag = JAP
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					has_war_with = USA
+					has_war_with = JAP
+				}
+			}
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -656,7 +672,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 4 y = 4 }
 		}
 		
@@ -672,6 +688,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
+			}
 		}
 	}
 	
@@ -694,9 +720,20 @@ technologies = {
 			
 			modifier = {
 				factor = 0
+				has_tech = naval_bomber2
+			}
+			modifier = {
+				factor = 2
 				OR = {
-					has_tech = naval_bomber2
-					is_researching_technology = naval_bomber2
+					tag = USA
+					tag = JAP
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					has_war_with = USA
+					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -724,7 +761,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 4 y = 6 }
 		}
 		
@@ -739,13 +776,16 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1.5
+			factor = 1
+			
 			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = naval_bomber
-				}
-				factor = 1.5
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
 			}
 		}
 	}
@@ -765,13 +805,24 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 5 #if you have carriers, you definitely want these!
+			factor = 1
 			
 		modifier = {
 				factor = 0
+				has_tech = naval_bomber3
+			}
+			modifier = {
+				factor = 2
 				OR = {
-					has_tech = naval_bomber3
-					is_researching_technology = naval_bomber3
+					tag = USA
+					tag = JAP
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					has_war_with = USA
+					has_war_with = JAP
 				}
 			}
 			modifier = {
@@ -799,7 +850,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1944
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 4 y = 8 }
 		}
 		
@@ -814,13 +865,16 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1.5
+			factor = 1
+			
 			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = naval_bomber
-				}
-				factor = 1.5
+				factor = 5
+				tag = USA
+			}
+			
+			modifier = {
+				factor = 5
+				tag = JAP
 			}
 		}
 	}
@@ -841,6 +895,20 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 2
+				OR = {
+					tag = USA
+					tag = JAP
+				}
+			}
+			modifier = {
+				factor = 1.5
+				OR = {
+					has_war_with = USA
+					has_war_with = JAP
+				}
+			}
 			modifier = {
 				factor = 2
 				has_navy_size = { type = carrier size > 0 }# if nation has carriers, more likely
@@ -870,7 +938,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1933
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 2 y = 2 }
 		}
 		
@@ -884,6 +952,7 @@ technologies = {
 			factor = 1
 		}
 	}
+	
 	
 	heavy_fighter1 = {
 
@@ -899,7 +968,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = -2 y = 4 }
 		}
 		
@@ -928,7 +997,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = -2 y = 6 }
 		}
 		
@@ -957,7 +1026,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1944
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = -2 y = 8 }
 		}
 		
@@ -987,7 +1056,7 @@ technologies = {
 		start_year = 1936
 
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 2 y = 4 }
 		}
 		
@@ -1005,13 +1074,7 @@ technologies = {
 				is_major = yes
 				date > "1936.1.1"
 			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = tactical_bomber
-				}
-				factor = 2
-			}
+			
 			modifier = {
 				factor = 1.2
 				is_major = yes
@@ -1040,7 +1103,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 2 y = 6 }
 		}
 		
@@ -1058,13 +1121,7 @@ technologies = {
 				is_major = yes
 				date > "1940.1.1"
 			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = tactical_bomber
-				}
-				factor = 2
-			}
+			
 			modifier = {
 				factor = 1.2
 				is_major = yes
@@ -1093,7 +1150,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1944
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 2 y = 8 }
 		}
 		
@@ -1111,13 +1168,7 @@ technologies = {
 				is_major = yes
 				date > "1944.1.1"
 			}
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = tactical_bomber
-				}
-				factor = 2
-			}
+			
 			modifier = {
 				factor = 1.2
 				is_major = yes
@@ -1125,69 +1176,6 @@ technologies = {
 			}
 		}
 	}
-	
-	jet_tactical_bomber1 = {
-
-		enable_equipments = {
-			jet_tac_bomber_equipment_1
-		}
-		
-		path = {
-			leads_to_tech = jet_tactical_bomber2
-			research_cost_coeff = 1
-		}
-		
-		dependencies = {
-			jet_engines = 1
-		}
-
-		research_cost = 2
-		start_year = 1945
-		
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = 12 }
-		}
-		
-		categories = {
-			medium_air
-			jet_technology
-			tactical_bomber
-		}
-		
-		ai_will_do = {
-			factor = 1
-			modifier = {
-				is_major = yes
-				factor = 4
-			}
-		}
-	}
-	
-	jet_tactical_bomber2 = {
-
-		enable_equipments = {
-			jet_tac_bomber_equipment_2
-		}
-		
-		research_cost = 2
-		start_year = 1950
-		folder = {
-			name = air_techs_folder
-			position = { x = 2 y = 14 }
-		}
-		
-		categories = {
-			medium_air
-			jet_technology
-			tactical_bomber
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	
 	
 	strategic_bomber1 = {
 
@@ -1203,7 +1191,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1936
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 0 y = 4 }
 		}
 		
@@ -1215,8 +1203,19 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = ENG
+			}
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
 		}
 	}
+	
 	
 	strategic_bomber2 = {
 
@@ -1232,7 +1231,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1940
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 0 y = 6 }
 		}
 		
@@ -1244,6 +1243,16 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = ENG
+			}
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
 		}
 	}
 	
@@ -1261,7 +1270,7 @@ technologies = {
 		research_cost = 2
 		start_year = 1944
 		folder = {
-			name = air_techs_folder
+			name = air_folder
 			position = { x = 0 y = 8 }
 		}
 		
@@ -1273,67 +1282,202 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 1
+			
+			modifier = {
+				factor = 5
+				tag = ENG
+			}
+			
+			modifier = {
+				factor = 5
+				tag = USA
+			}
 		}
 	}
 	
-	jet_strategic_bomber1 = {
+	
+	
+	experimental_rockets = {
 
-		enable_equipments = {
-			jet_strat_bomber_equipment_1
+		enable_building = {
+			building = rocket_site
+			level = 2
 		}
 		
-		research_cost = 2
-		start_year = 1950
-
-		dependencies = {
-			jet_engines = 1
+		path = {
+			leads_to_tech = rocket_engines 
+			research_cost_coeff = 1
 		}
-
+		
+		research_cost = 1.5
+		start_year = 1943
+		
 		folder = {
-			name = air_techs_folder
-			position = { x = 0 y = 14 }
+			name = air_folder
+			position = { x = 0 y = 0 }
+		}
+	
+		ai_will_do = {
+			factor = 1
 		}
 		
 		categories = {
-			heavy_air
-			jet_technology
-			cat_strategic_bomber
+			rocketry
+		}
+	}
+	
+	rocket_engines = {
+
+		show_equipment_icon = yes
+
+		# can build v1s/rocket planes
+		enable_equipments = {
+			rocket_interceptor_equipment_1
+			guided_missile_equipment_1
+		}
+		
+		rocket_artillery = {
+			soft_attack = 0.05
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = improved_rocket_engines 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = jet_engines 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1944
+		
+		folder = {
+			name = air_folder
+			position = { x = 0 y = 2 }
+		}
+
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			rocketry
+		}		
+	}
+	
+	improved_rocket_engines = {
+
+		show_equipment_icon = yes
+		
+		# can build v2s
+		
+		enable_equipments = {
+			rocket_interceptor_equipment_2
+			guided_missile_equipment_2
+		}
+		
+		rocket_artillery = {
+			soft_attack = 0.05
+		}
+		rocket_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.05
+		}
+		
+		path = {
+			leads_to_tech = advanced_rocket_engines 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+		start_year = 1945
+		
+		folder = {
+			name = air_folder
+			position = { x = 0 y = 4 }
 		}
 		
 		ai_will_do = {
 			factor = 1
-			modifier = {
-				has_deployed_air_force_size = {
-					size > 500
-					type = strategic_bomber
-				}
-				factor = 4.5
-			}
+		}
+		
+		categories = {
+			rocketry
 		}
 	}
+	
+	advanced_rocket_engines = {
 
-	suicide_craft = {
+		show_equipment_icon = yes
 
+		# can build ICBMs?
+		
 		enable_equipments = {
-			rocket_suicide_equipment_1
+			rocket_interceptor_equipment_3
+			guided_missile_equipment_3
 		}
-				
-		research_cost = 1.5 #Carrier Variant
-		start_year = 1944
-
-		# only from focus!!! #####
-		allow = {
-			always = no
+		
+		rocket_artillery = {
+			soft_attack = 0.05
 		}
-
-		#folder = {
-		#	name = air_techs_folder
-		#	position = { x = -2 y = 8 }
-		#}
+		rocket_artillery_brigade = {
+			soft_attack = 0.05
+		}
+		motorized_rocket_brigade = {
+			soft_attack = 0.05
+		}
+		
+		research_cost = 1.5
+		start_year = 1946
+		
+		folder = {
+			name = air_folder
+			position = { x = 0 y = 6 }
+		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 1
 		}
-		################
+		
+		categories = {
+			rocketry
+		}
+	}
+	
+	jet_engines = {
+	
+		folder = {
+			name = air_folder
+			position = { x = 3 y = 2 }
+		}
+		
+		start_year = 1944
+		research_cost = 2
+		
+		desc = "JET_ENGINES_SPECIAL"
+
+		on_research_complete = {
+			custom_effect_tooltip = JET_ENGINES_RESEARCHED
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			rocketry
+			jet_technology
+		}
 	}
 }

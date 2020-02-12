@@ -2,17 +2,13 @@
 state={
 	id=74
 	name="STATE_74"
-
-	history={
-		owner = PEO
-		add_core_of = PEO
-
-	}
-
 	provinces={
-		3565 3572 3574 3981 3983 3997 
+		672 673 2299 2300 2304 4374 5098 5233 6342 6343 7409 7548 7549 7550 8114 10554 11076 11613 
 	}
-	manpower=845655
+	
+	
+	
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=metropolis
 }

@@ -2,20 +2,16 @@
 state={
 	id=76
 	name="STATE_76"
-	resources={
-		rubber=16
-	}
 
 	history={
-		owner = PEO
-		add_core_of = PEO
-
+		owner = BPB
+		add_core_of = BPB
 	}
 
 	provinces={
-		3523 3530 3545 3550 3552 4098 4101 4104 4106 4107 
+		1084 2969 3664 9348 10162 21157 21159 21176 21177 21187 21198 21202 21204 21229 
 	}
-	manpower=442251
+	manpower=57400
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=town
 }

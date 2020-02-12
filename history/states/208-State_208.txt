@@ -1,0 +1,17 @@
+
+state={
+	id=208
+	name="STATE_208"
+
+	history={
+		owner = BPA
+		add_core_of = BPA
+	}
+
+	provinces={
+		2626 2627 2628 6802 9548 11002 11214 
+	}
+	manpower=165000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

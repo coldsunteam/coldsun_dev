@@ -2,22 +2,13 @@
 state={
 	id=124
 	name="STATE_124"
-	resources={
-		aluminium=184
-		tungsten=210
-		steel=40
-	}
 
-	history={
-		owner = PRA
-		add_core_of = PRA
 
-	}
 
 	provinces={
-		288 3917 3985 3992 4003 4011 4016 
+		3647 5013 5014 5015 5016 5017 5018 6072 8770 8771 9994 11954 19713 19728 20300 
 	}
-	manpower=200124
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=rural
 }

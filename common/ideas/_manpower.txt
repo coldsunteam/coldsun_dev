@@ -57,6 +57,7 @@ ideas = {
 			level = 5
 
 			available = {
+				NOT = { has_idea = EQS_magic_of_harmony }
 				#has_manpower_for_recruit_change_to =  { value = 0.025 group = mobilization_laws }
 				has_war_support > 0.1
 				NOT = { has_idea = undisturbed_isolation }
@@ -82,6 +83,7 @@ ideas = {
 		extensive_conscription = {
 			
 			available = {
+				NOT = { has_idea = EQS_magic_of_harmony }
 				#has_manpower_for_recruit_change_to = { value = 0.05 group = mobilization_laws }
 				OR = {
 					has_government = fascism
@@ -89,9 +91,16 @@ ideas = {
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.5
+						#any_enemy_country = {
+						#	strength_ratio = {
+						#		tag = ROOT 
+						#		ratio > 0.5
+						#	}
+						#}
 					}					
 				}
 				has_war_support > 0.2
+				#Special rules AST in TFV
 			}
 
 			ai_will_do = {
@@ -101,7 +110,6 @@ ideas = {
 					factor = 20
 					manpower_per_military_factory <  800
 				}
-				
 			}
 			
 			cost = 150
@@ -122,6 +130,7 @@ ideas = {
 			
 			
 			available = {
+				NOT = { has_idea = EQS_magic_of_harmony }
 				#has_manpower_for_recruit_change_to =  { value = 0.1 group = mobilization_laws }
 				OR = {
 					has_government = fascism
@@ -129,6 +138,12 @@ ideas = {
 					AND = {
 						has_war = yes
 						enemies_strength_ratio > 0.6
+						#any_enemy_country = {
+						#	strength_ratio = {
+						#		tag = ROOT 
+						#		ratio > 0.6
+						#	}
+						#}
 					}
 				}
 				OR = {
@@ -148,11 +163,6 @@ ideas = {
 					#Lower chance if has decent amount
 					factor = 0.5
 					manpower_per_military_factory >  1000
-				}
-				modifier = {
-					#Block has plenty manpower
-					factor = 0
-					manpower_per_military_factory >  3000
 				}
 			}
 			
@@ -175,6 +185,7 @@ ideas = {
 			
 			
 			available = {
+				NOT = { has_idea = EQS_magic_of_harmony }
 				#has_manpower_for_recruit_change_to =  { value = 0.2 group = mobilization_laws }
 				has_war = yes
 				OR = {
@@ -182,6 +193,12 @@ ideas = {
 					surrender_progress > 0
 				}
 				enemies_strength_ratio > 0.75
+				#any_enemy_country = {
+				#	strength_ratio = {
+				#		tag = ROOT 
+				#		ratio > 0.75
+				#	}
+				#}
 			}
 
 			ai_will_do = {
@@ -195,11 +212,6 @@ ideas = {
 					#Lower chance if has decent amount
 					factor = 0.5
 					manpower_per_military_factory >  1000
-				}
-				modifier = {
-					#Block has plenty manpower
-					factor = 0
-					manpower_per_military_factory >  5000
 				}
 			}
 		
@@ -223,6 +235,7 @@ ideas = {
 			
 			
 			available = {
+				NOT = { has_idea = EQS_magic_of_harmony }
 				#has_manpower_for_recruit_change_to =  { value = 0.25 group = mobilization_laws }
 				has_war = yes
 				OR = {
@@ -230,6 +243,12 @@ ideas = {
 					surrender_progress > 0.25
 				}
 				enemies_strength_ratio > 1
+				#any_enemy_country = {
+				#	strength_ratio = {
+				#		tag = ROOT 
+				#		ratio > 1
+				#	}
+				#}
 			}
 
 			ai_will_do = {

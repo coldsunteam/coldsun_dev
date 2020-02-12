@@ -1,0 +1,30 @@
+
+state={
+	id=358
+	name="STATE_358"
+	resources={
+		chromium=10.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+			7436 30 
+		}
+		victory_points = {
+			20454 34 
+		}
+		buildings = {
+			infrastructure = 3
+		}
+
+	}
+
+	provinces={
+		2956 6418 7436 9628 9739 19519 20454 
+	}
+	manpower=14453000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

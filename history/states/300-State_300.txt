@@ -1,0 +1,28 @@
+
+state={
+	id=300
+	name="STATE_300"
+	resources={
+		grain=4.000
+	}
+
+	history={
+		owner = EQA
+		add_core_of = EQA
+		victory_points = {
+            5149 18
+        	}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+
+	provinces={
+		3639 3640 4602 4603 5148 5149 5150 5151 5297 5925 8888 10312 11106 11632 19534 19597 19598 20420 
+	}
+	manpower=4452000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

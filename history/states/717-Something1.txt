@@ -1,0 +1,23 @@
+
+state={
+	id=717
+	name="STATE_717"
+	resources={
+		rubber=25.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1818 1819 1820 1823 1824 1825 1826 3220 5708 5709 6290 8552 9756 11664 11904 
+	}
+	manpower=1420000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

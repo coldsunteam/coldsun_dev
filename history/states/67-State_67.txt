@@ -1,17 +1,13 @@
+
 state={
 	id=67
 	name="STATE_67"
 	
-	history={
-		owner = NUB
-		add_core_of = NUB
-	}
-	
 	provinces={
-		23 422 
+		3341 10569 
 	}
-	manpower=10
-	state_category = rural
-
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
 }

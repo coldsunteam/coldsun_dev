@@ -1,0 +1,26 @@
+
+state={
+	id=948
+	name="STATE_948"
+	resources={
+		grain=6.000
+	}
+
+	history={
+		owner = GPE
+		add_core_of = GPE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		154 891 896 2316 2317 2678 5689 20427 
+	}
+	manpower=4012000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

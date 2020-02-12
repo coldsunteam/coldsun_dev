@@ -1,0 +1,30 @@
+
+state={
+	id=299
+	name="STATE_299"
+	resources={
+		coal=12
+	}
+
+	history={
+		owner = EQA
+		add_core_of = EQA
+		victory_points = {
+			3265 25
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 3
+			air_base = 4
+		}
+
+	}
+
+	provinces={
+		1237 3264 3265 3266 4585 8305 9961 10316 10379 10714 19595 
+	}
+	manpower=7525000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=809
+	name="STATE_809"
+	resources={
+		grain=22.000
+		coal=15.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+			4579 14 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1684 1687 1688 1856 4579 8413 10980 11310 20371 20372 
+	}
+	manpower=9502885
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

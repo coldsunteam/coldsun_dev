@@ -1,17 +1,12 @@
+
 state={
 	id=1
 	name="STATE_1"
-	provinces={
-		1 17 35 50 55 155 170 209 252 273 283 314 347 348 350 362 376 385 409 415 416 457 468 477 519 610 613 614 637 649 691 692 693 694 695 
-	}
-	
-	history={
-		owner = NUB
-		add_core_of = NUB
-	}
-	
-	manpower=10
-	state_category = rural
 
+	provinces={
+		1621 1622 1623 1624 3247 3248 4009 4361 4520 6339 8966 9040 9660 10376 10895 19558 19560 19858 19871 19883 19927 19945 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

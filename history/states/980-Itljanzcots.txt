@@ -1,0 +1,17 @@
+
+state={
+	id=980
+	name="STATE_980"
+
+	history={
+		owner = TZY
+		add_core_of = TZY
+	}
+
+	provinces={
+		1561 4010 4985 4987 4988 8080 11138 11385 20546 20550 20557 20561 21113 21123 21125 21126 
+	}
+	manpower=53200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

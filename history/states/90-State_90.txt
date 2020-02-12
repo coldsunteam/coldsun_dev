@@ -2,21 +2,13 @@
 state={
 	id=90
 	name="STATE_90"
-	resources={
-		aluminium=62
-		tungsten=28
-	}
-
-	history={
-		owner = ERC
-		add_core_of = ERC
-
-	}
-
 	provinces={
-		3498 3502 3510 3518 3520 3531 3533 3535 3957 3958 3961 3962 
+		2301 2647 2648 2649 4376 7121 7410 7635 7636 7822 7976 8845 9090 9091 9311 9339 9574 10780 11089 11817 11900 
 	}
-	manpower=895624
+	
+	
+	
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=metropolis
 }

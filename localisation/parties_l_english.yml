@@ -1,0 +1,62 @@
+﻿l_english:
+
+### Ideology ### 
+ communism:0 "Communist"
+ communism_noun:0 "Communism"
+ communism_desc:0 "Communist Regime"
+ democratic:0 "Democratic"
+ democratic_noun:0 "Democracy"
+ democratic_desc:0 "Democratic Regime"
+ fascism:0 "Totalitarian"
+ fascism_noun:0 "Totalitarianism"
+ fascism_desc:0 "Totalitarian Regime"
+ neutrality:0 "Monarchist"
+ neutrality_noun:0 "Monarchism"
+ neutrality_desc:0 "Royal Regime"
+
+ ### Subideology ###
+ 
+ #Democracy#
+ conservatism:0 "Conservatism"
+ conservatism_desc:0 "An application of the democratic process where the politics of the legislature emphasize traditionalist roles of members of society."
+ liberalism:0 "Liberalism"
+ liberalism_desc:0 "An application of the democratic process where the politics of the legislature emphasize progressivist thought, while expanding on civil liberties for members of the society."
+ oligarchy:0 "Oligarchy"
+ oligarchy_desc:0 "A hijacking of the democratic process where the former nobility or wealthy seize the power within a legislature, and use internal and closed off democratic process to create laws for the common ponies, commonly without their consent."
+ 
+ #Communism#
+ hive_rule:0 "Hive Rule"
+ hive_rule_desc:0 "An ideology where the Head of State is a Queen, and she tends to her hive in a total communistic application of resources for her drones."
+ equality:0 "Equality"
+ equality_desc:0 "A belief that Harmony does not go far enough, and that the only way to promote true harmonic friendship is pure social equality and a collective ownership of the means of production."
+ totalism:0 "Totalism"
+ totalism_desc:0 "An application of socialist thought to the means of progression of a state or person. Abandoning the ideas of a socialist utopia for the means of a secure and progressive state."
+ 
+ #Totalitarianism(facism)#
+ natsoc:0 "National Socialism"
+ natsoc_desc:0 "Combining a socialist approach to economics and war but twisted with nationalist rhetoric. Nominally using socialism as a base of common knowledge to lure the citizens of a country to electing members of this party into office, they then use their positions to close off democracy to the public and slip into totalitarian rule."
+ imperialism:0 "Imperialism"
+ imperialism_desc:0 "A monarch, coming to power for the first time and announcing their conquest ambitions to the world, the only political power at their hoof tips is the power of the army, and no legitimacy to the throne."
+ cult:0 "Cult of Personality"
+ cult:0 "Coming to power by any means, the people of the state worship their ruler as if they were a Demi-god. Or even a god itself, if culture permits. They rule with the purest form of Divine Right, and have everyone follow their orders to the letter, no matter how insane, lest they wish to fall into their own hell."
+ 
+ #Monarchism(neutrality)#
+ alicornism:0 "Harmonic Dynasty"
+ alicornism_desc:0 " Form of Monarchism where the Monarch may rule as head of state, and have a supreme executive authority. However, they rule at the behest of their subjects and will only seek to act in their defense or best interest. These Monarchs tend to be Immortal Alicorns."
+ despotism:0 "Despotism"
+ despotism_desc:0 "A Form of Monarchy where the monarch rules with absolute authority, and with no override power. They make a decision and let it be known that the decision is final."
+ 
+ 
+ ### Per Country Ideology ### 
+ #Ezpassion
+ SPE_fascism_party:0 "NTA"
+ SPE_fascism_party_long:0 "Nova Thestral Aristocracy"
+ SPE_communism_party:0 "ENFP"
+ SPE_communism_party_long:0 "Ezpassionian New Face Party"
+ SPE_democratic_party:0 "ERP"
+ SPE_democratic_party_long:0 "Ezpassionian Republican Party"
+ SPE_neutrality_party:0 "LA"
+ SPE_neutrality_party_long:0 "Lunarist Aristocracy"
+ #Equestria
+ EQS_neutrality_party:0 "The Sisters"
+ EQS_neutrality_party_long:0 "The Sisters"

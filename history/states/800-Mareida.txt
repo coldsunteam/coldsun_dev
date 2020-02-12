@@ -1,0 +1,24 @@
+
+state={
+	id=800
+	name="STATE_800"
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+			8030 18 
+		}
+		buildings = {
+			infrastructure = 4
+		}
+
+	}
+
+	provinces={
+		3767 4312 4313 6905 7963 8028 8029 8030 10611 11646 
+	}
+	manpower=11282000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

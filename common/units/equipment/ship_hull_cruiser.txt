@@ -139,7 +139,6 @@ equipments = {
 		parent = ship_hull_cruiser_1
 		manpower = 800
 		naval_speed = 25
-		reliability = 0.85
 		build_cost_ic = 1900
 		naval_range = 3000
 		max_strength = 110
@@ -191,7 +190,6 @@ equipments = {
 
 		default_modules = {
 			front_1_custom_slot = empty
-			fixed_ship_engine_slot = cruiser_ship_engine_2
 		}
 	}
 
@@ -203,7 +201,6 @@ equipments = {
 		parent = ship_hull_cruiser_2
 		naval_speed = 27
 		build_cost_ic = 2000
-		reliability = 0.90
 		max_strength = 120
 		naval_range = 4000
 		manpower = 1200
@@ -277,7 +274,6 @@ equipments = {
 		priority = 1900
 		parent = ship_hull_cruiser_3
 		naval_speed = 28
-		reliability = 0.95
 		manpower = 1400
 		build_cost_ic = 2100
 		naval_range = 4500
@@ -374,14 +370,11 @@ equipments = {
 
 		
 		surface_detection = 15
-		sub_detection = 5
+		sub_detection = 20
 		surface_visibility = 15
-		naval_speed = 20
+		naval_speed = 28
 		reliability = 0.8
-		resources = {
-			#oil = 1
-			steel = 2
-		}
+
 	}
 
 	light_cruiser_2 = {
@@ -412,8 +405,8 @@ equipments = {
 
 		
 		surface_detection = 20
-		sub_detection = 5
-		naval_speed = 25
+		sub_detection = 25
+		naval_speed = 30
 		reliability = 0.85
 
 		naval_range = 3000
@@ -426,10 +419,10 @@ equipments = {
 			screen_ship
 			anti_air
 		}
-		build_cost_ic = 1650
+		build_cost_ic = 2000
 		resources = {
 			#oil = 1
-			steel = 3
+			steel = 1
 		}
 		manpower = 800
 	}
@@ -462,9 +455,9 @@ equipments = {
 		armor_value = 7
 
 		
-		surface_detection = 30
-		sub_detection = 10
-		naval_speed = 28
+		surface_detection = 50
+		sub_detection = 50
+		naval_speed = 32
 		reliability = 0.90
 
 		naval_range = 4000
@@ -514,9 +507,9 @@ equipments = {
 		armor_value = 8
 
 		
-		surface_detection = 40
-		sub_detection = 10
-		naval_speed = 30
+		surface_detection = 70
+		sub_detection = 60
+		naval_speed = 34
 		reliability = 0.92
 
 		naval_range = 4500
@@ -532,7 +525,7 @@ equipments = {
 		build_cost_ic = 2000
 		resources = {
 			#oil = 2
-			steel = 4
+			steel = 2
 			chromium = 1
 		}
 		manpower = 1140
@@ -642,7 +635,7 @@ equipments = {
 		build_cost_ic = 2200
 		resources = {
 			#oil = 1
-			steel = 3
+			steel = 2
 		}
 		
 		manpower = 1500
@@ -692,7 +685,7 @@ equipments = {
 		build_cost_ic = 2600
 		resources = {
 			#oil = 1
-			steel = 4
+			steel = 2
 		}		
 		manpower = 1700
 	}
@@ -742,7 +735,7 @@ equipments = {
 		build_cost_ic = 3000
 		resources = {
 			#oil = 2
-			steel = 4
+			steel = 2
 		}		
 		manpower = 1900
 	}
@@ -793,7 +786,7 @@ equipments = {
 		build_cost_ic = 3400
 		resources = {
 			#oil = 2
-			steel = 5
+			steel = 3
 			chromium = 1
 		}		
 		manpower = 2200
@@ -811,70 +804,16 @@ equipments = {
 			ship_torpedo_upgrade
 			ship_engine_upgrade
 			ship_gun_upgrade
-			ship_reliability_upgrade
+			torpedo_ship_reliability_upgrade
 		}
 		
 		interface_category = interface_category_screen_ships
-		module_slots = {
-			fixed_ship_battery_slot = {
-				required = no
-				allowed_module_categories = {	
-					ship_medium_battery
-				}
-			}
-			fixed_ship_anti_air_slot = {
-				required = no
-				allowed_module_categories = {	
-					ship_anti_air
-				}
-			}
-			fixed_ship_fire_control_system_slot = {
-				required = no
-				allowed_module_categories = {	
-					ship_fire_control_system
-				}
-			}
-			fixed_ship_engine_slot = {
-				required = no
-				allowed_module_categories = {	
-					cruiser_ship_engine
-				}
-			}
-			front_1_custom_slot = {
-				required = no
-				allowed_module_categories = {	
-					ship_anti_air
-				}
-			}
-			mid_1_custom_slot = {
-				required = no
-				allowed_module_categories = {	
-					ship_torpedo
-				}
-			}
-			mid_2_custom_slot = {
-				required = no
-				allowed_module_categories = {	
-					ship_torpedo
-				}
-			}
-			rear_1_custom_slot = {
-				required = no
-				allowed_module_categories = {	
-					ship_torpedo
-				}
-			}
-			rear_2_custom_slot = {
-				required = no
-				allowed_module_categories = {	
-					ship_anti_air
-				}
-			}
-		}
+		module_slots = inherit
 		default_modules = {
 			fixed_ship_battery_slot = ship_light_medium_battery_1
 			fixed_ship_anti_air_slot = ship_anti_air_1
 			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
 			fixed_ship_engine_slot = cruiser_ship_engine_2
 			front_1_custom_slot = ship_anti_air_1
 			mid_1_custom_slot = ship_torpedo_2
@@ -893,9 +832,9 @@ equipments = {
 
 		
 		surface_detection = 40
-		sub_detection = 10
+		sub_detection = 50
 		surface_visibility = 15
-		naval_speed = 25
+		naval_speed = 32
 		reliability = 0.9
 		
 		naval_range = 4000
@@ -985,7 +924,7 @@ equipments = {
 
 		
 		surface_detection = 20
-		sub_detection = 1
+		sub_detection = 20
 		surface_visibility = 15
 		naval_speed = 25
 		reliability = 0.9

@@ -2,24 +2,16 @@
 state={
 	id=149
 	name="STATE_149"
-	resources={
-		steel=8
-	}
 
 	history={
-		owner = ISL
-		add_core_of = ISL
-		
-		victory_points = {
-			3989 20
-		}
+		owner = BPC
+		add_core_of = BPC
 	}
 
 	provinces={
-		890 894 897 3989 
+		6803 6805 8046 8337 8338 21163 
 	}
-	manpower=6541978
-	state_category = large_city
-
+	manpower=344304
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }

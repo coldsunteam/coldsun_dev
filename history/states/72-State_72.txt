@@ -2,22 +2,11 @@
 state={
 	id=72
 	name="STATE_72"
-	resources={
-		aluminium=8
-		tungsten=67
-		steel=7
-	}
-
-	history={
-		owner = FET
-		add_core_of = FET
-
-	}
-
 	provinces={
-		280 401 651 787 4026 4027 4028 4030 4031 4032 4033 
+		712 1139 1142 1900 2046 2047 2874 3862 5670 6251 7525 7911 8247 8310 9233 9427 10563 11167 11276 
 	}
-	manpower=330124
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
+	
 }

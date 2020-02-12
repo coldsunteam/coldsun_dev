@@ -4,15 +4,13 @@ state={
 	name="STATE_150"
 
 	history={
-		owner = EQS
-		add_core_of = EQS
-
+		owner = BPM
+		add_core_of = BPM
 	}
-
 	provinces={
-		98 141 236 261 286 773 778 780 
+		2065 2066 2067 5960 7979 7980 8588 8589 10170 10171 20574 21094 
 	}
-	manpower=350124
+	manpower=23194
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

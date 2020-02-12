@@ -1,0 +1,12 @@
+
+state={
+	id=463
+	name="STATE_463"
+	provinces={
+		2719 2720 2721 2722 2723 2724 2725 4409 4718 4719 5029 5030 5227 5228 5333 5774 7774 7775 7941 9451 10722 11436 11444 11445 11489 
+	}
+	manpower=100
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+	
+}

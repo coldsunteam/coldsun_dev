@@ -1,0 +1,14 @@
+
+state={
+	id=551
+	name="STATE_551"
+
+	
+
+	provinces={
+		320 321 322 323 1626 1627 1628 1629 3233 3234 3235 3236 3237 7014 7390 7391 7392 7393 8332 8333 8514 9386 10425 11124 11456 11490 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=377
+	name="STATE_377"
+	resources={
+		grain=8.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+			4747 12 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		107 108 804 1858 1859 8308 8309 9217 11421 
+	}
+	manpower=13640000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

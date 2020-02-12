@@ -1,0 +1,17 @@
+
+state={
+	id=971
+	name="STATE_971"
+
+	history={
+		owner = TZY
+		add_core_of = TZY
+	}
+
+	provinces={
+		20519 20526 
+	}
+	manpower=128
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

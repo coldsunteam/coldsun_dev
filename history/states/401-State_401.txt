@@ -1,0 +1,28 @@
+
+state={
+	id=401
+	name="STATE_401"
+	resources={
+		grain=8.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+			9498 33 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1675 1676 1677 2739 2740 3253 3255 3256 3257 3608 3611 6563 9498 9525 9638 20340 
+	}
+	manpower=3550000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

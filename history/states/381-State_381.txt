@@ -1,0 +1,23 @@
+
+state={
+	id=381
+	name="STATE_381"
+	
+	resources={
+		gems=10.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+
+	}
+
+	provinces={
+		777 778 1348 3473 6649 6651 6652 8198 8686 10648 
+	}
+	manpower=367441
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

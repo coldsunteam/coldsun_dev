@@ -1,0 +1,27 @@
+
+state={
+	id=353
+	name="STATE_353"
+
+	history={
+		owner = GPD
+		add_core_of = GPD
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			11674 4 
+		}
+
+	}
+
+	provinces={
+		2404 2405 5902 5903 9542 9578 10946 11674 11712 11757 11789 11872 11929 12477 
+	}
+	manpower=6218100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

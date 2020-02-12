@@ -1,0 +1,14 @@
+
+state={
+	id=583
+	name="STATE_583"
+
+	
+
+	provinces={
+		256 257 9691 10182 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

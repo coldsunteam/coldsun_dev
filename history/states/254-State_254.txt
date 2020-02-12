@@ -1,0 +1,17 @@
+
+state={
+	id=254
+	name="STATE_254"
+	history={
+		owner = EQS
+		add_core_of = EQS
+	}
+	
+	provinces={
+		7035 7036 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

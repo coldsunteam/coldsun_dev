@@ -1,0 +1,17 @@
+
+state={
+	id=411
+	name="STATE_411"
+	resources={
+		grain=6.000
+	}
+
+	
+
+	provinces={
+		25 26 27 28 32 204 1894 3373 3374 3375 3376 8542 8543 8544 9876 10723 11546 11827 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

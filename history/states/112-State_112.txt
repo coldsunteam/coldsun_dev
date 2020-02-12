@@ -1,25 +1,11 @@
-
 state={
 	id=112
 	name="STATE_112"
-	resources={
-		steel=42
-	}
-
-	history={
-		owner = FEL
-		add_core_of = FEL
-		
-		
-		victory_points = {
-			3585 20
-		}
-	}
-
 	provinces={
-		92 136 3585 3587 3589 3600 
+		651 652 653 3417 3418 3419 4971 4972 5054 5055 5056 5057 5059 5060 5061 5063 5064 6064 6065 7800 7844 7845 8508 9934 10923 11409 11642 11688 11859 
 	}
-	manpower=4753672
+	manpower=100
+        state_category=metropolis
 	buildings_max_level_factor=1.000
-	state_category=metropolis
+     
 }

@@ -1,0 +1,14 @@
+
+state={
+	id=542
+	name="STATE_542"
+
+	
+
+	provinces={
+		212 520 521 522 523 524 865 866 870 871 873 2010 2011 3167 4109 5648 5649 5650 5651 7313 7314 8674 8675 9426 10842 11109 11873 19633 19689 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,12 @@
+
+state={
+	id=622
+	name="STATE_622"
+
+	provinces={
+		898 899 900 6776 8850 8851 9038 10394 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -2,20 +2,11 @@
 state={
 	id=138
 	name="STATE_138"
-
-	history={
-		owner = PRA
-		add_core_of = PRA
-		
-		victory_points = {
-			346 30
-		}
-	}
-
 	provinces={
-		63 198 346 358 377 378 419 462 586 588 591 766 3588 3592 3595 3598 
+		961 1002 2049 3276 5695 8334 8932 10540 11600 
 	}
-	manpower=4251403
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=large_city
+	state_category=metropolis
+        
 }

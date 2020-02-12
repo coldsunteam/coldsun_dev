@@ -2,19 +2,11 @@
 state={
 	id=81
 	name="STATE_81"
-	resources={
-		rubber=6
-	}
-	
-	history={
-		owner = EQS
-		add_core_of = EQS
-	}
-	provinces={
-		3825 3839 3842 3843 3854 3868 3869 
-	}
-	manpower=399654
-	state_category = rural
 
+	provinces={
+		3650 3651 3652 3653 9496 10360 11760 19959 19963 19973 19975 19983 20005 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }

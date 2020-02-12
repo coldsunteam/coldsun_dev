@@ -1,0 +1,37 @@
+
+state={
+	id=418
+	name="STATE_418"
+	resources={
+		oil=6.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+            6045 28
+        	}
+		victory_points = {
+            20343 26
+        	}
+			
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 3
+			6045 = {
+				naval_base = 5
+			}
+		}
+
+	}
+
+	provinces={
+		6044 6045 6046 6435 8200 8999 9000 9247 9248 11192 20333 20343 
+	}
+	manpower=18426221
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,11 @@
+state={
+	id=757
+	name="STATE_757"
+	provinces={
+		324 325 3012 3310 3311 3491 4891 5989 6810 6811 7581 7582 8120 9146 9459 9615 10697 11865 19545 19550 
+	}
+	
+	manpower=100
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+}

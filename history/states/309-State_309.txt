@@ -1,0 +1,18 @@
+
+state={
+	id=309
+	name="STATE_309"
+
+	history={
+		owner = GPB
+		add_core_of = GPB
+
+	}
+
+	provinces={
+		2928 4278 5941 6026 7097 7098 7138 7992 8488 9276 9316 11655 11893 20396 
+	}
+	manpower=184221
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

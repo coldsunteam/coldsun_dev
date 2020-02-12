@@ -1,0 +1,22 @@
+
+state={
+	id=725
+	name="STATE_725"
+
+	history={
+		owner = THR
+		add_core_of = THR
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2081 2082 2083 3106 5662 5663 6550 6551 8573 9154 9155 10968 20373 
+	}
+	manpower=144564
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

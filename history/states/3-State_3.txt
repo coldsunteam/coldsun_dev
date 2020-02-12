@@ -1,17 +1,11 @@
+
 state={
 	id=3
 	name="STATE_3"
-	
-	history={
-		owner = NUB
-		add_core_of = NUB
-	}
-	
 	provinces={
-		602 
+		170 4521 10090 19925 19934 19942 19951 
 	}
-	manpower=10
-	state_category = rural
-
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=town
 }

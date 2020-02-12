@@ -2,15 +2,11 @@
 state={
 	id=40
 	name="STATE_40"
-	history={
-		owner = EQS
-		add_core_of = EQS
-	}
-	provinces={
-		127 206 623 674 746 3907 3909 
-	}
-	manpower=100234
-	state_category = rural
 
+	provinces={
+		1828 1834 1835 3528 3529 3530 10340 10444 11174 19782 19801 19821 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

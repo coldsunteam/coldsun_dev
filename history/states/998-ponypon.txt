@@ -1,0 +1,19 @@
+state={
+	id=998
+	name="STATE_998"
+	
+	history={
+		owner = EQS
+		add_core_of = EQS
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	
+	provinces={
+		1686 4462 4580 4581 11147 11570 
+	}
+	manpower=452001
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

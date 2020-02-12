@@ -2,26 +2,10 @@
 state={
 	id=125
 	name="STATE_125"
-	resources={
-		aluminium=19
-		tungsten=148
-		steel=36
-		chromium=10
-	}
-
-	history={
-		owner = PRA
-		add_core_of = PRA
-		
-		victory_points = {
-			3987 20
-		}
-	}
-
 	provinces={
-		181 234 786 893 3987 3998 
+		1478 1479 1482 4441 4442 4443 4444 4445 7493 7494 9923 11880 
 	}
-	manpower=3841254
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=large_town
+	state_category=metropolis
 }

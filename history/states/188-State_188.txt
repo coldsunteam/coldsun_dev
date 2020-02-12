@@ -1,0 +1,17 @@
+
+state={
+	id=188
+	name="STATE_188"
+
+	history={
+		owner = BPA
+		add_core_of = BPA
+	}
+
+	provinces={
+		8043 8044 8045 21141 21154 
+	}
+	manpower=23320
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

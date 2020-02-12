@@ -1,0 +1,14 @@
+
+state={
+	id=473
+	name="STATE_473"
+
+	
+
+	provinces={
+		20644 20651 20660 20661 20670 20676 20678 20685 20694 20695 20704 20712 20730 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

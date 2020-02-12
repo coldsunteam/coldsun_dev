@@ -1,0 +1,25 @@
+
+state={
+	id=314
+	name="STATE_314"
+	resources={
+		grain=20.000
+	}
+
+	history={
+		owner = GPD
+		add_core_of = GPD
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2379 2380 2381 2597 2685 2686 6369 7688 10303 11229 11430 
+	}
+	manpower=2945101
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

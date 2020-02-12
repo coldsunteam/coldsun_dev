@@ -2,19 +2,13 @@
 state={
 	id=119
 	name="STATE_119"
-	history={
-		owner = EQS
-		add_core_of = EQS
-		
-		victory_points = {
-			307 20
-		}
-	}
-	provinces={
-		26 260 292 307 379 418 488 650 671 684 764 873 3728 3734 3760 
-	}
-	manpower=2988547
-	state_category = large_city
 
+
+
+	provinces={
+		808 809 811 813 1200 1201 8347 9673 10336 11725 20062 20076 20081 20084 20087 20105 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

@@ -1,0 +1,30 @@
+
+state={
+	id=961
+	name="STATE_961"
+	resources={
+		gems=12.000
+	}
+
+	history={
+		owner = ATI
+		add_core_of = ATI
+		victory_points = {
+			20455 25 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+
+	}
+
+	provinces={
+		66 67 68 438 439 440 9425 20455 
+	}
+	manpower=2240156
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

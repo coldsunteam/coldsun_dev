@@ -1,0 +1,17 @@
+
+state={
+	id=243
+	name="STATE_243"
+
+	history={
+		owner = BPM
+		add_core_of = BPM
+	}
+
+	provinces={
+		803 2553 2554 3644 3645 3646 10867 11110 20449 20552 20553 21023 
+	}
+	manpower=864032
+	buildings_max_level_factor=1.000
+	state_category=city
+}

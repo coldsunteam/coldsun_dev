@@ -278,7 +278,7 @@ equipments = {
 		is_buildable = no
 		type = fighter
 		group_by = archetype
-		sprite = jet_plane
+		sprite = light_plane
 		air_map_icon_frame = 4
 		
 		interface_category = interface_category_air

@@ -1,0 +1,14 @@
+
+state={
+	id=868
+	name="STATE_868"
+
+	
+
+	provinces={
+		5874 5875 5876 6334 8820 9914 10352 10882 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

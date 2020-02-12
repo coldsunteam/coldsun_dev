@@ -2,22 +2,15 @@
 state={
 	id=156
 	name="STATE_156"
-	resources={
-		aluminium=83
-		tungsten=68
-		steel=64
-	}
 
 	history={
-		owner = PRA
-		add_core_of = PRA
-
+		owner = BPM
+		add_core_of = BPM
 	}
-
 	provinces={
-		306 436 484 562 782 3984 3993 3995 3999 4004 4007 4009 
+		2063 2064 2069 9131 9786 9787 10947 19645 21000 
 	}
-	manpower=600121
+	manpower=38530
 	buildings_max_level_factor=1.000
-	state_category=town
+	state_category=pastoral
 }

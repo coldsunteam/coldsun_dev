@@ -1,0 +1,27 @@
+﻿l_english:
+infantry_folder:0 "Infantry"
+mechanized_folder:0 "Mechanized"
+land_doctrine_folder:0 "Land Doctrines"
+air_folder:0 "Air"
+air_doctrine_folder:0 "Air Doctrines"
+navy_folder:0 "Navy"
+naval_doctrine_folder:0 "Naval Doctrine"
+civilian_folder:0 "Civilian"
+space_folder:0 "Space"
+
+
+
+
+
+### Racial Units ###
+earth:0 "Earth Ponies"
+pegasi:0 "Pegasi"
+unicorn:0 "Unicorns"
+changeling:0 "Changelings"
+colossi:0 "Colossi"
+bat:0 "Bat"
+
+
+
+
+

@@ -1,0 +1,13 @@
+state={
+	id=499
+	name="STATE_499"
+	provinces={
+		2983 3912 4427 5744 5858 7190 7292 7598 7758 8025 8141 9052 9495 9608 9916 9937 10132 10306 10846 
+	}
+	
+	
+	
+	manpower=100
+	state_category=metropolis
+	buildings_max_level_factor=1.000
+}

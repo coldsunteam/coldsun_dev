@@ -2,21 +2,10 @@
 state={
 	id=95
 	name="STATE_95"
-	resources={
-		rubber=24
-		steel=43
-	}
-
-	history={
-		owner = DDT
-		add_core_of = DDT
-
-	}
-
 	provinces={
-		3444 3456 3459 3463 3481 3947 3953 4114 
+		709 1918 2057 2058 2059 3090 3091 3464 3465 3466 4706 4707 5190 5716 5718 7914 8581 8582 10483 
 	}
-	manpower=201369
+	manpower=100
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=metropolis
 }

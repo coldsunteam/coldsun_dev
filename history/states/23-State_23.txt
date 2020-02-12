@@ -1,21 +1,11 @@
-
 state={
 	id=23
 	name="STATE_23"
-	resources={
-		oil=101
-	}
-
-	history={
-		owner = EQS
-		add_core_of = EQS
-
-	}
-
 	provinces={
-		3712 3721 3743 3753 3759 3766 3778 3784 3790 3794 3802 3803 3813 
+		740 4355 5155 5620 5672 5927 7064 7551 8719 9098 10553 11800 11943 
 	}
-	manpower=152100
+	manpower=100
+	state_category="metropolis"
 	buildings_max_level_factor=1.000
-	state_category=rural
+
 }

@@ -1,0 +1,18 @@
+
+state={
+	id=982
+	name="STATE_982"
+
+	history={
+		owner = BAT
+		add_core_of = BAT
+
+	}
+
+	provinces={
+		2427 10218 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

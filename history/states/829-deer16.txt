@@ -1,0 +1,12 @@
+
+state={
+	id=829
+	name="STATE_829"
+
+	provinces={
+		1353 1371 1372 1860 1861 1862 1863 1864 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,2 +1,5 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+4370;10057;sea;19515;-1;-1;-1;-1;;Spane capital to land on south
+10118;10057;sea;19515;-1;-1;-1;-1;;Spane capital to land on north
+
 -1;-1;;-1;-1;-1;-1;-1;-1

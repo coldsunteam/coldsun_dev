@@ -1,0 +1,30 @@
+
+state={
+	id=729
+	name="STATE_729"
+	
+	resources={
+		gems=8.000
+	}
+
+	history={
+		owner = TSU
+		add_core_of = TSU
+		
+		victory_points = {
+			2397 40 
+		}	
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 3
+		}
+	}
+
+	provinces={
+		432 1160 1161 2397 4055 4056 4057 4058 4061 6275 6276 6277 7610 9279 10001 10684 10698 11935 
+	}
+	manpower=1501425
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

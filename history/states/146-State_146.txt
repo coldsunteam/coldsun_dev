@@ -2,20 +2,11 @@
 state={
 	id=146
 	name="STATE_146"
-	resources={
-		oil=21
-		tungsten=22
-	}
-	
-	history={
-		owner = EQS
-		add_core_of = EQS
-	}
 	provinces={
-		408 3688 3706 3709 3714 3718 3735 3736 3737 3740 3742 3746 3757 
+		3920 5229 7668 7694 7738 8905 9085 11837 
 	}
-	manpower=365947
-	state_category = rural
-
+	manpower=100
+        state_category=metropolis
 	buildings_max_level_factor=1.000
+        
 }

@@ -1,0 +1,12 @@
+
+state={
+	id=695
+	name="STATE_695"
+
+	provinces={
+		2857 2979 4434 6135 6269 6270 6271 6272 7217 9222 10885 11282 11842 19625 19631 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -2,19 +2,13 @@
 state={
 	id=84
 	name="STATE_84"
-	history={
-		owner = EQS
-		add_core_of = EQS
-	
-		victory_points = {
-			601 40
-		}
-	}
-	provinces={
-		275 318 357 404 543 601 609 635 752 759 872 
-	}
-	manpower=10001221
-	state_category = metropolis
 
+	
+
+	provinces={
+		19786 19787 19794 19808 19811 19815 19825 19829 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

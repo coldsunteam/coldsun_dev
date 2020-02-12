@@ -1,0 +1,100 @@
+ideas = {
+	country = {
+		EQS_nationwide_pacifism = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = tfv_can_conscription_crisis
+
+			modifier = {
+				stability_factor = 0.40
+				
+				war_support_factor = -0.40
+				conscription = -0.10
+				army_defence_factor = -0.20
+				army_attack_factor = -0.20
+				justify_war_goal_time = 1
+			}
+		}
+		
+		EQS_magic_of_harmony = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = generic_pp_unity_bonus
+
+			modifier = {
+				stability_factor = 0.10
+				political_power_gain = 0.10
+				improve_relations_maintain_cost_factor = -0.20
+				
+				enemy_justify_war_goal_time = -0.20
+			}
+		}
+		
+		EQS_overpopulation = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = prc_low_popular_support3
+
+			modifier = {
+				MONTHLY_POPULATION = 2.5
+				consumer_goods_factor = 0.20
+			}
+		}
+		
+		EQS_nightmare_cultists = {
+			allowed = { always = no }
+			removal_cost = -1
+			picture = ast_classify_aliens
+
+			modifier = {
+				stability_factor = -0.10
+			}
+		}
+	}
+	
+	political_advisor = {
+		twilight_sparkle = {
+			allowed = { original_tag = EQS }
+			traits = { element_of_magic }
+		}
+		rainbow_dash = {
+			allowed = { original_tag = EQS }
+			traits = { element_of_loyalty }
+		}
+		rarity = {
+			allowed = { original_tag = EQS }
+			traits = { element_of_generosity }
+		}
+		applejack = {
+			allowed = { original_tag = EQS }
+			traits = { element_of_honesty }
+		}
+		fluttershy = {
+			allowed = { original_tag = EQS }
+			traits = { element_of_kindness }
+		}
+	}
+	
+	theorist = {
+	
+	}
+	
+	high_command = {
+		pinkie_pie = {
+			allowed = { original_tag = EQS }
+			traits = { element_of_laughter }
+		}
+	}
+	
+	army_chief = {
+	
+	}
+	
+	air_chief = {
+	
+	}
+	
+	navy_chief = {
+	
+	}
+}

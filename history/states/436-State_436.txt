@@ -1,0 +1,28 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		rubber=6.000
+	}
+
+	history={
+		owner = EQS
+		add_core_of = EQS
+		victory_points = {
+			2574 6 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		2571 2572 2573 2574 4414 4415 6336 7511 8103 8104 9159 10311 
+	}
+	manpower=9257000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

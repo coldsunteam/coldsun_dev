@@ -1,0 +1,29 @@
+
+state={
+	id=794
+	name="STATE_794"
+	resources={
+		aluminium=24
+	}
+
+	history={
+		owner = EQA
+		add_core_of = EQA
+		victory_points = {
+			19590 10 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			dockyard = 1
+		}
+
+	}
+
+	provinces={
+		1238 1240 7697 7915 11129 19590 19592 19593 
+	}
+	manpower=6485000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

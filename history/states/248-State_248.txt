@@ -1,0 +1,24 @@
+
+state={
+	id=248
+	name="STATE_248"
+	
+	resources={
+		oil=12.000
+	}
+
+	history={
+		owner = VIN
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		600 601 602 4006 4007 4008 4327 5312 6409 6410 10041 11888 20451 
+	}
+	manpower=123420
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

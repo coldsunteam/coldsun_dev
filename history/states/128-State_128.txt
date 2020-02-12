@@ -2,23 +2,13 @@
 state={
 	id=128
 	name="STATE_128"
-	resources={
-		steel=12
-	}
-	
-	history={
-		owner = EQS
-		add_core_of = EQS
-	
-		victory_points = {
-			3618 30
-		}
-	}
-	provinces={
-		3606 3607 3612 3616 3618 3626 3630 3636 3645 
-	}
-	manpower=4654784
-	state_category = large_city
 
+
+
+	provinces={
+		2311 6723 20008 20020 20021 20027 20032 20039 20040 20041 20043 20051 
+	}
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=rural
 }

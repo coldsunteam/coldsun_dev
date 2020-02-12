@@ -2,20 +2,13 @@
 state={
 	id=100
 	name="STATE_100"
-	resources={
-		rubber=30
-	}
 
-	history={
-		owner = DDT
-		add_core_of = DDT
-
-	}
+	
 
 	provinces={
-		3429 3430 3434 3451 3928 4084 4085 4086 
+		19854 19856 19857 19860 19869 19878 19880 19896 
 	}
-	manpower=241589
+	manpower=100
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

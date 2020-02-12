@@ -1,17 +1,11 @@
+
 state={
 	id=114
 	name="STATE_114"
-	
-	history={
-		owner = NUB
-		add_core_of = NUB
-	}
-	
 	provinces={
-		315 537 
+		1667 1670 1671 1673 1674 1920 1921 8373 
 	}
-	manpower=10
-	state_category = rural
-
+	manpower=100
 	buildings_max_level_factor=1.000
+	state_category=metropolis
 }
